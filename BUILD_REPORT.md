@@ -117,3 +117,4 @@ Decisions:
 ### Stage 2 — content
 
 Unit 3: validator + crosscheck green, 25 dictionary entries total.
+Unit 4: validator + crosscheck green, 33 dictionary entries total.

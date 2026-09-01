@@ -1877,6 +1877,679 @@
           }
         ]
       }
+    },
+    {
+      "id": "u4",
+      "number": 4,
+      "title": "I numeri",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "type": "vocabulary",
+          "title": "Numeri, età e telefono",
+          "dictionaryRefs": [
+            "il-numero",
+            "eta",
+            "anno",
+            "il-telefono",
+            "quanti-anni-hai",
+            "qual-e-il-tuo-numero",
+            "ce",
+            "ci-sono"
+          ],
+          "exercises": [
+            {
+              "id": "u4l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Quanti anni hai?",
+              "options": [
+                "How old are you?",
+                "What is your number?",
+                "Where are you from?",
+                "How are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quanti anni hai?' = How old are you? — literally 'How many years do you have?' Italian uses avere (to have) for age, not essere.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l1e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I am twenty years old.)",
+              "sentence": "Ho venti ___.",
+              "answers": [
+                "anni"
+              ],
+              "explanation": "Age in Italian: avere + number + 'anni' (years). 'Ho venti anni' = I am twenty — literally 'I have twenty years'. 'Anno' = year, 'anni' = years.",
+              "dictionaryRefs": [
+                "anno",
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l1e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I am twenty-five years old.",
+              "acceptedIt": [
+                "Ho venticinque anni.",
+                "Ho venticinque anni",
+                "Io ho venticinque anni"
+              ],
+              "explanation": "'Ho venticinque anni.' — avere for age. 25 = venti + cinque = venticinque, one word.",
+              "dictionaryRefs": [
+                "anno"
+              ]
+            },
+            {
+              "id": "u4l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Qual è il tuo numero?",
+              "options": [
+                "What is your phone number?",
+                "How old are you?",
+                "What is your name?",
+                "Where is your phone?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Qual è il tuo numero?' = What is your number? — the natural way to ask for someone's phone number. 'Qual è' = what is.",
+              "dictionaryRefs": [
+                "qual-e-il-tuo-numero"
+              ]
+            },
+            {
+              "id": "u4l1e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My phone number is…)",
+              "sentence": "Il mio ___ di telefono è tre, tre, nove…",
+              "answers": [
+                "numero"
+              ],
+              "explanation": "'Il numero' (m) = the number; 'il numero di telefono' = the phone number. Italians usually say phone numbers digit by digit or in pairs.",
+              "dictionaryRefs": [
+                "il-numero",
+                "il-telefono"
+              ]
+            },
+            {
+              "id": "u4l1e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "L'età non è un problema.",
+              "acceptedEn": [
+                "Age is not a problem.",
+                "Age isn't a problem."
+              ],
+              "explanation": "'L'età' (f) = age. The article is l' because 'età' starts with a vowel — same rule as 'l'alfabeto' from Unit 3.",
+              "dictionaryRefs": [
+                "eta"
+              ]
+            },
+            {
+              "id": "u4l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (There is a problem.)",
+              "sentence": "___ un problema.",
+              "answers": [
+                "C'è",
+                "C e"
+              ],
+              "explanation": "'C'è' = there is (singular). It's 'ci è' shortened to c'è before a vowel sound. Plural 'there are' is 'ci sono' — next exercise.",
+              "dictionaryRefs": [
+                "ce"
+              ]
+            },
+            {
+              "id": "u4l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "There are two letters.",
+              "acceptedIt": [
+                "Ci sono due lettere.",
+                "Ci sono due lettere"
+              ],
+              "explanation": "'Ci sono' = there are (plural): Ci sono due lettere. Singular would be 'C'è una lettera'.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-lettera"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u4l2",
+          "type": "grammar",
+          "title": "I numeri, c'è/ci sono, avere",
+          "dictionaryRefs": [
+            "anno",
+            "quanti-anni-hai",
+            "ce",
+            "ci-sono"
+          ],
+          "grammarNotes": "I NUMERI — numbers 1–20:\n\n1 uno, 2 due, 3 tre, 4 quattro, 5 cinque, 6 sei, 7 sette, 8 otto, 9 nove, 10 dieci, 11 undici, 12 dodici, 13 tredici, 14 quattordici, 15 quindici, 16 sedici, 17 diciassette, 18 diciotto, 19 diciannove, 20 venti\n\nThe tens: 30 trenta, 40 quaranta, 50 cinquanta, 60 sessanta, 70 settanta, 80 ottanta, 90 novanta, 100 cento.\nCombine freely: 21 ventuno, 42 quarantadue, 99 novantanove. (Small detail: venti drops its final -i before uno and otto: ventuno, ventotto; before tre it takes an accent: ventitré.)\n\nC'È / CI SONO — there is / there are:\n• C'è un problema. — There is a problem. (singular)\n• Ci sono due problemi. — There are two problems. (plural)\n\nAVERE (to have) — three forms for now:\n\nio ho — I have\ntu hai — you have\nlui/lei ha — he/she has\n\nAge uses avere: 'Quanti anni hai?' — 'Ho venti anni.' (How many years do you have? — I have twenty.)\nPreview of the rest of the paradigm (full practice in Unit 6): noi abbiamo, voi avete, loro hanno.",
+          "exercises": [
+            {
+              "id": "u4l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete with avere.",
+              "sentence": "Quanti anni ___? — Ho venti anni.",
+              "answers": [
+                "hai"
+              ],
+              "explanation": "tu → hai. 'Quanti anni hai?' = How old are you? The answer uses io → ho: 'Ho venti anni.'",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete with avere.",
+              "sentence": "Marco ___ trenta anni.",
+              "answers": [
+                "ha"
+              ],
+              "explanation": "lui/lei → ha. 'Marco ha trenta anni' = Marco is thirty years old. The h in ho/hai/ha is silent — it's only there in writing.",
+              "dictionaryRefs": [
+                "anno"
+              ]
+            },
+            {
+              "id": "u4l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
+              "sourceEn": "How old are you?",
+              "acceptedIt": [
+                "Quanti anni hai?",
+                "Quanti anni hai"
+              ],
+              "explanation": "Set phrase: 'Quanti anni hai?' — literally 'How many years do you have?'. Answer with avere: 'Ho… anni.'",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l2e4",
+              "type": "multiple_choice",
+              "prompt": "How do you say this number in Italian?",
+              "question": "42",
+              "options": [
+                "quarantadue",
+                "quattordici",
+                "quarantadieci",
+                "ventidue"
+              ],
+              "correctIndex": 0,
+              "explanation": "42 = quaranta (40) + due (2) = quarantadue, written as one word. Same pattern for all numbers above twenty.",
+              "dictionaryRefs": [
+                "il-numero"
+              ]
+            },
+            {
+              "id": "u4l2e5",
+              "type": "multiple_choice",
+              "prompt": "'C'è' or 'ci sono'? Choose the right one.",
+              "question": "___ due problemi.",
+              "options": [
+                "Ci sono",
+                "C'è",
+                "Ha",
+                "Ho"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Due problemi' is plural → 'ci sono' (there are). 'C'è' is only for singular: 'C'è un problema.'",
+              "dictionaryRefs": [
+                "ci-sono",
+                "ce"
+              ]
+            },
+            {
+              "id": "u4l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "C'è un bar qui.",
+              "acceptedEn": [
+                "There is a bar here.",
+                "There's a bar here."
+              ],
+              "explanation": "'C'è un bar qui' = There is a bar here. C'è + singular noun; 'qui' = here.",
+              "dictionaryRefs": [
+                "ce"
+              ]
+            },
+            {
+              "id": "u4l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "There is a problem.",
+              "acceptedIt": [
+                "C'è un problema.",
+                "C'è un problema",
+                "C e un problema"
+              ],
+              "explanation": "'C'è un problema.' — c'è for singular. The apostrophe replaces the -i of 'ci' before 'è'.",
+              "dictionaryRefs": [
+                "ce"
+              ]
+            },
+            {
+              "id": "u4l2e8",
+              "type": "fill_blank",
+              "prompt": "Do the math in Italian: sette + otto = ___",
+              "sentence": "Sette più otto fa ___.",
+              "answers": [
+                "quindici",
+                "15"
+              ],
+              "explanation": "7 + 8 = 15 = quindici. 'Più' = plus, 'fa' = makes. Teen numbers: undici, dodici, tredici, quattordici, quindici, sedici…",
+              "dictionaryRefs": []
+            }
+          ]
+        },
+        {
+          "id": "u4l3",
+          "type": "mixed",
+          "title": "Età e numeri: ripasso",
+          "dictionaryRefs": [
+            "ciao",
+            "italiano",
+            "come-si-scrive",
+            "il-nome",
+            "quanti-anni-hai",
+            "qual-e-il-tuo-numero",
+            "il-numero",
+            "ci-sono"
+          ],
+          "exercises": [
+            {
+              "id": "u4l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Ho diciannove anni, e tu?",
+              "options": [
+                "I am nineteen, and you?",
+                "I have nineteen phones, and you?",
+                "Are you nineteen?",
+                "She is nineteen, and you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho diciannove anni, e tu?' = I am nineteen, and you? 19 = diciannove. 'E tu?' bounces the question back — you know it from Unit 1.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (asking for a number)",
+              "sourceEn": "What is your phone number?",
+              "acceptedIt": [
+                "Qual è il tuo numero?",
+                "Qual è il tuo numero",
+                "Qual è il tuo numero di telefono?",
+                "Qual e il tuo numero?"
+              ],
+              "explanation": "'Qual è il tuo numero?' — short and natural. The full version adds 'di telefono': 'Qual è il tuo numero di telefono?'",
+              "dictionaryRefs": [
+                "qual-e-il-tuo-numero",
+                "il-numero"
+              ]
+            },
+            {
+              "id": "u4l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Unit 3 recycling)",
+              "sentence": "Come ___ scrive il tuo numero?",
+              "answers": [
+                "si"
+              ],
+              "explanation": "'Come si scrive il tuo numero?' = How do you spell/write your number? From Unit 3: 'come si scrive' works for names, emails — and numbers.",
+              "dictionaryRefs": [
+                "come-si-scrive",
+                "il-numero"
+              ]
+            },
+            {
+              "id": "u4l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il mio nome è Sara e ho ventitré anni.",
+              "acceptedEn": [
+                "My name is Sara and I am twenty-three.",
+                "My name is Sara and I'm twenty-three."
+              ],
+              "explanation": "Name + age in one sentence: 'Il mio nome è Sara e ho ventitré anni.' 23 = ventitré — venti drops its -i and tre takes an accent.",
+              "dictionaryRefs": [
+                "il-nome",
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "anni",
+                "Quanti",
+                "hai?"
+              ],
+              "correctSentence": "Quanti anni hai?",
+              "explanation": "'Quanti anni hai?' — 'quanti' (how many) first, then the thing counted ('anni'), then the verb ('hai').",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 1 recycling)",
+              "question": "Ciao! Come ti chiami?",
+              "options": [
+                "Hi! What's your name?",
+                "Hi! How old are you?",
+                "Bye! What's your number?",
+                "Hi! Where are you from?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ciao! Come ti chiami?' = Hi! What's your name? — the opener from Unit 1, now followed by age and number questions.",
+              "dictionaryRefs": [
+                "ciao"
+              ]
+            },
+            {
+              "id": "u4l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 2 recycling, to a man)",
+              "sourceEn": "Are you Italian?",
+              "acceptedIt": [
+                "Sei italiano?",
+                "Sei italiano",
+                "Tu sei italiano?"
+              ],
+              "explanation": "'Sei italiano?' — statement words, question intonation, from Unit 2. tu → sei (essere).",
+              "dictionaryRefs": [
+                "italiano"
+              ]
+            },
+            {
+              "id": "u4l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (There are three letters.)",
+              "sentence": "Ci ___ tre lettere: A, B, C.",
+              "answers": [
+                "sono"
+              ],
+              "explanation": "'Ci sono' = there are. It's essere's 'sono' (loro-form) with 'ci' (there) in front — plural things take 'ci sono'.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-lettera"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u4l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "quanti-anni-hai",
+            "qual-e-il-tuo-numero",
+            "il-numero",
+            "anno",
+            "ci-sono"
+          ],
+          "exercises": [
+            {
+              "id": "u4l4e1",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Quanti anni hai?",
+              "acceptedIt": [
+                "Quanti anni hai?",
+                "Quanti anni hai"
+              ],
+              "explanation": "You heard: 'Quanti anni hai?' — How old are you? Listen for 'anni' in the middle.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u4l4e2",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Ho ventotto anni.",
+              "options": [
+                "I am twenty-eight.",
+                "I am eighteen.",
+                "I am twenty.",
+                "He is twenty-eight."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Ho ventotto anni.' — I am twenty-eight. 28 = ventotto: venti drops its -i before otto.",
+              "dictionaryRefs": [
+                "anno"
+              ]
+            },
+            {
+              "id": "u4l4e3",
+              "type": "listening",
+              "prompt": "Listen and write the number (digits or word).",
+              "mode": "type",
+              "speakIt": "quarantadue",
+              "acceptedIt": [
+                "quarantadue",
+                "42"
+              ],
+              "explanation": "You heard 'quarantadue' = 42. quaranta (40) + due (2).",
+              "dictionaryRefs": [
+                "il-numero"
+              ]
+            },
+            {
+              "id": "u4l4e4",
+              "type": "speaking",
+              "prompt": "Ask in Italian: what is your phone number?",
+              "targetIt": "Qual è il tuo numero?",
+              "minAccuracy": 0.7,
+              "explanation": "'Qual è il tuo numero?' — smooth the first two words together: qua-LÈ il TU-o NU-me-ro.",
+              "dictionaryRefs": [
+                "qual-e-il-tuo-numero"
+              ]
+            },
+            {
+              "id": "u4l4e5",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Ci sono due problemi.",
+              "options": [
+                "There are two problems.",
+                "There is a problem.",
+                "There are two letters.",
+                "I have two problems."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Ci sono due problemi.' — plural, so 'ci sono'. Singular would be 'C'è un problema.'",
+              "dictionaryRefs": [
+                "ci-sono"
+              ]
+            },
+            {
+              "id": "u4l4e6",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am twenty years old.",
+              "targetIt": "Ho venti anni.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ho venti anni.' — the h is silent: O VEN-ti AN-ni. Two clear beats.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u4c",
+        "exercises": [
+          {
+            "id": "u4ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "Quanti anni hai?",
+            "options": [
+              "How old are you?",
+              "What is your number?",
+              "How many phones do you have?",
+              "Where are you from?"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Quanti anni hai?' = How old are you? — literally 'How many years do you have?'",
+            "dictionaryRefs": [
+              "quanti-anni-hai"
+            ]
+          },
+          {
+            "id": "u4ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with avere.",
+            "sentence": "Io ___ venticinque anni.",
+            "answers": [
+              "ho"
+            ],
+            "explanation": "io → ho. 'Io ho venticinque anni' = I am twenty-five years old. The h is silent.",
+            "dictionaryRefs": [
+              "anno"
+            ]
+          },
+          {
+            "id": "u4ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "I am thirty years old.",
+            "acceptedIt": [
+              "Ho trenta anni.",
+              "Ho trenta anni",
+              "Io ho trenta anni"
+            ],
+            "explanation": "'Ho trenta anni.' — avere + number + anni. 30 = trenta.",
+            "dictionaryRefs": [
+              "quanti-anni-hai"
+            ]
+          },
+          {
+            "id": "u4ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Qual è il tuo numero?",
+            "acceptedEn": [
+              "What is your phone number?",
+              "What is your number?",
+              "What's your phone number?",
+              "What's your number?"
+            ],
+            "explanation": "'Qual è il tuo numero?' = What is your (phone) number? Context says it's about the phone.",
+            "dictionaryRefs": [
+              "qual-e-il-tuo-numero"
+            ]
+          },
+          {
+            "id": "u4ce5",
+            "type": "multiple_choice",
+            "prompt": "How do you say this number in Italian?",
+            "question": "17",
+            "options": [
+              "diciassette",
+              "diciotto",
+              "sette",
+              "settanta"
+            ],
+            "correctIndex": 0,
+            "explanation": "17 = diciassette — dieci + sette glued together. 18 = diciotto, 70 = settanta.",
+            "dictionaryRefs": [
+              "il-numero"
+            ]
+          },
+          {
+            "id": "u4ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (There is a problem.)",
+            "sentence": "___ un problema.",
+            "answers": [
+              "C'è",
+              "C e"
+            ],
+            "explanation": "Singular → 'c'è' (there is). Plural would be 'ci sono' (there are).",
+            "dictionaryRefs": [
+              "ce"
+            ]
+          },
+          {
+            "id": "u4ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "There are three letters.",
+            "acceptedIt": [
+              "Ci sono tre lettere.",
+              "Ci sono tre lettere"
+            ],
+            "explanation": "'Ci sono tre lettere.' — plural → ci sono. 3 = tre.",
+            "dictionaryRefs": [
+              "ci-sono",
+              "la-lettera"
+            ]
+          },
+          {
+            "id": "u4ce8",
+            "type": "listening",
+            "prompt": "Listen and write the number (digits or word).",
+            "mode": "type",
+            "speakIt": "sessantatre",
+            "acceptedIt": [
+              "sessantatre",
+              "63"
+            ],
+            "explanation": "You heard 'sessantatre' = 63. sessanta (60) + tre (3).",
+            "dictionaryRefs": [
+              "il-numero"
+            ]
+          },
+          {
+            "id": "u4ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Il mio numero è tre, quattro, cinque.",
+            "options": [
+              "My number is 3-4-5.",
+              "My number is 4-5-6.",
+              "My name is Marco.",
+              "I am thirty-five."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard 'Il mio numero è tre, quattro, cinque.' — My number is 3-4-5. Phone numbers come digit by digit.",
+            "dictionaryRefs": [
+              "il-numero"
+            ]
+          },
+          {
+            "id": "u4ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: how old are you?",
+            "targetIt": "Quanti anni hai?",
+            "minAccuracy": 0.7,
+            "explanation": "'Quanti anni hai?' — QUAN-ti AN-ni AI, three beats.",
+            "dictionaryRefs": [
+              "quanti-anni-hai"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -2218,6 +2891,118 @@
         }
       ],
       "introducedInUnit": 3
+    },
+    {
+      "id": "il-numero",
+      "word": "numero",
+      "article": "il",
+      "translation": "number",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il mio numero è tre, quattro, cinque.",
+          "en": "My number is 3-4-5."
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "eta",
+      "word": "età",
+      "article": "l'",
+      "translation": "age",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "L'età non è un problema.",
+          "en": "Age is not a problem."
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "anno",
+      "word": "anno",
+      "article": "l'",
+      "translation": "year",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un anno ha dodici mesi.",
+          "en": "A year has twelve months."
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "il-telefono",
+      "word": "telefono",
+      "article": "il",
+      "translation": "telephone; phone",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il telefono è sul tavolo.",
+          "en": "The phone is on the table."
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "quanti-anni-hai",
+      "word": "quanti anni hai",
+      "translation": "how old are you?",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Quanti anni hai? Ho venti anni.",
+          "en": "How old are you? I am twenty."
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "qual-e-il-tuo-numero",
+      "word": "qual è il tuo numero",
+      "translation": "what is your (phone) number?",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Qual è il tuo numero di telefono?",
+          "en": "What is your phone number?"
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "ce",
+      "word": "c'è",
+      "translation": "there is",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "C'è un problema.",
+          "en": "There is a problem."
+        }
+      ],
+      "introducedInUnit": 4
+    },
+    {
+      "id": "ci-sono",
+      "word": "ci sono",
+      "translation": "there are",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Ci sono due lettere.",
+          "en": "There are two letters."
+        }
+      ],
+      "introducedInUnit": 4
     }
   ],
   "stories": []
