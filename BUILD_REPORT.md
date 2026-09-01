@@ -113,3 +113,7 @@ Decisions:
    finished, wiping the collected hearts value; now preserved.
 
 **Stage 2B gate: GREEN.**
+
+### Stage 2 — content
+
+Unit 3: validator + crosscheck green, 25 dictionary entries total.

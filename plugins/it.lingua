@@ -17,67 +17,137 @@
           "id": "u1l1",
           "type": "vocabulary",
           "title": "Saluti",
-          "dictionaryRefs": ["ciao", "buongiorno", "buonasera", "grazie", "si", "no", "piacere"],
+          "dictionaryRefs": [
+            "ciao",
+            "buongiorno",
+            "buonasera",
+            "grazie",
+            "si",
+            "no",
+            "piacere"
+          ],
           "exercises": [
             {
-              "id": "u1l1e1", "type": "multiple_choice", "prompt": "What does it mean?",
+              "id": "u1l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
               "question": "Ciao!",
-              "options": ["Hello!", "Good night!", "Please!", "You're welcome!"],
+              "options": [
+                "Hello!",
+                "Good night!",
+                "Please!",
+                "You're welcome!"
+              ],
               "correctIndex": 0,
               "explanation": "'Ciao' is the informal Italian greeting — use it with friends and people your age. It works for both 'hello' and 'goodbye'.",
-              "dictionaryRefs": ["ciao"]
+              "dictionaryRefs": [
+                "ciao"
+              ]
             },
             {
-              "id": "u1l1e2", "type": "multiple_choice", "prompt": "It's 9 in the morning. How do you greet someone?",
+              "id": "u1l1e2",
+              "type": "multiple_choice",
+              "prompt": "It's 9 in the morning. How do you greet someone?",
               "question": "Scegli il saluto giusto.",
-              "options": ["Buongiorno", "Buonasera", "Grazie", "Piacere"],
+              "options": [
+                "Buongiorno",
+                "Buonasera",
+                "Grazie",
+                "Piacere"
+              ],
               "correctIndex": 0,
               "explanation": "'Buongiorno' (literally 'good day') is used from morning until the afternoon. 'Buonasera' is for the evening.",
-              "dictionaryRefs": ["buongiorno"]
+              "dictionaryRefs": [
+                "buongiorno"
+              ]
             },
             {
-              "id": "u1l1e3", "type": "multiple_choice", "prompt": "It's 8 in the evening. How do you greet someone?",
+              "id": "u1l1e3",
+              "type": "multiple_choice",
+              "prompt": "It's 8 in the evening. How do you greet someone?",
               "question": "Scegli il saluto giusto.",
-              "options": ["Buonasera", "Buongiorno", "Ciao, sono le otto", "No"],
+              "options": [
+                "Buonasera",
+                "Buongiorno",
+                "Ciao, sono le otto",
+                "No"
+              ],
               "correctIndex": 0,
               "explanation": "'Buonasera' is the standard greeting from late afternoon onwards. Use it when you arrive somewhere in the evening, like a bar or a restaurant.",
-              "dictionaryRefs": ["buonasera"]
+              "dictionaryRefs": [
+                "buonasera"
+              ]
             },
             {
-              "id": "u1l1e4", "type": "fill_blank", "prompt": "Complete the greeting for a friend.",
+              "id": "u1l1e4",
+              "type": "fill_blank",
+              "prompt": "Complete the greeting for a friend.",
               "sentence": "___! Come va?",
-              "answers": ["Ciao"],
+              "answers": [
+                "Ciao"
+              ],
               "explanation": "'Ciao' is the friendly, informal way to say hello — perfect with 'Come va?' (How's it going?).",
-              "dictionaryRefs": ["ciao"]
+              "dictionaryRefs": [
+                "ciao"
+              ]
             },
             {
-              "id": "u1l1e5", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u1l1e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "Thank you!",
-              "acceptedIt": ["Grazie!", "Grazie"],
+              "acceptedIt": [
+                "Grazie!",
+                "Grazie"
+              ],
               "explanation": "'Grazie' is always right — with anyone, in any situation. You'll also hear 'Grazie mille!' (thanks a lot).",
-              "dictionaryRefs": ["grazie"]
+              "dictionaryRefs": [
+                "grazie"
+              ]
             },
             {
-              "id": "u1l1e6", "type": "translation_it_en", "prompt": "Translate to English.",
+              "id": "u1l1e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
               "sourceIt": "Buonasera!",
-              "acceptedEn": ["Good evening!"],
+              "acceptedEn": [
+                "Good evening!"
+              ],
               "explanation": "'Buonasera' = 'buona' (good) + 'sera' (evening). The evening greeting.",
-              "dictionaryRefs": ["buonasera"]
+              "dictionaryRefs": [
+                "buonasera"
+              ]
             },
             {
-              "id": "u1l1e7", "type": "multiple_choice", "prompt": "Someone says 'Grazie!'. What did they say?",
+              "id": "u1l1e7",
+              "type": "multiple_choice",
+              "prompt": "Someone says 'Grazie!'. What did they say?",
               "question": "Grazie!",
-              "options": ["Thank you!", "Yes!", "No!", "Good evening!"],
+              "options": [
+                "Thank you!",
+                "Yes!",
+                "No!",
+                "Good evening!"
+              ],
               "correctIndex": 0,
               "explanation": "'Grazie' means 'thank you'. 'Sì' means 'yes' and 'no' means 'no'.",
-              "dictionaryRefs": ["grazie"]
+              "dictionaryRefs": [
+                "grazie"
+              ]
             },
             {
-              "id": "u1l1e8", "type": "fill_blank", "prompt": "Someone asks 'Sei Marco?' — answer yes.",
+              "id": "u1l1e8",
+              "type": "fill_blank",
+              "prompt": "Someone asks 'Sei Marco?' — answer yes.",
               "sentence": "___, sono Marco.",
-              "answers": ["Sì", "Si"],
+              "answers": [
+                "Sì",
+                "Si"
+              ],
               "explanation": "'Sì' means 'yes'. The accent mark matters in writing: sì (yes) vs si (a little word you'll meet later). Both spellings are accepted here.",
-              "dictionaryRefs": ["si"]
+              "dictionaryRefs": [
+                "si"
+              ]
             }
           ]
         },
@@ -85,64 +155,117 @@
           "id": "u1l2",
           "type": "grammar",
           "title": "Essere: io sono, tu sei",
-          "dictionaryRefs": ["mi-chiamo", "come-ti-chiami"],
+          "dictionaryRefs": [
+            "mi-chiamo",
+            "come-ti-chiami"
+          ],
           "grammarNotes": "ESSERE (to be) — present tense, all six persons:\n\nio sono — I am\ntu sei — you are (informal)\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nIn this unit you need the first two: 'Io sono Marco' (I am Marco) and 'Tu sei Sara?' (Are you Sara?).\n\nSET PHRASES (learn them whole — full grammar later):\n• 'Mi chiamo Marco.' — My name is Marco. (literally: 'I call myself Marco')\n• 'Come ti chiami?' — What is your name?\n• 'Piacere di conoscerti.' — Nice to meet you.",
           "exercises": [
             {
-              "id": "u1l2e1", "type": "fill_blank", "prompt": "Complete with essere.",
+              "id": "u1l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete with essere.",
               "sentence": "Io ___ Marco.",
-              "answers": ["sono"],
+              "answers": [
+                "sono"
+              ],
               "explanation": "'Sono' is the io-form of essere (to be): io sono = I am. 'Io sono Marco' = I am Marco.",
               "dictionaryRefs": []
             },
             {
-              "id": "u1l2e2", "type": "fill_blank", "prompt": "Complete with essere.",
+              "id": "u1l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete with essere.",
               "sentence": "Tu ___ Sara?",
-              "answers": ["sei"],
+              "answers": [
+                "sei"
+              ],
               "explanation": "'Sei' is the tu-form of essere: tu sei = you are. 'Tu sei Sara?' = Are you Sara? — just add a questioning tone.",
               "dictionaryRefs": []
             },
             {
-              "id": "u1l2e3", "type": "multiple_choice", "prompt": "Choose the correct form of essere.",
+              "id": "u1l2e3",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form of essere.",
               "question": "Io ___ italiano.",
-              "options": ["sono", "sei", "è", "siamo"],
+              "options": [
+                "sono",
+                "sei",
+                "è",
+                "siamo"
+              ],
               "correctIndex": 0,
               "explanation": "With 'io' always use 'sono': io sono = I am. 'Sei' goes with 'tu', 'è' with 'lui/lei', 'siamo' with 'noi'.",
               "dictionaryRefs": []
             },
             {
-              "id": "u1l2e4", "type": "multiple_choice", "prompt": "Choose the correct form of essere.",
+              "id": "u1l2e4",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form of essere.",
               "question": "Tu ___ di Roma?",
-              "options": ["sei", "sono", "è", "siete"],
+              "options": [
+                "sei",
+                "sono",
+                "è",
+                "siete"
+              ],
               "correctIndex": 0,
               "explanation": "With 'tu' always use 'sei'. 'Tu sei di Roma?' = Are you from Rome?",
               "dictionaryRefs": []
             },
             {
-              "id": "u1l2e5", "type": "translation_en_it", "prompt": "Translate to Italian. (set phrase)",
+              "id": "u1l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
               "sourceEn": "My name is Marco.",
-              "acceptedIt": ["Mi chiamo Marco.", "Mi chiamo Marco", "Io mi chiamo Marco", "Io mi chiamo Marco."],
+              "acceptedIt": [
+                "Mi chiamo Marco.",
+                "Mi chiamo Marco",
+                "Io mi chiamo Marco",
+                "Io mi chiamo Marco."
+              ],
               "explanation": "Set phrase — learn it whole: 'Mi chiamo…' = My name is… (literally 'I call myself'). The grammar behind it arrives in Unit 28.",
-              "dictionaryRefs": ["mi-chiamo"]
+              "dictionaryRefs": [
+                "mi-chiamo"
+              ]
             },
             {
-              "id": "u1l2e6", "type": "translation_it_en", "prompt": "Translate to English. (set phrase)",
+              "id": "u1l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (set phrase)",
               "sourceIt": "Come ti chiami?",
-              "acceptedEn": ["What is your name?", "What's your name?"],
+              "acceptedEn": [
+                "What is your name?",
+                "What's your name?"
+              ],
               "explanation": "Set phrase: 'Come ti chiami?' = What is your name? (literally 'How do you call yourself?'). The essential first question when you meet someone.",
-              "dictionaryRefs": ["come-ti-chiami"]
+              "dictionaryRefs": [
+                "come-ti-chiami"
+              ]
             },
             {
-              "id": "u1l2e7", "type": "fill_blank", "prompt": "Complete the set phrase.",
+              "id": "u1l2e7",
+              "type": "fill_blank",
+              "prompt": "Complete the set phrase.",
               "sentence": "Come ___ chiami?",
-              "answers": ["ti"],
+              "answers": [
+                "ti"
+              ],
               "explanation": "In 'Come ti chiami?' the little word 'ti' means 'yourself'. For now, learn the phrase whole — the details come later.",
-              "dictionaryRefs": ["come-ti-chiami"]
+              "dictionaryRefs": [
+                "come-ti-chiami"
+              ]
             },
             {
-              "id": "u1l2e8", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u1l2e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "I am Sara. And you?",
-              "acceptedIt": ["Sono Sara. E tu?", "Io sono Sara. E tu?", "Sono Sara, e tu?"],
+              "acceptedIt": [
+                "Sono Sara. E tu?",
+                "Io sono Sara. E tu?",
+                "Sono Sara, e tu?"
+              ],
               "explanation": "'Sono' is the io-form of essere. 'E tu?' = 'And you?' — the natural way to bounce a question back.",
               "dictionaryRefs": []
             }
@@ -152,65 +275,131 @@
           "id": "u1l3",
           "type": "mixed",
           "title": "Il primo incontro: ripasso",
-          "dictionaryRefs": ["ciao", "buongiorno", "piacere", "grazie", "mi-chiamo"],
+          "dictionaryRefs": [
+            "ciao",
+            "buongiorno",
+            "piacere",
+            "grazie",
+            "mi-chiamo"
+          ],
           "exercises": [
             {
-              "id": "u1l3e1", "type": "multiple_choice", "prompt": "What does it mean?",
+              "id": "u1l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
               "question": "Piacere di conoscerti!",
-              "options": ["Nice to meet you!", "See you later!", "How are you?", "Thank you very much!"],
+              "options": [
+                "Nice to meet you!",
+                "See you later!",
+                "How are you?",
+                "Thank you very much!"
+              ],
               "correctIndex": 0,
               "explanation": "'Piacere di conoscerti' = Nice to meet you (literally 'a pleasure to know you'). Say it right after exchanging names.",
-              "dictionaryRefs": ["piacere"]
+              "dictionaryRefs": [
+                "piacere"
+              ]
             },
             {
-              "id": "u1l3e2", "type": "translation_en_it", "prompt": "Translate to Italian. (set phrase)",
+              "id": "u1l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
               "sourceEn": "Nice to meet you!",
-              "acceptedIt": ["Piacere di conoscerti!", "Piacere di conoscerti", "Piacere!", "Piacere"],
+              "acceptedIt": [
+                "Piacere di conoscerti!",
+                "Piacere di conoscerti",
+                "Piacere!",
+                "Piacere"
+              ],
               "explanation": "Full version: 'Piacere di conoscerti'. In real life Italians often just say 'Piacere!' — both are accepted.",
-              "dictionaryRefs": ["piacere"]
+              "dictionaryRefs": [
+                "piacere"
+              ]
             },
             {
-              "id": "u1l3e3", "type": "fill_blank", "prompt": "Complete the introduction.",
+              "id": "u1l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the introduction.",
               "sentence": "Ciao, ___ chiamo Sara.",
-              "answers": ["mi"],
+              "answers": [
+                "mi"
+              ],
               "explanation": "'Mi chiamo' = my name is. 'Mi' = myself — learn the phrase whole for now.",
-              "dictionaryRefs": ["mi-chiamo", "ciao"]
+              "dictionaryRefs": [
+                "mi-chiamo",
+                "ciao"
+              ]
             },
             {
-              "id": "u1l3e4", "type": "translation_it_en", "prompt": "Translate to English.",
+              "id": "u1l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
               "sourceIt": "Buongiorno, mi chiamo Marco.",
-              "acceptedEn": ["Good morning, my name is Marco."],
+              "acceptedEn": [
+                "Good morning, my name is Marco."
+              ],
               "explanation": "A complete self-introduction: greeting + 'mi chiamo' + your name.",
-              "dictionaryRefs": ["buongiorno", "mi-chiamo"]
+              "dictionaryRefs": [
+                "buongiorno",
+                "mi-chiamo"
+              ]
             },
             {
-              "id": "u1l3e5", "type": "multiple_choice", "prompt": "You bump into a friend at a bar in the evening. You say:",
+              "id": "u1l3e5",
+              "type": "multiple_choice",
+              "prompt": "You bump into a friend at a bar in the evening. You say:",
               "question": "Scegli la frase giusta.",
-              "options": ["Ciao!", "Buongiorno, signore!", "Sono le otto.", "Grazie mille, arrivederci a domani!"],
+              "options": [
+                "Ciao!",
+                "Buongiorno, signore!",
+                "Sono le otto.",
+                "Grazie mille, arrivederci a domani!"
+              ],
               "correctIndex": 0,
               "explanation": "With a friend, 'Ciao!' is always right — morning or evening. 'Buongiorno' is only for the morning and sounds too formal here.",
-              "dictionaryRefs": ["ciao"]
+              "dictionaryRefs": [
+                "ciao"
+              ]
             },
             {
-              "id": "u1l3e6", "type": "fill_blank", "prompt": "Complete with essere.",
+              "id": "u1l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete with essere.",
               "sentence": "Io ___ italiano, e tu?",
-              "answers": ["sono"],
+              "answers": [
+                "sono"
+              ],
               "explanation": "io → sono. 'Io sono italiano' = I am Italian (said by a man; a woman says 'italiana' — more in Unit 2).",
               "dictionaryRefs": []
             },
             {
-              "id": "u1l3e7", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u1l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "Hi! What is your name?",
-              "acceptedIt": ["Ciao! Come ti chiami?", "Ciao, come ti chiami?"],
+              "acceptedIt": [
+                "Ciao! Come ti chiami?",
+                "Ciao, come ti chiami?"
+              ],
               "explanation": "'Ciao!' + 'Come ti chiami?' — the two set phrases together open every first conversation.",
-              "dictionaryRefs": ["ciao", "come-ti-chiami"]
+              "dictionaryRefs": [
+                "ciao",
+                "come-ti-chiami"
+              ]
             },
             {
-              "id": "u1l3e8", "type": "translation_it_en", "prompt": "Translate to English.",
+              "id": "u1l3e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
               "sourceIt": "Grazie, buonasera!",
-              "acceptedEn": ["Thank you, good evening!"],
+              "acceptedEn": [
+                "Thank you, good evening!"
+              ],
               "explanation": "Two building blocks you already know: 'grazie' (thank you) and 'buonasera' (good evening).",
-              "dictionaryRefs": ["grazie", "buonasera"]
+              "dictionaryRefs": [
+                "grazie",
+                "buonasera"
+              ]
             }
           ]
         },
@@ -218,47 +407,85 @@
           "id": "u1l4",
           "type": "oral",
           "title": "Ascolta e parla",
-          "dictionaryRefs": ["buonasera", "come-ti-chiami", "piacere", "ciao"],
+          "dictionaryRefs": [
+            "buonasera",
+            "come-ti-chiami",
+            "piacere",
+            "ciao"
+          ],
           "exercises": [
             {
-              "id": "u1l4e1", "type": "listening", "prompt": "Listen and choose the meaning.",
+              "id": "u1l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
               "mode": "choice",
               "speakIt": "Buonasera!",
-              "options": ["Good evening!", "Good morning!", "Goodbye!", "Thank you!"],
+              "options": [
+                "Good evening!",
+                "Good morning!",
+                "Goodbye!",
+                "Thank you!"
+              ],
               "correctIndex": 0,
               "explanation": "You heard 'Buonasera!' — the evening greeting. Listen for 'sera' (evening).",
-              "dictionaryRefs": ["buonasera"]
+              "dictionaryRefs": [
+                "buonasera"
+              ]
             },
             {
-              "id": "u1l4e2", "type": "listening", "prompt": "Listen and type what you hear.",
+              "id": "u1l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
               "mode": "type",
               "speakIt": "Come ti chiami?",
-              "acceptedIt": ["Come ti chiami?", "Come ti chiami"],
+              "acceptedIt": [
+                "Come ti chiami?",
+                "Come ti chiami"
+              ],
               "explanation": "You heard: 'Come ti chiami?' — What is your name? Listen for 'chiami' at the end.",
-              "dictionaryRefs": ["come-ti-chiami"]
+              "dictionaryRefs": [
+                "come-ti-chiami"
+              ]
             },
             {
-              "id": "u1l4e3", "type": "speaking", "prompt": "Say it in Italian: Nice to meet you!",
+              "id": "u1l4e3",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Nice to meet you!",
               "targetIt": "Piacere di conoscerti!",
               "minAccuracy": 0.7,
               "explanation": "'Piacere di conoscerti!' — stress the 'CIA' in piacere: pya-CHE-re.",
-              "dictionaryRefs": ["piacere"]
+              "dictionaryRefs": [
+                "piacere"
+              ]
             },
             {
-              "id": "u1l4e4", "type": "listening", "prompt": "Listen and choose the meaning.",
+              "id": "u1l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
               "mode": "choice",
               "speakIt": "Ciao, come va?",
-              "options": ["Hi, how's it going?", "Hi, what's your name?", "Bye, see you tomorrow!", "Hello, good evening!"],
+              "options": [
+                "Hi, how's it going?",
+                "Hi, what's your name?",
+                "Bye, see you tomorrow!",
+                "Hello, good evening!"
+              ],
               "correctIndex": 0,
               "explanation": "'Come va?' = How's it going? A relaxed follow-up to 'Ciao!'.",
-              "dictionaryRefs": ["ciao"]
+              "dictionaryRefs": [
+                "ciao"
+              ]
             },
             {
-              "id": "u1l4e5", "type": "speaking", "prompt": "Say it in Italian: Good morning!",
+              "id": "u1l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Good morning!",
               "targetIt": "Buongiorno!",
               "minAccuracy": 0.7,
               "explanation": "'Buongiorno!' — 'gn' sounds like the 'ny' in 'canyon': bwon-JOR-no.",
-              "dictionaryRefs": ["buongiorno"]
+              "dictionaryRefs": [
+                "buongiorno"
+              ]
             }
           ]
         }
@@ -267,66 +494,117 @@
         "id": "u1c",
         "exercises": [
           {
-            "id": "u1ce1", "type": "multiple_choice", "prompt": "What does it mean?",
+            "id": "u1ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
             "question": "Buonasera!",
-            "options": ["Good evening!", "Good morning!", "Yes!", "Please!"],
+            "options": [
+              "Good evening!",
+              "Good morning!",
+              "Yes!",
+              "Please!"
+            ],
             "correctIndex": 0,
             "explanation": "'Buonasera' = good evening. 'Buongiorno' = good morning."
           },
           {
-            "id": "u1ce2", "type": "fill_blank", "prompt": "Complete with essere.",
+            "id": "u1ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with essere.",
             "sentence": "Io ___ americano.",
-            "answers": ["sono"],
+            "answers": [
+              "sono"
+            ],
             "explanation": "io → sono. 'Sono' is the I-am form of essere."
           },
           {
-            "id": "u1ce3", "type": "fill_blank", "prompt": "Complete the set phrase.",
+            "id": "u1ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the set phrase.",
             "sentence": "___ chiamo Anna.",
-            "answers": ["Mi"],
+            "answers": [
+              "Mi"
+            ],
             "explanation": "'Mi chiamo…' = My name is… — learn it as a set phrase."
           },
           {
-            "id": "u1ce4", "type": "translation_it_en", "prompt": "Translate to English.",
+            "id": "u1ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
             "sourceIt": "Come ti chiami?",
-            "acceptedEn": ["What is your name?", "What's your name?"],
+            "acceptedEn": [
+              "What is your name?",
+              "What's your name?"
+            ],
             "explanation": "Set phrase: 'Come ti chiami?' = What is your name?"
           },
           {
-            "id": "u1ce5", "type": "translation_en_it", "prompt": "Translate to Italian.",
+            "id": "u1ce5",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
             "sourceEn": "Thank you!",
-            "acceptedIt": ["Grazie!", "Grazie"],
+            "acceptedIt": [
+              "Grazie!",
+              "Grazie"
+            ],
             "explanation": "'Grazie' — always correct, with everyone."
           },
           {
-            "id": "u1ce6", "type": "translation_en_it", "prompt": "Translate to Italian.",
+            "id": "u1ce6",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
             "sourceEn": "Are you Marco?",
-            "acceptedIt": ["Sei Marco?", "Tu sei Marco?"],
+            "acceptedIt": [
+              "Sei Marco?",
+              "Tu sei Marco?"
+            ],
             "explanation": "tu → sei. A questioning tone turns 'Tu sei Marco' into 'Are you Marco?'"
           },
           {
-            "id": "u1ce7", "type": "multiple_choice", "prompt": "Choose the correct form of essere.",
+            "id": "u1ce7",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form of essere.",
             "question": "Tu ___ Sara?",
-            "options": ["sei", "sono", "è", "siamo"],
+            "options": [
+              "sei",
+              "sono",
+              "è",
+              "siamo"
+            ],
             "correctIndex": 0,
             "explanation": "tu → sei. 'Sono' is for io, 'è' for lui/lei, 'siamo' for noi."
           },
           {
-            "id": "u1ce8", "type": "listening", "prompt": "Listen and choose the meaning.",
+            "id": "u1ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
             "mode": "choice",
             "speakIt": "Piacere di conoscerti!",
-            "options": ["Nice to meet you!", "See you soon!", "How are you?", "What's your name?"],
+            "options": [
+              "Nice to meet you!",
+              "See you soon!",
+              "How are you?",
+              "What's your name?"
+            ],
             "correctIndex": 0,
             "explanation": "You heard 'Piacere di conoscerti!' — Nice to meet you!"
           },
           {
-            "id": "u1ce9", "type": "listening", "prompt": "Listen and type what you hear.",
+            "id": "u1ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
             "mode": "type",
             "speakIt": "Mi chiamo Marco.",
-            "acceptedIt": ["Mi chiamo Marco.", "Mi chiamo Marco"],
+            "acceptedIt": [
+              "Mi chiamo Marco.",
+              "Mi chiamo Marco"
+            ],
             "explanation": "You heard: 'Mi chiamo Marco.' — My name is Marco."
           },
           {
-            "id": "u1ce10", "type": "speaking", "prompt": "Say it in Italian: Hi, my name is Marco.",
+            "id": "u1ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Hi, my name is Marco.",
             "targetIt": "Ciao, mi chiamo Marco.",
             "minAccuracy": 0.7,
             "explanation": "'Ciao, mi chiamo Marco.' — your full self-introduction."
@@ -343,66 +621,137 @@
           "id": "u2l1",
           "type": "vocabulary",
           "title": "Le nazionalità",
-          "dictionaryRefs": ["italiano", "americano", "inglese", "spagnolo", "francese", "tedesco"],
+          "dictionaryRefs": [
+            "italiano",
+            "americano",
+            "inglese",
+            "spagnolo",
+            "francese",
+            "tedesco"
+          ],
           "exercises": [
             {
-              "id": "u2l1e1", "type": "multiple_choice", "prompt": "What does it mean?",
+              "id": "u2l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
               "question": "Sono italiano.",
-              "options": ["I am Italian.", "I am Spanish.", "He is Italian.", "Are you Italian?"],
+              "options": [
+                "I am Italian.",
+                "I am Spanish.",
+                "He is Italian.",
+                "Are you Italian?"
+              ],
               "correctIndex": 0,
               "explanation": "'Sono italiano' = I am Italian (a man speaking). A woman says 'Sono italiana'.",
-              "dictionaryRefs": ["italiano"]
+              "dictionaryRefs": [
+                "italiano"
+              ]
             },
             {
-              "id": "u2l1e2", "type": "multiple_choice", "prompt": "Maria is from the USA. She says:",
+              "id": "u2l1e2",
+              "type": "multiple_choice",
+              "prompt": "Maria is from the USA. She says:",
               "question": "Sono ___.",
-              "options": ["americana", "americano", "inglese", "italiana"],
+              "options": [
+                "americana",
+                "americano",
+                "inglese",
+                "italiana"
+              ],
               "correctIndex": 0,
               "explanation": "Preview: nationality words change their ending with the speaker — a man is 'americano', a woman is 'americana'. We drill this fully in Unit 13.",
-              "dictionaryRefs": ["americano"]
+              "dictionaryRefs": [
+                "americano"
+              ]
             },
             {
-              "id": "u2l1e3", "type": "fill_blank", "prompt": "Luca is from Spain. Complete the sentence.",
+              "id": "u2l1e3",
+              "type": "fill_blank",
+              "prompt": "Luca is from Spain. Complete the sentence.",
               "sentence": "Luca è ___.",
-              "answers": ["spagnolo"],
+              "answers": [
+                "spagnolo"
+              ],
               "explanation": "'Spagnolo' = Spanish (for a man). For a woman: 'spagnola'. Nationalities are not capitalized in Italian.",
-              "dictionaryRefs": ["spagnolo"]
+              "dictionaryRefs": [
+                "spagnolo"
+              ]
             },
             {
-              "id": "u2l1e4", "type": "fill_blank", "prompt": "Pierre is from France. Complete the sentence.",
+              "id": "u2l1e4",
+              "type": "fill_blank",
+              "prompt": "Pierre is from France. Complete the sentence.",
               "sentence": "Pierre è ___.",
-              "answers": ["francese"],
+              "answers": [
+                "francese"
+              ],
               "explanation": "'Francese' = French. Good news: words ending in -e stay the same for men and women.",
-              "dictionaryRefs": ["francese"]
+              "dictionaryRefs": [
+                "francese"
+              ]
             },
             {
-              "id": "u2l1e5", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u2l1e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "I am English. (you are a woman)",
-              "acceptedIt": ["Sono inglese.", "Sono inglese", "Io sono inglese"],
+              "acceptedIt": [
+                "Sono inglese.",
+                "Sono inglese",
+                "Io sono inglese"
+              ],
               "explanation": "'Inglese' ends in -e, so it works for men and women: sono inglese.",
-              "dictionaryRefs": ["inglese"]
+              "dictionaryRefs": [
+                "inglese"
+              ]
             },
             {
-              "id": "u2l1e6", "type": "translation_it_en", "prompt": "Translate to English.",
+              "id": "u2l1e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
               "sourceIt": "Hans è tedesco.",
-              "acceptedEn": ["Hans is German."],
+              "acceptedEn": [
+                "Hans is German."
+              ],
               "explanation": "'Tedesco' = German (for a man; 'tedesca' for a woman). Note: the language is 'il tedesco'.",
-              "dictionaryRefs": ["tedesco"]
+              "dictionaryRefs": [
+                "tedesco"
+              ]
             },
             {
-              "id": "u2l1e7", "type": "multiple_choice", "prompt": "Which one means 'German'?",
+              "id": "u2l1e7",
+              "type": "multiple_choice",
+              "prompt": "Which one means 'German'?",
               "question": "Scegli la parola giusta.",
-              "options": ["tedesco", "francese", "spagnolo", "inglese"],
+              "options": [
+                "tedesco",
+                "francese",
+                "spagnolo",
+                "inglese"
+              ],
               "correctIndex": 0,
               "explanation": "'Tedesco' = German. 'Francese' = French, 'spagnolo' = Spanish, 'inglese' = English.",
-              "dictionaryRefs": ["tedesco", "francese", "spagnolo", "inglese"]
+              "dictionaryRefs": [
+                "tedesco",
+                "francese",
+                "spagnolo",
+                "inglese"
+              ]
             },
             {
-              "id": "u2l1e8", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u2l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "Marco is Italian.",
-              "acceptedIt": ["Marco è italiano.", "Marco è italiano", "Marco e italiano"],
+              "acceptedIt": [
+                "Marco è italiano.",
+                "Marco è italiano",
+                "Marco e italiano"
+              ],
               "explanation": "'È' is the lui/lei-form of essere: Marco è italiano = Marco is Italian.",
-              "dictionaryRefs": ["italiano"]
+              "dictionaryRefs": [
+                "italiano"
+              ]
             }
           ]
         },
@@ -410,66 +759,123 @@
           "id": "u2l2",
           "type": "grammar",
           "title": "Essere completo e le domande",
-          "dictionaryRefs": ["come", "dove", "di-dove-sei"],
+          "dictionaryRefs": [
+            "come",
+            "dove",
+            "di-dove-sei"
+          ],
           "grammarNotes": "ESSERE (to be) — the full present tense:\n\nio sono — I am\ntu sei — you are\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nNote: io sono and loro sono look the same; context tells them apart.\n\nQUESTIONS BY INTONATION: any statement becomes a question by raising your voice at the end. 'Sei italiano.' → 'Sei italiano?'\n\nQUESTION WORDS: 'come' (how), 'dove' (where). 'Di dove sei?' = Where are you from? (literally 'Of where are you?')",
           "exercises": [
             {
-              "id": "u2l2e1", "type": "fill_blank", "prompt": "Complete with essere.",
+              "id": "u2l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete with essere.",
               "sentence": "Noi ___ americani.",
-              "answers": ["siamo"],
+              "answers": [
+                "siamo"
+              ],
               "explanation": "noi → siamo. 'Noi siamo americani' = We are American.",
-              "dictionaryRefs": ["americano"]
+              "dictionaryRefs": [
+                "americano"
+              ]
             },
             {
-              "id": "u2l2e2", "type": "fill_blank", "prompt": "Complete with essere.",
+              "id": "u2l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete with essere.",
               "sentence": "Voi ___ di Londra?",
-              "answers": ["siete"],
+              "answers": [
+                "siete"
+              ],
               "explanation": "voi → siete. Use 'voi' when talking to two or more people: 'Are you (all) from London?'",
               "dictionaryRefs": []
             },
             {
-              "id": "u2l2e3", "type": "fill_blank", "prompt": "Complete with essere.",
+              "id": "u2l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete with essere.",
               "sentence": "Loro ___ spagnoli.",
-              "answers": ["sono"],
+              "answers": [
+                "sono"
+              ],
               "explanation": "loro → sono — same word as io sono. The subject ('loro') tells you who is meant.",
-              "dictionaryRefs": ["spagnolo"]
+              "dictionaryRefs": [
+                "spagnolo"
+              ]
             },
             {
-              "id": "u2l2e4", "type": "multiple_choice", "prompt": "Choose the correct form of essere.",
+              "id": "u2l2e4",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form of essere.",
               "question": "Lei ___ francese.",
-              "options": ["è", "sei", "sono", "siamo"],
+              "options": [
+                "è",
+                "sei",
+                "sono",
+                "siamo"
+              ],
               "correctIndex": 0,
               "explanation": "lui/lei → è. 'Lei è francese' = She is French.",
-              "dictionaryRefs": ["francese"]
+              "dictionaryRefs": [
+                "francese"
+              ]
             },
             {
-              "id": "u2l2e5", "type": "translation_en_it", "prompt": "Translate to Italian. (set phrase)",
+              "id": "u2l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
               "sourceEn": "Where are you from?",
-              "acceptedIt": ["Di dove sei?", "Di dove sei"],
+              "acceptedIt": [
+                "Di dove sei?",
+                "Di dove sei"
+              ],
               "explanation": "Set phrase: 'Di dove sei?' = Where are you from? Word by word: 'of where you-are?'. The classic question when you meet someone new.",
-              "dictionaryRefs": ["di-dove-sei", "dove"]
+              "dictionaryRefs": [
+                "di-dove-sei",
+                "dove"
+              ]
             },
             {
-              "id": "u2l2e6", "type": "translation_it_en", "prompt": "Translate to English.",
+              "id": "u2l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
               "sourceIt": "Di dove sei?",
-              "acceptedEn": ["Where are you from?"],
+              "acceptedEn": [
+                "Where are you from?"
+              ],
               "explanation": "'Di dove sei?' = Where are you from? 'Dove' = where; 'di' = of/from.",
-              "dictionaryRefs": ["di-dove-sei"]
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
             },
             {
-              "id": "u2l2e7", "type": "multiple_choice", "prompt": "How do you turn 'Sei italiano.' into a question?",
+              "id": "u2l2e7",
+              "type": "multiple_choice",
+              "prompt": "How do you turn 'Sei italiano.' into a question?",
               "question": "Scegli la risposta giusta.",
-              "options": ["Raise your voice at the end: 'Sei italiano?'", "Add 'perché' at the start", "Change 'sei' to 'sono'", "Say it twice"],
+              "options": [
+                "Raise your voice at the end: 'Sei italiano?'",
+                "Add 'perché' at the start",
+                "Change 'sei' to 'sono'",
+                "Say it twice"
+              ],
               "correctIndex": 0,
               "explanation": "Italian yes/no questions use the same words as statements — only the intonation (and the question mark) changes.",
               "dictionaryRefs": []
             },
             {
-              "id": "u2l2e8", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u2l2e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "Are you English? (informal, to a man)",
-              "acceptedIt": ["Sei inglese?", "Tu sei inglese?"],
+              "acceptedIt": [
+                "Sei inglese?",
+                "Tu sei inglese?"
+              ],
               "explanation": "Statement word order + question mark: 'Sei inglese?' 'Inglese' works for men and women.",
-              "dictionaryRefs": ["inglese"]
+              "dictionaryRefs": [
+                "inglese"
+              ]
             }
           ]
         },
@@ -477,66 +883,136 @@
           "id": "u2l3",
           "type": "mixed",
           "title": "Conoscersi: ripasso",
-          "dictionaryRefs": ["ciao", "piacere", "italiano", "inglese", "di-dove-sei"],
+          "dictionaryRefs": [
+            "ciao",
+            "piacere",
+            "italiano",
+            "inglese",
+            "di-dove-sei"
+          ],
           "exercises": [
             {
-              "id": "u2l3e1", "type": "multiple_choice", "prompt": "Someone tells you 'Sono di Roma.' What did they say?",
+              "id": "u2l3e1",
+              "type": "multiple_choice",
+              "prompt": "Someone tells you 'Sono di Roma.' What did they say?",
               "question": "Sono di Roma.",
-              "options": ["I am from Rome.", "I live in Rome now.", "Rome is beautiful.", "I like Rome."],
+              "options": [
+                "I am from Rome.",
+                "I live in Rome now.",
+                "Rome is beautiful.",
+                "I like Rome."
+              ],
               "correctIndex": 0,
               "explanation": "'Sono di Roma' = I am from Rome — essere + di + city. The natural answer to 'Di dove sei?'",
-              "dictionaryRefs": ["di-dove-sei"]
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
             },
             {
-              "id": "u2l3e2", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u2l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "I am from New York.",
-              "acceptedIt": ["Sono di New York.", "Sono di New York", "Io sono di New York"],
+              "acceptedIt": [
+                "Sono di New York.",
+                "Sono di New York",
+                "Io sono di New York"
+              ],
               "explanation": "essere + di + city: 'Sono di New York'. No word for 'from' needed beyond 'di'.",
               "dictionaryRefs": []
             },
             {
-              "id": "u2l3e3", "type": "fill_blank", "prompt": "Complete the question.",
+              "id": "u2l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question.",
               "sentence": "___ dove sei?",
-              "answers": ["Di"],
+              "answers": [
+                "Di"
+              ],
               "explanation": "'Di dove sei?' — 'di' (from/of) + 'dove' (where) + 'sei' (are you).",
-              "dictionaryRefs": ["di-dove-sei", "dove"]
+              "dictionaryRefs": [
+                "di-dove-sei",
+                "dove"
+              ]
             },
             {
-              "id": "u2l3e4", "type": "translation_it_en", "prompt": "Translate to English.",
+              "id": "u2l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
               "sourceIt": "Ciao! Sono italiano, e tu?",
-              "acceptedEn": ["Hi! I am Italian, and you?", "Hi! I'm Italian, and you?"],
+              "acceptedEn": [
+                "Hi! I am Italian, and you?",
+                "Hi! I'm Italian, and you?"
+              ],
               "explanation": "Greeting + nationality + 'e tu?' (and you?) — a real mini-conversation already.",
-              "dictionaryRefs": ["ciao", "italiano"]
+              "dictionaryRefs": [
+                "ciao",
+                "italiano"
+              ]
             },
             {
-              "id": "u2l3e5", "type": "fill_blank", "prompt": "Anna is from England. Complete the sentence.",
+              "id": "u2l3e5",
+              "type": "fill_blank",
+              "prompt": "Anna is from England. Complete the sentence.",
               "sentence": "Anna è ___.",
-              "answers": ["inglese"],
+              "answers": [
+                "inglese"
+              ],
               "explanation": "'Inglese' stays the same for men and women — the -e ending never changes.",
-              "dictionaryRefs": ["inglese"]
+              "dictionaryRefs": [
+                "inglese"
+              ]
             },
             {
-              "id": "u2l3e6", "type": "multiple_choice", "prompt": "You're introduced to someone. After 'Mi chiamo Marco' you say:",
+              "id": "u2l3e6",
+              "type": "multiple_choice",
+              "prompt": "You're introduced to someone. After 'Mi chiamo Marco' you say:",
               "question": "Scegli la frase giusta.",
-              "options": ["Piacere!", "Buongiorno!", "No, grazie!", "Sono le tre!"],
+              "options": [
+                "Piacere!",
+                "Buongiorno!",
+                "No, grazie!",
+                "Sono le tre!"
+              ],
               "correctIndex": 0,
               "explanation": "'Piacere!' — the short, perfectly natural form of 'Piacere di conoscerti'.",
-              "dictionaryRefs": ["piacere"]
+              "dictionaryRefs": [
+                "piacere"
+              ]
             },
             {
-              "id": "u2l3e7", "type": "translation_en_it", "prompt": "Translate to Italian.",
+              "id": "u2l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
               "sourceEn": "Are you Italian? No, I am American. (man speaking)",
-              "acceptedIt": ["Sei italiano? No, sono americano.", "Sei italiano? No, sono americano"],
+              "acceptedIt": [
+                "Sei italiano? No, sono americano.",
+                "Sei italiano? No, sono americano"
+              ],
               "explanation": "'Sei italiano?' (question intonation) + 'No, sono americano.' — question and answer with essere.",
-              "dictionaryRefs": ["italiano", "americano", "no"]
+              "dictionaryRefs": [
+                "italiano",
+                "americano",
+                "no"
+              ]
             },
             {
-              "id": "u2l3e8", "type": "multiple_choice", "prompt": "Which question word means 'where'?",
+              "id": "u2l3e8",
+              "type": "multiple_choice",
+              "prompt": "Which question word means 'where'?",
               "question": "Scegli la parola giusta.",
-              "options": ["dove", "come", "ciao", "grazie"],
+              "options": [
+                "dove",
+                "come",
+                "ciao",
+                "grazie"
+              ],
               "correctIndex": 0,
               "explanation": "'Dove' = where. 'Come' = how. You'll use both constantly.",
-              "dictionaryRefs": ["dove", "come"]
+              "dictionaryRefs": [
+                "dove",
+                "come"
+              ]
             }
           ]
         },
@@ -544,47 +1020,82 @@
           "id": "u2l4",
           "type": "oral",
           "title": "Ascolta e parla",
-          "dictionaryRefs": ["di-dove-sei", "italiano", "americano"],
+          "dictionaryRefs": [
+            "di-dove-sei",
+            "italiano",
+            "americano"
+          ],
           "exercises": [
             {
-              "id": "u2l4e1", "type": "listening", "prompt": "Listen and choose the meaning.",
+              "id": "u2l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
               "mode": "choice",
               "speakIt": "Di dove sei?",
-              "options": ["Where are you from?", "What is your name?", "How old are you?", "Where do you live?"],
+              "options": [
+                "Where are you from?",
+                "What is your name?",
+                "How old are you?",
+                "Where do you live?"
+              ],
               "correctIndex": 0,
               "explanation": "You heard 'Di dove sei?' — Where are you from? Listen for 'dove'.",
-              "dictionaryRefs": ["di-dove-sei"]
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
             },
             {
-              "id": "u2l4e2", "type": "listening", "prompt": "Listen and type what you hear.",
+              "id": "u2l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
               "mode": "type",
               "speakIt": "Sei italiano?",
-              "acceptedIt": ["Sei italiano?", "Sei italiano"],
+              "acceptedIt": [
+                "Sei italiano?",
+                "Sei italiano"
+              ],
               "explanation": "You heard: 'Sei italiano?' — Are you Italian? Same words as the statement, question intonation.",
-              "dictionaryRefs": ["italiano"]
+              "dictionaryRefs": [
+                "italiano"
+              ]
             },
             {
-              "id": "u2l4e3", "type": "speaking", "prompt": "Say it in Italian: I am American. (man)",
+              "id": "u2l4e3",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am American. (man)",
               "targetIt": "Sono americano.",
               "minAccuracy": 0.7,
               "explanation": "'Sono americano.' — a-me-ri-CA-no, four clear syllables.",
-              "dictionaryRefs": ["americano"]
+              "dictionaryRefs": [
+                "americano"
+              ]
             },
             {
-              "id": "u2l4e4", "type": "listening", "prompt": "Listen and choose the meaning.",
+              "id": "u2l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
               "mode": "choice",
               "speakIt": "Sono di Roma.",
-              "options": ["I am from Rome.", "I am in Rome now.", "Rome is my favorite city.", "I go to Rome."],
+              "options": [
+                "I am from Rome.",
+                "I am in Rome now.",
+                "Rome is my favorite city.",
+                "I go to Rome."
+              ],
               "correctIndex": 0,
               "explanation": "You heard 'Sono di Roma.' — I am from Rome. 'di + city' says where you're from.",
               "dictionaryRefs": []
             },
             {
-              "id": "u2l4e5", "type": "speaking", "prompt": "Say it in Italian: Where are you from?",
+              "id": "u2l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Where are you from?",
               "targetIt": "Di dove sei?",
               "minAccuracy": 0.7,
               "explanation": "'Di dove sei?' — DO-ve, with the stress on the first syllable.",
-              "dictionaryRefs": ["di-dove-sei"]
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
             }
           ]
         }
@@ -593,69 +1104,776 @@
         "id": "u2c",
         "exercises": [
           {
-            "id": "u2ce1", "type": "multiple_choice", "prompt": "What does it mean?",
+            "id": "u2ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
             "question": "Di dove sei?",
-            "options": ["Where are you from?", "How are you?", "What is your name?", "Where are you going?"],
+            "options": [
+              "Where are you from?",
+              "How are you?",
+              "What is your name?",
+              "Where are you going?"
+            ],
             "correctIndex": 0,
             "explanation": "'Di dove sei?' = Where are you from?"
           },
           {
-            "id": "u2ce2", "type": "fill_blank", "prompt": "Complete with essere.",
+            "id": "u2ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with essere.",
             "sentence": "Noi ___ inglesi.",
-            "answers": ["siamo"],
+            "answers": [
+              "siamo"
+            ],
             "explanation": "noi → siamo. 'Noi siamo inglesi' = We are English."
           },
           {
-            "id": "u2ce3", "type": "fill_blank", "prompt": "Complete with essere.",
+            "id": "u2ce3",
+            "type": "fill_blank",
+            "prompt": "Complete with essere.",
             "sentence": "Lei ___ spagnola.",
-            "answers": ["è"],
+            "answers": [
+              "è"
+            ],
             "explanation": "lei → è. 'Lei è spagnola' = She is Spanish."
           },
           {
-            "id": "u2ce4", "type": "translation_en_it", "prompt": "Translate to Italian.",
+            "id": "u2ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
             "sourceEn": "I am from London.",
-            "acceptedIt": ["Sono di Londra.", "Sono di Londra", "Io sono di Londra"],
+            "acceptedIt": [
+              "Sono di Londra.",
+              "Sono di Londra",
+              "Io sono di Londra"
+            ],
             "explanation": "essere + di + city: 'Sono di Londra'."
           },
           {
-            "id": "u2ce5", "type": "translation_it_en", "prompt": "Translate to English.",
+            "id": "u2ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
             "sourceIt": "Sei americano?",
-            "acceptedEn": ["Are you American?"],
+            "acceptedEn": [
+              "Are you American?"
+            ],
             "explanation": "'Sei americano?' — Are you American? Statement words, question intonation."
           },
           {
-            "id": "u2ce6", "type": "translation_en_it", "prompt": "Translate to Italian.",
+            "id": "u2ce6",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
             "sourceEn": "Hans is German.",
-            "acceptedIt": ["Hans è tedesco.", "Hans è tedesco", "Hans e tedesco"],
+            "acceptedIt": [
+              "Hans è tedesco.",
+              "Hans è tedesco",
+              "Hans e tedesco"
+            ],
             "explanation": "'Tedesco' = German (for a man). lui → è."
           },
           {
-            "id": "u2ce7", "type": "multiple_choice", "prompt": "Julia is from France. She says: 'Sono ___.'",
+            "id": "u2ce7",
+            "type": "multiple_choice",
+            "prompt": "Julia is from France. She says: 'Sono ___.'",
             "question": "Sono ___.",
-            "options": ["francese", "francesa", "franco", "francia"],
+            "options": [
+              "francese",
+              "francesa",
+              "franco",
+              "francia"
+            ],
             "correctIndex": 0,
             "explanation": "'Francese' never changes — it ends in -e, so men and women use the same word."
           },
           {
-            "id": "u2ce8", "type": "listening", "prompt": "Listen and choose the meaning.",
+            "id": "u2ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
             "mode": "choice",
             "speakIt": "Noi siamo spagnoli.",
-            "options": ["We are Spanish.", "They are Spanish.", "You are Spanish.", "We are Italian."],
+            "options": [
+              "We are Spanish.",
+              "They are Spanish.",
+              "You are Spanish.",
+              "We are Italian."
+            ],
             "correctIndex": 0,
             "explanation": "You heard 'Noi siamo spagnoli.' — noi → siamo; 'spagnoli' is the plural for a group."
           },
           {
-            "id": "u2ce9", "type": "listening", "prompt": "Listen and type what you hear.",
+            "id": "u2ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
             "mode": "type",
             "speakIt": "Sono di New York.",
-            "acceptedIt": ["Sono di New York.", "Sono di New York"],
+            "acceptedIt": [
+              "Sono di New York.",
+              "Sono di New York"
+            ],
             "explanation": "You heard: 'Sono di New York.' — I am from New York."
           },
           {
-            "id": "u2ce10", "type": "speaking", "prompt": "Say it in Italian: Are you Italian?",
+            "id": "u2ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Are you Italian?",
             "targetIt": "Sei italiano?",
             "minAccuracy": 0.7,
             "explanation": "'Sei italiano?' — raise your voice at the end to make it a question."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3",
+      "number": 3,
+      "title": "L'alfabeto",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "type": "vocabulary",
+          "title": "Le parole per lo spelling",
+          "dictionaryRefs": [
+            "alfabeto",
+            "la-lettera",
+            "il-nome",
+            "il-cognome",
+            "email",
+            "come-si-scrive",
+            "lo-spelling"
+          ],
+          "exercises": [
+            {
+              "id": "u3l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "L'alfabeto",
+              "options": [
+                "The alphabet",
+                "The letter",
+                "The name",
+                "The email"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'alfabeto' (m) = the alphabet. The article is l' because 'alfabeto' starts with a vowel.",
+              "dictionaryRefs": [
+                "alfabeto"
+              ]
+            },
+            {
+              "id": "u3l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "La lettera",
+              "options": [
+                "The letter",
+                "The alphabet",
+                "The spelling",
+                "The surname"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La lettera' (f) = the letter (of the alphabet). Plural: le lettere. 'Ciao' has quattro lettere — four letters.",
+              "dictionaryRefs": [
+                "la-lettera"
+              ]
+            },
+            {
+              "id": "u3l1e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence.",
+              "sentence": "Il mio ___ è Marco.",
+              "answers": [
+                "nome"
+              ],
+              "explanation": "'Il nome' (m) = the name / first name. 'Il mio nome è Marco' = My name is Marco.",
+              "dictionaryRefs": [
+                "il-nome"
+              ]
+            },
+            {
+              "id": "u3l1e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence.",
+              "sentence": "Il mio ___ è Bianchi.",
+              "answers": [
+                "cognome"
+              ],
+              "explanation": "'Il cognome' (m) = the surname / family name. Rossi and Bianchi are classic Italian surnames.",
+              "dictionaryRefs": [
+                "il-cognome"
+              ]
+            },
+            {
+              "id": "u3l1e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
+              "sourceEn": "How do you spell it?",
+              "acceptedIt": [
+                "Come si scrive?",
+                "Come si scrive"
+              ],
+              "explanation": "Set phrase: 'Come si scrive?' = How do you spell it? (literally 'How does one write it?'). The essential question when someone says their name too fast.",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "L'email",
+              "options": [
+                "The email (address)",
+                "The letter",
+                "The alphabet",
+                "The name"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'email' (f) = the email address. Feminine, with l' before the vowel. You'll also hear 'la mail'.",
+              "dictionaryRefs": [
+                "email"
+              ]
+            },
+            {
+              "id": "u3l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence.",
+              "sentence": "Faccio lo ___: emme, a, erre, ci, o.",
+              "answers": [
+                "spelling"
+              ],
+              "explanation": "'Lo spelling' (m) = spelling a word out loud, letter by letter. The article is 'lo' because 'spelling' starts with s+consonant — the full rule arrives in Unit 5.",
+              "dictionaryRefs": [
+                "lo-spelling"
+              ]
+            },
+            {
+              "id": "u3l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il mio cognome è Rossi.",
+              "acceptedEn": [
+                "My surname is Rossi.",
+                "My last name is Rossi.",
+                "My surname is Rossi",
+                "My last name is Rossi"
+              ],
+              "explanation": "'Il cognome' = the surname. Like 'il nome', it's masculine — both end in -e but take 'il'.",
+              "dictionaryRefs": [
+                "il-cognome"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3l2",
+          "type": "grammar",
+          "title": "L'alfabeto italiano",
+          "dictionaryRefs": [
+            "alfabeto",
+            "la-lettera",
+            "come-si-scrive"
+          ],
+          "grammarNotes": "L'ALFABETO ITALIANO — the 21 letters and their names:\n\na, bi, ci, di, e, effe, gi, acca, i, elle, emme, enne, o, pi, cu, erre, esse, ti, u, vu, zeta\n\nThe foreign letters j (i lunga), k (cappa), w (doppia vu), x (ics) and y (ipsilon) are not part of the Italian alphabet — they appear only in foreign words like 'taxi' or 'yogurt'.\n\nPRONUNCIATION — the sounds that change:\n\n• C and G before a, o, u are HARD: cane (KA-ne), gatto (GAT-to).\n• C and G before e, i are SOFT, like English 'ch' and 'j': cena (CHE-na), gelato (je-LA-to).\n• To keep the HARD sound before e, i, Italian adds an H: che (KE), chi (KI). So 'ch' always sounds like K, never like English 'church'.\n• GLI is like the 'lli' in 'million': famiglia, figlio.\n• GN is like the 'ny' in 'canyon': gnocchi, signora.\n• SC before e, i sounds like English 'sh': sci (SHEE), scena. Before a, o, u it stays 'sk': scuola (SKWO-la).\n\nSPELLING OUT LOUD: when someone asks 'Come si scrive?' (How is it written?), answer with the letter names one by one. Marco → emme, a, erre, ci, o.",
+          "exercises": [
+            {
+              "id": "u3l2e1",
+              "type": "multiple_choice",
+              "prompt": "How does the 'c' sound in this word?",
+              "question": "cena",
+              "options": [
+                "Like 'ch' in 'cheese'",
+                "Like 'k' in 'kite'",
+                "Like 's' in 'sun'",
+                "It is silent"
+              ],
+              "correctIndex": 0,
+              "explanation": "C before e or i is soft — like English 'ch': cena (CHE-na), ciao, cinema. Before a, o, u it would be a hard K sound.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u3l2e2",
+              "type": "multiple_choice",
+              "prompt": "How does the 'c' sound in this word?",
+              "question": "cane",
+              "options": [
+                "Like 'k' in 'kite'",
+                "Like 'ch' in 'cheese'",
+                "Like 's' in 'sun'",
+                "Like 'g' in 'go'"
+              ],
+              "correctIndex": 0,
+              "explanation": "C before a, o, u is hard — like English 'k': cane (KA-ne), casa. Compare 'cena' (CHE-na): the vowel after C changes everything.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u3l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete with the letter's name (it sounds like 'chee').",
+              "sentence": "La lettera C si chiama ___.",
+              "answers": [
+                "ci"
+              ],
+              "explanation": "The letter C is called 'ci' (CHEE). Letter names are real words you need for spelling out loud: a, bi, ci, di, e…",
+              "dictionaryRefs": [
+                "la-lettera"
+              ]
+            },
+            {
+              "id": "u3l2e4",
+              "type": "fill_blank",
+              "prompt": "Spell MARCO out loud: emme, a, erre, ci, ___",
+              "sentence": "MARCO si scrive: emme, a, erre, ci, ___.",
+              "answers": [
+                "o"
+              ],
+              "explanation": "The last letter of MARCO is O, and its name is simply 'o'. Spelling out loud: emme (M), a (A), erre (R), ci (C), o (O).",
+              "dictionaryRefs": [
+                "come-si-scrive",
+                "alfabeto"
+              ]
+            },
+            {
+              "id": "u3l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "My name is Marco: M-A-R-C-O.",
+              "acceptedIt": [
+                "Mi chiamo Marco: emme, a, erre, ci, o.",
+                "Mi chiamo Marco: emme, a, erre, ci, o",
+                "Mi chiamo Marco, emme, a, erre, ci, o"
+              ],
+              "explanation": "To spell your name, say the letter names one by one: M = emme, A = a, R = erre, C = ci, O = o.",
+              "dictionaryRefs": [
+                "mi-chiamo",
+                "alfabeto"
+              ]
+            },
+            {
+              "id": "u3l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Si scrive esse, a, erre, a.",
+              "acceptedEn": [
+                "It's spelled S-A-R-A.",
+                "It is spelled S-A-R-A.",
+                "It's spelled S-A-R-A",
+                "You spell it S-A-R-A"
+              ],
+              "explanation": "'Si scrive…' = It's spelled… S = esse, A = a, R = erre, A = a: SARA.",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l2e7",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'sh' sound?",
+              "question": "Scegli la parola con il suono 'sh'.",
+              "options": [
+                "sci",
+                "scuola",
+                "scarpa",
+                "sconto"
+              ],
+              "correctIndex": 0,
+              "explanation": "SC before e or i sounds like English 'sh': sci (SHEE), scena, pesce. Before a, o, u it stays 'sk': scuola, scarpa.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u3l2e8",
+              "type": "multiple_choice",
+              "prompt": "How does 'gn' sound in this word?",
+              "question": "gnocchi",
+              "options": [
+                "Like 'ny' in 'canyon'",
+                "Like 'g' in 'go'",
+                "Like 'n' in 'no'",
+                "It is silent"
+              ],
+              "correctIndex": 0,
+              "explanation": "GN is a single sound — like the 'ny' in 'canyon': gnocchi (NYOK-kee). You already know it from 'Buongiorno'. Note also: 'cch' = a long K sound.",
+              "dictionaryRefs": []
+            }
+          ]
+        },
+        {
+          "id": "u3l3",
+          "type": "mixed",
+          "title": "Conoscersi e scriversi: ripasso",
+          "dictionaryRefs": [
+            "ciao",
+            "italiano",
+            "di-dove-sei",
+            "come-si-scrive",
+            "il-nome",
+            "il-cognome"
+          ],
+          "exercises": [
+            {
+              "id": "u3l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Come si scrive?",
+              "options": [
+                "How do you spell it?",
+                "What is your name?",
+                "Where are you from?",
+                "How are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Come si scrive?' = How do you spell it? Compare Unit 1's 'Come ti chiami?' = What is your name? Both start with 'come' (how).",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Hi! My name is Sara. How do you spell it?",
+              "acceptedIt": [
+                "Ciao! Mi chiamo Sara. Come si scrive?",
+                "Ciao! Mi chiamo Sara. Come si scrive",
+                "Ciao, mi chiamo Sara. Come si scrive?"
+              ],
+              "explanation": "Three blocks you already know, one after another: Ciao! + Mi chiamo Sara. + Come si scrive?",
+              "dictionaryRefs": [
+                "ciao",
+                "mi-chiamo",
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question.",
+              "sentence": "___ si scrive il tuo nome?",
+              "answers": [
+                "Come"
+              ],
+              "explanation": "'Come si scrive il tuo nome?' = How do you spell your name? 'Come' = how — the same word as in 'Come ti chiami?'",
+              "dictionaryRefs": [
+                "come-si-scrive",
+                "come",
+                "il-nome"
+              ]
+            },
+            {
+              "id": "u3l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Come ti chiami? Come si scrive?",
+              "acceptedEn": [
+                "What is your name? How do you spell it?",
+                "What's your name? How do you spell it?"
+              ],
+              "explanation": "The two most useful 'come' questions together: What's your name? + How do you spell it?",
+              "dictionaryRefs": [
+                "come-ti-chiami",
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l3e5",
+              "type": "multiple_choice",
+              "prompt": "Someone asks you 'Sei italiano?' What did they ask?",
+              "question": "Sei italiano?",
+              "options": [
+                "Are you Italian?",
+                "Are you in Italy?",
+                "Do you like Italy?",
+                "Is he Italian?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sei italiano?' — statement words with question intonation, from Unit 2. A woman would be asked 'Sei italiana?'",
+              "dictionaryRefs": [
+                "italiano"
+              ]
+            },
+            {
+              "id": "u3l3e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I am from Rome. And you?",
+              "acceptedIt": [
+                "Sono di Roma. E tu?",
+                "Sono di Roma, e tu?",
+                "Io sono di Roma. E tu?"
+              ],
+              "explanation": "essere + di + city, recycled from Unit 2: 'Sono di Roma.' Then bounce the question back with 'E tu?'",
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
+            },
+            {
+              "id": "u3l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "si",
+                "Come",
+                "scrive?"
+              ],
+              "correctSentence": "Come si scrive?",
+              "explanation": "'Come si scrive?' — the question word 'come' comes first, then 'si scrive' (literally 'one writes').",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (from)",
+              "sentence": "Sono ___ Milano.",
+              "answers": [
+                "di"
+              ],
+              "explanation": "essere + di + city says where you're from: 'Sono di Milano' = I am from Milan. From Unit 2's 'Di dove sei?'",
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "come-si-scrive",
+            "alfabeto",
+            "il-nome",
+            "il-cognome"
+          ],
+          "exercises": [
+            {
+              "id": "u3l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Come si scrive?",
+              "options": [
+                "How do you spell it?",
+                "What is your name?",
+                "Where are you from?",
+                "How old are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Come si scrive?' — How do you spell it? Listen for 'scrive' at the end: SCRI-ve.",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Emme, a, erre, ci, o.",
+              "acceptedIt": [
+                "Emme, a, erre, ci, o.",
+                "Emme, a, erre, ci, o",
+                "emme a erre ci o"
+              ],
+              "explanation": "You heard MARCO spelled letter by letter: emme (M), a (A), erre (R), ci (C), o (O).",
+              "dictionaryRefs": [
+                "alfabeto"
+              ]
+            },
+            {
+              "id": "u3l4e3",
+              "type": "speaking",
+              "prompt": "Ask in Italian: how do you spell it?",
+              "targetIt": "Come si scrive?",
+              "minAccuracy": 0.7,
+              "explanation": "'Come si scrive?' — CO-me si SCRI-ve, with the stress on SCRI.",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u3l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Mi chiamo Anna: a, enne, enne, a.",
+              "options": [
+                "My name is Anna: A-N-N-A.",
+                "My name is Anna: A-M-A.",
+                "Her name is Anna.",
+                "Anna is Italian."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard Anna spell her name: a, enne, enne, a = A-N-N-A. 'Enne' is the name of the letter N.",
+              "dictionaryRefs": [
+                "alfabeto",
+                "mi-chiamo"
+              ]
+            },
+            {
+              "id": "u3l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: My surname is Rossi.",
+              "targetIt": "Il mio cognome è Rossi.",
+              "minAccuracy": 0.7,
+              "explanation": "'Il mio cognome è Rossi.' — the GN in 'cognome' is the 'ny' sound: ko-NYO-me. And 'Rossi' has a long double S.",
+              "dictionaryRefs": [
+                "il-cognome"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u3c",
+        "exercises": [
+          {
+            "id": "u3ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "L'alfabeto",
+            "options": [
+              "The alphabet",
+              "The letter",
+              "The email",
+              "The surname"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'alfabeto' (m) = the alphabet — l' before a vowel.",
+            "dictionaryRefs": [
+              "alfabeto"
+            ]
+          },
+          {
+            "id": "u3ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence.",
+            "sentence": "Il mio ___ è Rossi.",
+            "answers": [
+              "cognome"
+            ],
+            "explanation": "'Il cognome' (m) = the surname. 'Il mio cognome è Rossi' = My surname is Rossi.",
+            "dictionaryRefs": [
+              "il-cognome"
+            ]
+          },
+          {
+            "id": "u3ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "How do you spell it?",
+            "acceptedIt": [
+              "Come si scrive?",
+              "Come si scrive"
+            ],
+            "explanation": "Set phrase: 'Come si scrive?' — the question to ask before spelling anything.",
+            "dictionaryRefs": [
+              "come-si-scrive"
+            ]
+          },
+          {
+            "id": "u3ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Il mio nome è Anna.",
+            "acceptedEn": [
+              "My name is Anna.",
+              "My name is Anna"
+            ],
+            "explanation": "'Il nome' (m) = the name. 'Il mio nome è Anna' = My name is Anna.",
+            "dictionaryRefs": [
+              "il-nome"
+            ]
+          },
+          {
+            "id": "u3ce5",
+            "type": "multiple_choice",
+            "prompt": "In this word, the 'c' sounds like…",
+            "question": "cena",
+            "options": [
+              "'ch' in 'cheese'",
+              "'k' in 'kite'",
+              "'s' in 'sun'",
+              "'sh' in 'she'"
+            ],
+            "correctIndex": 0,
+            "explanation": "C before e or i is soft — like English 'ch': cena (CHE-na). Before a, o, u it would be hard (cane, KA-ne).",
+            "dictionaryRefs": []
+          },
+          {
+            "id": "u3ce6",
+            "type": "fill_blank",
+            "prompt": "Spell CANE out loud: ci, a, enne, ___",
+            "sentence": "CANE si scrive: ci, a, enne, ___.",
+            "answers": [
+              "e"
+            ],
+            "explanation": "CANE = ci (C), a (A), enne (N), e (E). The letter E's name is simply 'e'.",
+            "dictionaryRefs": [
+              "alfabeto",
+              "come-si-scrive"
+            ]
+          },
+          {
+            "id": "u3ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "My surname is Bianchi.",
+            "acceptedIt": [
+              "Il mio cognome è Bianchi.",
+              "Il mio cognome è Bianchi",
+              "Il mio cognome e Bianchi"
+            ],
+            "explanation": "'Il mio cognome è Bianchi.' — lui/lei form of essere: è. And 'ch' in Bianchi sounds like K: BYAN-kee.",
+            "dictionaryRefs": [
+              "il-cognome"
+            ]
+          },
+          {
+            "id": "u3ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Si scrive esse, a, erre, a.",
+            "options": [
+              "It's spelled S-A-R-A.",
+              "It's spelled S-A-R-I.",
+              "My name is Sara.",
+              "How is Sara?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard 'Si scrive esse, a, erre, a.' — It's spelled S-A-R-A: esse (S), a (A), erre (R), a (A).",
+            "dictionaryRefs": [
+              "come-si-scrive"
+            ]
+          },
+          {
+            "id": "u3ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Il mio nome è Marco.",
+            "acceptedIt": [
+              "Il mio nome è Marco.",
+              "Il mio nome è Marco",
+              "Il mio nome e Marco"
+            ],
+            "explanation": "You heard: 'Il mio nome è Marco.' — My name is Marco.",
+            "dictionaryRefs": [
+              "il-nome"
+            ]
+          },
+          {
+            "id": "u3ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: My name is Sara: S-A-R-A.",
+            "targetIt": "Mi chiamo Sara: esse, a, erre, a.",
+            "minAccuracy": 0.7,
+            "explanation": "'Mi chiamo Sara: esse, a, erre, a.' — introduce yourself, then spell it: esse (S), a (A), erre (R), a (A).",
+            "dictionaryRefs": [
+              "alfabeto",
+              "mi-chiamo"
+            ]
           }
         ]
       }
@@ -663,112 +1881,343 @@
   ],
   "dictionary": [
     {
-      "id": "ciao", "word": "ciao", "translation": "hello; hi; bye",
+      "id": "ciao",
+      "word": "ciao",
+      "translation": "hello; hi; bye",
       "partOfSpeech": "interjection",
-      "examples": [{"it": "Ciao, Marco!", "en": "Hi, Marco!"}],
+      "examples": [
+        {
+          "it": "Ciao, Marco!",
+          "en": "Hi, Marco!"
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "buongiorno", "word": "buongiorno", "translation": "good morning",
+      "id": "buongiorno",
+      "word": "buongiorno",
+      "translation": "good morning",
       "partOfSpeech": "interjection",
-      "examples": [{"it": "Buongiorno, signora!", "en": "Good morning, madam!"}],
+      "examples": [
+        {
+          "it": "Buongiorno, signora!",
+          "en": "Good morning, madam!"
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "buonasera", "word": "buonasera", "translation": "good evening",
+      "id": "buonasera",
+      "word": "buonasera",
+      "translation": "good evening",
       "partOfSpeech": "interjection",
-      "examples": [{"it": "Buonasera! Come va?", "en": "Good evening! How's it going?"}],
+      "examples": [
+        {
+          "it": "Buonasera! Come va?",
+          "en": "Good evening! How's it going?"
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "grazie", "word": "grazie", "translation": "thank you",
+      "id": "grazie",
+      "word": "grazie",
+      "translation": "thank you",
       "partOfSpeech": "interjection",
-      "examples": [{"it": "Grazie mille!", "en": "Thanks a lot!"}],
+      "examples": [
+        {
+          "it": "Grazie mille!",
+          "en": "Thanks a lot!"
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "si", "word": "sì", "translation": "yes",
+      "id": "si",
+      "word": "sì",
+      "translation": "yes",
       "partOfSpeech": "adverb",
-      "examples": [{"it": "Sì, sono Marco.", "en": "Yes, I am Marco."}],
+      "examples": [
+        {
+          "it": "Sì, sono Marco.",
+          "en": "Yes, I am Marco."
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "no", "word": "no", "translation": "no",
+      "id": "no",
+      "word": "no",
+      "translation": "no",
       "partOfSpeech": "adverb",
-      "examples": [{"it": "No, non sono Sara.", "en": "No, I am not Sara."}],
+      "examples": [
+        {
+          "it": "No, non sono Sara.",
+          "en": "No, I am not Sara."
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "piacere", "word": "piacere", "article": "il", "translation": "pleasure; nice to meet you",
-      "partOfSpeech": "noun", "gender": "m",
-      "examples": [{"it": "Piacere di conoscerti!", "en": "Nice to meet you!"}],
+      "id": "piacere",
+      "word": "piacere",
+      "article": "il",
+      "translation": "pleasure; nice to meet you",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Piacere di conoscerti!",
+          "en": "Nice to meet you!"
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "mi-chiamo", "word": "mi chiamo", "translation": "my name is…",
+      "id": "mi-chiamo",
+      "word": "mi chiamo",
+      "translation": "my name is…",
       "partOfSpeech": "phrase",
-      "examples": [{"it": "Mi chiamo Anna.", "en": "My name is Anna."}],
+      "examples": [
+        {
+          "it": "Mi chiamo Anna.",
+          "en": "My name is Anna."
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "come-ti-chiami", "word": "come ti chiami", "translation": "what is your name?",
+      "id": "come-ti-chiami",
+      "word": "come ti chiami",
+      "translation": "what is your name?",
       "partOfSpeech": "phrase",
-      "examples": [{"it": "Ciao, come ti chiami?", "en": "Hi, what is your name?"}],
+      "examples": [
+        {
+          "it": "Ciao, come ti chiami?",
+          "en": "Hi, what is your name?"
+        }
+      ],
       "introducedInUnit": 1
     },
     {
-      "id": "italiano", "word": "italiano", "translation": "Italian",
+      "id": "italiano",
+      "word": "italiano",
+      "translation": "Italian",
       "partOfSpeech": "adjective",
-      "examples": [{"it": "Sono italiano.", "en": "I am Italian. (man speaking)"}],
+      "examples": [
+        {
+          "it": "Sono italiano.",
+          "en": "I am Italian. (man speaking)"
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "americano", "word": "americano", "translation": "American",
+      "id": "americano",
+      "word": "americano",
+      "translation": "American",
       "partOfSpeech": "adjective",
-      "examples": [{"it": "Sono americana.", "en": "I am American. (woman speaking)"}],
+      "examples": [
+        {
+          "it": "Sono americana.",
+          "en": "I am American. (woman speaking)"
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "inglese", "word": "inglese", "translation": "English",
+      "id": "inglese",
+      "word": "inglese",
+      "translation": "English",
       "partOfSpeech": "adjective",
-      "examples": [{"it": "Anna è inglese.", "en": "Anna is English."}],
+      "examples": [
+        {
+          "it": "Anna è inglese.",
+          "en": "Anna is English."
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "spagnolo", "word": "spagnolo", "translation": "Spanish",
+      "id": "spagnolo",
+      "word": "spagnolo",
+      "translation": "Spanish",
       "partOfSpeech": "adjective",
-      "examples": [{"it": "Luca è spagnolo.", "en": "Luca is Spanish."}],
+      "examples": [
+        {
+          "it": "Luca è spagnolo.",
+          "en": "Luca is Spanish."
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "francese", "word": "francese", "translation": "French",
+      "id": "francese",
+      "word": "francese",
+      "translation": "French",
       "partOfSpeech": "adjective",
-      "examples": [{"it": "Julia è francese.", "en": "Julia is French."}],
+      "examples": [
+        {
+          "it": "Julia è francese.",
+          "en": "Julia is French."
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "tedesco", "word": "tedesco", "translation": "German",
+      "id": "tedesco",
+      "word": "tedesco",
+      "translation": "German",
       "partOfSpeech": "adjective",
-      "examples": [{"it": "Hans è tedesco.", "en": "Hans is German."}],
+      "examples": [
+        {
+          "it": "Hans è tedesco.",
+          "en": "Hans is German."
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "come", "word": "come", "translation": "how",
+      "id": "come",
+      "word": "come",
+      "translation": "how",
       "partOfSpeech": "adverb",
-      "examples": [{"it": "Come va?", "en": "How's it going?"}],
+      "examples": [
+        {
+          "it": "Come va?",
+          "en": "How's it going?"
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "dove", "word": "dove", "translation": "where",
+      "id": "dove",
+      "word": "dove",
+      "translation": "where",
       "partOfSpeech": "adverb",
-      "examples": [{"it": "Dove abiti?", "en": "Where do you live?"}],
+      "examples": [
+        {
+          "it": "Dove abiti?",
+          "en": "Where do you live?"
+        }
+      ],
       "introducedInUnit": 2
     },
     {
-      "id": "di-dove-sei", "word": "di dove sei", "translation": "where are you from?",
+      "id": "di-dove-sei",
+      "word": "di dove sei",
+      "translation": "where are you from?",
       "partOfSpeech": "phrase",
-      "examples": [{"it": "Di dove sei? Sono di Roma?", "en": "Where are you from? Are you from Rome?"}],
+      "examples": [
+        {
+          "it": "Di dove sei? Sono di Roma?",
+          "en": "Where are you from? Are you from Rome?"
+        }
+      ],
       "introducedInUnit": 2
+    },
+    {
+      "id": "alfabeto",
+      "word": "alfabeto",
+      "article": "l'",
+      "translation": "alphabet",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "L'alfabeto italiano ha 21 lettere.",
+          "en": "The Italian alphabet has 21 letters."
+        }
+      ],
+      "introducedInUnit": 3
+    },
+    {
+      "id": "la-lettera",
+      "word": "lettera",
+      "article": "la",
+      "translation": "letter (of the alphabet)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La lettera C si chiama 'ci'.",
+          "en": "The letter C is called 'ci'."
+        }
+      ],
+      "introducedInUnit": 3
+    },
+    {
+      "id": "il-nome",
+      "word": "nome",
+      "article": "il",
+      "translation": "name; first name",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il mio nome è Marco.",
+          "en": "My name is Marco."
+        }
+      ],
+      "introducedInUnit": 3
+    },
+    {
+      "id": "il-cognome",
+      "word": "cognome",
+      "article": "il",
+      "translation": "surname; last name",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il mio cognome è Bianchi.",
+          "en": "My surname is Bianchi."
+        }
+      ],
+      "introducedInUnit": 3
+    },
+    {
+      "id": "email",
+      "word": "email",
+      "article": "l'",
+      "translation": "email (address)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Come si scrive la tua email?",
+          "en": "How do you spell your email?"
+        }
+      ],
+      "introducedInUnit": 3
+    },
+    {
+      "id": "come-si-scrive",
+      "word": "come si scrive",
+      "translation": "how do you spell it?",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Come si scrive 'gnocchi'?",
+          "en": "How do you spell 'gnocchi'?"
+        }
+      ],
+      "introducedInUnit": 3
+    },
+    {
+      "id": "lo-spelling",
+      "word": "spelling",
+      "article": "lo",
+      "translation": "spelling (out loud, letter by letter)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Faccio lo spelling del mio cognome.",
+          "en": "I spell my surname out loud."
+        }
+      ],
+      "introducedInUnit": 3
     }
   ],
   "stories": []
