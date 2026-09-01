@@ -4623,6 +4623,715 @@
           }
         ]
       }
+    },
+    {
+      "id": "u8",
+      "number": 8,
+      "title": "Le domande",
+      "lessons": [
+        {
+          "id": "u8l1",
+          "type": "vocabulary",
+          "title": "Le parole delle domande",
+          "dictionaryRefs": [
+            "perche",
+            "quando",
+            "chi",
+            "quanto",
+            "la-domanda",
+            "la-risposta",
+            "lavorare",
+            "studiare"
+          ],
+          "exercises": [
+            {
+              "id": "u8l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Chi è?",
+              "options": [
+                "Who is it?",
+                "What is it?",
+                "Where is it?",
+                "When is it?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Chi' = who. 'Chi è?' = Who is it? — the question for people. Never changes form.",
+              "dictionaryRefs": [
+                "chi"
+              ]
+            },
+            {
+              "id": "u8l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Quando?",
+              "options": [
+                "When?",
+                "Why?",
+                "How much?",
+                "Who?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quando' = when. 'Quando vieni?' = When are you coming? Never changes form.",
+              "dictionaryRefs": [
+                "quando"
+              ]
+            },
+            {
+              "id": "u8l1e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (___ do you study Italian? — Because it's beautiful.)",
+              "sentence": "___ studi italiano? — Perché è bello.",
+              "answers": [
+                "Perché",
+                "Perche"
+              ],
+              "explanation": "'Perché' means BOTH 'why' (in questions) and 'because' (in answers). One word, two jobs: Perché studi? — Perché è bello.",
+              "dictionaryRefs": [
+                "perche",
+                "studiare"
+              ]
+            },
+            {
+              "id": "u8l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la domanda",
+              "options": [
+                "the question",
+                "the answer",
+                "the house",
+                "the morning"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La domanda' (f) = the question. Its partner is 'la risposta' (the answer).",
+              "dictionaryRefs": [
+                "la-domanda"
+              ]
+            },
+            {
+              "id": "u8l1e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The answer is right.)",
+              "sentence": "La ___ è giusta.",
+              "answers": [
+                "risposta"
+              ],
+              "explanation": "'La risposta' (f) = the answer. 'Giusta' = right/correct (feminine, agreeing with risposta).",
+              "dictionaryRefs": [
+                "la-risposta"
+              ]
+            },
+            {
+              "id": "u8l1e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Where do you work?",
+              "acceptedIt": [
+                "Dove lavori?",
+                "Dove lavori",
+                "Tu dove lavori?"
+              ],
+              "explanation": "'Dove lavori?' — 'lavorare' = to work; tu → lavori. Question word first, then the verb: no inversion needed.",
+              "dictionaryRefs": [
+                "lavorare",
+                "dove"
+              ]
+            },
+            {
+              "id": "u8l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Quanto?",
+              "options": [
+                "How much?",
+                "When?",
+                "Who?",
+                "How?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quanto' = how much/how many. It agrees: quanto (m sing), quanta (f sing), quanti (m pl — 'Quanti anni hai?'), quante (f pl).",
+              "dictionaryRefs": [
+                "quanto"
+              ]
+            },
+            {
+              "id": "u8l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Studi italiano?",
+              "acceptedEn": [
+                "Do you study Italian?",
+                "Are you studying Italian?"
+              ],
+              "explanation": "'Studiare' = to study; tu → studi. 'Studi italiano?' — statement words, question intonation, as always.",
+              "dictionaryRefs": [
+                "studiare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u8l2",
+          "type": "grammar",
+          "title": "Chi, che, dove, quando, perché, come, quanto",
+          "dictionaryRefs": [
+            "chi",
+            "quando",
+            "perche",
+            "quanto",
+            "lavorare",
+            "studiare"
+          ],
+          "grammarNotes": "LE DOMANDE — asking questions.\n\nTHE QUESTION WORDS:\n• chi — who: 'Chi è?' (Who is it?)\n• che / cosa — what: 'Che fai?' / 'Cosa fai?' (What are you doing? — both correct, cosa is more common)\n• dove — where: 'Dove abiti?'\n• quando — when: 'Quando vieni?'\n• perché — why (AND because): 'Perché studi italiano?' — 'Perché è bello.'\n• come — how: 'Come ti chiami?' (Unit 1)\n• quanto — how much/many: 'Quanto costa?'\n\nTWO RULES ONLY:\n1. The question word comes FIRST, then the normal sentence: 'Dove lavori?' = Where + you-work. No inversion, no 'do' — nothing like English 'Where DO you work?'\n2. Without a question word, just raise your voice (Unit 2): 'Lavori qui?'\n\nQUANTO AGREES (light touch): quanto costa? (m sing), quanta gente (f sing), quanti anni (m pl — you know 'Quanti anni hai?'), quante lettere (f pl). For now: quanti + masculine plural, quante + feminine plural.\n\nPERCHÉ doubles as 'because': question and answer use the same word.",
+          "exercises": [
+            {
+              "id": "u8l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (___ are you coming to the bar? — At eight.)",
+              "sentence": "___ vieni al bar? — Alle otto.",
+              "answers": [
+                "Quando"
+              ],
+              "explanation": "The answer is a time → the question word is 'quando' (when). 'Alle otto' = at eight — a + le = alle.",
+              "dictionaryRefs": [
+                "quando",
+                "venire",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u8l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (___ is the boy? — It's Marco.)",
+              "sentence": "___ è il ragazzo? — È Marco.",
+              "answers": [
+                "Chi"
+              ],
+              "explanation": "The answer is a person → 'chi' (who). 'Chi è il ragazzo?' = Who is the boy?",
+              "dictionaryRefs": [
+                "chi",
+                "il-ragazzo"
+              ]
+            },
+            {
+              "id": "u8l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Why do you study Italian?",
+              "acceptedIt": [
+                "Perché studi italiano?",
+                "Perché studi italiano",
+                "Perche studi italiano?"
+              ],
+              "explanation": "'Perché studi italiano?' — question word first, then tu-form of studiare: studi. No inversion.",
+              "dictionaryRefs": [
+                "perche",
+                "studiare"
+              ]
+            },
+            {
+              "id": "u8l2e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Perché è bello.",
+              "acceptedEn": [
+                "Because it's beautiful.",
+                "Because it is nice.",
+                "Because it's nice."
+              ],
+              "explanation": "Here 'perché' means BECAUSE — the answer to 'why'. Same word, both directions.",
+              "dictionaryRefs": [
+                "perche",
+                "bello"
+              ]
+            },
+            {
+              "id": "u8l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the right form of quanto. (How many books do you have?)",
+              "question": "___ libri hai?",
+              "options": [
+                "Quanti",
+                "Quanto",
+                "Quante",
+                "Quando"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Libri' is masculine plural → 'quanti'. Same pattern as 'Quanti anni hai?' from Unit 4.",
+              "dictionaryRefs": [
+                "quanto",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u8l2e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the right form of quanto. (How many houses are there?)",
+              "question": "___ case ci sono?",
+              "options": [
+                "Quante",
+                "Quanti",
+                "Quanto",
+                "Chi"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Case' is feminine plural → 'quante'. 'Quante case ci sono?' = How many houses are there?",
+              "dictionaryRefs": [
+                "quanto",
+                "la-casa",
+                "ci-sono"
+              ]
+            },
+            {
+              "id": "u8l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Do you work here?",
+              "acceptedIt": [
+                "Lavori qui?",
+                "Lavori qui",
+                "Tu lavori qui?"
+              ],
+              "explanation": "'Lavori qui?' — no question word, just rising intonation. tu → lavori (lavorare).",
+              "dictionaryRefs": [
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u8l2e8",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (___ do you work? — In Rome.)",
+              "sentence": "___ lavori? — A Roma.",
+              "answers": [
+                "Dove"
+              ],
+              "explanation": "The answer is a place → 'dove' (where). 'A Roma' = in Rome — cities take 'a' (Rome is a city here).",
+              "dictionaryRefs": [
+                "dove",
+                "lavorare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u8l3",
+          "type": "mixed",
+          "title": "Conoscersi: le domande: ripasso",
+          "dictionaryRefs": [
+            "mi-chiamo",
+            "di-dove-sei",
+            "come-si-scrive",
+            "quanti-anni-hai",
+            "perche",
+            "quando",
+            "chi",
+            "la-domanda",
+            "la-risposta"
+          ],
+          "exercises": [
+            {
+              "id": "u8l3e1",
+              "type": "multiple_choice",
+              "prompt": "Choose the question word. (Unit 1 recycling)",
+              "question": "___ ti chiami?",
+              "options": [
+                "Come",
+                "Chi",
+                "Quando",
+                "Perché"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Come ti chiami?' = What is your name? (literally 'How do you call yourself?'). 'Come' = how — Unit 1.",
+              "dictionaryRefs": [
+                "mi-chiamo",
+                "come"
+              ]
+            },
+            {
+              "id": "u8l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Units 1–2 recycling)",
+              "sourceEn": "What is your name? And where are you from?",
+              "acceptedIt": [
+                "Come ti chiami? Di dove sei?",
+                "Come ti chiami? Di dove sei",
+                "Come ti chiami? E di dove sei?"
+              ],
+              "explanation": "Two getting-to-know-you questions back to back: 'Come ti chiami?' + 'Di dove sei?' — both question words first.",
+              "dictionaryRefs": [
+                "mi-chiamo",
+                "di-dove-sei"
+              ]
+            },
+            {
+              "id": "u8l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Unit 3 recycling)",
+              "sentence": "Come ___ scrive?",
+              "answers": [
+                "si"
+              ],
+              "explanation": "'Come si scrive?' = How do you spell it? — from Unit 3. 'Come' + si scrive.",
+              "dictionaryRefs": [
+                "come-si-scrive"
+              ]
+            },
+            {
+              "id": "u8l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Quando andiamo al bar?",
+              "acceptedEn": [
+                "When are we going to the bar?",
+                "When do we go to the bar?"
+              ],
+              "explanation": "'Quando andiamo al bar?' — quando (when) + andiamo (noi-form of andare, Unit 7).",
+              "dictionaryRefs": [
+                "quando",
+                "andare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u8l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "studi",
+                "Perché",
+                "italiano?"
+              ],
+              "correctSentence": "Perché studi italiano?",
+              "explanation": "'Perché studi italiano?' — question word first, then the verb, then the object. No inversion.",
+              "dictionaryRefs": [
+                "perche",
+                "studiare"
+              ]
+            },
+            {
+              "id": "u8l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Chi è la ragazza?",
+              "options": [
+                "Who is the girl?",
+                "Where is the girl?",
+                "How is the girl?",
+                "What is the girl?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Chi è la ragazza?' = Who is the girl? 'Chi' for people; 'la ragazza' from Unit 6.",
+              "dictionaryRefs": [
+                "chi",
+                "la-ragazza"
+              ]
+            },
+            {
+              "id": "u8l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 4 recycling)",
+              "sourceEn": "How old are you? I am twenty-one.",
+              "acceptedIt": [
+                "Quanti anni hai? Ho ventuno anni.",
+                "Quanti anni hai? Ho ventuno anni",
+                "Quanti anni hai? Io ho ventuno anni."
+              ],
+              "explanation": "'Quanti anni hai?' — 'Ho ventuno anni.' 21 = ventuno: venti drops its -i before uno.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u8l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The question is difficult, but the answer is easy.)",
+              "sentence": "La domanda è difficile, ma la ___ è facile.",
+              "answers": [
+                "risposta"
+              ],
+              "explanation": "'La risposta' = the answer. 'Ma' = but; 'difficile/facile' = difficult/easy — both end in -e and never change.",
+              "dictionaryRefs": [
+                "la-domanda",
+                "la-risposta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u8l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "lavorare",
+            "dove",
+            "quando",
+            "venire",
+            "perche",
+            "chi",
+            "studiare"
+          ],
+          "exercises": [
+            {
+              "id": "u8l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Dove lavori?",
+              "options": [
+                "Where do you work?",
+                "Where do you live?",
+                "Do you work here?",
+                "When do you work?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Dove lavori?' — Where do you work? 'Dove' = where; tu → lavori.",
+              "dictionaryRefs": [
+                "dove",
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u8l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Quando vieni?",
+              "acceptedIt": [
+                "Quando vieni?",
+                "Quando vieni"
+              ],
+              "explanation": "You heard: 'Quando vieni?' — When are you coming? tu → vieni (venire).",
+              "dictionaryRefs": [
+                "quando",
+                "venire"
+              ]
+            },
+            {
+              "id": "u8l4e3",
+              "type": "speaking",
+              "prompt": "Ask in Italian: why?",
+              "targetIt": "Perché?",
+              "minAccuracy": 0.7,
+              "explanation": "'Perché?' — per-KÉ, stress on the last syllable, rising intonation for the question.",
+              "dictionaryRefs": [
+                "perche"
+              ]
+            },
+            {
+              "id": "u8l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Chi è?",
+              "options": [
+                "Who is it?",
+                "What is it?",
+                "Where is he?",
+                "Who are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Chi è?' — Who is it? 'Chi' = who.",
+              "dictionaryRefs": [
+                "chi"
+              ]
+            },
+            {
+              "id": "u8l4e5",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Studi italiano?",
+              "acceptedIt": [
+                "Studi italiano?",
+                "Studi italiano"
+              ],
+              "explanation": "You heard: 'Studi italiano?' — Do you study Italian? Statement words, question intonation.",
+              "dictionaryRefs": [
+                "studiare"
+              ]
+            },
+            {
+              "id": "u8l4e6",
+              "type": "speaking",
+              "prompt": "Ask in Italian: where do you work?",
+              "targetIt": "Dove lavori?",
+              "minAccuracy": 0.7,
+              "explanation": "'Dove lavori?' — DO-ve la-VO-ri. Question word first, then the verb.",
+              "dictionaryRefs": [
+                "dove",
+                "lavorare"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u8c",
+        "exercises": [
+          {
+            "id": "u8ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "perché",
+            "options": [
+              "why; because",
+              "when",
+              "who",
+              "how much"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Perché' = why in questions, because in answers. One word, two jobs.",
+            "dictionaryRefs": [
+              "perche"
+            ]
+          },
+          {
+            "id": "u8ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the question. (Unit 4 recycling)",
+            "sentence": "___ anni hai?",
+            "answers": [
+              "Quanti"
+            ],
+            "explanation": "'Anni' is masculine plural → 'quanti'. 'Quanti anni hai?' = How old are you?",
+            "dictionaryRefs": [
+              "quanto",
+              "quanti-anni-hai"
+            ]
+          },
+          {
+            "id": "u8ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "Who is the boy?",
+            "acceptedIt": [
+              "Chi è il ragazzo?",
+              "Chi è il ragazzo",
+              "Chi e il ragazzo?"
+            ],
+            "explanation": "'Chi è il ragazzo?' — chi (who) + è + il ragazzo (Unit 6). Question word first.",
+            "dictionaryRefs": [
+              "chi",
+              "il-ragazzo"
+            ]
+          },
+          {
+            "id": "u8ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Quando andiamo a scuola?",
+            "acceptedEn": [
+              "When are we going to school?",
+              "When do we go to school?"
+            ],
+            "explanation": "'Quando andiamo a scuola?' — quando + andiamo (noi, andare) + a scuola.",
+            "dictionaryRefs": [
+              "quando",
+              "andare",
+              "la-scuola"
+            ]
+          },
+          {
+            "id": "u8ce5",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la risposta",
+            "options": [
+              "the answer",
+              "the question",
+              "the letter",
+              "the school"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La risposta' (f) = the answer. Question = la domanda, answer = la risposta.",
+            "dictionaryRefs": [
+              "la-risposta"
+            ]
+          },
+          {
+            "id": "u8ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the question. (___ do you work? — At the bar.)",
+            "sentence": "___ lavori? — Al bar.",
+            "answers": [
+              "Dove"
+            ],
+            "explanation": "The answer is a place → 'dove'. 'Al bar' = at the bar (a + il, Unit 5).",
+            "dictionaryRefs": [
+              "dove",
+              "lavorare",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u8ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (informal)",
+            "sourceEn": "Do you study Italian?",
+            "acceptedIt": [
+              "Studi italiano?",
+              "Studi italiano",
+              "Tu studi italiano?"
+            ],
+            "explanation": "'Studi italiano?' — tu → studi; no question word, just rising intonation.",
+            "dictionaryRefs": [
+              "studiare"
+            ]
+          },
+          {
+            "id": "u8ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Quando vieni al bar?",
+            "options": [
+              "When are you coming to the bar?",
+              "When are you going to the bar?",
+              "Why are you coming to the bar?",
+              "Who is coming to the bar?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard 'Quando vieni al bar?' — quando (when) + vieni (tu, venire) + al bar.",
+            "dictionaryRefs": [
+              "quando",
+              "venire",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u8ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Perché no?",
+            "acceptedIt": [
+              "Perché no?",
+              "Perché no",
+              "Perche no?",
+              "Perche no"
+            ],
+            "explanation": "You heard: 'Perché no?' — Why not? A very useful two-word answer.",
+            "dictionaryRefs": [
+              "perche",
+              "no"
+            ]
+          },
+          {
+            "id": "u8ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: who is the girl?",
+            "targetIt": "Chi è la ragazza?",
+            "minAccuracy": 0.7,
+            "explanation": "'Chi è la ragazza?' — KI-È la ra-GÀT-tsa. The zz in ragazza is a long 'ts'.",
+            "dictionaryRefs": [
+              "chi",
+              "la-ragazza"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -5403,6 +6112,114 @@
         }
       ],
       "introducedInUnit": 7
+    },
+    {
+      "id": "perche",
+      "word": "perché",
+      "translation": "why; because",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Perché studi italiano? — Perché è bello.",
+          "en": "Why do you study Italian? — Because it's beautiful."
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "quando",
+      "word": "quando",
+      "translation": "when",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Quando vieni?",
+          "en": "When are you coming?"
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "chi",
+      "word": "chi",
+      "translation": "who",
+      "partOfSpeech": "pronoun",
+      "examples": [
+        {
+          "it": "Chi è?",
+          "en": "Who is it?"
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "quanto",
+      "word": "quanto",
+      "translation": "how much; how many",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Quanto costa?",
+          "en": "How much does it cost?"
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "la-domanda",
+      "word": "domanda",
+      "article": "la",
+      "translation": "question",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La domanda è difficile.",
+          "en": "The question is difficult."
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "la-risposta",
+      "word": "risposta",
+      "article": "la",
+      "translation": "answer",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La risposta è giusta.",
+          "en": "The answer is right."
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "lavorare",
+      "word": "lavorare",
+      "translation": "to work",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Dove lavori?",
+          "en": "Where do you work?"
+        }
+      ],
+      "introducedInUnit": 8
+    },
+    {
+      "id": "studiare",
+      "word": "studiare",
+      "translation": "to study",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Studi italiano?",
+          "en": "Do you study Italian?"
+        }
+      ],
+      "introducedInUnit": 8
     }
   ],
   "stories": []
