@@ -6035,6 +6035,705 @@
           }
         ]
       }
+    },
+    {
+      "id": "u10",
+      "number": 10,
+      "title": "La mia giornata",
+      "lessons": [
+        {
+          "id": "u10l1",
+          "type": "vocabulary",
+          "title": "Il tempo e i momenti del giorno",
+          "dictionaryRefs": [
+            "la-mattina",
+            "il-pomeriggio",
+            "la-sera",
+            "il-giorno",
+            "che-ore-sono",
+            "costare",
+            "euro"
+          ],
+          "exercises": [
+            {
+              "id": "u10l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la mattina",
+              "options": [
+                "the morning",
+                "the evening",
+                "the afternoon",
+                "the day"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mattina' (f) = the morning. 'Di mattina' = in the morning: 'Il bar apre alle otto di mattina.'",
+              "dictionaryRefs": [
+                "la-mattina"
+              ]
+            },
+            {
+              "id": "u10l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il pomeriggio",
+              "options": [
+                "the afternoon",
+                "the morning",
+                "the evening",
+                "the night"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il pomeriggio' (m) = the afternoon — roughly lunch to dinner. 'Di pomeriggio' = in the afternoon.",
+              "dictionaryRefs": [
+                "il-pomeriggio"
+              ]
+            },
+            {
+              "id": "u10l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la sera",
+              "options": [
+                "the evening",
+                "the morning",
+                "the day",
+                "the afternoon"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La sera' (f) = the evening — you already know 'buonasera' (Unit 1): buona + sera!",
+              "dictionaryRefs": [
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u10l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il giorno",
+              "options": [
+                "the day",
+                "the morning",
+                "the year",
+                "the job"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il giorno' (m) = the day — and you know 'buongiorno' (Unit 1): buon + giorno. 'La mia giornata' = my day (as an experience).",
+              "dictionaryRefs": [
+                "il-giorno"
+              ]
+            },
+            {
+              "id": "u10l1e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
+              "sourceEn": "What time is it?",
+              "acceptedIt": [
+                "Che ore sono?",
+                "Che ore sono"
+              ],
+              "explanation": "Set phrase: 'Che ore sono?' = What time is it? — literally 'What hours are they?'. Plural, because the answer is usually plural: sono le tre.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l1e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Sono le tre.",
+              "acceptedEn": [
+                "It is three o'clock.",
+                "It's three o'clock."
+              ],
+              "explanation": "'Sono le tre' = It's three o'clock. Plural 'sono le' + the number. Only one o'clock is singular: 'È l'una.'",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Quanto costa?",
+              "options": [
+                "How much does it cost?",
+                "How much is there?",
+                "What time is it?",
+                "How many are there?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Costare' = to cost. 'Quanto costa?' = How much does it cost? — the essential shopping question.",
+              "dictionaryRefs": [
+                "costare"
+              ]
+            },
+            {
+              "id": "u10l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (It costs three euros.)",
+              "sentence": "Costa tre ___.",
+              "answers": [
+                "euro"
+              ],
+              "explanation": "'L'euro' (m) — and good news: 'euro' is invariable. Un euro, due euro, tre euro — never 'euri'.",
+              "dictionaryRefs": [
+                "euro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u10l2",
+          "type": "grammar",
+          "title": "Che ore sono? Quanto costa?",
+          "dictionaryRefs": [
+            "che-ore-sono",
+            "costare",
+            "euro",
+            "la-mattina",
+            "la-sera"
+          ],
+          "grammarNotes": "TELLING TIME:\n• 'Che ore sono?' — What time is it? (literally 'what hours are they?')\n• 'È l'una.' — It's one o'clock. (singular — only for one!)\n• 'Sono le due / le tre / le dieci…' — It's two / three / ten o'clock. (plural: sono le + number)\n• 'Sono le tre e mezza.' — It's half past three.\n• 'Sono le otto meno dieci.' — It's ten to eight. (literally 'eight minus ten')\n\nTIMES OF DAY: la mattina → 'di mattina', il pomeriggio → 'di pomeriggio', la sera → 'di sera':\n'Vado al bar alle otto di mattina.' — I go to the bar at eight in the morning.\n\nPRICES with COSTARE (to cost):\n• 'Quanto costa?' — How much does it cost? (one thing)\n• 'Quanto costano?' — How much do they cost? (several things)\n• 'Il caffè costa un euro.' — The coffee costs one euro.\n• 'I cornetti costano quattro euro.' — The croissants cost four euros.\n\nEURO is invariable: un euro, due euro, cento euro — it never changes.",
+          "exercises": [
+            {
+              "id": "u10l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (What time is it?)",
+              "sentence": "___ ore sono?",
+              "answers": [
+                "Che"
+              ],
+              "explanation": "'Che ore sono?' — 'che' (what) + ore (hours) + sono. A set phrase worth memorizing whole.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l2e2",
+              "type": "fill_blank",
+              "prompt": "It is 10:00. Complete the sentence.",
+              "sentence": "Sono le ___.",
+              "answers": [
+                "dieci",
+                "10"
+              ],
+              "explanation": "'Sono le dieci' = It is ten o'clock. Plural 'sono le' + number — the pattern for every hour except one.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l2e3",
+              "type": "multiple_choice",
+              "prompt": "It is 1:00. Choose the correct sentence.",
+              "question": "13:00 / 1:00",
+              "options": [
+                "È l'una.",
+                "Sono le una.",
+                "È una.",
+                "Sono l'una."
+              ],
+              "correctIndex": 0,
+              "explanation": "One o'clock is the only singular hour: 'È l'una' (è + l' + una). All other hours: 'Sono le due, le tre…'",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "It's three o'clock.",
+              "acceptedIt": [
+                "Sono le tre.",
+                "Sono le tre"
+              ],
+              "explanation": "'Sono le tre.' — sono + le + tre. Time uses essere in the plural because 'le ore' (the hours) is plural.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "How much does the coffee cost?",
+              "acceptedIt": [
+                "Quanto costa il caffè?",
+                "Quanto costa il caffè",
+                "Quanto costa il caffe?"
+              ],
+              "explanation": "'Quanto costa il caffè?' — quanto + costa (it costs) + il caffè. For several things: 'Quanto costano i cornetti?'",
+              "dictionaryRefs": [
+                "costare",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u10l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il cornetto costa due euro.",
+              "acceptedEn": [
+                "The croissant costs two euros."
+              ],
+              "explanation": "'Il cornetto costa due euro.' — costa (singular, one croissant) + due euro. Euro never changes.",
+              "dictionaryRefs": [
+                "il-cornetto",
+                "euro"
+              ]
+            },
+            {
+              "id": "u10l2e7",
+              "type": "multiple_choice",
+              "prompt": "What does 'di sera' mean?",
+              "question": "di sera",
+              "options": [
+                "in the evening",
+                "in the morning",
+                "in the afternoon",
+                "at night"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Di sera' = in the evening. Same pattern: di mattina (morning), di pomeriggio (afternoon), di sera (evening).",
+              "dictionaryRefs": [
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u10l2e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (A coffee costs one euro.)",
+              "sentence": "Un caffè ___ un euro.",
+              "answers": [
+                "costa"
+              ],
+              "explanation": "'Un caffè costa un euro' — costare, singular (one coffee): costa. Plural would be 'costano'.",
+              "dictionaryRefs": [
+                "costare",
+                "il-caffe",
+                "euro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u10l3",
+          "type": "mixed",
+          "title": "Tutto insieme: ripasso generale",
+          "dictionaryRefs": [
+            "ciao",
+            "buongiorno",
+            "di-dove-sei",
+            "quanti-anni-hai",
+            "ci-sono",
+            "il-bar",
+            "andare",
+            "venire",
+            "il-caffe",
+            "oggi"
+          ],
+          "exercises": [
+            {
+              "id": "u10l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Units 1 + 9)",
+              "question": "Buongiorno! Vorrei un caffè.",
+              "options": [
+                "Good morning! I would like a coffee.",
+                "Good evening! I want two coffees.",
+                "Good morning! Do you want a coffee?",
+                "Hello! The coffee is good."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Buongiorno' (Unit 1) + 'vorrei un caffè' (Unit 9) — the perfect start of an Italian morning.",
+              "dictionaryRefs": [
+                "buongiorno",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u10l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Units 1–2)",
+              "sourceEn": "Hi! Where are you from?",
+              "acceptedIt": [
+                "Ciao! Di dove sei?",
+                "Ciao! Di dove sei",
+                "Ciao, di dove sei?"
+              ],
+              "explanation": "'Ciao!' + 'Di dove sei?' — greeting plus the from-question, straight from Units 1–2.",
+              "dictionaryRefs": [
+                "ciao",
+                "di-dove-sei"
+              ]
+            },
+            {
+              "id": "u10l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete with avere. (Unit 4)",
+              "sentence": "Quanti anni ___? — Ho venti anni.",
+              "answers": [
+                "hai"
+              ],
+              "explanation": "tu → hai. The age exchange from Unit 4: 'Quanti anni hai?' — 'Ho venti anni.'",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u10l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Units 5 + 7)",
+              "sourceIt": "Oggi vado al bar alle tre.",
+              "acceptedEn": [
+                "Today I'm going to the bar at three.",
+                "Today I go to the bar at three."
+              ],
+              "explanation": "'Oggi vado al bar alle tre.' — oggi (Unit 7) + vado + al bar (Unit 5) + alle tre (at three: a + le = alle).",
+              "dictionaryRefs": [
+                "oggi",
+                "andare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u10l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "al",
+                "Vieni",
+                "bar",
+                "oggi?"
+              ],
+              "correctSentence": "Vieni al bar oggi?",
+              "explanation": "'Vieni al bar oggi?' — verb, place, time. The invitation from Unit 7 with 'oggi' at the end.",
+              "dictionaryRefs": [
+                "venire",
+                "il-bar",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u10l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Units 4 + 6)",
+              "question": "Ci sono due ragazze al bar.",
+              "options": [
+                "There are two girls at the bar.",
+                "There is a girl at the bar.",
+                "The two girls are at school.",
+                "Two girls want the bar."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci sono' (Unit 4) + due ragazze (plural of la ragazza, Unit 6) + al bar (Unit 5).",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-ragazza",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u10l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Units 9–10)",
+              "sourceEn": "The coffee costs one euro.",
+              "acceptedIt": [
+                "Il caffè costa un euro.",
+                "Il caffè costa un euro",
+                "Il caffe costa un euro"
+              ],
+              "explanation": "'Il caffè costa un euro.' — singular costa + un euro. Euro never changes form.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u10l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Unit 2)",
+              "sentence": "Di ___ sei? — Sono di Napoli.",
+              "answers": [
+                "dove"
+              ],
+              "explanation": "'Di dove sei?' = Where are you from? — 'Sono di Napoli.' (Naples). Same pattern as Unit 2.",
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u10l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "che-ore-sono",
+            "costare",
+            "euro",
+            "vorrei",
+            "il-cappuccino",
+            "buongiorno",
+            "il-caffe",
+            "per-favore"
+          ],
+          "exercises": [
+            {
+              "id": "u10l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Che ore sono?",
+              "options": [
+                "What time is it?",
+                "How much is it?",
+                "What day is it?",
+                "Where are we?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Che ore sono?' — What time is it? Listen for 'ore' (hours).",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Sono le otto.",
+              "acceptedIt": [
+                "Sono le otto.",
+                "Sono le otto"
+              ],
+              "explanation": "You heard: 'Sono le otto.' — It is eight o'clock. Plural 'sono le' + number.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l4e3",
+              "type": "speaking",
+              "prompt": "Ask in Italian: how much does it cost?",
+              "targetIt": "Quanto costa?",
+              "minAccuracy": 0.7,
+              "explanation": "'Quanto costa?' — QUAN-to COS-ta. The question for every price tag in Italy.",
+              "dictionaryRefs": [
+                "costare"
+              ]
+            },
+            {
+              "id": "u10l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Vorrei un cappuccino.",
+              "options": [
+                "I would like a cappuccino.",
+                "Do you want a cappuccino?",
+                "The cappuccino is good.",
+                "I have a cappuccino."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Vorrei un cappuccino.' — the polite order from Unit 9. Remember: morning drink!",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-cappuccino"
+              ]
+            },
+            {
+              "id": "u10l4e5",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Costa due euro.",
+              "acceptedIt": [
+                "Costa due euro.",
+                "Costa due euro",
+                "Costa 2 euro"
+              ],
+              "explanation": "You heard: 'Costa due euro.' — It costs two euros. 'Due' from Unit 4 + invariable euro.",
+              "dictionaryRefs": [
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u10l4e6",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Good morning! A coffee, please.",
+              "targetIt": "Buongiorno! Un caffè, per favore.",
+              "minAccuracy": 0.7,
+              "explanation": "'Buongiorno! Un caffè, per favore.' — bwon-JOR-no, un caf-FÈ, per fa-VO-re. Your complete first order.",
+              "dictionaryRefs": [
+                "buongiorno",
+                "il-caffe",
+                "per-favore"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u10c",
+        "exercises": [
+          {
+            "id": "u10ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la mattina",
+            "options": [
+              "the morning",
+              "the evening",
+              "the afternoon",
+              "the day"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La mattina' (f) = the morning. 'Di mattina' = in the morning.",
+            "dictionaryRefs": [
+              "la-mattina"
+            ]
+          },
+          {
+            "id": "u10ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the dialogue. (What time is it? — It is five o'clock.)",
+            "sentence": "___ ore sono? — Sono le cinque.",
+            "answers": [
+              "Che"
+            ],
+            "explanation": "'Che ore sono?' — 'Sono le cinque.' Question and answer for the time.",
+            "dictionaryRefs": [
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u10ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "It is two o'clock.",
+            "acceptedIt": [
+              "Sono le due.",
+              "Sono le due"
+            ],
+            "explanation": "'Sono le due.' — plural sono le + number; only one o'clock is singular (È l'una).",
+            "dictionaryRefs": [
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u10ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Quanto costa il cornetto?",
+            "acceptedEn": [
+              "How much does the croissant cost?",
+              "How much is the croissant?"
+            ],
+            "explanation": "'Quanto costa il cornetto?' — quanto + costa (singular) + il cornetto.",
+            "dictionaryRefs": [
+              "costare",
+              "il-cornetto"
+            ]
+          },
+          {
+            "id": "u10ce5",
+            "type": "multiple_choice",
+            "prompt": "It is 15:00. Choose the correct sentence.",
+            "question": "Sono le tre ___.",
+            "options": [
+              "di pomeriggio",
+              "di mattina",
+              "di sera",
+              "di giorno"
+            ],
+            "correctIndex": 0,
+            "explanation": "15:00 is the afternoon: 'Sono le tre di pomeriggio.' Morning = di mattina, evening = di sera.",
+            "dictionaryRefs": [
+              "il-pomeriggio"
+            ]
+          },
+          {
+            "id": "u10ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (It costs five euros.)",
+            "sentence": "Costa cinque ___.",
+            "answers": [
+              "euro"
+            ],
+            "explanation": "'Costa cinque euro.' — euro is invariable: one euro, five euro. Never 'euri'.",
+            "dictionaryRefs": [
+              "euro"
+            ]
+          },
+          {
+            "id": "u10ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 7 recycling)",
+            "sourceEn": "Today I am going to school.",
+            "acceptedIt": [
+              "Oggi vado a scuola.",
+              "Oggi vado a scuola",
+              "Vado a scuola oggi"
+            ],
+            "explanation": "'Oggi vado a scuola.' — oggi + vado (io, andare) + a scuola (no article, set expression).",
+            "dictionaryRefs": [
+              "oggi",
+              "andare",
+              "la-scuola"
+            ]
+          },
+          {
+            "id": "u10ce8",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Quanto costa?",
+            "acceptedIt": [
+              "Quanto costa?",
+              "Quanto costa"
+            ],
+            "explanation": "You heard: 'Quanto costa?' — How much does it cost?",
+            "dictionaryRefs": [
+              "costare"
+            ]
+          },
+          {
+            "id": "u10ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 1 recycling)",
+            "mode": "choice",
+            "speakIt": "Ciao! Come ti chiami?",
+            "options": [
+              "Hi! What is your name?",
+              "Hi! How are you?",
+              "Bye! What's your name?",
+              "Hi! Where are you from?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ciao! Come ti chiami?' — the very first exchange of the course, Unit 1.",
+            "dictionaryRefs": [
+              "ciao",
+              "mi-chiamo"
+            ]
+          },
+          {
+            "id": "u10ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: It is three o'clock.",
+            "targetIt": "Sono le tre.",
+            "minAccuracy": 0.7,
+            "explanation": "'Sono le tre.' — SO-no le TRE. Soft, quick 'le' in the middle.",
+            "dictionaryRefs": [
+              "che-ore-sono"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -7024,6 +7723,107 @@
         }
       ],
       "introducedInUnit": 9
+    },
+    {
+      "id": "la-mattina",
+      "word": "mattina",
+      "article": "la",
+      "translation": "morning",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Vado al bar di mattina.",
+          "en": "I go to the bar in the morning."
+        }
+      ],
+      "introducedInUnit": 10
+    },
+    {
+      "id": "il-pomeriggio",
+      "word": "pomeriggio",
+      "article": "il",
+      "translation": "afternoon",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Sono le tre di pomeriggio.",
+          "en": "It is three in the afternoon."
+        }
+      ],
+      "introducedInUnit": 10
+    },
+    {
+      "id": "la-sera",
+      "word": "sera",
+      "article": "la",
+      "translation": "evening",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La sera è bella.",
+          "en": "The evening is beautiful."
+        }
+      ],
+      "introducedInUnit": 10
+    },
+    {
+      "id": "il-giorno",
+      "word": "giorno",
+      "article": "il",
+      "translation": "day",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il giorno è bello.",
+          "en": "The day is beautiful."
+        }
+      ],
+      "introducedInUnit": 10
+    },
+    {
+      "id": "che-ore-sono",
+      "word": "che ore sono",
+      "translation": "what time is it?",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Che ore sono? — Sono le tre.",
+          "en": "What time is it? — It is three o'clock."
+        }
+      ],
+      "introducedInUnit": 10
+    },
+    {
+      "id": "costare",
+      "word": "costare",
+      "translation": "to cost",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Il caffè costa un euro.",
+          "en": "The coffee costs one euro."
+        }
+      ],
+      "introducedInUnit": 10
+    },
+    {
+      "id": "euro",
+      "word": "euro",
+      "article": "l'",
+      "translation": "euro (invariable)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Costa tre euro.",
+          "en": "It costs three euros."
+        }
+      ],
+      "introducedInUnit": 10
     }
   ],
   "stories": []
