@@ -2550,6 +2550,689 @@
           }
         ]
       }
+    },
+    {
+      "id": "u5",
+      "number": 5,
+      "title": "Gli articoli",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "type": "vocabulary",
+          "title": "Le parole di ogni giorno",
+          "dictionaryRefs": [
+            "il-libro",
+            "lo-studente",
+            "la-casa",
+            "amico",
+            "lo-zaino",
+            "la-scuola",
+            "il-bar",
+            "lo-sport"
+          ],
+          "exercises": [
+            {
+              "id": "u5l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il libro",
+              "options": [
+                "the book",
+                "the school",
+                "the backpack",
+                "the bar"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il libro' (m) = the book. Masculine, regular consonant start → article 'il'. Plural: i libri.",
+              "dictionaryRefs": [
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u5l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "lo studente",
+              "options": [
+                "the student",
+                "the teacher",
+                "the friend",
+                "the school"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo studente' (m) = the student. The article is 'lo' because 'studente' starts with s+consonant — the full rule is in the next lesson.",
+              "dictionaryRefs": [
+                "lo-studente"
+              ]
+            },
+            {
+              "id": "u5l1e3",
+              "type": "fill_blank",
+              "prompt": "Complete with the article. (The house is big.)",
+              "sentence": "___ casa è grande.",
+              "answers": [
+                "La"
+              ],
+              "explanation": "'La casa' (f) = the house. Feminine, consonant start → 'la'. Plural: le case.",
+              "dictionaryRefs": [
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u5l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'amico",
+              "options": [
+                "the (male) friend",
+                "the year",
+                "the alphabet",
+                "the phone"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'amico' (m) = the friend. Before a vowel, il/lo/la all become l' — you saw it with 'l'alfabeto' and 'l'età'. A female friend: l'amica.",
+              "dictionaryRefs": [
+                "amico"
+              ]
+            },
+            {
+              "id": "u5l1e5",
+              "type": "fill_blank",
+              "prompt": "Complete with the article. (The backpack is new.)",
+              "sentence": "___ zaino è nuovo.",
+              "answers": [
+                "Lo"
+              ],
+              "explanation": "'Lo zaino' (m) = the backpack. Words starting with z take 'lo': lo zaino, lo zero. Plural: gli zaini.",
+              "dictionaryRefs": [
+                "lo-zaino"
+              ]
+            },
+            {
+              "id": "u5l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la scuola",
+              "options": [
+                "the school",
+                "the house",
+                "the letter",
+                "the book"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La scuola' (f) = the school. Feminine → 'la', even though 'scuola' starts with s+consonant (that rule only changes masculine articles).",
+              "dictionaryRefs": [
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u5l1e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il bar è qui.",
+              "acceptedEn": [
+                "The bar is here.",
+                "The café is here."
+              ],
+              "explanation": "'Il bar' (m) = the bar/café. In Italy a 'bar' is where you drink coffee — more in Unit 9.",
+              "dictionaryRefs": [
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u5l1e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "lo sport",
+              "options": [
+                "sport",
+                "the spelling",
+                "the student",
+                "the number"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo sport' (m) — another s+consonant word taking 'lo', like 'lo studente'. Italian keeps the article where English drops it: 'Lo sport è bello' = Sport is nice.",
+              "dictionaryRefs": [
+                "lo-sport"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u5l2",
+          "type": "grammar",
+          "title": "Il, lo, la, i, gli, le",
+          "dictionaryRefs": [
+            "il-libro",
+            "lo-studente",
+            "la-casa",
+            "amico",
+            "lo-zaino",
+            "la-scuola"
+          ],
+          "grammarNotes": "GLI ARTICOLI DETERMINATIVI — the definite article ('the') has six forms:\n\nMASCULINE singular:\n• il — before a regular consonant: il libro, il bar\n• lo — before s+consonant, z, gn, ps, x, y: lo studente, lo zaino, lo gnocco, lo psicologo, lo yogurt\n• l' — before a vowel: l'amico, l'anno\n\nMASCULINE plural:\n• i — for 'il' words: il libro → i libri\n• gli — for 'lo' and 'l'' words: lo studente → gli studenti, lo zaino → gli zaini, l'amico → gli amici\n\nFEMININE singular:\n• la — before a consonant: la casa, la scuola (feminine does NOT change before s+consonant!)\n• l' — before a vowel: l'amica, l'età\n\nFEMININE plural (always one form):\n• le — la casa → le case, l'amica → le amiche\n\nWHY lo/gli? Clusters like s+consonant, z, gn, ps are hard to pronounce after 'il' — 'il studente' trips the tongue. Italian smooths them with 'lo'. Same reason English says 'an apple', not 'a apple'.\n\nWHY l'? Two vowels in a row (la amico) are clumsy, so the article drops its vowel: l'amico.\n\nNOTE: Italian uses 'the' much more than English. English says 'Books are expensive'; Italian says 'I libri sono cari' — with the article.",
+          "exercises": [
+            {
+              "id": "u5l2e1",
+              "type": "fill_blank",
+              "prompt": "Choose the article. (The student arrives.)",
+              "sentence": "___ studente arriva.",
+              "answers": [
+                "Lo"
+              ],
+              "explanation": "'Studente' starts with s+consonant → 'lo'. 'Il studente' would be hard to say, so Italian uses the smoother 'lo'.",
+              "dictionaryRefs": [
+                "lo-studente"
+              ]
+            },
+            {
+              "id": "u5l2e2",
+              "type": "fill_blank",
+              "prompt": "Choose the article. (The friends arrive.)",
+              "sentence": "___ amici arrivano.",
+              "answers": [
+                "Gli"
+              ],
+              "explanation": "Plural of 'l'amico' → 'gli amici'. Masculine words starting with a vowel take 'gli' in the plural: gli amici, gli anni.",
+              "dictionaryRefs": [
+                "amico"
+              ]
+            },
+            {
+              "id": "u5l2e3",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct article.",
+              "question": "___ zaino",
+              "options": [
+                "lo",
+                "il",
+                "la",
+                "i"
+              ],
+              "correctIndex": 0,
+              "explanation": "Z-words take 'lo': lo zaino, lo zero, lo zucchero. Plural: gli zaini.",
+              "dictionaryRefs": [
+                "lo-zaino"
+              ]
+            },
+            {
+              "id": "u5l2e4",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct article.",
+              "question": "___ case",
+              "options": [
+                "le",
+                "la",
+                "gli",
+                "i"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Case' is feminine plural → 'le'. The feminine plural is always 'le', for every word: le case, le scuole, le amiche.",
+              "dictionaryRefs": [
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u5l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "The books are on the table.",
+              "acceptedIt": [
+                "I libri sono sul tavolo.",
+                "I libri sono sul tavolo"
+              ],
+              "explanation": "'Il libro' plural → 'i libri'. Regular consonant, masculine → the plural article is 'i'.",
+              "dictionaryRefs": [
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u5l2e6",
+              "type": "fill_blank",
+              "prompt": "Choose the article. (The school is here.)",
+              "sentence": "___ scuola è qui.",
+              "answers": [
+                "La"
+              ],
+              "explanation": "Feminine words keep 'la' even before s+consonant: la scuola, la studentessa. The s+consonant rule only touches masculine articles.",
+              "dictionaryRefs": [
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u5l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Gli studenti sono qui.",
+              "acceptedEn": [
+                "The students are here.",
+                "The students are here"
+              ],
+              "explanation": "'Lo studente' plural → 'gli studenti'. Every 'lo' word takes 'gli' in the plural.",
+              "dictionaryRefs": [
+                "lo-studente"
+              ]
+            },
+            {
+              "id": "u5l2e8",
+              "type": "multiple_choice",
+              "prompt": "Why is it 'lo studente' and not 'il studente'?",
+              "question": "Perché 'lo studente'?",
+              "options": [
+                "Because 'studente' starts with s+consonant",
+                "Because 'studente' is feminine",
+                "Because 'studente' is plural",
+                "There is no rule — it's random"
+              ],
+              "correctIndex": 0,
+              "explanation": "S+consonant clusters (st-, sp-, sc-…) plus z, gn, ps, x, y all take 'lo'. It makes the phrase easier to pronounce: lo studente, lo sport, lo zaino.",
+              "dictionaryRefs": [
+                "lo-studente",
+                "lo-sport",
+                "lo-zaino"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u5l3",
+          "type": "mixed",
+          "title": "Articoli dappertutto: ripasso",
+          "dictionaryRefs": [
+            "ce",
+            "ci-sono",
+            "il-telefono",
+            "il-nome",
+            "il-libro",
+            "la-casa",
+            "amico",
+            "il-bar"
+          ],
+          "exercises": [
+            {
+              "id": "u5l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 4 recycling)",
+              "sourceEn": "There is a book on the table.",
+              "acceptedIt": [
+                "C'è un libro sul tavolo.",
+                "C'è un libro sul tavolo",
+                "C e un libro sul tavolo"
+              ],
+              "explanation": "'C'è' + 'un libro' (indefinite 'a' — full rule in Unit 9) + 'sul tavolo'. Singular → c'è.",
+              "dictionaryRefs": [
+                "ce",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u5l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 4 recycling)",
+              "question": "Ci sono due amici.",
+              "options": [
+                "There are two friends.",
+                "There is a friend.",
+                "The friends are two.",
+                "I have two friends."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci sono' + plural: Ci sono due amici = There are two friends. 'Due' = 2, from Unit 4.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "amico"
+              ]
+            },
+            {
+              "id": "u5l3e3",
+              "type": "fill_blank",
+              "prompt": "Choose the article. (The phone is on the table.)",
+              "sentence": "___ telefono è sul tavolo.",
+              "answers": [
+                "Il"
+              ],
+              "explanation": "'Telefono' (Unit 4) is masculine with a regular consonant → 'il telefono'. Plural: i telefoni.",
+              "dictionaryRefs": [
+                "il-telefono"
+              ]
+            },
+            {
+              "id": "u5l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Gli amici sono al bar.",
+              "acceptedEn": [
+                "The friends are at the bar.",
+                "The friends are at the café."
+              ],
+              "explanation": "'Gli amici' (plural of l'amico) + 'al bar' (at the bar, a + il = al). Two article rules in one short sentence.",
+              "dictionaryRefs": [
+                "amico",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u5l3e5",
+              "type": "fill_blank",
+              "prompt": "Choose the article. (The name is Marco.)",
+              "sentence": "___ nome è Marco.",
+              "answers": [
+                "Il"
+              ],
+              "explanation": "'Nome' (Unit 3) is masculine, regular consonant → 'il nome'. Remember: 'nome' ends in -e but it's still masculine.",
+              "dictionaryRefs": [
+                "il-nome"
+              ]
+            },
+            {
+              "id": "u5l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "libro",
+                "Il",
+                "è",
+                "qui."
+              ],
+              "correctSentence": "Il libro è qui.",
+              "explanation": "'Il libro è qui.' — article + noun + verb. Italian word order here matches English: The book is here.",
+              "dictionaryRefs": [
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u5l3e7",
+              "type": "multiple_choice",
+              "prompt": "Which one is correct?",
+              "question": "Scegli la forma giusta.",
+              "options": [
+                "lo zaino",
+                "il zaino",
+                "la zaino",
+                "l'zaino"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Zaino' is masculine and starts with z → 'lo zaino'. Never 'il' before z.",
+              "dictionaryRefs": [
+                "lo-zaino"
+              ]
+            },
+            {
+              "id": "u5l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "The schools are here.",
+              "acceptedIt": [
+                "Le scuole sono qui.",
+                "Le scuole sono qui"
+              ],
+              "explanation": "'La scuola' plural → 'le scuole'. Feminine plural is always 'le'; note the ending change -a → -e: scuola → scuole.",
+              "dictionaryRefs": [
+                "la-scuola"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u5l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "lo-studente",
+            "amico",
+            "il-bar",
+            "il-libro",
+            "la-casa",
+            "la-scuola",
+            "lo-zaino"
+          ],
+          "exercises": [
+            {
+              "id": "u5l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Lo studente è qui.",
+              "options": [
+                "The student is here.",
+                "The students are here.",
+                "The school is here.",
+                "The student is there."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Lo studente è qui.' — singular 'lo studente'. Plural would be 'gli studenti'.",
+              "dictionaryRefs": [
+                "lo-studente"
+              ]
+            },
+            {
+              "id": "u5l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Gli amici sono al bar.",
+              "acceptedIt": [
+                "Gli amici sono al bar.",
+                "Gli amici sono al bar"
+              ],
+              "explanation": "You heard: 'Gli amici sono al bar.' — The friends are at the bar. 'Gli' before the vowel of 'amici'.",
+              "dictionaryRefs": [
+                "amico",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u5l4e3",
+              "type": "speaking",
+              "prompt": "Say it in Italian: The book is on the table.",
+              "targetIt": "Il libro è sul tavolo.",
+              "minAccuracy": 0.7,
+              "explanation": "'Il libro è sul tavolo.' — il LI-bro è sul TA-vo-lo. Single r in 'libro', tapped lightly.",
+              "dictionaryRefs": [
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u5l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Le case sono grandi.",
+              "options": [
+                "The houses are big.",
+                "The house is big.",
+                "The schools are big.",
+                "The houses are here."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Le case sono grandi.' — 'le case' is the plural of 'la casa'; 'grandi' = big, plural.",
+              "dictionaryRefs": [
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u5l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: The school is here.",
+              "targetIt": "La scuola è qui.",
+              "minAccuracy": 0.7,
+              "explanation": "'La scuola è qui.' — SC before u is a hard 'sk': la SKWO-la. (Only sc+e/i gives the 'sh' sound, from Unit 3.)",
+              "dictionaryRefs": [
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u5l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Lo zaino è nuovo.",
+              "acceptedIt": [
+                "Lo zaino è nuovo.",
+                "Lo zaino è nuovo"
+              ],
+              "explanation": "You heard: 'Lo zaino è nuovo.' — The backpack is new. 'Nuovo' = new.",
+              "dictionaryRefs": [
+                "lo-zaino"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u5c",
+        "exercises": [
+          {
+            "id": "u5ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "lo studente",
+            "options": [
+              "the student",
+              "the students",
+              "the school",
+              "the teacher"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Lo studente' (m) = the student. Singular 'lo'; plural 'gli studenti'.",
+            "dictionaryRefs": [
+              "lo-studente"
+            ]
+          },
+          {
+            "id": "u5ce2",
+            "type": "fill_blank",
+            "prompt": "Choose the article. (The friend arrives.)",
+            "sentence": "___ amico arriva.",
+            "answers": [
+              "L'",
+              "L"
+            ],
+            "explanation": "Before a vowel, the article shrinks to l': l'amico. Full form would be 'il' — but 'il amico' is never said.",
+            "dictionaryRefs": [
+              "amico"
+            ]
+          },
+          {
+            "id": "u5ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "The house is big.",
+            "acceptedIt": [
+              "La casa è grande.",
+              "La casa è grande",
+              "La casa e grande"
+            ],
+            "explanation": "'La casa è grande.' — feminine consonant-start → 'la'; adjective 'grande' works for both genders.",
+            "dictionaryRefs": [
+              "la-casa"
+            ]
+          },
+          {
+            "id": "u5ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "I libri sono sul tavolo.",
+            "acceptedEn": [
+              "The books are on the table."
+            ],
+            "explanation": "'I libri' = the books — plural of 'il libro'. Regular masculine consonant words take 'i' in the plural.",
+            "dictionaryRefs": [
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u5ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct article.",
+            "question": "___ studenti",
+            "options": [
+              "gli",
+              "i",
+              "le",
+              "lo"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Lo studente' → plural 'gli studenti'. Every 'lo' word (s+consonant, z, gn, ps) takes 'gli' in the plural.",
+            "dictionaryRefs": [
+              "lo-studente"
+            ]
+          },
+          {
+            "id": "u5ce6",
+            "type": "fill_blank",
+            "prompt": "Choose the article. (The schools are here.)",
+            "sentence": "___ scuole sono qui.",
+            "answers": [
+              "Le"
+            ],
+            "explanation": "Feminine plural is always 'le': la scuola → le scuole, la casa → le case.",
+            "dictionaryRefs": [
+              "la-scuola"
+            ]
+          },
+          {
+            "id": "u5ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "The friends are at the bar.",
+            "acceptedIt": [
+              "Gli amici sono al bar.",
+              "Gli amici sono al bar"
+            ],
+            "explanation": "'Gli amici' (plural of l'amico) + 'al bar' (a + il = al). Both article rules at once.",
+            "dictionaryRefs": [
+              "amico",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u5ce8",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Lo sport è bello.",
+            "acceptedIt": [
+              "Lo sport è bello.",
+              "Lo sport è bello"
+            ],
+            "explanation": "You heard: 'Lo sport è bello.' — Sport is nice. Italian keeps the article where English drops it.",
+            "dictionaryRefs": [
+              "lo-sport"
+            ]
+          },
+          {
+            "id": "u5ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "C'è un libro sul tavolo.",
+            "options": [
+              "There is a book on the table.",
+              "There are books on the table.",
+              "The book is under the table.",
+              "Is there a book on the table?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard 'C'è un libro sul tavolo.' — c'è (singular, from Unit 4) + un libro + sul tavolo.",
+            "dictionaryRefs": [
+              "ce",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u5ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: The backpack is new.",
+            "targetIt": "Lo zaino è nuovo.",
+            "minAccuracy": 0.7,
+            "explanation": "'Lo zaino è nuovo.' — lo DZA-i-no è NWO-vo. Italian z is pronounced 'dz' or 'ts', never like English z.",
+            "dictionaryRefs": [
+              "lo-zaino"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -3003,6 +3686,126 @@
         }
       ],
       "introducedInUnit": 4
+    },
+    {
+      "id": "il-libro",
+      "word": "libro",
+      "article": "il",
+      "translation": "book",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il libro è sul tavolo.",
+          "en": "The book is on the table."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "lo-studente",
+      "word": "studente",
+      "article": "lo",
+      "translation": "student (male)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Lo studente arriva.",
+          "en": "The student arrives."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "la-casa",
+      "word": "casa",
+      "article": "la",
+      "translation": "house; home",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La casa è grande.",
+          "en": "The house is big."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "amico",
+      "word": "amico",
+      "article": "l'",
+      "translation": "friend (male)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Marco è un amico.",
+          "en": "Marco is a friend."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "lo-zaino",
+      "word": "zaino",
+      "article": "lo",
+      "translation": "backpack",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Lo zaino è nuovo.",
+          "en": "The backpack is new."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "la-scuola",
+      "word": "scuola",
+      "article": "la",
+      "translation": "school",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La scuola è qui.",
+          "en": "The school is here."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "il-bar",
+      "word": "bar",
+      "article": "il",
+      "translation": "bar; café",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il bar è qui.",
+          "en": "The bar is here."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "lo-sport",
+      "word": "sport",
+      "article": "lo",
+      "translation": "sport",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Lo sport è bello.",
+          "en": "Sport is nice."
+        }
+      ],
+      "introducedInUnit": 5
     }
   ],
   "stories": []
