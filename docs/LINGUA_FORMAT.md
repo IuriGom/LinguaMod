@@ -219,8 +219,8 @@ Used by `fill_blank`, `translation_*`, `listening(type)`, and speaking scoring.
 1. Unicode NFC; lowercase.
 2. Trim; collapse all whitespace runs to one space.
 3. Normalize apostrophe variants (`'`, `'`, `` ` ``, `ʼ`, `´`) to `'`.
-4. Strip punctuation `. , ! ? ; : " « » ( )` (apostrophes are **kept**).
-5. Treat `l'amore` ≈ `l amore` (a space after an eliding apostrophe is insignificant).
+4. Strip punctuation `. , ! ? ; : " « » ( )`.
+5. Apostrophes act as token separators: `l'amore`, `l' amore` and `l amore` are all equivalent (two tokens `l`, `amore`).
 
 **Comparison**: actual matches an accepted variant iff, token by token (same token count):
 
