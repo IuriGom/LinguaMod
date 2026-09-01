@@ -5332,6 +5332,709 @@
           }
         ]
       }
+    },
+    {
+      "id": "u9",
+      "number": 9,
+      "title": "Al bar",
+      "lessons": [
+        {
+          "id": "u9l1",
+          "type": "vocabulary",
+          "title": "Al bar: le parole",
+          "dictionaryRefs": [
+            "il-caffe",
+            "il-cappuccino",
+            "il-cornetto",
+            "acqua",
+            "il-conto",
+            "per-favore",
+            "vorrei"
+          ],
+          "exercises": [
+            {
+              "id": "u9l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il caffè",
+              "options": [
+                "the coffee (an espresso)",
+                "the cappuccino",
+                "the bill",
+                "the croissant"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il caffè' (m) = the coffee. In Italy 'un caffè' is an espresso by default — small, strong, drunk standing at the bar.",
+              "dictionaryRefs": [
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il cappuccino",
+              "options": [
+                "the cappuccino",
+                "the coffee",
+                "the water",
+                "the bill"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il cappuccino' (m) — coffee with foamy milk. Culture note: Italians drink it only in the morning; after lunch it's caffè.",
+              "dictionaryRefs": [
+                "il-cappuccino"
+              ]
+            },
+            {
+              "id": "u9l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il cornetto",
+              "options": [
+                "the croissant",
+                "the coffee",
+                "the bill",
+                "the backpack"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il cornetto' (m) = the croissant — the classic Italian breakfast next to a cappuccino. (In the south you may hear 'brioche'.)",
+              "dictionaryRefs": [
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u9l1e4",
+              "type": "fill_blank",
+              "prompt": "Complete the order. (A mineral water, please.)",
+              "sentence": "Un'___ minerale, per favore.",
+              "answers": [
+                "acqua"
+              ],
+              "explanation": "'L'acqua' (f) = the water. Feminine + vowel start → un' (indefinite) or l' (definite): un'acqua, l'acqua.",
+              "dictionaryRefs": [
+                "acqua",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l1e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The bill, please.)",
+              "sentence": "Il ___, per favore.",
+              "answers": [
+                "conto"
+              ],
+              "explanation": "'Il conto' (m) = the bill. 'Il conto, per favore' — the two words you need at the end of every visit to the bar.",
+              "dictionaryRefs": [
+                "il-conto",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "per favore",
+              "options": [
+                "please",
+                "thank you",
+                "excuse me",
+                "you're welcome"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Per favore' = please — literally 'for favor'. You'll also hear 'per piacere'; both are perfect.",
+              "dictionaryRefs": [
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
+              "sourceEn": "I would like a coffee.",
+              "acceptedIt": [
+                "Vorrei un caffè.",
+                "Vorrei un caffè",
+                "Io vorrei un caffè"
+              ],
+              "explanation": "Set phrase — learn it whole: 'Vorrei…' = I would like… It's the polite way to order. The grammar behind it (the conditional) arrives in Unit 41.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (set phrase)",
+              "sourceIt": "Vuoi un caffè?",
+              "acceptedEn": [
+                "Do you want a coffee?",
+                "Would you like a coffee?"
+              ],
+              "explanation": "Set phrase: 'Vuoi un caffè?' = Do you want a coffee? — the friendly way to invite someone. Full grammar of 'vuoi' (volere) comes in Unit 24.",
+              "dictionaryRefs": [
+                "il-caffe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u9l2",
+          "type": "grammar",
+          "title": "Un, uno, una, un' — e come ordinare",
+          "dictionaryRefs": [
+            "il-caffe",
+            "il-cappuccino",
+            "acqua",
+            "vorrei",
+            "per-favore"
+          ],
+          "grammarNotes": "GLI ARTICOLI INDETERMINATIVI — 'a/an' in Italian:\n\n• un — masculine, regular: un caffè, un cornetto, un libro\n• uno — masculine, s+consonant / z / gn / ps: uno studente, uno zaino (same rule as 'lo', Unit 5!)\n• una — feminine, consonant: una scuola, una casa\n• un' — feminine, vowel: un'acqua, un'amica\n\nWHY: the same sound-smoothing as il/lo/la. 'Un studente' trips the tongue → 'uno studente'. 'Una acqua' doubles the vowel → 'un'acqua'.\n\nORDERING POLITELY — set phrases (learn them whole; the grammar of 'vuoi'/'vorrei' comes much later):\n• 'Vorrei un caffè.' — I would like a coffee. (polite)\n• 'Vuoi un caffè?' — Do you want a coffee? (friendly — the invitation)\n• 'Per me un cornetto.' — For me, a croissant.\n• 'Il conto, per favore.' — The bill, please.\n\nCULTURE NOTE: in Italy a 'bar' is a café. 'Un caffè' = an espresso. Cappuccino is a MORNING drink — ordering one after lunch marks you as a tourist. And locals often drink standing at the counter ('al banco'): fast, cheap, social.",
+          "exercises": [
+            {
+              "id": "u9l2e1",
+              "type": "fill_blank",
+              "prompt": "Choose the indefinite article. (A coffee, please.)",
+              "sentence": "___ caffè, per favore.",
+              "answers": [
+                "Un"
+              ],
+              "explanation": "'Caffè' is masculine, regular consonant → 'un'. Like 'il' → 'un'; 'lo' → 'uno'.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l2e2",
+              "type": "fill_blank",
+              "prompt": "Choose the indefinite article. (A mineral water.)",
+              "sentence": "___ acqua minerale.",
+              "answers": [
+                "Un'"
+              ],
+              "explanation": "'Acqua' is feminine and starts with a vowel → 'un''. Compare: una casa (consonant) vs un'amica (vowel).",
+              "dictionaryRefs": [
+                "acqua"
+              ]
+            },
+            {
+              "id": "u9l2e3",
+              "type": "multiple_choice",
+              "prompt": "Choose the indefinite article. (Unit 5 recycling)",
+              "question": "___ studente",
+              "options": [
+                "uno",
+                "un",
+                "una",
+                "un'"
+              ],
+              "correctIndex": 0,
+              "explanation": "S+consonant → 'uno', exactly like 'lo studente' from Unit 5. The lo/uno rules are the same rule.",
+              "dictionaryRefs": [
+                "lo-studente"
+              ]
+            },
+            {
+              "id": "u9l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "A coffee, please.",
+              "acceptedIt": [
+                "Un caffè, per favore.",
+                "Un caffè, per favore",
+                "Un caffè per favore",
+                "Un caffe, per favore"
+              ],
+              "explanation": "'Un caffè, per favore.' — the smallest complete order in Italian. Un (masculine) + caffè + per favore.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (set phrase)",
+              "sourceEn": "I would like a cappuccino.",
+              "acceptedIt": [
+                "Vorrei un cappuccino.",
+                "Vorrei un cappuccino",
+                "Io vorrei un cappuccino"
+              ],
+              "explanation": "Set phrase: 'Vorrei un cappuccino.' 'Vorrei' works with any order — learn it as one polite chunk.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-cappuccino"
+              ]
+            },
+            {
+              "id": "u9l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Vuoi un cornetto?",
+              "acceptedEn": [
+                "Do you want a croissant?",
+                "Would you like a croissant?"
+              ],
+              "explanation": "'Vuoi un cornetto?' = Do you want a croissant? 'Vuoi' + un + noun is the friendly offer pattern.",
+              "dictionaryRefs": [
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u9l2e7",
+              "type": "multiple_choice",
+              "prompt": "Culture check: when do Italians drink cappuccino?",
+              "question": "Quando si beve il cappuccino?",
+              "options": [
+                "In the morning",
+                "After dinner",
+                "At midnight",
+                "Never"
+              ],
+              "correctIndex": 0,
+              "explanation": "Cappuccino is a morning drink — with a cornetto it's THE Italian breakfast. After a meal, Italians take a caffè (espresso).",
+              "dictionaryRefs": [
+                "il-cappuccino",
+                "quando"
+              ]
+            },
+            {
+              "id": "u9l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il conto, per favore.",
+              "acceptedEn": [
+                "The bill, please.",
+                "The check, please."
+              ],
+              "explanation": "'Il conto, per favore' = The bill, please. 'Conto' — c-o-n-t-o — is the word to listen for at the end.",
+              "dictionaryRefs": [
+                "il-conto",
+                "per-favore"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u9l3",
+          "type": "mixed",
+          "title": "Al bar: ripasso",
+          "dictionaryRefs": [
+            "grazie",
+            "ce",
+            "il-bar",
+            "lo-zaino",
+            "il-caffe",
+            "il-cappuccino",
+            "il-cornetto",
+            "vorrei",
+            "per-favore"
+          ],
+          "exercises": [
+            {
+              "id": "u9l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 4 recycling)",
+              "question": "C'è un bar qui?",
+              "options": [
+                "Is there a bar here?",
+                "There is a bar here.",
+                "Where is the bar?",
+                "The bar is here."
+              ],
+              "correctIndex": 0,
+              "explanation": "'C'è un bar qui?' — c'è (there is, Unit 4) + un bar + qui, with question intonation: Is there a bar here?",
+              "dictionaryRefs": [
+                "ce",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u9l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (the invitation)",
+              "sourceEn": "Do you want a coffee?",
+              "acceptedIt": [
+                "Vuoi un caffè?",
+                "Vuoi un caffè",
+                "Vuoi un caffe?"
+              ],
+              "explanation": "'Vuoi un caffè?' — the friendliest four words in Italy. Set phrase; 'vuoi' grammar comes later.",
+              "dictionaryRefs": [
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the order. (I would like a cappuccino and a croissant.)",
+              "sentence": "Vorrei ___ cappuccino e un cornetto.",
+              "answers": [
+                "un"
+              ],
+              "explanation": "'Cappuccino' is masculine, regular consonant → 'un cappuccino'. Both parts of the order take 'un'.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-cappuccino",
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u9l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 1 recycling)",
+              "sourceIt": "Grazie, il conto per favore.",
+              "acceptedEn": [
+                "Thank you, the bill please.",
+                "Thanks, the check please.",
+                "Thank you, the check please."
+              ],
+              "explanation": "'Grazie' (Unit 1) + 'il conto' + 'per favore' — the polite way to close your visit to the bar.",
+              "dictionaryRefs": [
+                "grazie",
+                "il-conto",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "un",
+                "Vuoi",
+                "caffè?"
+              ],
+              "correctSentence": "Vuoi un caffè?",
+              "explanation": "'Vuoi un caffè?' — verb first (vuoi), then the article, then the noun. Same order as English 'Do you want a coffee?'",
+              "dictionaryRefs": [
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (For me, a coffee.)",
+              "sentence": "Per ___ un caffè.",
+              "answers": [
+                "me"
+              ],
+              "explanation": "'Per me un caffè' = For me, a coffee — how you order when you're with others: 'Per me…, per te…?' (for me…, for you…?)",
+              "dictionaryRefs": [
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l3e7",
+              "type": "multiple_choice",
+              "prompt": "Which one is correct? (Unit 5 recycling)",
+              "question": "Scegli la forma giusta.",
+              "options": [
+                "uno zaino",
+                "un zaino",
+                "una zaino",
+                "un'zaino"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Zaino' is masculine and starts with z → 'uno zaino' — same z-rule as 'lo zaino' from Unit 5.",
+              "dictionaryRefs": [
+                "lo-zaino"
+              ]
+            },
+            {
+              "id": "u9l3e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Vorrei un'acqua, per favore.",
+              "acceptedEn": [
+                "I would like a water, please.",
+                "I'd like a water, please.",
+                "I would like some water, please."
+              ],
+              "explanation": "'Vorrei un'acqua, per favore.' — un' before the vowel of acqua. The full polite order.",
+              "dictionaryRefs": [
+                "vorrei",
+                "acqua",
+                "per-favore"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u9l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "vorrei",
+            "il-caffe",
+            "il-cappuccino",
+            "per-favore",
+            "il-conto",
+            "il-cornetto",
+            "acqua"
+          ],
+          "exercises": [
+            {
+              "id": "u9l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Vorrei un caffè.",
+              "options": [
+                "I would like a coffee.",
+                "I want two coffees.",
+                "Do you want a coffee?",
+                "The coffee is here."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Vorrei un caffè.' — the polite order. Listen for 'vorrei' at the start: vor-RÈI.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Un cappuccino, per favore.",
+              "acceptedIt": [
+                "Un cappuccino, per favore.",
+                "Un cappuccino, per favore",
+                "Un cappuccino per favore"
+              ],
+              "explanation": "You heard: 'Un cappuccino, per favore.' — double p and double c in cappuccino: cap-puc-CI-no.",
+              "dictionaryRefs": [
+                "il-cappuccino",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l4e3",
+              "type": "speaking",
+              "prompt": "Ask in Italian: do you want a coffee?",
+              "targetIt": "Vuoi un caffè?",
+              "minAccuracy": 0.7,
+              "explanation": "'Vuoi un caffè?' — VUO-i un caf-FÈ, voice rising at the end. The invitation.",
+              "dictionaryRefs": [
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u9l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Il conto, per favore.",
+              "options": [
+                "The bill, please.",
+                "The coffee, please.",
+                "A table, please.",
+                "The menu, please."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Il conto, per favore.' — The bill, please. 'Conto' = bill.",
+              "dictionaryRefs": [
+                "il-conto",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l4e5",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Vuoi un cornetto?",
+              "acceptedIt": [
+                "Vuoi un cornetto?",
+                "Vuoi un cornetto"
+              ],
+              "explanation": "You heard: 'Vuoi un cornetto?' — Do you want a croissant? 'Cornetto' has a double t: cor-NET-to.",
+              "dictionaryRefs": [
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u9l4e6",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I would like a water.",
+              "targetIt": "Vorrei un'acqua.",
+              "minAccuracy": 0.7,
+              "explanation": "'Vorrei un'acqua.' — vor-RÈI u-NAC-qua. The 'cq' is a long hard k sound: AC-qua.",
+              "dictionaryRefs": [
+                "vorrei",
+                "acqua"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u9c",
+        "exercises": [
+          {
+            "id": "u9ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il caffè",
+            "options": [
+              "the coffee (an espresso)",
+              "the bill",
+              "the croissant",
+              "the water"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il caffè' (m) = the coffee — in Italy, an espresso by default.",
+            "dictionaryRefs": [
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u9ce2",
+            "type": "fill_blank",
+            "prompt": "Choose the indefinite article. (A croissant, please.)",
+            "sentence": "___ cornetto, per favore.",
+            "answers": [
+              "Un"
+            ],
+            "explanation": "'Cornetto' is masculine, regular consonant → 'un'.",
+            "dictionaryRefs": [
+              "il-cornetto",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u9ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (set phrase)",
+            "sourceEn": "I would like a cappuccino.",
+            "acceptedIt": [
+              "Vorrei un cappuccino.",
+              "Vorrei un cappuccino",
+              "Io vorrei un cappuccino"
+            ],
+            "explanation": "Set phrase: 'Vorrei un cappuccino.' — polite ordering in three words.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-cappuccino"
+            ]
+          },
+          {
+            "id": "u9ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Vuoi un caffè?",
+            "acceptedEn": [
+              "Do you want a coffee?",
+              "Would you like a coffee?"
+            ],
+            "explanation": "'Vuoi un caffè?' = Do you want a coffee? — the friendly invitation.",
+            "dictionaryRefs": [
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u9ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the indefinite article.",
+            "question": "___ acqua",
+            "options": [
+              "un'",
+              "una",
+              "un",
+              "uno"
+            ],
+            "correctIndex": 0,
+            "explanation": "Feminine + vowel start → 'un'': un'acqua. Compare: una casa, uno studente, un caffè.",
+            "dictionaryRefs": [
+              "acqua"
+            ]
+          },
+          {
+            "id": "u9ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The bill, please.)",
+            "sentence": "Il ___, per favore.",
+            "answers": [
+              "conto"
+            ],
+            "explanation": "'Il conto' (m) = the bill. The word you need at the end.",
+            "dictionaryRefs": [
+              "il-conto"
+            ]
+          },
+          {
+            "id": "u9ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 4 + Unit 5 recycling)",
+            "sourceEn": "There is a bar here.",
+            "acceptedIt": [
+              "C'è un bar qui.",
+              "C'è un bar qui",
+              "C e un bar qui"
+            ],
+            "explanation": "'C'è un bar qui.' — c'è (there is) + un bar (masculine → un) + qui.",
+            "dictionaryRefs": [
+              "ce",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u9ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Vuoi un cornetto?",
+            "options": [
+              "Do you want a croissant?",
+              "Do you want a coffee?",
+              "I would like a croissant.",
+              "The croissant is good."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard 'Vuoi un cornetto?' — Do you want a croissant? 'Vuoi' = you want (set phrase).",
+            "dictionaryRefs": [
+              "il-cornetto"
+            ]
+          },
+          {
+            "id": "u9ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Vorrei un caffè, per favore.",
+            "acceptedIt": [
+              "Vorrei un caffè, per favore.",
+              "Vorrei un caffè, per favore",
+              "Vorrei un caffè per favore",
+              "Vorrei un caffe, per favore"
+            ],
+            "explanation": "You heard: 'Vorrei un caffè, per favore.' — the complete polite order.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-caffe",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u9ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: The bill, please.",
+            "targetIt": "Il conto, per favore.",
+            "minAccuracy": 0.7,
+            "explanation": "'Il conto, per favore.' — il CON-to, per fa-VO-re. Two clean chunks.",
+            "dictionaryRefs": [
+              "il-conto",
+              "per-favore"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -6220,6 +6923,107 @@
         }
       ],
       "introducedInUnit": 8
+    },
+    {
+      "id": "il-caffe",
+      "word": "caffè",
+      "article": "il",
+      "translation": "coffee (espresso)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Vorrei un caffè.",
+          "en": "I would like a coffee."
+        }
+      ],
+      "introducedInUnit": 9
+    },
+    {
+      "id": "il-cappuccino",
+      "word": "cappuccino",
+      "article": "il",
+      "translation": "cappuccino",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il cappuccino è per la mattina.",
+          "en": "Cappuccino is for the morning."
+        }
+      ],
+      "introducedInUnit": 9
+    },
+    {
+      "id": "il-cornetto",
+      "word": "cornetto",
+      "article": "il",
+      "translation": "croissant",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Vuoi un cornetto?",
+          "en": "Do you want a croissant?"
+        }
+      ],
+      "introducedInUnit": 9
+    },
+    {
+      "id": "acqua",
+      "word": "acqua",
+      "article": "l'",
+      "translation": "water",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Un'acqua minerale, per favore.",
+          "en": "A mineral water, please."
+        }
+      ],
+      "introducedInUnit": 9
+    },
+    {
+      "id": "il-conto",
+      "word": "conto",
+      "article": "il",
+      "translation": "bill; check",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il conto, per favore.",
+          "en": "The bill, please."
+        }
+      ],
+      "introducedInUnit": 9
+    },
+    {
+      "id": "per-favore",
+      "word": "per favore",
+      "translation": "please",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Un caffè, per favore.",
+          "en": "A coffee, please."
+        }
+      ],
+      "introducedInUnit": 9
+    },
+    {
+      "id": "vorrei",
+      "word": "vorrei",
+      "translation": "I would like (set phrase)",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Vorrei un cappuccino.",
+          "en": "I would like a cappuccino."
+        }
+      ],
+      "introducedInUnit": 9
     }
   ],
   "stories": []

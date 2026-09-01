@@ -122,3 +122,4 @@ Unit 5: validator + crosscheck green, 41 dictionary entries total.
 Unit 6: validator + crosscheck green, 49 dictionary entries total.
 Unit 7: validator + crosscheck green, 56 dictionary entries total.
 Unit 8: validator + crosscheck green, 64 dictionary entries total.
+Unit 9: validator + crosscheck green, 71 dictionary entries total.
