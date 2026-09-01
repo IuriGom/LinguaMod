@@ -3912,6 +3912,717 @@
           }
         ]
       }
+    },
+    {
+      "id": "u7",
+      "number": 7,
+      "title": "La frase semplice",
+      "lessons": [
+        {
+          "id": "u7l1",
+          "type": "vocabulary",
+          "title": "Verbi e parole di ogni giorno",
+          "dictionaryRefs": [
+            "fare",
+            "andare",
+            "venire",
+            "il-lavoro",
+            "la-pizza",
+            "oggi",
+            "bene"
+          ],
+          "exercises": [
+            {
+              "id": "u7l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Vado a casa.",
+              "options": [
+                "I am going home.",
+                "I am coming home.",
+                "I am making a house.",
+                "I am at work."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Andare' = to go; io → vado. 'Vado a casa' = I am going home. Note: no article after 'a' with casa — set expression.",
+              "dictionaryRefs": [
+                "andare",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u7l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Vieni al bar?",
+              "options": [
+                "Are you coming to the bar?",
+                "Are you going to the bar?",
+                "Do you like the bar?",
+                "Is the bar here?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Venire' = to come; tu → vieni. 'Vieni al bar?' — the natural way to invite someone for a coffee.",
+              "dictionaryRefs": [
+                "venire",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u7l1e3",
+              "type": "fill_blank",
+              "prompt": "Complete with fare. (What are you doing?)",
+              "sentence": "Cosa ___?",
+              "answers": [
+                "fai"
+              ],
+              "explanation": "'Fare' = to do/make; tu → fai. 'Cosa fai?' = What are you doing? — 'cosa' = what.",
+              "dictionaryRefs": [
+                "fare"
+              ]
+            },
+            {
+              "id": "u7l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il lavoro",
+              "options": [
+                "work; job",
+                "school",
+                "the book",
+                "the phone"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il lavoro' (m) = work / the job. 'Vado al lavoro' = I am going to work; 'a + il' = 'al'.",
+              "dictionaryRefs": [
+                "il-lavoro"
+              ]
+            },
+            {
+              "id": "u7l1e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I am making a pizza.)",
+              "sentence": "Faccio una ___.",
+              "answers": [
+                "pizza"
+              ],
+              "explanation": "'La pizza' (f) — yes, Italians really say 'faccio una pizza' (I am making a pizza). fare = to make here.",
+              "dictionaryRefs": [
+                "la-pizza",
+                "fare"
+              ]
+            },
+            {
+              "id": "u7l1e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Oggi vado a scuola.",
+              "acceptedEn": [
+                "Today I am going to school.",
+                "Today I go to school."
+              ],
+              "explanation": "'Oggi' = today. Adverbs like oggi often come first: Oggi vado a scuola. 'Vado a scuola' — no article with scuola after 'a', like 'a casa'.",
+              "dictionaryRefs": [
+                "oggi",
+                "andare",
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u7l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I am fine.",
+              "acceptedIt": [
+                "Sto bene.",
+                "Sto bene",
+                "Io sto bene"
+              ],
+              "explanation": "Set phrase: 'Sto bene' = I am fine (literally 'I stay well'). 'Bene' = well — the adverb; 'bello' (Unit 6) is the adjective. Full verb 'stare' comes later.",
+              "dictionaryRefs": [
+                "bene"
+              ]
+            },
+            {
+              "id": "u7l1e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "oggi",
+              "options": [
+                "today",
+                "yesterday",
+                "tomorrow",
+                "now"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Oggi' = today. 'Domani' (tomorrow) and 'ieri' (yesterday) arrive later — for now, oggi is the one you need.",
+              "dictionaryRefs": [
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u7l2",
+          "type": "grammar",
+          "title": "Soggetto, verbo, oggetto — e non",
+          "dictionaryRefs": [
+            "fare",
+            "andare",
+            "venire",
+            "il-lavoro",
+            "la-pizza"
+          ],
+          "grammarNotes": "LA FRASE SEMPLICE — the simple sentence.\n\nWORD ORDER: Italian uses the same order as English — Subject, Verb, Object:\n'Marco (S) mangia (V) una pizza (O).' — Marco eats a pizza.\nThe subject is often dropped because the verb ending says who it is: 'Mangio una pizza.' — the -o says 'io'.\n\nNEGATION: put 'non' directly before the verb — that's all:\n'Vado a scuola.' → 'Non vado a scuola.' (I am not going to school.)\n'Ho fame.' → 'Non ho fame.' (I am not hungry.)\n\nTHREE ESSENTIAL VERBS — full present tense:\n\nFARE (to do/make):\nio faccio — tu fai — lui/lei fa — noi facciamo — voi fate — loro fanno\n'Faccio una pizza.' / 'Cosa fai?'\n\nANDARE (to go):\nio vado — tu vai — lui/lei va — noi andiamo — voi andate — loro vanno\n'Vado a casa.' / 'Andiamo al bar!'\n\nVENIRE (to come):\nio vengo — tu vieni — lui/lei viene — noi veniamo — voi venite — loro vengono\n'Vengo da Roma.' / 'Vieni al bar?'\n\nAll three are irregular in the io/tu/lui forms — learn them as they are.",
+          "exercises": [
+            {
+              "id": "u7l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete with fare.",
+              "sentence": "Io ___ una pizza.",
+              "answers": [
+                "faccio"
+              ],
+              "explanation": "fare is irregular: io → faccio (not 'fo'). 'Io faccio una pizza' = I am making a pizza.",
+              "dictionaryRefs": [
+                "fare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u7l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete with andare.",
+              "sentence": "Noi ___ al bar.",
+              "answers": [
+                "andiamo"
+              ],
+              "explanation": "noi → andiamo — the noi-form keeps the full stem 'and-'. Only io/tu/lui/loro change to vad-/va-.",
+              "dictionaryRefs": [
+                "andare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u7l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete with venire.",
+              "sentence": "Marco ___ da Roma.",
+              "answers": [
+                "viene"
+              ],
+              "explanation": "lui → viene. 'Venire da' + city = to come from / be from: 'Marco viene da Roma' = Marco is from Rome.",
+              "dictionaryRefs": [
+                "venire"
+              ]
+            },
+            {
+              "id": "u7l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I am going to work today.",
+              "acceptedIt": [
+                "Oggi vado al lavoro.",
+                "Oggi vado al lavoro",
+                "Vado al lavoro oggi.",
+                "Io oggi vado al lavoro"
+              ],
+              "explanation": "'Oggi vado al lavoro.' — io → vado (andare) + 'a + il lavoro' = 'al lavoro'. 'Oggi' can lead the sentence, like in English.",
+              "dictionaryRefs": [
+                "andare",
+                "il-lavoro",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u7l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (negation)",
+              "sourceEn": "I am not hungry.",
+              "acceptedIt": [
+                "Non ho fame.",
+                "Non ho fame",
+                "Io non ho fame"
+              ],
+              "explanation": "Negation is one word: 'non' before the verb. 'Ho fame' → 'Non ho fame.' Nothing else changes.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u7l2e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct sentence. (negation)",
+              "question": "I am not going to school.",
+              "options": [
+                "Non vado a scuola.",
+                "Vado non a scuola.",
+                "Non sono a scuola.",
+                "Vado a scuola non."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Non' sits directly before the verb: Non vado a scuola. Never after it, never split away from it.",
+              "dictionaryRefs": [
+                "andare",
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u7l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Loro vengono al bar.",
+              "acceptedEn": [
+                "They are coming to the bar.",
+                "They come to the bar."
+              ],
+              "explanation": "loro → vengono. 'Loro vengono al bar' = They are coming to the bar. 'a + il' = 'al', from Unit 5.",
+              "dictionaryRefs": [
+                "venire",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u7l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form of fare.",
+              "question": "Voi ___ una pizza?",
+              "options": [
+                "fate",
+                "fanno",
+                "fai",
+                "facciamo"
+              ],
+              "correctIndex": 0,
+              "explanation": "voi → fate. 'Voi fate una pizza?' = Are you (all) making a pizza? The -te ending marks voi for every verb.",
+              "dictionaryRefs": [
+                "fare",
+                "la-pizza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u7l3",
+          "type": "mixed",
+          "title": "La giornata: ripasso",
+          "dictionaryRefs": [
+            "come-ti-chiami",
+            "di-dove-sei",
+            "quanti-anni-hai",
+            "il-bar",
+            "andare",
+            "venire",
+            "fare",
+            "il-lavoro",
+            "oggi"
+          ],
+          "exercises": [
+            {
+              "id": "u7l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 2 recycling)",
+              "sourceEn": "Where are you from? I am from Milan.",
+              "acceptedIt": [
+                "Di dove sei? Sono di Milano.",
+                "Di dove sei? Sono di Milano",
+                "Di dove sei? Io sono di Milano."
+              ],
+              "explanation": "Unit 2's pattern still works: 'Di dove sei?' — 'Sono di Milano.' You'll also hear 'Vengo da Milano' with venire — same meaning.",
+              "dictionaryRefs": [
+                "di-dove-sei"
+              ]
+            },
+            {
+              "id": "u7l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Vengo da New York, e tu?",
+              "options": [
+                "I am from New York, and you?",
+                "I am going to New York, and you?",
+                "I come to New York tomorrow.",
+                "Are you from New York?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Venire da' + city = to be from: Vengo da New York. io → vengo. Same meaning as 'Sono di New York'.",
+              "dictionaryRefs": [
+                "venire"
+              ]
+            },
+            {
+              "id": "u7l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete with andare. (We are going to the bar today.)",
+              "sentence": "Oggi ___ al bar.",
+              "answers": [
+                "andiamo"
+              ],
+              "explanation": "noi → andiamo. 'Oggi andiamo al bar' = We are going to the bar today — a friendly invitation.",
+              "dictionaryRefs": [
+                "andare",
+                "il-bar",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u7l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Non vado al lavoro oggi.",
+              "acceptedEn": [
+                "I am not going to work today.",
+                "I'm not going to work today."
+              ],
+              "explanation": "'Non' before the verb: Non vado al lavoro oggi. 'Oggi' can sit at the end too — word order is flexible for time words.",
+              "dictionaryRefs": [
+                "il-lavoro",
+                "oggi",
+                "andare"
+              ]
+            },
+            {
+              "id": "u7l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "fai",
+                "Cosa",
+                "oggi?"
+              ],
+              "correctSentence": "Cosa fai oggi?",
+              "explanation": "'Cosa fai oggi?' = What are you doing today? Question word first, then the verb, then the time word.",
+              "dictionaryRefs": [
+                "fare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u7l3e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 1 recycling)",
+              "sourceEn": "What is your name? My name is Sara.",
+              "acceptedIt": [
+                "Come ti chiami? Mi chiamo Sara.",
+                "Come ti chiami? Mi chiamo Sara",
+                "Come ti chiami? Io mi chiamo Sara."
+              ],
+              "explanation": "The Unit 1 exchange, still the start of every conversation: 'Come ti chiami?' — 'Mi chiamo Sara.'",
+              "dictionaryRefs": [
+                "come-ti-chiami"
+              ]
+            },
+            {
+              "id": "u7l3e7",
+              "type": "fill_blank",
+              "prompt": "Complete with venire.",
+              "sentence": "___ al bar con me?",
+              "answers": [
+                "Vieni"
+              ],
+              "explanation": "tu → vieni. 'Vieni al bar con me?' = Are you coming to the bar with me? 'con me' = with me.",
+              "dictionaryRefs": [
+                "venire",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u7l3e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 4 recycling)",
+              "question": "Quanti anni hai?",
+              "options": [
+                "How old are you?",
+                "What are you doing?",
+                "Where are you going?",
+                "What is your name?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quanti anni hai?' = How old are you? — from Unit 4. Compare the new one: 'Cosa fai?' = What are you doing?",
+              "dictionaryRefs": [
+                "quanti-anni-hai",
+                "fare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u7l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "andare",
+            "venire",
+            "fare",
+            "il-lavoro",
+            "la-pizza",
+            "oggi"
+          ],
+          "exercises": [
+            {
+              "id": "u7l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Vado a casa.",
+              "options": [
+                "I am going home.",
+                "I am coming home.",
+                "I am at home.",
+                "I am making a house."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Vado a casa.' — io → vado (andare). 'Venire' would be 'vengo': different verb, different direction.",
+              "dictionaryRefs": [
+                "andare",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u7l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Cosa fai oggi?",
+              "acceptedIt": [
+                "Cosa fai oggi?",
+                "Cosa fai oggi"
+              ],
+              "explanation": "You heard: 'Cosa fai oggi?' — What are you doing today? cosa + fai (tu) + oggi.",
+              "dictionaryRefs": [
+                "fare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u7l4e3",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am going to work.",
+              "targetIt": "Vado al lavoro.",
+              "minAccuracy": 0.7,
+              "explanation": "'Vado al lavoro.' — VA-do al la-VO-ro. Remember: a + il = al.",
+              "dictionaryRefs": [
+                "andare",
+                "il-lavoro"
+              ]
+            },
+            {
+              "id": "u7l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Vieni al bar?",
+              "options": [
+                "Are you coming to the bar?",
+                "Are you going to the bar?",
+                "Do you have a bar?",
+                "Is the bar open?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Vieni al bar?' — the classic invitation. tu → vieni (venire) + question intonation.",
+              "dictionaryRefs": [
+                "venire",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u7l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am making a pizza.",
+              "targetIt": "Faccio una pizza.",
+              "minAccuracy": 0.7,
+              "explanation": "'Faccio una pizza.' — FAC-cio, with a long double c (the 'cc' before i is a long 'ch' sound).",
+              "dictionaryRefs": [
+                "fare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u7l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Non vado a scuola oggi.",
+              "acceptedIt": [
+                "Non vado a scuola oggi.",
+                "Non vado a scuola oggi"
+              ],
+              "explanation": "You heard: 'Non vado a scuola oggi.' — I am not going to school today. 'Non' right before the verb.",
+              "dictionaryRefs": [
+                "andare",
+                "la-scuola",
+                "oggi"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u7c",
+        "exercises": [
+          {
+            "id": "u7ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "Vengo da Roma.",
+            "options": [
+              "I am from Rome.",
+              "I am going to Rome.",
+              "I come to Rome today.",
+              "Rome is beautiful."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Venire da' + city = to be from: Vengo da Roma. io → vengo.",
+            "dictionaryRefs": [
+              "venire"
+            ]
+          },
+          {
+            "id": "u7ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with fare.",
+            "sentence": "Io ___ una pizza oggi.",
+            "answers": [
+              "faccio"
+            ],
+            "explanation": "io → faccio — irregular; not 'fo'. 'Io faccio una pizza oggi' = I am making a pizza today.",
+            "dictionaryRefs": [
+              "fare",
+              "la-pizza",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u7ce3",
+            "type": "fill_blank",
+            "prompt": "Complete with andare.",
+            "sentence": "Tu ___ a scuola?",
+            "answers": [
+              "vai"
+            ],
+            "explanation": "tu → vai. 'Tu vai a scuola?' = Are you going to school? Question intonation, as always.",
+            "dictionaryRefs": [
+              "andare",
+              "la-scuola"
+            ]
+          },
+          {
+            "id": "u7ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (negation)",
+            "sourceEn": "I am not going to work today.",
+            "acceptedIt": [
+              "Non vado al lavoro oggi.",
+              "Non vado al lavoro oggi",
+              "Oggi non vado al lavoro",
+              "Io non vado al lavoro oggi"
+            ],
+            "explanation": "'Non vado al lavoro oggi.' — 'non' before the verb; 'a + il lavoro' = 'al lavoro'.",
+            "dictionaryRefs": [
+              "il-lavoro",
+              "andare",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u7ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Andiamo al bar.",
+            "acceptedEn": [
+              "We are going to the bar.",
+              "Let's go to the bar.",
+              "We go to the bar."
+            ],
+            "explanation": "'Andiamo al bar.' — noi → andiamo. The same form also means 'Let's go to the bar!' — context decides.",
+            "dictionaryRefs": [
+              "andare",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u7ce6",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "What are you doing? I am making a pizza.",
+            "acceptedIt": [
+              "Cosa fai? Faccio una pizza.",
+              "Cosa fai? Faccio una pizza",
+              "Cosa fai? Io faccio una pizza."
+            ],
+            "explanation": "'Cosa fai?' (tu → fai) — 'Faccio una pizza.' (io → faccio). Question and answer with fare.",
+            "dictionaryRefs": [
+              "fare",
+              "la-pizza"
+            ]
+          },
+          {
+            "id": "u7ce7",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct sentence. (negation)",
+            "question": "They are not coming.",
+            "options": [
+              "Loro non vengono.",
+              "Loro vengono non.",
+              "Non loro vengono.",
+              "Loro non sono venire."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Non' directly before the verb: Loro non vengono. loro → vengono (venire).",
+            "dictionaryRefs": [
+              "venire"
+            ]
+          },
+          {
+            "id": "u7ce8",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Vado a casa oggi.",
+            "acceptedIt": [
+              "Vado a casa oggi.",
+              "Vado a casa oggi"
+            ],
+            "explanation": "You heard: 'Vado a casa oggi.' — I am going home today. 'a casa' never takes an article.",
+            "dictionaryRefs": [
+              "andare",
+              "la-casa",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u7ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Cosa fai? Faccio una pizza.",
+            "options": [
+              "What are you doing? I am making a pizza.",
+              "What are you doing? I am eating a pizza.",
+              "What do you do? I like pizza.",
+              "What are you making? A pizza for two."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard the fare exchange: 'Cosa fai? Faccio una pizza.' — tu → fai, io → faccio.",
+            "dictionaryRefs": [
+              "fare",
+              "la-pizza"
+            ]
+          },
+          {
+            "id": "u7ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Are you coming to the bar?",
+            "targetIt": "Vieni al bar?",
+            "minAccuracy": 0.7,
+            "explanation": "'Vieni al bar?' — VYE-ni al BAR, rising at the end for the question.",
+            "dictionaryRefs": [
+              "venire",
+              "il-bar"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -4597,6 +5308,101 @@
         }
       ],
       "introducedInUnit": 6
+    },
+    {
+      "id": "fare",
+      "word": "fare",
+      "translation": "to do; to make",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Cosa fai? Faccio una pizza.",
+          "en": "What are you doing? I am making a pizza."
+        }
+      ],
+      "introducedInUnit": 7
+    },
+    {
+      "id": "andare",
+      "word": "andare",
+      "translation": "to go",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Vado a casa.",
+          "en": "I am going home."
+        }
+      ],
+      "introducedInUnit": 7
+    },
+    {
+      "id": "venire",
+      "word": "venire",
+      "translation": "to come",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Vieni al bar?",
+          "en": "Are you coming to the bar?"
+        }
+      ],
+      "introducedInUnit": 7
+    },
+    {
+      "id": "il-lavoro",
+      "word": "lavoro",
+      "article": "il",
+      "translation": "work; job",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Vado al lavoro.",
+          "en": "I am going to work."
+        }
+      ],
+      "introducedInUnit": 7
+    },
+    {
+      "id": "la-pizza",
+      "word": "pizza",
+      "article": "la",
+      "translation": "pizza",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Faccio una pizza.",
+          "en": "I am making a pizza."
+        }
+      ],
+      "introducedInUnit": 7
+    },
+    {
+      "id": "oggi",
+      "word": "oggi",
+      "translation": "today",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Oggi vado a scuola.",
+          "en": "Today I am going to school."
+        }
+      ],
+      "introducedInUnit": 7
+    },
+    {
+      "id": "bene",
+      "word": "bene",
+      "translation": "well",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Sto bene.",
+          "en": "I am fine."
+        }
+      ],
+      "introducedInUnit": 7
     }
   ],
   "stories": []
