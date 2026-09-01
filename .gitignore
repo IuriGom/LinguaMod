@@ -1,0 +1,19 @@
+# Gradle / build
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.cxx/
+
+# Local tool distributions (Gradle dist, fuzz corpora output)
+tools/dist/
+tools/fuzz/out/
+
+# Signing
+*.keystore
+!debug.keystore
+
+# OS
+.DS_Store
