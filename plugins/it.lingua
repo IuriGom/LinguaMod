@@ -3233,6 +3233,685 @@
           }
         ]
       }
+    },
+    {
+      "id": "u6",
+      "number": 6,
+      "title": "Essere e avere",
+      "lessons": [
+        {
+          "id": "u6l1",
+          "type": "vocabulary",
+          "title": "Descrizioni e sentimenti",
+          "dictionaryRefs": [
+            "la-fame",
+            "la-sete",
+            "stanco",
+            "contento",
+            "triste",
+            "bello",
+            "il-ragazzo",
+            "la-ragazza"
+          ],
+          "exercises": [
+            {
+              "id": "u6l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Ho fame.",
+              "options": [
+                "I am hungry.",
+                "I am thirsty.",
+                "I have a phone.",
+                "I am tired."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho fame' = I am hungry — literally 'I have hunger'. Italian uses avere + 'la fame' (f) for this feeling, not essere.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Ho sete.",
+              "options": [
+                "I am thirsty.",
+                "I am hungry.",
+                "I am sad.",
+                "I am glad."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho sete' = I am thirsty — literally 'I have thirst'. 'La sete' (f) works exactly like 'la fame': avere + noun.",
+              "dictionaryRefs": [
+                "la-sete"
+              ]
+            },
+            {
+              "id": "u6l1e3",
+              "type": "fill_blank",
+              "prompt": "Say: I am tired. (you are a man)",
+              "sentence": "Sono ___.",
+              "answers": [
+                "stanco"
+              ],
+              "explanation": "'Stanco' = tired. It uses essere: sono stanco. A woman says 'sono stanca' — adjectives agree with the speaker (preview; full rule in Unit 13).",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            },
+            {
+              "id": "u6l1e4",
+              "type": "multiple_choice",
+              "prompt": "Anna says this. What does it mean?",
+              "question": "Sono contenta.",
+              "options": [
+                "I am glad.",
+                "I am tired.",
+                "I am sad.",
+                "I am hungry."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sono contenta' = I am glad — Anna is a woman, so 'contento' becomes 'contenta'. The meaning: glad, happy.",
+              "dictionaryRefs": [
+                "contento"
+              ]
+            },
+            {
+              "id": "u6l1e5",
+              "type": "fill_blank",
+              "prompt": "Complete: Are you ___? — No, I am glad. (sad)",
+              "sentence": "Sei ___? — No, sono contento.",
+              "answers": [
+                "triste"
+              ],
+              "explanation": "'Triste' = sad. Adjectives ending in -e never change: sono triste (man or woman), Marco è triste, Anna è triste.",
+              "dictionaryRefs": [
+                "triste"
+              ]
+            },
+            {
+              "id": "u6l1e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "La ragazza è bella.",
+              "acceptedEn": [
+                "The girl is beautiful.",
+                "The girl is pretty."
+              ],
+              "explanation": "'La ragazza' (f) = the girl; 'bello' = beautiful — here 'bella' to agree with ragazza. Plural: belle ragazze.",
+              "dictionaryRefs": [
+                "la-ragazza",
+                "bello"
+              ]
+            },
+            {
+              "id": "u6l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 2 recycling)",
+              "sourceEn": "The boy is Italian.",
+              "acceptedIt": [
+                "Il ragazzo è italiano.",
+                "Il ragazzo è italiano",
+                "Il ragazzo e italiano"
+              ],
+              "explanation": "'Il ragazzo' (m) = the boy/boyfriend + 'è italiano'. Article il (regular consonant) + essere for the description.",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u6l1e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "bello",
+              "options": [
+                "beautiful; nice",
+                "sad",
+                "tired",
+                "thirsty"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Bello' = beautiful, nice — for people and things: un bel libro, una bella casa. It agrees: bello/bella/belli/belle.",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u6l2",
+          "type": "grammar",
+          "title": "Essere o avere?",
+          "dictionaryRefs": [
+            "la-fame",
+            "la-sete",
+            "stanco",
+            "contento"
+          ],
+          "grammarNotes": "ESSERE (to be) — full present tense:\n\nio sono — I am\ntu sei — you are\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nUse essere for WHO or WHAT someone/something is — identity, nationality, description with an adjective: 'Sono Marco.', 'Lei è stanca.', 'Il libro è bello.'\n\nAVERE (to have) — full present tense:\n\nio ho — I have\ntu hai — you have\nlui/lei ha — he/she has\nnoi abbiamo — we have\nvoi avete — you have (plural)\nloro hanno — they have\n\nUse avere for possession: 'Ho un telefono.' — and for IDIOMS where English uses 'to be':\n• avere fame — 'Ho fame.' = I am hungry (literally: I have hunger)\n• avere sete — 'Hai sete?' = Are you thirsty?\n• avere … anni — 'Ho venti anni.' = I am twenty (Unit 4)\n\nTHE CONTRAST: 'Sono stanco' (I am tired — adjective → essere) vs 'Ho fame' (I am hungry — idiom → avere). Rule of thumb: with an adjective use essere; with fame/sete/anni use avere.\n\nPREVIEW: adjectives agree with the person — stanco/stanca, contento/contenta; -e adjectives like 'triste' never change. Full treatment in Unit 13.",
+          "exercises": [
+            {
+              "id": "u6l2e1",
+              "type": "fill_blank",
+              "prompt": "Essere or avere? Complete the sentence.",
+              "sentence": "Io ___ venti anni.",
+              "answers": [
+                "ho"
+              ],
+              "explanation": "Age → avere idiom: io ho venti anni. Not 'sono venti anni' — Italian 'has' years, it doesn't 'be' them.",
+              "dictionaryRefs": [
+                "anno"
+              ]
+            },
+            {
+              "id": "u6l2e2",
+              "type": "fill_blank",
+              "prompt": "Essere or avere? Complete the sentence.",
+              "sentence": "Lei ___ stanca.",
+              "answers": [
+                "è"
+              ],
+              "explanation": "'Stanca' is an adjective (tired, feminine) → essere: lei è stanca. Compare: lei HA fame (idiom, avere).",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            },
+            {
+              "id": "u6l2e3",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct verb form.",
+              "question": "Io ___ fame.",
+              "options": [
+                "ho",
+                "sono",
+                "hai",
+                "è"
+              ],
+              "correctIndex": 0,
+              "explanation": "The idiom is avere fame: io → ho. 'Ho fame' = I am hungry. Essere would be wrong here.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I am hungry.",
+              "acceptedIt": [
+                "Ho fame.",
+                "Ho fame",
+                "Io ho fame"
+              ],
+              "explanation": "'Ho fame.' — avere + la fame. Literally 'I have hunger': the English 'am' becomes 'have' in Italian.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Are you thirsty?",
+              "acceptedIt": [
+                "Hai sete?",
+                "Hai sete",
+                "Tu hai sete?"
+              ],
+              "explanation": "'Hai sete?' — tu → hai + la sete. Same question intonation as always; the idiom does the rest.",
+              "dictionaryRefs": [
+                "la-sete"
+              ]
+            },
+            {
+              "id": "u6l2e6",
+              "type": "fill_blank",
+              "prompt": "Complete with essere. (We are glad.)",
+              "sentence": "Noi ___ contenti.",
+              "answers": [
+                "siamo"
+              ],
+              "explanation": "noi → siamo. 'Noi siamo contenti' = We are glad — 'contenti' is the plural of contento.",
+              "dictionaryRefs": [
+                "contento"
+              ]
+            },
+            {
+              "id": "u6l2e7",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct verb form. (possession)",
+              "question": "Loro ___ due telefoni.",
+              "options": [
+                "hanno",
+                "sono",
+                "abbiamo",
+                "ha"
+              ],
+              "correctIndex": 0,
+              "explanation": "Possession → avere; loro → hanno. 'Loro hanno due telefoni' = They have two phones.",
+              "dictionaryRefs": [
+                "il-telefono"
+              ]
+            },
+            {
+              "id": "u6l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Siamo stanchi.",
+              "acceptedEn": [
+                "We are tired."
+              ],
+              "explanation": "'Siamo stanchi' = We are tired. noi → siamo (essere + adjective); 'stanchi' is the plural of stanco.",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u6l3",
+          "type": "mixed",
+          "title": "Come sei? Come stai?: ripasso",
+          "dictionaryRefs": [
+            "ciao",
+            "americano",
+            "quanti-anni-hai",
+            "la-fame",
+            "la-sete",
+            "stanco",
+            "triste",
+            "il-ragazzo",
+            "la-ragazza"
+          ],
+          "exercises": [
+            {
+              "id": "u6l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 4 recycling)",
+              "question": "Ho venti anni.",
+              "options": [
+                "I am twenty.",
+                "I have twenty books.",
+                "I am hungry.",
+                "Are you twenty?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho venti anni' = I am twenty — the avere idiom from Unit 4, now part of the bigger essere/avere picture.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u6l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 1 + Unit 4 recycling)",
+              "sourceEn": "Hi! I am Marco and I am twenty-five.",
+              "acceptedIt": [
+                "Ciao! Sono Marco e ho venticinque anni.",
+                "Ciao! Sono Marco e ho venticinque anni",
+                "Ciao, sono Marco e ho venticinque anni."
+              ],
+              "explanation": "Identity → essere ('sono Marco'), age → avere ('ho venticinque anni'). Both verbs in one natural sentence.",
+              "dictionaryRefs": [
+                "ciao",
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u6l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete with avere.",
+              "sentence": "La ragazza ___ ventidue anni.",
+              "answers": [
+                "ha"
+              ],
+              "explanation": "lei → ha. 'La ragazza ha ventidue anni' = The girl is twenty-two. 22 = ventidue.",
+              "dictionaryRefs": [
+                "la-ragazza"
+              ]
+            },
+            {
+              "id": "u6l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il ragazzo è stanco e ha sete.",
+              "acceptedEn": [
+                "The boy is tired and thirsty.",
+                "The boy is tired and is thirsty."
+              ],
+              "explanation": "Both verbs side by side: 'è stanco' (essere + adjective) and 'ha sete' (avere idiom).",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "stanco",
+                "la-sete"
+              ]
+            },
+            {
+              "id": "u6l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "fame,",
+                "Ho",
+                "tu?",
+                "e"
+              ],
+              "correctSentence": "Ho fame, e tu?",
+              "explanation": "'Ho fame, e tu?' — I am hungry, and you? The avere idiom plus the 'e tu?' bounce from Unit 1.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Sono triste.",
+              "options": [
+                "I am sad.",
+                "I am tired.",
+                "I am thirsty.",
+                "I am glad."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Triste' = sad, with essere. The -e ending never changes — same form for men and women.",
+              "dictionaryRefs": [
+                "triste"
+              ]
+            },
+            {
+              "id": "u6l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 2 recycling, to a woman)",
+              "sourceEn": "Are you American?",
+              "acceptedIt": [
+                "Sei americana?",
+                "Sei americana",
+                "Tu sei americana?"
+              ],
+              "explanation": "'Sei americana?' — to a woman, americano → americana. Question intonation, tu → sei (essere).",
+              "dictionaryRefs": [
+                "americano"
+              ]
+            },
+            {
+              "id": "u6l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete with avere. (Are you all thirsty?)",
+              "sentence": "Voi ___ sete?",
+              "answers": [
+                "avete"
+              ],
+              "explanation": "voi → avete. Talking to two or more people: 'Voi avete sete?' = Are you (all) thirsty?",
+              "dictionaryRefs": [
+                "la-sete"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u6l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "stanco",
+            "la-sete",
+            "la-fame",
+            "la-ragazza",
+            "contento"
+          ],
+          "exercises": [
+            {
+              "id": "u6l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Sono stanco.",
+              "options": [
+                "I am tired. (man speaking)",
+                "I am sad.",
+                "I am thirsty.",
+                "He is tired."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Sono stanco.' — the -o ending tells you a man is speaking; a woman would say 'Sono stanca.'",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            },
+            {
+              "id": "u6l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ho sete.",
+              "acceptedIt": [
+                "Ho sete.",
+                "Ho sete"
+              ],
+              "explanation": "You heard: 'Ho sete.' — I am thirsty. The h is silent: O SE-te.",
+              "dictionaryRefs": [
+                "la-sete"
+              ]
+            },
+            {
+              "id": "u6l4e3",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am hungry.",
+              "targetIt": "Ho fame.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ho fame.' — O FA-me. Two words, silent h, stress on FA.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l4e4",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "La ragazza è contenta.",
+              "options": [
+                "The girl is glad.",
+                "The girl is sad.",
+                "The boy is glad.",
+                "The girl is tired."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'La ragazza è contenta.' — 'contenta' agrees with 'ragazza' (feminine).",
+              "dictionaryRefs": [
+                "la-ragazza",
+                "contento"
+              ]
+            },
+            {
+              "id": "u6l4e5",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Hai fame?",
+              "acceptedIt": [
+                "Hai fame?",
+                "Hai fame"
+              ],
+              "explanation": "You heard: 'Hai fame?' — Are you hungry? Same words as the statement, rising intonation.",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l4e6",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am tired. (man)",
+              "targetIt": "Sono stanco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sono stanco.' — SO-no STAN-ko. The 'st' cluster is crisp — like in 'lo studente'.",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u6c",
+        "exercises": [
+          {
+            "id": "u6ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "Ho fame.",
+            "options": [
+              "I am hungry.",
+              "I am thirsty.",
+              "I am tired.",
+              "I have a phone."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Ho fame' = I am hungry — avere idiom, literally 'I have hunger'.",
+            "dictionaryRefs": [
+              "la-fame"
+            ]
+          },
+          {
+            "id": "u6ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with avere.",
+            "sentence": "Tu ___ vent'anni.",
+            "answers": [
+              "hai"
+            ],
+            "explanation": "tu → hai. 'Vent'anni' is 'venti anni' with the -i dropped before a vowel — common in speech and writing.",
+            "dictionaryRefs": [
+              "quanti-anni-hai"
+            ]
+          },
+          {
+            "id": "u6ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "She is thirsty.",
+            "acceptedIt": [
+              "Ha sete.",
+              "Lei ha sete.",
+              "Ha sete",
+              "Lei ha sete"
+            ],
+            "explanation": "'Ha sete' — lei → ha + la sete. Essere ('è sete') would be wrong: thirst is an avere idiom.",
+            "dictionaryRefs": [
+              "la-sete"
+            ]
+          },
+          {
+            "id": "u6ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Siamo contenti.",
+            "acceptedEn": [
+              "We are glad.",
+              "We are happy."
+            ],
+            "explanation": "'Siamo contenti' = We are glad. noi → siamo; 'contenti' is the masculine/mixed plural of contento.",
+            "dictionaryRefs": [
+              "contento"
+            ]
+          },
+          {
+            "id": "u6ce5",
+            "type": "multiple_choice",
+            "prompt": "Essere or avere? Choose the correct form.",
+            "question": "Loro ___ stanchi.",
+            "options": [
+              "sono",
+              "hanno",
+              "siamo",
+              "ha"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Stanchi' is an adjective → essere; loro → sono. 'Hanno' would only work with an idiom noun like fame or sete.",
+            "dictionaryRefs": [
+              "stanco"
+            ]
+          },
+          {
+            "id": "u6ce6",
+            "type": "fill_blank",
+            "prompt": "Complete with essere.",
+            "sentence": "Il ragazzo ___ bello.",
+            "answers": [
+              "è"
+            ],
+            "explanation": "lui → è. 'Il ragazzo è bello' = The boy is handsome — essere + adjective.",
+            "dictionaryRefs": [
+              "il-ragazzo",
+              "bello"
+            ]
+          },
+          {
+            "id": "u6ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (possession)",
+            "sourceEn": "We have two phones.",
+            "acceptedIt": [
+              "Abbiamo due telefoni.",
+              "Abbiamo due telefoni",
+              "Noi abbiamo due telefoni"
+            ],
+            "explanation": "'Abbiamo due telefoni' — noi → abbiamo (avere for possession) + 'due' from Unit 4 + plural 'telefoni'.",
+            "dictionaryRefs": [
+              "il-telefono"
+            ]
+          },
+          {
+            "id": "u6ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Anna è triste.",
+            "options": [
+              "Anna is sad.",
+              "Anna is tired.",
+              "Anna is thirsty.",
+              "Anna is glad."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard 'Anna è triste.' — 'triste' never changes its ending, man or woman.",
+            "dictionaryRefs": [
+              "triste"
+            ]
+          },
+          {
+            "id": "u6ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Ho trenta anni.",
+            "acceptedIt": [
+              "Ho trenta anni.",
+              "Ho trenta anni",
+              "Ho 30 anni"
+            ],
+            "explanation": "You heard: 'Ho trenta anni.' — I am thirty. 30 = trenta.",
+            "dictionaryRefs": [
+              "quanti-anni-hai"
+            ]
+          },
+          {
+            "id": "u6ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I am glad. (man)",
+            "targetIt": "Sono contento.",
+            "minAccuracy": 0.7,
+            "explanation": "'Sono contento.' — SO-no con-TEN-to. A woman says 'Sono contenta.'",
+            "dictionaryRefs": [
+              "contento"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -3806,6 +4485,118 @@
         }
       ],
       "introducedInUnit": 5
+    },
+    {
+      "id": "la-fame",
+      "word": "fame",
+      "article": "la",
+      "translation": "hunger (ho fame = I am hungry)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho fame.",
+          "en": "I am hungry."
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "la-sete",
+      "word": "sete",
+      "article": "la",
+      "translation": "thirst (ho sete = I am thirsty)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Hai sete?",
+          "en": "Are you thirsty?"
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "stanco",
+      "word": "stanco",
+      "translation": "tired",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Sono stanco.",
+          "en": "I am tired. (man speaking)"
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "contento",
+      "word": "contento",
+      "translation": "glad; happy",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Anna è contenta.",
+          "en": "Anna is glad."
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "triste",
+      "word": "triste",
+      "translation": "sad",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Il ragazzo è triste.",
+          "en": "The boy is sad."
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "bello",
+      "word": "bello",
+      "translation": "beautiful; nice",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "La ragazza è bella.",
+          "en": "The girl is beautiful."
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "il-ragazzo",
+      "word": "ragazzo",
+      "article": "il",
+      "translation": "boy; boyfriend",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il ragazzo è italiano.",
+          "en": "The boy is Italian."
+        }
+      ],
+      "introducedInUnit": 6
+    },
+    {
+      "id": "la-ragazza",
+      "word": "ragazza",
+      "article": "la",
+      "translation": "girl; girlfriend",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La ragazza è contenta.",
+          "en": "The girl is glad."
+        }
+      ],
+      "introducedInUnit": 6
     }
   ],
   "stories": []
