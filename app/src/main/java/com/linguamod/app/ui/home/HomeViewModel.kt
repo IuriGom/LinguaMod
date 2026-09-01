@@ -2,7 +2,9 @@ package com.linguamod.app.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.linguamod.app.core.Levels
 import com.linguamod.app.data.CourseRepository
+import com.linguamod.app.data.db.LessonProgressEntity
 import com.linguamod.app.data.db.UserProgressEntity
 import com.linguamod.app.plugin.LinguaPluginDto
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -20,11 +22,19 @@ data class UnitNode(
     val isCurrent: Boolean,
 )
 
+/** Three progress bars on Home (Stage 2B §7): current unit, current phase, total course. */
+data class ProgressBars(
+    val unitPct: Float = 0f,
+    val phasePct: Float = 0f,
+    val totalPct: Float = 0f,
+)
+
 data class HomeState(
     val loading: Boolean = true,
     val pluginLoaded: Boolean = false,
     val nodes: List<UnitNode> = emptyList(),
     val progress: UserProgressEntity? = null,
+    val bars: ProgressBars = ProgressBars(),
 )
 
 @HiltViewModel
@@ -39,13 +49,12 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch {
             repo.initialize()
             // recompute when the plugin changes OR any progress row changes
-            combine(repo.plugin, repo.lessonProgressFlow) { p, _ -> p }.collect { plugin ->
-                refresh(plugin)
-            }
+            combine(repo.plugin, repo.lessonProgressFlow) { p, rows -> p to rows }
+                .collect { (plugin, rows) -> refresh(plugin, rows) }
         }
     }
 
-    private suspend fun refresh(plugin: LinguaPluginDto?) {
+    private suspend fun refresh(plugin: LinguaPluginDto?, rows: List<LessonProgressEntity>) {
         if (plugin == null) {
             _state.value = HomeState(loading = false, pluginLoaded = false)
             return
@@ -67,6 +76,34 @@ class HomeViewModel @Inject constructor(
             pluginLoaded = true,
             nodes = nodes,
             progress = repo.userProgress(),
+            bars = computeBars(plugin, rows),
+        )
+    }
+
+    /** Bar percentages from real LessonProgress rows; tolerates short plugins. */
+    private fun computeBars(plugin: LinguaPluginDto, rows: List<LessonProgressEntity>): ProgressBars {
+        val totalUnits = plugin.units.size.coerceAtLeast(1)
+        fun checkpointDone(unit: Int) =
+            rows.any { it.unitNumber == unit && it.lessonIndex == CourseRepository.CHECKPOINT_INDEX && it.completed }
+        val completedUnits = plugin.units.count { checkpointDone(it.number ?: 0) }
+
+        // current unit = first unit without a passed checkpoint (last when course finished)
+        val currentUnit = plugin.units.firstOrNull { !checkpointDone(it.number ?: 0) }?.number
+            ?: plugin.units.last().number ?: 1
+        val unitDone = rows.count {
+            it.unitNumber == currentUnit && it.completed
+        } // lessons 0-3 + checkpoint = 5 rows max
+        val unitPct = (unitDone / 5f).coerceIn(0f, 1f)
+
+        val phase = Levels.phaseFor(currentUnit)
+        val range = Levels.phaseRange(phase, totalUnits)
+        val phaseDone = plugin.units.count { (it.number ?: 0) in range && checkpointDone(it.number ?: 0) }
+        val phasePct = (phaseDone.toFloat() / (range.last - range.first + 1)).coerceIn(0f, 1f)
+
+        return ProgressBars(
+            unitPct = unitPct,
+            phasePct = phasePct,
+            totalPct = (completedUnits.toFloat() / totalUnits).coerceIn(0f, 1f),
         )
     }
 

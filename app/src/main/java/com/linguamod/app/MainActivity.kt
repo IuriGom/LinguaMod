@@ -15,8 +15,10 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavType
@@ -25,6 +27,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.linguamod.app.data.ThemeCatalog
+import com.linguamod.app.data.ThemeStore
 import com.linguamod.app.ui.dictionary.DictionaryScreen
 import com.linguamod.app.ui.home.HomeScreen
 import com.linguamod.app.ui.lesson.LessonScreen
@@ -32,6 +36,7 @@ import com.linguamod.app.ui.profile.ProfileScreen
 import com.linguamod.app.ui.theme.LinguaModTheme
 import com.linguamod.app.ui.unit.UnitDetailScreen
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 object Routes {
     const val HOME = "home"
@@ -47,16 +52,26 @@ object Routes {
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+
+    @Inject
+    lateinit var themeStore: ThemeStore
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent { LinguaModAppContent() }
+        setContent {
+            // purchased cosmetic theme applies app-wide (Stage 2B §6)
+            val themeId by themeStore.activeTheme.collectAsState(initial = ThemeCatalog.DEFAULT.id)
+            val spec = ThemeCatalog.byId(themeId)
+            LinguaModTheme(accent = spec.accentArgb?.let { Color(it) }, altDark = spec.altDark) {
+                LinguaModAppContent()
+            }
+        }
     }
 }
 
 @Composable
 fun LinguaModAppContent() {
-    LinguaModTheme {
-        val nav = rememberNavController()
+    val nav = rememberNavController()
         val backStack by nav.currentBackStackEntryAsState()
         val route = backStack?.destination?.route
         val tabs = listOf(
@@ -128,5 +143,4 @@ fun LinguaModAppContent() {
                 }
             }
         }
-    }
 }

@@ -4,6 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import com.linguamod.app.data.CourseRepository
+import com.linguamod.app.data.FeatureUnlocks
+import com.linguamod.app.data.ThemeStore
 import com.linguamod.app.data.db.AppDatabase
 import com.linguamod.app.debug.FakeClock
 import com.linguamod.app.plugin.PluginLoader
@@ -30,7 +32,10 @@ class CourseRepositoryTest {
         db = Room.inMemoryDatabaseBuilder(context, AppDatabase::class.java)
             .allowMainThreadQueries().build()
         clock = FakeClock()
-        repo = CourseRepository(db, PluginLoader(context, db), clock)
+        repo = CourseRepository(
+            db, PluginLoader(context, db), clock,
+            FeatureUnlocks(TestStores.prefs()), ThemeStore(TestStores.prefs()),
+        )
     }
 
     @After

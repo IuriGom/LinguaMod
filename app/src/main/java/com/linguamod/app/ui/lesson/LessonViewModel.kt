@@ -33,6 +33,10 @@ data class LessonState(
     val correctCount: Int = 0,
     val answeredCount: Int = 0,
     val passed: Boolean = false,
+    val hearts: Int = CourseRepository.MAX_HEARTS,
+    val xpGained: Int = 0,
+    /** Feature keys whose unlock snackbar has not been shown yet (checkpoint pass). */
+    val newUnlocks: List<String> = emptyList(),
 ) {
     val score: Double get() = if (answeredCount == 0) 0.0 else correctCount.toDouble() / answeredCount
 }
@@ -60,6 +64,12 @@ class LessonViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
+            // hearts display follows the user progress row
+            repo.userProgressFlow.collect { p ->
+                _state.value = _state.value.copy(hearts = p?.hearts ?: CourseRepository.MAX_HEARTS)
+            }
+        }
+        viewModelScope.launch {
             repo.initialize()
             repo.markLessonStarted(unitNumber, lessonIndex ?: CourseRepository.CHECKPOINT_INDEX)
             val plugin = repo.plugin.value ?: run {
@@ -86,6 +96,7 @@ class LessonViewModel @Inject constructor(
                 isCheckpoint = isCheckpoint,
                 exercise = queue.firstOrNull(),
                 total = presentable.size,
+                hearts = _state.value.hearts, // keep the live hearts value
             )
             if (presentable.isEmpty()) finish() // all exercises skipped: nothing to fail
         }
@@ -119,6 +130,7 @@ class LessonViewModel @Inject constructor(
         }
         viewModelScope.launch { repo.recordExerciseResult(e.id!!, correct) }
         if (correct) viewModelScope.launch { repo.addXp(XP_PER_CORRECT) }
+        else viewModelScope.launch { repo.loseHeart() } // hearts never block, just reflect
         val fb = if (correct) {
             Feedback.Correct(e.explanation ?: "")
         } else {
@@ -153,14 +165,18 @@ class LessonViewModel @Inject constructor(
     private fun finish() {
         val score = if (firstTryAnswered == 0) 1.0 else firstTryCorrect.toDouble() / firstTryAnswered
         val passed = !isCheckpoint || score >= 0.8
+        val bonus = if (isCheckpoint) (if (passed) XP_PER_CHECKPOINT else 0) else XP_PER_LESSON
         viewModelScope.launch {
-            if (isCheckpoint) {
-                repo.recordCheckpointAttempt(unitNumber, passed, score)
+            val unlocks = if (isCheckpoint) {
+                val newly = repo.recordCheckpointAttempt(unitNumber, passed, score)
                 if (passed) repo.addXp(XP_PER_CHECKPOINT)
+                newly
             } else {
                 repo.completeLesson(unitNumber, lessonIndex ?: 0, score)
                 repo.addXp(XP_PER_LESSON)
+                emptyList()
             }
+            _state.value = _state.value.copy(newUnlocks = unlocks)
         }
         _state.value = _state.value.copy(
             exercise = null,
@@ -168,7 +184,15 @@ class LessonViewModel @Inject constructor(
             correctCount = firstTryCorrect,
             answeredCount = firstTryAnswered,
             passed = passed,
+            xpGained = firstTryCorrect * XP_PER_CORRECT + bonus,
         )
+    }
+
+    /** Persist that the unlock snackbar was displayed (shown exactly once). */
+    fun markUnlocksShown() {
+        val keys = _state.value.newUnlocks
+        if (keys.isEmpty()) return
+        viewModelScope.launch { keys.forEach { repo.markUnlockShown(it) } }
     }
 
     private fun correctAnswerText(e: ExerciseDto): String = when (e.type) {

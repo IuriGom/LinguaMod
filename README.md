@@ -25,6 +25,31 @@ Language content ships in `.lingua` files (format spec: [`docs/LINGUA_FORMAT.md`
 - Drop additional `.lingua` files into that directory and tap **Rescan** on the Profile tab.
   Invalid files are rejected with a per-file error message and never partially loaded.
 
+## Gamification (Stage 2B)
+
+Gamification reflects progress; it never gates learning.
+
+- **XP**: 5 per correct exercise, 10 bonus per completed lesson, 50 per passed checkpoint.
+  The lesson-complete screen shows the gained amount; the total is on Profile.
+- **Streak**: consecutive days with ≥ 1 lesson completed. Visual only — a broken streak
+  resets silently, never blocks, no modals.
+- **Levels**: exactly four, at phase completion — Level 1 when Unit 10's checkpoint is
+  passed, then at Units 25, 40, 60. Profile shows the level and progress to the next.
+- **Badges** (Profile): *Primo Passo* (Unit 1 checkpoint), *Dieci Unità* (Unit 10),
+  *Perfezionista* (100% on any checkpoint), *Settimana Italiana* (7-day streak).
+  Locked badges are grayed with their unlock condition.
+- **Hearts**: 5 max, −1 per wrong answer, full refill on lesson completion, +1 per
+  30 minutes. **Hearts never block**: at 0, lessons stay fully playable with a subtle
+  "take your time" note. No popups, paywalls, or timers.
+- **Gems**: 10 per passed checkpoint. Spent only on cosmetic themes in
+  Profile → Appearance (accent colors, an alternate dark theme; 50–150 gems).
+  Never purchasable with money.
+- **Home progress bars**: % of current unit, current phase, and total course,
+  computed from real progress rows; short plugins are handled gracefully.
+- **Feature gates**: persisted flags (leaderboards, boss battles, stories 1–4, camera OCR,
+  mixed practice) trip on their checkpoint triggers and show a one-time, non-blocking
+  "New feature unlocked" snackbar. Unbuilt features never surface in the UI.
+
 ## Test harness
 
 The app is verified by an autonomous harness (see `BUILD_REPORT.md` for results):

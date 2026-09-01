@@ -48,3 +48,68 @@ Bugs found and fixed during Stage 1 bring-up:
 4. `material-icons-extended` pulled ~10 MB → swapped to `material-icons-core`.
 5. `androidx.core 1.15.0` requires compileSdk 35 → pinned the SDK-34-compatible dependency set (core 1.13.1, Compose BOM 2024.06.00, lifecycle 2.8.4).
 6. §9 normalization: apostrophe-as-separator chosen so `l'amore` ≡ `l amore` (caught by the boundary tests).
+
+### Stage 2 Part B — Gamification ✅
+
+Scope: the gamification layer only; plugin content untouched (currently Units 1–2, so every
+feature was built and tested to tolerate plugins shorter than the 60-unit reference course).
+
+Checks run (API-34 emulator, `emulator-5554`):
+
+- `./gradlew clean assembleDebug assembleRelease testDebugUnitTest` — **green**. 60 JVM tests,
+  0 failures (47 pre-existing + 13 new `GamificationTest`: XP totals per spec, hearts
+  +1/30 min via FakeClock, full refill on lesson completion, never below 0, gems per passed
+  checkpoint, theme purchase flow with persistence, level exactly at the Unit-10 checkpoint,
+  levels/phase math on a 2-unit plugin, all four badge triggers, feature-flag triggers,
+  snackbar-shown-once flags).
+- `./gradlew connectedDebugAndroidTest` — **10/10 green** (8 pre-existing journeys + 2 new
+  `GamificationJourneyTest`: `hearts_at_zero_lesson_still_completable` — empty hearts display
+  + "take your time" note, Solver Bot completes the lesson, completion refills to 5;
+  `unlock_snackbar_shown_once` — `unlock_snackbar` appears after the Unit 1 checkpoint pass
+  and does not reappear on re-pass).
+- Release APK: **1.86 MB** (cap 15 MB).
+
+What was built:
+
+- **XP**: gain line `+N XP` (testTag `xp_gain`) on the lesson/checkpoint finish screen.
+- **Hearts** (`CourseRepository.loseHeart/refreshHearts`): 5 max, −1 per wrong answer, full
+  refill on lesson completion, +1 per 30 min via `Clock`, refilled on `initialize()` (launch).
+  Never block: no gate in the engine; at 0 the lesson screen shows empty hearts
+  (`hearts_display`) + a subtle note. Hearts also on Profile.
+- **Gems**: +10 per passed checkpoint; spent only on cosmetic themes (Azure 50, Violet 100,
+  Midnight alt-dark 150) in Profile → Appearance. Purchases persist in DataStore
+  (`ThemeStore`); the active theme applies app-wide via `LinguaModTheme(accent, altDark)`
+  hoisted to `MainActivity`.
+- **Levels** (`core/Levels.kt`): four levels from `highestCompletedCheckpoint()` (10/25/40/60);
+  Profile shows level + progress to next; short plugins can't error.
+- **Badges** (`core/Badges.kt`): Primo Passo / Dieci Unità / Perfezionista / Settimana
+  Italiana, persisted in the existing `badges` table; locked badges grayed with condition text.
+- **Home progress bars** (testTag `progress_bars`): unit / phase / course percentages from real
+  `LessonProgress` rows; phase ends 10/25/40/60 clamped to the loaded plugin's unit count.
+- **Feature gates** (`data/FeatureUnlocks.kt`, DataStore): leaderboards, bossBattles, story1–4,
+  ocrCamera, mixedPractice trip in `recordCheckpointAttempt`; one-time non-blocking snackbar
+  "New feature unlocked: X" (testTag `unlock_snackbar`) with `shown_<key>` markers. Unbuilt
+  features never surface in the UI.
+
+Decisions:
+
+1. **No DB migration**: `UserProgressEntity` already carried hearts/gems/longestStreak and the
+   `badges` table existed; feature flags + themes went to DataStore (already a dependency), so
+   Room stays at version 2.
+2. **`StoreModule` split from `AppModule`**: instrumented tests `@UninstallModules(AppModule)`
+   to swap in the in-memory DB; the DataStore providers must survive that, so they live in
+   their own module.
+3. **`TestHooks` not usable in instrumented tests**: the test runner swaps in
+   `HiltTestApplication`, so `LinguaModApp.onCreate` (which attaches TestHooks) never runs;
+   the new journey writes hearts directly via the injected in-memory DB instead.
+4. **`SolverBot.runCheckpoint` gained `clickFinish`** (default true) so tests can assert on the
+   checkpoint finish screen before leaving it.
+5. **Gems awarded on every passed checkpoint attempt** (consistent with the existing
+   XP-per-checkpoint behavior); re-selecting an owned theme is free.
+6. **Bug fix (pre-existing)**: the committed `assets/plugins/it.lingua` symlink was one `..`
+   short and broke 26 validator unit tests at HEAD; relinked to
+   `../../../../../plugins/it.lingua`.
+7. **Bug fix (new code)**: `LessonViewModel` replaced the whole state object when loading
+   finished, wiping the collected hearts value; now preserved.
+
+**Stage 2B gate: GREEN.**

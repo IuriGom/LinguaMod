@@ -1,6 +1,7 @@
 package com.linguamod.app.ui.lesson
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -8,26 +9,39 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Snackbar
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.linguamod.app.data.CourseRepository
+import com.linguamod.app.data.FeatureUnlocks
 import com.linguamod.app.plugin.ExerciseDto
 import com.linguamod.app.plugin.ExerciseTypes
 
@@ -46,15 +60,27 @@ fun LessonScreen(
             verticalArrangement = Arrangement.Center,
         ) { CircularProgressIndicator() }
 
-        state.finished -> FinishScreen(state = state, onDone = onDone)
+        state.finished -> FinishedWithUnlocks(state = state, vm = vm, onDone = onDone)
 
         else -> Column(
             Modifier.fillMaxSize().padding(20.dp).verticalScroll(rememberScrollState()),
         ) {
-            LinearProgressIndicator(
-                progress = { if (state.total == 0) 0f else state.position.toFloat() / state.total },
-                modifier = Modifier.fillMaxWidth(),
-            )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                LinearProgressIndicator(
+                    progress = { if (state.total == 0) 0f else state.position.toFloat() / state.total },
+                    modifier = Modifier.weight(1f),
+                )
+                Spacer(Modifier.width(12.dp))
+                HeartsDisplay(state.hearts)
+            }
+            if (state.hearts == 0) {
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    "Out of hearts — take your time, you can keep practicing.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
             Spacer(Modifier.height(16.dp))
             val e = state.exercise
             if (e != null) {
@@ -75,6 +101,40 @@ fun LessonScreen(
                     modifier = Modifier.fillMaxWidth().testTag("continue_button"),
                 ) { Text("Continue") }
             }
+        }
+    }
+}
+
+/** Hearts, top of the lesson screen. Empty hearts never block play (Stage 2B §5). */
+@Composable
+private fun HeartsDisplay(hearts: Int) {
+    Row(Modifier.testTag("hearts_display"), verticalAlignment = Alignment.CenterVertically) {
+        repeat(CourseRepository.MAX_HEARTS) { i ->
+            Icon(
+                if (i < hearts) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.size(18.dp),
+            )
+        }
+    }
+}
+
+/** Finish screen + one-time, non-blocking "New feature unlocked" snackbar. */
+@Composable
+private fun FinishedWithUnlocks(state: LessonState, vm: LessonViewModel, onDone: () -> Unit) {
+    val snackbarHost = remember { SnackbarHostState() }
+    LaunchedEffect(state.newUnlocks) {
+        if (state.newUnlocks.isNotEmpty()) {
+            val names = state.newUnlocks.joinToString { FeatureUnlocks.displayName(it) }
+            vm.markUnlocksShown() // persist first so it can never re-show
+            snackbarHost.showSnackbar("New feature unlocked: $names")
+        }
+    }
+    Box(Modifier.fillMaxSize()) {
+        FinishScreen(state = state, onDone = onDone)
+        SnackbarHost(snackbarHost, Modifier.align(Alignment.BottomCenter)) { data ->
+            Snackbar(data, modifier = Modifier.testTag("unlock_snackbar"))
         }
     }
 }
@@ -217,6 +277,13 @@ private fun FinishScreen(state: LessonState, onDone: () -> Unit) {
             )
             Text("${state.correctCount}/${state.answeredCount} correct")
         }
+        Spacer(Modifier.height(8.dp))
+        Text(
+            "+${state.xpGained} XP",
+            style = MaterialTheme.typography.titleMedium,
+            color = MaterialTheme.colorScheme.primary,
+            modifier = Modifier.testTag("xp_gain"),
+        )
         Spacer(Modifier.height(24.dp))
         Button(onClick = onDone, modifier = Modifier.testTag("finish_button")) {
             Text(if (state.isCheckpoint && !state.passed) "Back to lessons" else "Done")

@@ -64,8 +64,9 @@ class SolverBot(
         rule.onNodeWithTag("finish_button").performClick()
     }
 
-    /** Returns true if the checkpoint passed. */
-    fun runCheckpoint(unitNumber: Int): Boolean {
+    /** Returns true if the checkpoint passed.
+     *  @param clickFinish set false to stay on the finish screen (e.g. snackbar assertions) */
+    fun runCheckpoint(unitNumber: Int, clickFinish: Boolean = true): Boolean {
         kotlinx.coroutines.runBlocking { waitForUnlocked(unitNumber, 4) }
         rule.onNodeWithTag("lesson_row_4").performClick()
         runExerciseLoop(presentable(unit(unitNumber).checkpoint!!.exercises))
@@ -75,7 +76,7 @@ class SolverBot(
         if (!passed) {
             rule.waitUntilExactlyOneExists(hasTestTag("checkpoint_failed"), LONG_TIMEOUT)
         }
-        rule.onNodeWithTag("finish_button").performClick()
+        if (clickFinish) rule.onNodeWithTag("finish_button").performClick()
         return passed
     }
 

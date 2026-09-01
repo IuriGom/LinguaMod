@@ -26,6 +26,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
@@ -86,6 +87,7 @@ fun HomeScreen(
                         modifier = Modifier.padding(vertical = 16.dp),
                     )
                 }
+                item { ProgressBarsCard(state.bars) }
                 items(state.nodes) { node ->
                     UnitNodeRow(
                         node = node,
@@ -102,6 +104,32 @@ fun HomeScreen(
             }
         }
         SnackbarHost(snackbar, Modifier.align(Alignment.BottomCenter))
+    }
+}
+
+@Composable
+private fun ProgressBarsCard(bars: ProgressBars) {
+    Card(Modifier.fillMaxWidth().testTag("progress_bars")) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            LabeledBar("Unit", bars.unitPct)
+            LabeledBar("Phase", bars.phasePct)
+            LabeledBar("Course", bars.totalPct)
+        }
+    }
+}
+
+@Composable
+private fun LabeledBar(label: String, pct: Float) {
+    Column {
+        Row {
+            Text(label, style = MaterialTheme.typography.labelMedium)
+            Spacer(Modifier.weight(1f))
+            Text("${(pct * 100).toInt()}%", style = MaterialTheme.typography.labelMedium)
+        }
+        LinearProgressIndicator(
+            progress = { pct },
+            modifier = Modifier.fillMaxWidth().testTag("progress_bar_${label.lowercase()}"),
+        )
     }
 }
 
