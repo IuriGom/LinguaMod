@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 1,
+    "version": 2,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -8061,5 +8061,263 @@
       "introducedInUnit": 10
     }
   ],
-  "stories": []
+  "stories": [
+    {
+      "id": "story1",
+      "title": "Al bar",
+      "unlockAfterUnit": 5,
+      "nodes": [
+        {
+          "id": "n1",
+          "speaker": "Narratore",
+          "textIt": "È sera. Tu sei al bar. La barista sorride. Cosa dici?",
+          "textEn": "It's evening. You are at the café. The barista smiles. What do you say?",
+          "choices": [
+            {
+              "text": "Buonasera!",
+              "next": "n2",
+              "correct": true
+            },
+            {
+              "text": "Buongiorno!",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "Buongiorno is for the morning. It's evening — greet her with buonasera."
+            },
+            {
+              "text": "Come ti chiami?",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "Greet first, then ask names. In Italian, as in English, you open with a greeting: buonasera."
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "speaker": "Giulia (barista)",
+          "textIt": "Buonasera! Come ti chiami?",
+          "textEn": "Good evening! What's your name?",
+          "choices": [
+            {
+              "text": "Mi chiamo Alex.",
+              "next": "n3",
+              "correct": true
+            },
+            {
+              "text": "Io chiamo Alex.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "Italian uses the reflexive: mi chiamo, literally 'I call myself'. Io chiamo Alex would mean 'I call Alex (on the phone)'."
+            },
+            {
+              "text": "Sì, grazie.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "She asked your name — not a yes/no question. Answer with mi chiamo + your name."
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "speaker": "Giulia (barista)",
+          "textIt": "Piacere, Alex! Io sono Giulia. E tu, di dove sei?",
+          "textEn": "Nice to meet you, Alex! I'm Giulia. And you, where are you from?",
+          "choices": [
+            {
+              "text": "Sono americano.",
+              "next": "n4",
+              "correct": true
+            },
+            {
+              "text": "Sono un americano.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "With essere + a nationality, drop the article: sono americano, not sono un americano."
+            },
+            {
+              "text": "Sono di americano.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "Di dove sei asks where you're from, but the answer is sono + nationality: sono americano. Di doesn't combine with the adjective."
+            }
+          ]
+        },
+        {
+          "id": "n4",
+          "speaker": "Giulia (barista)",
+          "textIt": "E come si scrive il tuo nome, Alex?",
+          "textEn": "And how do you spell your name, Alex?",
+          "choices": [
+            {
+              "text": "A-L-E-X.",
+              "next": "n5",
+              "correct": true
+            },
+            {
+              "text": "Sì, si scrive Alex.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "Come si scrive asks you to spell it letter by letter. Say the letters: A-L-E-X."
+            },
+            {
+              "text": "Il mio nome è Alex.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "That answers what your name is, not how it's written. Spell it out: A-L-E-X."
+            }
+          ]
+        },
+        {
+          "id": "n5",
+          "speaker": "Giulia (barista)",
+          "textIt": "Quanti anni hai, Alex?",
+          "textEn": "How old are you, Alex?",
+          "choices": [
+            {
+              "text": "Ho venti anni.",
+              "next": "n6",
+              "correct": true
+            },
+            {
+              "text": "Sono venti anni.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "Age uses avere (to have), not essere: ho venti anni, literally 'I have twenty years'."
+            },
+            {
+              "text": "Ho venti anno.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "Almost! After a number, anno becomes plural: ho venti anni."
+            }
+          ]
+        },
+        {
+          "id": "n6",
+          "speaker": "Giulia (barista)",
+          "textIt": "Hai un telefono, Alex?",
+          "textEn": "Do you have a phone, Alex?",
+          "choices": [
+            {
+              "text": "Sì, ho un telefono.",
+              "next": "n7",
+              "correct": true
+            },
+            {
+              "text": "Sì, sono un telefono.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "Sono un telefono means 'I am a phone'! Possession uses avere: ho un telefono."
+            },
+            {
+              "text": "No, grazie.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "She isn't offering you anything — she asked whether you have a phone. Answer: sì, ho un telefono."
+            }
+          ]
+        },
+        {
+          "id": "n7",
+          "speaker": "Giulia (barista)",
+          "textIt": "Qual è il tuo numero?",
+          "textEn": "What's your (phone) number?",
+          "choices": [
+            {
+              "text": "Il mio numero è tre due uno, cinque cinque cinque.",
+              "next": "n8",
+              "correct": true
+            },
+            {
+              "text": "Il numero sono tre due uno.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "A number 'is' something — use è (third person): il mio numero è tre due uno… Sono is 'I am / they are'."
+            },
+            {
+              "text": "C'è tre due uno.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "C'è means 'there is'. For your phone number, say: il mio numero è …"
+            }
+          ]
+        },
+        {
+          "id": "n8",
+          "speaker": "Narratore",
+          "textIt": "Giulia sorride. Ora tu inviti Giulia al bar. Cosa dici?",
+          "textEn": "Giulia smiles. Now you invite Giulia to the café. What do you say?",
+          "choices": [
+            {
+              "text": "Giulia... al bar con me?",
+              "next": "n9",
+              "correct": true
+            },
+            {
+              "text": "Giulia è al bar.",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "That's a statement about Giulia, not an invitation. Invite her: al bar con me?"
+            },
+            {
+              "text": "Dove sei, Giulia?",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "She's right in front of you! Dove sei asks where someone is. Invite her instead: al bar con me?"
+            }
+          ]
+        },
+        {
+          "id": "n9",
+          "speaker": "Giulia (barista)",
+          "textIt": "Sì! Al bar con te, Alex. Grazie!",
+          "textEn": "Yes! To the café with you, Alex. Thank you!",
+          "choices": [
+            {
+              "text": "Ciao, Giulia! Grazie!",
+              "next": "n10",
+              "correct": true
+            },
+            {
+              "text": "No, grazie.",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "You invited her and she said yes — don't decline your own invitation! Close with a warm ciao."
+            },
+            {
+              "text": "Buongiorno, Giulia.",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "It's still evening — and the conversation is ending. Close with ciao or buonasera."
+            }
+          ]
+        },
+        {
+          "id": "n10",
+          "speaker": "Narratore",
+          "textIt": "Giulia sorride e scrive il numero. Tu hai il numero di Giulia. Al bar, con Giulia — bravo, Alex!",
+          "textEn": "Giulia smiles and writes down her number. You have Giulia's number. The café, with Giulia — well done, Alex!",
+          "terminal": true
+        }
+      ]
+    },
+    {
+      "id": "story2",
+      "title": "Il ristorante",
+      "unlockAfterUnit": 15,
+      "nodes": []
+    },
+    {
+      "id": "story3",
+      "title": "Il messaggio",
+      "unlockAfterUnit": 28,
+      "nodes": []
+    },
+    {
+      "id": "story4",
+      "title": "A cena dalla famiglia",
+      "unlockAfterUnit": 45,
+      "nodes": []
+    }
+  ]
 }
