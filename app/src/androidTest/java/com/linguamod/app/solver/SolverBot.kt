@@ -49,6 +49,8 @@ interface FakeAudioEntryPoint {
  *              is seen (tests failure paths)
  * @param chaosStaysWrong when true, re-queued exercises are answered wrong again
  *              (forces a checkpoint failure)
+ * @param chaosMax at most this many DISTINCT exercises are answered wrong
+ *              (their re-queues are then answered correctly)
  */
 @OptIn(ExperimentalTestApi::class)
 class SolverBot(
@@ -56,6 +58,7 @@ class SolverBot(
     private val plugin: LinguaPluginDto,
     private val chaos: Boolean = false,
     private val chaosStaysWrong: Boolean = false,
+    private val chaosMax: Int = Int.MAX_VALUE,
     private val db: com.linguamod.app.data.db.AppDatabase? = null,
 ) {
     private val recognizer: FakeSpeechRecognizerGateway? = runCatching {
@@ -150,13 +153,18 @@ class SolverBot(
         val sequence = exercises.toMutableList()
         val seenOnce = mutableSetOf<String>()
         val requeued = ArrayDeque<ExerciseDto>()
+        var chaosUsed = 0
         var idx = 0
         while (idx < sequence.size) {
             val e = sequence[idx]
             val firstTime = seenOnce.add(e.id!!)
-            val answerWrong = chaos && (firstTime || chaosStaysWrong)
+            val answerWrong = chaos && chaosUsed < chaosMax &&
+                (if (firstTime) true else chaosStaysWrong)
+            if (answerWrong && firstTime) {
+                chaosUsed++
+                requeued.addLast(e) // engine re-queues once
+            }
             answerExercise(e, answerWrong)
-            if (answerWrong && firstTime) requeued.addLast(e) // engine re-queues once
             idx++
             if (idx == sequence.size && requeued.isNotEmpty()) {
                 sequence += requeued.toList()
@@ -164,9 +172,37 @@ class SolverBot(
             }
         }
         rule.waitUntilExactlyOneExists(
-            hasTestTag("lesson_complete") or hasTestTag("checkpoint_passed") or hasTestTag("checkpoint_failed"),
+            hasTestTag("lesson_complete") or hasTestTag("checkpoint_passed")
+                or hasTestTag("checkpoint_failed") or hasTestTag("review_complete"),
             LONG_TIMEOUT,
         )
+    }
+
+    /**
+     * Solves the currently-open session (lesson screen already showing).
+     * [exerciseIds] must be the session's exercises in engine order (due order
+     * for review sessions, plugin order for lessons/checkpoints).
+     */
+    fun solveOpenSession(exerciseIds: List<String>) {
+        val exercises = exerciseIds.map { id ->
+            findExercise(id) ?: error("Solver bot: no exercise payload for id $id")
+        }
+        // first exercise appears without a row tap
+        rule.waitUntilExactlyOneExists(hasTestTag("exercise_${exercises.first().id}"), LONG_TIMEOUT)
+        runExerciseLoop(exercises)
+        tapUntil(
+            "finish_button",
+            disappears = hasTestTag("lesson_complete") or hasTestTag("review_complete"),
+        )
+    }
+
+    /** Original payload lookup, mirroring CourseRepository.findExercise. */
+    private fun findExercise(exerciseId: String): ExerciseDto? {
+        for (u in plugin.units) {
+            u.lessons?.forEach { l -> l.exercises.firstOrNull { it.id == exerciseId }?.let { return it } }
+            u.checkpoint?.exercises?.firstOrNull { it.id == exerciseId }?.let { return it }
+        }
+        return null
     }
 
     private fun answerExercise(e: ExerciseDto, wrong: Boolean) {
