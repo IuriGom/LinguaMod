@@ -257,3 +257,66 @@ Checks run (API-34 emulator `emulator-5554`):
 Not done here (part 2): extended airplane journey, no-Italian-voice UI test,
 speaking-scoring acceptance tests, scramble/cache acceptance tests, SRS review
 system, flashcards, README update.
+
+### Stage 3 — part 2 (review + flashcards + acceptance) ✅ (2026-09-02)
+
+What was built:
+
+- **Spaced repetition (§5, "SM-2 lite")**: `CourseRepository.recordExerciseResult`
+  now maintains `review_items` (table + DAO already existed from the schema).
+  Wrong → interval resets to 10 minutes (due again this session); correct on a
+  previously-wrong item → interval × 2.5 from a 1-day start, capped at 30 days
+  (constants on `CourseRepository`: `REVIEW_WRONG/START/MAX_INTERVAL_MILLIS`,
+  `REVIEW_INTERVAL_FACTOR`). Home shows an "N exercises due for review" card
+  above the path only when N > 0, recomputed live from `reviewItemsFlow` +
+  `Clock`. Tapping it navigates to a new `review` route: `LessonViewModel`
+  gained a review mode (no `unit` argument → queue = due items resolved to
+  their original payloads via `CourseRepository.findExercise`), so review
+  sessions reuse the lesson renderers verbatim. Review sessions never touch
+  hearts, XP, streaks, or progress rows; wrong answers reschedule (10 min).
+- **Flashcards (§6)**: Dictionary → "Study flashcards" → new `flashcards`
+  route. Deck = entries up to the highest started unit (same rule as the
+  dictionary; `highestStartedUnit` moved into `CourseRepository` and shared).
+  `FlashcardSession` (pure JVM): shuffled draw, cap 20, "Got it" retires,
+  "Still learning" re-queues in-session; session ends at deck exhaustion.
+  Card: Italian (article + speaker icon) → flip → English + example + gender
+  badge. Independent of the SRS.
+- **Speaking feedback**: the pronunciation-issue vs completely-different line
+  moved into `SpeakingScorer.heardNoteFor` so the message is unit-testable.
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 96 JVM tests, 0 failures** (79
+  pre-existing + 8 `ReviewSystemTest` fake-Clock scheduling cases incl.
+  10-min reset, ×2.5 growth, 30-day cap, due-order payload resolution + 5
+  `FlashcardTest` deck-gating/20-cap/re-queue cases + 3 `SpeakingScorerTest`
+  heard-note message cases + 1 `SpeakingSubstitutionTest` exactly-once case).
+  `SpeakingScorerTest` and `TtsFileCacheTest` already covered the AC 4/8
+  boundary, garbage, and cap-500/LRU cases — verified, message cases extended.
+- `./gradlew connectedDebugAndroidTest` — **25/25 green** in one final full
+  pass (~7.5 min). New journeys: `journey_review_card_three_due_then_cleared`
+  (3 chaos failures → card shows exactly 3 due; review session via Solver Bot;
+  card clears; hearts/XP/streak asserted unchanged), `journey_flashcards_
+  gating_requeue_and_cap` (empty before any started unit; "Still learning"
+  card returns after the others; 25-entry deck caps the session at 20),
+  `journey_scramble_duplicate_tokens` (u9l2e11 "No, no, grazie!" solved through
+  the real UI, result row correct), `journey_airplane_audio` (recognizer
+  unavailable → both speaking exercises substituted, `substitutionCount == 2`,
+  every expected listening/speaking string requested from the fake TTS
+  gateway), `journey_no_italian_voice` (dialog once — persisted flag asserted
+  across an activity restart; listen buttons hidden; Solver Bot completes the
+  oral lesson). All prior journeys green as regression.
+- Monkey: **20000 events, `--pct-syskeys 0`, zero crashes/ANRs** (exit 0,
+  logcat clean per `tools/journeys/monkey.sh`).
+- `./gradlew assembleRelease` — release APK **1,943,227 bytes ≈ 1.85 MB**
+  (cap 15 MB).
+- Validator + content untouched this part; `PluginValidatorTest` green.
+
+Failure modes found and fixed during the part-2 runs (not papered over):
+
+- First full run: 3 new-test failures. Two were semantics-merging artifacts
+  (clickable M3 `Surface`/`Card` merge descendants — assertions moved to the
+  merged node / unmerged tree). One was real environment state: `cacheDir/tts`
+  survives `adb install -r`, so cached replays bypassed the fake gateway's
+  `synthesizeToFile` — the airplane-audio test now clears the cache first.
+  Re-run of the 3 classes: 7/7 green; final full pass: 25/25 green.
