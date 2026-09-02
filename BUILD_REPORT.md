@@ -320,3 +320,74 @@ Failure modes found and fixed during the part-2 runs (not papered over):
   survives `adb install -r`, so cached replays bypassed the fake gateway's
   `synthesizeToFile` — the airplane-audio test now clears the cache first.
   Re-run of the 3 classes: 7/7 green; final full pass: 25/25 green.
+
+### Stage 4 — part A (stories, bosses, mixed practice, stats) ✅
+
+Scope: spec §2 Story Mode, §3 Boss Battles, §4 Mixed Practice, §5 personal
+stats (leaderboards → "Your Records"). OCR, the gating regression, and the
+final acceptance run are part B.
+
+- **Story Mode**: `StoryScreen`/`StoryViewModel` (node text + optional English
+  toggle, speaker label, 2–3 choices; correct advances, wrong shows teaching
+  `feedbackEn` and loops; terminal node completes: +30 XP + per-story
+  `narratore_<id>` badge, once; replayable). Book icons anchor on the Home path
+  after the unlocking unit's node; locked entries show their unlock condition;
+  dormant stories (anchor unit absent) park at the end of the path once their
+  flag trips. Placeholder stories render "This story arrives with a future
+  content pack." and never crash.
+- **Story 1 "Al bar"** fully written into `plugins/it.lingua` (meta.version 2):
+  10 nodes (9 non-terminal + terminal), units 1–5 vocabulary/grammar only
+  (greetings, essere/nationality without article, spelling, avere for age,
+  c'è/ci sono, phone numbers), wrong choices are plausible learner mistakes
+  with real feedback. `story2`–`story4` registered as `nodes: []` placeholders
+  (unlockAfterUnit 15/28/45, titles per stages 5–7).
+- **Boss Battles**: `BossGenerator` — 15 questions sampled from completed
+  units' checkpoints, previously-wrong exercises weighted 3×; deterministic
+  under injected `Random`. Boss sessions run in the shared lesson engine as
+  `SessionMode.BOSS` (strikes replace hearts, no re-queue, no per-answer
+  XP/hearts): 3 strikes = battle lost, no penalty; win = 100 XP + gems ×2 +
+  `boss_champion_<n>` badge (first win only). Themed ⚔ overlay rows after
+  every 5th unit node, gated by the `bossBattles` flag.
+- **Mixed Practice**: `PracticeGenerator` — 10 exercises across all completed
+  units (lessons + checkpoints, all 7 types), each slot 60% focus
+  (wrong-or-never-attempted) / 40% random review. `SessionMode.PRACTICE`:
+  no hearts, no XP; every result feeds the Stage 3 SM-2-lite review scheduler
+  via `recordExerciseResult`. Home card visible only when the flag has tripped.
+- **Personal stats**: Profile → "Your Records" (behind the `leaderboards`
+  flag, labeled personal-only): XP-per-day bar chart (last 14 days,
+  zero-filled), best checkpoint scores per unit, longest streak,
+  most-looked-up OCR words. `DictionaryEntryEntity.lookupCount` +
+  `incrementLookup`/`mostLookedUp` DAO plumbing in place; part B's OCR UI
+  increments it via `CourseRepository.recordDictionaryLookup`.
+- **FeatureUnlocks is now reactive** (`flagsFlow`): gated Home rows refresh the
+  moment a flag trips. Story/boss rows are hidden until their anchor unit is
+  reachable or the flag has tripped (acceptance 2's "hidden before unlock").
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 116 JVM tests, 0 failures**
+  (96 pre-existing + 11 `StoryValidationTest` §7 structural rules incl.
+  validator-rejection fixtures + 6 `BossBattleTest` sampling/weighting/reward
+  cases + 3 `MixedPracticeTest` incl. 100-sample 60/40 distribution, measured
+  share within [0.52, 0.68]).
+- `./gradlew connectedDebugAndroidTest` — **29/29 green** in one final full
+  pass (~9.5 min). New journeys: `journey_story1_correct_path_wrong_loops_
+  and_rewards` (full correct path, 2 wrong-choice loops with asserted feedback
+  text, +30 XP + Narratore badge, replay), `journey_placeholder_story_renders_
+  future_pack` (story2 flag tripped with no anchor unit), `journey_boss_lose_
+  costs_nothing_then_win_rewards` (3 strikes → loss, XP/gems/hearts unchanged;
+  replay → win, +100 XP, gems 8→16, badge, `boss_results` row),
+  `journey_mixed_practice_feeds_review_scheduler` (2 wrong answers → exactly
+  2 `review_items` rows; XP/hearts unchanged). All 25 prior journeys green.
+
+Failure modes found and fixed during the runs (not papered over):
+
+- First full run: 3 failures. Two were test-seam issues — `FeatureUnlocks`
+  was read one-shot, so flags tripped directly (the test fast-forward path)
+  never refreshed gated Home rows; flags are now a live `Flow`. The third was
+  a real regression from the new path rows: with story/boss rows and the
+  practice card, the deep-scrolled Home list disposes `progress_bars`, which
+  `unit_10` waits on after the final checkpoint — the existing journey now
+  scrolls back to the top before asserting (viewport artifact, not app logic).
+- Second run: one swallowed tap on `boss_row_5` mid-scroll; row taps in the
+  Stage 4 journeys now use the established scroll-and-retry pattern.
