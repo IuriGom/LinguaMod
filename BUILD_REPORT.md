@@ -162,3 +162,98 @@ Checks run (API-34 emulator, `emulator-5554`, unless noted):
   `core/Badges.kt` (Primo Passo / Dieci Unità / Perfezionista / Settimana Italiana).
 
 **Stage 2 gate: GREEN.**
+
+### Stage 3 — part 1 (audio + renderers)
+
+Scope: prompt 03 sections 0–4 only (test seams, TTS, listening, speaking,
+sentence_scramble). The SRS/flashcard half and the formal Stage 3 acceptance tests
+are deliberately left to part 2.
+
+What was built:
+
+- **Test seams (§0)**: `audio/TtsGateway` + `audio/SpeechRecognizerGateway`
+  interfaces; real impls wrap `TextToSpeech` (Italian, serialized utterances) and
+  `SpeechRecognizer` (FREE_FORM, `it-IT`, partial results, main-thread, error
+  mapping to Unavailable/PermissionDenied/Failed). Fakes in androidTest
+  (`fakes/FakeGateways.kt`): TTS fake records spoken (text, rate) pairs and
+  synthesizes a real silent WAV (MediaPlayer replay works against it);
+  recognizer fake scripts transcripts and simulates unavailable / permission
+  denied / partials / arbitrary heard text (no script → echoes the target, so the
+  Solver Bot is a perfect learner by default). Real bindings live in `AppModule`
+  (uninstalled by every journey); `TestAudioModule` in androidTest installs the
+  fakes for the whole instrumented component.
+- **TtsManager (§1)**: Hilt singleton. Missing Italian voice → `audioAvailable`
+  goes false, every audio button hides (SpeakerButton renders nothing), one-time
+  "Install the Italian voice" dialog deep-links to system TTS settings, shown-once
+  flag persisted in the new `audio_prefs` DataStore (`AudioStore`, provider in
+  `StoreModule`). Playback: cache-first into `cacheDir/tts/<sha1-of-§9-normalized
+  text>.wav` via pure-JVM `TtsFileCache` (cap 500, LRU eviction, disk reseed),
+  MediaPlayer replay with speed control; fallback chain cache → synthesize →
+  direct speak; every failure path is a silent no-op. Speaker icons on dictionary
+  entries, Italian examples, and the correct answer / heard text after feedback.
+  RECORD_AUDIO permission + `<queries>` for the recognition service added.
+- **Listening (§6.5)**: autoplay once on open (the only autoplay in the app),
+  large Play button + 0.75× replay button, unlimited replays, both hidden when no
+  Italian voice; choice mode reuses the 4-option UI; type mode matches per §9;
+  `speakIt` revealed only after answering ("You heard:" + speaker icon).
+- **Speaking (§6.6)**: availability checked in the ViewModel BEFORE the exercise
+  is shown; unavailable → silent substitution with a listening-type variant of
+  the same `targetIt` + one-time-per-session snackbar (session state in
+  `SpeakingSubstitution`, substitutions logged). Runtime mic flow: rationale card
+  → system request; denial → same substitution. Scoring via pure-JVM
+  `SpeakingScorer`: §9-normalized token overlap vs targetIt, pass at ≥
+  minAccuracy (default 0.7). Feedback always shows "Google heard: …", pass or
+  fail; failures distinguish pronunciation issue (overlap ≥ 0.35) from
+  "completely different — try a quieter room" (overlap < 0.35).
+- **sentence_scramble (§6.7)**: token bank shuffled on open (deterministic seed
+  per exercise id), tap-to-place / tap-to-remove, submit enabled when the bank is
+  empty, check = whitespace-normalized join vs `correctSentence` (exact — order
+  is the skill, punctuation stays attached to tokens).
+- **Solver Bot**: solves all 7 types in both correct and chaos modes — listening
+  choice/type, speaking (echo pass / scripted-garbage fail; solves the
+  substituted listening variant when the fake is unavailable), scramble by
+  reading bank token text from the semantics tree (shuffle- and duplicate-proof,
+  wrong permutation computed for chaos). Fakes reached via a Hilt EntryPoint.
+
+Design decisions worth noting:
+
+- Permission UX vs "silent substitution": recognizer availability is checked
+  pre-show (truly silent); mic permission uses the rationale-first runtime flow,
+  and *denial* triggers the same substitution — you cannot silently substitute on
+  a permission the user was never asked for.
+- "Completely different" threshold fixed at overlap < 0.35 of target tokens.
+- Scramble correctness compares exact (whitespace-normalized) strings, NOT §9
+  fuzzy matching — word order is the trained skill.
+- `TtsManager.play` asks the gateway directly instead of trusting the
+  availability flow (the flow starts false until async init lands; a listening
+  exercise can autoplay before that).
+
+Content diff (`plugins/it.lingua`, Python json load→modify→dump indent=2):
+
+- +15 `sentence_scramble` exercises: 3 per grammar lesson (lesson 2) in Units
+  6–10 (word order, essere/avere, question words, bar ordering, telling
+  time/price). Tokens keep attached punctuation; u9l2e11 ("No, no, grazie!") has
+  duplicate tokens on purpose. Grammar lessons went 8 → 11 exercises (cap 12),
+  no lesson hit its cap, no replacements needed.
+- Listening audit: every Unit 1–10 oral lesson (lesson 4) already had 3–4
+  listening exercises and every checkpoint already had 2 — nothing missing, so
+  none added; the dormant ones now render.
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 79 JVM tests, 0 failures** (62
+  pre-existing + 11 `SpeakingScorerTest` boundary/threshold cases + 6
+  `TtsFileCacheTest` cap/LRU/reseed cases). Validator + conjugation cross-check
+  green after the content edit.
+- `./gradlew connectedDebugAndroidTest` — **20/20 green** in ~7 min: all prior
+  journeys as regression; the bot now actually plays through every
+  listening/speaking/scramble exercise in Units 1–10 (oral lessons and
+  checkpoints included). One flake seen and fixed: `journey_complete_unit`'s
+  10 s `unit_node_2` wait after back-navigation was too tight under the heavier
+  suite — bumped to 30 s; the class passes standalone and in the full re-run.
+- `./gradlew assembleRelease` — release APK **1,926,843 bytes ≈ 1.84 MB**
+  (cap 15 MB).
+
+Not done here (part 2): extended airplane journey, no-Italian-voice UI test,
+speaking-scoring acceptance tests, scramble/cache acceptance tests, SRS review
+system, flashcards, README update.

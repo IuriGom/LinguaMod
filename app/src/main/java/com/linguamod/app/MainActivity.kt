@@ -9,14 +9,17 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Person
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
@@ -37,6 +40,7 @@ import com.linguamod.app.ui.theme.LinguaModTheme
 import com.linguamod.app.ui.unit.UnitDetailScreen
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import kotlinx.coroutines.launch
 
 object Routes {
     const val HOME = "home"
@@ -56,6 +60,9 @@ class MainActivity : ComponentActivity() {
     @Inject
     lateinit var themeStore: ThemeStore
 
+    @Inject
+    lateinit var ttsManager: com.linguamod.app.audio.TtsManager
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -64,9 +71,49 @@ class MainActivity : ComponentActivity() {
             val spec = ThemeCatalog.byId(themeId)
             LinguaModTheme(accent = spec.accentArgb?.let { Color(it) }, altDark = spec.altDark) {
                 LinguaModAppContent()
+                ItalianVoicePrompt(ttsManager)
             }
         }
     }
+}
+
+/**
+ * One-time "Install the Italian voice" dialog (Stage 3 §1): shown once ever
+ * (persisted flag) when the TTS engine has no Italian voice; deep-links to the
+ * system TTS settings. Until installed, audio buttons hide — never an error.
+ */
+@Composable
+private fun ItalianVoicePrompt(ttsManager: com.linguamod.app.audio.TtsManager) {
+    val show by ttsManager.showVoiceInstallPrompt.collectAsState()
+    if (!show) return
+    val scope = rememberCoroutineScope()
+    AlertDialog(
+        onDismissRequest = { scope.launch { ttsManager.markVoicePromptShown() } },
+        title = { Text("Install the Italian voice") },
+        text = {
+            Text(
+                "This device has no Italian voice for text-to-speech. " +
+                    "Install it in the system TTS settings to hear pronunciation. " +
+                    "Audio buttons stay hidden until then — everything else works offline."
+            )
+        },
+        confirmButton = {
+            TextButton(
+                onClick = {
+                    ttsManager.openTtsSettings()
+                    scope.launch { ttsManager.markVoicePromptShown() }
+                },
+                modifier = Modifier.testTag("tts_voice_open_settings"),
+            ) { Text("Open settings") }
+        },
+        dismissButton = {
+            TextButton(
+                onClick = { scope.launch { ttsManager.markVoicePromptShown() } },
+                modifier = Modifier.testTag("tts_voice_not_now"),
+            ) { Text("Not now") }
+        },
+        modifier = Modifier.testTag("tts_voice_dialog"),
+    )
 }
 
 @Composable

@@ -1,22 +1,49 @@
 package com.linguamod.app.solver
 
+import android.content.Context
+import androidx.compose.ui.semantics.SemanticsProperties
+import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.SemanticsMatcher
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.junit4.ComposeTestRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.waitUntilExactlyOneExists
+import androidx.test.core.app.ApplicationProvider
+import com.linguamod.app.fakes.FakeSpeechRecognizerGateway
+import com.linguamod.app.fakes.FakeTtsGateway
 import com.linguamod.app.plugin.ExerciseDto
 import com.linguamod.app.plugin.ExerciseTypes
 import com.linguamod.app.plugin.LinguaPluginDto
 import com.linguamod.app.plugin.UnitDto
 import com.linguamod.app.ui.lesson.LessonViewModel
+import dagger.hilt.EntryPoint
+import dagger.hilt.InstallIn
+import dagger.hilt.android.EntryPointAccessors
+import dagger.hilt.components.SingletonComponent
+
+/** Lets the bot reach the scripted fake gateways without constructor plumbing. */
+@EntryPoint
+@InstallIn(SingletonComponent::class)
+interface FakeAudioEntryPoint {
+    fun fakeTts(): FakeTtsGateway
+    fun fakeRecognizer(): FakeSpeechRecognizerGateway
+}
 
 /**
  * Solver Bot (Orchestrator §C.2): completes any lesson/checkpoint by deriving
  * correct answers from the plugin JSON, driving the REAL UI. Lives only in
  * androidTest code — never in any APK that ships.
+ *
+ * Stage 3: also solves listening (choice → the correct option; type → the
+ * speakIt text), speaking (fake recognizer echoes the target phrase → pass;
+ * chaos scripts garbage → fail), and sentence_scramble (taps bank tokens in
+ * the correct order, reading token text from the UI so duplicates and the
+ * shuffle are handled). When the fake recognizer is unavailable the engine
+ * substitutes a listening-type variant of the speaking exercise, which the
+ * bot then solves by typing the target phrase.
  *
  * @param chaos when true, answers wrong on purpose the first time each exercise
  *              is seen (tests failure paths)
@@ -31,6 +58,13 @@ class SolverBot(
     private val chaosStaysWrong: Boolean = false,
     private val db: com.linguamod.app.data.db.AppDatabase? = null,
 ) {
+    private val recognizer: FakeSpeechRecognizerGateway? = runCatching {
+        EntryPointAccessors.fromApplication(
+            ApplicationProvider.getApplicationContext<Context>(),
+            FakeAudioEntryPoint::class.java,
+        ).fakeRecognizer()
+    }.getOrNull()
+
     private fun unit(n: Int): UnitDto = plugin.units.first { it.number == n }
 
     private fun presentable(exercises: List<ExerciseDto>): List<ExerciseDto> =
@@ -137,24 +171,141 @@ class SolverBot(
 
     private fun answerExercise(e: ExerciseDto, wrong: Boolean) {
         rule.waitUntilExactlyOneExists(hasTestTag("exercise_${e.id}"), LONG_TIMEOUT)
+        val feedback = hasTestTag(if (wrong) "feedback_wrong" else "feedback_correct")
         when (e.type) {
             ExerciseTypes.MULTIPLE_CHOICE -> {
-                val idx = if (wrong) (e.correctIndex!! + 1) % 4 else e.correctIndex!!
-                rule.onNodeWithTag("option_$idx").performClick()
+                tapOption(if (wrong) (e.correctIndex!! + 1) % 4 else e.correctIndex!!)
+                submitAndContinue(feedback)
             }
-            ExerciseTypes.FILL_BLANK, ExerciseTypes.TRANSLATION_IT_EN, ExerciseTypes.TRANSLATION_EN_IT -> {
-                val answer = if (wrong) "xxxxx" else when (e.type) {
+            ExerciseTypes.LISTENING -> when (e.mode) {
+                "type" -> {
+                    typeAnswer(if (wrong) GARBAGE else e.speakIt!!)
+                    submitAndContinue(feedback)
+                }
+                else -> {
+                    tapOption(if (wrong) (e.correctIndex!! + 1) % 4 else e.correctIndex!!)
+                    submitAndContinue(feedback)
+                }
+            }
+            ExerciseTypes.FILL_BLANK, ExerciseTypes.TRANSLATION_IT_EN,
+            ExerciseTypes.TRANSLATION_EN_IT,
+            -> {
+                val answer = if (wrong) GARBAGE else when (e.type) {
                     ExerciseTypes.FILL_BLANK -> e.answers!!.first()
                     ExerciseTypes.TRANSLATION_IT_EN -> e.acceptedEn!!.first()
                     else -> e.acceptedIt!!.first()
                 }
-                rule.onNodeWithTag("answer_field").performTextInput(answer)
+                typeAnswer(answer)
+                submitAndContinue(feedback)
             }
-            else -> error("Solver bot: unsupported type ${e.type} (Stage 1)")
+            ExerciseTypes.SPEAKING -> answerSpeaking(e, wrong, feedback)
+            ExerciseTypes.SENTENCE_SCRAMBLE -> {
+                answerScramble(e, wrong)
+                submitAndContinue(feedback)
+            }
+            else -> error("Solver bot: unsupported type ${e.type}")
         }
-        // Under emulator load a tap can be swallowed mid-recomposition; verify each
-        // tap landed and retry it (bounded) instead of timing out downstream.
-        val feedback = hasTestTag(if (wrong) "feedback_wrong" else "feedback_correct")
+    }
+
+    /**
+     * Speaking: the fake recognizer echoes the target phrase (pass); chaos
+     * scripts a garbage transcript (fail, "completely different"). If the fake
+     * is unavailable or mic-denied, the engine substituted a listening-type
+     * variant of the same phrase — solved by typing the target.
+     */
+    private fun answerSpeaking(e: ExerciseDto, wrong: Boolean, feedback: SemanticsMatcher) {
+        val rec = recognizer
+        if (rec != null && (!rec.isRecognitionAvailable() || !rec.isMicPermissionGranted())) {
+            typeAnswer(if (wrong) GARBAGE else e.targetIt!!)
+            submitAndContinue(feedback)
+            return
+        }
+        rec?.script = if (wrong) GARBAGE else null // null script → echo the target phrase
+        try {
+            tapUntil("speak_mic", appears = feedback)
+        } finally {
+            rec?.script = null
+        }
+        tapUntil("continue_button", disappears = feedback)
+    }
+
+    /** Scramble: taps bank tokens in the wanted order, reading the token text
+     *  from the UI (the shuffle is opaque to the bot; duplicates are identical). */
+    private fun answerScramble(e: ExerciseDto, wrong: Boolean) {
+        val correctOrder = e.correctSentence!!.trim().split(Regex("\\s+"))
+        var order = correctOrder
+        if (wrong) {
+            val wrongOrder = wrongPermutation(correctOrder)
+            if (wrongOrder == null) {
+                order = correctOrder // all tokens identical: cannot fail — answer correctly
+            } else {
+                order = wrongOrder
+            }
+        }
+        for (token in order) tapBankToken(token)
+    }
+
+    /** A permutation guaranteed to mismatch the target, or null if none exists. */
+    private fun wrongPermutation(order: List<String>): List<String>? {
+        val target = LessonViewModel.normalizeWhitespace(order.joinToString(" "))
+        val candidates = listOf(order.reversed()) + order.indices.map { i ->
+            order.toMutableList().also { it.add(it.removeAt(i)) } // move token i to the end
+        }
+        return candidates.firstOrNull {
+            LessonViewModel.normalizeWhitespace(it.joinToString(" ")) != target
+        }
+    }
+
+    /** Taps the first bank token whose text equals [token]; retries while
+     *  recomposition lags behind the previous tap. */
+    private fun tapBankToken(token: String) {
+        val deadline = System.currentTimeMillis() + LONG_TIMEOUT
+        while (true) {
+            var i = 0
+            while (true) {
+                val nodes = rule.onAllNodes(hasTestTag("scramble_bank_$i")).fetchSemanticsNodes()
+                if (nodes.isEmpty()) break
+                val text = nodes.first().config.getOrNull(SemanticsProperties.Text)
+                    ?.joinToString("") { it.text }
+                if (text == token) {
+                    rule.onNodeWithTag("scramble_bank_$i").performClick()
+                    rule.waitForIdle()
+                    return
+                }
+                i++
+            }
+            if (System.currentTimeMillis() >= deadline) {
+                error("Solver bot: scramble bank token '$token' not found")
+            }
+            Thread.sleep(100)
+        }
+    }
+
+    private fun tapOption(i: Int) {
+        // Under emulator load a tap can be swallowed mid-recomposition; retry
+        // until the selection lands (bounded).
+        val deadline = System.currentTimeMillis() + LONG_TIMEOUT
+        while (true) {
+            rule.onNodeWithTag("option_$i").performClick()
+            try {
+                rule.waitUntil(SHORT_TIMEOUT) {
+                    rule.onNodeWithTag("submit_button")
+                        .fetchSemanticsNode().config
+                        .getOrNull(androidx.compose.ui.semantics.SemanticsProperties.Disabled) == null
+                }
+                return
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                if (System.currentTimeMillis() >= deadline) throw e
+            }
+        }
+    }
+
+    private fun typeAnswer(answer: String) {
+        rule.onNodeWithTag("answer_field").performTextInput(answer)
+    }
+
+    /** Common tail: tap Check, wait for the expected feedback, tap Continue. */
+    private fun submitAndContinue(feedback: SemanticsMatcher) {
         tapUntil("submit_button", appears = feedback)
         tapUntil("continue_button", disappears = feedback)
     }
@@ -166,8 +317,8 @@ class SolverBot(
      */
     private fun tapUntil(
         tag: String,
-        appears: androidx.compose.ui.test.SemanticsMatcher? = null,
-        disappears: androidx.compose.ui.test.SemanticsMatcher? = null,
+        appears: SemanticsMatcher? = null,
+        disappears: SemanticsMatcher? = null,
     ) {
         val deadline = System.currentTimeMillis() + LONG_TIMEOUT
         while (true) {
@@ -186,5 +337,8 @@ class SolverBot(
     companion object {
         const val LONG_TIMEOUT = 30_000L
         const val SHORT_TIMEOUT = 8_000L
+
+        /** Wrong-answer text: token count never matches any accepted variant. */
+        const val GARBAGE = "xxxxx yyyyy zzzzz"
     }
 }

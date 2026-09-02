@@ -17,3 +17,4 @@ tools/fuzz/out/
 
 # OS
 .DS_Store
+.kotlin/

@@ -3508,6 +3508,51 @@
               "dictionaryRefs": [
                 "stanco"
               ]
+            },
+            {
+              "id": "u6l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Io",
+                "ho",
+                "fame."
+              ],
+              "correctSentence": "Io ho fame.",
+              "explanation": "'Avere fame' — hunger uses avere, not essere: io HO fame (literally 'I have hunger').",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u6l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Lei",
+                "è",
+                "stanca."
+              ],
+              "correctSentence": "Lei è stanca.",
+              "explanation": "'Stanca' is an adjective (tired, feminine) → essere: lei È stanca.",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            },
+            {
+              "id": "u6l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Noi",
+                "abbiamo",
+                "sete."
+              ],
+              "correctSentence": "Noi abbiamo sete.",
+              "explanation": "'Avere sete' (thirst) → noi ABBIAMO sete. Essere is for adjectives, avere for hunger/thirst.",
+              "dictionaryRefs": [
+                "la-sete"
+              ]
             }
           ]
         },
@@ -4195,6 +4240,55 @@
               ],
               "correctIndex": 0,
               "explanation": "voi → fate. 'Voi fate una pizza?' = Are you (all) making a pizza? The -te ending marks voi for every verb.",
+              "dictionaryRefs": [
+                "fare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u7l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Marco",
+                "mangia",
+                "una",
+                "pizza."
+              ],
+              "correctSentence": "Marco mangia una pizza.",
+              "explanation": "Italian word order matches English here: Subject (Marco) – Verb (mangia) – Object (una pizza).",
+              "dictionaryRefs": [
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u7l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Io",
+                "vado",
+                "al",
+                "lavoro."
+              ],
+              "correctSentence": "Io vado al lavoro.",
+              "explanation": "Subject 'io' + verb 'vado' + place 'al lavoro' — the same S–V order as English.",
+              "dictionaryRefs": [
+                "il-lavoro"
+              ]
+            },
+            {
+              "id": "u7l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Noi",
+                "facciamo",
+                "una",
+                "pizza."
+              ],
+              "correctSentence": "Noi facciamo una pizza.",
+              "explanation": "noi → facciamo (fare is irregular). Order: noi (S) facciamo (V) una pizza (O).",
               "dictionaryRefs": [
                 "fare",
                 "la-pizza"
@@ -4912,6 +5006,52 @@
                 "dove",
                 "lavorare"
               ]
+            },
+            {
+              "id": "u8l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Quando",
+                "vieni",
+                "al",
+                "bar?"
+              ],
+              "correctSentence": "Quando vieni al bar?",
+              "explanation": "The question word comes first in Italian: quando + verb. No 'do'-support like English.",
+              "dictionaryRefs": [
+                "quando",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u8l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Cosa",
+                "studi?"
+              ],
+              "correctSentence": "Cosa studi?",
+              "explanation": "'Cosa' (what) first, then the verb: 'Cosa studi?' — What are you studying?",
+              "dictionaryRefs": [
+                "studiare"
+              ]
+            },
+            {
+              "id": "u8l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Dove",
+                "lavori?"
+              ],
+              "correctSentence": "Dove lavori?",
+              "explanation": "'Dove' (where) first: 'Dove lavori?' — Where do you work?",
+              "dictionaryRefs": [
+                "dove",
+                "lavorare"
+              ]
             }
           ]
         },
@@ -5616,6 +5756,54 @@
                 "il-conto",
                 "per-favore"
               ]
+            },
+            {
+              "id": "u9l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Un",
+                "caffè,",
+                "per",
+                "favore."
+              ],
+              "correctSentence": "Un caffè, per favore.",
+              "explanation": "'Caffè' is masculine with a regular consonant → 'un'. 'Per favore' closes the request politely.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u9l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Vorrei",
+                "un",
+                "cappuccino."
+              ],
+              "correctSentence": "Vorrei un cappuccino.",
+              "explanation": "'Vorrei' (I would like) + 'un' + cappuccino (masculine) — the polite way to order.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-cappuccino"
+              ]
+            },
+            {
+              "id": "u9l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "No,",
+                "no,",
+                "grazie!"
+              ],
+              "correctSentence": "No, no, grazie!",
+              "explanation": "A polite refusal at the bar: 'No, no, grazie!' — the duplicate 'no,' tokens are interchangeable.",
+              "dictionaryRefs": [
+                "grazie"
+              ]
             }
           ]
         },
@@ -6314,6 +6502,53 @@
                 "costare",
                 "il-caffe",
                 "euro"
+              ]
+            },
+            {
+              "id": "u10l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Che",
+                "ore",
+                "sono?"
+              ],
+              "correctSentence": "Che ore sono?",
+              "explanation": "Set phrase: 'che' (what) + 'ore' (hours) + 'sono' — literally 'what hours are they?'",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Sono",
+                "le",
+                "dieci."
+              ],
+              "correctSentence": "Sono le dieci.",
+              "explanation": "Plural 'sono le' + the hour number. Only one o'clock is singular: 'è l'una'.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u10l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Quanto",
+                "costa",
+                "un",
+                "caffè?"
+              ],
+              "correctSentence": "Quanto costa un caffè?",
+              "explanation": "'Quanto costa?' (how much does it cost?) + 'un caffè' — 'caffè' is masculine → 'un'.",
+              "dictionaryRefs": [
+                "costare",
+                "il-caffe"
               ]
             }
           ]

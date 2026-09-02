@@ -111,11 +111,13 @@ class CompleteUnitJourneyTest {
             }
             assertTrue("XP written", db.progressDao().getUserProgress()!!.totalXp > 0)
         }
-        // Unit 2 now unlocked: back on Home, its node navigates to detail
+        // Unit 2 now unlocked: back on Home, its node navigates to detail.
+        // Generous timeout: the suite is heavier now that the bot also plays
+        // through the audio exercises (Stage 3).
         androidx.test.uiautomator.UiDevice.getInstance(
             androidx.test.platform.app.InstrumentationRegistry.getInstrumentation()
         ).pressBack()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_2"), 10_000)
+        composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_2"), 30_000)
         composeRule.onNodeWithTag("unit_node_2").performClick()
         composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
     }

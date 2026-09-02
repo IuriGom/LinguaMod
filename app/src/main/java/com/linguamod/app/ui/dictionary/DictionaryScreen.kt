@@ -27,6 +27,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.linguamod.app.data.db.DictionaryEntryEntity
 import kotlinx.serialization.json.Json
 import com.linguamod.app.plugin.ExampleDto
+import com.linguamod.app.ui.common.SpeakerButton
 
 @Composable
 fun DictionaryScreen(vm: DictionaryViewModel = hiltViewModel()) {
@@ -64,9 +65,12 @@ private val json = Json { ignoreUnknownKeys = true }
 private fun DictionaryRow(e: DictionaryEntryEntity) {
     Card(Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
         Column(Modifier.padding(16.dp)) {
-            Row {
+            Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
                 val display = if (e.article != null) "${e.article} ${e.word}" else e.word
                 Text(display, style = MaterialTheme.typography.titleMedium)
+                // speaker icon on every dictionary entry (Stage 3 §1); hides itself
+                // when the Italian voice is missing
+                SpeakerButton(display, tag = "dict_speaker_${e.id}")
                 if (e.partOfSpeech == "noun" && e.gender != null) {
                     Spacer(Modifier.padding(start = 8.dp))
                     AssistChip(onClick = {}, label = { Text(e.gender) })
@@ -79,7 +83,15 @@ private fun DictionaryRow(e: DictionaryEntryEntity) {
             }.getOrDefault(emptyList())
             examples.forEach { ex ->
                 Spacer(Modifier.height(4.dp))
-                Text("«${ex.it}» — ${ex.en}", style = MaterialTheme.typography.bodySmall)
+                Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
+                    Text(
+                        "«${ex.it}» — ${ex.en}",
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.weight(1f),
+                    )
+                    // speaker icon on every Italian example (Stage 3 §1)
+                    SpeakerButton(ex.it ?: "", tag = "dict_example_speaker_${e.id}")
+                }
             }
         }
     }
