@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 4,
+    "version": 5,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -8520,6 +8520,776 @@
           }
         ]
       }
+    },
+    {
+      "id": "u13",
+      "number": 13,
+      "title": "Gli aggettivi",
+      "lessons": [
+        {
+          "id": "u13l1",
+          "type": "vocabulary",
+          "title": "Com'è? Alto, simpatico, intelligente",
+          "dictionaryRefs": [
+            "alto",
+            "basso",
+            "simpatico",
+            "intelligente",
+            "carino",
+            "divertente",
+            "molto",
+            "com-e"
+          ],
+          "exercises": [
+            {
+              "id": "u13l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "alto",
+              "options": [
+                "tall",
+                "short",
+                "nice",
+                "tired"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Alto' = tall: 'Marco è alto.' An -o adjective: it has four forms — alto, alta, alti, alte (next lesson).",
+              "dictionaryRefs": [
+                "alto"
+              ]
+            },
+            {
+              "id": "u13l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "basso",
+              "options": [
+                "short (in height)",
+                "tall",
+                "shy",
+                "sad"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Basso' = short (in height), the opposite of alto. Also 'low': una voce bassa — a low voice.",
+              "dictionaryRefs": [
+                "basso"
+              ]
+            },
+            {
+              "id": "u13l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "simpatico",
+              "options": [
+                "nice; friendly; likeable",
+                "sympathetic (understanding)",
+                "intelligent",
+                "shy"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Simpatico' = nice, likeable — a FALSE FRIEND: it does not mean 'sympathetic'. 💛 'Giulia è simpatica.'",
+              "dictionaryRefs": [
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "intelligente",
+              "options": [
+                "intelligent; smart",
+                "interesting",
+                "tired",
+                "funny"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Intelligente' = intelligent. An -e adjective: same form for him and her — intelligente, plural intelligenti.",
+              "dictionaryRefs": [
+                "intelligente"
+              ]
+            },
+            {
+              "id": "u13l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "carino",
+              "options": [
+                "cute; pretty; nice",
+                "tall",
+                "dear; expensive",
+                "sad"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Carino' = cute, pretty, nice — for people, animals, things. 💛 'Che carino!' — How cute!",
+              "dictionaryRefs": [
+                "carino"
+              ]
+            },
+            {
+              "id": "u13l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "divertente",
+              "options": [
+                "fun; funny",
+                "different",
+                "difficult",
+                "boring"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Divertente' = fun, funny: 'Il libro è divertente.' An -e adjective, like intelligente.",
+              "dictionaryRefs": [
+                "divertente",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u13l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia is very nice.)",
+              "sentence": "Giulia è ___ simpatica.",
+              "answers": [
+                "molto"
+              ],
+              "explanation": "'Molto' = very, and it never changes form: molto simpatico, molto simpatica, molto simpatici. Easy.",
+              "dictionaryRefs": [
+                "molto",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Com'è Marco?",
+              "acceptedEn": [
+                "What is Marco like?",
+                "What's Marco like?"
+              ],
+              "explanation": "'Com'è?' = come + è — 'What is he like?' It asks about character and appearance, not health (that's 'Come sta?'). 💛",
+              "dictionaryRefs": [
+                "com-e"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u13l2",
+          "type": "grammar",
+          "title": "L'accordo: alto, alta, alti, alte",
+          "dictionaryRefs": [
+            "alto",
+            "basso",
+            "simpatico",
+            "intelligente",
+            "divertente",
+            "molto",
+            "com-e",
+            "bello"
+          ],
+          "grammarNotes": "GLI AGGETTIVI — describing words agree with the noun in gender and number.\n\nTWO FAMILIES:\n\n1) -O ADJECTIVES have four forms: alto / alta / alti / alte\n   il ragazzo alto (m sing) — la ragazza alta (f sing)\n   i ragazzi alti (m pl) — le ragazze alte (f pl)\n   Same endings as the nouns themselves: -o -a -i -e. If you know the noun's gender, you know the adjective's form.\n\n2) -E ADJECTIVES have two forms: intelligente / intelligenti\n   il ragazzo intelligente = la ragazza intelligente (singular, one form for both)\n   i ragazzi intelligenti = le ragazze intelligenti (plural, one form)\n   Same family: divertente / divertenti.\n\nPOSITION — the opposite of English: the adjective usually comes AFTER the noun.\n   'un ragazzo simpatico' — a nice boy\n   'una ragazza italiana' — an Italian girl (Unit 2's adjectives work exactly like this)\n\nMOLTO (very) never changes: molto alto, molto alta, molto alti, molto alte.\n\n'Com'è?' — What is he/she like? (come + è). Answer with essere + adjective:\n'Com'è Giulia?' — 'È alta e simpatica.' 💛\n\nAnd bello (Unit 6) follows the -o family after essere: è bello, è bella, sono belli, sono belle.",
+          "exercises": [
+            {
+              "id": "u13l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco is tall.)",
+              "sentence": "Marco è ___.",
+              "answers": [
+                "alto"
+              ],
+              "explanation": "Marco is masculine singular → alto. The adjective copies the noun's gender and number.",
+              "dictionaryRefs": [
+                "alto"
+              ]
+            },
+            {
+              "id": "u13l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia is tall.)",
+              "sentence": "Giulia è ___.",
+              "answers": [
+                "alta"
+              ],
+              "explanation": "Giulia is feminine singular → alta. One letter changes everything: alto → alta.",
+              "dictionaryRefs": [
+                "alto"
+              ]
+            },
+            {
+              "id": "u13l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The boys are tall.)",
+              "sentence": "I ragazzi sono ___.",
+              "answers": [
+                "alti"
+              ],
+              "explanation": "I ragazzi is masculine plural → alti. The noun's ending (-i) and the adjective's ending match.",
+              "dictionaryRefs": [
+                "alto",
+                "il-ragazzo"
+              ]
+            },
+            {
+              "id": "u13l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The girls are tall.)",
+              "sentence": "Le ragazze sono ___.",
+              "answers": [
+                "alte"
+              ],
+              "explanation": "Le ragazze is feminine plural → alte. All four forms: alto, alta, alti, alte.",
+              "dictionaryRefs": [
+                "alto",
+                "la-ragazza"
+              ]
+            },
+            {
+              "id": "u13l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (a fun book)",
+              "question": "un libro ___",
+              "options": [
+                "divertente",
+                "divertenti",
+                "divertento",
+                "divertenta"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Divertente' is an -e adjective: one singular form for both genders. Un libro divertente, una ragazza divertente. (Divertento/divertenta don't exist!)",
+              "dictionaryRefs": [
+                "divertente",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u13l2e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (The girls are nice.)",
+              "question": "Le ragazze sono ___.",
+              "options": [
+                "simpatiche",
+                "simpatici",
+                "simpatico",
+                "simpatica"
+              ],
+              "correctIndex": 0,
+              "explanation": "Feminine plural → simpatiche. The four forms: simpatico, simpatica, simpatici, simpatiche.",
+              "dictionaryRefs": [
+                "simpatico",
+                "la-ragazza"
+              ]
+            },
+            {
+              "id": "u13l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "She is very nice.",
+              "acceptedIt": [
+                "Lei è molto simpatica.",
+                "Lei è molto simpatica",
+                "È molto simpatica",
+                "Lei e' molto simpatica"
+              ],
+              "explanation": "'Lei è molto simpatica.' — molto never changes; simpatica agrees with lei (feminine singular).",
+              "dictionaryRefs": [
+                "molto",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l2e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Marco is intelligent.",
+              "acceptedIt": [
+                "Marco è intelligente.",
+                "Marco è intelligente",
+                "Marco e' intelligente"
+              ],
+              "explanation": "'Marco è intelligente.' — -e adjectives are the easy ones: same form for Marco and for Giulia.",
+              "dictionaryRefs": [
+                "intelligente"
+              ]
+            },
+            {
+              "id": "u13l2e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "I ragazzi sono alti e divertenti.",
+              "acceptedEn": [
+                "The boys are tall and fun.",
+                "The boys are tall and funny.",
+                "The boys are tall and entertaining."
+              ],
+              "explanation": "'I ragazzi sono alti e divertenti.' — alti (m pl, four-form adjective) + divertenti (plural of an -e adjective).",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "alto",
+                "divertente"
+              ]
+            },
+            {
+              "id": "u13l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "è",
+                "Giulia",
+                "molto",
+                "simpatica."
+              ],
+              "correctSentence": "Giulia è molto simpatica.",
+              "explanation": "'Giulia è molto simpatica.' — molto sits before the adjective: molto simpatica, never simpatica molto.",
+              "dictionaryRefs": [
+                "molto",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (adjective position)",
+              "tokens": [
+                "Un",
+                "carino",
+                "ragazzo"
+              ],
+              "correctSentence": "Un ragazzo carino",
+              "explanation": "'Un ragazzo carino' — a cute boy. Italian puts the adjective AFTER the noun: ragazzo carino, not carino ragazzo.",
+              "dictionaryRefs": [
+                "carino",
+                "il-ragazzo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u13l3",
+          "type": "mixed",
+          "title": "Com'è? — descrivere le persone 💛",
+          "dictionaryRefs": [
+            "stanco",
+            "contento",
+            "bello",
+            "italiano",
+            "il-ragazzo",
+            "la-ragazza",
+            "perche",
+            "alto",
+            "basso",
+            "simpatico",
+            "carino",
+            "divertente",
+            "molto",
+            "com-e"
+          ],
+          "exercises": [
+            {
+              "id": "u13l3e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The boy is tired.) (Unit 6 recycling)",
+              "sentence": "Il ragazzo è ___.",
+              "answers": [
+                "stanco"
+              ],
+              "explanation": "Unit 6's adjectives follow the same new rule: il ragazzo è stanco, la ragazza è stanca. Agreement everywhere.",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "stanco"
+              ]
+            },
+            {
+              "id": "u13l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Com'è Giulia?",
+              "options": [
+                "What is Giulia like?",
+                "How is Giulia?",
+                "Who is Giulia?",
+                "Where is Giulia?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Com'è Giulia?' — come + è: What is Giulia like? The answer describes her: 'È alta e simpatica.'",
+              "dictionaryRefs": [
+                "com-e"
+              ]
+            },
+            {
+              "id": "u13l3e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 6 recycling)",
+              "sourceEn": "Giulia is beautiful and intelligent.",
+              "acceptedIt": [
+                "Giulia è bella e intelligente.",
+                "Giulia è bella e intelligente",
+                "Giulia e' bella e intelligente",
+                "Giulia è intelligente e bella"
+              ],
+              "explanation": "'Giulia è bella e intelligente.' — bello (Unit 6) becomes bella with a feminine noun. Now you know WHY.",
+              "dictionaryRefs": [
+                "bello",
+                "intelligente"
+              ]
+            },
+            {
+              "id": "u13l3e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I am tired (m), because I work a lot.)",
+              "sentence": "Sono ___, perché lavoro molto.",
+              "answers": [
+                "stanco"
+              ],
+              "explanation": "'Sono stanco, perché lavoro molto.' — perché (Unit 8) answers its own question: why? because. Stanco, masculine — Alex is speaking.",
+              "dictionaryRefs": [
+                "stanco",
+                "perche",
+                "lavorare",
+                "molto"
+              ]
+            },
+            {
+              "id": "u13l3e5",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 2 recycling)",
+              "sourceIt": "Il ragazzo italiano è simpatico.",
+              "acceptedEn": [
+                "The Italian boy is nice.",
+                "The Italian boy is friendly."
+              ],
+              "explanation": "'Il ragazzo italiano è simpatico.' — italianO agrees with ragazzo (m sing), and the adjective follows the noun.",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "italiano",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l3e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (an Italian girl) (Unit 2 recycling)",
+              "question": "una ragazza ___",
+              "options": [
+                "italiana",
+                "italiano",
+                "italiani",
+                "italiane"
+              ],
+              "correctIndex": 0,
+              "explanation": "Una ragazza is feminine singular → italiana. You met these adjectives in Unit 2; now you control their endings.",
+              "dictionaryRefs": [
+                "la-ragazza",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u13l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "è",
+                "Marco",
+                "basso",
+                "e",
+                "carino."
+              ],
+              "correctSentence": "Marco è basso e carino.",
+              "explanation": "'Marco è basso e carino.' — one essere can carry two adjectives, joined by 'e'.",
+              "dictionaryRefs": [
+                "basso",
+                "carino"
+              ]
+            },
+            {
+              "id": "u13l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "You are very funny.",
+              "acceptedIt": [
+                "Sei molto divertente.",
+                "Sei molto divertente",
+                "Tu sei molto divertente"
+              ],
+              "explanation": "'Sei molto divertente.' — divertente works for a man or a woman; molto never changes. 💛 A compliment worth memorizing.",
+              "dictionaryRefs": [
+                "molto",
+                "divertente"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u13l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "com-e",
+            "alto",
+            "simpatico",
+            "intelligente",
+            "divertente",
+            "molto",
+            "stanco",
+            "il-ragazzo"
+          ],
+          "exercises": [
+            {
+              "id": "u13l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Com'è Marco?",
+              "options": [
+                "What is Marco like?",
+                "How is Marco?",
+                "Where is Marco?",
+                "Who is Marco?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Com'è Marco?' — What is Marco like? Listen for com'è at the start.",
+              "dictionaryRefs": [
+                "com-e"
+              ]
+            },
+            {
+              "id": "u13l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Giulia è alta e simpatica.",
+              "acceptedIt": [
+                "Giulia è alta e simpatica.",
+                "Giulia è alta e simpatica",
+                "Giulia e' alta e simpatica"
+              ],
+              "explanation": "You heard: 'Giulia è alta e simpatica.' — feminine singular: altA, simpaticA.",
+              "dictionaryRefs": [
+                "alto",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Sei molto simpatica.",
+              "options": [
+                "You are very nice.",
+                "You are very tall.",
+                "She is very nice.",
+                "You are very tired."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Sei molto simpatica.' — You are very nice (to a woman). 💛 The -a ending tells you who it's for.",
+              "dictionaryRefs": [
+                "molto",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u13l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: She is very intelligent.",
+              "targetIt": "Lei è molto intelligente.",
+              "minAccuracy": 0.7,
+              "explanation": "'Lei è molto intelligente.' — LEI e MOL-to in-tel-li-GEN-te. Five syllables on the adjective, slow down for them.",
+              "dictionaryRefs": [
+                "molto",
+                "intelligente"
+              ]
+            },
+            {
+              "id": "u13l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I am tired. (Unit 6 recycling)",
+              "targetIt": "Sono stanco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sono stanco.' — SO-no STAN-ko. A woman says 'Sono stanca' — the adjective follows the speaker.",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            },
+            {
+              "id": "u13l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "I ragazzi sono divertenti.",
+              "acceptedIt": [
+                "I ragazzi sono divertenti.",
+                "I ragazzi sono divertenti"
+              ],
+              "explanation": "You heard: 'I ragazzi sono divertenti.' — plural of divertente is divertenti, masculine and feminine alike.",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "divertente"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u13c",
+        "exercises": [
+          {
+            "id": "u13ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "molto",
+            "options": [
+              "very",
+              "never",
+              "always",
+              "well"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Molto' = very — and it never changes form. 'Molto bene' (very well), 'molto simpatica' (very nice).",
+            "dictionaryRefs": [
+              "molto"
+            ]
+          },
+          {
+            "id": "u13ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The girls are tall.)",
+            "sentence": "Le ragazze sono ___.",
+            "answers": [
+              "alte"
+            ],
+            "explanation": "Feminine plural → alte. Alto, alta, alti, alte — the four forms of an -o adjective.",
+            "dictionaryRefs": [
+              "alto",
+              "la-ragazza"
+            ]
+          },
+          {
+            "id": "u13ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "The girls are nice.",
+            "acceptedIt": [
+              "Le ragazze sono simpatiche.",
+              "Le ragazze sono simpatiche"
+            ],
+            "explanation": "'Le ragazze sono simpatiche.' — feminine plural ending -e: simpatiche.",
+            "dictionaryRefs": [
+              "la-ragazza",
+              "simpatico"
+            ]
+          },
+          {
+            "id": "u13ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Marco è basso e simpatico.",
+            "acceptedEn": [
+              "Marco is short and nice.",
+              "Marco is short and friendly."
+            ],
+            "explanation": "'Marco è basso e simpatico.' — basso = short (height); both adjectives masculine singular.",
+            "dictionaryRefs": [
+              "basso",
+              "simpatico"
+            ]
+          },
+          {
+            "id": "u13ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form. (The books are fun.)",
+            "question": "I libri sono ___.",
+            "options": [
+              "divertenti",
+              "divertente",
+              "divertento",
+              "divertenta"
+            ],
+            "correctIndex": 0,
+            "explanation": "Plural of an -e adjective → -i: divertenti. Divertento and divertenta don't exist.",
+            "dictionaryRefs": [
+              "divertente",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u13ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (a cute girl)",
+            "sentence": "Una ragazza ___.",
+            "answers": [
+              "carina"
+            ],
+            "explanation": "Una ragazza (f sing) → carina, and the adjective comes after the noun: una ragazza carina.",
+            "dictionaryRefs": [
+              "carino",
+              "la-ragazza"
+            ]
+          },
+          {
+            "id": "u13ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "sei",
+              "Tu",
+              "molto",
+              "simpatica."
+            ],
+            "correctSentence": "Tu sei molto simpatica.",
+            "explanation": "'Tu sei molto simpatica.' — tu + sei; molto before the adjective; simpatica with the feminine -a.",
+            "dictionaryRefs": [
+              "molto",
+              "simpatico"
+            ]
+          },
+          {
+            "id": "u13ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Com'è Giulia?",
+            "options": [
+              "What is Giulia like?",
+              "How is Giulia?",
+              "Where is Giulia?",
+              "Who is Giulia?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Com'è Giulia?' — What is Giulia like? Answer: 'È alta e simpatica.'",
+            "dictionaryRefs": [
+              "com-e"
+            ]
+          },
+          {
+            "id": "u13ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 6 recycling)",
+            "mode": "type",
+            "speakIt": "Sono stanco.",
+            "acceptedIt": [
+              "Sono stanco.",
+              "Sono stanco",
+              "Io sono stanco"
+            ],
+            "explanation": "You heard: 'Sono stanco.' — I am tired (man speaking). A woman: 'Sono stanca.'",
+            "dictionaryRefs": [
+              "stanco"
+            ]
+          },
+          {
+            "id": "u13ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Giulia is nice.",
+            "targetIt": "Giulia è simpatica.",
+            "minAccuracy": 0.7,
+            "explanation": "'Giulia è simpatica.' — JU-lia e sim-PA-ti-ka. Watch the false friend: simpatica = nice, not sympathetic.",
+            "dictionaryRefs": [
+              "simpatico"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -9815,6 +10585,122 @@
         }
       ],
       "introducedInUnit": 12
+    },
+    {
+      "id": "alto",
+      "word": "alto",
+      "translation": "tall; high",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Marco è alto.",
+          "en": "Marco is tall."
+        },
+        {
+          "it": "Le ragazze sono alte.",
+          "en": "The girls are tall."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "basso",
+      "word": "basso",
+      "translation": "short (in height); low",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Marco è basso e carino.",
+          "en": "Marco is short and cute."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "simpatico",
+      "word": "simpatico",
+      "translation": "nice; friendly; likeable",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Giulia è molto simpatica.",
+          "en": "Giulia is very nice."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "intelligente",
+      "word": "intelligente",
+      "translation": "intelligent; smart",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Marco è intelligente.",
+          "en": "Marco is intelligent."
+        },
+        {
+          "it": "Le ragazze sono intelligenti.",
+          "en": "The girls are intelligent."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "carino",
+      "word": "carino",
+      "translation": "cute; pretty; nice",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È un ragazzo carino.",
+          "en": "He is a cute boy."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "divertente",
+      "word": "divertente",
+      "translation": "fun; funny",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Il libro è divertente.",
+          "en": "The book is fun."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "molto",
+      "word": "molto",
+      "translation": "very; a lot",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Sei molto simpatica.",
+          "en": "You are very nice."
+        },
+        {
+          "it": "Lavoro molto.",
+          "en": "I work a lot."
+        }
+      ],
+      "introducedInUnit": 13
+    },
+    {
+      "id": "com-e",
+      "word": "com'è",
+      "translation": "what is he/she/it like?",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Com'è Giulia? — È alta e simpatica.",
+          "en": "What is Giulia like? — She is tall and nice."
+        }
+      ],
+      "introducedInUnit": 13
     }
   ],
   "stories": [
