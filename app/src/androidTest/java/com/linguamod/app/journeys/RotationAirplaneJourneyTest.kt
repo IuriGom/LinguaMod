@@ -148,9 +148,7 @@ class RotationAirplaneJourneyTest {
         composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_1"), 30_000)
         composeRule.onNodeWithTag("unit_node_1").performClick()
         composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_3"), 10_000)
-        composeRule.onNodeWithTag("lesson_row_3").performClick()
-        SolverBot(composeRule, plugin, db = db)
-            .solveOpenSession(oral.exercises.map { it.id!! })
+        SolverBot(composeRule, plugin, db = db).completeLesson(1, 3)
 
         // both speaking exercises were substituted (snackbar shown once per
         // session — exactly-once is unit-tested in SpeakingSubstitutionTest)

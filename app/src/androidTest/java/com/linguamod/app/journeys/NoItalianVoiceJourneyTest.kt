@@ -105,15 +105,29 @@ class NoItalianVoiceJourneyTest {
         composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_1"), 30_000)
         composeRule.onNodeWithTag("unit_node_1").performClick()
         composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_3"), 10_000)
-        composeRule.onNodeWithTag("lesson_row_3").performClick()
+
+        // tap the row; retry if a stale locked row swallows the first tap
+        val firstExercise = "exercise_${plugin.units[0].lessons!![3].exercises[0].id}"
+        val deadline = System.currentTimeMillis() + 30_000
+        while (true) {
+            composeRule.onNodeWithTag("lesson_row_3").performClick()
+            try {
+                composeRule.waitUntilExactlyOneExists(hasTestTag(firstExercise), 8_000)
+                break
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                if (System.currentTimeMillis() >= deadline) throw e
+                if (composeRule.onAllNodes(hasTestTag("lesson_row_3"))
+                        .fetchSemanticsNodes().isEmpty()
+                ) continue
+            }
+        }
 
         // audio buttons HIDE on the listening exercise — no error, no crash
-        val oral = plugin.units[0].lessons!![3]
-        composeRule.waitUntilExactlyOneExists(hasTestTag("exercise_${oral.exercises[0].id}"), 15_000)
         composeRule.onNodeWithTag("listen_play").assertDoesNotExist()
         composeRule.onNodeWithTag("listen_slow").assertDoesNotExist()
 
         // Solver Bot completes the whole lesson without any audio
+        val oral = plugin.units[0].lessons!![3]
         SolverBot(composeRule, plugin, db = db).solveOpenSession(oral.exercises.map { it.id!! })
 
         // the dialog never comes back (shown once ever): full restart, still hidden
