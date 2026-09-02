@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 5,
+    "version": 6,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -9290,6 +9290,809 @@
           }
         ]
       }
+    },
+    {
+      "id": "u14",
+      "number": 14,
+      "title": "La mia famiglia",
+      "lessons": [
+        {
+          "id": "u14l1",
+          "type": "vocabulary",
+          "title": "Madre, padre, fratelli e sorelle",
+          "dictionaryRefs": [
+            "la-famiglia",
+            "la-madre",
+            "il-padre",
+            "il-fratello",
+            "la-sorella",
+            "il-figlio",
+            "i-genitori"
+          ],
+          "exercises": [
+            {
+              "id": "u14l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la famiglia",
+              "options": [
+                "the family",
+                "the house",
+                "the girl",
+                "the surname"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La famiglia' (f) = the family. 'La mia famiglia' — my family. 💛 The word at the center of Italian life.",
+              "dictionaryRefs": [
+                "la-famiglia"
+              ]
+            },
+            {
+              "id": "u14l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la madre",
+              "options": [
+                "the mother",
+                "the father",
+                "the sister",
+                "the daughter"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La madre' (f) = the mother. Informally: 'la mamma'. 'Mia madre' — my mother.",
+              "dictionaryRefs": [
+                "la-madre"
+              ]
+            },
+            {
+              "id": "u14l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il padre",
+              "options": [
+                "the father",
+                "the brother",
+                "the son",
+                "the mother"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il padre' (m) = the father. Informally: 'il papà'. 'Mio padre' — my father.",
+              "dictionaryRefs": [
+                "il-padre"
+              ]
+            },
+            {
+              "id": "u14l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il fratello",
+              "options": [
+                "the brother",
+                "the sister",
+                "the son",
+                "the friend"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il fratello' (m) = the brother; plural 'i fratelli' — also 'siblings'. 'Ho due fratelli.' — I have two brothers.",
+              "dictionaryRefs": [
+                "il-fratello"
+              ]
+            },
+            {
+              "id": "u14l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la sorella",
+              "options": [
+                "the sister",
+                "the brother",
+                "the daughter",
+                "the mother"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La sorella' (f) = the sister; plural 'le sorelle'. 'Mia sorella si chiama Anna.' — My sister's name is Anna.",
+              "dictionaryRefs": [
+                "la-sorella"
+              ]
+            },
+            {
+              "id": "u14l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il figlio",
+              "options": [
+                "the son",
+                "the daughter",
+                "the brother",
+                "the father"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il figlio' (m) = the son; the daughter is 'la figlia', the children 'i figli'. 'Suo figlio ha cinque anni.'",
+              "dictionaryRefs": [
+                "il-figlio"
+              ]
+            },
+            {
+              "id": "u14l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "i genitori",
+              "options": [
+                "the parents",
+                "the children",
+                "the brothers",
+                "the relatives"
+              ],
+              "correctIndex": 0,
+              "explanation": "'I genitori' (m pl) = the parents — il padre + la madre together. Singular 'il genitore' (the parent) is rare.",
+              "dictionaryRefs": [
+                "i-genitori"
+              ]
+            },
+            {
+              "id": "u14l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My mother is nice.)",
+              "sentence": "Mia ___ è simpatica.",
+              "answers": [
+                "madre"
+              ],
+              "explanation": "'Mia madre è simpatica.' — my mother is nice. Note: 'mia', no article — the family rule comes in the next lesson.",
+              "dictionaryRefs": [
+                "la-madre",
+                "simpatico"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u14l2",
+          "type": "grammar",
+          "title": "Mio, tuo, suo — i possessivi",
+          "dictionaryRefs": [
+            "mio",
+            "la-famiglia",
+            "la-madre",
+            "il-padre",
+            "il-fratello",
+            "la-sorella",
+            "il-figlio",
+            "i-genitori",
+            "amico"
+          ],
+          "grammarNotes": "I POSSESSIVI — my, your, his/her, our, their.\n\nTHE TABLE — the possessive agrees with the THING OWNED, not the owner:\n• my: il mio libro, la mia casa, i miei libri, le mie sorelle\n• your (tu): il tuo, la tua, i tuoi, le tue — you know 'il tuo numero' from Unit 4\n• his/her: il suo, la sua, i suoi, le sue\n• our: il nostro, la nostra, i nostri, le nostre\n• your (voi): il vostro, la vostra, i vostri, le vostre\n• their: il loro, la loro, i loro, le loro — loro never changes\n\nWHY agreement: 'la MIA casa' — casa is feminine, so mia. The owner's gender stays invisible: 'il suo libro' can be his book OR her book.\n\nTHE FAMILY EXCEPTION — with a SINGULAR family member, drop the article:\n• mio fratello, mia sorella, mia madre, tuo padre, suo figlio ✓\n• il mio fratello ✗\nBut:\n• plurals keep the article: i miei fratelli, le mie sorelle\n• loro keeps it always: il loro fratello\n• 'la mia famiglia' — famiglia is a collective noun, it keeps the article\n• non-family keeps it: il mio amico, la mia scuola.\n\n💛 On a date: 'Hai fratelli o sorelle?' — Do you have brothers or sisters? 'Mia sorella si chiama Anna.' — My sister's name is Anna.",
+          "exercises": [
+            {
+              "id": "u14l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My mother is nice.)",
+              "sentence": "___ madre è simpatica.",
+              "answers": [
+                "Mia"
+              ],
+              "explanation": "'Mia madre' — singular family member, no article. Madre is feminine → mia (not mio).",
+              "dictionaryRefs": [
+                "mio",
+                "la-madre",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u14l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My brothers are tall.)",
+              "sentence": "___ fratelli sono alti.",
+              "answers": [
+                "I miei"
+              ],
+              "explanation": "'I miei fratelli' — plural family members KEEP the article, and fratelli (m pl) takes miei. Only the singular drops it.",
+              "dictionaryRefs": [
+                "mio",
+                "il-fratello",
+                "alto"
+              ]
+            },
+            {
+              "id": "u14l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (What is your father's name?)",
+              "sentence": "Come si chiama ___ padre?",
+              "answers": [
+                "tuo"
+              ],
+              "explanation": "'Come si chiama tuo padre?' — padre is masculine singular family → tuo, no article. Same pattern as 'il tuo nome' minus the article.",
+              "dictionaryRefs": [
+                "mio",
+                "il-padre"
+              ]
+            },
+            {
+              "id": "u14l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia has a sister. Her sister is nice.)",
+              "sentence": "Giulia ha una sorella. ___ sorella è simpatica.",
+              "answers": [
+                "Sua"
+              ],
+              "explanation": "'Sua sorella' — her sister. Sua says nothing about the owner's gender: it can be his sister or her sister. Context decides.",
+              "dictionaryRefs": [
+                "mio",
+                "la-sorella",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u14l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (My family is nice.)",
+              "question": "___ famiglia è simpatica.",
+              "options": [
+                "La mia",
+                "Mia",
+                "Il mio",
+                "I miei"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mia famiglia' — famiglia is a collective noun: it keeps the article, and it's feminine singular → la mia.",
+              "dictionaryRefs": [
+                "mio",
+                "la-famiglia",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u14l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "My brother is tall.",
+              "acceptedIt": [
+                "Mio fratello è alto.",
+                "Mio fratello è alto",
+                "Mio fratello e' alto"
+              ],
+              "explanation": "'Mio fratello è alto.' — singular family: no article. Fratello is masculine → mio; the adjective agrees too: alto.",
+              "dictionaryRefs": [
+                "mio",
+                "il-fratello",
+                "alto"
+              ]
+            },
+            {
+              "id": "u14l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Her parents live in Rome.",
+              "acceptedIt": [
+                "I suoi genitori abitano a Roma.",
+                "I suoi genitori abitano a Roma"
+              ],
+              "explanation": "'I suoi genitori abitano a Roma.' — plural family keeps the article: i suoi genitori. (Suoi also works for 'his' — the form follows the parents, not the owner.)",
+              "dictionaryRefs": [
+                "mio",
+                "i-genitori",
+                "abitare"
+              ]
+            },
+            {
+              "id": "u14l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "La tua famiglia è simpatica.",
+              "acceptedEn": [
+                "Your family is nice.",
+                "Your family is friendly."
+              ],
+              "explanation": "'La tua famiglia è simpatica.' — tua agrees with famiglia (f sing), with the article. 💛 A compliment that always lands in Italy.",
+              "dictionaryRefs": [
+                "mio",
+                "la-famiglia",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u14l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "sorella",
+                "Mia",
+                "è",
+                "carina."
+              ],
+              "correctSentence": "Mia sorella è carina.",
+              "explanation": "'Mia sorella è carina.' — no article before mia sorella; carina (f sing) agrees with sorella.",
+              "dictionaryRefs": [
+                "mio",
+                "la-sorella",
+                "carino"
+              ]
+            },
+            {
+              "id": "u14l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5 recycling)",
+              "tokens": [
+                "mio",
+                "Il",
+                "amico",
+                "è",
+                "italiano."
+              ],
+              "correctSentence": "Il mio amico è italiano.",
+              "explanation": "'Il mio amico è italiano.' — amico is not family, so the article stays: il mio amico. Compare: mio fratello (family, no article).",
+              "dictionaryRefs": [
+                "mio",
+                "amico",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u14l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Come",
+                "si",
+                "chiama",
+                "tuo",
+                "fratello?"
+              ],
+              "correctSentence": "Come si chiama tuo fratello?",
+              "explanation": "'Come si chiama tuo fratello?' — the Unit 1 pattern (come si chiama) + the new possessive tuo, no article before fratello.",
+              "dictionaryRefs": [
+                "mio",
+                "il-fratello",
+                "come-ti-chiami"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u14l3",
+          "type": "mixed",
+          "title": "Parliamo della famiglia 💛",
+          "dictionaryRefs": [
+            "quanti-anni-hai",
+            "la-scuola",
+            "lavorare",
+            "contento",
+            "molto",
+            "la-famiglia",
+            "la-madre",
+            "il-padre",
+            "il-fratello",
+            "la-sorella",
+            "il-figlio",
+            "i-genitori",
+            "mio"
+          ],
+          "exercises": [
+            {
+              "id": "u14l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 4 recycling)",
+              "sourceEn": "How many brothers do you have?",
+              "acceptedIt": [
+                "Quanti fratelli hai?",
+                "Quanti fratelli hai",
+                "Quanti fratelli hai tu?",
+                "Tu quanti fratelli hai"
+              ],
+              "explanation": "'Quanti fratelli hai?' — quanti (m pl, Unit 4's 'Quanti anni hai?') + fratelli + hai. Same skeleton, new noun.",
+              "dictionaryRefs": [
+                "quanti-anni-hai",
+                "il-fratello"
+              ]
+            },
+            {
+              "id": "u14l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have two sisters: Giulia and Anna.)",
+              "sentence": "Ho due ___: Giulia e Anna.",
+              "answers": [
+                "sorelle"
+              ],
+              "explanation": "'Ho due sorelle.' — plural of sorella is sorelle. With numbers, no article: due sorelle, tre fratelli.",
+              "dictionaryRefs": [
+                "la-sorella"
+              ]
+            },
+            {
+              "id": "u14l3e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 5+8 recycling)",
+              "question": "Mio padre lavora in una scuola.",
+              "options": [
+                "My father works in a school.",
+                "My mother works in a school.",
+                "My father studies in a school.",
+                "My parents work in a school."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mio padre lavora in una scuola.' — mio padre (no article) + lavora (lui, -a) + in una scuola.",
+              "dictionaryRefs": [
+                "mio",
+                "il-padre",
+                "lavorare",
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u14l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 6 recycling)",
+              "sourceIt": "Mia madre è contenta.",
+              "acceptedEn": [
+                "My mother is happy.",
+                "My mom is happy.",
+                "My mother is glad."
+              ],
+              "explanation": "'Mia madre è contenta.' — contentO from Unit 6 becomes contentA with madre. Agreement never sleeps.",
+              "dictionaryRefs": [
+                "mio",
+                "la-madre",
+                "contento"
+              ]
+            },
+            {
+              "id": "u14l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My parents live in Rome.)",
+              "sentence": "I ___ genitori abitano a Roma.",
+              "answers": [
+                "miei"
+              ],
+              "explanation": "'I miei genitori' — plural, masculine, keeps the article: i miei. (If they were 'le mie sorelle', the ending would be -e.)",
+              "dictionaryRefs": [
+                "mio",
+                "i-genitori",
+                "abitare"
+              ]
+            },
+            {
+              "id": "u14l3e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you have brothers or sisters?",
+              "acceptedIt": [
+                "Hai fratelli o sorelle?",
+                "Hai fratelli o sorelle",
+                "Tu hai fratelli o sorelle?",
+                "Hai fratelli o sorelle tu"
+              ],
+              "explanation": "'Hai fratelli o sorelle?' — hai (tu, avere) + fratelli o sorelle. 💛 The standard first-date family question.",
+              "dictionaryRefs": [
+                "il-fratello",
+                "la-sorella"
+              ]
+            },
+            {
+              "id": "u14l3e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 4 recycling)",
+              "question": "Suo figlio ha cinque anni.",
+              "options": [
+                "His son is five years old.",
+                "His son is fifty years old.",
+                "His daughter is five years old.",
+                "Their son is five years old."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Suo figlio ha cinque anni.' — suo can be his OR her (it follows figlio, not the owner). Age uses avere: ha cinque anni.",
+              "dictionaryRefs": [
+                "mio",
+                "il-figlio",
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u14l3e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "mia",
+                "La",
+                "famiglia",
+                "è",
+                "simpatica."
+              ],
+              "correctSentence": "La mia famiglia è simpatica.",
+              "explanation": "'La mia famiglia è simpatica.' — famiglia keeps the article (collective noun); simpatica agrees with famiglia.",
+              "dictionaryRefs": [
+                "mio",
+                "la-famiglia",
+                "simpatico"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u14l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "mio",
+            "la-madre",
+            "il-padre",
+            "il-fratello",
+            "la-sorella",
+            "i-genitori",
+            "abitare",
+            "lavorare",
+            "molto"
+          ],
+          "exercises": [
+            {
+              "id": "u14l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Mia sorella si chiama Anna.",
+              "options": [
+                "My sister's name is Anna.",
+                "My sister calls Anna.",
+                "Her sister is Anna.",
+                "My mother is Anna."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Mia sorella si chiama Anna.' — mia sorella (no article) + si chiama (the Unit 1 pattern, third person).",
+              "dictionaryRefs": [
+                "mio",
+                "la-sorella",
+                "mi-chiamo"
+              ]
+            },
+            {
+              "id": "u14l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ho due fratelli.",
+              "acceptedIt": [
+                "Ho due fratelli.",
+                "Ho due fratelli",
+                "Io ho due fratelli"
+              ],
+              "explanation": "You heard: 'Ho due fratelli.' — I have two brothers. Avere (ho) + number + plural, no article.",
+              "dictionaryRefs": [
+                "il-fratello"
+              ]
+            },
+            {
+              "id": "u14l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "I miei genitori abitano a Roma.",
+              "options": [
+                "My parents live in Rome.",
+                "My parents work in Rome.",
+                "His parents live in Rome.",
+                "My family is from Rome."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'I miei genitori abitano a Roma.' — i miei (plural keeps the article) + abitano (loro, -ano).",
+              "dictionaryRefs": [
+                "mio",
+                "i-genitori",
+                "abitare"
+              ]
+            },
+            {
+              "id": "u14l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: My mother is nice.",
+              "targetIt": "Mia madre è simpatica.",
+              "minAccuracy": 0.7,
+              "explanation": "'Mia madre è simpatica.' — MI-a MA-dre e sim-PA-ti-ka. Even rhythm, no article after mia.",
+              "dictionaryRefs": [
+                "mio",
+                "la-madre",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u14l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: do you have brothers or sisters? 💛",
+              "targetIt": "Hai fratelli o sorelle?",
+              "minAccuracy": 0.7,
+              "explanation": "'Hai fratelli o sorelle?' — AI fra-TEL-li o so-REL-le, rising at the end. 💛 Ask it on the date.",
+              "dictionaryRefs": [
+                "il-fratello",
+                "la-sorella"
+              ]
+            },
+            {
+              "id": "u14l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Mio padre lavora molto.",
+              "acceptedIt": [
+                "Mio padre lavora molto.",
+                "Mio padre lavora molto"
+              ],
+              "explanation": "You heard: 'Mio padre lavora molto.' — My father works a lot. Molto (a lot) never changes.",
+              "dictionaryRefs": [
+                "mio",
+                "il-padre",
+                "lavorare",
+                "molto"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u14c",
+        "exercises": [
+          {
+            "id": "u14ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la famiglia",
+            "options": [
+              "the family",
+              "the house",
+              "the parents",
+              "the children"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La famiglia' (f) = the family. Collective noun: 'la mia famiglia' keeps the article.",
+            "dictionaryRefs": [
+              "la-famiglia"
+            ]
+          },
+          {
+            "id": "u14ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Your sister is cute.)",
+            "sentence": "___ sorella è carina.",
+            "answers": [
+              "Tua"
+            ],
+            "explanation": "'Tua sorella' — singular family member: no article. Sorella is feminine → tua.",
+            "dictionaryRefs": [
+              "mio",
+              "la-sorella",
+              "carino"
+            ]
+          },
+          {
+            "id": "u14ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 4 recycling)",
+            "sourceEn": "My son is five years old.",
+            "acceptedIt": [
+              "Mio figlio ha cinque anni.",
+              "Mio figlio ha cinque anni",
+              "Mio figlio ha 5 anni"
+            ],
+            "explanation": "'Mio figlio ha cinque anni.' — age uses avere (ha); mio figlio without article; anni plural after five.",
+            "dictionaryRefs": [
+              "mio",
+              "il-figlio"
+            ]
+          },
+          {
+            "id": "u14ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "I tuoi fratelli sono alti.",
+            "acceptedEn": [
+              "Your brothers are tall."
+            ],
+            "explanation": "'I tuoi fratelli sono alti.' — plural family keeps the article: i tuoi fratelli; alti agrees (m pl).",
+            "dictionaryRefs": [
+              "mio",
+              "il-fratello",
+              "alto"
+            ]
+          },
+          {
+            "id": "u14ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form. (My parents live in Rome.)",
+            "question": "___ genitori abitano a Roma.",
+            "options": [
+              "I miei",
+              "Il mio",
+              "La mia",
+              "Miei"
+            ],
+            "correctIndex": 0,
+            "explanation": "'I miei genitori' — plural keeps the article; genitori is masculine plural → i miei.",
+            "dictionaryRefs": [
+              "mio",
+              "i-genitori",
+              "abitare"
+            ]
+          },
+          {
+            "id": "u14ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Giulia has a brother. Her brother is intelligent.)",
+            "sentence": "Giulia ha un fratello. ___ fratello è intelligente.",
+            "answers": [
+              "Suo"
+            ],
+            "explanation": "'Suo fratello' — singular family, no article. Suo = his OR her; here Giulia makes it 'her'.",
+            "dictionaryRefs": [
+              "mio",
+              "il-fratello",
+              "intelligente"
+            ]
+          },
+          {
+            "id": "u14ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Quanti",
+              "fratelli",
+              "hai?"
+            ],
+            "correctSentence": "Quanti fratelli hai?",
+            "explanation": "'Quanti fratelli hai?' — question word first, then the noun, then hai. Like 'Quanti anni hai?' from Unit 4.",
+            "dictionaryRefs": [
+              "il-fratello",
+              "quanti-anni-hai"
+            ]
+          },
+          {
+            "id": "u14ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "La mia famiglia è simpatica.",
+            "options": [
+              "My family is nice.",
+              "My family is big.",
+              "Her family is nice.",
+              "My mother is nice."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'La mia famiglia è simpatica.' — la mia (famiglia keeps the article) + è simpatica.",
+            "dictionaryRefs": [
+              "mio",
+              "la-famiglia",
+              "simpatico"
+            ]
+          },
+          {
+            "id": "u14ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Mio fratello è alto.",
+            "acceptedIt": [
+              "Mio fratello è alto.",
+              "Mio fratello è alto",
+              "Mio fratello e' alto"
+            ],
+            "explanation": "You heard: 'Mio fratello è alto.' — My brother is tall. No article before mio fratello.",
+            "dictionaryRefs": [
+              "mio",
+              "il-fratello",
+              "alto"
+            ]
+          },
+          {
+            "id": "u14ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: My parents live in Rome.",
+            "targetIt": "I miei genitori abitano a Roma.",
+            "minAccuracy": 0.7,
+            "explanation": "'I miei genitori abitano a Roma.' — i MIEI je-ni-TO-ri A-bi-ta-no a RO-ma. Long sentence, steady rhythm.",
+            "dictionaryRefs": [
+              "mio",
+              "i-genitori",
+              "abitare"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -10701,6 +11504,132 @@
         }
       ],
       "introducedInUnit": 13
+    },
+    {
+      "id": "la-famiglia",
+      "word": "famiglia",
+      "article": "la",
+      "translation": "family",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La mia famiglia è simpatica.",
+          "en": "My family is nice."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "la-madre",
+      "word": "madre",
+      "article": "la",
+      "translation": "mother",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Mia madre è contenta.",
+          "en": "My mother is happy."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "il-padre",
+      "word": "padre",
+      "article": "il",
+      "translation": "father",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Mio padre lavora in una scuola.",
+          "en": "My father works in a school."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "il-fratello",
+      "word": "fratello",
+      "article": "il",
+      "translation": "brother",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Mio fratello è alto.",
+          "en": "My brother is tall."
+        },
+        {
+          "it": "Ho due fratelli.",
+          "en": "I have two brothers."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "la-sorella",
+      "word": "sorella",
+      "article": "la",
+      "translation": "sister",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Mia sorella si chiama Anna.",
+          "en": "My sister's name is Anna."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "il-figlio",
+      "word": "figlio",
+      "article": "il",
+      "translation": "son (la figlia = daughter)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Suo figlio ha cinque anni.",
+          "en": "His son is five years old."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "i-genitori",
+      "word": "genitori",
+      "article": "i",
+      "translation": "parents",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "I miei genitori abitano a Roma.",
+          "en": "My parents live in Rome."
+        }
+      ],
+      "introducedInUnit": 14
+    },
+    {
+      "id": "mio",
+      "word": "mio",
+      "translation": "my (mia, miei, mie)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Mio fratello è alto.",
+          "en": "My brother is tall."
+        },
+        {
+          "it": "La mia famiglia è simpatica.",
+          "en": "My family is nice."
+        }
+      ],
+      "introducedInUnit": 14
     }
   ],
   "stories": [
