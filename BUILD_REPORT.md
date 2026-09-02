@@ -391,3 +391,100 @@ Failure modes found and fixed during the runs (not papered over):
   scrolls back to the top before asserting (viewport artifact, not app logic).
 - Second run: one swallowed tap on `boss_row_5` mid-scroll; row taps in the
   Stage 4 journeys now use the established scroll-and-retry pattern.
+
+### Stage 4 — part B (OCR, readiness, acceptance) ✅ (2026-09-02)
+
+Scope: spec §1 OCR Camera, §6 Phase-2 readiness check, the remaining Stage 4
+acceptance criteria (gating regression #2, OCR #3, readiness #7, airplane #8,
+size/docs #9), plus the part-A gap: bundled-plugin upgrades for existing
+installs.
+
+- **OCR Camera (§1)**: `ocr/OcrGateway` seam (mirrors the Stage 3 audio
+  gateways) with `MlKitOcrGateway` (ML Kit Text Recognition v2, Latin,
+  **UNBUNDLED** — `play-services-mlkit-text-recognition`, manifest
+  `com.google.mlkit.vision.DEPENDENCIES=ocr`; verified: no model files inside
+  the APK) and `FakeOcrGateway` in androidTest (scripted blocks, no-Play-
+  Services, model-downloading). Flow: Dictionary camera button (visible only
+  after the `ocrCamera` flag) → CameraX preview (binding failures degrade to
+  a placeholder — scanning is gateway-driven, so the whole blocks→word-tap
+  flow is testable headless) → tap-to-scan → recognized blocks → word tap →
+  bottom sheet: dictionary entry on a §9-lemma match (`OcrWordMatcher`,
+  reuses `AnswerMatcher.normalize`; known taps award 2 XP + `lookupCount`
+  via `CourseRepository.recordOcrLookup`) else "not in your dictionary yet"
+  with the recognized text and context. Model still downloading (ML Kit
+  `UNAVAILABLE` at scan time) → "downloading text recognizer…" shown once per
+  screen session. No Play Services → one-time explanation dialog (persisted
+  `shown_` marker), then the feature hides entirely. CAMERA permission with
+  rationale; denial → denial card, scanner off, no crash.
+- **Phase-2 readiness (§6)**: `DummyPluginGenerator` (debug source set, like
+  TestHooks/FakeClock) builds a validator-clean 60-unit plugin.
+  `Phase2ReadinessTest` (JVM): the dummy validates + loads via `PluginLoader`;
+  `story2/3/4` flags trip off progress rows alone with no plugin loaded and
+  stay dormant on a 10-unit world. `Phase2ReadinessJourneyTest`: 60-unit path
+  renders, full real-touch scroll (UiDevice swipes) without crash, dormant
+  gates asserted.
+- **Bundled-plugin upgrade path (part-A gap)**: `installBundledDemoIfNeeded`
+  now overwrites the installed copy when the bundled asset's `meta.version`
+  is newer. Decision: progress rows key to `(unitNumber, lessonIndex)` and
+  exercise/review rows to exercise ids — never to plugin versions — so a file
+  swap + rescan cannot wipe progress; dictionary `lookupCount`s are carried
+  over the rescan via a new `getByPlugin` read before `deleteByPlugin`.
+  Same/older bundled versions, hand-removed plugin dirs, and user-replaced
+  `it.lingua` files are left untouched. Covered by `PluginUpgradeTest` (JVM,
+  6 cases incl. lookup-count preservation).
+
+Acceptance criteria:
+
+- **#2 Gating regression** (`Stage4GatingTest`): Solver Bot completes Units
+  1–3 through the real UI → story/boss/OCR/mixed entry points all asserted
+  hidden → each flag tripped via fast-forward surfaces exactly its entry
+  point. Green.
+- **#3 OCR via fake gateway** (`OcrJourneyTest`, `OcrDenialJourneyTest`):
+  known word → sheet + 2 XP + lookup increment; unknown → "not in your
+  dictionary yet" + context; model-downloading message once; no-Play-Services
+  → hidden + one-time explanation (persisted across restart); permission
+  denied via the real system dialog → graceful denial card, no crash. Green.
+  Note: denial must run before any CAMERA-granting class (runtime grants
+  persist for the whole instrumentation run; revoking kills the app process
+  mid-test) — the class name sorts first and documents this.
+- **#7 60-unit dummy plugin**: renders + scrolls, no crash, gates dormant.
+  Jank: measured via `dumpsys gfxinfo` — 60-unit dummy path 736 frames /
+  91.2% janky; the trivial 10-unit production path on the same emulator
+  measures 98 frames / 42.9% janky (median frame 53 ms vs the 16.6 ms
+  deadline). The < 5% bar is not practical on this SwiftShader emulator —
+  environment-bound, spec §6 fallback (render + full scroll without crash)
+  applies; numbers logged in the test output.
+- **#8 Airplane regression**: `tools/journeys/airplane.sh` — PASS, no new
+  failure modes. OCR's only offline exception is the unbundled model's first
+  download, explained in the UI ("downloading text recognizer…").
+- **#9 Size + docs**: release APK **3,060,174 bytes ≈ 2.92 MB** (cap 20 MB;
+  ML Kit unbundled adds ~1 MB, CameraX ~0.1 MB over the 1.85 MB part-A size).
+  README: Stage 4 feature list, full unlock table, plugin-authoring
+  quickstart, updated size line and permission notes.
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 132 JVM tests, 0 failures** (116
+  pre-existing + 7 `OcrWordMatcherTest` + 6 `PluginUpgradeTest` + 3
+  `Phase2ReadinessTest`).
+- `./gradlew connectedDebugAndroidTest` — **35/35 green** in one final full
+  pass (17m 09s): all 29 prior journeys + 6 new (3 OCR + denial + gating +
+  60-unit readiness).
+- Monkey: **20000 events, `--pct-syskeys 0`, zero crashes/ANRs**
+  (`tools/journeys/monkey.sh`).
+- `./gradlew assembleRelease` — R8/shrink green with the new deps.
+
+Failure modes found and fixed during the runs (not papered over):
+
+- First OCR run: `hasText("xyzzy")` matched both the results chip and the
+  bottom sheet (exactly-one timeout) → assertion scoped to the sheet; and the
+  denial test's `revokeRuntimePermission` killed the instrumentation process
+  ("Process crashed") → denial restructured to run first with a never-granted
+  permission.
+- First gating run: `performScrollToNode` scrolls forward only — the
+  practice card (top of the list) was unreachable from a deep scroll
+  position; row assertions now retry with a swipe-based scroll-to-top.
+- Readiness journey: Compose-test scrolling runs on the test clock and skips
+  animation frames (gfxinfo window: 11 frames) → frame-generating scrolls use
+  real UiDevice swipes; the 5% jank assert then measured the emulator, not
+  the app (see #7) — spec fallback applied with the numbers logged.

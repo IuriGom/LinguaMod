@@ -14,7 +14,7 @@ Requirements: JDK 17, Android SDK (platforms;android-34, build-tools;34.0.0).
 ./gradlew assembleRelease      # minified release APK (debug key) -> app/build/outputs/apk/release/
 ```
 
-APK size: release ≈ **1.8 MB** (cap: 15 MB). Debug builds include test tooling and are larger by design; the size gate applies to the shippable artifact.
+APK size: release ≈ **2.9 MB** (cap: 20 MB since Stage 4's OCR camera). Debug builds include test tooling and are larger by design; the size gate applies to the shippable artifact.
 
 ## Plugin installation
 
