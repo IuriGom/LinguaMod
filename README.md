@@ -80,8 +80,78 @@ The app has a voice and ears, both fully offline-degradable:
 - **Permissions rationale**: `RECORD_AUDIO` is requested at runtime, only when
   the user taps the microphone on a speaking exercise, with an in-context
   rationale ("Audio goes to Google's on-device speech recognizer; nothing is
-  stored"). Denial silently substitutes a listening exercise. It is the only
-  permission the app requests — there is no `INTERNET` permission at all.
+  stored"). Denial silently substitutes a listening exercise. There is no
+  `INTERNET` permission at all. (`CAMERA` arrives with Stage 4, same pattern.)
+
+## Advanced features (Stage 4)
+
+Seasoning on top of the curriculum — every entry point is gated by a
+`FeatureUnlocks` flag and never appears before its trigger:
+
+- **Story Mode**: book icons anchor on the Home path after their unlocking
+  unit's node. A story is a node graph: Italian text (optional English
+  toggle), speaker label, 2–3 choices; a correct choice advances, a wrong one
+  shows teaching feedback and loops. First completion: +30 XP and a
+  per-story *Narratore* badge; replayable. Story 1 "Al bar" ships fully;
+  stories 2–4 are registered placeholders that render "This story arrives
+  with a future content pack."
+- **Boss Battles**: a ⚔ overlay after every 5th unit. A boss is a 15-question
+  gauntlet sampled from the checkpoints of completed units, weighted toward
+  exercises you previously got wrong. 3 wrong answers lose the battle (no
+  penalty); a win awards 100 XP, doubles your gems, and grants a per-boss
+  badge (first win only).
+- **Mixed Practice**: a Home card with 10 exercises sampled across all
+  completed units and all exercise types — 60% weighted toward exercises
+  previously wrong or never attempted, 40% random review. No hearts, no XP;
+  results feed the review scheduler.
+- **Camera OCR** (Dictionary → "📷 Scan text with the camera"): CameraX
+  preview → tap-to-scan → recognized blocks → tap any word for a bottom sheet
+  with its dictionary entry (lemma match with spec §9 normalization), or
+  "not in your dictionary yet" with the recognized text and context. Known
+  words award +2 XP and increment a lookup counter (most-looked-up words
+  surface on Profile). Recognition is ML Kit Text Recognition v2, Latin
+  script, **unbundled** — the model is delivered by Play Services and never
+  ships in the APK. If the model is still downloading you get a one-time
+  "downloading text recognizer…" note; on devices without Play Services the
+  feature hides entirely after a one-time explanation. `CAMERA` is requested
+  with a rationale; denial hides the scanner gracefully.
+- **Your Records** (Profile, personal stats only — no server, no fabricated
+  competitors): XP per day for the last 14 days, best checkpoint scores per
+  unit, longest streak, most-looked-up OCR words.
+
+### Feature unlock table
+
+| Flag | Entry point | Trigger |
+|---|---|---|
+| `leaderboards` | Profile → "Your Records" | Unit 1 checkpoint passed |
+| `bossBattles` | ⚔ boss rows after every 5th unit | Any 5 unit checkpoints passed |
+| `story1` | 📖 "Al bar" after Unit 5 | Unit 5 checkpoint passed |
+| `story2`–`story4` | future stories after Units 15/28/45 | Units 15/28/45 checkpoints passed |
+| `ocrCamera` | Dictionary → camera button | Unit 10 checkpoint passed |
+| `mixedPractice` | Home → "Mixed Practice" card | Unit 10 checkpoint passed (Phase 1 complete) |
+
+## Plugin authoring quickstart
+
+A course is a single UTF-8 JSON `.lingua` file — the normative format spec is
+[`docs/LINGUA_FORMAT.md`](docs/LINGUA_FORMAT.md):
+
+1. **Write**: `formatVersion: 1`, a `meta` block (`id` lowercase-ascii,
+   `language`, `languageName`, integer `version`), `units` numbered
+   consecutively from 1 (4 lessons each in the fixed order vocabulary /
+   grammar / mixed / oral, 4–12 exercises per lesson, a 10-exercise
+   checkpoint — 15 for Unit 60), a `dictionary` (every entry referenced by at
+   least one lesson or exercise), and optional `stories`.
+2. **Validate**: the same validator the app runs is a pure-JVM unit test —
+   `PluginValidator.validateText(json)` (see `PluginValidatorTest`), or just
+   drop the file in and read the per-rule rejection messages.
+3. **Install**: copy the file to
+   `Android/data/com.linguamod.app/files/plugins/` on the device and tap
+   **Rescan** on the empty-plugins screen. Invalid files are rejected with
+   per-rule errors and never partially loaded.
+4. **Upgrade**: bump `meta.version`. On the next launch the app replaces the
+   installed copy of the bundled plugin when the bundled asset is newer;
+   progress rows key to unit numbers (not plugin versions), so upgrades never
+   wipe progress, and dictionary lookup counts are carried over.
 
 ## Review — spaced repetition (Stage 3 §5)
 
@@ -120,9 +190,14 @@ The app is verified by an autonomous harness (see `BUILD_REPORT.md` for results)
   unit completion, checkpoint failure/retry, rotation, airplane mode (incl. the extended
   audio journey asserting TTS requests and speaking substitution), no-Italian-voice,
   review card (3 due → cleared), flashcards, duplicate-token scramble, empty plugins,
-  fuzz corpus, dictionary gating, gamification, and the Stage 2 complete-units run
+  fuzz corpus, dictionary gating, gamification, the Stage 2 complete-units run
   (`CompleteUnitsStage2JourneyTest`: all 10 units unlocked in strict linear order and
-  completed by the Solver Bot).
+  completed by the Solver Bot), and the Stage 4 journeys: story/boss/practice,
+  gating regression (Solver Bot Units 1–3 → all Stage 4 entry points hidden → each
+  flag trips its entry point), OCR via a scripted fake gateway (known/unknown words,
+  model-downloading note, no-Play-Services hiding, permission denial), and the
+  Phase-2 readiness check (generated 60-unit dummy plugin renders and scrolls the
+  full path with jank measured via `dumpsys gfxinfo`).
 - **Content static analysis** (JVM): `MixedLessonRecyclingTest` asserts mixed lessons
   recycle vocabulary from earlier units, plus the fixed lesson-type order and
   10-exercise checkpoints across all units.
@@ -138,10 +213,11 @@ The app is verified by an autonomous harness (see `BUILD_REPORT.md` for results)
 ## Architecture
 
 Kotlin · Jetpack Compose (Material 3) · MVVM · Hilt DI · Room · Navigation Compose ·
-Kotlinx Serialization. minSdk 26, target/compileSdk 34. No analytics, no crashlytics,
-offline-first: `RECORD_AUDIO` (Stage 3) is the only runtime permission — requested with
-rationale, degrading to silent listening substitution on denial; CAMERA arrives with
-Stage 4 on the same gated pattern.
+Kotlinx Serialization · CameraX + ML Kit (unbundled, Play Services delivery).
+minSdk 26, target/compileSdk 34. No analytics, no crashlytics, offline-first.
+Two runtime permissions, both requested with in-context rationale and both
+degrading gracefully on denial: `RECORD_AUDIO` (speaking exercises → silent
+listening substitution) and `CAMERA` (Stage 4 OCR → scanner hides).
 
 Test seams (all with fake implementations for tests): `Clock`, `TtsGateway`,
 `SpeechRecognizerGateway`, `OcrGateway` — see Orchestrator §C.5.
