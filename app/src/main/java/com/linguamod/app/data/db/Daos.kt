@@ -44,6 +44,10 @@ interface DictionaryDao {
     @Query("DELETE FROM dictionary_entries WHERE pluginId = :pluginId")
     suspend fun deleteByPlugin(pluginId: String)
 
+    /** All entries of one plugin (used to carry lookupCount over upgrades). */
+    @Query("SELECT * FROM dictionary_entries WHERE pluginId = :pluginId")
+    suspend fun getByPlugin(pluginId: String): List<DictionaryEntryEntity>
+
     @Query("SELECT * FROM dictionary_entries WHERE introducedInUnit <= :maxUnit ORDER BY word")
     fun observeUpToUnit(maxUnit: Int): Flow<List<DictionaryEntryEntity>>
 

@@ -29,18 +29,56 @@ class PluginLoader @Inject constructor(
     val pluginDir: File
         get() = File(context.getExternalFilesDir(null) ?: context.filesDir, "plugins")
 
-    /** First launch only (fresh DB): copy the bundled plugin into the plugin dir. */
+    /**
+     * First launch / bundled-plugin upgrade (Stage 4B):
+     * - fresh DB and no plugin installed → copy the bundled plugin;
+     * - the bundled asset is NEWER than the installed copy → overwrite it
+     *   (progress rows key to unit numbers, never to plugin versions, so an
+     *   upgrade is safe; dictionary lookup counts survive via
+     *   [populateDictionary]);
+     * - same or older bundled version, an existing install whose plugins were
+     *   removed by hand, or a replaced bundled file → leave things alone.
+     */
     suspend fun installBundledDemoIfNeeded() = withContext(Dispatchers.IO) {
         pluginDir.mkdirs()
-        if (pluginDir.listFiles()?.any { it.extension == "lingua" } == true) return@withContext
-        if (db.progressDao().getUserProgress() != null) return@withContext // not a fresh install
+        val installed = File(pluginDir, BUNDLED_FILE_NAME)
+        val anyPlugin = pluginDir.listFiles()?.any { it.extension == "lingua" } == true
+        if (!anyPlugin) {
+            if (db.progressDao().getUserProgress() != null) return@withContext // not a fresh install
+            copyBundled(installed)
+            return@withContext
+        }
+        if (!installed.exists()) return@withContext // user replaced the bundled plugin
+        val bundledVersion = metaVersionOf(readBundledText()) ?: return@withContext
+        val installedVersion = metaVersionOf(installed.readText()) ?: 0
+        if (bundledVersion > installedVersion) {
+            Log.i(TAG, "upgrading bundled plugin v$installedVersion → v$bundledVersion")
+            copyBundled(installed)
+        }
+    }
+
+    private fun copyBundled(target: File) {
         try {
-            context.assets.open("plugins/it.lingua").use { input ->
-                File(pluginDir, "it.lingua").outputStream().use { input.copyTo(it) }
+            context.assets.open("plugins/$BUNDLED_FILE_NAME").use { input ->
+                target.outputStream().use { input.copyTo(it) }
             }
         } catch (e: Exception) {
             Log.e(TAG, "failed to install bundled plugin", e)
         }
+    }
+
+    private fun readBundledText(): String? = try {
+        context.assets.open("plugins/$BUNDLED_FILE_NAME").bufferedReader().readText()
+    } catch (e: Exception) {
+        Log.e(TAG, "failed to read bundled plugin", e); null
+    }
+
+    /** Lenient meta.version read; null when unreadable (never throws). */
+    private fun metaVersionOf(text: String?): Int? {
+        text ?: return null
+        return runCatching {
+            json.decodeFromString(LinguaPluginDto.serializer(), text).meta?.version
+        }.getOrNull()
     }
 
     /** Rescan plugin dir. Returns loaded plugins (valid only). */
@@ -91,12 +129,16 @@ class PluginLoader @Inject constructor(
 
     private suspend fun populateDictionary(p: LinguaPluginDto) {
         val pluginId = p.meta!!.id!!
+        // Preserve OCR lookup counts across rescans and plugin upgrades (§1).
+        val lookupCounts = db.dictionaryDao().getByPlugin(pluginId)
+            .associate { it.id to it.lookupCount }
         db.dictionaryDao().deleteByPlugin(pluginId)
         val exJson = Json { }
         db.dictionaryDao().upsertAll(
             p.dictionary.map {
+                val id = "${pluginId}:${it.id}"
                 DictionaryEntryEntity(
-                    id = "${pluginId}:${it.id}",
+                    id = id,
                     pluginId = pluginId,
                     word = it.word!!,
                     article = it.article,
@@ -105,10 +147,14 @@ class PluginLoader @Inject constructor(
                     gender = it.gender,
                     examplesJson = exJson.encodeToString(it.examples),
                     introducedInUnit = it.introducedInUnit!!,
+                    lookupCount = lookupCounts[id] ?: 0,
                 )
             }
         )
     }
 
-    companion object { private const val TAG = "PluginLoader" }
+    companion object {
+        private const val TAG = "PluginLoader"
+        private const val BUNDLED_FILE_NAME = "it.lingua"
+    }
 }
