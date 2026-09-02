@@ -140,6 +140,9 @@ interface BossDao {
 
     @Query("SELECT * FROM boss_results")
     fun observeAll(): Flow<List<BossResultEntity>>
+
+    @Query("SELECT * FROM boss_results WHERE bossId = :id")
+    suspend fun get(id: String): BossResultEntity?
 }
 
 @Dao

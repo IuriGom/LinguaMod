@@ -37,6 +37,7 @@ import com.linguamod.app.ui.flashcard.FlashcardScreen
 import com.linguamod.app.ui.home.HomeScreen
 import com.linguamod.app.ui.lesson.LessonScreen
 import com.linguamod.app.ui.profile.ProfileScreen
+import com.linguamod.app.ui.story.StoryScreen
 import com.linguamod.app.ui.theme.LinguaModTheme
 import com.linguamod.app.ui.unit.UnitDetailScreen
 import dagger.hilt.android.AndroidEntryPoint
@@ -52,9 +53,11 @@ object Routes {
     const val CHECKPOINT = "checkpoint/{unit}"
     const val REVIEW = "review"
     const val FLASHCARDS = "flashcards"
+    const val STORY = "story/{storyId}"
     fun unit(n: Int) = "unit/$n"
     fun lesson(unit: Int, lesson: Int) = "lesson/$unit/$lesson"
     fun checkpoint(unit: Int) = "checkpoint/$unit"
+    fun story(id: String) = "story/$id"
 }
 
 @AndroidEntryPoint
@@ -163,6 +166,7 @@ fun LinguaModAppContent() {
                     HomeScreen(
                         onOpenUnit = { nav.navigate(Routes.unit(it)) },
                         onOpenReview = { nav.navigate(Routes.REVIEW) },
+                        onOpenStory = { nav.navigate(Routes.story(it)) },
                     )
                 }
                 composable(Routes.DICTIONARY) {
@@ -202,6 +206,12 @@ fun LinguaModAppContent() {
                 }
                 composable(Routes.FLASHCARDS) {
                     FlashcardScreen(onDone = { nav.popBackStack() })
+                }
+                composable(
+                    Routes.STORY,
+                    arguments = listOf(navArgument("storyId") { type = NavType.StringType }),
+                ) {
+                    StoryScreen(onDone = { nav.popBackStack() })
                 }
             }
         }

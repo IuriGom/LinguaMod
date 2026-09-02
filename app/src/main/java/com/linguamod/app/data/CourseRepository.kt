@@ -4,6 +4,7 @@ import com.linguamod.app.core.Badges
 import com.linguamod.app.core.Clock
 import com.linguamod.app.data.db.AppDatabase
 import com.linguamod.app.data.db.BadgeEntity
+import com.linguamod.app.data.db.BossResultEntity
 import com.linguamod.app.data.db.DailyXpEntity
 import com.linguamod.app.data.db.DictionaryEntryEntity
 import com.linguamod.app.data.db.ExerciseResultEntity
@@ -373,12 +374,65 @@ class CourseRepository @Inject constructor(
         db.dailyXpDao().upsert(DailyXpEntity(today, (day?.xp ?: 0) + amount))
     }
 
+    // --- stories (Stage 4 §2) ---
+
+    /**
+     * First completion of a story: +[XP_PER_STORY] XP and the per-story
+     * "Narratore" badge. Replays return false and award nothing.
+     */
+    suspend fun completeStoryOnce(storyId: String): Boolean {
+        val badgeId = Badges.narratoreId(storyId)
+        if (db.badgeDao().get(badgeId) != null) return false
+        addXp(XP_PER_STORY)
+        awardBadge(badgeId)
+        return true
+    }
+
+    suspend fun isStoryCompleted(storyId: String): Boolean =
+        db.badgeDao().get(Badges.narratoreId(storyId)) != null
+
+    // --- boss battles (Stage 4 §3) ---
+
+    /**
+     * Records a boss attempt. Losing costs nothing. The first win awards
+     * [XP_PER_BOSS_WIN] XP, doubles gems, and grants the per-boss badge;
+     * repeat wins are recorded but grant no further rewards.
+     */
+    suspend fun recordBossResult(bossUnit: Int, won: Boolean) {
+        val bossId = "boss_$bossUnit"
+        db.bossDao().upsert(BossResultEntity(bossId, won, playedAt = clock.nowMillis()))
+        if (won && db.badgeDao().get(Badges.bossChampionId(bossUnit)) == null) {
+            addXp(XP_PER_BOSS_WIN)
+            val p = userProgress()
+            db.progressDao().upsertUserProgress(p.copy(gems = p.gems * 2))
+            awardBadge(Badges.bossChampionId(bossUnit))
+        }
+    }
+
+    // --- OCR dictionary lookups (Stage 4 §5): field + counter plumbing ---
+    // The OCR UI (part B) calls this when a recognized word is looked up.
+
+    suspend fun recordDictionaryLookup(entryId: String) =
+        db.dictionaryDao().incrementLookup(entryId)
+
+    suspend fun mostLookedUpEntries(limit: Int) = db.dictionaryDao().mostLookedUp(limit)
+
+    suspend fun dailyXpLastDays(days: Int) = db.dailyXpDao().lastDays(days)
+
+    /** Live badge rows: Home story rows and Profile derive completion from this. */
+    val badgesFlow = db.badgeDao().observeAll()
+
+    /** Live boss results: the Home boss overlays show won state from this. */
+    val bossResultsFlow = db.bossDao().observeAll()
+
     companion object {
         const val CHECKPOINT_INDEX = 4
         const val MAX_HEARTS = 5
         const val HEART_REFILL_MILLIS = 30 * 60 * 1000L
         const val GEMS_PER_CHECKPOINT = 10
         const val STREAK_BADGE_DAYS = 7
+        const val XP_PER_STORY = 30 // Stage 4 §2
+        const val XP_PER_BOSS_WIN = 100 // Stage 4 §3
 
         // SM-2 lite review scheduling (Stage 3 §5)
         const val REVIEW_WRONG_INTERVAL_MILLIS = 10 * 60 * 1000L // 10 minutes

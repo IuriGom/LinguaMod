@@ -37,6 +37,24 @@ data class HomeState(
     val bars: ProgressBars = ProgressBars(),
     /** Due review items (Stage 3 §5); the review card shows only when > 0. */
     val reviewDue: Int = 0,
+    /** Story entries on the path (Stage 4 §2), anchored after their unit's node. */
+    val stories: List<StoryEntry> = emptyList(),
+)
+
+/**
+ * A story's book icon on the Home path. Shown once its anchor unit is
+ * reachable (or the story flag has tripped); locked entries show the unlock
+ * condition. Placeholders (nodes: []) render in the player as a
+ * "future content pack" message.
+ */
+data class StoryEntry(
+    val id: String,
+    val title: String,
+    val afterUnit: Int,
+    val unlocked: Boolean,
+    val completed: Boolean,
+    /** Anchor unit absent from this plugin: the row parks at the end of the path. */
+    val anchored: Boolean,
 )
 
 @HiltViewModel
@@ -50,17 +68,27 @@ class HomeViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             repo.initialize()
-            // recompute when the plugin, progress rows, or review items change
-            combine(repo.plugin, repo.lessonProgressFlow, repo.reviewItemsFlow) { p, rows, reviews ->
-                Triple(p, rows, reviews)
-            }.collect { (plugin, rows, reviews) -> refresh(plugin, rows, reviews) }
+            // recompute when the plugin, progress rows, review items, or badges change
+            combine(
+                repo.plugin, repo.lessonProgressFlow, repo.reviewItemsFlow, repo.badgesFlow,
+            ) { p, rows, reviews, badges ->
+                Data(p, rows, reviews, badges.map { it.badgeId }.toSet())
+            }.collect { (plugin, rows, reviews, badgeIds) -> refresh(plugin, rows, reviews, badgeIds) }
         }
     }
+
+    private data class Data(
+        val plugin: LinguaPluginDto?,
+        val rows: List<LessonProgressEntity>,
+        val reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
+        val badgeIds: Set<String>,
+    )
 
     private suspend fun refresh(
         plugin: LinguaPluginDto?,
         rows: List<LessonProgressEntity>,
         reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
+        badgeIds: Set<String>,
     ) {
         if (plugin == null) {
             _state.value = HomeState(loading = false, pluginLoaded = false)
@@ -78,6 +106,24 @@ class HomeViewModel @Inject constructor(
                 isCurrent = unlocked && !completed,
             )
         }
+        val unitNumbers = plugin.units.mapNotNull { it.number }.toSet()
+        val stories = plugin.stories.mapNotNull { s ->
+            val id = s.id ?: return@mapNotNull null
+            val afterUnit = s.unlockAfterUnit ?: return@mapNotNull null
+            val anchored = afterUnit in unitNumbers
+            val flagTripped = repo.isFeatureUnlocked(id)
+            // Hidden until the anchor unit is reachable or the flag has tripped
+            // (gating regression: no entry points before their unlock condition).
+            if (!flagTripped && !(anchored && repo.isUnitUnlocked(afterUnit))) return@mapNotNull null
+            StoryEntry(
+                id = id,
+                title = s.title ?: id,
+                afterUnit = afterUnit,
+                unlocked = flagTripped,
+                completed = com.linguamod.app.core.Badges.narratoreId(id) in badgeIds,
+                anchored = anchored,
+            )
+        }
         _state.value = HomeState(
             loading = false,
             pluginLoaded = true,
@@ -85,6 +131,7 @@ class HomeViewModel @Inject constructor(
             progress = repo.userProgress(),
             bars = computeBars(plugin, rows),
             reviewDue = repo.dueReviewCount(reviews),
+            stories = stories,
         )
     }
 

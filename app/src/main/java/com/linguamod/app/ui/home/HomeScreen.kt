@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
@@ -49,6 +48,7 @@ import kotlinx.coroutines.launch
 fun HomeScreen(
     onOpenUnit: (Int) -> Unit,
     onOpenReview: () -> Unit,
+    onOpenStory: (String) -> Unit,
     vm: HomeViewModel = hiltViewModel(),
 ) {
     val state by vm.state.collectAsState()
@@ -94,17 +94,41 @@ fun HomeScreen(
                     item { ReviewCard(state.reviewDue, onOpenReview) }
                 }
                 item { ProgressBarsCard(state.bars) }
-                items(state.nodes) { node ->
-                    UnitNodeRow(
-                        node = node,
-                        onClick = {
-                            if (node.unlocked) onOpenUnit(node.number)
-                            else scope.launch {
-                                snackbar.currentSnackbarData?.dismiss()
-                                snackbar.showSnackbar("Complete Unit ${node.number - 1} to unlock.")
+                state.nodes.forEach { node ->
+                    item {
+                        UnitNodeRow(
+                            node = node,
+                            onClick = {
+                                if (node.unlocked) onOpenUnit(node.number)
+                                else scope.launch {
+                                    snackbar.currentSnackbarData?.dismiss()
+                                    snackbar.showSnackbar("Complete Unit ${node.number - 1} to unlock.")
+                                }
+                            },
+                        )
+                    }
+                    // Story book icons anchor after their unlocking unit's node (§2).
+                    state.stories.filter { it.anchored && it.afterUnit == node.number }
+                        .forEach { story ->
+                            item {
+                                StoryRow(
+                                    story = story,
+                                    onClick = {
+                                        if (story.unlocked) onOpenStory(story.id)
+                                        else scope.launch {
+                                            snackbar.currentSnackbarData?.dismiss()
+                                            snackbar.showSnackbar(
+                                                "Pass the Unit ${story.afterUnit} checkpoint to unlock \"${story.title}\"."
+                                            )
+                                        }
+                                    },
+                                )
                             }
-                        },
-                    )
+                        }
+                }
+                // Stories whose anchor unit isn't in this plugin park at the end.
+                state.stories.filter { !it.anchored }.forEach { story ->
+                    item { StoryRow(story = story, onClick = { onOpenStory(story.id) }) }
                 }
                 item { Spacer(Modifier.height(24.dp)) }
             }
@@ -198,6 +222,38 @@ private fun UnitNodeRow(node: UnitNode, onClick: () -> Unit) {
         Column(Modifier.padding(start = 16.dp)) {
             Text("Unit ${node.number}", style = MaterialTheme.typography.labelMedium)
             Text(node.title, style = MaterialTheme.typography.titleMedium)
+        }
+    }
+}
+
+/** Story entry on the path (Stage 4 §2): a book icon beside the winding units. */
+@Composable
+private fun StoryRow(story: StoryEntry, onClick: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().offset(x = 48.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Surface(
+            onClick = onClick,
+            shape = CircleShape,
+            color = when {
+                story.completed -> MaterialTheme.colorScheme.primary
+                story.unlocked -> MaterialTheme.colorScheme.tertiaryContainer
+                else -> MaterialTheme.colorScheme.surfaceVariant
+            },
+            modifier = Modifier.size(48.dp).testTag("story_row_${story.id}"),
+        ) {
+            Box(contentAlignment = Alignment.Center) {
+                when {
+                    story.completed -> Icon(Icons.Filled.Check, contentDescription = "completed")
+                    !story.unlocked -> Icon(Icons.Filled.Lock, contentDescription = "locked")
+                    else -> Text("📖")
+                }
+            }
+        }
+        Column(Modifier.padding(start = 16.dp)) {
+            Text("Story", style = MaterialTheme.typography.labelMedium)
+            Text(story.title, style = MaterialTheme.typography.titleMedium)
         }
     }
 }
