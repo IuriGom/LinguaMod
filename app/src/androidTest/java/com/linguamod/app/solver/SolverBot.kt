@@ -205,6 +205,42 @@ class SolverBot(
         return null
     }
 
+    private val currentExerciseMatcher = SemanticsMatcher("current exercise card") {
+        it.config.getOrNull(SemanticsProperties.TestTag)?.startsWith("exercise_") == true
+    }
+
+    /**
+     * Solves a session whose exercise ids aren't known up front (Stage 4 boss
+     * gauntlets and mixed practice sample server-side): reads the current
+     * exercise's id off its UI tag, answers, and repeats until [finishTag]
+     * (or "boss_lost") appears. [wrongAnswers] exercises are deliberately
+     * answered wrong first (boss strikes / practice SRS feed).
+     */
+    fun solveSampledSession(finishTag: String, wrongAnswers: Int = 0) {
+        var wrongs = 0
+        while (true) {
+            rule.waitUntil(LONG_TIMEOUT) {
+                rule.onAllNodes(currentExerciseMatcher).fetchSemanticsNodes().isNotEmpty() ||
+                    rule.onAllNodes(hasTestTag(finishTag)).fetchSemanticsNodes().isNotEmpty() ||
+                    rule.onAllNodes(hasTestTag("boss_lost")).fetchSemanticsNodes().isNotEmpty()
+            }
+            if (rule.onAllNodes(hasTestTag(finishTag)).fetchSemanticsNodes().isNotEmpty()) return
+            if (rule.onAllNodes(hasTestTag("boss_lost")).fetchSemanticsNodes().isNotEmpty()) return
+            val id = rule.onAllNodes(currentExerciseMatcher).fetchSemanticsNodes()
+                .first().config.getOrNull(SemanticsProperties.TestTag)!!.removePrefix("exercise_")
+            val e = findExercise(id) ?: error("Solver bot: no exercise payload for id $id")
+            val wrong = wrongs < wrongAnswers
+            if (wrong) wrongs++
+            answerExercise(e, wrong)
+            // wait until the session advances past the exercise just answered
+            rule.waitUntil(LONG_TIMEOUT) {
+                rule.onAllNodes(hasTestTag("exercise_$id")).fetchSemanticsNodes().isEmpty() ||
+                    rule.onAllNodes(hasTestTag(finishTag)).fetchSemanticsNodes().isNotEmpty() ||
+                    rule.onAllNodes(hasTestTag("boss_lost")).fetchSemanticsNodes().isNotEmpty()
+            }
+        }
+    }
+
     private fun answerExercise(e: ExerciseDto, wrong: Boolean) {
         rule.waitUntilExactlyOneExists(hasTestTag("exercise_${e.id}"), LONG_TIMEOUT)
         val feedback = hasTestTag(if (wrong) "feedback_wrong" else "feedback_correct")
