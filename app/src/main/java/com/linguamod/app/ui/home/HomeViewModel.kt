@@ -39,6 +39,10 @@ data class HomeState(
     val reviewDue: Int = 0,
     /** Story entries on the path (Stage 4 §2), anchored after their unit's node. */
     val stories: List<StoryEntry> = emptyList(),
+    /** Boss overlays after every 5th unit (Stage 4 §3). */
+    val bosses: List<BossEntry> = emptyList(),
+    /** Mixed Practice card on Home (Stage 4 §4), visible only when unlocked. */
+    val practiceUnlocked: Boolean = false,
 )
 
 /**
@@ -57,6 +61,13 @@ data class StoryEntry(
     val anchored: Boolean,
 )
 
+/** A boss overlay on the path (Stage 4 §3), themed after every 5th unit. */
+data class BossEntry(
+    val unit: Int,
+    val unlocked: Boolean,
+    val won: Boolean,
+)
+
 @HiltViewModel
 class HomeViewModel @Inject constructor(
     private val repo: CourseRepository,
@@ -70,10 +81,15 @@ class HomeViewModel @Inject constructor(
             repo.initialize()
             // recompute when the plugin, progress rows, review items, or badges change
             combine(
-                repo.plugin, repo.lessonProgressFlow, repo.reviewItemsFlow, repo.badgesFlow,
-            ) { p, rows, reviews, badges ->
-                Data(p, rows, reviews, badges.map { it.badgeId }.toSet())
-            }.collect { (plugin, rows, reviews, badgeIds) -> refresh(plugin, rows, reviews, badgeIds) }
+                repo.plugin, repo.lessonProgressFlow, repo.reviewItemsFlow,
+                repo.badgesFlow, repo.bossResultsFlow,
+            ) { p, rows, reviews, badges, bossResults ->
+                Data(
+                    p, rows, reviews,
+                    badges.map { it.badgeId }.toSet(),
+                    bossResults.filter { it.won }.map { it.bossId }.toSet(),
+                )
+            }.collect { d -> refresh(d.plugin, d.rows, d.reviews, d.badgeIds, d.wonBossIds) }
         }
     }
 
@@ -82,6 +98,7 @@ class HomeViewModel @Inject constructor(
         val rows: List<LessonProgressEntity>,
         val reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
         val badgeIds: Set<String>,
+        val wonBossIds: Set<String>,
     )
 
     private suspend fun refresh(
@@ -89,6 +106,7 @@ class HomeViewModel @Inject constructor(
         rows: List<LessonProgressEntity>,
         reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
         badgeIds: Set<String>,
+        wonBossIds: Set<String>,
     ) {
         if (plugin == null) {
             _state.value = HomeState(loading = false, pluginLoaded = false)
@@ -124,6 +142,15 @@ class HomeViewModel @Inject constructor(
                 anchored = anchored,
             )
         }
+        // Boss overlays after every 5th unit present in the plugin (§3). Same
+        // visibility rule as stories: hidden until reachable or flag-tripped.
+        val bossFlag = repo.isFeatureUnlocked(com.linguamod.app.data.FeatureUnlocks.BOSS_BATTLES)
+        val bosses = plugin.units.mapNotNull { u ->
+            val n = u.number ?: return@mapNotNull null
+            if (n % 5 != 0) return@mapNotNull null
+            if (!bossFlag && !repo.isUnitUnlocked(n)) return@mapNotNull null
+            BossEntry(unit = n, unlocked = bossFlag, won = "boss_$n" in wonBossIds)
+        }
         _state.value = HomeState(
             loading = false,
             pluginLoaded = true,
@@ -132,6 +159,8 @@ class HomeViewModel @Inject constructor(
             bars = computeBars(plugin, rows),
             reviewDue = repo.dueReviewCount(reviews),
             stories = stories,
+            bosses = bosses,
+            practiceUnlocked = repo.isFeatureUnlocked(com.linguamod.app.data.FeatureUnlocks.MIXED_PRACTICE),
         )
     }
 

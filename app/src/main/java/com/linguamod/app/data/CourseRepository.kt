@@ -11,9 +11,11 @@ import com.linguamod.app.data.db.ExerciseResultEntity
 import com.linguamod.app.data.db.LessonProgressEntity
 import com.linguamod.app.data.db.ReviewItemEntity
 import com.linguamod.app.data.db.UserProgressEntity
+import com.linguamod.app.plugin.BossGenerator
 import com.linguamod.app.plugin.ExerciseDto
 import com.linguamod.app.plugin.LinguaPluginDto
 import com.linguamod.app.plugin.PluginLoader
+import com.linguamod.app.plugin.PracticeGenerator
 import java.time.LocalDate
 import java.time.temporal.ChronoUnit
 import javax.inject.Inject
@@ -397,16 +399,47 @@ class CourseRepository @Inject constructor(
      * Records a boss attempt. Losing costs nothing. The first win awards
      * [XP_PER_BOSS_WIN] XP, doubles gems, and grants the per-boss badge;
      * repeat wins are recorded but grant no further rewards.
+     * Returns true when the win rewards were actually granted.
      */
-    suspend fun recordBossResult(bossUnit: Int, won: Boolean) {
+    suspend fun recordBossResult(bossUnit: Int, won: Boolean): Boolean {
         val bossId = "boss_$bossUnit"
         db.bossDao().upsert(BossResultEntity(bossId, won, playedAt = clock.nowMillis()))
-        if (won && db.badgeDao().get(Badges.bossChampionId(bossUnit)) == null) {
-            addXp(XP_PER_BOSS_WIN)
-            val p = userProgress()
-            db.progressDao().upsertUserProgress(p.copy(gems = p.gems * 2))
-            awardBadge(Badges.bossChampionId(bossUnit))
-        }
+        if (!won) return false
+        if (db.badgeDao().get(Badges.bossChampionId(bossUnit)) != null) return false
+        addXp(XP_PER_BOSS_WIN)
+        val p = userProgress()
+        db.progressDao().upsertUserProgress(p.copy(gems = p.gems * 2))
+        awardBadge(Badges.bossChampionId(bossUnit))
+        return true
+    }
+
+    /** Units whose checkpoint has been passed. */
+    suspend fun completedUnitNumbers(): Set<Int> =
+        db.progressDao().getAllLessonProgress()
+            .filter { it.lessonIndex == CHECKPOINT_INDEX && it.completed }
+            .map { it.unitNumber }
+            .toSet()
+
+    /** Boss gauntlet (Stage 4 §3): 15 questions from completed units' checkpoints. */
+    suspend fun bossGauntletExercises(): List<ExerciseDto> {
+        val plugin = _plugin.value ?: return emptyList()
+        return BossGenerator.generate(
+            plugin,
+            completedUnitNumbers(),
+            db.exerciseResultDao().wrongExerciseIds().toSet(),
+            kotlin.random.Random.Default,
+        )
+    }
+
+    /** Mixed practice (Stage 4 §4): 10 exercises across all completed units. */
+    suspend fun practiceExercises(): List<ExerciseDto> {
+        val plugin = _plugin.value ?: return emptyList()
+        return PracticeGenerator.generate(
+            plugin,
+            completedUnitNumbers(),
+            db.exerciseResultDao().getAll().associate { it.exerciseId to it.correct },
+            kotlin.random.Random.Default,
+        )
     }
 
     // --- OCR dictionary lookups (Stage 4 §5): field + counter plumbing ---

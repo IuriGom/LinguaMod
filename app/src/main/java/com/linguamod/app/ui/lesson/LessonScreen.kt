@@ -51,8 +51,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.linguamod.app.audio.ttsManager
+import com.linguamod.app.core.Badges
 import com.linguamod.app.data.CourseRepository
 import com.linguamod.app.data.FeatureUnlocks
+import com.linguamod.app.plugin.BossGenerator
 import com.linguamod.app.plugin.ExerciseDto
 import com.linguamod.app.plugin.ExerciseTypes
 import com.linguamod.app.ui.common.SpeakerButton
@@ -99,9 +101,48 @@ fun LessonScreen(
                             modifier = Modifier.weight(1f),
                         )
                         Spacer(Modifier.width(12.dp))
-                        HeartsDisplay(state.hearts)
+                        when (state.mode) {
+                            // Boss battles show strikes, not hearts (Stage 4 §3).
+                            SessionMode.BOSS -> Text(
+                                "Strikes: ${state.strikes}/${BossGenerator.MAX_WRONG}",
+                                style = MaterialTheme.typography.labelLarge,
+                                color = MaterialTheme.colorScheme.error,
+                                modifier = Modifier.testTag("boss_strikes"),
+                            )
+                            // Mixed practice has no hearts (Stage 4 §4).
+                            SessionMode.PRACTICE -> {}
+                            else -> HeartsDisplay(state.hearts)
+                        }
                     }
-                    if (state.hearts == 0) {
+                    if (state.mode == SessionMode.BOSS) {
+                        Spacer(Modifier.height(8.dp))
+                        Text(
+                            "⚔️ Boss Battle — Unit ${state.bossUnit} Gauntlet",
+                            style = MaterialTheme.typography.titleMedium,
+                            modifier = Modifier.testTag("boss_banner"),
+                        )
+                        Text(
+                            "15 questions from everything you've learned. ${BossGenerator.MAX_WRONG} strikes and the battle is lost — no penalty, review and return.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                    if (state.mode == SessionMode.PRACTICE) {
+                        Spacer(Modifier.height(8.dp))
+                        Text(
+                            "Mixed Practice",
+                            style = MaterialTheme.typography.titleMedium,
+                            modifier = Modifier.testTag("practice_banner"),
+                        )
+                        Text(
+                            "No hearts, no XP — wrong answers join your review schedule.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                    if (state.hearts == 0 &&
+                        (state.mode == SessionMode.LESSON || state.mode == SessionMode.CHECKPOINT)
+                    ) {
                         Spacer(Modifier.height(4.dp))
                         Text(
                             "Out of hearts — take your time, you can keep practicing.",
@@ -481,7 +522,49 @@ private fun FinishScreen(state: LessonState, onDone: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        if (state.isReview) {
+        if (state.mode == SessionMode.BOSS) {
+            if (state.passed) {
+                Text(
+                    "⚔️ Victory!",
+                    style = MaterialTheme.typography.headlineMedium,
+                    modifier = Modifier.testTag("boss_won"),
+                )
+                Text("Boss of Unit ${state.bossUnit} defeated.")
+                Text(
+                    "Badge unlocked: ${Badges.displayNameFor(Badges.bossChampionId(state.bossUnit))}",
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Text(
+                    "Gems doubled!",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                )
+            } else {
+                Text(
+                    "Battle lost",
+                    style = MaterialTheme.typography.headlineMedium,
+                    modifier = Modifier.testTag("boss_lost"),
+                )
+                Text("${state.strikes} strikes — the boss stands.")
+                Text(
+                    "No penalty. Review and return when you're ready.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    textAlign = TextAlign.Center,
+                )
+            }
+        } else if (state.mode == SessionMode.PRACTICE) {
+            Text(
+                "Practice complete!",
+                style = MaterialTheme.typography.headlineMedium,
+                modifier = Modifier.testTag("practice_complete"),
+            )
+            Text("${state.correctCount}/${state.answeredCount} correct")
+            Text(
+                "No hearts or XP — wrong answers joined your review schedule.",
+                style = MaterialTheme.typography.bodyMedium,
+                textAlign = TextAlign.Center,
+            )
+        } else if (state.isReview) {
             Text(
                 "Review complete!",
                 style = MaterialTheme.typography.headlineMedium,
@@ -524,7 +607,12 @@ private fun FinishScreen(state: LessonState, onDone: () -> Unit) {
             Text("${state.correctCount}/${state.answeredCount} correct")
         }
         Spacer(Modifier.height(8.dp))
-        if (!state.isReview) {
+        val showXp = when (state.mode) {
+            SessionMode.REVIEW, SessionMode.PRACTICE -> false
+            SessionMode.BOSS -> state.passed && state.xpGained > 0
+            else -> true
+        }
+        if (showXp) {
             Text(
                 "+${state.xpGained} XP",
                 style = MaterialTheme.typography.titleMedium,

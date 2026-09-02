@@ -49,6 +49,8 @@ fun HomeScreen(
     onOpenUnit: (Int) -> Unit,
     onOpenReview: () -> Unit,
     onOpenStory: (String) -> Unit,
+    onOpenBoss: (Int) -> Unit,
+    onOpenPractice: () -> Unit,
     vm: HomeViewModel = hiltViewModel(),
 ) {
     val state by vm.state.collectAsState()
@@ -93,6 +95,10 @@ fun HomeScreen(
                 if (state.reviewDue > 0) {
                     item { ReviewCard(state.reviewDue, onOpenReview) }
                 }
+                // Mixed Practice card (Stage 4 §4): visible only when unlocked.
+                if (state.practiceUnlocked) {
+                    item { PracticeCard(onOpenPractice) }
+                }
                 item { ProgressBarsCard(state.bars) }
                 state.nodes.forEach { node ->
                     item {
@@ -125,6 +131,21 @@ fun HomeScreen(
                                 )
                             }
                         }
+                    // Boss overlays anchor after every 5th unit's node (§3).
+                    state.bosses.filter { it.unit == node.number }.forEach { boss ->
+                        item {
+                            BossRow(
+                                boss = boss,
+                                onClick = {
+                                    if (boss.unlocked) onOpenBoss(boss.unit)
+                                    else scope.launch {
+                                        snackbar.currentSnackbarData?.dismiss()
+                                        snackbar.showSnackbar("Complete any 5 units to unlock Boss Battles.")
+                                    }
+                                },
+                            )
+                        }
+                    }
                 }
                 // Stories whose anchor unit isn't in this plugin park at the end.
                 state.stories.filter { !it.anchored }.forEach { story ->
@@ -254,6 +275,61 @@ private fun StoryRow(story: StoryEntry, onClick: () -> Unit) {
         Column(Modifier.padding(start = 16.dp)) {
             Text("Story", style = MaterialTheme.typography.labelMedium)
             Text(story.title, style = MaterialTheme.typography.titleMedium)
+        }
+    }
+}
+
+/** Boss overlay on the path (Stage 4 §3): a themed ⚔ node after every 5th unit. */
+@Composable
+private fun BossRow(boss: BossEntry, onClick: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().offset(x = 48.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Surface(
+            onClick = onClick,
+            shape = CircleShape,
+            color = when {
+                boss.won -> MaterialTheme.colorScheme.primary
+                boss.unlocked -> MaterialTheme.colorScheme.errorContainer
+                else -> MaterialTheme.colorScheme.surfaceVariant
+            },
+            modifier = Modifier.size(48.dp).testTag("boss_row_${boss.unit}"),
+        ) {
+            Box(contentAlignment = Alignment.Center) {
+                when {
+                    boss.won -> Icon(Icons.Filled.Check, contentDescription = "defeated")
+                    !boss.unlocked -> Icon(Icons.Filled.Lock, contentDescription = "locked")
+                    else -> Text("⚔️")
+                }
+            }
+        }
+        Column(Modifier.padding(start = 16.dp)) {
+            Text("Boss Battle", style = MaterialTheme.typography.labelMedium)
+            Text(
+                if (boss.won) "Unit ${boss.unit} boss defeated" else "Unit ${boss.unit} Gauntlet",
+                style = MaterialTheme.typography.titleMedium,
+            )
+        }
+    }
+}
+
+/** Mixed Practice card (Stage 4 §4): visible only when the flag has tripped. */
+@Composable
+private fun PracticeCard(onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        shape = MaterialTheme.shapes.medium,
+        color = MaterialTheme.colorScheme.secondaryContainer,
+        modifier = Modifier.fillMaxWidth().testTag("practice_card"),
+    ) {
+        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                "Mixed Practice — 10 exercises from everything you've learned",
+                style = MaterialTheme.typography.titleMedium,
+                modifier = Modifier.weight(1f),
+            )
+            Text("Start", style = MaterialTheme.typography.labelLarge)
         }
     }
 }

@@ -54,10 +54,13 @@ object Routes {
     const val REVIEW = "review"
     const val FLASHCARDS = "flashcards"
     const val STORY = "story/{storyId}"
+    const val BOSS = "boss/{unit}"
+    const val PRACTICE = "practice"
     fun unit(n: Int) = "unit/$n"
     fun lesson(unit: Int, lesson: Int) = "lesson/$unit/$lesson"
     fun checkpoint(unit: Int) = "checkpoint/$unit"
     fun story(id: String) = "story/$id"
+    fun boss(unit: Int) = "boss/$unit"
 }
 
 @AndroidEntryPoint
@@ -167,6 +170,8 @@ fun LinguaModAppContent() {
                         onOpenUnit = { nav.navigate(Routes.unit(it)) },
                         onOpenReview = { nav.navigate(Routes.REVIEW) },
                         onOpenStory = { nav.navigate(Routes.story(it)) },
+                        onOpenBoss = { nav.navigate(Routes.boss(it)) },
+                        onOpenPractice = { nav.navigate(Routes.PRACTICE) },
                     )
                 }
                 composable(Routes.DICTIONARY) {
@@ -212,6 +217,25 @@ fun LinguaModAppContent() {
                     arguments = listOf(navArgument("storyId") { type = NavType.StringType }),
                 ) {
                     StoryScreen(onDone = { nav.popBackStack() })
+                }
+                composable(
+                    Routes.BOSS,
+                    arguments = listOf(
+                        navArgument("unit") { type = NavType.IntType },
+                        // mode marker so the engine runs a boss gauntlet (Stage 4 §3)
+                        navArgument("mode") { type = NavType.StringType; defaultValue = "boss" },
+                    ),
+                ) {
+                    LessonScreen(isCheckpoint = false, onDone = { nav.popBackStack() })
+                }
+                composable(
+                    Routes.PRACTICE,
+                    arguments = listOf(
+                        // mode marker so the engine runs a mixed practice session (Stage 4 §4)
+                        navArgument("mode") { type = NavType.StringType; defaultValue = "practice" },
+                    ),
+                ) {
+                    LessonScreen(isCheckpoint = false, onDone = { nav.popBackStack() })
                 }
             }
         }

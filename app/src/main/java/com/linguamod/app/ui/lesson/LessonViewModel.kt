@@ -9,6 +9,7 @@ import com.linguamod.app.audio.SpeakingSubstitution
 import com.linguamod.app.audio.SpeechRecognizerGateway
 import com.linguamod.app.data.CourseRepository
 import com.linguamod.app.plugin.AnswerMatcher
+import com.linguamod.app.plugin.BossGenerator
 import com.linguamod.app.plugin.ExerciseDto
 import com.linguamod.app.plugin.ExerciseTypes
 import com.linguamod.app.plugin.SpeakingScorer
@@ -44,12 +45,25 @@ sealed interface Feedback {
     ) : Feedback
 }
 
+/**
+ * What kind of session the engine is running. LESSON/CHECKPOINT are the
+ * Stage 1–2 curriculum; REVIEW is the Stage 3 SRS session; BOSS (Stage 4 §3)
+ * is a 15-question gauntlet with 3 strikes; PRACTICE (Stage 4 §4) is a
+ * 10-exercise mixed session with no hearts/XP that feeds the review scheduler.
+ */
+enum class SessionMode { LESSON, CHECKPOINT, REVIEW, BOSS, PRACTICE }
+
 data class LessonState(
     val loading: Boolean = true,
     val title: String = "",
     val isCheckpoint: Boolean = false,
     /** Review session (Stage 3 §5): due review items, no hearts/XP/streak effects. */
     val isReview: Boolean = false,
+    /** Boss battle (Stage 4 §3) / mixed practice (Stage 4 §4) session. */
+    val mode: SessionMode = SessionMode.LESSON,
+    /** Boss strikes so far; the battle is lost at BossGenerator.MAX_WRONG. */
+    val strikes: Int = 0,
+    val bossUnit: Int = 0,
     val exercise: ExerciseDto? = null,
     val position: Int = 0,
     val total: Int = 0,
@@ -89,13 +103,32 @@ class LessonViewModel @Inject constructor(
     savedState: SavedStateHandle,
 ) : ViewModel() {
 
+    private val modeKey: String? = savedState["mode"]
     private val unitNumber: Int? = savedState["unit"]
     private val lessonIndex: Int? = savedState["lesson"]
     /** No unit argument → review session over the currently-due review items. */
-    val isReview: Boolean = unitNumber == null
-    val isCheckpoint: Boolean = !isReview && lessonIndex == null
+    val sessionMode: SessionMode = when (modeKey) {
+        "boss" -> SessionMode.BOSS
+        "practice" -> SessionMode.PRACTICE
+        else -> when {
+            unitNumber == null -> SessionMode.REVIEW
+            lessonIndex == null -> SessionMode.CHECKPOINT
+            else -> SessionMode.LESSON
+        }
+    }
+    val isReview: Boolean = sessionMode == SessionMode.REVIEW
+    val isCheckpoint: Boolean = sessionMode == SessionMode.CHECKPOINT
+    /** Boss only: the unit this battle is themed after (every 5th unit). */
+    private val bossUnit: Int = if (sessionMode == SessionMode.BOSS) unitNumber ?: 0 else 0
 
-    private val _state = MutableStateFlow(LessonState(isCheckpoint = isCheckpoint, isReview = isReview))
+    private val _state = MutableStateFlow(
+        LessonState(
+            isCheckpoint = isCheckpoint,
+            isReview = isReview,
+            mode = sessionMode,
+            bossUnit = bossUnit,
+        )
+    )
     val state: StateFlow<LessonState> = _state
 
     private var queue = ArrayDeque<ExerciseDto>()
@@ -112,7 +145,7 @@ class LessonViewModel @Inject constructor(
         }
         viewModelScope.launch {
             repo.initialize()
-            if (!isReview) {
+            if (sessionMode == SessionMode.LESSON || sessionMode == SessionMode.CHECKPOINT) {
                 repo.markLessonStarted(unitNumber!!, lessonIndex ?: CourseRepository.CHECKPOINT_INDEX)
             }
             val plugin = repo.plugin.value ?: run {
@@ -122,12 +155,15 @@ class LessonViewModel @Inject constructor(
                 p
             }
             val unit = plugin.units.firstOrNull { it.number == unitNumber }
-            val exercises = when {
+            val exercises = when (sessionMode) {
                 // Review: re-rendered from the original exercise payloads (§5).
-                isReview -> repo.dueReviewExercises()
-                unit == null -> emptyList()
-                isCheckpoint -> unit.checkpoint?.exercises.orEmpty()
-                else -> unit.lessons?.getOrNull(lessonIndex ?: 0)?.exercises.orEmpty()
+                SessionMode.REVIEW -> repo.dueReviewExercises()
+                // Boss (§3): 15-question gauntlet from completed units' checkpoints.
+                SessionMode.BOSS -> repo.bossGauntletExercises()
+                // Mixed practice (§4): 10 exercises across all completed units.
+                SessionMode.PRACTICE -> repo.practiceExercises()
+                SessionMode.CHECKPOINT -> unit?.checkpoint?.exercises.orEmpty()
+                SessionMode.LESSON -> unit?.lessons?.getOrNull(lessonIndex ?: 0)?.exercises.orEmpty()
             }
             val presentable = exercises.filter {
                 val supported = it.type in SUPPORTED_TYPES
@@ -138,12 +174,16 @@ class LessonViewModel @Inject constructor(
             val first = queue.firstOrNull()?.let { enterExercise(it) }
             _state.value = LessonState(
                 loading = false,
-                title = when {
-                    isReview -> "Review session"
+                title = when (sessionMode) {
+                    SessionMode.REVIEW -> "Review session"
+                    SessionMode.BOSS -> "Boss Battle — Unit $bossUnit Gauntlet"
+                    SessionMode.PRACTICE -> "Mixed Practice"
                     else -> unit?.let { "Unit ${it.number} — ${it.title}" } ?: ""
                 },
                 isCheckpoint = isCheckpoint,
                 isReview = isReview,
+                mode = sessionMode,
+                bossUnit = bossUnit,
                 exercise = first?.first,
                 total = presentable.size,
                 hearts = _state.value.hearts, // keep the live hearts value
@@ -268,11 +308,17 @@ class LessonViewModel @Inject constructor(
         val s = _state.value
         val e = s.exercise ?: return
         val wasCorrect = s.feedback is Feedback.Correct
-        if (!wasCorrect && e.id != null && e.id !in requeued) {
+        // Boss battles don't re-queue: a wrong answer is a strike, move on (§3).
+        if (!wasCorrect && sessionMode != SessionMode.BOSS && e.id != null && e.id !in requeued) {
             requeued += e.id!!
             queue.addLast(e) // wrong exercises re-queue once at the end
         }
         queue.removeFirst()
+        // Boss: the third strike ends the battle right after the feedback (§3).
+        if (sessionMode == SessionMode.BOSS && s.strikes >= BossGenerator.MAX_WRONG) {
+            finish()
+            return
+        }
         val nextRaw = queue.firstOrNull()
         if (nextRaw == null) {
             finish()
@@ -294,40 +340,58 @@ class LessonViewModel @Inject constructor(
 
     private fun finish() {
         val score = if (firstTryAnswered == 0) 1.0 else firstTryCorrect.toDouble() / firstTryAnswered
-        if (isReview) {
-            // Review sessions never touch hearts, XP, streaks, or progress (§5).
-            _state.value = _state.value.copy(
-                exercise = null,
-                finished = true,
-                correctCount = firstTryCorrect,
-                answeredCount = firstTryAnswered,
-                passed = true,
-                xpGained = 0,
-            )
-            return
-        }
-        val passed = !isCheckpoint || score >= 0.8
-        val bonus = if (isCheckpoint) (if (passed) XP_PER_CHECKPOINT else 0) else XP_PER_LESSON
-        viewModelScope.launch {
-            val unlocks = if (isCheckpoint) {
-                val newly = repo.recordCheckpointAttempt(unitNumber!!, passed, score)
-                if (passed) repo.addXp(XP_PER_CHECKPOINT)
-                newly
-            } else {
-                repo.completeLesson(unitNumber!!, lessonIndex ?: 0, score)
-                repo.addXp(XP_PER_LESSON)
-                emptyList()
+        when (sessionMode) {
+            SessionMode.REVIEW, SessionMode.PRACTICE -> {
+                // Review/practice sessions never touch hearts, XP, streaks, or progress.
+                _state.value = _state.value.copy(
+                    exercise = null,
+                    finished = true,
+                    correctCount = firstTryCorrect,
+                    answeredCount = firstTryAnswered,
+                    passed = true,
+                    xpGained = 0,
+                )
             }
-            _state.value = _state.value.copy(newUnlocks = unlocks)
+            SessionMode.BOSS -> {
+                val won = _state.value.strikes < BossGenerator.MAX_WRONG
+                viewModelScope.launch {
+                    // Rewards (100 XP, gems ×2, badge) only on the first win (§3).
+                    val rewarded = repo.recordBossResult(bossUnit, won)
+                    _state.value = _state.value.copy(
+                        exercise = null,
+                        finished = true,
+                        correctCount = firstTryCorrect,
+                        answeredCount = firstTryAnswered,
+                        passed = won,
+                        xpGained = if (won && rewarded) CourseRepository.XP_PER_BOSS_WIN else 0,
+                    )
+                }
+            }
+            SessionMode.LESSON, SessionMode.CHECKPOINT -> {
+                val passed = !isCheckpoint || score >= 0.8
+                val bonus = if (isCheckpoint) (if (passed) XP_PER_CHECKPOINT else 0) else XP_PER_LESSON
+                viewModelScope.launch {
+                    val unlocks = if (isCheckpoint) {
+                        val newly = repo.recordCheckpointAttempt(unitNumber!!, passed, score)
+                        if (passed) repo.addXp(XP_PER_CHECKPOINT)
+                        newly
+                    } else {
+                        repo.completeLesson(unitNumber!!, lessonIndex ?: 0, score)
+                        repo.addXp(XP_PER_LESSON)
+                        emptyList()
+                    }
+                    _state.value = _state.value.copy(newUnlocks = unlocks)
+                }
+                _state.value = _state.value.copy(
+                    exercise = null,
+                    finished = true,
+                    correctCount = firstTryCorrect,
+                    answeredCount = firstTryAnswered,
+                    passed = passed,
+                    xpGained = firstTryCorrect * XP_PER_CORRECT + bonus,
+                )
+            }
         }
-        _state.value = _state.value.copy(
-            exercise = null,
-            finished = true,
-            correctCount = firstTryCorrect,
-            answeredCount = firstTryAnswered,
-            passed = passed,
-            xpGained = firstTryCorrect * XP_PER_CORRECT + bonus,
-        )
     }
 
     /** Persist that the unlock snackbar was displayed (shown exactly once). */
@@ -377,11 +441,17 @@ class LessonViewModel @Inject constructor(
             if (correct) firstTryCorrect++
         }
         viewModelScope.launch { repo.recordExerciseResult(e.id!!, correct) }
-        if (!isReview) {
+        // Only curriculum sessions touch XP/hearts; boss/practice/review don't (§3, §4, §5).
+        if (sessionMode == SessionMode.LESSON || sessionMode == SessionMode.CHECKPOINT) {
             if (correct) viewModelScope.launch { repo.addXp(XP_PER_CORRECT) }
             else viewModelScope.launch { repo.loseHeart() } // hearts never block, just reflect
         }
-        _state.value = _state.value.copy(feedback = feedback, speakingBusy = false)
+        val strikes = if (sessionMode == SessionMode.BOSS && !correct) {
+            _state.value.strikes + 1
+        } else {
+            _state.value.strikes
+        }
+        _state.value = _state.value.copy(feedback = feedback, speakingBusy = false, strikes = strikes)
     }
 
     private fun plainFeedback(e: ExerciseDto, correct: Boolean): Feedback =
