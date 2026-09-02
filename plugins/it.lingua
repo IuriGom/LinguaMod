@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 3,
+    "version": 4,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -7738,6 +7738,788 @@
           }
         ]
       }
+    },
+    {
+      "id": "u12",
+      "number": 12,
+      "title": "I verbi in -ere e -ire",
+      "lessons": [
+        {
+          "id": "u12l1",
+          "type": "vocabulary",
+          "title": "Leggere, scrivere, dormire",
+          "dictionaryRefs": [
+            "prendere",
+            "leggere",
+            "scrivere",
+            "dormire",
+            "il-weekend"
+          ],
+          "exercises": [
+            {
+              "id": "u12l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "prendere",
+              "options": [
+                "to take; to have (food or drink)",
+                "to read",
+                "to sleep",
+                "to prefer"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Prendere' = to take — and at the bar it means 'to have': 'Prendo un caffè.' — I'll have a coffee.",
+              "dictionaryRefs": [
+                "prendere"
+              ]
+            },
+            {
+              "id": "u12l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "leggere",
+              "options": [
+                "to read",
+                "to write",
+                "to listen",
+                "to speak"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Leggere' = to read: 'Leggo un libro.' — I read a book. A regular -ere verb.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u12l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "scrivere",
+              "options": [
+                "to write",
+                "to read",
+                "to understand",
+                "to finish"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Scrivere' = to write: 'Scrivo un'email.' — I write an email. You know it from 'Come si scrive?' (Unit 3).",
+              "dictionaryRefs": [
+                "scrivere",
+                "email"
+              ]
+            },
+            {
+              "id": "u12l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dormire",
+              "options": [
+                "to sleep",
+                "to eat",
+                "to work",
+                "to go"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dormire' = to sleep: 'Dormo bene.' — I sleep well. A regular -ire verb.",
+              "dictionaryRefs": [
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u12l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il weekend",
+              "options": [
+                "the weekend",
+                "the week",
+                "the day",
+                "the evening"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il weekend' (m) = the weekend — English borrowed into Italian, plural 'i weekend'. 'Cosa fai nel weekend?'",
+              "dictionaryRefs": [
+                "il-weekend"
+              ]
+            },
+            {
+              "id": "u12l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (At the bar I have a coffee.)",
+              "sentence": "Al bar ___ un caffè.",
+              "answers": [
+                "prendo",
+                "io prendo"
+              ],
+              "explanation": "'Prendo un caffè' — how Italians actually order: prendere (to take) for food and drink. Io-form: prendo.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u12l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I read a book.",
+              "acceptedIt": [
+                "Leggo un libro.",
+                "Leggo un libro",
+                "Io leggo un libro",
+                "Leggo il libro"
+              ],
+              "explanation": "'Leggo un libro.' — -ere verbs take -o with io, just like -are verbs: parlo, mangio, leggo.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u12l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Scrivo un'email.",
+              "acceptedEn": [
+                "I write an email.",
+                "I am writing an email.",
+                "I'm writing an email."
+              ],
+              "explanation": "'Scrivo un'email.' — un' before the vowel of email (feminine, Unit 3).",
+              "dictionaryRefs": [
+                "scrivere",
+                "email"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u12l2",
+          "type": "grammar",
+          "title": "Il presente: -ere, -ire e -isc-",
+          "dictionaryRefs": [
+            "leggere",
+            "prendere",
+            "scrivere",
+            "dormire",
+            "capire",
+            "finire",
+            "preferire",
+            "il-weekend"
+          ],
+          "grammarNotes": "I VERBI IN -ERE E -IRE — two more regular families after the -are verbs of Unit 11.\n\n-ERE VERBS — drop -ere, add: -o, -i, -e, -iamo, -ete, -ono\nLEGGERE (to read):\nio leggo — tu leggi — lui/lei legge — noi leggiamo — voi leggete — loro leggono\nPRENDERE (to take): prendo, prendi, prende, prendiamo, prendete, prendono\nSCRIVERE (to write): scrivo, scrivi, scrive, scriviamo, scrivete, scrivono\n\n-IRE VERBS — drop -ire, add: -o, -i, -e, -iamo, -ite, -ono\nDORMIRE (to sleep):\nio dormo — tu dormi — lui/lei dorme — noi dormiamo — voi dormite — loro dormono\n\nTHE -ISC- FAMILY — many -ire verbs insert -isc- with io, tu, lui/lei and loro:\nCAPIRE (to understand):\nio capisco — tu capisci — lui/lei capisce — noi capiamo — voi capite — loro capiscono\nFINIRE (to finish): finisco, finisci, finisce, finiamo, finite, finiscono\nPREFERIRE (to prefer): preferisco, preferisci, preferisce, preferiamo, preferite, preferiscono\nWHY: -isc- carries the stress (capìsco) — noi and voi already stress the ending (capiàmo, capìte), so they never take it.\n\nCOMPARE the endings across families:\n• tu: -i everywhere (parli, leggi, dormi)\n• noi: -iamo everywhere (parliamo, leggiamo, dormiamo)\n• lui/lei: -a for -are verbs (parla), -e for -ere/-ire (legge, dorme) — listen for that vowel!\n• loro: -ano / -ono / -ono (parlano, leggono, dormono)\n\n'Cosa fai nel weekend?' — What do you do on the weekend? 'Nel weekend' = on the weekend (in + il → nel).",
+          "exercises": [
+            {
+              "id": "u12l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (You read a book.)",
+              "sentence": "Tu ___ un libro.",
+              "answers": [
+                "leggi"
+              ],
+              "explanation": "Tu takes -i in every family: parli, leggi, dormi. 'Tu leggi un libro.'",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u12l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (They sleep well.)",
+              "sentence": "Loro ___ bene.",
+              "answers": [
+                "dormono"
+              ],
+              "explanation": "Loro + -ire verb → -ono: dormono. 'Loro dormono bene.'",
+              "dictionaryRefs": [
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u12l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I don't understand the question.)",
+              "sentence": "Io non ___ la domanda.",
+              "answers": [
+                "capisco"
+              ],
+              "explanation": "Capire is an -isc- verb, and io takes it: capisco. 'Non capisco la domanda.' — the learner's most useful sentence.",
+              "dictionaryRefs": [
+                "capire",
+                "la-domanda"
+              ]
+            },
+            {
+              "id": "u12l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia prefers the coffee.)",
+              "sentence": "Giulia ___ il caffè.",
+              "answers": [
+                "preferisce"
+              ],
+              "explanation": "She takes -isce with -isc- verbs: preferisce. 'Giulia preferisce il caffè.'",
+              "dictionaryRefs": [
+                "preferire",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u12l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "We take a coffee.",
+              "acceptedIt": [
+                "Prendiamo un caffè.",
+                "Prendiamo un caffè",
+                "Noi prendiamo un caffè",
+                "Prendiamo un caffe"
+              ],
+              "explanation": "'Prendiamo un caffè.' — noi takes -iamo everywhere. At the bar: 'Prendiamo un caffè?' is also 'Shall we have a coffee?'",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u12l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "What do you do on the weekend?",
+              "acceptedIt": [
+                "Cosa fai nel weekend?",
+                "Cosa fai nel weekend",
+                "Che fai nel weekend?",
+                "Tu cosa fai nel weekend"
+              ],
+              "explanation": "'Cosa fai nel weekend?' — cosa + fai (tu, fare) + nel weekend (in + il → nel). 💛 The classic getting-to-know-you question.",
+              "dictionaryRefs": [
+                "fare",
+                "il-weekend"
+              ]
+            },
+            {
+              "id": "u12l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Preferisco la pizza.",
+              "acceptedEn": [
+                "I prefer pizza.",
+                "I prefer the pizza."
+              ],
+              "explanation": "'Preferisco la pizza.' — preferire is -isc-: io preferisco. Italian keeps the article: 'la pizza' = pizza in general.",
+              "dictionaryRefs": [
+                "preferire",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u12l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (We write an email.)",
+              "question": "Noi ___ un'email.",
+              "options": [
+                "scriviamo",
+                "scrivete",
+                "scrivono",
+                "scrive"
+              ],
+              "correctIndex": 0,
+              "explanation": "Noi takes -iamo in every family: scriviamo. -ete is voi, -ono is loro, -e is lui/lei.",
+              "dictionaryRefs": [
+                "scrivere",
+                "email"
+              ]
+            },
+            {
+              "id": "u12l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "un",
+                "Leggo",
+                "libro."
+              ],
+              "correctSentence": "Leggo un libro.",
+              "explanation": "'Leggo un libro.' — verb first works in Italian because the -o ending already says 'io'.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u12l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Non",
+                "capisco",
+                "la",
+                "domanda."
+              ],
+              "correctSentence": "Non capisco la domanda.",
+              "explanation": "'Non capisco la domanda.' — non directly before the verb (Unit 7): non + capisco.",
+              "dictionaryRefs": [
+                "capire",
+                "la-domanda"
+              ]
+            },
+            {
+              "id": "u12l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Cosa",
+                "fai",
+                "nel",
+                "weekend?"
+              ],
+              "correctSentence": "Cosa fai nel weekend?",
+              "explanation": "'Cosa fai nel weekend?' — question word first, then the verb. Nel = in + il.",
+              "dictionaryRefs": [
+                "fare",
+                "il-weekend"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u12l3",
+          "type": "mixed",
+          "title": "Il weekend: ripasso",
+          "dictionaryRefs": [
+            "il-libro",
+            "il-bar",
+            "il-caffe",
+            "il-cappuccino",
+            "la-domanda",
+            "la-risposta",
+            "il-lavoro",
+            "il-ragazzo",
+            "quando",
+            "leggere",
+            "scrivere",
+            "dormire",
+            "capire",
+            "finire",
+            "preferire",
+            "venire"
+          ],
+          "exercises": [
+            {
+              "id": "u12l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Units 5+9 recycling)",
+              "sourceEn": "I read a book at the bar.",
+              "acceptedIt": [
+                "Leggo un libro al bar.",
+                "Leggo un libro al bar",
+                "Io leggo un libro al bar"
+              ],
+              "explanation": "'Leggo un libro al bar.' — leggo (io, leggere) + un libro (Unit 5) + al bar (Unit 9).",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u12l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 8 recycling)",
+              "question": "Quando dormi?",
+              "options": [
+                "When do you sleep?",
+                "Where do you sleep?",
+                "Why do you sleep?",
+                "How do you sleep?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quando dormi?' — quando (when, Unit 8) + dormi (tu, dormire). Question word first, verb second.",
+              "dictionaryRefs": [
+                "quando",
+                "dormire"
+              ]
+            },
+            {
+              "id": "u12l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco writes an email.)",
+              "sentence": "Marco ___ un'email.",
+              "answers": [
+                "scrive"
+              ],
+              "explanation": "He takes -e with -ere verbs: scrive. Compare: parla (-are) vs scrive (-ere) — the vowel marks the family.",
+              "dictionaryRefs": [
+                "scrivere",
+                "email"
+              ]
+            },
+            {
+              "id": "u12l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 7 recycling)",
+              "sourceIt": "Finisco il lavoro e vengo al bar.",
+              "acceptedEn": [
+                "I finish work and come to the bar.",
+                "I finish work and I come to the bar.",
+                "I'm finishing work and coming to the bar."
+              ],
+              "explanation": "'Finisco il lavoro e vengo al bar.' — finisco (finire, -isc-) + il lavoro (Unit 7) + vengo (io, venire). Two io-forms joined by 'e'.",
+              "dictionaryRefs": [
+                "finire",
+                "il-lavoro",
+                "venire",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u12l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I don't understand the answer.)",
+              "sentence": "Non ___ la risposta.",
+              "answers": [
+                "capisco"
+              ],
+              "explanation": "'Non capisco la risposta.' — capire with io → capisco (-isc-). La risposta = the answer (Unit 8).",
+              "dictionaryRefs": [
+                "capire",
+                "la-risposta"
+              ]
+            },
+            {
+              "id": "u12l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 9 recycling)",
+              "tokens": [
+                "il",
+                "Preferisco",
+                "cappuccino."
+              ],
+              "correctSentence": "Preferisco il cappuccino.",
+              "explanation": "'Preferisco il cappuccino.' — preferire keeps the article before the thing you prefer. (In the morning, of course!)",
+              "dictionaryRefs": [
+                "preferire",
+                "il-cappuccino"
+              ]
+            },
+            {
+              "id": "u12l3e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 6 recycling)",
+              "question": "I ragazzi dormono.",
+              "options": [
+                "The boys are sleeping.",
+                "The boys are reading.",
+                "The boys are eating.",
+                "The boys are working."
+              ],
+              "correctIndex": 0,
+              "explanation": "'I ragazzi dormono.' — i ragazzi (the boys, Unit 6) is 'they' → dormono (loro, -ono).",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "dormire"
+              ]
+            },
+            {
+              "id": "u12l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "They write well.",
+              "acceptedIt": [
+                "Scrivono bene.",
+                "Scrivono bene",
+                "Loro scrivono bene"
+              ],
+              "explanation": "'Scrivono bene.' — loro takes -ono with -ere verbs: scrivono. Bene (well) from Unit 7.",
+              "dictionaryRefs": [
+                "scrivere",
+                "bene"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u12l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "prendere",
+            "leggere",
+            "dormire",
+            "capire",
+            "preferire",
+            "il-weekend",
+            "il-caffe",
+            "il-libro",
+            "la-pizza"
+          ],
+          "exercises": [
+            {
+              "id": "u12l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Prendo un caffè.",
+              "options": [
+                "I'll have a coffee.",
+                "I read a book.",
+                "I sleep well.",
+                "I prefer coffee."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Prendo un caffè.' — I'll have a coffee. Prendere is what Italians say when ordering.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u12l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Leggo un libro.",
+              "acceptedIt": [
+                "Leggo un libro.",
+                "Leggo un libro",
+                "Io leggo un libro"
+              ],
+              "explanation": "You heard: 'Leggo un libro.' — I read a book. Double g in leggere is hard: LEJ-jo.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u12l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Cosa fai nel weekend?",
+              "options": [
+                "What do you do on the weekend?",
+                "What are you doing today?",
+                "Where do you go on the weekend?",
+                "When is the weekend?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Cosa fai nel weekend?' — cosa (what) + fai (you do) + nel weekend. 💛 Learn the sound of this one.",
+              "dictionaryRefs": [
+                "fare",
+                "il-weekend"
+              ]
+            },
+            {
+              "id": "u12l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I prefer the coffee.",
+              "targetIt": "Preferisco il caffè.",
+              "minAccuracy": 0.7,
+              "explanation": "'Preferisco il caffè.' — pre-fe-RIS-co. The -isc- sounds like 'eesk'.",
+              "dictionaryRefs": [
+                "preferire",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u12l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I don't understand.",
+              "targetIt": "Non capisco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Non capisco.' — non ka-PIS-ko. The sentence every learner needs first.",
+              "dictionaryRefs": [
+                "capire"
+              ]
+            },
+            {
+              "id": "u12l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Dormo bene.",
+              "acceptedIt": [
+                "Dormo bene.",
+                "Dormo bene",
+                "Io dormo bene"
+              ],
+              "explanation": "You heard: 'Dormo bene.' — I sleep well. Dormo = dormire + io.",
+              "dictionaryRefs": [
+                "dormire",
+                "bene"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u12c",
+        "exercises": [
+          {
+            "id": "u12ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il weekend",
+            "options": [
+              "the weekend",
+              "the week",
+              "the morning",
+              "the year"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il weekend' (m) = the weekend. 'Cosa fai nel weekend?' — What do you do on the weekend?",
+            "dictionaryRefs": [
+              "il-weekend"
+            ]
+          },
+          {
+            "id": "u12ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the question. (Are you having a coffee?)",
+            "sentence": "Tu ___ un caffè?",
+            "answers": [
+              "prendi"
+            ],
+            "explanation": "Tu takes -i: prendi. 'Prendi un caffè?' — Are you having a coffee? Prendere for food and drink.",
+            "dictionaryRefs": [
+              "prendere",
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u12ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "She reads a book.",
+            "acceptedIt": [
+              "Lei legge un libro.",
+              "Lei legge un libro",
+              "Legge un libro",
+              "Lei legge il libro",
+              "Legge il libro"
+            ],
+            "explanation": "'Lei legge un libro.' — -ere verbs take -e with lui/lei: legge. Compare 'parla' (-are) vs 'legge' (-ere).",
+            "dictionaryRefs": [
+              "leggere",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u12ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Non capiamo.",
+            "acceptedEn": [
+              "We don't understand.",
+              "We do not understand."
+            ],
+            "explanation": "'Non capiamo.' — noi never takes -isc-: capiamo, not capisciamo. Non + verb = negation.",
+            "dictionaryRefs": [
+              "capire"
+            ]
+          },
+          {
+            "id": "u12ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form. (I don't understand the question.)",
+            "question": "Io non ___ la domanda.",
+            "options": [
+              "capisco",
+              "capisci",
+              "capisce",
+              "capiamo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Io + capire → capisco (-isc-). Capisci is tu, capisce is lui/lei, capiamo is noi.",
+            "dictionaryRefs": [
+              "capire",
+              "la-domanda"
+            ]
+          },
+          {
+            "id": "u12ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (You (plural) sleep well.)",
+            "sentence": "Voi ___ bene.",
+            "answers": [
+              "dormite"
+            ],
+            "explanation": "Voi + -ire verb → -ite: dormite. (-are verbs take -ate, -ere verbs take -ete — voi marks the family.)",
+            "dictionaryRefs": [
+              "dormire",
+              "bene"
+            ]
+          },
+          {
+            "id": "u12ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Marco",
+              "scrive",
+              "un'email."
+            ],
+            "correctSentence": "Marco scrive un'email.",
+            "explanation": "'Marco scrive un'email.' — subject, verb, object; un' before the vowel of email.",
+            "dictionaryRefs": [
+              "scrivere",
+              "email"
+            ]
+          },
+          {
+            "id": "u12ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Finisco il lavoro.",
+            "options": [
+              "I finish work.",
+              "I start work.",
+              "I prefer work.",
+              "I write at work."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Finisco il lavoro.' — I finish work. Finire is -isc-: finisco.",
+            "dictionaryRefs": [
+              "finire",
+              "il-lavoro"
+            ]
+          },
+          {
+            "id": "u12ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Preferisco la pizza.",
+            "acceptedIt": [
+              "Preferisco la pizza.",
+              "Preferisco la pizza",
+              "Io preferisco la pizza"
+            ],
+            "explanation": "You heard: 'Preferisco la pizza.' — I prefer pizza. Preferire → preferisco with io.",
+            "dictionaryRefs": [
+              "preferire",
+              "la-pizza"
+            ]
+          },
+          {
+            "id": "u12ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: what do you do on the weekend?",
+            "targetIt": "Cosa fai nel weekend?",
+            "minAccuracy": 0.7,
+            "explanation": "'Cosa fai nel weekend?' — KO-za FAI nel WEEK-end. 💛 Ask it this weekend.",
+            "dictionaryRefs": [
+              "fare",
+              "il-weekend"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -8907,6 +9689,132 @@
         }
       ],
       "introducedInUnit": 11
+    },
+    {
+      "id": "prendere",
+      "word": "prendere",
+      "translation": "to take; to have (food or drink)",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Prendo un caffè al bar.",
+          "en": "I'll have a coffee at the bar."
+        },
+        {
+          "it": "Cosa prendi?",
+          "en": "What are you having?"
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "leggere",
+      "word": "leggere",
+      "translation": "to read",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Leggo un libro.",
+          "en": "I read a book."
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "scrivere",
+      "word": "scrivere",
+      "translation": "to write",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Scrivo un'email.",
+          "en": "I write an email."
+        },
+        {
+          "it": "Marco scrive bene.",
+          "en": "Marco writes well."
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "dormire",
+      "word": "dormire",
+      "translation": "to sleep",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Dormo bene.",
+          "en": "I sleep well."
+        },
+        {
+          "it": "I ragazzi dormono.",
+          "en": "The boys are sleeping."
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "capire",
+      "word": "capire",
+      "translation": "to understand",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Non capisco la domanda.",
+          "en": "I don't understand the question."
+        },
+        {
+          "it": "Capisci?",
+          "en": "Do you understand?"
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "finire",
+      "word": "finire",
+      "translation": "to finish",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Finisco il lavoro alle cinque.",
+          "en": "I finish work at five."
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "preferire",
+      "word": "preferire",
+      "translation": "to prefer",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Preferisco il caffè.",
+          "en": "I prefer coffee."
+        },
+        {
+          "it": "Giulia preferisce la pizza.",
+          "en": "Giulia prefers pizza."
+        }
+      ],
+      "introducedInUnit": 12
+    },
+    {
+      "id": "il-weekend",
+      "word": "weekend",
+      "article": "il",
+      "translation": "weekend",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Cosa fai nel weekend?",
+          "en": "What do you do on the weekend?"
+        }
+      ],
+      "introducedInUnit": 12
     }
   ],
   "stories": [
