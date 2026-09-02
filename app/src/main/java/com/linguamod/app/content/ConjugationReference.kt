@@ -25,6 +25,7 @@ object ConjugationReference {
         "abitare" to Paradigm(listOf("abito", "abiti", "abita", "abitiamo", "abitate", "abitano")),
         "lavorare" to Paradigm(listOf("lavoro", "lavori", "lavora", "lavoriamo", "lavorate", "lavorano")),
         "studiare" to Paradigm(listOf("studio", "studi", "studia", "studiamo", "studiate", "studiano")),
+        "ascoltare" to Paradigm(listOf("ascolto", "ascolti", "ascolta", "ascoltiamo", "ascoltate", "ascoltano")),
         "prendere" to Paradigm(listOf("prendo", "prendi", "prende", "prendiamo", "prendete", "prendono")),
         "leggere" to Paradigm(listOf("leggo", "leggi", "legge", "leggiamo", "leggete", "leggono")),
         "scrivere" to Paradigm(listOf("scrivo", "scrivi", "scrive", "scriviamo", "scrivete", "scrivono")),

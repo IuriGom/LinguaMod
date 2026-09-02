@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 2,
+    "version": 3,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -6969,6 +6969,775 @@
           }
         ]
       }
+    },
+    {
+      "id": "u11",
+      "number": 11,
+      "title": "I verbi in -are",
+      "lessons": [
+        {
+          "id": "u11l1",
+          "type": "vocabulary",
+          "title": "Parlare, mangiare, abitare",
+          "dictionaryRefs": [
+            "parlare",
+            "mangiare",
+            "abitare",
+            "ascoltare",
+            "la-musica",
+            "lavorare",
+            "studiare"
+          ],
+          "exercises": [
+            {
+              "id": "u11l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "parlare",
+              "options": [
+                "to speak; to talk",
+                "to eat",
+                "to live (in a place)",
+                "to listen"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Parlare' = to speak, to talk: 'Parlo italiano.' — I speak Italian. It is a regular -are verb.",
+              "dictionaryRefs": [
+                "parlare"
+              ]
+            },
+            {
+              "id": "u11l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "mangiare",
+              "options": [
+                "to eat",
+                "to drink",
+                "to sleep",
+                "to study"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mangiare' = to eat: 'Mangio una pizza.' — I eat a pizza. You already met it in Unit 7's examples.",
+              "dictionaryRefs": [
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u11l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "abitare",
+              "options": [
+                "to live (in a place)",
+                "to have",
+                "to go",
+                "to work"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Abitare' = to live somewhere: 'Abito a Roma.' — I live in Rome. You saw 'Dove abiti?' in Unit 8.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u11l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "ascoltare",
+              "options": [
+                "to listen (to)",
+                "to speak",
+                "to read",
+                "to write"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ascoltare' = to listen: 'Ascolto la musica.' — I listen to music. No 'to' in Italian: ascoltare takes the thing directly.",
+              "dictionaryRefs": [
+                "ascoltare",
+                "la-musica"
+              ]
+            },
+            {
+              "id": "u11l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la musica",
+              "options": [
+                "the music",
+                "the morning",
+                "the school",
+                "the book"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La musica' (f) = the music. Feminine, regular consonant → la.",
+              "dictionaryRefs": [
+                "la-musica"
+              ]
+            },
+            {
+              "id": "u11l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I speak Italian.)",
+              "sentence": "Io ___ italiano.",
+              "answers": [
+                "parlo"
+              ],
+              "explanation": "'Parlare' with io → parlo: 'Io parlo italiano.' Regular -are verbs take -o with io. You can drop 'io' — the ending already says who.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I live in Rome.",
+              "acceptedIt": [
+                "Abito a Roma.",
+                "Abito a Roma",
+                "Io abito a Roma",
+                "Abito Roma"
+              ],
+              "explanation": "'Abito a Roma.' — abitare + a + city for where you live: abito a Roma, abiti a Milano. The io-form drops the -are and takes -o.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u11l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ascolto la musica.",
+              "acceptedEn": [
+                "I listen to music.",
+                "I listen to the music.",
+                "I am listening to music."
+              ],
+              "explanation": "'Ascolto la musica.' — ascoltare needs no 'to': it takes its object directly, la musica.",
+              "dictionaryRefs": [
+                "ascoltare",
+                "la-musica"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u11l2",
+          "type": "grammar",
+          "title": "Il presente dei verbi in -are",
+          "dictionaryRefs": [
+            "parlare",
+            "mangiare",
+            "abitare",
+            "lavorare",
+            "studiare"
+          ],
+          "grammarNotes": "I VERBI IN -ARE — the biggest, most regular family of Italian verbs. Verbs ending in -are are (almost) all regular: drop -are, add the six endings.\n\nPARLARE (to speak) — the full present tense:\n\nio parlo — I speak\ntu parli — you speak\nlui/lei parla — he/she speaks\nnoi parliamo — we speak\nvoi parlate — you speak (plural)\nloro parlano — they speak\n\nTHE SIX ENDINGS: -o, -i, -a, -iamo, -ate, -ano. Learn them as a rhythm: O - I - A - IAMO - ATE - ANO.\n\nThe same endings work for every regular -are verb:\n• MANGIARE (to eat): mangio, mangi, mangia, mangiamo, mangiate, mangiano\n• ABITARE (to live): abito, abiti, abita, abitiamo, abitate, abitano\n• LAVORARE (to work, Unit 8): lavoro, lavori, lavora, lavoriamo, lavorate, lavorano\n• STUDIARE (to study, Unit 8): studio, studi, studia, studiamo, studiate, studiano\n• ASCOLTARE (to listen): ascolto, ascolti, ascolta, ascoltiamo, ascoltate, ascoltano\n\nWHY YOU CAN DROP THE SUBJECT: 'Parliamo italiano.' — only noi can take -iamo, so 'noi' is unnecessary. Italians say the pronoun only for emphasis or contrast: 'Io parlo italiano, tu parli inglese.'\n\nWATCH OUT: fare, andare, venire (Unit 7) end in -are/-re but are irregular — their forms stay as you learned them.",
+          "exercises": [
+            {
+              "id": "u11l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (You speak Italian well.)",
+              "sentence": "Tu ___ bene l'italiano.",
+              "answers": [
+                "parli"
+              ],
+              "explanation": "Tu takes -i: parli. 'Parli bene l'italiano' — You speak Italian well. 💛 the compliment every learner loves to hear.",
+              "dictionaryRefs": [
+                "parlare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u11l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco lives in Rome.)",
+              "sentence": "Marco ___ a Roma.",
+              "answers": [
+                "abita"
+              ],
+              "explanation": "He/she takes -a: abita. 'Marco abita a Roma.' — third person, one person, one ending: -a.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u11l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (We work in a bar.)",
+              "sentence": "Noi ___ in un bar.",
+              "answers": [
+                "lavoriamo"
+              ],
+              "explanation": "Noi takes -iamo: lavoriamo. The -iamo ending is the same in ALL verb families — a freebie.",
+              "dictionaryRefs": [
+                "lavorare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u11l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Do you (plural) speak Italian?)",
+              "sentence": "Voi ___ italiano?",
+              "answers": [
+                "parlate"
+              ],
+              "explanation": "Voi takes -ate: parlate. 'Voi parlate italiano?' — asking a group. Same statement order, question intonation (Unit 2).",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "They eat a pizza.",
+              "acceptedIt": [
+                "Mangiano una pizza.",
+                "Mangiano una pizza",
+                "Loro mangiano una pizza",
+                "Mangiano la pizza",
+                "Loro mangiano la pizza"
+              ],
+              "explanation": "Loro takes -ano: mangiano. 'Mangiano una pizza.' — subject dropped, -ano says 'they'.",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u11l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "We study Italian.",
+              "acceptedIt": [
+                "Studiamo italiano.",
+                "Studiamo italiano",
+                "Noi studiamo italiano",
+                "Studiamo l'italiano",
+                "Noi studiamo l'italiano"
+              ],
+              "explanation": "Noi takes -iamo: studiamo. 'Studiamo italiano.' — with or without the article before the language, both are used.",
+              "dictionaryRefs": [
+                "studiare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Abitiamo a Roma.",
+              "acceptedEn": [
+                "We live in Rome.",
+                "We are living in Rome."
+              ],
+              "explanation": "'Abitiamo a Roma.' — -iamo tells you it's 'we'. Abitare + a + city: where someone lives.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u11l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (Giulia speaks Italian.)",
+              "question": "Giulia ___ italiano.",
+              "options": [
+                "parla",
+                "parli",
+                "parlo",
+                "parliamo"
+              ],
+              "correctIndex": 0,
+              "explanation": "Giulia is 'she' → -a: parla. -o is io, -i is tu, -iamo is noi.",
+              "dictionaryRefs": [
+                "parlare"
+              ]
+            },
+            {
+              "id": "u11l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "parlo",
+                "Io",
+                "italiano."
+              ],
+              "correctSentence": "Io parlo italiano.",
+              "explanation": "Subject, verb, object — same order as English: 'Io parlo italiano.' The io is optional; keep it here for emphasis.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "mangiamo",
+                "Noi",
+                "una",
+                "pizza."
+              ],
+              "correctSentence": "Noi mangiamo una pizza.",
+              "explanation": "'Noi mangiamo una pizza.' — noi + -iamo. 'Pizza' is feminine → una.",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u11l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Dove",
+                "abiti",
+                "tu?"
+              ],
+              "correctSentence": "Dove abiti tu?",
+              "explanation": "Question word first (dove), then the verb, then an optional subject: 'Dove abiti tu?' — Where do you live?",
+              "dictionaryRefs": [
+                "abitare",
+                "dove"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u11l3",
+          "type": "mixed",
+          "title": "La giornata in -are: ripasso",
+          "dictionaryRefs": [
+            "oggi",
+            "il-bar",
+            "la-scuola",
+            "la-pizza",
+            "la-fame",
+            "lavorare",
+            "parlare",
+            "mangiare",
+            "studiare",
+            "la-musica"
+          ],
+          "exercises": [
+            {
+              "id": "u11l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 7 recycling)",
+              "sourceEn": "Today I work at the bar.",
+              "acceptedIt": [
+                "Oggi lavoro al bar.",
+                "Oggi lavoro al bar",
+                "Lavoro al bar oggi",
+                "Io lavoro al bar oggi"
+              ],
+              "explanation": "'Oggi lavoro al bar.' — oggi (Unit 7) can open or close the sentence; lavoro = I work; al bar = at the bar (a + il).",
+              "dictionaryRefs": [
+                "oggi",
+                "lavorare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u11l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 8 recycling)",
+              "question": "Dove lavori?",
+              "options": [
+                "Where do you work?",
+                "What do you do?",
+                "Where do you live?",
+                "When do you work?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dove lavori?' — question word first, then the tu-form lavori. No 'do', no inversion (Unit 8).",
+              "dictionaryRefs": [
+                "dove",
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u11l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia works in a school.)",
+              "sentence": "Giulia ___ in una scuola.",
+              "answers": [
+                "lavora"
+              ],
+              "explanation": "Giulia is 'she' → -a: lavora. 'In una scuola' — in + una scuola (feminine).",
+              "dictionaryRefs": [
+                "lavorare",
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u11l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Mangio una pizza al bar.",
+              "acceptedEn": [
+                "I eat a pizza at the bar.",
+                "I am eating a pizza at the bar.",
+                "I eat pizza at the bar."
+              ],
+              "explanation": "'Mangio una pizza al bar.' — mangio (io, -o) + una pizza + al bar. A very Italian lunch.",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pizza",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u11l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Studio",
+                "italiano",
+                "e",
+                "lavoro."
+              ],
+              "correctSentence": "Studio italiano e lavoro.",
+              "explanation": "'Studio italiano e lavoro.' — two io-forms (-o, -o) joined by 'e' (and). One subject, two verbs.",
+              "dictionaryRefs": [
+                "studiare",
+                "lavorare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the dialogue. (I am hungry! I am eating a pizza.)",
+              "sentence": "Ho fame! ___ una pizza.",
+              "answers": [
+                "Mangio",
+                "Io mangio"
+              ],
+              "explanation": "'Ho fame' (Unit 6 — avere for hunger) → the answer is 'Mangio una pizza.' Mangio = I eat / I am eating.",
+              "dictionaryRefs": [
+                "la-fame",
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u11l3e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 7 recycling)",
+              "question": "Cosa fai?",
+              "options": [
+                "What are you doing?",
+                "Where are you going?",
+                "Who are you?",
+                "What do you want?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Cosa fai?' — cosa (what) + fai (tu, fare). The everyday 'What are you doing?'",
+              "dictionaryRefs": [
+                "fare"
+              ]
+            },
+            {
+              "id": "u11l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you speak Italian?",
+              "acceptedIt": [
+                "Parli italiano?",
+                "Parli italiano",
+                "Tu parli italiano?",
+                "Parli l'italiano?",
+                "Tu parli l'italiano"
+              ],
+              "explanation": "'Parli italiano?' — tu-form parli + question intonation. 💛 The question that starts every conversation with a learner.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u11l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "parlare",
+            "mangiare",
+            "abitare",
+            "ascoltare",
+            "la-musica",
+            "lavorare"
+          ],
+          "exercises": [
+            {
+              "id": "u11l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Parlo italiano.",
+              "options": [
+                "I speak Italian.",
+                "I study Italian.",
+                "Do you speak Italian?",
+                "I like Italian."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Parlo italiano.' — parlo with an -o is 'I speak'. Listen for the ending to know who.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Mangio una pizza.",
+              "acceptedIt": [
+                "Mangio una pizza.",
+                "Mangio una pizza",
+                "Io mangio una pizza"
+              ],
+              "explanation": "You heard: 'Mangio una pizza.' — I am eating a pizza. Mangio = mangiare + io.",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u11l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Dove abiti?",
+              "options": [
+                "Where do you live?",
+                "Where do you work?",
+                "Where are you from?",
+                "Where are you going?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Dove abiti?' — Where do you live? Abiti (tu) vs lavori: listen for the verb.",
+              "dictionaryRefs": [
+                "abitare",
+                "dove"
+              ]
+            },
+            {
+              "id": "u11l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I live in Rome.",
+              "targetIt": "Abito a Roma.",
+              "minAccuracy": 0.7,
+              "explanation": "'Abito a Roma.' — A-bi-to a RO-ma. Four even beats: à-bi-to-a.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u11l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: do you speak Italian?",
+              "targetIt": "Parli italiano?",
+              "minAccuracy": 0.7,
+              "explanation": "'Parli italiano?' — PAR-li i-ta-LIA-no, voice rising at the end for the question.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u11l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ascolto la musica.",
+              "acceptedIt": [
+                "Ascolto la musica.",
+                "Ascolto la musica",
+                "Io ascolto la musica"
+              ],
+              "explanation": "You heard: 'Ascolto la musica.' — I listen to music. Ascoltare takes no 'to'.",
+              "dictionaryRefs": [
+                "ascoltare",
+                "la-musica"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u11c",
+        "exercises": [
+          {
+            "id": "u11ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la musica",
+            "options": [
+              "the music",
+              "the morning",
+              "the school",
+              "the book"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La musica' (f) = the music. 'Ascolto la musica' — I listen to music.",
+            "dictionaryRefs": [
+              "la-musica"
+            ]
+          },
+          {
+            "id": "u11ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Giulia works in a bar.)",
+            "sentence": "Giulia ___ in un bar.",
+            "answers": [
+              "lavora"
+            ],
+            "explanation": "She takes -a: lavora. 'Giulia lavora in un bar.' — back where the course began.",
+            "dictionaryRefs": [
+              "lavorare",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u11ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "We live in Rome.",
+            "acceptedIt": [
+              "Abitiamo a Roma.",
+              "Abitiamo a Roma",
+              "Noi abitiamo a Roma",
+              "Noi abitiamo a Roma."
+            ],
+            "explanation": "'Abitiamo a Roma.' — noi takes -iamo. Abitare + a + city.",
+            "dictionaryRefs": [
+              "abitare"
+            ]
+          },
+          {
+            "id": "u11ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Studi italiano?",
+            "acceptedEn": [
+              "Do you study Italian?",
+              "Are you studying Italian?"
+            ],
+            "explanation": "'Studi italiano?' — studi (tu) + question intonation: Do you study Italian?",
+            "dictionaryRefs": [
+              "studiare",
+              "italiano"
+            ]
+          },
+          {
+            "id": "u11ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form. (They eat a pizza.)",
+            "question": "Loro ___ una pizza.",
+            "options": [
+              "mangiano",
+              "mangia",
+              "mangi",
+              "mangiamo"
+            ],
+            "correctIndex": 0,
+            "explanation": "Loro takes -ano: mangiano. -a is he/she, -i is tu, -iamo is noi.",
+            "dictionaryRefs": [
+              "mangiare",
+              "la-pizza"
+            ]
+          },
+          {
+            "id": "u11ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I listen to music.)",
+            "sentence": "Io ___ la musica.",
+            "answers": [
+              "ascolto"
+            ],
+            "explanation": "Io takes -o: ascolto. Ascoltare + the thing directly — no 'to' in Italian.",
+            "dictionaryRefs": [
+              "ascoltare",
+              "la-musica"
+            ]
+          },
+          {
+            "id": "u11ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 2 recycling)",
+            "tokens": [
+              "parlo",
+              "Non",
+              "spagnolo."
+            ],
+            "correctSentence": "Non parlo spagnolo.",
+            "explanation": "'Non parlo spagnolo.' — non sits directly before the verb (Unit 7 rule): non + parlo. Spagnolo from Unit 2.",
+            "dictionaryRefs": [
+              "parlare",
+              "spagnolo"
+            ]
+          },
+          {
+            "id": "u11ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Lavoro in un bar.",
+            "options": [
+              "I work in a bar.",
+              "I study in a school.",
+              "I live in Rome.",
+              "I eat at the bar."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Lavoro in un bar.' — I work in a bar. Lavoro (io) + in un bar.",
+            "dictionaryRefs": [
+              "lavorare",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u11ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Parliamo italiano.",
+            "acceptedIt": [
+              "Parliamo italiano.",
+              "Parliamo italiano",
+              "Noi parliamo italiano"
+            ],
+            "explanation": "You heard: 'Parliamo italiano.' — We speak Italian. -iamo = noi, always.",
+            "dictionaryRefs": [
+              "parlare",
+              "italiano"
+            ]
+          },
+          {
+            "id": "u11ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I am eating a pizza.",
+            "targetIt": "Mangio una pizza.",
+            "minAccuracy": 0.7,
+            "explanation": "'Mangio una pizza.' — MAN-gio U-na PIZ-za. The g in mangio is soft, like the j in 'jump'.",
+            "dictionaryRefs": [
+              "mangiare",
+              "la-pizza"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -8059,6 +8828,85 @@
         }
       ],
       "introducedInUnit": 10
+    },
+    {
+      "id": "parlare",
+      "word": "parlare",
+      "translation": "to speak; to talk",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Parlo italiano con Giulia.",
+          "en": "I speak Italian with Giulia."
+        },
+        {
+          "it": "Parli inglese?",
+          "en": "Do you speak English?"
+        }
+      ],
+      "introducedInUnit": 11
+    },
+    {
+      "id": "mangiare",
+      "word": "mangiare",
+      "translation": "to eat",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mangio una pizza.",
+          "en": "I eat a pizza."
+        },
+        {
+          "it": "Cosa mangi?",
+          "en": "What are you eating?"
+        }
+      ],
+      "introducedInUnit": 11
+    },
+    {
+      "id": "abitare",
+      "word": "abitare",
+      "translation": "to live (in a place)",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Abito a Roma.",
+          "en": "I live in Rome."
+        },
+        {
+          "it": "Dove abiti?",
+          "en": "Where do you live?"
+        }
+      ],
+      "introducedInUnit": 11
+    },
+    {
+      "id": "ascoltare",
+      "word": "ascoltare",
+      "translation": "to listen (to)",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ascolto la musica.",
+          "en": "I listen to music."
+        }
+      ],
+      "introducedInUnit": 11
+    },
+    {
+      "id": "la-musica",
+      "word": "musica",
+      "article": "la",
+      "translation": "music",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La musica è bella.",
+          "en": "The music is beautiful."
+        }
+      ],
+      "introducedInUnit": 11
     }
   ],
   "stories": [
