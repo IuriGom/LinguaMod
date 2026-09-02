@@ -12,8 +12,13 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.UiDevice
 import com.linguamod.app.MainActivity
+import com.linguamod.app.audio.SpeakingSubstitution
 import com.linguamod.app.data.db.AppDatabase
+import com.linguamod.app.data.db.LessonProgressEntity
 import com.linguamod.app.di.AppModule
+import com.linguamod.app.fakes.FakeSpeechRecognizerGateway
+import com.linguamod.app.fakes.FakeTtsGateway
+import com.linguamod.app.plugin.ExerciseTypes
 import com.linguamod.app.plugin.LinguaPluginDto
 import com.linguamod.app.solver.SolverBot
 import dagger.hilt.android.testing.HiltAndroidRule
@@ -24,6 +29,8 @@ import javax.inject.Inject
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.Json
 import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -45,6 +52,15 @@ class RotationAirplaneJourneyTest {
 
     @Inject
     lateinit var db: AppDatabase
+
+    @Inject
+    lateinit var fakeTts: FakeTtsGateway
+
+    @Inject
+    lateinit var fakeRecognizer: FakeSpeechRecognizerGateway
+
+    @Inject
+    lateinit var speakingSubstitution: SpeakingSubstitution
 
     private lateinit var scenario: ActivityScenario<MainActivity>
     private val context: android.content.Context get() = ApplicationProvider.getApplicationContext()
@@ -97,5 +113,52 @@ class RotationAirplaneJourneyTest {
         composeRule.onNodeWithTag("unit_node_1").performClick()
         composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
         SolverBot(composeRule, plugin, db = db).completeLesson(1, 0)
+    }
+
+    /**
+     * Extended airplane journey (Stage 3 acceptance §2): radios off, an oral
+     * lesson (listening + speaking) end-to-end. The fake recognizer is
+     * unavailable (offline): both speaking exercises silently substitute to
+     * listening variants, the explanation snackbar logic fires exactly once,
+     * and every expected string was requested from the TTS gateway.
+     */
+    @Test
+    fun journey_airplane_audio() {
+        val plugin = loadPlugin()
+        fakeRecognizer.available = false // offline: no speech recognizer
+        // open the oral lesson (unit 1 lesson 4 = index 3: 3 listening + 2 speaking)
+        runBlocking {
+            for (l in 0..2) {
+                db.progressDao().upsertLessonProgress(
+                    LessonProgressEntity(1, l, completed = true, score = 1.0, attempts = 1, lastAccessed = 0L)
+                )
+            }
+        }
+        val oral = plugin.units[0].lessons!![3]
+        val speakCount = oral.exercises.count { it.type == ExerciseTypes.SPEAKING }
+        assertTrue("oral lesson must contain speaking exercises", speakCount >= 2)
+        val expectedSpoken = oral.exercises.mapNotNull {
+            when (it.type) {
+                ExerciseTypes.LISTENING -> it.speakIt
+                ExerciseTypes.SPEAKING -> it.targetIt // substituted variant speaks the target
+                else -> null
+            }
+        }
+
+        composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_1"), 30_000)
+        composeRule.onNodeWithTag("unit_node_1").performClick()
+        composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_3"), 10_000)
+        composeRule.onNodeWithTag("lesson_row_3").performClick()
+        SolverBot(composeRule, plugin, db = db)
+            .solveOpenSession(oral.exercises.map { it.id!! })
+
+        // both speaking exercises were substituted (snackbar shown once per
+        // session — exactly-once is unit-tested in SpeakingSubstitutionTest)
+        assertEquals(speakCount, speakingSubstitution.substitutionCount.get())
+        // every expected string was requested from the TTS gateway
+        val requested = fakeTts.synthesized.toSet() + fakeTts.spoken.map { it.first }.toSet()
+        expectedSpoken.forEach {
+            assertTrue("TTS gateway was never asked for '$it'", it in requested)
+        }
     }
 }
