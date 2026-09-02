@@ -107,6 +107,10 @@ interface ReviewDao {
     @Query("SELECT * FROM review_items WHERE dueAtMillis <= :nowMillis ORDER BY dueAtMillis")
     suspend fun dueItems(nowMillis: Long): List<ReviewItemEntity>
 
+    /** Live table: the Home review card recomputes its due count from this + Clock. */
+    @Query("SELECT * FROM review_items")
+    fun observeAll(): Flow<List<ReviewItemEntity>>
+
     @Query("SELECT COUNT(*) FROM review_items WHERE dueAtMillis <= :nowMillis")
     fun observeDueCount(nowMillis: Long): Flow<Int>
 

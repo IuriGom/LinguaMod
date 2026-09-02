@@ -7,7 +7,9 @@ import com.linguamod.app.data.db.BadgeEntity
 import com.linguamod.app.data.db.DailyXpEntity
 import com.linguamod.app.data.db.ExerciseResultEntity
 import com.linguamod.app.data.db.LessonProgressEntity
+import com.linguamod.app.data.db.ReviewItemEntity
 import com.linguamod.app.data.db.UserProgressEntity
+import com.linguamod.app.plugin.ExerciseDto
 import com.linguamod.app.plugin.LinguaPluginDto
 import com.linguamod.app.plugin.PluginLoader
 import java.time.LocalDate
@@ -105,6 +107,72 @@ class CourseRepository @Inject constructor(
                 attempts = (existing?.attempts ?: 0) + 1,
             )
         )
+        updateReviewItem(exerciseId, correct)
+    }
+
+    // --- review (Stage 3 §5): SM-2 lite, simple and inspectable ---
+
+    /** Live review items; the Home review card derives its due count from this. */
+    val reviewItemsFlow = db.reviewDao().observeAll()
+
+    /**
+     * Every wrong exercise creates/updates a review item; correct answers to
+     * previously-wrong items update it. Wrong → interval resets to 10 minutes
+     * (due again this session); correct → interval × 2.5 from a 1-day start,
+     * capped at 30 days.
+     */
+    private suspend fun updateReviewItem(exerciseId: String, correct: Boolean) {
+        val now = clock.nowMillis()
+        val item = db.reviewDao().get(exerciseId)
+        if (correct) {
+            if (item == null) return // never wrong: no review item to update
+            val next = nextReviewInterval(item.intervalMillis)
+            db.reviewDao().upsert(
+                item.copy(
+                    intervalMillis = next,
+                    dueAtMillis = now + next,
+                    repetitions = item.repetitions + 1,
+                )
+            )
+        } else {
+            db.reviewDao().upsert(
+                ReviewItemEntity(
+                    exerciseId = exerciseId,
+                    intervalMillis = REVIEW_WRONG_INTERVAL_MILLIS,
+                    dueAtMillis = now + REVIEW_WRONG_INTERVAL_MILLIS,
+                    repetitions = 0,
+                )
+            )
+        }
+    }
+
+    /** SM-2 lite growth: from the 1-day start, × 2.5 per success, cap 30 days. */
+    private fun nextReviewInterval(currentMillis: Long): Long =
+        if (currentMillis < REVIEW_START_INTERVAL_MILLIS) REVIEW_START_INTERVAL_MILLIS
+        else minOf((currentMillis * REVIEW_INTERVAL_FACTOR).toLong(), REVIEW_MAX_INTERVAL_MILLIS)
+
+    /** How many of [items] are due right now (Home card count). */
+    fun dueReviewCount(items: List<ReviewItemEntity>): Int =
+        items.count { it.dueAtMillis <= clock.nowMillis() }
+
+    suspend fun dueReviewItems(): List<ReviewItemEntity> =
+        db.reviewDao().dueItems(clock.nowMillis())
+
+    /** Original exercise payloads for a review session, in due order (§5). */
+    suspend fun dueReviewExercises(): List<ExerciseDto> {
+        val plugin = _plugin.value ?: return emptyList()
+        return dueReviewItems().mapNotNull { findExercise(plugin, it.exerciseId) }
+    }
+
+    /** Finds an exercise payload by ID across all lessons and checkpoints. */
+    fun findExercise(plugin: LinguaPluginDto, exerciseId: String): ExerciseDto? {
+        for (u in plugin.units) {
+            u.lessons?.forEach { lesson ->
+                lesson.exercises.firstOrNull { it.id == exerciseId }?.let { return it }
+            }
+            u.checkpoint?.exercises?.firstOrNull { it.id == exerciseId }?.let { return it }
+        }
+        return null
     }
 
     // --- hearts (Stage 2B §5): never block learning ---
@@ -290,5 +358,11 @@ class CourseRepository @Inject constructor(
         const val HEART_REFILL_MILLIS = 30 * 60 * 1000L
         const val GEMS_PER_CHECKPOINT = 10
         const val STREAK_BADGE_DAYS = 7
+
+        // SM-2 lite review scheduling (Stage 3 §5)
+        const val REVIEW_WRONG_INTERVAL_MILLIS = 10 * 60 * 1000L // 10 minutes
+        const val REVIEW_START_INTERVAL_MILLIS = 24 * 60 * 60 * 1000L // 1 day
+        const val REVIEW_MAX_INTERVAL_MILLIS = 30L * 24 * 60 * 60 * 1000 // 30 days
+        const val REVIEW_INTERVAL_FACTOR = 2.5
     }
 }

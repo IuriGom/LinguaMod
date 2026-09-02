@@ -48,6 +48,8 @@ data class LessonState(
     val loading: Boolean = true,
     val title: String = "",
     val isCheckpoint: Boolean = false,
+    /** Review session (Stage 3 §5): due review items, no hearts/XP/streak effects. */
+    val isReview: Boolean = false,
     val exercise: ExerciseDto? = null,
     val position: Int = 0,
     val total: Int = 0,
@@ -87,11 +89,13 @@ class LessonViewModel @Inject constructor(
     savedState: SavedStateHandle,
 ) : ViewModel() {
 
-    private val unitNumber: Int = checkNotNull(savedState["unit"])
+    private val unitNumber: Int? = savedState["unit"]
     private val lessonIndex: Int? = savedState["lesson"]
-    val isCheckpoint: Boolean = lessonIndex == null
+    /** No unit argument → review session over the currently-due review items. */
+    val isReview: Boolean = unitNumber == null
+    val isCheckpoint: Boolean = !isReview && lessonIndex == null
 
-    private val _state = MutableStateFlow(LessonState(isCheckpoint = isCheckpoint))
+    private val _state = MutableStateFlow(LessonState(isCheckpoint = isCheckpoint, isReview = isReview))
     val state: StateFlow<LessonState> = _state
 
     private var queue = ArrayDeque<ExerciseDto>()
@@ -108,7 +112,9 @@ class LessonViewModel @Inject constructor(
         }
         viewModelScope.launch {
             repo.initialize()
-            repo.markLessonStarted(unitNumber, lessonIndex ?: CourseRepository.CHECKPOINT_INDEX)
+            if (!isReview) {
+                repo.markLessonStarted(unitNumber!!, lessonIndex ?: CourseRepository.CHECKPOINT_INDEX)
+            }
             val plugin = repo.plugin.value ?: run {
                 // plugin flow may not have emitted yet; wait for it
                 var p = repo.plugin.value
@@ -117,6 +123,8 @@ class LessonViewModel @Inject constructor(
             }
             val unit = plugin.units.firstOrNull { it.number == unitNumber }
             val exercises = when {
+                // Review: re-rendered from the original exercise payloads (§5).
+                isReview -> repo.dueReviewExercises()
                 unit == null -> emptyList()
                 isCheckpoint -> unit.checkpoint?.exercises.orEmpty()
                 else -> unit.lessons?.getOrNull(lessonIndex ?: 0)?.exercises.orEmpty()
@@ -130,8 +138,12 @@ class LessonViewModel @Inject constructor(
             val first = queue.firstOrNull()?.let { enterExercise(it) }
             _state.value = LessonState(
                 loading = false,
-                title = unit?.let { "Unit ${it.number} — ${it.title}" } ?: "",
+                title = when {
+                    isReview -> "Review session"
+                    else -> unit?.let { "Unit ${it.number} — ${it.title}" } ?: ""
+                },
                 isCheckpoint = isCheckpoint,
+                isReview = isReview,
                 exercise = first?.first,
                 total = presentable.size,
                 hearts = _state.value.hearts, // keep the live hearts value
@@ -188,13 +200,6 @@ class LessonViewModel @Inject constructor(
             when (val outcome = speechGateway.listen(e.targetIt.orEmpty())) {
                 is RecognitionOutcome.Heard -> {
                     val r = SpeakingScorer.score(e.targetIt.orEmpty(), outcome.transcript, e.minAccuracy)
-                    val heardNote = when {
-                        r.passed -> null
-                        r.completelyDifferent ->
-                            "The recognizer heard something completely different — try a quieter room."
-                        else ->
-                            "Close! This looks like a pronunciation issue — listen and match the sounds."
-                    }
                     grade(
                         e, r.passed,
                         if (r.passed) {
@@ -202,7 +207,7 @@ class LessonViewModel @Inject constructor(
                         } else {
                             Feedback.Wrong(
                                 e.explanation ?: "", e.targetIt.orEmpty(),
-                                "Google heard:", outcome.transcript, heardNote,
+                                "Google heard:", outcome.transcript, SpeakingScorer.heardNoteFor(r),
                             )
                         },
                     )
@@ -289,15 +294,27 @@ class LessonViewModel @Inject constructor(
 
     private fun finish() {
         val score = if (firstTryAnswered == 0) 1.0 else firstTryCorrect.toDouble() / firstTryAnswered
+        if (isReview) {
+            // Review sessions never touch hearts, XP, streaks, or progress (§5).
+            _state.value = _state.value.copy(
+                exercise = null,
+                finished = true,
+                correctCount = firstTryCorrect,
+                answeredCount = firstTryAnswered,
+                passed = true,
+                xpGained = 0,
+            )
+            return
+        }
         val passed = !isCheckpoint || score >= 0.8
         val bonus = if (isCheckpoint) (if (passed) XP_PER_CHECKPOINT else 0) else XP_PER_LESSON
         viewModelScope.launch {
             val unlocks = if (isCheckpoint) {
-                val newly = repo.recordCheckpointAttempt(unitNumber, passed, score)
+                val newly = repo.recordCheckpointAttempt(unitNumber!!, passed, score)
                 if (passed) repo.addXp(XP_PER_CHECKPOINT)
                 newly
             } else {
-                repo.completeLesson(unitNumber, lessonIndex ?: 0, score)
+                repo.completeLesson(unitNumber!!, lessonIndex ?: 0, score)
                 repo.addXp(XP_PER_LESSON)
                 emptyList()
             }
@@ -350,7 +367,9 @@ class LessonViewModel @Inject constructor(
         return ex to bank
     }
 
-    /** Shared per-attempt bookkeeping: first-try stats, result row, XP/hearts. */
+    /** Shared per-attempt bookkeeping: first-try stats, result row, XP/hearts.
+     *  The result row always maintains the SM-2 lite review item (§5); in a
+     *  review session nothing else happens — no XP, hearts, or streak effects. */
     private fun grade(e: ExerciseDto, correct: Boolean, feedback: Feedback) {
         val isRetry = e.id in requeued
         if (!isRetry) {
@@ -358,8 +377,10 @@ class LessonViewModel @Inject constructor(
             if (correct) firstTryCorrect++
         }
         viewModelScope.launch { repo.recordExerciseResult(e.id!!, correct) }
-        if (correct) viewModelScope.launch { repo.addXp(XP_PER_CORRECT) }
-        else viewModelScope.launch { repo.loseHeart() } // hearts never block, just reflect
+        if (!isReview) {
+            if (correct) viewModelScope.launch { repo.addXp(XP_PER_CORRECT) }
+            else viewModelScope.launch { repo.loseHeart() } // hearts never block, just reflect
+        }
         _state.value = _state.value.copy(feedback = feedback, speakingBusy = false)
     }
 

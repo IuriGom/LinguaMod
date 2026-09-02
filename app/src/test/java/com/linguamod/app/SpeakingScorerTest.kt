@@ -101,4 +101,30 @@ class SpeakingScorerTest {
         assertTrue("only one 'mi' can be consumed", r.score <= 1.0 / 3.0 + 1e-9)
         assertFalse(r.passed)
     }
+
+    // --- the "what you heard" note shown with the feedback (§6.6) ---
+
+    @Test
+    fun `heard note - garbage fails with the completely different message`() {
+        val r = SpeakingScorer.score(target, "banana hammock trolley soup")
+        assertEquals(
+            "The recognizer heard something completely different — try a quieter room.",
+            SpeakingScorer.heardNoteFor(r),
+        )
+    }
+
+    @Test
+    fun `heard note - near miss fails with the pronunciation message`() {
+        val r = SpeakingScorer.score(target, "Mi chiamo Marco e vivo a xxxx xxxx xxxx xxxx")
+        assertFalse(r.passed)
+        assertEquals(
+            "Close! This looks like a pronunciation issue — listen and match the sounds.",
+            SpeakingScorer.heardNoteFor(r),
+        )
+    }
+
+    @Test
+    fun `heard note - passing attempts show no note`() {
+        assertEquals(null, SpeakingScorer.heardNoteFor(SpeakingScorer.score(target, target)))
+    }
 }

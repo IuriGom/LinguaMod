@@ -481,7 +481,19 @@ private fun FinishScreen(state: LessonState, onDone: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        if (state.isCheckpoint) {
+        if (state.isReview) {
+            Text(
+                "Review complete!",
+                style = MaterialTheme.typography.headlineMedium,
+                modifier = Modifier.testTag("review_complete"),
+            )
+            Text("${state.correctCount}/${state.answeredCount} correct")
+            Text(
+                "Wrong answers were rescheduled for later — no hearts or XP affected.",
+                style = MaterialTheme.typography.bodyMedium,
+                textAlign = TextAlign.Center,
+            )
+        } else if (state.isCheckpoint) {
             if (state.passed) {
                 Text(
                     "Checkpoint passed!",
@@ -512,13 +524,15 @@ private fun FinishScreen(state: LessonState, onDone: () -> Unit) {
             Text("${state.correctCount}/${state.answeredCount} correct")
         }
         Spacer(Modifier.height(8.dp))
-        Text(
-            "+${state.xpGained} XP",
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.primary,
-            modifier = Modifier.testTag("xp_gain"),
-        )
-        Spacer(Modifier.height(24.dp))
+        if (!state.isReview) {
+            Text(
+                "+${state.xpGained} XP",
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.testTag("xp_gain"),
+            )
+            Spacer(Modifier.height(24.dp))
+        }
         Button(onClick = onDone, modifier = Modifier.testTag("finish_button")) {
             Text(if (state.isCheckpoint && !state.passed) "Back to lessons" else "Done")
         }

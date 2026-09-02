@@ -34,4 +34,17 @@ object SpeakingScorer {
             completelyDifferent = !passed && overlap < COMPLETELY_DIFFERENT_BELOW,
         )
     }
+
+    /**
+     * The line shown next to what the recognizer heard (§6.6): distinguishes a
+     * pronunciation issue from the recognizer hearing something completely
+     * different. Null when the attempt passed.
+     */
+    fun heardNoteFor(r: Result): String? = when {
+        r.passed -> null
+        r.completelyDifferent ->
+            "The recognizer heard something completely different — try a quieter room."
+        else ->
+            "Close! This looks like a pronunciation issue — listen and match the sounds."
+    }
 }

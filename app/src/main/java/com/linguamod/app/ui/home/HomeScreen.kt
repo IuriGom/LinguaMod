@@ -48,6 +48,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun HomeScreen(
     onOpenUnit: (Int) -> Unit,
+    onOpenReview: () -> Unit,
     vm: HomeViewModel = hiltViewModel(),
 ) {
     val state by vm.state.collectAsState()
@@ -87,6 +88,11 @@ fun HomeScreen(
                         modifier = Modifier.padding(vertical = 16.dp),
                     )
                 }
+                // Review card (Stage 3 §5): above the path, only when N > 0,
+                // always optional, persists until the due items are cleared.
+                if (state.reviewDue > 0) {
+                    item { ReviewCard(state.reviewDue, onOpenReview) }
+                }
                 item { ProgressBarsCard(state.bars) }
                 items(state.nodes) { node ->
                     UnitNodeRow(
@@ -104,6 +110,26 @@ fun HomeScreen(
             }
         }
         SnackbarHost(snackbar, Modifier.align(Alignment.BottomCenter))
+    }
+}
+
+/** "N exercises due for review" — tapping runs a review session (§5). */
+@Composable
+private fun ReviewCard(due: Int, onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        shape = MaterialTheme.shapes.medium,
+        color = MaterialTheme.colorScheme.tertiaryContainer,
+        modifier = Modifier.fillMaxWidth().testTag("review_card"),
+    ) {
+        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                "$due exercises due for review",
+                style = MaterialTheme.typography.titleMedium,
+                modifier = Modifier.weight(1f),
+            )
+            Text("Review", style = MaterialTheme.typography.labelLarge)
+        }
     }
 }
 

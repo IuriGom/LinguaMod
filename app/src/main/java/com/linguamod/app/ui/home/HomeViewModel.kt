@@ -35,6 +35,8 @@ data class HomeState(
     val nodes: List<UnitNode> = emptyList(),
     val progress: UserProgressEntity? = null,
     val bars: ProgressBars = ProgressBars(),
+    /** Due review items (Stage 3 §5); the review card shows only when > 0. */
+    val reviewDue: Int = 0,
 )
 
 @HiltViewModel
@@ -48,13 +50,18 @@ class HomeViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             repo.initialize()
-            // recompute when the plugin changes OR any progress row changes
-            combine(repo.plugin, repo.lessonProgressFlow) { p, rows -> p to rows }
-                .collect { (plugin, rows) -> refresh(plugin, rows) }
+            // recompute when the plugin, progress rows, or review items change
+            combine(repo.plugin, repo.lessonProgressFlow, repo.reviewItemsFlow) { p, rows, reviews ->
+                Triple(p, rows, reviews)
+            }.collect { (plugin, rows, reviews) -> refresh(plugin, rows, reviews) }
         }
     }
 
-    private suspend fun refresh(plugin: LinguaPluginDto?, rows: List<LessonProgressEntity>) {
+    private suspend fun refresh(
+        plugin: LinguaPluginDto?,
+        rows: List<LessonProgressEntity>,
+        reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
+    ) {
         if (plugin == null) {
             _state.value = HomeState(loading = false, pluginLoaded = false)
             return
@@ -77,6 +84,7 @@ class HomeViewModel @Inject constructor(
             nodes = nodes,
             progress = repo.userProgress(),
             bars = computeBars(plugin, rows),
+            reviewDue = repo.dueReviewCount(reviews),
         )
     }
 

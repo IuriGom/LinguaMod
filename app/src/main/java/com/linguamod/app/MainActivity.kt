@@ -49,6 +49,7 @@ object Routes {
     const val UNIT = "unit/{unit}"
     const val LESSON = "lesson/{unit}/{lesson}"
     const val CHECKPOINT = "checkpoint/{unit}"
+    const val REVIEW = "review"
     fun unit(n: Int) = "unit/$n"
     fun lesson(unit: Int, lesson: Int) = "lesson/$unit/$lesson"
     fun checkpoint(unit: Int) = "checkpoint/$unit"
@@ -157,7 +158,10 @@ fun LinguaModAppContent() {
                 modifier = Modifier.padding(padding),
             ) {
                 composable(Routes.HOME) {
-                    HomeScreen(onOpenUnit = { nav.navigate(Routes.unit(it)) })
+                    HomeScreen(
+                        onOpenUnit = { nav.navigate(Routes.unit(it)) },
+                        onOpenReview = { nav.navigate(Routes.REVIEW) },
+                    )
                 }
                 composable(Routes.DICTIONARY) { DictionaryScreen() }
                 composable(Routes.PROFILE) { ProfileScreen() }
@@ -187,6 +191,10 @@ fun LinguaModAppContent() {
                     arguments = listOf(navArgument("unit") { type = NavType.IntType }),
                 ) {
                     LessonScreen(isCheckpoint = true, onDone = { nav.popBackStack() })
+                }
+                composable(Routes.REVIEW) {
+                    // No unit argument → LessonViewModel runs in review mode (§5).
+                    LessonScreen(isCheckpoint = false, onDone = { nav.popBackStack() })
                 }
             }
         }
