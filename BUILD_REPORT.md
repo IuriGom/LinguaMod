@@ -124,3 +124,41 @@ Unit 7: validator + crosscheck green, 56 dictionary entries total.
 Unit 8: validator + crosscheck green, 64 dictionary entries total.
 Unit 9: validator + crosscheck green, 71 dictionary entries total.
 Unit 10: validator + crosscheck green, 78 dictionary entries total.
+
+### Stage 2 — acceptance gates ✅ (2026-09-02)
+
+AC#3 journey shape decision: **one test per unit** (`CompleteUnitsStage2JourneyTest`,
+10 tests) instead of a single sequential 10-unit pass. Each test fast-forwards units
+1..N-1 via in-memory DB writes, launches a fresh activity, runs the Solver Bot through
+unit N's 4 lessons + checkpoint, and asserts strict linearity (unit N+1 locked on Home
+before the checkpoint pass, unlocked after). Fresh DB + activity per unit means an
+emulator flake in unit K cannot poison units K+1..10 and failures point at exactly one
+unit; the DB fast-forward keeps each run short enough to stay clear of emulator timeouts.
+The activity is launched only *after* the fast-forward writes (launching first recomposed
+Home concurrently with the writes — Compose SnapshotStateObserver is not thread-safe).
+`SolverBot` hardened for emulator load: `clickRowAndAwaitFirstExercise` (row's unlocked
+icon lags one recomposition behind the DB sync, so a tap on a stale locked row is
+swallowed) and `tapUntil` (bounded retry of submit/continue/finish taps that get
+swallowed mid-recomposition).
+
+Checks run (API-34 emulator, `emulator-5554`, unless noted):
+
+- `./gradlew testDebugUnitTest` — **green, 62 JVM tests, 0 failures** (60 pre-existing +
+  2 `MixedLessonRecyclingTest` suites). AC#4: for every unit 3..10 the mixed lesson
+  (index 2) references ≥1 dictionary entry with `introducedInUnit` strictly earlier than
+  the unit number; also asserts fixed lesson-type order, ids `u{N}l1..u{N}l4`, and
+  10-exercise checkpoints across all 10 units.
+- `./gradlew connectedDebugAndroidTest` — **20/20 green** in 6m 44s: all Stage 1 +
+  gamification journeys plus the 10 new per-unit complete-units runs.
+- Monkey: reinstalled `app-debug.apk` (the instrumented task uninstalls it), then
+  `monkey -p com.linguamod.app --pct-syskeys 0 20000` — **20000 events injected,
+  zero crashes/ANRs**. (`/dev/input/event0 EACCES` flip warnings are the known
+  emulator quirk, not app faults.)
+- `./gradlew assembleRelease` — release APK **1,893,039 bytes ≈ 1.81 MB** (cap 15 MB).
+- README updated: plugin installation (repo-root `plugins/it.lingua` → assets symlink,
+  Units 1–10) and the hearts/gems/badges rules, verified against
+  `CourseRepository` (MAX_HEARTS=5, −1/wrong, +1/30 min, full refill on completion,
+  never blocks; GEMS_PER_CHECKPOINT=10, theme shop in Profile → Appearance) and
+  `core/Badges.kt` (Primo Passo / Dieci Unità / Perfezionista / Settimana Italiana).
+
+**Stage 2 gate: GREEN.**

@@ -20,7 +20,11 @@ APK size: release ≈ **1.8 MB** (cap: 15 MB). Debug builds include test tooling
 
 Language content ships in `.lingua` files (format spec: [`docs/LINGUA_FORMAT.md`](docs/LINGUA_FORMAT.md)).
 
-- On first launch the bundled course `assets/plugins/it.lingua` is copied to
+- The bundled Italian course lives at `plugins/it.lingua` in the repo root and is packaged
+  into the APK via the symlink `app/src/main/assets/plugins/it.lingua` (Gradle asset
+  packaging follows the symlink). It currently covers Units 1–10 (Stage 2); the format
+  scales to the full 60-unit course.
+- On first launch the bundled course is copied from assets to
   `Android/data/com.linguamod.app/files/plugins/` on the device.
 - Drop additional `.lingua` files into that directory and tap **Rescan** on the Profile tab.
   Invalid files are rejected with a per-file error message and never partially loaded.
@@ -57,7 +61,13 @@ The app is verified by an autonomous harness (see `BUILD_REPORT.md` for results)
 - **Unit tests** (JVM): `./gradlew testDebugUnitTest` — plugin validator (every §8 rule),
   answer matcher (every §9 boundary), progress/streak/XP logic, conjugation cross-check.
 - **Instrumented journeys** (emulator): `./gradlew connectedDebugAndroidTest` — fresh install,
-  unit completion, checkpoint failure/retry, rotation, airplane mode, empty plugins, fuzz corpus.
+  unit completion, checkpoint failure/retry, rotation, airplane mode, empty plugins, fuzz corpus,
+  dictionary gating, gamification, and the Stage 2 complete-units run
+  (`CompleteUnitsStage2JourneyTest`: all 10 units unlocked in strict linear order and
+  completed by the Solver Bot).
+- **Content static analysis** (JVM): `MixedLessonRecyclingTest` asserts mixed lessons
+  recycle vocabulary from earlier units, plus the fixed lesson-type order and
+  10-exercise checkpoints across all units.
 - **Solver Bot** (`app/src/androidTest/.../solver/SolverBot.kt`): completes any lesson or
   checkpoint through the real UI by deriving answers from the plugin JSON; chaos mode answers
   wrong on purpose to test failure paths.
