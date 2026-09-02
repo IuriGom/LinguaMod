@@ -1,5 +1,7 @@
 package com.linguamod.app.ui.profile
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -7,6 +9,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
@@ -50,6 +53,11 @@ fun ProfileScreen(vm: ProfileViewModel = hiltViewModel()) {
         Spacer(Modifier.height(16.dp))
         LevelCard(state)
         Spacer(Modifier.height(16.dp))
+        // "Your Records" (Stage 4 §5): personal stats only, no fake competitors.
+        if (state.recordsVisible) {
+            RecordsCard(state)
+            Spacer(Modifier.height(16.dp))
+        }
         BadgesCard(state)
         Spacer(Modifier.height(16.dp))
         AppearanceCard(state, vm)
@@ -113,6 +121,93 @@ private fun LevelCard(state: ProfileState) {
     }
 }
 
+/**
+ * "Your Records" (Stage 4 §5): personal stats only — XP per day for the last
+ * 14 days (simple bar chart), best checkpoint scores, longest streak, and the
+ * most-looked-up OCR words. No server, no fabricated competitors.
+ */
+@Composable
+private fun RecordsCard(state: ProfileState) {
+    Card(Modifier.fillMaxWidth().testTag("records_card")) {
+        Column(Modifier.padding(16.dp)) {
+            Text("Your Records", style = MaterialTheme.typography.titleMedium)
+            Text(
+                "Personal stats — stored only on this device.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.height(12.dp))
+
+            Text("XP per day (last 14 days)", style = MaterialTheme.typography.labelLarge)
+            Spacer(Modifier.height(4.dp))
+            val maxXp = state.dailyXp.maxOfOrNull { it.second }?.coerceAtLeast(1) ?: 1
+            state.dailyXp.forEach { (date, xp) ->
+                Row(
+                    Modifier.fillMaxWidth().padding(vertical = 1.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        date.drop(5), // MM-dd
+                        style = MaterialTheme.typography.labelSmall,
+                        modifier = Modifier.width(44.dp),
+                    )
+                    Box(
+                        Modifier
+                            .height(10.dp)
+                            .fillMaxWidth((xp.toFloat() / maxXp).coerceAtLeast(0.02f))
+                            .background(
+                                MaterialTheme.colorScheme.primary,
+                                MaterialTheme.shapes.small,
+                            )
+                            .testTag("xp_bar_$date"),
+                    )
+                    Spacer(Modifier.width(8.dp))
+                    Text("$xp", style = MaterialTheme.typography.labelSmall)
+                }
+            }
+            Spacer(Modifier.height(12.dp))
+
+            Text("Best checkpoint scores", style = MaterialTheme.typography.labelLarge)
+            if (state.bestCheckpointScores.isEmpty()) {
+                Text("No checkpoints passed yet.", style = MaterialTheme.typography.bodySmall)
+            } else {
+                state.bestCheckpointScores.forEach { (unit, score) ->
+                    Text(
+                        "Unit $unit: ${(score * 100).toInt()}%",
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.testTag("records_score_$unit"),
+                    )
+                }
+            }
+            Spacer(Modifier.height(12.dp))
+
+            Text(
+                "Longest streak: ${state.progress.longestStreak} days",
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.testTag("records_longest_streak"),
+            )
+            Spacer(Modifier.height(12.dp))
+
+            Text("Most looked-up words", style = MaterialTheme.typography.labelLarge)
+            if (state.mostLookedUp.isEmpty()) {
+                Text(
+                    "No dictionary lookups yet.",
+                    style = MaterialTheme.typography.bodySmall,
+                    modifier = Modifier.testTag("records_no_lookups"),
+                )
+            } else {
+                state.mostLookedUp.forEach { entry ->
+                    Text(
+                        "${entry.word} — ${entry.lookupCount}×",
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.testTag("records_lookup_${entry.id}"),
+                    )
+                }
+            }
+        }
+    }
+}
+
 @Composable
 private fun BadgesCard(state: ProfileState) {
     Card(Modifier.fillMaxWidth().testTag("badges_card")) {
@@ -140,6 +235,27 @@ private fun BadgesCard(state: ProfileState) {
                     )
                 }
             }
+            // Dynamic per-story / per-boss badges (Stage 4 §2, §3), only once earned.
+            state.unlockedBadges
+                .filter { id -> Badges.ALL.none { it.id == id } }
+                .sorted()
+                .forEach { id ->
+                    Row(
+                        Modifier.fillMaxWidth().padding(vertical = 4.dp).testTag("badge_$id"),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Text(
+                            Badges.displayNameFor(id),
+                            style = MaterialTheme.typography.titleSmall,
+                        )
+                        Spacer(Modifier.weight(1f))
+                        Text(
+                            "Unlocked",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.primary,
+                        )
+                    }
+                }
         }
     }
 }
