@@ -448,6 +448,15 @@ class CourseRepository @Inject constructor(
     suspend fun recordDictionaryLookup(entryId: String) =
         db.dictionaryDao().incrementLookup(entryId)
 
+    /** OCR word-tap (Stage 4 §1): +[XP_PER_OCR_LOOKUP] XP and a lookup-count increment. */
+    suspend fun recordOcrLookup(entryId: String) {
+        addXp(XP_PER_OCR_LOOKUP)
+        db.dictionaryDao().incrementLookup(entryId)
+    }
+
+    suspend fun findDictionaryEntryByLemma(lemma: String) =
+        db.dictionaryDao().findByLemma(lemma)
+
     suspend fun mostLookedUpEntries(limit: Int) = db.dictionaryDao().mostLookedUp(limit)
 
     suspend fun dailyXpLastDays(days: Int) = db.dailyXpDao().lastDays(days)
@@ -469,6 +478,7 @@ class CourseRepository @Inject constructor(
         const val STREAK_BADGE_DAYS = 7
         const val XP_PER_STORY = 30 // Stage 4 §2
         const val XP_PER_BOSS_WIN = 100 // Stage 4 §3
+        const val XP_PER_OCR_LOOKUP = 2 // Stage 4 §1
 
         // SM-2 lite review scheduling (Stage 3 §5)
         const val REVIEW_WRONG_INTERVAL_MILLIS = 10 * 60 * 1000L // 10 minutes

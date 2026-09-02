@@ -36,6 +36,7 @@ import com.linguamod.app.ui.dictionary.DictionaryScreen
 import com.linguamod.app.ui.flashcard.FlashcardScreen
 import com.linguamod.app.ui.home.HomeScreen
 import com.linguamod.app.ui.lesson.LessonScreen
+import com.linguamod.app.ui.ocr.OcrScreen
 import com.linguamod.app.ui.profile.ProfileScreen
 import com.linguamod.app.ui.story.StoryScreen
 import com.linguamod.app.ui.theme.LinguaModTheme
@@ -56,6 +57,7 @@ object Routes {
     const val STORY = "story/{storyId}"
     const val BOSS = "boss/{unit}"
     const val PRACTICE = "practice"
+    const val OCR = "ocr"
     fun unit(n: Int) = "unit/$n"
     fun lesson(unit: Int, lesson: Int) = "lesson/$unit/$lesson"
     fun checkpoint(unit: Int) = "checkpoint/$unit"
@@ -175,7 +177,10 @@ fun LinguaModAppContent() {
                     )
                 }
                 composable(Routes.DICTIONARY) {
-                    DictionaryScreen(onOpenFlashcards = { nav.navigate(Routes.FLASHCARDS) })
+                    DictionaryScreen(
+                        onOpenFlashcards = { nav.navigate(Routes.FLASHCARDS) },
+                        onOpenOcr = { nav.navigate(Routes.OCR) },
+                    )
                 }
                 composable(Routes.PROFILE) { ProfileScreen() }
                 composable(
@@ -211,6 +216,9 @@ fun LinguaModAppContent() {
                 }
                 composable(Routes.FLASHCARDS) {
                     FlashcardScreen(onDone = { nav.popBackStack() })
+                }
+                composable(Routes.OCR) {
+                    OcrScreen(onBack = { nav.popBackStack() })
                 }
                 composable(
                     Routes.STORY,

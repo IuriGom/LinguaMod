@@ -33,10 +33,36 @@ import com.linguamod.app.ui.common.SpeakerButton
 @Composable
 fun DictionaryScreen(
     onOpenFlashcards: () -> Unit,
+    onOpenOcr: () -> Unit,
     vm: DictionaryViewModel = hiltViewModel(),
 ) {
     val entries by vm.entries.collectAsState()
+    val ocrVisible by vm.ocrIconVisible.collectAsState()
+    val showOcrExplanation by vm.showOcrUnavailableExplanation.collectAsState()
     var q by remember { mutableStateOf("") }
+
+    // One-time explanation when the flag tripped but the device lacks Play
+    // Services; afterwards the feature hides entirely (Stage 4 §1).
+    if (showOcrExplanation) {
+        androidx.compose.material3.AlertDialog(
+            onDismissRequest = { vm.dismissOcrUnavailableExplanation() },
+            title = { Text("Camera OCR unavailable") },
+            text = {
+                Text(
+                    "Text recognition needs Google Play Services, which this device " +
+                        "doesn't have. The camera scanner stays hidden — everything " +
+                        "else works offline."
+                )
+            },
+            confirmButton = {
+                Button(
+                    onClick = { vm.dismissOcrUnavailableExplanation() },
+                    modifier = Modifier.testTag("ocr_unavailable_dismiss"),
+                ) { Text("OK") }
+            },
+            modifier = Modifier.testTag("ocr_unavailable_dialog"),
+        )
+    }
 
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Text("Dictionary", style = MaterialTheme.typography.headlineMedium)
@@ -54,6 +80,14 @@ fun DictionaryScreen(
             onClick = onOpenFlashcards,
             modifier = Modifier.fillMaxWidth().testTag("dictionary_flashcards"),
         ) { Text("Study flashcards") }
+        // Camera OCR (Stage 4 §1): only once the ocrCamera flag has tripped.
+        if (ocrVisible) {
+            Spacer(Modifier.height(8.dp))
+            Button(
+                onClick = onOpenOcr,
+                modifier = Modifier.fillMaxWidth().testTag("dictionary_ocr_button"),
+            ) { Text("📷 Scan text with the camera") }
+        }
         Spacer(Modifier.height(8.dp))
         if (entries.isEmpty()) {
             Text(

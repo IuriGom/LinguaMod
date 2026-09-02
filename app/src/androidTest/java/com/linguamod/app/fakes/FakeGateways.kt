@@ -143,3 +143,50 @@ object TestAudioModule {
     @Singleton
     fun provideSpeechRecognizerGateway(fake: FakeSpeechRecognizerGateway): SpeechRecognizerGateway = fake
 }
+
+/**
+ * Fake OCR gateway (Stage 4 §1): scripts recognized text blocks and simulates
+ * "no Play Services" and "model still downloading". Ignores camera frames, so
+ * the whole recognized-blocks → word-tap flow is testable headless.
+ */
+class FakeOcrGateway : com.linguamod.app.ocr.OcrGateway {
+    @Volatile
+    var available: Boolean = true
+
+    @Volatile
+    var modelReady: Boolean = true
+
+    /** Scripted recognized block texts returned by recognize(). */
+    @Volatile
+    var script: List<String> = emptyList()
+
+    @Volatile
+    var failWith: String? = null
+
+    /** Every recognize() call (true = a real camera frame was handed over). */
+    val recognizeCalls = CopyOnWriteArrayList<Boolean>()
+
+    override suspend fun availability(): com.linguamod.app.ocr.OcrAvailability =
+        if (available) com.linguamod.app.ocr.OcrAvailability.READY
+        else com.linguamod.app.ocr.OcrAvailability.NO_PLAY_SERVICES
+
+    override suspend fun recognize(frame: com.linguamod.app.ocr.OcrFrame?): com.linguamod.app.ocr.OcrResult {
+        recognizeCalls += (frame != null)
+        failWith?.let { return com.linguamod.app.ocr.OcrResult.Failed(it) }
+        if (!modelReady) return com.linguamod.app.ocr.OcrResult.ModelDownloading
+        return com.linguamod.app.ocr.OcrResult.Blocks(script.map { com.linguamod.app.ocr.OcrBlock(it) })
+    }
+}
+
+/** Provides the fake OCR gateway for every instrumented test (see TestAudioModule). */
+@Module
+@InstallIn(SingletonComponent::class)
+object TestOcrModule {
+    @Provides
+    @Singleton
+    fun provideFakeOcr(): FakeOcrGateway = FakeOcrGateway()
+
+    @Provides
+    @Singleton
+    fun provideOcrGateway(fake: FakeOcrGateway): com.linguamod.app.ocr.OcrGateway = fake
+}

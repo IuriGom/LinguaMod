@@ -44,6 +44,12 @@ object AppModule {
     @Singleton
     fun provideSpeechRecognizerGateway(@ApplicationContext context: Context): SpeechRecognizerGateway =
         AndroidSpeechRecognizerGateway(context)
+
+    // Stage 4 §1: real OCR gateway (ML Kit, unbundled). Tests swap in the fake.
+    @Provides
+    @Singleton
+    fun provideOcrGateway(@ApplicationContext context: Context): com.linguamod.app.ocr.OcrGateway =
+        com.linguamod.app.ocr.MlKitOcrGateway(context)
 }
 
 /** DataStore providers live apart from AppModule: instrumented tests uninstall
