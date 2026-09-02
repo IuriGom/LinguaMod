@@ -6,7 +6,6 @@ import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assert
 import androidx.compose.ui.test.assertTextEquals
-import androidx.compose.ui.test.hasAnyDescendant
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createEmptyComposeRule
@@ -119,8 +118,9 @@ class ReviewFlashcardJourneyTest {
         // Home: the card appears above the path with exactly 3 due
         pressBack()
         composeRule.waitUntilExactlyOneExists(hasTestTag("review_card"), 15_000)
+        // the clickable card merges its children's text into its own node
         composeRule.onNodeWithTag("review_card")
-            .assert(hasAnyDescendant(hasText("3 exercises due for review")))
+            .assert(hasText("3 exercises due for review"))
 
         // tapping it runs a review session re-rendered from the original payloads
         composeRule.onNodeWithTag("review_card").performClick()
@@ -170,10 +170,14 @@ class ReviewFlashcardJourneyTest {
         composeRule.waitUntilExactlyOneExists(hasTestTag("flashcard_card"), 10_000)
         composeRule.onNodeWithTag("flashcard_progress").assertTextEquals("Card 1 of $deckSize")
 
-        // flip: English + example/gender side shows
+        // flip: English + example/gender side shows (the clickable card merges
+        // its subtree — inner tags live in the unmerged tree)
         val firstWord = cardWord()
         composeRule.onNodeWithTag("flashcard_card").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("flashcard_translation"), 5_000)
+        composeRule.waitUntil(5_000) {
+            composeRule.onAllNodes(hasTestTag("flashcard_translation"), useUnmergedTree = true)
+                .fetchSemanticsNodes().size == 1
+        }
 
         // "Still learning" re-queues the card within the session
         composeRule.onNodeWithTag("flashcard_still_learning").performClick()
@@ -206,7 +210,7 @@ class ReviewFlashcardJourneyTest {
     }
 
     private fun cardWord(): String =
-        composeRule.onNodeWithTag("flashcard_word").fetchSemanticsNode()
+        composeRule.onNodeWithTag("flashcard_word", useUnmergedTree = true).fetchSemanticsNode()
             .config.getOrNull(SemanticsProperties.Text)?.joinToString("") { it.text }!!
 
     // --- §6.7 scramble with duplicate tokens ---

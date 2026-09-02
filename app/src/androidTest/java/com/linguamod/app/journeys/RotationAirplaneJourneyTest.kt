@@ -126,6 +126,9 @@ class RotationAirplaneJourneyTest {
     fun journey_airplane_audio() {
         val plugin = loadPlugin()
         fakeRecognizer.available = false // offline: no speech recognizer
+        // cacheDir/tts survives `adb install -r`; clear it so every playback
+        // really reaches the fake gateway's synthesizeToFile
+        File(context.cacheDir, "tts").deleteRecursively()
         // open the oral lesson (unit 1 lesson 4 = index 3: 3 listening + 2 speaking)
         runBlocking {
             for (l in 0..2) {
