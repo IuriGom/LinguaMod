@@ -102,6 +102,28 @@ class Stage4JourneyTest {
         }
     }
 
+    /** Scrolls to a path row and taps it, retrying until [targetTag] appears
+     *  (taps can be swallowed mid-scroll on a loaded emulator). */
+    private fun openPathRow(rowTag: String, targetTag: String) {
+        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(rowTag))
+        val deadline = System.currentTimeMillis() + 30_000
+        while (true) {
+            composeRule.onNodeWithTag(rowTag).performClick()
+            try {
+                composeRule.waitUntilExactlyOneExists(hasTestTag(targetTag), 8_000)
+                return
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                if (System.currentTimeMillis() >= deadline) throw e
+                if (nodeExists("path_list")) {
+                    composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(rowTag))
+                }
+            }
+        }
+    }
+
+    private fun nodeExists(tag: String): Boolean =
+        composeRule.onAllNodes(hasTestTag(tag)).fetchSemanticsNodes().isNotEmpty()
+
     // ---------- Story Mode (§2) ----------
 
     @Test
@@ -112,9 +134,7 @@ class Stage4JourneyTest {
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY1) }
 
         composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 30_000)
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("story_row_story1"))
-        composeRule.onNodeWithTag("story_row_story1").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 15_000)
+        openPathRow("story_row_story1", "story_screen")
 
         // English toggle shows the translation
         composeRule.onNodeWithTag("story_toggle_en").performClick()
@@ -171,9 +191,7 @@ class Stage4JourneyTest {
         // directly — the row parks at the end of the path.
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY2) }
         composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 30_000)
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("story_row_story2"))
-        composeRule.onNodeWithTag("story_row_story2").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("story_placeholder"), 15_000)
+        openPathRow("story_row_story2", "story_placeholder")
         composeRule.waitUntilExactlyOneExists(
             hasText("This story arrives with a future content pack."), 10_000,
         )
@@ -195,9 +213,7 @@ class Stage4JourneyTest {
 
         // lose: 3 strikes end the battle early, no penalty
         composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 30_000)
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("boss_row_5"))
-        composeRule.onNodeWithTag("boss_row_5").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("boss_banner"), 15_000)
+        openPathRow("boss_row_5", "boss_banner")
         composeRule.waitUntilExactlyOneExists(hasTestTag("boss_strikes"), 10_000)
         bot.solveSampledSession("boss_won", wrongAnswers = 3)
         composeRule.waitUntilExactlyOneExists(hasTestTag("boss_lost"), 30_000)
@@ -213,9 +229,7 @@ class Stage4JourneyTest {
 
         // win: 100 XP, gems ×2, per-boss badge
         composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 15_000)
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("boss_row_5"))
-        composeRule.onNodeWithTag("boss_row_5").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("boss_banner"), 15_000)
+        openPathRow("boss_row_5", "boss_banner")
         bot.solveSampledSession("boss_won")
         composeRule.waitUntilExactlyOneExists(hasTestTag("boss_won"), 30_000)
         runBlocking {

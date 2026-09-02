@@ -9,6 +9,7 @@ import androidx.datastore.preferences.preferencesDataStore
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
 
 val Context.featureUnlocksDataStore: DataStore<Preferences> by preferencesDataStore("feature_unlocks")
 
@@ -32,6 +33,10 @@ class FeatureUnlocks @Inject constructor(
 
     suspend fun isUnlocked(key: String): Boolean =
         dataStore.data.first()[flagKey(key)] ?: false
+
+    /** Live set of tripped flags, so gated UI reacts the moment a flag flips. */
+    val flagsFlow: kotlinx.coroutines.flow.Flow<Set<String>> =
+        dataStore.data.map { prefs -> KEYS.filter { prefs[flagKey(it)] == true }.toSet() }
 
     /** Sets the flag; returns true only when it was newly tripped. */
     suspend fun unlock(key: String): Boolean {

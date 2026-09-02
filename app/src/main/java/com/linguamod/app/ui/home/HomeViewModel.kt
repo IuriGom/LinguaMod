@@ -79,17 +79,22 @@ class HomeViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             repo.initialize()
-            // recompute when the plugin, progress rows, review items, or badges change
+            // recompute when the plugin, progress rows, review items, badges,
+            // boss results, or feature flags change
             combine(
                 repo.plugin, repo.lessonProgressFlow, repo.reviewItemsFlow,
-                repo.badgesFlow, repo.bossResultsFlow,
-            ) { p, rows, reviews, badges, bossResults ->
+                repo.badgesFlow, repo.bossResultsFlow, repo.featureFlagsFlow,
+            ) { arr ->
                 Data(
-                    p, rows, reviews,
-                    badges.map { it.badgeId }.toSet(),
-                    bossResults.filter { it.won }.map { it.bossId }.toSet(),
+                    plugin = arr[0] as LinguaPluginDto?,
+                    rows = arr[1] as List<LessonProgressEntity>,
+                    reviews = arr[2] as List<com.linguamod.app.data.db.ReviewItemEntity>,
+                    badgeIds = (arr[3] as List<com.linguamod.app.data.db.BadgeEntity>).map { it.badgeId }.toSet(),
+                    wonBossIds = (arr[4] as List<com.linguamod.app.data.db.BossResultEntity>)
+                        .filter { it.won }.map { it.bossId }.toSet(),
+                    unlockedFlags = arr[5] as Set<String>,
                 )
-            }.collect { d -> refresh(d.plugin, d.rows, d.reviews, d.badgeIds, d.wonBossIds) }
+            }.collect { d -> refresh(d.plugin, d.rows, d.reviews, d.badgeIds, d.wonBossIds, d.unlockedFlags) }
         }
     }
 
@@ -99,6 +104,7 @@ class HomeViewModel @Inject constructor(
         val reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
         val badgeIds: Set<String>,
         val wonBossIds: Set<String>,
+        val unlockedFlags: Set<String>,
     )
 
     private suspend fun refresh(
@@ -107,6 +113,7 @@ class HomeViewModel @Inject constructor(
         reviews: List<com.linguamod.app.data.db.ReviewItemEntity>,
         badgeIds: Set<String>,
         wonBossIds: Set<String>,
+        unlockedFlags: Set<String>,
     ) {
         if (plugin == null) {
             _state.value = HomeState(loading = false, pluginLoaded = false)
@@ -129,7 +136,7 @@ class HomeViewModel @Inject constructor(
             val id = s.id ?: return@mapNotNull null
             val afterUnit = s.unlockAfterUnit ?: return@mapNotNull null
             val anchored = afterUnit in unitNumbers
-            val flagTripped = repo.isFeatureUnlocked(id)
+            val flagTripped = id in unlockedFlags
             // Hidden until the anchor unit is reachable or the flag has tripped
             // (gating regression: no entry points before their unlock condition).
             if (!flagTripped && !(anchored && repo.isUnitUnlocked(afterUnit))) return@mapNotNull null
@@ -144,7 +151,7 @@ class HomeViewModel @Inject constructor(
         }
         // Boss overlays after every 5th unit present in the plugin (§3). Same
         // visibility rule as stories: hidden until reachable or flag-tripped.
-        val bossFlag = repo.isFeatureUnlocked(com.linguamod.app.data.FeatureUnlocks.BOSS_BATTLES)
+        val bossFlag = com.linguamod.app.data.FeatureUnlocks.BOSS_BATTLES in unlockedFlags
         val bosses = plugin.units.mapNotNull { u ->
             val n = u.number ?: return@mapNotNull null
             if (n % 5 != 0) return@mapNotNull null
@@ -160,7 +167,7 @@ class HomeViewModel @Inject constructor(
             reviewDue = repo.dueReviewCount(reviews),
             stories = stories,
             bosses = bosses,
-            practiceUnlocked = repo.isFeatureUnlocked(com.linguamod.app.data.FeatureUnlocks.MIXED_PRACTICE),
+            practiceUnlocked = com.linguamod.app.data.FeatureUnlocks.MIXED_PRACTICE in unlockedFlags,
         )
     }
 

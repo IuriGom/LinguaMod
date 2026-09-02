@@ -458,6 +458,9 @@ class CourseRepository @Inject constructor(
     /** Live boss results: the Home boss overlays show won state from this. */
     val bossResultsFlow = db.bossDao().observeAll()
 
+    /** Live set of tripped feature flags, for gated UI (Stage 2B/4). */
+    val featureFlagsFlow = featureUnlocks.flagsFlow
+
     companion object {
         const val CHECKPOINT_INDEX = 4
         const val MAX_HEARTS = 5

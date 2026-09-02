@@ -151,6 +151,10 @@ class CompleteUnitsStage2JourneyTest {
                 assertEquals(n, db.progressDao().highestCompletedCheckpoint())
                 assertEquals(n, db.progressDao().countCompletedCheckpoints())
             }
+            // scroll back up: with Stage 4 path rows (stories/bosses/practice card)
+            // the top of the list is disposed when scrolled deep to unit 10
+            composeRule.onNodeWithTag("path_list")
+                .performScrollToNode(hasTestTag("progress_bars"))
             composeRule.waitUntilExactlyOneExists(hasTestTag("progress_bars"), 10_000)
             openUnitFromHome(n)
         }
