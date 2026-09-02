@@ -33,6 +33,7 @@ import androidx.navigation.navArgument
 import com.linguamod.app.data.ThemeCatalog
 import com.linguamod.app.data.ThemeStore
 import com.linguamod.app.ui.dictionary.DictionaryScreen
+import com.linguamod.app.ui.flashcard.FlashcardScreen
 import com.linguamod.app.ui.home.HomeScreen
 import com.linguamod.app.ui.lesson.LessonScreen
 import com.linguamod.app.ui.profile.ProfileScreen
@@ -50,6 +51,7 @@ object Routes {
     const val LESSON = "lesson/{unit}/{lesson}"
     const val CHECKPOINT = "checkpoint/{unit}"
     const val REVIEW = "review"
+    const val FLASHCARDS = "flashcards"
     fun unit(n: Int) = "unit/$n"
     fun lesson(unit: Int, lesson: Int) = "lesson/$unit/$lesson"
     fun checkpoint(unit: Int) = "checkpoint/$unit"
@@ -163,7 +165,9 @@ fun LinguaModAppContent() {
                         onOpenReview = { nav.navigate(Routes.REVIEW) },
                     )
                 }
-                composable(Routes.DICTIONARY) { DictionaryScreen() }
+                composable(Routes.DICTIONARY) {
+                    DictionaryScreen(onOpenFlashcards = { nav.navigate(Routes.FLASHCARDS) })
+                }
                 composable(Routes.PROFILE) { ProfileScreen() }
                 composable(
                     Routes.UNIT,
@@ -195,6 +199,9 @@ fun LinguaModAppContent() {
                 composable(Routes.REVIEW) {
                     // No unit argument → LessonViewModel runs in review mode (§5).
                     LessonScreen(isCheckpoint = false, onDone = { nav.popBackStack() })
+                }
+                composable(Routes.FLASHCARDS) {
+                    FlashcardScreen(onDone = { nav.popBackStack() })
                 }
             }
         }

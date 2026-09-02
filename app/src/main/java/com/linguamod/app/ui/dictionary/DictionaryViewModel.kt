@@ -27,7 +27,7 @@ class DictionaryViewModel @Inject constructor(
     // Only entries from units the user has started (highest unlocked unit).
     val entries: StateFlow<List<DictionaryEntryEntity>> = repo.plugin
         .flatMapLatest { plugin ->
-            val maxUnit = highestStartedUnit()
+            val maxUnit = repo.highestStartedUnit()
             db.dictionaryDao().observeUpToUnit(maxUnit)
         }
         .combine(query) { list, q ->
@@ -37,14 +37,6 @@ class DictionaryViewModel @Inject constructor(
             }
         }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
-
-    /** A unit counts as started once the user has opened any of its lessons. */
-    private suspend fun highestStartedUnit(): Int {
-        val progress = db.progressDao().getAllLessonProgress()
-        val startedUnits = progress.map { it.unitNumber }.toSet()
-        val unitNumbers = repo.plugin.value?.units?.mapNotNull { it.number } ?: listOf(1)
-        return unitNumbers.filter { it in startedUnits }.maxOrNull() ?: 0
-    }
 
     fun setQuery(q: String) { query.value = q }
 

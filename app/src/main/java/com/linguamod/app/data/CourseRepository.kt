@@ -5,6 +5,7 @@ import com.linguamod.app.core.Clock
 import com.linguamod.app.data.db.AppDatabase
 import com.linguamod.app.data.db.BadgeEntity
 import com.linguamod.app.data.db.DailyXpEntity
+import com.linguamod.app.data.db.DictionaryEntryEntity
 import com.linguamod.app.data.db.ExerciseResultEntity
 import com.linguamod.app.data.db.LessonProgressEntity
 import com.linguamod.app.data.db.ReviewItemEntity
@@ -173,6 +174,26 @@ class CourseRepository @Inject constructor(
             u.checkpoint?.exercises?.firstOrNull { it.id == exerciseId }?.let { return it }
         }
         return null
+    }
+
+    // --- flashcards (Stage 3 §6) ---
+
+    /**
+     * A unit counts as started once any of its lesson rows exists (the same
+     * gating rule as the dictionary, spec Stage 1 §7). Returns 0 when nothing
+     * has been started.
+     */
+    suspend fun highestStartedUnit(): Int {
+        val started = db.progressDao().getAllLessonProgress().map { it.unitNumber }.toSet()
+        val unitNumbers = _plugin.value?.units?.mapNotNull { it.number } ?: return 0
+        return unitNumbers.filter { it in started }.maxOrNull() ?: 0
+    }
+
+    /** Deck source: dictionary entries from units the user has started (§6). */
+    suspend fun flashcardEntries(): List<DictionaryEntryEntity> {
+        val maxUnit = highestStartedUnit()
+        if (maxUnit <= 0) return emptyList()
+        return db.dictionaryDao().getUpToUnit(maxUnit)
     }
 
     // --- hearts (Stage 2B §5): never block learning ---

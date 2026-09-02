@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.AssistChip
+import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
@@ -30,7 +31,10 @@ import com.linguamod.app.plugin.ExampleDto
 import com.linguamod.app.ui.common.SpeakerButton
 
 @Composable
-fun DictionaryScreen(vm: DictionaryViewModel = hiltViewModel()) {
+fun DictionaryScreen(
+    onOpenFlashcards: () -> Unit,
+    vm: DictionaryViewModel = hiltViewModel(),
+) {
     val entries by vm.entries.collectAsState()
     var q by remember { mutableStateOf("") }
 
@@ -44,6 +48,12 @@ fun DictionaryScreen(vm: DictionaryViewModel = hiltViewModel()) {
             label = { Text("Search") },
             singleLine = true,
         )
+        Spacer(Modifier.height(8.dp))
+        // Flashcards (Stage 3 §6): same started-units gating as the dictionary.
+        Button(
+            onClick = onOpenFlashcards,
+            modifier = Modifier.fillMaxWidth().testTag("dictionary_flashcards"),
+        ) { Text("Study flashcards") }
         Spacer(Modifier.height(8.dp))
         if (entries.isEmpty()) {
             Text(
