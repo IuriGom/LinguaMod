@@ -148,6 +148,14 @@ class GamificationTest {
         assertEquals(25, Levels.nextThreshold(1))
     }
 
+    @Test fun `level 2 triggers exactly on unit 25 checkpoint pass`() = runBlocking {
+        for (u in 1..24) repo.recordCheckpointAttempt(u, true, 0.9)
+        assertEquals(1, Levels.levelFor(db.progressDao().highestCompletedCheckpoint()))
+        repo.recordCheckpointAttempt(25, true, 0.9)
+        assertEquals(2, Levels.levelFor(db.progressDao().highestCompletedCheckpoint()))
+        assertEquals(40, Levels.nextThreshold(2))
+    }
+
     @Test fun `levels tolerate a plugin with only two units`() = runBlocking {
         repo.recordCheckpointAttempt(1, true, 0.9)
         repo.recordCheckpointAttempt(2, true, 0.9)
