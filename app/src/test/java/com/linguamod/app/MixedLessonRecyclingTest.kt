@@ -15,7 +15,7 @@ import org.junit.Test
  * (repo-root `plugins/it.lingua`, symlinked into assets — same location strategy as
  * [PluginValidatorTest]).
  *
- * Required assertion: for each unit 3..16, lesson 3 (the mixed lesson) references at
+ * Required assertion: for each unit 3..17, lesson 3 (the mixed lesson) references at
  * least one dictionary entry whose `introducedInUnit` is strictly earlier than the
  * unit number — i.e. mixed lessons recycle earlier vocabulary.
  *
@@ -39,7 +39,7 @@ class MixedLessonRecyclingTest {
     @Test
     fun `mixed lessons recycle vocabulary from earlier units`() {
         val units = root["units"]!!.jsonArray
-        assertEquals(16, units.size)
+        assertEquals(17, units.size)
         for (unit in units) {
             val u = unit.jsonObject
             val number = u["number"]!!.jsonPrimitive.int
@@ -63,7 +63,7 @@ class MixedLessonRecyclingTest {
                 10, checkpoint["exercises"]!!.jsonArray.size,
             )
 
-            if (number < 3) continue // recycling gate applies to units 3..16
+            if (number < 3) continue // recycling gate applies to units 3..17
             val mixed = lessons[2].jsonObject
             val refs = mixed["dictionaryRefs"]!!.jsonArray.map { it.jsonPrimitive.content }
             val recycled = refs.filter { (introducedInUnitById[it] ?: Int.MAX_VALUE) < number }

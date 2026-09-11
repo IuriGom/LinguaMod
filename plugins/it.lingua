@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 9,
+    "version": 10,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -11651,6 +11651,787 @@
           }
         ]
       }
+    },
+    {
+      "id": "u17",
+      "number": 17,
+      "title": "I numeri grandi",
+      "lessons": [
+        {
+          "id": "u17l1",
+          "type": "vocabulary",
+          "title": "Cento, mille — e il compleanno",
+          "dictionaryRefs": [
+            "cento",
+            "mille",
+            "il-compleanno",
+            "il-regalo",
+            "il-negozio",
+            "il-prezzo",
+            "la-festa"
+          ],
+          "exercises": [
+            {
+              "id": "u17l1e1",
+              "type": "multiple_choice",
+              "prompt": "What number is it?",
+              "question": "cento",
+              "options": [
+                "100",
+                "1000",
+                "10",
+                "60"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Cento' = 100. Invariable: cento euro, duecento euro (200), trecento (300)…",
+              "dictionaryRefs": [
+                "cento"
+              ]
+            },
+            {
+              "id": "u17l1e2",
+              "type": "multiple_choice",
+              "prompt": "What number is it?",
+              "question": "mille",
+              "options": [
+                "1000",
+                "100",
+                "10000",
+                "a million"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mille' = 1000. Its plural is irregular: duemila, tremila (2,000 / 3,000).",
+              "dictionaryRefs": [
+                "mille"
+              ]
+            },
+            {
+              "id": "u17l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "il compleanno",
+              "options": [
+                "the birthday",
+                "the party",
+                "the gift",
+                "the year"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il compleanno' (m) = the birthday. 💛 'Quando è il tuo compleanno?' — When is your birthday?",
+              "dictionaryRefs": [
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il regalo",
+              "options": [
+                "the gift; the present",
+                "the card",
+                "the cake",
+                "the price"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il regalo' (m) = the gift. 'Un regalo per Giulia.' — A gift for Giulia.",
+              "dictionaryRefs": [
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u17l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il negozio",
+              "options": [
+                "the shop; the store",
+                "the market",
+                "the restaurant",
+                "the office"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il negozio' (m) = the shop. 'Il negozio apre alle nove.' — The shop opens at nine.",
+              "dictionaryRefs": [
+                "il-negozio"
+              ]
+            },
+            {
+              "id": "u17l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il prezzo",
+              "options": [
+                "the price",
+                "the bill",
+                "the prize",
+                "the discount"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il prezzo' (m) = the price. 'Qual è il prezzo?' — What is the price? (You know 'qual è' from Unit 4.)",
+              "dictionaryRefs": [
+                "il-prezzo"
+              ]
+            },
+            {
+              "id": "u17l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la festa",
+              "options": [
+                "the party",
+                "the dinner",
+                "the birthday",
+                "the holiday"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La festa' (f) = the party. 'La festa è sabato.' — The party is on Saturday. 💛",
+              "dictionaryRefs": [
+                "la-festa"
+              ]
+            },
+            {
+              "id": "u17l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (It costs 100 euros.)",
+              "sentence": "Costa ___ euro.",
+              "answers": [
+                "cento",
+                "100"
+              ],
+              "explanation": "'Costa cento euro.' — cento never changes before a noun; euro never takes a plural (Unit 10).",
+              "dictionaryRefs": [
+                "cento",
+                "costare",
+                "euro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u17l2",
+          "type": "grammar",
+          "title": "Numeri, date e prezzi",
+          "dictionaryRefs": [
+            "cento",
+            "mille",
+            "il-compleanno",
+            "il-regalo",
+            "il-prezzo",
+            "la-festa",
+            "costare",
+            "euro"
+          ],
+          "grammarNotes": "I NUMERI GRANDI — the big numbers.\n\n• 100 cento, 200 duecento, 300 trecento … 900 novecento — cento never changes\n• 1,000 mille — 2,000 duemila, 3,000 tremila — irregular plural: -mila!\n• 100,000 centomila — 1,000,000 un milione (di + noun: un milione di euro)\n• Combine freely: 350 trecentocinquanta, 1.984 millenovecentoottantaquattro. No 'and', no spaces.\n\nLE DATE — dates:\n• 'Il tre maggio.' — May 3rd. The pattern: il + number + month.\n• The FIRST of the month is the exception: 'il primo maggio' — May 1st (primo, not uno).\n• 'Quando è il tuo compleanno?' — 'Il cinque giugno.' / 'È il cinque giugno.' 💛\n• Years: 2025 = duemilaventicinque. 'Sono nato nel 1999' comes later (past tense); for now read years as numbers.\n\nI PREZZI — prices in euros:\n• 'Costa due euro e cinquanta.' — It costs €2.50. (euro + e + cents)\n• 'Quanto costa?' / 'Quanto costano?' (Unit 10) work for any number.\n• 'Qual è il prezzo?' — What is the price?\n\nSHOPPING PHRASES: 'Vorrei questo.' (I would like this one — conditional grammar in Unit 41) and 'Il conto, per favore.' at the end (Unit 9).",
+          "exercises": [
+            {
+              "id": "u17l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The book costs 200 euros.)",
+              "sentence": "Il libro costa ___ euro.",
+              "answers": [
+                "duecento",
+                "200"
+              ],
+              "explanation": "'Duecento' = 200 — due + cento, one word. Trecento (300), quattrocento (400) follow the same pattern.",
+              "dictionaryRefs": [
+                "cento",
+                "il-libro",
+                "costare"
+              ]
+            },
+            {
+              "id": "u17l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (A thousand plus a thousand is two thousand.)",
+              "sentence": "Mille più mille fa ___.",
+              "answers": [
+                "duemila",
+                "2000",
+                "2.000"
+              ],
+              "explanation": "'Duemila' — the plural of mille is -mila: duemila, tremila, diecimila. ('Più' = plus, 'fa' = makes.)",
+              "dictionaryRefs": [
+                "mille"
+              ]
+            },
+            {
+              "id": "u17l2e3",
+              "type": "multiple_choice",
+              "prompt": "What number is it?",
+              "question": "trecentocinquanta",
+              "options": [
+                "350",
+                "305",
+                "315",
+                "450"
+              ],
+              "correctIndex": 0,
+              "explanation": "Trecento (300) + cinquanta (50) = 350. Big numbers are just small numbers glued together.",
+              "dictionaryRefs": [
+                "cento"
+              ]
+            },
+            {
+              "id": "u17l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "When is your birthday?",
+              "acceptedIt": [
+                "Quando è il tuo compleanno?",
+                "Quando è il tuo compleanno",
+                "Quando e' il tuo compleanno?",
+                "Quando è il tuo compleanno"
+              ],
+              "explanation": "'Quando è il tuo compleanno?' — quando + è + il tuo compleanno (il tuo: not family → article stays, Unit 14). 💛",
+              "dictionaryRefs": [
+                "quando",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "My birthday is on June 5th.",
+              "acceptedIt": [
+                "Il mio compleanno è il cinque giugno.",
+                "Il mio compleanno e' il cinque giugno",
+                "Il mio compleanno è il 5 giugno",
+                "Il mio compleanno è il cinque giugno"
+              ],
+              "explanation": "'Il mio compleanno è il cinque giugno.' — dates: il + number + month. Months take no capital: giugno.",
+              "dictionaryRefs": [
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 9+10 recycling)",
+              "sourceIt": "Il caffè costa un euro e venti.",
+              "acceptedEn": [
+                "The coffee costs one euro and twenty cents.",
+                "The coffee costs one euro twenty.",
+                "The coffee costs €1.20."
+              ],
+              "explanation": "'Un euro e venti' = €1.20 — euro + e + the cents. Prices read exactly like that at the bar.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u17l2e7",
+              "type": "multiple_choice",
+              "prompt": "Choose the meaning. (dates)",
+              "question": "il primo maggio",
+              "options": [
+                "May 1st",
+                "May 2nd",
+                "March 1st",
+                "the first of March"
+              ],
+              "correctIndex": 0,
+              "explanation": "The first of the month is 'il primo' — the only ordinal in dates. All other days: il due maggio, il tre maggio…",
+              "dictionaryRefs": [
+                "il-mese"
+              ]
+            },
+            {
+              "id": "u17l2e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Today is September 11th.)",
+              "sentence": "Oggi è ___ settembre.",
+              "answers": [
+                "l'undici",
+                "l'11",
+                "l 11"
+              ],
+              "explanation": "'Oggi è l'undici settembre.' — undici starts with a vowel, so il drops to l' (Unit 5's l' rule).",
+              "dictionaryRefs": [
+                "oggi",
+                "il-mese"
+              ]
+            },
+            {
+              "id": "u17l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "La",
+                "festa",
+                "è",
+                "sabato."
+              ],
+              "correctSentence": "La festa è sabato.",
+              "explanation": "'La festa è sabato.' — the party is on Saturday. The day alone, no preposition (Unit 16).",
+              "dictionaryRefs": [
+                "la-festa"
+              ]
+            },
+            {
+              "id": "u17l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Quando",
+                "è",
+                "il",
+                "tuo",
+                "compleanno?"
+              ],
+              "correctSentence": "Quando è il tuo compleanno?",
+              "explanation": "'Quando è il tuo compleanno?' — question word, è, then il tuo compleanno. 💛 Write the answer down.",
+              "dictionaryRefs": [
+                "quando",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Costa",
+                "trecento",
+                "euro."
+              ],
+              "correctSentence": "Costa trecento euro.",
+              "explanation": "'Costa trecento euro.' — costa (one thing) + trecento + invariable euro.",
+              "dictionaryRefs": [
+                "costare",
+                "cento",
+                "euro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u17l3",
+          "type": "mixed",
+          "title": "Al negozio: ripasso",
+          "dictionaryRefs": [
+            "il-libro",
+            "il-caffe",
+            "il-cappuccino",
+            "il-conto",
+            "costare",
+            "euro",
+            "quanti-anni-hai",
+            "il-compleanno",
+            "il-regalo",
+            "il-negozio",
+            "la-festa"
+          ],
+          "exercises": [
+            {
+              "id": "u17l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 5+10 recycling)",
+              "sourceEn": "The book costs fifteen euros.",
+              "acceptedIt": [
+                "Il libro costa quindici euro.",
+                "Il libro costa quindici euro",
+                "Il libro costa 15 euro"
+              ],
+              "explanation": "'Il libro costa quindici euro.' — il libro (Unit 5) + costa + quindici euro (Unit 4 number, invariable euro).",
+              "dictionaryRefs": [
+                "il-libro",
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u17l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Un regalo per Giulia.",
+              "options": [
+                "A gift for Giulia.",
+                "A party for Giulia.",
+                "A gift from Giulia.",
+                "Giulia's gift is here."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Un regalo per Giulia.' — per + person = for someone: per me, per te, per Giulia. 💛",
+              "dictionaryRefs": [
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u17l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The cappuccino costs two euros and fifty.)",
+              "sentence": "Il cappuccino costa due euro e ___.",
+              "answers": [
+                "cinquanta",
+                "50"
+              ],
+              "explanation": "'Due euro e cinquanta' = €2.50 — euro + e + cents. The same pattern as prices everywhere.",
+              "dictionaryRefs": [
+                "il-cappuccino",
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u17l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "La festa è il tre giugno.",
+              "acceptedEn": [
+                "The party is on June 3rd.",
+                "The party is on the 3rd of June."
+              ],
+              "explanation": "'La festa è il tre giugno.' — il + tre + giugno. Only the 1st uses primo: il primo giugno.",
+              "dictionaryRefs": [
+                "la-festa"
+              ]
+            },
+            {
+              "id": "u17l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (For the birthday: a gift.)",
+              "sentence": "Per il compleanno: un ___.",
+              "answers": [
+                "regalo"
+              ],
+              "explanation": "'Per il compleanno: un regalo.' — per + il compleanno (for the birthday); un regalo (masculine).",
+              "dictionaryRefs": [
+                "il-compleanno",
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u17l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 4 recycling)",
+              "question": "Quanti anni hai oggi?",
+              "options": [
+                "How old are you today?",
+                "How many years do you have today?",
+                "What year is it today?",
+                "How old is it today?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quanti anni hai oggi?' — the Unit 4 question + oggi: how old are you (as of) today? 💛 A birthday classic.",
+              "dictionaryRefs": [
+                "quanti-anni-hai",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u17l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 9+15 recycling)",
+              "tokens": [
+                "Il",
+                "conto",
+                "è",
+                "quarantadue",
+                "euro."
+              ],
+              "correctSentence": "Il conto è quarantadue euro.",
+              "explanation": "'Il conto è quarantadue euro.' — the bill IS forty-two euros. Numbers just glue: quaranta + due.",
+              "dictionaryRefs": [
+                "il-conto",
+                "euro"
+              ]
+            },
+            {
+              "id": "u17l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "A gift for Giulia's birthday.",
+              "acceptedIt": [
+                "Un regalo per il compleanno di Giulia.",
+                "Un regalo per il compleanno di Giulia",
+                "Un regalo per il compleanno di Giulia!"
+              ],
+              "explanation": "'Un regalo per il compleanno di Giulia.' — di + name shows possession: il compleanno di Giulia = Giulia's birthday.",
+              "dictionaryRefs": [
+                "il-regalo",
+                "il-compleanno"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u17l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "cento",
+            "mille",
+            "il-compleanno",
+            "il-regalo",
+            "la-festa",
+            "il-conto",
+            "costare",
+            "euro"
+          ],
+          "exercises": [
+            {
+              "id": "u17l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Costa centocinquanta euro.",
+              "options": [
+                "It costs 150 euros.",
+                "It costs 115 euros.",
+                "It costs 1,500 euros.",
+                "It costs 105 euros."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Costa centocinquanta euro.' — cento + cinquanta = 150. Listen for the blocks: hundred, then tens.",
+              "dictionaryRefs": [
+                "cento",
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u17l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Il mio compleanno è in maggio.",
+              "acceptedIt": [
+                "Il mio compleanno è in maggio.",
+                "Il mio compleanno è in maggio",
+                "Il mio compleanno e' in maggio"
+              ],
+              "explanation": "You heard: 'Il mio compleanno è in maggio.' — in + month for 'in May': in maggio, in giugno…",
+              "dictionaryRefs": [
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Quando è il tuo compleanno?",
+              "options": [
+                "When is your birthday?",
+                "When is your party?",
+                "What is your gift?",
+                "How old are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Quando è il tuo compleanno?' — When is your birthday? 💛 Listen for compleanno.",
+              "dictionaryRefs": [
+                "quando",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: The bill is thirty-eight euros.",
+              "targetIt": "Il conto è trentotto euro.",
+              "minAccuracy": 0.7,
+              "explanation": "'Il conto è trentotto euro.' — trenta drops the -a before otto: trentotto (like ventotto, Unit 4).",
+              "dictionaryRefs": [
+                "il-conto",
+                "euro"
+              ]
+            },
+            {
+              "id": "u17l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: when is your birthday? 💛",
+              "targetIt": "Quando è il tuo compleanno?",
+              "minAccuracy": 0.7,
+              "explanation": "'Quando è il tuo compleanno?' — KWAN-do e il TU-o com-ple-AN-no. 💛",
+              "dictionaryRefs": [
+                "quando",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u17l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "La festa è sabato.",
+              "acceptedIt": [
+                "La festa è sabato.",
+                "La festa è sabato",
+                "La festa e' sabato"
+              ],
+              "explanation": "You heard: 'La festa è sabato.' — The party is on Saturday. Day alone, no preposition.",
+              "dictionaryRefs": [
+                "la-festa"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u17c",
+        "exercises": [
+          {
+            "id": "u17ce1",
+            "type": "multiple_choice",
+            "prompt": "What number is it?",
+            "question": "mille",
+            "options": [
+              "1,000",
+              "100",
+              "10,000",
+              "1,000,000"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Mille' = 1,000; plural -mila: duemila, tremila. A million is 'un milione'.",
+            "dictionaryRefs": [
+              "mille"
+            ]
+          },
+          {
+            "id": "u17ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The shop opens at nine.)",
+            "sentence": "Il negozio ___ alle nove.",
+            "answers": [
+              "apre"
+            ],
+            "explanation": "'Il negozio apre alle nove.' — aprire (to open), lui/lei form: apre. Alle nove = at nine (Unit 16).",
+            "dictionaryRefs": [
+              "il-negozio"
+            ]
+          },
+          {
+            "id": "u17ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 9+10 recycling)",
+            "sourceEn": "The coffee costs two euros.",
+            "acceptedIt": [
+              "Il caffè costa due euro.",
+              "Il caffè costa due euro",
+              "Il caffe costa due euro",
+              "Il caffè costa 2 euro"
+            ],
+            "explanation": "'Il caffè costa due euro.' — costa (singular) + due + invariable euro.",
+            "dictionaryRefs": [
+              "il-caffe",
+              "costare",
+              "euro"
+            ]
+          },
+          {
+            "id": "u17ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Il mio compleanno è il primo agosto.",
+            "acceptedEn": [
+              "My birthday is on August 1st.",
+              "My birthday is on the 1st of August."
+            ],
+            "explanation": "'Il mio compleanno è il primo agosto.' — the 1st is always il primo; every other day is il + number.",
+            "dictionaryRefs": [
+              "il-compleanno"
+            ]
+          },
+          {
+            "id": "u17ce5",
+            "type": "multiple_choice",
+            "prompt": "What number is it?",
+            "question": "duemilaventicinque",
+            "options": [
+              "2025",
+              "225",
+              "2005",
+              "2525"
+            ],
+            "correctIndex": 0,
+            "explanation": "Duemila (2,000) + venticinque (25) = 2025. Years read as plain numbers: duemilaventicinque.",
+            "dictionaryRefs": [
+              "mille"
+            ]
+          },
+          {
+            "id": "u17ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The gift costs forty euros.)",
+            "sentence": "Il regalo ___ quaranta euro.",
+            "answers": [
+              "costa"
+            ],
+            "explanation": "'Il regalo costa quaranta euro.' — one gift → costa; two gifts → costano (Unit 10).",
+            "dictionaryRefs": [
+              "il-regalo",
+              "costare",
+              "euro"
+            ]
+          },
+          {
+            "id": "u17ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "La",
+              "festa",
+              "è",
+              "il",
+              "dieci",
+              "ottobre."
+            ],
+            "correctSentence": "La festa è il dieci ottobre.",
+            "explanation": "'La festa è il dieci ottobre.' — the party is on October 10th: il + number + month.",
+            "dictionaryRefs": [
+              "la-festa"
+            ]
+          },
+          {
+            "id": "u17ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 16 recycling)",
+            "mode": "choice",
+            "speakIt": "Sono le sedici e quarantacinque.",
+            "options": [
+              "It's 4:45 pm.",
+              "It's 6:45 pm.",
+              "It's 4:45 am.",
+              "It's 5:45 pm."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Sono le sedici e quarantacinque.' — 16:45 official time = 4:45 pm (le cinque meno un quarto).",
+            "dictionaryRefs": [
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u17ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Un regalo per te.",
+            "acceptedIt": [
+              "Un regalo per te.",
+              "Un regalo per te"
+            ],
+            "explanation": "You heard: 'Un regalo per te.' — A gift for you. Per + te, like per me (Unit 9). 💛",
+            "dictionaryRefs": [
+              "il-regalo"
+            ]
+          },
+          {
+            "id": "u17ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: My birthday is on June 5th.",
+            "targetIt": "Il mio compleanno è il cinque giugno.",
+            "minAccuracy": 0.7,
+            "explanation": "'Il mio compleanno è il cinque giugno.' — com-ple-AN-no, then il + cinque + giugno (JOO-nyo).",
+            "dictionaryRefs": [
+              "il-compleanno"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -13414,6 +14195,119 @@
         }
       ],
       "introducedInUnit": 16
+    },
+    {
+      "id": "cento",
+      "word": "cento",
+      "translation": "one hundred (100)",
+      "partOfSpeech": "number",
+      "examples": [
+        {
+          "it": "Il libro costa cento euro.",
+          "en": "The book costs a hundred euros."
+        }
+      ],
+      "introducedInUnit": 17
+    },
+    {
+      "id": "mille",
+      "word": "mille",
+      "translation": "one thousand (1,000; plural -mila)",
+      "partOfSpeech": "number",
+      "examples": [
+        {
+          "it": "Mille più mille fa duemila.",
+          "en": "A thousand plus a thousand makes two thousand."
+        }
+      ],
+      "introducedInUnit": 17
+    },
+    {
+      "id": "il-compleanno",
+      "word": "compleanno",
+      "article": "il",
+      "translation": "birthday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il mio compleanno è il cinque giugno.",
+          "en": "My birthday is on June 5th."
+        },
+        {
+          "it": "Quando è il tuo compleanno?",
+          "en": "When is your birthday?"
+        }
+      ],
+      "introducedInUnit": 17
+    },
+    {
+      "id": "il-regalo",
+      "word": "regalo",
+      "article": "il",
+      "translation": "gift; present",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un regalo per Giulia.",
+          "en": "A gift for Giulia."
+        },
+        {
+          "it": "Il regalo costa quaranta euro.",
+          "en": "The gift costs forty euros."
+        }
+      ],
+      "introducedInUnit": 17
+    },
+    {
+      "id": "il-negozio",
+      "word": "negozio",
+      "article": "il",
+      "translation": "shop; store",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il negozio apre alle nove.",
+          "en": "The shop opens at nine."
+        }
+      ],
+      "introducedInUnit": 17
+    },
+    {
+      "id": "il-prezzo",
+      "word": "prezzo",
+      "article": "il",
+      "translation": "price",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Qual è il prezzo?",
+          "en": "What is the price?"
+        }
+      ],
+      "introducedInUnit": 17
+    },
+    {
+      "id": "la-festa",
+      "word": "festa",
+      "article": "la",
+      "translation": "party",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La festa è sabato.",
+          "en": "The party is on Saturday."
+        },
+        {
+          "it": "La festa è il tre giugno.",
+          "en": "The party is on June 3rd."
+        }
+      ],
+      "introducedInUnit": 17
     }
   ],
   "stories": [
