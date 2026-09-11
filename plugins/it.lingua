@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 16,
+    "version": 17,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -6382,7 +6382,7 @@
             "la-mattina",
             "la-sera"
           ],
-          "grammarNotes": "TELLING TIME:\n• 'Che ore sono?' — What time is it? (literally 'what hours are they?')\n• 'È l'una.' — It's one o'clock. (singular — only for one!)\n• 'Sono le due / le tre / le dieci…' — It's two / three / ten o'clock. (plural: sono le + number)\n• 'Sono le tre e mezza.' — It's half past three.\n• 'Sono le otto meno dieci.' — It's ten to eight. (literally 'eight minus ten')\n\nTIMES OF DAY: la mattina → 'di mattina', il pomeriggio → 'di pomeriggio', la sera → 'di sera':\n'Vado al bar alle otto di mattina.' — I go to the bar at eight in the morning.\n\nPRICES with COSTARE (to cost):\n• 'Quanto costa?' — How much does it cost? (one thing)\n• 'Quanto costano?' — How much do they cost? (several things)\n• 'Il caffè costa un euro.' — The coffee costs one euro.\n• 'I cornetti costano quattro euro.' — The croissants cost four euros.\n\nEURO is invariable: un euro, due euro, cento euro — it never changes.",
+          "grammarNotes": "TELLING TIME:\n• 'Che ore sono?' — What time is it? (literally 'what hours are they?')\n• 'È l'una.' — It's one o'clock. (singular — only for one!)\n• 'Sono le due / le tre / le dieci…' — It's two / three / ten o'clock. (plural: sono le + number)\n• 'Sono le tre e mezza.' — It's half past three.\n• 'Sono le otto meno dieci.' — It's ten to eight. (literally 'eight minus ten')\n\nTIMES OF DAY: la mattina → 'di mattina', il pomeriggio → 'di pomeriggio', la sera → 'di sera':\n'Vado al bar alle otto di mattina.' — I go to the bar at eight in the morning.\n\nPRICES with the verb costare (to cost):\n• 'Quanto costa?' — How much does it cost? (one thing)\n• 'Quanto costano?' — How much do they cost? (several things)\n• 'Il caffè costa un euro.' — The coffee costs one euro.\n• 'I cornetti costano quattro euro.' — The croissants cost four euros.\n\nEURO is invariable: un euro, due euro, cento euro — it never changes.",
           "exercises": [
             {
               "id": "u10l2e1",
@@ -17104,6 +17104,775 @@
           }
         ]
       }
+    },
+    {
+      "id": "u24",
+      "number": 24,
+      "title": "Il corpo e la salute",
+      "lessons": [
+        {
+          "id": "u24l1",
+          "type": "vocabulary",
+          "title": "La testa, le mani, il corpo",
+          "dictionaryRefs": [
+            "stare",
+            "la-testa",
+            "la-mano",
+            "il-corpo",
+            "malato",
+            "come-stai"
+          ],
+          "exercises": [
+            {
+              "id": "u24l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la testa",
+              "options": [
+                "the head",
+                "the hand",
+                "the hair",
+                "the face"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La testa' (f) = the head. 'Ho mal di testa.' — I have a headache (literally: I have bad of head).",
+              "dictionaryRefs": [
+                "la-testa"
+              ]
+            },
+            {
+              "id": "u24l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la mano",
+              "options": [
+                "the hand",
+                "the arm",
+                "the finger",
+                "the foot"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mano' (f) = the hand. Plural: le mani (o → i, irregular!). 'Ho due mani.' — I have two hands.",
+              "dictionaryRefs": [
+                "la-mano"
+              ]
+            },
+            {
+              "id": "u24l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il corpo",
+              "options": [
+                "the body",
+                "the skin",
+                "the heart",
+                "the stomach"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il corpo' (m) = the body. 'Il corpo è stanco.' — The body is tired.",
+              "dictionaryRefs": [
+                "il-corpo",
+                "stanco"
+              ]
+            },
+            {
+              "id": "u24l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "malato",
+              "options": [
+                "sick; ill",
+                "tired",
+                "sad",
+                "in pain"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Malato' = sick. An -o adjective: malato, malata, malati, malate. 'Marco è malato.' / 'Giulia è malata.'",
+              "dictionaryRefs": [
+                "malato"
+              ]
+            },
+            {
+              "id": "u24l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Come stai?",
+              "options": [
+                "How are you? (health, mood)",
+                "What are you like?",
+                "Where are you?",
+                "How old are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Come stai?' — How are you, right now? Compare 'Com'è?' (Unit 13): what is someone LIKE. Stai = stare, next lesson.",
+              "dictionaryRefs": [
+                "come-stai",
+                "com-e"
+              ]
+            },
+            {
+              "id": "u24l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have a headache.)",
+              "sentence": "Ho mal di ___.",
+              "answers": [
+                "testa"
+              ],
+              "explanation": "'Ho mal di testa.' — avere + mal di + the body part: mal di testa (head), mal di denti (teeth).",
+              "dictionaryRefs": [
+                "la-testa"
+              ]
+            },
+            {
+              "id": "u24l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have two hands.)",
+              "sentence": "Ho due ___.",
+              "answers": [
+                "mani"
+              ],
+              "explanation": "'Ho due mani.' — the plural of la mano is irregular: le mani (not 'le mane'). One of the few to memorize.",
+              "dictionaryRefs": [
+                "la-mano"
+              ]
+            },
+            {
+              "id": "u24l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Come stai?",
+              "acceptedEn": [
+                "How are you?",
+                "How are you doing?"
+              ],
+              "explanation": "'Come stai?' — the everyday how-are-you. Answer it with 'Sto bene' — next lesson.",
+              "dictionaryRefs": [
+                "come-stai"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u24l2",
+          "type": "grammar",
+          "title": "Stare o essere? Come stai, davvero",
+          "dictionaryRefs": [
+            "stare",
+            "come-stai",
+            "malato",
+            "la-testa",
+            "il-corpo",
+            "stanco",
+            "contento",
+            "bene",
+            "oggi",
+            "molto"
+          ],
+          "grammarNotes": "STARE vs essere — two verbs for 'to be', two different jobs.\n\nSTARE (health, mood, how things are going) — the full present:\n\nio sto — tu stai — lui/lei sta — noi stiamo — voi state — loro stanno\n\n• 'Come stai?' — How are you? — 'Sto bene, grazie.' / 'Sto male.' (I'm unwell) / 'Così così.' (so-so)\n• Health uses stare: 'Non sto bene oggi.' — I'm not well today.\n• essere stays for WHO/WHAT you are: 'Sono Alex.', 'Sono americano.', 'Sono stanco.' — identity, origin, states.\n\nWHY the split: stare asks about your CONDITION right now; essere says what you ARE. Compare the two questions you know: 'Come stai?' (how are you feeling) vs 'Com'è?' (Unit 13: what is he/she like).\n\nMAL DI… — aches with avere: 'Ho mal di testa.' — I have a headache. 'Ho mal di denti.' — I have a toothache (i denti = the teeth). The pattern: ho + mal di + body part.\n\nPREVIEW — set phrase only, real grammar in Stage 6: stare + -ando/-endo = happening right now. 'Sto lavorando.' — I'm working (right now). 'Sto mangiando.' — I'm eating. For now, learn 'Sto bene' solid.",
+          "exercises": [
+            {
+              "id": "u24l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the dialogue. (How are you? — I'm well.)",
+              "sentence": "Come ___? — Sto bene.",
+              "answers": [
+                "stai"
+              ],
+              "explanation": "'Come stai? — Sto bene.' — the question and the answer both use stare: stai (tu), sto (io).",
+              "dictionaryRefs": [
+                "come-stai",
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u24l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I am well, thanks.)",
+              "sentence": "Io ___ bene, grazie.",
+              "answers": [
+                "sto"
+              ],
+              "explanation": "'Io sto bene, grazie.' — stare for how you feel: sto. Essere would answer what you ARE.",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u24l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia is unwell today.)",
+              "sentence": "Giulia ___ male oggi.",
+              "answers": [
+                "sta"
+              ],
+              "explanation": "'Giulia sta male oggi.' — stare, lui/lei-form: sta. Stare male = to feel bad.",
+              "dictionaryRefs": [
+                "stare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u24l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (We are well.)",
+              "sentence": "Noi ___ bene.",
+              "answers": [
+                "stiamo"
+              ],
+              "explanation": "'Noi stiamo bene.' — stare with noi: stiamo (the -iamo ending you know from every family).",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u24l2e5",
+              "type": "multiple_choice",
+              "prompt": "Stare or essere? (Alex is American.) (Unit 2 recycling)",
+              "question": "Alex ___ americano.",
+              "options": [
+                "è",
+                "sta",
+                "stai",
+                "sto"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Alex è americano.' — identity/nationality = essere. Health and mood = stare. 'Alex sta bene' vs 'Alex è americano.'",
+              "dictionaryRefs": [
+                "stare",
+                "americano"
+              ]
+            },
+            {
+              "id": "u24l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "How are you? — I'm well, thanks.",
+              "acceptedIt": [
+                "Come stai? Sto bene, grazie.",
+                "Come stai? Sto bene grazie",
+                "Come stai, sto bene, grazie",
+                "Come stai? Sto bene, grazie"
+              ],
+              "explanation": "'Come stai? Sto bene, grazie.' — the complete exchange. Grazie (Unit 1) closes it politely.",
+              "dictionaryRefs": [
+                "come-stai",
+                "stare",
+                "bene",
+                "grazie"
+              ]
+            },
+            {
+              "id": "u24l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I have a headache.",
+              "acceptedIt": [
+                "Ho mal di testa.",
+                "Ho mal di testa",
+                "Io ho mal di testa"
+              ],
+              "explanation": "'Ho mal di testa.' — ho (avere) + mal di + testa. Same skeleton as 'Ho fame' (Unit 6).",
+              "dictionaryRefs": [
+                "la-testa",
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u24l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Non sto bene oggi.",
+              "acceptedEn": [
+                "I'm not well today.",
+                "I am not well today.",
+                "I don't feel well today."
+              ],
+              "explanation": "'Non sto bene oggi.' — non + sto bene + oggi. Health = stare, negated like any verb (Unit 7).",
+              "dictionaryRefs": [
+                "stare",
+                "bene",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u24l2e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 6+22 recycling)",
+              "sourceIt": "Sono stanco, ma sto bene.",
+              "acceptedEn": [
+                "I'm tired, but I'm well.",
+                "I am tired but I am well."
+              ],
+              "explanation": "'Sono stanco, ma sto bene.' — essere for the state (stanco), stare for how you're doing, ma (Unit 22) to join them.",
+              "dictionaryRefs": [
+                "stanco",
+                "stare",
+                "ma"
+              ]
+            },
+            {
+              "id": "u24l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 13 recycling)",
+              "tokens": [
+                "Sto",
+                "molto",
+                "bene."
+              ],
+              "correctSentence": "Sto molto bene.",
+              "explanation": "'Sto molto bene.' — sto + molto (Unit 13, invariable) + bene. I'm very well.",
+              "dictionaryRefs": [
+                "stare",
+                "molto",
+                "bene"
+              ]
+            },
+            {
+              "id": "u24l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Come",
+                "stai",
+                "oggi?"
+              ],
+              "correctSentence": "Come stai oggi?",
+              "explanation": "'Come stai oggi?' — come + stai + oggi. How are you TODAY — condition, not identity.",
+              "dictionaryRefs": [
+                "come-stai",
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u24l3",
+          "type": "mixed",
+          "title": "Come stai davvero — ripasso",
+          "dictionaryRefs": [
+            "stanco",
+            "contento",
+            "triste",
+            "la-fame",
+            "la-sete",
+            "lavorare",
+            "oggi",
+            "malato",
+            "stare",
+            "come-stai",
+            "la-testa",
+            "il-corpo"
+          ],
+          "exercises": [
+            {
+              "id": "u24l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Come stai?",
+              "options": [
+                "How are you?",
+                "What are you like?",
+                "Where are you?",
+                "How old are you?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Come stai?' — How are you (feeling)? Compare: 'Com'è?' = what is he/she like (Unit 13), 'Quanti anni hai?' = how old (Unit 4).",
+              "dictionaryRefs": [
+                "come-stai"
+              ]
+            },
+            {
+              "id": "u24l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have a headache.)",
+              "sentence": "Ho ___ di testa.",
+              "answers": [
+                "mal"
+              ],
+              "explanation": "'Ho mal di testa.' — mal di + body part. Mal alone means 'bad(ly)': it's the same root as 'male'.",
+              "dictionaryRefs": [
+                "la-testa"
+              ]
+            },
+            {
+              "id": "u24l3e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 6+22 recycling)",
+              "sourceEn": "Are you tired? — Yes, but I'm well.",
+              "acceptedIt": [
+                "Sei stanco? Sì, ma sto bene.",
+                "Sei stanco? Si, ma sto bene",
+                "Sei stanco, si, ma sto bene",
+                "Sei stanca? Sì, ma sto bene"
+              ],
+              "explanation": "'Sei stanco? Sì, ma sto bene.' — essere for tired (a state), stare for how you ARE doing, ma to contrast (Unit 22).",
+              "dictionaryRefs": [
+                "stanco",
+                "ma",
+                "stare"
+              ]
+            },
+            {
+              "id": "u24l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 6+22 recycling)",
+              "sourceIt": "Ho fame, ma non ho sete.",
+              "acceptedEn": [
+                "I'm hungry, but I'm not thirsty.",
+                "I am hungry but I am not thirsty."
+              ],
+              "explanation": "'Ho fame, ma non ho sete.' — avere for hunger and thirst (Unit 6), ma for the contrast (Unit 22).",
+              "dictionaryRefs": [
+                "la-fame",
+                "la-sete",
+                "ma"
+              ]
+            },
+            {
+              "id": "u24l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco is tired, but he is well.) (Unit 6 recycling)",
+              "sentence": "Marco è stanco, ma ___ bene.",
+              "answers": [
+                "sta"
+              ],
+              "explanation": "'Marco è stanco, ma sta bene.' — è stanco (identity-ish state, essere) vs sta bene (how he's doing, stare).",
+              "dictionaryRefs": [
+                "stanco",
+                "stare",
+                "ma"
+              ]
+            },
+            {
+              "id": "u24l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Sto male: ho mal di testa.",
+              "options": [
+                "I feel bad: I have a headache.",
+                "I feel bad: my head is beautiful.",
+                "I'm sick: I have two heads.",
+                "I feel bad: I hate my head."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sto male: ho mal di testa.' — stare male (to feel bad) + the mal di testa pattern. The two halves rhyme on purpose.",
+              "dictionaryRefs": [
+                "stare",
+                "la-testa"
+              ]
+            },
+            {
+              "id": "u24l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Sto",
+                "bene,",
+                "e",
+                "tu?"
+              ],
+              "correctSentence": "Sto bene, e tu?",
+              "explanation": "'Sto bene, e tu?' — answer + e tu (and you?). 💛 The ping-pong of every Italian conversation.",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u24l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 7 recycling)",
+              "sourceEn": "How are you today?",
+              "acceptedIt": [
+                "Come stai oggi?",
+                "Come stai oggi",
+                "Tu come stai oggi?"
+              ],
+              "explanation": "'Come stai oggi?' — come + stai + oggi (Unit 7). The deepened greeting.",
+              "dictionaryRefs": [
+                "come-stai",
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u24l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "stare",
+            "come-stai",
+            "la-testa",
+            "bene",
+            "oggi",
+            "grazie",
+            "malato"
+          ],
+          "exercises": [
+            {
+              "id": "u24l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Sto bene, grazie.",
+              "options": [
+                "I'm well, thanks.",
+                "I'm tired, thanks.",
+                "I'm sick, thanks.",
+                "I'm here, thanks."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sto bene, grazie.' — the standard answer to 'Come stai?'",
+              "dictionaryRefs": [
+                "stare",
+                "bene",
+                "grazie"
+              ]
+            },
+            {
+              "id": "u24l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Come stai?",
+              "acceptedIt": [
+                "Come stai?",
+                "Come stai"
+              ],
+              "explanation": "You heard: 'Come stai?' — How are you? Two quick syllables: KO-me STAI.",
+              "dictionaryRefs": [
+                "come-stai"
+              ]
+            },
+            {
+              "id": "u24l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Ho mal di testa.",
+              "options": [
+                "I have a headache.",
+                "I have a toothache.",
+                "My head is big.",
+                "I have two heads."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ho mal di testa.' — I have a headache. Listen for testa.",
+              "dictionaryRefs": [
+                "la-testa"
+              ]
+            },
+            {
+              "id": "u24l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'm well, and you? 💛",
+              "targetIt": "Sto bene, e tu?",
+              "minAccuracy": 0.7,
+              "explanation": "'Sto bene, e tu?' — sto BE-ne, e TU. Return the question; it's polite. 💛",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u24l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'm not well today.",
+              "targetIt": "Non sto bene oggi.",
+              "minAccuracy": 0.7,
+              "explanation": "'Non sto bene oggi.' — non sto BE-ne OJ-ji. For the days when 'sto bene' isn't true.",
+              "dictionaryRefs": [
+                "stare",
+                "bene",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u24l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Stiamo bene.",
+              "acceptedIt": [
+                "Stiamo bene.",
+                "Stiamo bene",
+                "Noi stiamo bene"
+              ],
+              "explanation": "You heard: 'Stiamo bene.' — We are well. Noi + stare → stiamo.",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u24c",
+        "exercises": [
+          {
+            "id": "u24ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la mano",
+            "options": [
+              "the hand",
+              "the head",
+              "the arm",
+              "the foot"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La mano' (f) = the hand. Plural: le mani — irregular, memorize it.",
+            "dictionaryRefs": [
+              "la-mano"
+            ]
+          },
+          {
+            "id": "u24ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the question. (How are you?)",
+            "sentence": "Come ___?",
+            "answers": [
+              "stai"
+            ],
+            "explanation": "'Come stai?' — tu + stare → stai. Health questions use stare, not essere.",
+            "dictionaryRefs": [
+              "come-stai",
+              "stare"
+            ]
+          },
+          {
+            "id": "u24ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "I'm not well today.",
+            "acceptedIt": [
+              "Non sto bene oggi.",
+              "Non sto bene oggi",
+              "Io non sto bene oggi"
+            ],
+            "explanation": "'Non sto bene oggi.' — non + sto bene + oggi.",
+            "dictionaryRefs": [
+              "stare",
+              "bene",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u24ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Loro stanno bene.",
+            "acceptedEn": [
+              "They are well.",
+              "They are doing well."
+            ],
+            "explanation": "'Loro stanno bene.' — stare with loro: stanno. The full set: sto, stai, sta, stiamo, state, stanno.",
+            "dictionaryRefs": [
+              "stare",
+              "bene"
+            ]
+          },
+          {
+            "id": "u24ce5",
+            "type": "multiple_choice",
+            "prompt": "Stare or essere? (Alex is American.) (Unit 2 recycling)",
+            "question": "Alex ___ americano.",
+            "options": [
+              "è",
+              "sta",
+              "stai",
+              "sto"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Alex è americano.' — identity = essere. How he's feeling = stare: 'Alex sta bene.'",
+            "dictionaryRefs": [
+              "stare",
+              "americano"
+            ]
+          },
+          {
+            "id": "u24ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I have a headache.)",
+            "sentence": "Ho mal di ___.",
+            "answers": [
+              "testa"
+            ],
+            "explanation": "'Ho mal di testa.' — ho + mal di + testa. The ache pattern: mal di + body part.",
+            "dictionaryRefs": [
+              "la-testa"
+            ]
+          },
+          {
+            "id": "u24ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Sto",
+              "male",
+              "oggi."
+            ],
+            "correctSentence": "Sto male oggi.",
+            "explanation": "'Sto male oggi.' — sto + male (badly) + oggi. I feel bad today.",
+            "dictionaryRefs": [
+              "stare",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u24ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Come state?",
+            "options": [
+              "How are you all?",
+              "How are you?",
+              "How is he?",
+              "How are they?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Come state?' — voi + stare → state: How are you (all)? The plural of 'Come stai?'",
+            "dictionaryRefs": [
+              "come-stai",
+              "stare"
+            ]
+          },
+          {
+            "id": "u24ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Sto bene.",
+            "acceptedIt": [
+              "Sto bene.",
+              "Sto bene",
+              "Io sto bene"
+            ],
+            "explanation": "You heard: 'Sto bene.' — I'm well. The answer to know by heart.",
+            "dictionaryRefs": [
+              "stare",
+              "bene"
+            ]
+          },
+          {
+            "id": "u24ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: how are you? 💛",
+            "targetIt": "Come stai?",
+            "minAccuracy": 0.7,
+            "explanation": "'Come stai?' — KO-me STAI. 💛 And mean it — Italians answer honestly.",
+            "dictionaryRefs": [
+              "come-stai"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -19649,6 +20418,98 @@
         }
       ],
       "introducedInUnit": 23
+    },
+    {
+      "id": "stare",
+      "word": "stare",
+      "translation": "to be (health, mood); to stay",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Sto bene, grazie.",
+          "en": "I'm well, thanks."
+        },
+        {
+          "it": "Come stai?",
+          "en": "How are you?"
+        }
+      ],
+      "introducedInUnit": 24
+    },
+    {
+      "id": "la-testa",
+      "word": "testa",
+      "article": "la",
+      "translation": "head",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho mal di testa.",
+          "en": "I have a headache."
+        }
+      ],
+      "introducedInUnit": 24
+    },
+    {
+      "id": "la-mano",
+      "word": "mano",
+      "article": "la",
+      "translation": "hand (plural: le mani)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho due mani.",
+          "en": "I have two hands."
+        }
+      ],
+      "introducedInUnit": 24
+    },
+    {
+      "id": "il-corpo",
+      "word": "corpo",
+      "article": "il",
+      "translation": "body",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il corpo è stanco.",
+          "en": "The body is tired."
+        }
+      ],
+      "introducedInUnit": 24
+    },
+    {
+      "id": "malato",
+      "word": "malato",
+      "translation": "sick; ill",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Marco è malato.",
+          "en": "Marco is sick."
+        },
+        {
+          "it": "Giulia è malata.",
+          "en": "Giulia is sick."
+        }
+      ],
+      "introducedInUnit": 24
+    },
+    {
+      "id": "come-stai",
+      "word": "come stai",
+      "translation": "how are you?",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Come stai? — Sto bene, e tu?",
+          "en": "How are you? — I'm well, and you?"
+        }
+      ],
+      "introducedInUnit": 24
     }
   ],
   "stories": [
