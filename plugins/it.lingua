@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 10,
+    "version": 11,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -12432,6 +12432,776 @@
           }
         ]
       }
+    },
+    {
+      "id": "u18",
+      "number": 18,
+      "title": "In città",
+      "lessons": [
+        {
+          "id": "u18l1",
+          "type": "vocabulary",
+          "title": "La stazione, il museo, la piazza",
+          "dictionaryRefs": [
+            "la-citta",
+            "la-stazione",
+            "il-museo",
+            "la-piazza",
+            "la-via",
+            "a-destra",
+            "a-sinistra",
+            "sempre-dritto"
+          ],
+          "exercises": [
+            {
+              "id": "u18l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la città",
+              "options": [
+                "the city",
+                "the country",
+                "the street",
+                "the station"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La città' (f) = the city. 'Vado in città.' — I go into town. The -tà ending is always feminine.",
+              "dictionaryRefs": [
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u18l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la stazione",
+              "options": [
+                "the (train) station",
+                "the airport",
+                "the museum",
+                "the square"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La stazione' (f) = the station. 'Dov'è la stazione?' — Where is the station? The traveler's first question.",
+              "dictionaryRefs": [
+                "la-stazione"
+              ]
+            },
+            {
+              "id": "u18l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il museo",
+              "options": [
+                "the museum",
+                "the church",
+                "the theater",
+                "the shop"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il museo' (m) = the museum. 'Il museo apre alle dieci.' — The museum opens at ten.",
+              "dictionaryRefs": [
+                "il-museo"
+              ]
+            },
+            {
+              "id": "u18l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la piazza",
+              "options": [
+                "the square",
+                "the street",
+                "the bridge",
+                "the park"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La piazza' (f) = the (town) square — the heart of every Italian city, where the bar and the people are.",
+              "dictionaryRefs": [
+                "la-piazza"
+              ]
+            },
+            {
+              "id": "u18l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la via",
+              "options": [
+                "the street",
+                "the road trip",
+                "the way out",
+                "the square"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La via' (f) = the street. 'Prendi la prima via a sinistra.' — Take the first street on the left.",
+              "dictionaryRefs": [
+                "la-via"
+              ]
+            },
+            {
+              "id": "u18l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "a destra",
+              "options": [
+                "to the right",
+                "to the left",
+                "straight ahead",
+                "behind"
+              ],
+              "correctIndex": 0,
+              "explanation": "'A destra' = to/on the right. 'Gira a destra!' — Turn right! The pair: a destra / a sinistra.",
+              "dictionaryRefs": [
+                "a-destra"
+              ]
+            },
+            {
+              "id": "u18l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "a sinistra",
+              "options": [
+                "to the left",
+                "to the right",
+                "straight ahead",
+                "downtown"
+              ],
+              "correctIndex": 0,
+              "explanation": "'A sinistra' = to/on the left. Memory trick: sinistra sounds like 'sinister' — the left hand's old reputation.",
+              "dictionaryRefs": [
+                "a-sinistra"
+              ]
+            },
+            {
+              "id": "u18l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the direction. (Go straight ahead.)",
+              "sentence": "Vai sempre ___.",
+              "answers": [
+                "dritto"
+              ],
+              "explanation": "'Vai sempre dritto.' — Go straight ahead. Sempre (always) + dritto (straight). The friendliest direction.",
+              "dictionaryRefs": [
+                "sempre-dritto",
+                "andare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u18l2",
+          "type": "grammar",
+          "title": "A, in, da — e l'imperativo",
+          "dictionaryRefs": [
+            "la-citta",
+            "la-stazione",
+            "il-museo",
+            "la-via",
+            "a-destra",
+            "a-sinistra",
+            "sempre-dritto",
+            "andare",
+            "venire",
+            "prendere"
+          ],
+          "grammarNotes": "A, IN, DA — three little words that do a lot.\n\nA — to/at a city or small place: 'Vado a Roma.', 'Vado al bar.' (a + il → al; a + la → alla: 'Vado alla stazione.')\nIN — to/in a country or region, and 'by' + transport: 'Vado in Italia.', 'Abito in Italia.', 'in treno' (by train).\nDA — from, or 'to someone's place': 'Vengo da Milano.' (Unit 7), 'Vado da Giulia.' — I go to Giulia's.\n\nWHY a vs in: cities take A (a Roma, a Milano); countries take IN (in Italia, in Francia). Small = a, big = in.\n\nL'IMPERATIVO (tu, informal) — telling one person you know what to do:\n• -are verbs: -a! — 'Gira a destra!' (Turn right!) The tu vowel flips: tu giri → gira!\n• -ere/-ire verbs: -i! — same as the present: 'Prendi la prima via a sinistra.' (Take the first street on the left.)\n• andare is irregular: vai! — 'Vai dritto!' (Go straight!)\n\nDIRECTIONS SET PHRASES:\n• 'Dov'è la stazione?' — Where is the station? (dove + è → dov'è)\n• 'È qui vicino.' — It's near here. (vicino = near)\n• 'Grazie mille!' — Thanks a lot! (literally: a thousand thanks)",
+          "exercises": [
+            {
+              "id": "u18l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I go to Rome.)",
+              "sentence": "Vado ___ Roma.",
+              "answers": [
+                "a"
+              ],
+              "explanation": "'Vado a Roma.' — cities take a. Countries take in: 'Vado in Italia.'",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u18l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I live in Italy.)",
+              "sentence": "Abito ___ Italia.",
+              "answers": [
+                "in"
+              ],
+              "explanation": "'Abito in Italia.' — countries take in. Cities take a: 'Abito a Roma.' Small = a, big = in.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u18l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I come from Milan.)",
+              "sentence": "Vengo ___ Milano.",
+              "answers": [
+                "da"
+              ],
+              "explanation": "'Vengo da Milano.' — da = from. You know 'Vengo da Roma' from Unit 7; da works for every origin.",
+              "dictionaryRefs": [
+                "venire"
+              ]
+            },
+            {
+              "id": "u18l2e4",
+              "type": "multiple_choice",
+              "prompt": "Tell Marco: turn left!",
+              "question": "___ a sinistra!",
+              "options": [
+                "Gira",
+                "Giri",
+                "Girare",
+                "Girano"
+              ],
+              "correctIndex": 0,
+              "explanation": "Imperative of girare (tu): gira! The -are tu vowel flips: tu giri → gira! 'Gira a sinistra!'",
+              "dictionaryRefs": [
+                "a-sinistra"
+              ]
+            },
+            {
+              "id": "u18l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Go straight ahead!",
+              "acceptedIt": [
+                "Vai dritto!",
+                "Vai sempre dritto!",
+                "Vai dritto",
+                "Vai sempre dritto"
+              ],
+              "explanation": "'Vai dritto!' / 'Vai sempre dritto!' — andare's imperative is irregular: vai! (Not 'anda!')",
+              "dictionaryRefs": [
+                "sempre-dritto",
+                "andare"
+              ]
+            },
+            {
+              "id": "u18l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Where is the station?",
+              "acceptedIt": [
+                "Dov'è la stazione?",
+                "Dov'è la stazione",
+                "Dove è la stazione?",
+                "Dov'e la stazione"
+              ],
+              "explanation": "'Dov'è la stazione?' — dove + è contracts to dov'è (the doubled vowel drops). The key question in any city.",
+              "dictionaryRefs": [
+                "dove",
+                "la-stazione"
+              ]
+            },
+            {
+              "id": "u18l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Prendi la prima via a destra.",
+              "acceptedEn": [
+                "Take the first street on the right.",
+                "Take the first street to the right."
+              ],
+              "explanation": "'Prendi la prima via a destra.' — prendere's imperative = the tu-form: prendi. La prima via = the first street.",
+              "dictionaryRefs": [
+                "prendere",
+                "la-via",
+                "a-destra"
+              ]
+            },
+            {
+              "id": "u18l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the right preposition. (I go to Giulia's.)",
+              "question": "Vado ___ Giulia.",
+              "options": [
+                "da",
+                "a",
+                "in",
+                "per"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vado da Giulia.' — da + a person means 'to their place'. Same da as 'Vengo da Milano'.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u18l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Gira",
+                "a",
+                "sinistra!"
+              ],
+              "correctSentence": "Gira a sinistra!",
+              "explanation": "'Gira a sinistra!' — imperative first (gira), then a + sinistra. Directions are verb-first.",
+              "dictionaryRefs": [
+                "a-sinistra"
+              ]
+            },
+            {
+              "id": "u18l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Dov'è",
+                "il",
+                "museo?"
+              ],
+              "correctSentence": "Dov'è il museo?",
+              "explanation": "'Dov'è il museo?' — dov'è + the place with its article. Where is the museum?",
+              "dictionaryRefs": [
+                "dove",
+                "il-museo"
+              ]
+            },
+            {
+              "id": "u18l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Vai",
+                "sempre",
+                "dritto!"
+              ],
+              "correctSentence": "Vai sempre dritto!",
+              "explanation": "'Vai sempre dritto!' — vai + sempre + dritto. Sempre (always) makes it 'straight ahead, keep going'.",
+              "dictionaryRefs": [
+                "sempre-dritto",
+                "andare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u18l3",
+          "type": "mixed",
+          "title": "Per la città: ripasso",
+          "dictionaryRefs": [
+            "il-bar",
+            "il-ristorante",
+            "la-casa",
+            "abitare",
+            "venire",
+            "dove",
+            "per-favore",
+            "la-citta",
+            "la-stazione",
+            "il-museo",
+            "la-via",
+            "a-destra",
+            "a-sinistra",
+            "sempre-dritto"
+          ],
+          "exercises": [
+            {
+              "id": "u18l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 5 recycling)",
+              "sourceEn": "The bar is near here.",
+              "acceptedIt": [
+                "Il bar è qui vicino.",
+                "Il bar è qui vicino",
+                "Il bar e' qui vicino"
+              ],
+              "explanation": "'Il bar è qui vicino.' — qui (here) + vicino (near): near here. The answer you hope to hear.",
+              "dictionaryRefs": [
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u18l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 15 recycling)",
+              "question": "Dov'è il ristorante?",
+              "options": [
+                "Where is the restaurant?",
+                "Where is the station?",
+                "What is the restaurant?",
+                "When is the restaurant?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dov'è il ristorante?' — dov'è + il ristorante (Unit 15). The same pattern works for any place.",
+              "dictionaryRefs": [
+                "dove",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u18l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The station is on the right.)",
+              "sentence": "La stazione è ___ destra.",
+              "answers": [
+                "a"
+              ],
+              "explanation": "'La stazione è a destra.' — a destra / a sinistra for where something IS, too.",
+              "dictionaryRefs": [
+                "la-stazione",
+                "a-destra"
+              ]
+            },
+            {
+              "id": "u18l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 11 recycling)",
+              "sourceIt": "Abito in Italia, a Roma.",
+              "acceptedEn": [
+                "I live in Italy, in Rome.",
+                "I live in Italy, at Rome."
+              ],
+              "explanation": "'Abito in Italia, a Roma.' — the a/in contrast in one sentence: country = in, city = a.",
+              "dictionaryRefs": [
+                "abitare"
+              ]
+            },
+            {
+              "id": "u18l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I come from home.) (Unit 5 recycling)",
+              "sentence": "Vengo ___ casa.",
+              "answers": [
+                "da"
+              ],
+              "explanation": "'Vengo da casa.' — da = from: from home, from Milan, from the bar. One word for every origin.",
+              "dictionaryRefs": [
+                "venire",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u18l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Per la stazione, gira a sinistra.",
+              "options": [
+                "For the station, turn left.",
+                "For the station, go straight.",
+                "The station is on the left.",
+                "The station turns left."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Per la stazione, gira a sinistra.' — per (for) + the destination, then the imperative: gira.",
+              "dictionaryRefs": [
+                "la-stazione",
+                "a-sinistra"
+              ]
+            },
+            {
+              "id": "u18l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5 recycling)",
+              "tokens": [
+                "Il",
+                "bar",
+                "è",
+                "a",
+                "destra."
+              ],
+              "correctSentence": "Il bar è a destra.",
+              "explanation": "'Il bar è a destra.' — subject, è, then a destra. The bar is on the right.",
+              "dictionaryRefs": [
+                "il-bar",
+                "a-destra"
+              ]
+            },
+            {
+              "id": "u18l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 9 recycling)",
+              "sourceEn": "Where is the museum, please?",
+              "acceptedIt": [
+                "Dov'è il museo, per favore?",
+                "Dov'è il museo, per favore",
+                "Dove è il museo, per favore?",
+                "Dov'e il museo, per favore"
+              ],
+              "explanation": "'Dov'è il museo, per favore?' — dov'è + il museo + per favore (Unit 9). Politeness travels well.",
+              "dictionaryRefs": [
+                "dove",
+                "il-museo",
+                "per-favore"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u18l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "la-stazione",
+            "il-museo",
+            "la-via",
+            "a-destra",
+            "a-sinistra",
+            "sempre-dritto",
+            "il-bar",
+            "dove"
+          ],
+          "exercises": [
+            {
+              "id": "u18l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Gira a destra!",
+              "options": [
+                "Turn right!",
+                "Turn left!",
+                "Go straight!",
+                "Stop here!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Gira a destra!' — Turn right! Gira = the tu-imperative of girare.",
+              "dictionaryRefs": [
+                "a-destra"
+              ]
+            },
+            {
+              "id": "u18l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Vai sempre dritto.",
+              "acceptedIt": [
+                "Vai sempre dritto.",
+                "Vai sempre dritto"
+              ],
+              "explanation": "You heard: 'Vai sempre dritto.' — Go straight ahead. Vai (andare, imperative) + sempre dritto.",
+              "dictionaryRefs": [
+                "sempre-dritto",
+                "andare"
+              ]
+            },
+            {
+              "id": "u18l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Dov'è la stazione?",
+              "options": [
+                "Where is the station?",
+                "Where is the museum?",
+                "Is this the station?",
+                "Is the station near?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Dov'è la stazione?' — Where is the station? Listen for stazione (sta-TSYO-ne).",
+              "dictionaryRefs": [
+                "dove",
+                "la-stazione"
+              ]
+            },
+            {
+              "id": "u18l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Take the first on the left.",
+              "targetIt": "Prendi la prima a sinistra.",
+              "minAccuracy": 0.7,
+              "explanation": "'Prendi la prima a sinistra.' — PREN-di la PRI-ma a si-NIS-tra. Prendi = the tu-imperative of prendere.",
+              "dictionaryRefs": [
+                "prendere",
+                "a-sinistra"
+              ]
+            },
+            {
+              "id": "u18l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: where is the museum?",
+              "targetIt": "Dov'è il museo?",
+              "minAccuracy": 0.7,
+              "explanation": "'Dov'è il museo?' — do-VE il mu-SE-o. One breath, question rising.",
+              "dictionaryRefs": [
+                "dove",
+                "il-museo"
+              ]
+            },
+            {
+              "id": "u18l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Il museo è qui vicino.",
+              "acceptedIt": [
+                "Il museo è qui vicino.",
+                "Il museo è qui vicino",
+                "Il museo e' qui vicino"
+              ],
+              "explanation": "You heard: 'Il museo è qui vicino.' — The museum is near here. Qui vicino = near here.",
+              "dictionaryRefs": [
+                "il-museo"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u18c",
+        "exercises": [
+          {
+            "id": "u18ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la piazza",
+            "options": [
+              "the square",
+              "the street",
+              "the station",
+              "the city"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La piazza' (f) = the town square. Every Italian city has one at its heart.",
+            "dictionaryRefs": [
+              "la-piazza"
+            ]
+          },
+          {
+            "id": "u18ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I go to Rome tomorrow.)",
+            "sentence": "Vado ___ Roma domani.",
+            "answers": [
+              "a"
+            ],
+            "explanation": "'Vado a Roma domani.' — city → a; country → in; origin → da. Tomorrow = domani (Unit 16).",
+            "dictionaryRefs": [
+              "andare",
+              "domani"
+            ]
+          },
+          {
+            "id": "u18ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 7 recycling)",
+            "sourceEn": "I come from Milan.",
+            "acceptedIt": [
+              "Vengo da Milano.",
+              "Vengo da Milano",
+              "Io vengo da Milano"
+            ],
+            "explanation": "'Vengo da Milano.' — venire (io vengo, Unit 7) + da + the origin city.",
+            "dictionaryRefs": [
+              "venire"
+            ]
+          },
+          {
+            "id": "u18ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "La stazione è a sinistra.",
+            "acceptedEn": [
+              "The station is on the left.",
+              "The station is to the left."
+            ],
+            "explanation": "'La stazione è a sinistra.' — a sinistra = on the left; a destra = on the right.",
+            "dictionaryRefs": [
+              "la-stazione",
+              "a-sinistra"
+            ]
+          },
+          {
+            "id": "u18ce5",
+            "type": "multiple_choice",
+            "prompt": "Tell Giulia: go straight!",
+            "question": "___ dritto!",
+            "options": [
+              "Vai",
+              "Va",
+              "Anda",
+              "Andate"
+            ],
+            "correctIndex": 0,
+            "explanation": "Andare's tu-imperative is irregular: vai! 'Vai dritto!' (Andate is the voi-form — for a group.)",
+            "dictionaryRefs": [
+              "andare"
+            ]
+          },
+          {
+            "id": "u18ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I live in Italy.)",
+            "sentence": "Abito ___ Italia.",
+            "answers": [
+              "in"
+            ],
+            "explanation": "'Abito in Italia.' — big place (country) → in; small place (city) → a.",
+            "dictionaryRefs": [
+              "abitare"
+            ]
+          },
+          {
+            "id": "u18ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "La",
+              "piazza",
+              "è",
+              "a",
+              "destra."
+            ],
+            "correctSentence": "La piazza è a destra.",
+            "explanation": "'La piazza è a destra.' — The square is on the right. è + a destra.",
+            "dictionaryRefs": [
+              "la-piazza",
+              "a-destra"
+            ]
+          },
+          {
+            "id": "u18ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Prendi la prima via a sinistra.",
+            "options": [
+              "Take the first street on the left.",
+              "Take the first street on the right.",
+              "Take the second street on the left.",
+              "Go straight to the station."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Prendi la prima via a sinistra.' — la prima via (the first street) + a sinistra.",
+            "dictionaryRefs": [
+              "prendere",
+              "la-via",
+              "a-sinistra"
+            ]
+          },
+          {
+            "id": "u18ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 5 recycling)",
+            "mode": "type",
+            "speakIt": "Dov'è il bar?",
+            "acceptedIt": [
+              "Dov'è il bar?",
+              "Dove è il bar",
+              "Dov'e il bar?"
+            ],
+            "explanation": "You heard: 'Dov'è il bar?' — Where is the bar? Dov'è + the place.",
+            "dictionaryRefs": [
+              "dove",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u18ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Go straight ahead.",
+            "targetIt": "Vai sempre dritto.",
+            "minAccuracy": 0.7,
+            "explanation": "'Vai sempre dritto.' — VAI SEM-pre DRIT-to. Three clean beats.",
+            "dictionaryRefs": [
+              "sempre-dritto",
+              "andare"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -14308,6 +15078,132 @@
         }
       ],
       "introducedInUnit": 17
+    },
+    {
+      "id": "la-citta",
+      "word": "città",
+      "article": "la",
+      "translation": "city",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La città è bella.",
+          "en": "The city is beautiful."
+        },
+        {
+          "it": "Vado in città.",
+          "en": "I go into town."
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "la-stazione",
+      "word": "stazione",
+      "article": "la",
+      "translation": "(train) station",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Dov'è la stazione?",
+          "en": "Where is the station?"
+        },
+        {
+          "it": "La stazione è a sinistra.",
+          "en": "The station is on the left."
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "il-museo",
+      "word": "museo",
+      "article": "il",
+      "translation": "museum",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il museo apre alle dieci.",
+          "en": "The museum opens at ten."
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "la-piazza",
+      "word": "piazza",
+      "article": "la",
+      "translation": "(town) square",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La piazza è a destra.",
+          "en": "The square is on the right."
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "la-via",
+      "word": "via",
+      "article": "la",
+      "translation": "street",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Prendi la prima via a sinistra.",
+          "en": "Take the first street on the left."
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "a-destra",
+      "word": "a destra",
+      "translation": "to the right; on the right",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Gira a destra!",
+          "en": "Turn right!"
+        },
+        {
+          "it": "Il bar è a destra.",
+          "en": "The bar is on the right."
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "a-sinistra",
+      "word": "a sinistra",
+      "translation": "to the left; on the left",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Gira a sinistra!",
+          "en": "Turn left!"
+        }
+      ],
+      "introducedInUnit": 18
+    },
+    {
+      "id": "sempre-dritto",
+      "word": "sempre dritto",
+      "translation": "straight ahead",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Vai sempre dritto.",
+          "en": "Go straight ahead."
+        }
+      ],
+      "introducedInUnit": 18
     }
   ],
   "stories": [

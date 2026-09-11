@@ -26,6 +26,7 @@ object ConjugationReference {
         "lavorare" to Paradigm(listOf("lavoro", "lavori", "lavora", "lavoriamo", "lavorate", "lavorano")),
         "studiare" to Paradigm(listOf("studio", "studi", "studia", "studiamo", "studiate", "studiano")),
         "ascoltare" to Paradigm(listOf("ascolto", "ascolti", "ascolta", "ascoltiamo", "ascoltate", "ascoltano")),
+        "girare" to Paradigm(listOf("giro", "giri", "gira", "giriamo", "girate", "girano")),
         "prendere" to Paradigm(listOf("prendo", "prendi", "prende", "prendiamo", "prendete", "prendono")),
         "leggere" to Paradigm(listOf("leggo", "leggi", "legge", "leggiamo", "leggete", "leggono")),
         "scrivere" to Paradigm(listOf("scrivo", "scrivi", "scrive", "scriviamo", "scrivete", "scrivono")),
@@ -34,6 +35,9 @@ object ConjugationReference {
         "capire" to Paradigm(listOf("capisco", "capisci", "capisce", "capiamo", "capite", "capiscono")),
         "finire" to Paradigm(listOf("finisco", "finisci", "finisce", "finiamo", "finite", "finiscono")),
         "preferire" to Paradigm(listOf("preferisco", "preferisci", "preferisce", "preferiamo", "preferite", "preferiscono")),
+        "conoscere" to Paradigm(listOf("conosco", "conosci", "conosce", "conosciamo", "conoscete", "conoscono")),
+        "vedere" to Paradigm(listOf("vedo", "vedi", "vede", "vediamo", "vedete", "vedono")),
+        "chiamare" to Paradigm(listOf("chiamo", "chiami", "chiama", "chiamiamo", "chiamate", "chiamano")),
         "piacere" to Paradigm(listOf("piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono")),
         // Stage 6 extensions
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),
