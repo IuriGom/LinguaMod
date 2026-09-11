@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 15,
+    "version": 16,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -16311,6 +16311,799 @@
           }
         ]
       }
+    },
+    {
+      "id": "u23",
+      "number": 23,
+      "title": "I vestiti",
+      "lessons": [
+        {
+          "id": "u23l1",
+          "type": "vocabulary",
+          "title": "La maglietta, i pantaloni, le scarpe",
+          "dictionaryRefs": [
+            "la-maglietta",
+            "i-pantaloni",
+            "le-scarpe",
+            "il-vestito",
+            "rosso",
+            "blu",
+            "nero",
+            "bianco"
+          ],
+          "exercises": [
+            {
+              "id": "u23l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la maglietta",
+              "options": [
+                "the t-shirt",
+                "the shirt",
+                "the jacket",
+                "the dress"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La maglietta' (f) = the t-shirt. 'Ho una maglietta rossa.' — I have a red t-shirt.",
+              "dictionaryRefs": [
+                "la-maglietta"
+              ]
+            },
+            {
+              "id": "u23l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "i pantaloni",
+              "options": [
+                "the trousers; the pants",
+                "the shorts",
+                "the jeans",
+                "the shoes"
+              ],
+              "correctIndex": 0,
+              "explanation": "'I pantaloni' (m pl) = the trousers — always plural, like English 'pants'. 'I pantaloni sono blu.'",
+              "dictionaryRefs": [
+                "i-pantaloni"
+              ]
+            },
+            {
+              "id": "u23l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "le scarpe",
+              "options": [
+                "the shoes",
+                "the boots",
+                "the socks",
+                "the sandals"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Le scarpe' (f pl) = the shoes — always a pair. One shoe: la scarpa. 'Le scarpe sono nere.'",
+              "dictionaryRefs": [
+                "le-scarpe"
+              ]
+            },
+            {
+              "id": "u23l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il vestito",
+              "options": [
+                "the dress; the suit",
+                "the skirt",
+                "the coat",
+                "the jacket"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il vestito' (m) = the dress — and also a man's suit. Context decides. 'Il vestito bianco è bello.'",
+              "dictionaryRefs": [
+                "il-vestito",
+                "bianco",
+                "bello"
+              ]
+            },
+            {
+              "id": "u23l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "rosso",
+              "options": [
+                "red",
+                "pink",
+                "orange",
+                "brown"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Rosso' = red. An -o adjective: rosso, rossa, rossi, rosse. 'Una maglietta rossa.'",
+              "dictionaryRefs": [
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "blu",
+              "options": [
+                "blue",
+                "green",
+                "light blue",
+                "purple"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Blu' = blue — INVARIABLE: un vestito blu, due vestiti blu. It never changes. (Same family: rosa, viola.)",
+              "dictionaryRefs": [
+                "blu"
+              ]
+            },
+            {
+              "id": "u23l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "nero",
+              "options": [
+                "black",
+                "dark",
+                "blue",
+                "grey"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Nero' = black. An -o adjective: nero, nera, neri, nere. 'Le scarpe nere.'",
+              "dictionaryRefs": [
+                "nero"
+              ]
+            },
+            {
+              "id": "u23l1e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "bianco",
+              "options": [
+                "white",
+                "light",
+                "beige",
+                "yellow"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Bianco' = white. An -o adjective: bianco, bianca, bianchi, bianche. 'Il vestito bianco.'",
+              "dictionaryRefs": [
+                "bianco"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u23l2",
+          "type": "grammar",
+          "title": "I colori: l'accordo in pratica",
+          "dictionaryRefs": [
+            "la-maglietta",
+            "i-pantaloni",
+            "le-scarpe",
+            "il-vestito",
+            "rosso",
+            "blu",
+            "nero",
+            "bianco",
+            "bello",
+            "carino"
+          ],
+          "grammarNotes": "I COLORI — colors are adjectives, and adjectives agree (Unit 13). This lesson is that rule at full speed.\n\nTHREE FAMILIES OF COLOR:\n• -o family (four forms): rosso/rossa/rossi/rosse, nero/nera/neri/nere, bianco/bianca/bianchi/bianchi… wait — bianche! (f pl). Also giallo, grigio.\n• -e family (two forms): verde/verdi — like intelligente.\n• INVARIABLE (never change): blu, rosa, viola. 'Un vestito blu, due vestiti blu.'\n\nPOSITION: the color comes AFTER the noun: 'una maglietta rossa' — a red t-shirt; 'le scarpe nere' — the black shoes.\n\nTHE CLOTHES:\n• la maglietta (f) — the t-shirt\n• i pantaloni (m pl) — the trousers (always plural, like 'pants')\n• le scarpe (f pl) — the shoes (always a pair)\n• il vestito (m) — the dress; also a suit\n• la giacca (f) — the jacket\n\n💛 COMPLIMENTING WHAT SOMEONE WEARS:\n• 'Che bella maglietta!' — What a nice t-shirt! (che + adjective + noun; bella agrees with maglietta)\n• 'Mi piace la tua giacca.' — I like your jacket. (Unit 20 + the possessive, Unit 14 — clothes keep the article!)\n• 'Hai delle scarpe bellissime'? — not yet; for now: 'Le tue scarpe sono belle.' — Your shoes are beautiful.",
+          "exercises": [
+            {
+              "id": "u23l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (a red t-shirt)",
+              "sentence": "Una maglietta ___.",
+              "answers": [
+                "rossa"
+              ],
+              "explanation": "Una maglietta is feminine singular → rossa. The color copies the noun's gender and number (Unit 13).",
+              "dictionaryRefs": [
+                "la-maglietta",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (the black shoes)",
+              "sentence": "Le scarpe ___.",
+              "answers": [
+                "nere"
+              ],
+              "explanation": "Le scarpe is feminine plural → nere. Nero's four forms: nero, nera, neri, nere.",
+              "dictionaryRefs": [
+                "le-scarpe",
+                "nero"
+              ]
+            },
+            {
+              "id": "u23l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (the blue trousers)",
+              "sentence": "I pantaloni ___.",
+              "answers": [
+                "blu"
+              ],
+              "explanation": "'I pantaloni blu.' — blu is invariable: singular or plural, masculine or feminine, always blu.",
+              "dictionaryRefs": [
+                "i-pantaloni",
+                "blu"
+              ]
+            },
+            {
+              "id": "u23l2e4",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (a white dress)",
+              "question": "un vestito ___",
+              "options": [
+                "bianco",
+                "bianca",
+                "bianchi",
+                "bianche"
+              ],
+              "correctIndex": 0,
+              "explanation": "Un vestito is masculine singular → bianco. The -o family: bianco, bianca, bianchi, bianche.",
+              "dictionaryRefs": [
+                "il-vestito",
+                "bianco"
+              ]
+            },
+            {
+              "id": "u23l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (The shoes are red.)",
+              "question": "Le scarpe sono ___.",
+              "options": [
+                "rosse",
+                "rossi",
+                "rosso",
+                "rossa"
+              ],
+              "correctIndex": 0,
+              "explanation": "Feminine plural → rosse. Rosso, rossa, rossi, rosse — the four endings again.",
+              "dictionaryRefs": [
+                "le-scarpe",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 6 recycling)",
+              "sourceEn": "I have a red t-shirt.",
+              "acceptedIt": [
+                "Ho una maglietta rossa.",
+                "Ho una maglietta rossa",
+                "Io ho una maglietta rossa"
+              ],
+              "explanation": "'Ho una maglietta rossa.' — ho (avere) + una maglietta + rossa (f sing, after the noun).",
+              "dictionaryRefs": [
+                "la-maglietta",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 14 recycling)",
+              "sourceEn": "Your shoes are beautiful.",
+              "acceptedIt": [
+                "Le tue scarpe sono belle.",
+                "Le tue scarpe sono belle"
+              ],
+              "explanation": "'Le tue scarpe sono belle.' — le tue scarpe (clothes keep the article, Unit 14) + belle (f pl, Unit 13). 💛",
+              "dictionaryRefs": [
+                "le-scarpe",
+                "mio",
+                "bello"
+              ]
+            },
+            {
+              "id": "u23l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Che bella giacca!",
+              "acceptedEn": [
+                "What a nice jacket!",
+                "What a beautiful jacket!"
+              ],
+              "explanation": "'Che bella giacca!' — che + adjective + noun = 'What a …!'. Bella agrees with giacca (f sing). 💛",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u23l2e9",
+              "type": "multiple_choice",
+              "prompt": "Choose the possessive. 💛 (Unit 14 recycling)",
+              "question": "Mi piace ___ maglietta rossa.",
+              "options": [
+                "la tua",
+                "il tuo",
+                "i tuoi",
+                "tua"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La tua maglietta' — maglietta is not family, so the article stays (Unit 14); feminine singular → la tua.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-maglietta",
+                "mio",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Hai",
+                "una",
+                "giacca",
+                "nera?"
+              ],
+              "correctSentence": "Hai una giacca nera?",
+              "explanation": "'Hai una giacca nera?' — hai + una giacca + nera (f sing, after the noun). 💛 Notice before you ask.",
+              "dictionaryRefs": [
+                "nero"
+              ]
+            },
+            {
+              "id": "u23l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "I",
+                "pantaloni",
+                "sono",
+                "blu."
+              ],
+              "correctSentence": "I pantaloni sono blu.",
+              "explanation": "'I pantaloni sono blu.' — plural subject (i pantaloni) + sono + invariable blu.",
+              "dictionaryRefs": [
+                "i-pantaloni",
+                "blu"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u23l3",
+          "type": "mixed",
+          "title": "Che bella maglietta! 💛 — ripasso",
+          "dictionaryRefs": [
+            "mi-piace",
+            "preferire",
+            "la-festa",
+            "la-sera",
+            "bello",
+            "carino",
+            "mio",
+            "la-maglietta",
+            "i-pantaloni",
+            "le-scarpe",
+            "il-vestito",
+            "rosso",
+            "blu",
+            "nero",
+            "bianco"
+          ],
+          "exercises": [
+            {
+              "id": "u23l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 14+20 recycling)",
+              "sourceEn": "I like your red t-shirt.",
+              "acceptedIt": [
+                "Mi piace la tua maglietta rossa.",
+                "Mi piace la tua maglietta rossa"
+              ],
+              "explanation": "'Mi piace la tua maglietta rossa.' — mi piace (Unit 20) + la tua maglietta (Unit 14) + rossa (Unit 13 agreement). 💛 Three units in one compliment.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "mio",
+                "la-maglietta",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 17 recycling)",
+              "question": "Per la festa: il vestito blu.",
+              "options": [
+                "For the party: the blue dress.",
+                "For the party: the blue shoes.",
+                "At the party the dress is blue.",
+                "The party dress is white."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Per la festa: il vestito blu.' — per (for) + la festa (Unit 17) + il vestito blu (invariable blu).",
+              "dictionaryRefs": [
+                "la-festa",
+                "il-vestito",
+                "blu"
+              ]
+            },
+            {
+              "id": "u23l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My shoes are black.) (Unit 14 recycling)",
+              "sentence": "Le mie scarpe ___ nere.",
+              "answers": [
+                "sono"
+              ],
+              "explanation": "'Le mie scarpe sono nere.' — le mie scarpe (plural keeps the article, Unit 14) + sono + nere.",
+              "dictionaryRefs": [
+                "le-scarpe",
+                "mio",
+                "nero"
+              ]
+            },
+            {
+              "id": "u23l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 12 recycling)",
+              "sourceIt": "Preferisco la giacca nera.",
+              "acceptedEn": [
+                "I prefer the black jacket."
+              ],
+              "explanation": "'Preferisco la giacca nera.' — preferisco (preferire, Unit 12) + la giacca + nera (f sing).",
+              "dictionaryRefs": [
+                "preferire",
+                "nero"
+              ]
+            },
+            {
+              "id": "u23l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The dress is white.)",
+              "sentence": "Il vestito è ___.",
+              "answers": [
+                "bianco"
+              ],
+              "explanation": "'Il vestito è bianco.' — il vestito (m sing) → bianco. After è, same agreement rule.",
+              "dictionaryRefs": [
+                "il-vestito",
+                "bianco"
+              ]
+            },
+            {
+              "id": "u23l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 6 recycling)",
+              "question": "Che bella maglietta!",
+              "options": [
+                "What a nice t-shirt!",
+                "What a red t-shirt!",
+                "What beautiful shoes!",
+                "How nice is the t-shirt?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Che bella maglietta!' — What a nice t-shirt! Che + adjective + noun. 💛 The compliment formula.",
+              "dictionaryRefs": [
+                "bello",
+                "la-maglietta"
+              ]
+            },
+            {
+              "id": "u23l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 14+20 recycling)",
+              "tokens": [
+                "Mi",
+                "piacciono",
+                "le",
+                "tue",
+                "scarpe."
+              ],
+              "correctSentence": "Mi piacciono le tue scarpe.",
+              "explanation": "'Mi piacciono le tue scarpe.' — piacciono because le scarpe is plural (Unit 20); le tue scarpe (Unit 14). 💛",
+              "dictionaryRefs": [
+                "mi-piace",
+                "le-scarpe",
+                "mio"
+              ]
+            },
+            {
+              "id": "u23l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 6 recycling)",
+              "sourceEn": "The white dress is beautiful.",
+              "acceptedIt": [
+                "Il vestito bianco è bello.",
+                "Il vestito bianco e' bello",
+                "Il vestito bianco è bello"
+              ],
+              "explanation": "'Il vestito bianco è bello.' — bianco after the noun (m sing); bello after è.",
+              "dictionaryRefs": [
+                "il-vestito",
+                "bianco",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u23l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "la-maglietta",
+            "i-pantaloni",
+            "le-scarpe",
+            "il-vestito",
+            "rosso",
+            "blu",
+            "nero",
+            "bianco",
+            "mi-piace",
+            "bello"
+          ],
+          "exercises": [
+            {
+              "id": "u23l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Che belle scarpe!",
+              "options": [
+                "What nice shoes!",
+                "What a nice dress!",
+                "What a nice t-shirt!",
+                "Your shoes are black."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Che belle scarpe!' — che + belle (f pl) + scarpe. 💛 Listen for the noun at the end.",
+              "dictionaryRefs": [
+                "bello",
+                "le-scarpe"
+              ]
+            },
+            {
+              "id": "u23l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ho una maglietta rossa.",
+              "acceptedIt": [
+                "Ho una maglietta rossa.",
+                "Ho una maglietta rossa",
+                "Io ho una maglietta rossa"
+              ],
+              "explanation": "You heard: 'Ho una maglietta rossa.' — I have a red t-shirt. Rossa agrees with maglietta.",
+              "dictionaryRefs": [
+                "la-maglietta",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u23l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "I pantaloni sono blu.",
+              "options": [
+                "The trousers are blue.",
+                "The trousers are black.",
+                "My trousers are blue.",
+                "The shoes are blue."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'I pantaloni sono blu.' — blu never changes, so listen for the noun to know what's blue.",
+              "dictionaryRefs": [
+                "i-pantaloni",
+                "blu"
+              ]
+            },
+            {
+              "id": "u23l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I like your jacket. 💛",
+              "targetIt": "Mi piace la tua giacca.",
+              "minAccuracy": 0.7,
+              "explanation": "'Mi piace la tua giacca.' — mi PYA-che la TU-a JAK-ka. 💛 Giacca: soft g, double c.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "mio"
+              ]
+            },
+            {
+              "id": "u23l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: What a nice t-shirt! 💛",
+              "targetIt": "Che bella maglietta!",
+              "minAccuracy": 0.7,
+              "explanation": "'Che bella maglietta!' — ke BEL-la ma-LYET-ta. The gli is like the 'lli' in million.",
+              "dictionaryRefs": [
+                "bello",
+                "la-maglietta"
+              ]
+            },
+            {
+              "id": "u23l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Il vestito è bianco.",
+              "acceptedIt": [
+                "Il vestito è bianco.",
+                "Il vestito è bianco",
+                "Il vestito e' bianco"
+              ],
+              "explanation": "You heard: 'Il vestito è bianco.' — The dress is white. Bianco, m sing.",
+              "dictionaryRefs": [
+                "il-vestito",
+                "bianco"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u23c",
+        "exercises": [
+          {
+            "id": "u23ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "le scarpe",
+            "options": [
+              "the shoes",
+              "the trousers",
+              "the t-shirts",
+              "the jackets"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Le scarpe' (f pl) = the shoes. One shoe: la scarpa.",
+            "dictionaryRefs": [
+              "le-scarpe"
+            ]
+          },
+          {
+            "id": "u23ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (a black jacket)",
+            "sentence": "Una giacca ___.",
+            "answers": [
+              "nera"
+            ],
+            "explanation": "Una giacca is feminine singular → nera. The color follows the noun and agrees.",
+            "dictionaryRefs": [
+              "nero"
+            ]
+          },
+          {
+            "id": "u23ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "I have blue trousers.",
+            "acceptedIt": [
+              "Ho i pantaloni blu.",
+              "Ho i pantaloni blu",
+              "Io ho i pantaloni blu"
+            ],
+            "explanation": "'Ho i pantaloni blu.' — blu is invariable: i pantaloni blu, la maglietta blu.",
+            "dictionaryRefs": [
+              "i-pantaloni",
+              "blu"
+            ]
+          },
+          {
+            "id": "u23ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 14 recycling)",
+            "sourceIt": "Le mie scarpe sono bianche.",
+            "acceptedEn": [
+              "My shoes are white."
+            ],
+            "explanation": "'Le mie scarpe sono bianche.' — le mie scarpe (Unit 14) + bianche (f pl).",
+            "dictionaryRefs": [
+              "le-scarpe",
+              "mio",
+              "bianco"
+            ]
+          },
+          {
+            "id": "u23ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct verb. (Unit 2 recycling)",
+            "question": "I pantaloni ___ neri.",
+            "options": [
+              "sono",
+              "è",
+              "siete",
+              "sei"
+            ],
+            "correctIndex": 0,
+            "explanation": "'I pantaloni sono neri.' — the trousers are 'they' → sono (Unit 2's essere, still working).",
+            "dictionaryRefs": [
+              "i-pantaloni",
+              "nero"
+            ]
+          },
+          {
+            "id": "u23ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I like your dress.) 💛 (Unit 14 recycling)",
+            "sentence": "Mi piace ___ vestito.",
+            "answers": [
+              "il tuo"
+            ],
+            "explanation": "'Mi piace il tuo vestito.' — vestito is not family: the article stays, and it's masculine → il tuo.",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-vestito",
+              "mio"
+            ]
+          },
+          {
+            "id": "u23ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Che",
+              "bella",
+              "giacca!"
+            ],
+            "correctSentence": "Che bella giacca!",
+            "explanation": "'Che bella giacca!' — che + bella + giacca. The compliment formula, word by word.",
+            "dictionaryRefs": [
+              "bello"
+            ]
+          },
+          {
+            "id": "u23ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Hai una maglietta rossa?",
+            "options": [
+              "Do you have a red t-shirt?",
+              "Do you have a black t-shirt?",
+              "Do you like the red t-shirt?",
+              "Is your t-shirt red?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Hai una maglietta rossa?' — hai + una maglietta + rossa, question intonation.",
+            "dictionaryRefs": [
+              "la-maglietta",
+              "rosso"
+            ]
+          },
+          {
+            "id": "u23ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Le scarpe sono nere.",
+            "acceptedIt": [
+              "Le scarpe sono nere.",
+              "Le scarpe sono nere"
+            ],
+            "explanation": "You heard: 'Le scarpe sono nere.' — The shoes are black. Feminine plural: nere.",
+            "dictionaryRefs": [
+              "le-scarpe",
+              "nero"
+            ]
+          },
+          {
+            "id": "u23ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I like your shoes. 💛",
+            "targetIt": "Mi piacciono le tue scarpe.",
+            "minAccuracy": 0.7,
+            "explanation": "'Mi piacciono le tue scarpe.' — mi pyat-CHO-no (plural!) le TU-e SKAR-pe. 💛",
+            "dictionaryRefs": [
+              "mi-piace",
+              "le-scarpe",
+              "mio"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -18732,6 +19525,130 @@
         }
       ],
       "introducedInUnit": 22
+    },
+    {
+      "id": "la-maglietta",
+      "word": "maglietta",
+      "article": "la",
+      "translation": "t-shirt",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una maglietta rossa.",
+          "en": "I have a red t-shirt."
+        },
+        {
+          "it": "Che bella maglietta!",
+          "en": "What a nice t-shirt!"
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "i-pantaloni",
+      "word": "pantaloni",
+      "article": "i",
+      "translation": "trousers; pants (always plural)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "I pantaloni sono blu.",
+          "en": "The trousers are blue."
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "le-scarpe",
+      "word": "scarpe",
+      "article": "le",
+      "translation": "shoes (always plural; sing. la scarpa)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Le scarpe sono nere.",
+          "en": "The shoes are black."
+        },
+        {
+          "it": "Le tue scarpe sono belle.",
+          "en": "Your shoes are beautiful."
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "il-vestito",
+      "word": "vestito",
+      "article": "il",
+      "translation": "dress; suit",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il vestito bianco è bello.",
+          "en": "The white dress is beautiful."
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "rosso",
+      "word": "rosso",
+      "translation": "red",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Una maglietta rossa.",
+          "en": "A red t-shirt."
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "blu",
+      "word": "blu",
+      "translation": "blue (invariable)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "I pantaloni sono blu.",
+          "en": "The trousers are blue."
+        },
+        {
+          "it": "Il vestito blu.",
+          "en": "The blue dress."
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "nero",
+      "word": "nero",
+      "translation": "black",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Le scarpe sono nere.",
+          "en": "The shoes are black."
+        }
+      ],
+      "introducedInUnit": 23
+    },
+    {
+      "id": "bianco",
+      "word": "bianco",
+      "translation": "white",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Il vestito è bianco.",
+          "en": "The dress is white."
+        }
+      ],
+      "introducedInUnit": 23
     }
   ],
   "stories": [
