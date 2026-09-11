@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 7,
+    "version": 8,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -12807,7 +12807,265 @@
       "id": "story2",
       "title": "Il ristorante",
       "unlockAfterUnit": 15,
-      "nodes": []
+      "nodes": [
+        {
+          "id": "n1",
+          "speaker": "Narratore",
+          "textIt": "È sera. Tu e Giulia siete al ristorante. Il cameriere arriva. Cosa dici?",
+          "textEn": "It's evening. You and Giulia are at the restaurant. The waiter arrives. What do you say?",
+          "choices": [
+            {
+              "text": "Buonasera! Un tavolo per due, per favore.",
+              "next": "n2",
+              "correct": true
+            },
+            {
+              "text": "Buongiorno! Un tavolo per due.",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "It's sera (evening) — greet with buonasera, not buongiorno."
+            },
+            {
+              "text": "Vorrei un cappuccino.",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "Cappuccino is a morning drink — and first you need a table: 'Un tavolo per due, per favore.'"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "speaker": "Cameriere",
+          "textIt": "Buonasera! Ecco il menu. Cosa prendi?",
+          "textEn": "Good evening! Here is the menu. What are you having?",
+          "choices": [
+            {
+              "text": "Per me la pasta. E tu, Giulia?",
+              "next": "n3",
+              "correct": true
+            },
+            {
+              "text": "Io sono la pasta.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "Sono means 'I am' — that says 'I am the pasta'! Order with prendere: 'Per me la pasta' or 'Prendo la pasta.'"
+            },
+            {
+              "text": "Io prendo il pasta.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "Pasta is feminine: LA pasta. 'Prendo la pasta.' — or simply 'Per me la pasta.'"
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "speaker": "Cameriere",
+          "textIt": "Bene. E da bere? Vino o acqua?",
+          "textEn": "Good. And to drink? Wine or water?",
+          "choices": [
+            {
+              "text": "Un vino e un'acqua, per favore.",
+              "next": "n4",
+              "correct": true
+            },
+            {
+              "text": "Un vino e una acqua, per favore.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "Acqua is feminine and starts with a vowel — the article drops to un': un'acqua (Unit 9)."
+            },
+            {
+              "text": "Uno vino, per favore.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "Vino starts with a regular consonant — uno is only for s+consonant, z, gn, ps. Say: un vino."
+            }
+          ]
+        },
+        {
+          "id": "n4",
+          "speaker": "Cameriere",
+          "textIt": "Grazie! Buon appetito!",
+          "textEn": "Thank you! Enjoy your meal!",
+          "choices": [
+            {
+              "text": "Grazie!",
+              "next": "n5",
+              "correct": true
+            },
+            {
+              "text": "Buon appetito a te!",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "Kind thought, but the cameriere isn't eating — answer a good wish with a simple 'Grazie!'"
+            },
+            {
+              "text": "Il conto, per favore.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "Too soon! The dinner is starting. You ask for il conto at the END."
+            }
+          ]
+        },
+        {
+          "id": "n5",
+          "speaker": "Giulia",
+          "textIt": "E tu, Alex? Hai fratelli o sorelle?",
+          "textEn": "And you, Alex? Do you have brothers or sisters?",
+          "choices": [
+            {
+              "text": "Sì, ho un fratello. Si chiama Marco.",
+              "next": "n6",
+              "correct": true
+            },
+            {
+              "text": "Sì, sono un fratello.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "Family uses avere: HO un fratello (I have a brother). 'Sono un fratello' says you ARE a brother."
+            },
+            {
+              "text": "Sì, ho una fratello.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "Fratello is masculine — un fratello, not una fratello. (Una sorella, una madre are feminine.)"
+            }
+          ]
+        },
+        {
+          "id": "n6",
+          "speaker": "Giulia",
+          "textIt": "Com'è tuo fratello?",
+          "textEn": "What is your brother like?",
+          "choices": [
+            {
+              "text": "È alto e simpatico.",
+              "next": "n7",
+              "correct": true
+            },
+            {
+              "text": "È alto e simpatica.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "Tuo fratello is masculine — both adjectives take -o: alto e simpatico (Unit 13 agreement)."
+            },
+            {
+              "text": "Ha alto e simpatico.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "Descriptions use essere, not avere: È alto e simpatico. Ha = he has."
+            }
+          ]
+        },
+        {
+          "id": "n7",
+          "speaker": "Giulia",
+          "textIt": "Parli bene l'italiano, Alex!",
+          "textEn": "You speak Italian well, Alex!",
+          "choices": [
+            {
+              "text": "Grazie! Studio molto.",
+              "next": "n8",
+              "correct": true
+            },
+            {
+              "text": "Grazie! Parlo bene l'italiana.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "The language is l'italiano (masculine): parlo bene l'italiano."
+            },
+            {
+              "text": "Sì, sono italiano.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "Careful — that claims you ARE Italian (and you said sei americano in Story 1). Accept the compliment: 'Grazie!'"
+            }
+          ]
+        },
+        {
+          "id": "n8",
+          "speaker": "Narratore",
+          "textIt": "La cena finisce. Tu vuoi il conto. Cosa dici al cameriere?",
+          "textEn": "The dinner ends. You want the bill. What do you say to the waiter?",
+          "choices": [
+            {
+              "text": "Il conto, per favore.",
+              "next": "n9",
+              "correct": true
+            },
+            {
+              "text": "Il menu, per favore.",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "The menu is for the beginning of the dinner. At the end you ask for il conto — the bill."
+            },
+            {
+              "text": "Sono il conto.",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "Sono = I am — that says 'I am the bill'! Ask for it: 'Il conto, per favore.'"
+            }
+          ]
+        },
+        {
+          "id": "n9",
+          "speaker": "Narratore",
+          "textIt": "La cena è finita. Tu e Giulia siete contenti. Cosa dici a Giulia?",
+          "textEn": "The dinner is over. You and Giulia are happy. What do you say to Giulia?",
+          "choices": [
+            {
+              "text": "Vuoi un caffè con me?",
+              "next": "n10",
+              "correct": true
+            },
+            {
+              "text": "Vuoi un cappuccino con me?",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "Cappuccino is a morning drink (Unit 9)! After dinner, Italians take a caffè — an espresso."
+            },
+            {
+              "text": "Vuoi una pizza con me?",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "You just finished dinner! Offer a caffè instead: 'Vuoi un caffè con me?'"
+            }
+          ]
+        },
+        {
+          "id": "n10",
+          "speaker": "Giulia",
+          "textIt": "Sì! Un caffè con te, Alex. Grazie per la cena!",
+          "textEn": "Yes! A coffee with you, Alex. Thank you for the dinner!",
+          "choices": [
+            {
+              "text": "Grazie a te, Giulia. Ciao!",
+              "next": "n11",
+              "correct": true
+            },
+            {
+              "text": "Buongiorno, Giulia!",
+              "next": "n10",
+              "correct": false,
+              "feedbackEn": "It's night — close with buonasera or ciao, not buongiorno."
+            },
+            {
+              "text": "Il conto, Giulia!",
+              "next": "n10",
+              "correct": false,
+              "feedbackEn": "Giulia isn't the cameriere — and the bill is paid. Say goodbye warmly: 'Ciao!'"
+            }
+          ]
+        },
+        {
+          "id": "n11",
+          "speaker": "Narratore",
+          "textIt": "Giulia sorride: 'Ciao, Alex! A presto!' La cena con Giulia è finita bene. Bravissimo, Alex!",
+          "textEn": "Giulia smiles: 'Bye, Alex! See you soon!' (a presto) The dinner with Giulia ended well. Well done, Alex!",
+          "terminal": true
+        }
+      ]
     },
     {
       "id": "story3",

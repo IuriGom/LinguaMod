@@ -39,8 +39,16 @@ class StoryValidationTest {
         assertTrue("story1 needs a terminal node", s1.nodes.any { it.terminal })
     }
 
-    @Test fun `story2 to story4 are registered placeholders`() {
-        val expected = mapOf("story2" to 15, "story3" to 28, "story4" to 45)
+    @Test fun `story2 is fully written and registered for unit 15`() {
+        val s2 = plugin.stories.firstOrNull { it.id == "story2" }
+            ?: error("story2 missing from plugin")
+        assertEquals(15, s2.unlockAfterUnit)
+        assertTrue("story2 needs 8-12 nodes, got ${s2.nodes.size}", s2.nodes.size in 8..12)
+        assertTrue("story2 needs a terminal node", s2.nodes.any { it.terminal })
+    }
+
+    @Test fun `story3 and story4 are registered placeholders`() {
+        val expected = mapOf("story3" to 28, "story4" to 45)
         for ((id, afterUnit) in expected) {
             val s = plugin.stories.firstOrNull { it.id == id } ?: error("$id missing")
             assertEquals(afterUnit, s.unlockAfterUnit)
