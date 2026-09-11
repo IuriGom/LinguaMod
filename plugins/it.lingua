@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 11,
+    "version": 12,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -13202,6 +13202,764 @@
           }
         ]
       }
+    },
+    {
+      "id": "u19",
+      "number": 19,
+      "title": "I pronomi diretti",
+      "lessons": [
+        {
+          "id": "u19l1",
+          "type": "vocabulary",
+          "title": "Conoscere, vedere, chiamare",
+          "dictionaryRefs": [
+            "conoscere",
+            "vedere",
+            "chiamare",
+            "il-film",
+            "la-canzone"
+          ],
+          "exercises": [
+            {
+              "id": "u19l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "conoscere",
+              "options": [
+                "to know (a person or place)",
+                "to meet for the first time",
+                "to call",
+                "to see"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Conoscere' = to know a person or place: 'Conosco Giulia.' — I know Giulia. 💛 'Lo conosci?' — Do you know him?",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "vedere",
+              "options": [
+                "to see",
+                "to watch",
+                "to look for",
+                "to come"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vedere' = to see: 'Vedo Marco al bar.' — I see Marco at the bar. 💛 'La vedo domani.' — I'll see her tomorrow.",
+              "dictionaryRefs": [
+                "vedere"
+              ]
+            },
+            {
+              "id": "u19l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "chiamare",
+              "options": [
+                "to call (by phone or name)",
+                "to write",
+                "to listen",
+                "to ask"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Chiamare' = to call: 'Chiamo Marco.' — I call Marco. You know it from 'Come ti chiami' — literally 'how do you call yourself'.",
+              "dictionaryRefs": [
+                "chiamare",
+                "come-ti-chiami"
+              ]
+            },
+            {
+              "id": "u19l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il film",
+              "options": [
+                "the film; the movie",
+                "the book",
+                "the song",
+                "the show"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il film' (m) = the film — English borrowed into Italian, invariable plural: i film. 'Il film è bello.'",
+              "dictionaryRefs": [
+                "il-film",
+                "bello"
+              ]
+            },
+            {
+              "id": "u19l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la canzone",
+              "options": [
+                "the song",
+                "the music",
+                "the singer",
+                "the film"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La canzone' (f) = the song. 'La canzone è bella.' — The song is beautiful. (La musica, Unit 11, is the music in general.)",
+              "dictionaryRefs": [
+                "la-canzone",
+                "bello"
+              ]
+            },
+            {
+              "id": "u19l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I know Giulia.)",
+              "sentence": "Io ___ Giulia.",
+              "answers": [
+                "conosco"
+              ],
+              "explanation": "'Conosco Giulia.' — conoscere, io-form: conosco. A regular -ere verb: conosco, conosci, conosce…",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I see Marco at the bar.",
+              "acceptedIt": [
+                "Vedo Marco al bar.",
+                "Vedo Marco al bar",
+                "Io vedo Marco al bar"
+              ],
+              "explanation": "'Vedo Marco al bar.' — vedere, io-form: vedo. Regular -ere endings: vedo, vedi, vede, vediamo, vedete, vedono.",
+              "dictionaryRefs": [
+                "vedere",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u19l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 13 recycling)",
+              "sourceIt": "La canzone è bella.",
+              "acceptedEn": [
+                "The song is beautiful.",
+                "The song is nice."
+              ],
+              "explanation": "'La canzone è bella.' — bella agrees with canzone (feminine singular, Unit 13).",
+              "dictionaryRefs": [
+                "la-canzone",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u19l2",
+          "type": "grammar",
+          "title": "Lo, la, li, le — i pronomi diretti",
+          "dictionaryRefs": [
+            "conoscere",
+            "vedere",
+            "chiamare",
+            "il-film",
+            "la-canzone",
+            "il-libro",
+            "la-lettera",
+            "il-ragazzo",
+            "la-ragazza"
+          ],
+          "grammarNotes": "I PRONOMI DIRETTI — the little words that replace 'him / her / it / them'.\n\nTHE FOUR FORMS:\n• lo — him, it (m sing): 'Il film? Lo vedo domani.' — The film? I see it tomorrow.\n• la — her, it (f sing): 'La canzone? La ascolto.' — The song? I listen to it.\n• li — them (m pl): 'I libri? Li leggo.' — The books? I read them.\n• le — them (f pl): 'Le lettere? Le scrivo.' — The letters? I write them.\n\nPOSITION — before the verb, the opposite of English:\n'Lo conosci?' — Do you know HIM? (lo comes before conosci)\n'La vedo domani.' — I see HER tomorrow. 💛\n\nBEFORE A VOWEL, lo and la drop to l': 'L'ascolto.' — I listen to it. (Same l' rule as the articles, Unit 5.)\n\nWHY: Italians hate repeating nouns. 'Conosci Marco?' — 'Sì, lo conosco.' — Yes, I know HIM.\nThe pronoun carries the gender and number of what it replaces: lo for il ragazzo, la for la ragazza, li for i libri, le for le lettere.\n\n💛 'Lo conosci?' — Do you know him? 'La vedo domani.' — I'll see her tomorrow. 'La chiamo domani.' — I'll call her tomorrow.",
+          "exercises": [
+            {
+              "id": "u19l2e1",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (Do you know Marco? — Yes, I know him.)",
+              "sentence": "'Conosci Marco?' — 'Sì, ___ conosco.'",
+              "answers": [
+                "lo"
+              ],
+              "explanation": "'Sì, lo conosco.' — lo replaces Marco (masculine singular) and sits BEFORE the verb.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l2e2",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (Do you see Giulia? — Yes, I see her.)",
+              "sentence": "'Vedi Giulia?' — 'Sì, ___ vedo.'",
+              "answers": [
+                "la"
+              ],
+              "explanation": "'Sì, la vedo.' — la replaces Giulia (feminine singular), before the verb. 💛",
+              "dictionaryRefs": [
+                "vedere"
+              ]
+            },
+            {
+              "id": "u19l2e3",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (Do you read the books? — Yes, I read them.) (Unit 5 recycling)",
+              "sentence": "'Leggi i libri?' — 'Sì, ___ leggo.'",
+              "answers": [
+                "li"
+              ],
+              "explanation": "'Sì, li leggo.' — li replaces i libri (masculine plural). The plural of lo.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u19l2e4",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (Do you know the girls? — Yes, I know them.) (Unit 6 recycling)",
+              "sentence": "'Conosci le ragazze?' — 'Sì, ___ conosco.'",
+              "answers": [
+                "le"
+              ],
+              "explanation": "'Sì, le conosco.' — le replaces le ragazze (feminine plural). The plural of la.",
+              "dictionaryRefs": [
+                "conoscere",
+                "la-ragazza"
+              ]
+            },
+            {
+              "id": "u19l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the pronoun. (The film? I see it tomorrow.)",
+              "question": "Il film? ___ vedo domani.",
+              "options": [
+                "Lo",
+                "La",
+                "Li",
+                "Il"
+              ],
+              "correctIndex": 0,
+              "explanation": "Il film is masculine singular → lo. 'Lo vedo domani.' (Il is the article — the pronoun is lo.)",
+              "dictionaryRefs": [
+                "il-film",
+                "vedere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u19l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you know him?",
+              "acceptedIt": [
+                "Lo conosci?",
+                "Lo conosci",
+                "Tu lo conosci?"
+              ],
+              "explanation": "'Lo conosci?' — lo (him) before conosci (you know). English puts 'him' last; Italian puts it first.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'll see her tomorrow.",
+              "acceptedIt": [
+                "La vedo domani.",
+                "La vedo domani",
+                "Io la vedo domani"
+              ],
+              "explanation": "'La vedo domani.' — la (her) + vedo + domani. 💛 The sentence that ends a good first date.",
+              "dictionaryRefs": [
+                "vedere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u19l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "L'ascolto.",
+              "acceptedEn": [
+                "I listen to it.",
+                "I'm listening to it.",
+                "I listen to him."
+              ],
+              "explanation": "'L'ascolto.' — lo/la before a vowel drops to l': l'ascolto (from lo/la + ascolto). Same rule as l'amico (Unit 5).",
+              "dictionaryRefs": [
+                "ascoltare"
+              ]
+            },
+            {
+              "id": "u19l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "vedo",
+                "Lo",
+                "domani."
+              ],
+              "correctSentence": "Lo vedo domani.",
+              "explanation": "'Lo vedo domani.' — the pronoun starts the sentence: lo + vedo. I'll see him/it tomorrow.",
+              "dictionaryRefs": [
+                "vedere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u19l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Tu",
+                "la",
+                "conosci?"
+              ],
+              "correctSentence": "Tu la conosci?",
+              "explanation": "'Tu la conosci?' — tu, then the pronoun la, then the verb. The pronoun hugs the verb.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5 recycling)",
+              "tokens": [
+                "I",
+                "libri?",
+                "Li",
+                "leggo."
+              ],
+              "correctSentence": "I libri? Li leggo.",
+              "explanation": "'I libri? Li leggo.' — name the thing, then answer with the pronoun: i libri → li.",
+              "dictionaryRefs": [
+                "il-libro",
+                "leggere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u19l3",
+          "type": "mixed",
+          "title": "Le persone: ripasso 💛",
+          "dictionaryRefs": [
+            "il-ragazzo",
+            "la-ragazza",
+            "il-caffe",
+            "la-musica",
+            "la-domanda",
+            "la-pizza",
+            "conoscere",
+            "vedere",
+            "chiamare",
+            "il-film",
+            "la-canzone"
+          ],
+          "exercises": [
+            {
+              "id": "u19l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Lo conosci?",
+              "options": [
+                "Do you know him?",
+                "Do you know her?",
+                "Do you see him?",
+                "Do you call him?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo conosci?' — lo (him) + conosci (you know). 💛 The question about a mutual friend.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l3e2",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (The music? I listen to it.) (Unit 11 recycling)",
+              "sentence": "La musica? ___ ascolto.",
+              "answers": [
+                "La",
+                "L'"
+              ],
+              "explanation": "'La musica? La ascolto.' — la for la musica (f sing). Before the vowel it could also be l': l'ascolto.",
+              "dictionaryRefs": [
+                "la-musica",
+                "ascoltare"
+              ]
+            },
+            {
+              "id": "u19l3e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 6 recycling)",
+              "sourceEn": "I see them. (the boys)",
+              "acceptedIt": [
+                "Li vedo.",
+                "Li vedo",
+                "Io li vedo"
+              ],
+              "explanation": "'Li vedo.' — li for i ragazzi (m pl), before vedo. I see them.",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "vedere"
+              ]
+            },
+            {
+              "id": "u19l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 7+11 recycling)",
+              "sourceIt": "La pizza? La mangio.",
+              "acceptedEn": [
+                "The pizza? I eat it.",
+                "The pizza? I'm eating it."
+              ],
+              "explanation": "'La pizza? La mangio.' — la pizza (f sing) → la, before mangio. Name it, then replace it.",
+              "dictionaryRefs": [
+                "la-pizza",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u19l3e5",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (The question? I understand it.) (Unit 8+12 recycling)",
+              "sentence": "La domanda? ___ capisco.",
+              "answers": [
+                "La",
+                "L'"
+              ],
+              "explanation": "'La domanda? La capisco.' — la for la domanda. (Also possible: l'capisco is never written — keep la before a consonant.)",
+              "dictionaryRefs": [
+                "la-domanda",
+                "capire"
+              ]
+            },
+            {
+              "id": "u19l3e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the pronoun. (The letters? I write them.) (Unit 3+12 recycling)",
+              "question": "Le lettere? ___ scrivo.",
+              "options": [
+                "Le",
+                "Li",
+                "Lo",
+                "La"
+              ],
+              "correctIndex": 0,
+              "explanation": "Le lettere is feminine plural → le. 'Le scrivo.' The pronoun copies gender AND number.",
+              "dictionaryRefs": [
+                "la-lettera",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u19l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 9+12 recycling)",
+              "tokens": [
+                "Il",
+                "caffè?",
+                "Lo",
+                "prendo."
+              ],
+              "correctSentence": "Il caffè? Lo prendo.",
+              "explanation": "'Il caffè? Lo prendo.' — il caffè (m sing) → lo. 'The coffee? I'll have it.'",
+              "dictionaryRefs": [
+                "il-caffe",
+                "prendere"
+              ]
+            },
+            {
+              "id": "u19l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you know Giulia?",
+              "acceptedIt": [
+                "Conosci Giulia?",
+                "Conosci Giulia",
+                "Tu conosci Giulia?"
+              ],
+              "explanation": "'Conosci Giulia?' — the full name first time; the pronoun the second time: 'Sì, la conosco.' 💛",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u19l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "conoscere",
+            "vedere",
+            "chiamare",
+            "domani",
+            "bene",
+            "leggere"
+          ],
+          "exercises": [
+            {
+              "id": "u19l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "La vedo domani.",
+              "options": [
+                "I'll see her tomorrow.",
+                "I'll see him tomorrow.",
+                "I'll call her tomorrow.",
+                "I see her today."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'La vedo domani.' — la (her) + vedo + domani. 💛",
+              "dictionaryRefs": [
+                "vedere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u19l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Lo conosco bene.",
+              "acceptedIt": [
+                "Lo conosco bene.",
+                "Lo conosco bene",
+                "Io lo conosco bene"
+              ],
+              "explanation": "You heard: 'Lo conosco bene.' — I know him well. Lo (him) + conosco + bene (Unit 7).",
+              "dictionaryRefs": [
+                "conoscere",
+                "bene"
+              ]
+            },
+            {
+              "id": "u19l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 12 recycling)",
+              "mode": "choice",
+              "speakIt": "Li leggi?",
+              "options": [
+                "Do you read them? (m)",
+                "Do you read it? (m)",
+                "Do you write them?",
+                "Do you read them? (f)"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Li leggi?' — li (them, masculine) + leggi (you read). The vowel tells the gender.",
+              "dictionaryRefs": [
+                "leggere"
+              ]
+            },
+            {
+              "id": "u19l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'll call her tomorrow. 💛",
+              "targetIt": "La chiamo domani.",
+              "minAccuracy": 0.7,
+              "explanation": "'La chiamo domani.' — la KIA-mo do-MA-ni. 💛 Then do it.",
+              "dictionaryRefs": [
+                "chiamare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u19l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I know him.",
+              "targetIt": "Lo conosco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Lo conosco.' — lo ko-NO-sko. The pronoun first, the verb right after.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u19l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Le conosco.",
+              "acceptedIt": [
+                "Le conosco.",
+                "Le conosco",
+                "Io le conosco"
+              ],
+              "explanation": "You heard: 'Le conosco.' — I know them (feminine plural). Le = the plural of la.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u19c",
+        "exercises": [
+          {
+            "id": "u19ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il film",
+            "options": [
+              "the film; the movie",
+              "the song",
+              "the book",
+              "the show"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il film' (m) = the film. Invariable plural: i film. 'Il film? Lo vedo.'",
+            "dictionaryRefs": [
+              "il-film"
+            ]
+          },
+          {
+            "id": "u19ce2",
+            "type": "fill_blank",
+            "prompt": "Answer with a pronoun. (The film? I see it tomorrow.)",
+            "sentence": "Il film? ___ vedo domani.",
+            "answers": [
+              "Lo"
+            ],
+            "explanation": "'Il film? Lo vedo domani.' — il film (m sing) → lo, before the verb.",
+            "dictionaryRefs": [
+              "il-film",
+              "vedere",
+              "domani"
+            ]
+          },
+          {
+            "id": "u19ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "Do you know her?",
+            "acceptedIt": [
+              "La conosci?",
+              "La conosci",
+              "Tu la conosci?"
+            ],
+            "explanation": "'La conosci?' — la (her) before conosci (you know). 💛",
+            "dictionaryRefs": [
+              "conoscere"
+            ]
+          },
+          {
+            "id": "u19ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 11 recycling)",
+            "sourceIt": "Le canzoni? Le ascolto.",
+            "acceptedEn": [
+              "The songs? I listen to them.",
+              "The songs? I'm listening to them."
+            ],
+            "explanation": "'Le canzoni? Le ascolto.' — le canzoni (f pl) → le, before ascolto.",
+            "dictionaryRefs": [
+              "la-canzone",
+              "ascoltare"
+            ]
+          },
+          {
+            "id": "u19ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the pronoun. (The song? I listen to it.)",
+            "question": "La canzone? ___ ascolto.",
+            "options": [
+              "La",
+              "Lo",
+              "Le",
+              "Li"
+            ],
+            "correctIndex": 0,
+            "explanation": "La canzone is feminine singular → la. Lo is masculine, li/le are plural.",
+            "dictionaryRefs": [
+              "la-canzone",
+              "ascoltare"
+            ]
+          },
+          {
+            "id": "u19ce6",
+            "type": "fill_blank",
+            "prompt": "Answer with a pronoun. (The boys? I see them at the bar.) (Unit 6 recycling)",
+            "sentence": "I ragazzi? ___ vedo al bar.",
+            "answers": [
+              "Li"
+            ],
+            "explanation": "'I ragazzi? Li vedo al bar.' — i ragazzi (m pl) → li. The plural of lo.",
+            "dictionaryRefs": [
+              "il-ragazzo",
+              "vedere",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u19ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "vedo",
+              "La",
+              "domani."
+            ],
+            "correctSentence": "La vedo domani.",
+            "explanation": "'La vedo domani.' — la + vedo + domani. The pronoun leads. 💛",
+            "dictionaryRefs": [
+              "vedere",
+              "domani"
+            ]
+          },
+          {
+            "id": "u19ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Lo chiamo domani.",
+            "options": [
+              "I'll call him tomorrow.",
+              "I'll call her tomorrow.",
+              "I'll see him tomorrow.",
+              "I'll call them tomorrow."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Lo chiamo domani.' — lo (him) + chiamo (I call) + domani.",
+            "dictionaryRefs": [
+              "chiamare",
+              "domani"
+            ]
+          },
+          {
+            "id": "u19ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Li conosco.",
+            "acceptedIt": [
+              "Li conosco.",
+              "Li conosco",
+              "Io li conosco"
+            ],
+            "explanation": "You heard: 'Li conosco.' — I know them (masculine plural). Li = the plural of lo.",
+            "dictionaryRefs": [
+              "conoscere"
+            ]
+          },
+          {
+            "id": "u19ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I'll see her tomorrow. 💛",
+            "targetIt": "La vedo domani.",
+            "minAccuracy": 0.7,
+            "explanation": "'La vedo domani.' — la VE-do do-MA-ni. 💛 The date continues.",
+            "dictionaryRefs": [
+              "vedere",
+              "domani"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -15204,6 +15962,95 @@
         }
       ],
       "introducedInUnit": 18
+    },
+    {
+      "id": "conoscere",
+      "word": "conoscere",
+      "translation": "to know (a person or place)",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Conosco Giulia.",
+          "en": "I know Giulia."
+        },
+        {
+          "it": "Lo conosci?",
+          "en": "Do you know him?"
+        }
+      ],
+      "introducedInUnit": 19
+    },
+    {
+      "id": "vedere",
+      "word": "vedere",
+      "translation": "to see",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Vedo Marco al bar.",
+          "en": "I see Marco at the bar."
+        },
+        {
+          "it": "La vedo domani.",
+          "en": "I'll see her tomorrow."
+        }
+      ],
+      "introducedInUnit": 19
+    },
+    {
+      "id": "chiamare",
+      "word": "chiamare",
+      "translation": "to call",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Chiamo Marco.",
+          "en": "I call Marco."
+        },
+        {
+          "it": "La chiamo domani.",
+          "en": "I'll call her tomorrow."
+        }
+      ],
+      "introducedInUnit": 19
+    },
+    {
+      "id": "il-film",
+      "word": "film",
+      "article": "il",
+      "translation": "film; movie (invariable plural: i film)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il film è bello.",
+          "en": "The film is nice."
+        },
+        {
+          "it": "Il film? Lo vedo domani.",
+          "en": "The film? I see it tomorrow."
+        }
+      ],
+      "introducedInUnit": 19
+    },
+    {
+      "id": "la-canzone",
+      "word": "canzone",
+      "article": "la",
+      "translation": "song",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La canzone è bella.",
+          "en": "The song is beautiful."
+        },
+        {
+          "it": "Le canzoni? Le ascolto.",
+          "en": "The songs? I listen to them."
+        }
+      ],
+      "introducedInUnit": 19
     }
   ],
   "stories": [
