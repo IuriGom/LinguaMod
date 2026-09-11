@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 6,
+    "version": 7,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -10093,6 +10093,803 @@
           }
         ]
       }
+    },
+    {
+      "id": "u15",
+      "number": 15,
+      "title": "Al ristorante",
+      "lessons": [
+        {
+          "id": "u15l1",
+          "type": "vocabulary",
+          "title": "Il ristorante: le parole",
+          "dictionaryRefs": [
+            "il-ristorante",
+            "il-menu",
+            "il-tavolo",
+            "la-pasta",
+            "il-pesce",
+            "il-vino",
+            "la-cena"
+          ],
+          "exercises": [
+            {
+              "id": "u15l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il ristorante",
+              "options": [
+                "the restaurant",
+                "the bar; café",
+                "the kitchen",
+                "the hotel"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il ristorante' (m) = the restaurant. For a coffee you go al bar (Unit 5); for dinner, al ristorante. 💛",
+              "dictionaryRefs": [
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u15l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il menu",
+              "options": [
+                "the menu",
+                "the bill",
+                "the table",
+                "the dish"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il menu' (m) = the menu — same word, Italian spelling. 'Il menu, per favore.'",
+              "dictionaryRefs": [
+                "il-menu"
+              ]
+            },
+            {
+              "id": "u15l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il tavolo",
+              "options": [
+                "the table",
+                "the chair",
+                "the menu",
+                "the plate"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il tavolo' (m) = the table. 'Un tavolo per due, per favore.' — A table for two, please. The first sentence of every dinner out.",
+              "dictionaryRefs": [
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u15l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la pasta",
+              "options": [
+                "the pasta",
+                "the fish",
+                "the pizza",
+                "the bread"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La pasta' (f) = the pasta. Italians order it with the article: 'Prendo la pasta.' — I'll have the pasta.",
+              "dictionaryRefs": [
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u15l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il pesce",
+              "options": [
+                "the fish",
+                "the meat",
+                "the pasta",
+                "the cheese"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il pesce' (m) = the fish. Watch the sound: PE-she. 'Pesca' with a hard c means peach!",
+              "dictionaryRefs": [
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u15l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il vino",
+              "options": [
+                "the wine",
+                "the water",
+                "the beer",
+                "the coffee"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il vino' (m) = the wine. 'Un vino, per favore.' — A wine, please.",
+              "dictionaryRefs": [
+                "il-vino"
+              ]
+            },
+            {
+              "id": "u15l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la cena",
+              "options": [
+                "the dinner",
+                "the lunch",
+                "the breakfast",
+                "the bill"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La cena' (f) = the dinner. The three meals: la colazione (morning), il pranzo (lunch), la cena (dinner — late, from 8 pm).",
+              "dictionaryRefs": [
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u15l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (A table for two, please.)",
+              "sentence": "Un ___ per due, per favore.",
+              "answers": [
+                "tavolo"
+              ],
+              "explanation": "'Un tavolo per due, per favore.' — tavolo is masculine, regular consonant → un. Memorize this sentence whole. 💛",
+              "dictionaryRefs": [
+                "il-tavolo",
+                "per-favore"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u15l2",
+          "type": "grammar",
+          "title": "Voglio o vorrei? — ordinare con stile",
+          "dictionaryRefs": [
+            "voglio",
+            "vorrei",
+            "il-menu",
+            "il-tavolo",
+            "la-pasta",
+            "il-pesce",
+            "il-vino",
+            "la-cena",
+            "prendere",
+            "il-conto"
+          ],
+          "grammarNotes": "AL RISTORANTE — ordering politely.\n\nVOLERE (to want) — the full present:\n\nio voglio — I want\ntu vuoi — you want\nlui/lei vuole — he/she wants\nnoi vogliamo — we want\nvoi volete — you want (plural)\nloro vogliono — they want\n\n'Voglio una pizza!' — direct. Fine with friends and family; blunt with a waiter.\n\n'VORREI' — I would like (Unit 9's set phrase): same meaning as voglio, much softer.\n'Vorrei un tavolo per due.' — I would like a table for two.\nAt a restaurant, vorrei is the standard. (Its grammar — the conditional — arrives in Unit 41.)\n\nTHREE WAYS TO ORDER:\n• 'Vorrei il pesce.' — I would like the fish. (polite classic)\n• 'Prendo la pasta.' — I'll have the pasta. (prendere, Unit 12)\n• 'Per me il vino.' — For me, the wine. (when everyone orders in turn)\n\nARTICLES WITH FOOD: for a dish from the menu, use il/la — 'Prendo il pesce', 'Per me la pasta'. For one item, use un/una — 'Un vino, per favore', 'Un'acqua minerale'.\n\nTHE ITALIAN DAY — culture note:\n• la colazione — breakfast: cappuccino e cornetto, standing at the bar (Unit 9)\n• il pranzo — lunch, around 13:00\n• la cena — dinner, late: 20:00 or later. Nobody eats dinner at six.\nAt the restaurant: il primo (a pasta), il secondo (meat or fish)… and to finish, 'Il conto, per favore.' (Unit 9).\n• 'Buon appetito!' — enjoy your meal, said when the food arrives.",
+          "exercises": [
+            {
+              "id": "u15l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence, politely. (I would like a table for two, please.)",
+              "sentence": "___ un tavolo per due, per favore.",
+              "answers": [
+                "Vorrei",
+                "Io vorrei"
+              ],
+              "explanation": "'Vorrei un tavolo per due.' — with a waiter, vorrei (I would like) is the standard; voglio (I want) is for friends.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u15l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence, with friends. (I want a pizza!)",
+              "sentence": "Con gli amici: '___ una pizza!'",
+              "answers": [
+                "Voglio",
+                "Io voglio"
+              ],
+              "explanation": "'Voglio una pizza!' — volere, io-form: voglio. Direct and warm with friends; at the restaurant prefer 'Vorrei…'",
+              "dictionaryRefs": [
+                "voglio",
+                "la-pizza",
+                "amico"
+              ]
+            },
+            {
+              "id": "u15l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (What do you want, Giulia?)",
+              "sentence": "Cosa ___, Giulia?",
+              "answers": [
+                "vuoi"
+              ],
+              "explanation": "'Cosa vuoi?' — volere, tu-form: vuoi. You already say 'Vuoi un caffè?' (Unit 9) — now you know the verb behind it.",
+              "dictionaryRefs": [
+                "voglio"
+              ]
+            },
+            {
+              "id": "u15l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "A table for two, please.",
+              "acceptedIt": [
+                "Un tavolo per due, per favore.",
+                "Un tavolo per due, per favore",
+                "Un tavolo per due per favore"
+              ],
+              "explanation": "'Un tavolo per due, per favore.' — un + tavolo + per due + per favore. Say it at the door, before the menu.",
+              "dictionaryRefs": [
+                "il-tavolo",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u15l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I would like the fish.",
+              "acceptedIt": [
+                "Vorrei il pesce.",
+                "Vorrei il pesce",
+                "Io vorrei il pesce"
+              ],
+              "explanation": "'Vorrei il pesce.' — menu dishes take the definite article: il pesce, la pasta. (One item: un vino, un'acqua.)",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u15l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 12 recycling)",
+              "sourceIt": "Noi prendiamo la pasta.",
+              "acceptedEn": [
+                "We'll have the pasta.",
+                "We take the pasta.",
+                "We are having the pasta."
+              ],
+              "explanation": "'Noi prendiamo la pasta.' — prendere (Unit 12) is the natural ordering verb: prendiamo = we'll have.",
+              "dictionaryRefs": [
+                "prendere",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u15l2e7",
+              "type": "multiple_choice",
+              "prompt": "Culture check: when is dinner in Italy?",
+              "question": "La cena in Italia è…",
+              "options": [
+                "late, from about 8 pm",
+                "at noon",
+                "at 5 pm",
+                "in the morning"
+              ],
+              "correctIndex": 0,
+              "explanation": "La cena starts at 20:00 or later. Lunch (il pranzo) is around 13:00; breakfast (la colazione) is a quick cappuccino e cornetto.",
+              "dictionaryRefs": [
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u15l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the most polite way to order.",
+              "question": "Al ristorante:",
+              "options": [
+                "Vorrei il menu, per favore.",
+                "Voglio il menu!",
+                "Io sono il menu.",
+                "Il menu è qui."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vorrei il menu, per favore.' — vorrei softens the request. 'Voglio il menu!' is grammatical but blunt; save voglio for friends.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-menu"
+              ]
+            },
+            {
+              "id": "u15l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "per",
+                "Vorrei",
+                "un",
+                "tavolo",
+                "due."
+              ],
+              "correctSentence": "Vorrei un tavolo per due.",
+              "explanation": "'Vorrei un tavolo per due.' — vorrei + un tavolo (masc.) + per due. Word for word: I-would-like a table for two.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u15l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Per",
+                "me",
+                "la",
+                "pasta,",
+                "per",
+                "favore."
+              ],
+              "correctSentence": "Per me la pasta, per favore.",
+              "explanation": "'Per me la pasta, per favore.' — per me + the dish with its article (la pasta), closed by per favore.",
+              "dictionaryRefs": [
+                "la-pasta",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u15l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 9 recycling)",
+              "tokens": [
+                "Il",
+                "conto,",
+                "per",
+                "favore."
+              ],
+              "correctSentence": "Il conto, per favore.",
+              "explanation": "'Il conto, per favore.' — the bill, please. At the restaurant just like at the bar (Unit 9).",
+              "dictionaryRefs": [
+                "il-conto",
+                "per-favore"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u15l3",
+          "type": "mixed",
+          "title": "La giornata a tavola: ripasso",
+          "dictionaryRefs": [
+            "la-mattina",
+            "la-sera",
+            "il-cappuccino",
+            "il-cornetto",
+            "costare",
+            "euro",
+            "la-pizza",
+            "la-famiglia",
+            "mangiare",
+            "prendere",
+            "il-ristorante",
+            "il-pesce",
+            "il-vino",
+            "la-cena",
+            "la-pasta"
+          ],
+          "exercises": [
+            {
+              "id": "u15l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 11 recycling)",
+              "sourceEn": "For dinner I eat pasta.",
+              "acceptedIt": [
+                "Per cena mangio la pasta.",
+                "Per cena mangio la pasta",
+                "Mangio la pasta per cena",
+                "Per cena io mangio la pasta"
+              ],
+              "explanation": "'Per cena mangio la pasta.' — per + the meal names the occasion: per cena, per pranzo. Mangio = I eat (io, -o).",
+              "dictionaryRefs": [
+                "la-cena",
+                "mangiare",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u15l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Units 9+10+12 recycling)",
+              "question": "La mattina prendo un cappuccino e un cornetto.",
+              "options": [
+                "In the morning I have a cappuccino and a croissant.",
+                "In the evening I have a cappuccino and a croissant.",
+                "In the morning I want a cappuccino and a croissant.",
+                "For dinner I have a cappuccino and a croissant."
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mattina prendo…' — la mattina (Unit 10) + prendo (prendere for food, Unit 12). THE Italian breakfast.",
+              "dictionaryRefs": [
+                "la-mattina",
+                "prendere",
+                "il-cappuccino",
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u15l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (In the evening, the family eats dinner.)",
+              "sentence": "Di sera, la famiglia mangia ___.",
+              "answers": [
+                "la cena"
+              ],
+              "explanation": "'Di sera, la famiglia mangia la cena.' — di sera (in the evening, Unit 10) + mangia (she/it eats) + la cena.",
+              "dictionaryRefs": [
+                "la-sera",
+                "la-famiglia",
+                "mangiare",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u15l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 10 recycling)",
+              "sourceIt": "Il vino costa tre euro.",
+              "acceptedEn": [
+                "The wine costs three euros.",
+                "The wine costs 3 euros."
+              ],
+              "explanation": "'Il vino costa tre euro.' — costa (one thing, Unit 10) + tre euro. Euro never takes a plural.",
+              "dictionaryRefs": [
+                "il-vino",
+                "costare",
+                "euro"
+              ]
+            },
+            {
+              "id": "u15l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (At the restaurant, Giulia has the fish.)",
+              "sentence": "Al ristorante, Giulia prende ___.",
+              "answers": [
+                "il pesce"
+              ],
+              "explanation": "'Giulia prende il pesce.' — a menu dish takes the article: il pesce. Prende = she has (prendere, -e for lui/lei).",
+              "dictionaryRefs": [
+                "il-ristorante",
+                "prendere",
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u15l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 10 recycling)",
+              "question": "Quanto costa il vino?",
+              "options": [
+                "How much does the wine cost?",
+                "How much does the fish cost?",
+                "Where is the wine?",
+                "When is the wine?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quanto costa il vino?' — quanto + costa (it costs) + il vino. The Unit 10 price question, new word.",
+              "dictionaryRefs": [
+                "costare",
+                "il-vino"
+              ]
+            },
+            {
+              "id": "u15l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Mangiamo",
+                "la",
+                "pizza",
+                "al",
+                "ristorante."
+              ],
+              "correctSentence": "Mangiamo la pizza al ristorante.",
+              "explanation": "'Mangiamo la pizza al ristorante.' — mangiamo (noi) + la pizza + al ristorante (a + il, like al bar).",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pizza",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u15l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you want dinner with me?",
+              "acceptedIt": [
+                "Vuoi una cena con me?",
+                "Vuoi una cena con me",
+                "Tu vuoi una cena con me?",
+                "Cena con me?"
+              ],
+              "explanation": "'Vuoi una cena con me?' — vuoi (you want) + una cena + con me. 💛 The Unit 9 invitation pattern ('Vuoi un caffè?'), one step further.",
+              "dictionaryRefs": [
+                "voglio",
+                "la-cena"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u15l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "vorrei",
+            "voglio",
+            "il-tavolo",
+            "il-menu",
+            "la-pasta",
+            "il-pesce",
+            "il-vino",
+            "la-cena",
+            "il-conto"
+          ],
+          "exercises": [
+            {
+              "id": "u15l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Vorrei un tavolo per due.",
+              "options": [
+                "I would like a table for two.",
+                "I would like the menu, please.",
+                "I want a coffee for two.",
+                "We have a table for two."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Vorrei un tavolo per due.' — I would like a table for two. The door-sentence of every restaurant visit.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u15l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Per me il pesce.",
+              "acceptedIt": [
+                "Per me il pesce.",
+                "Per me il pesce"
+              ],
+              "explanation": "You heard: 'Per me il pesce.' — For me, the fish. Ordering in turns: per me, per te…",
+              "dictionaryRefs": [
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u15l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Vuoi un vino?",
+              "options": [
+                "Do you want a wine?",
+                "Would you like the fish?",
+                "Do you want water?",
+                "Do you have wine?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard 'Vuoi un vino?' — Do you want a wine? Vuoi (volere, tu) + un vino. 💛 Offer it to your date.",
+              "dictionaryRefs": [
+                "voglio",
+                "il-vino"
+              ]
+            },
+            {
+              "id": "u15l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I would like the pasta, please.",
+              "targetIt": "Vorrei la pasta, per favore.",
+              "minAccuracy": 0.7,
+              "explanation": "'Vorrei la pasta, per favore.' — vor-REI la PAS-ta, per fa-VO-re. Vorrei makes it polite.",
+              "dictionaryRefs": [
+                "vorrei",
+                "la-pasta",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u15l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: The bill, please. (Unit 9 recycling)",
+              "targetIt": "Il conto, per favore.",
+              "minAccuracy": 0.7,
+              "explanation": "'Il conto, per favore.' — il CON-to, per fa-VO-re. The last sentence of the evening.",
+              "dictionaryRefs": [
+                "il-conto",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u15l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 10 recycling)",
+              "mode": "type",
+              "speakIt": "La cena è alle otto.",
+              "acceptedIt": [
+                "La cena è alle otto.",
+                "La cena è alle otto",
+                "La cena e' alle otto"
+              ],
+              "explanation": "You heard: 'La cena è alle otto.' — Dinner is at eight. Alle otto = at eight (Unit 10's time pattern).",
+              "dictionaryRefs": [
+                "la-cena",
+                "che-ore-sono"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u15c",
+        "exercises": [
+          {
+            "id": "u15ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il menu",
+            "options": [
+              "the menu",
+              "the bill",
+              "the table",
+              "the wine"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il menu' (m) = the menu. 'Il menu, per favore.' — and the evening begins.",
+            "dictionaryRefs": [
+              "il-menu"
+            ]
+          },
+          {
+            "id": "u15ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the order, politely. (I would like the fish, please.)",
+            "sentence": "___ il pesce, per favore.",
+            "answers": [
+              "Vorrei",
+              "Io vorrei"
+            ],
+            "explanation": "'Vorrei il pesce, per favore.' — vorrei (polite) + il pesce (menu dishes take the article).",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-pesce"
+            ]
+          },
+          {
+            "id": "u15ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "A table for two, please.",
+            "acceptedIt": [
+              "Un tavolo per due, per favore.",
+              "Un tavolo per due, per favore",
+              "Un tavolo per due per favore"
+            ],
+            "explanation": "'Un tavolo per due, per favore.' — your first sentence at every restaurant. 💛",
+            "dictionaryRefs": [
+              "il-tavolo",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u15ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Prendo la pasta e un vino.",
+            "acceptedEn": [
+              "I'll have the pasta and a wine.",
+              "I take the pasta and a wine.",
+              "I'm having the pasta and a wine."
+            ],
+            "explanation": "'Prendo la pasta e un vino.' — prendere for ordering (Unit 12); la pasta (dish, article) vs un vino (one item).",
+            "dictionaryRefs": [
+              "prendere",
+              "la-pasta",
+              "il-vino"
+            ]
+          },
+          {
+            "id": "u15ce5",
+            "type": "multiple_choice",
+            "prompt": "Culture check: what is la colazione in Italy?",
+            "question": "In Italia, la colazione è…",
+            "options": [
+              "a cappuccino and a cornetto at the bar",
+              "a big plate of pasta",
+              "fish and wine",
+              "pizza at midnight"
+            ],
+            "correctIndex": 0,
+            "explanation": "La colazione = cappuccino e cornetto, standing at the bar (Unit 9). Pasta is il primo at lunch or dinner; la cena is late.",
+            "dictionaryRefs": [
+              "il-cappuccino",
+              "il-cornetto"
+            ]
+          },
+          {
+            "id": "u15ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (We want the bill.)",
+            "sentence": "Noi ___ il conto.",
+            "answers": [
+              "vogliamo"
+            ],
+            "explanation": "'Noi vogliamo il conto.' — volere, noi-form: vogliamo. (Politer at the table: 'Il conto, per favore.')",
+            "dictionaryRefs": [
+              "voglio",
+              "il-conto"
+            ]
+          },
+          {
+            "id": "u15ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Cosa",
+              "prendi",
+              "tu?"
+            ],
+            "correctSentence": "Cosa prendi tu?",
+            "explanation": "'Cosa prendi tu?' — question word, verb, then the optional tu. What are you having? 💛",
+            "dictionaryRefs": [
+              "prendere"
+            ]
+          },
+          {
+            "id": "u15ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Il tavolo è qui.",
+            "options": [
+              "The table is here.",
+              "The table is for two.",
+              "The bill is here.",
+              "The menu is here."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Il tavolo è qui.' — The table is here. Listen for tavolo vs conto vs menu.",
+            "dictionaryRefs": [
+              "il-tavolo"
+            ]
+          },
+          {
+            "id": "u15ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Vorrei il menu.",
+            "acceptedIt": [
+              "Vorrei il menu.",
+              "Vorrei il menu",
+              "Io vorrei il menu"
+            ],
+            "explanation": "You heard: 'Vorrei il menu.' — I would like the menu. Vorrei + il menu.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-menu"
+            ]
+          },
+          {
+            "id": "u15ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I would like a table for two.",
+            "targetIt": "Vorrei un tavolo per due.",
+            "minAccuracy": 0.7,
+            "explanation": "'Vorrei un tavolo per due.' — vor-REI un TA-vo-lo per DU-e. 💛 The date starts here.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-tavolo"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -11630,6 +12427,140 @@
         }
       ],
       "introducedInUnit": 14
+    },
+    {
+      "id": "il-ristorante",
+      "word": "ristorante",
+      "article": "il",
+      "translation": "restaurant",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il ristorante è bello.",
+          "en": "The restaurant is nice."
+        },
+        {
+          "it": "Mangiamo la pizza al ristorante.",
+          "en": "We eat pizza at the restaurant."
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "il-menu",
+      "word": "menu",
+      "article": "il",
+      "translation": "menu",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il menu, per favore.",
+          "en": "The menu, please."
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "il-tavolo",
+      "word": "tavolo",
+      "article": "il",
+      "translation": "table",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un tavolo per due, per favore.",
+          "en": "A table for two, please."
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "la-pasta",
+      "word": "pasta",
+      "article": "la",
+      "translation": "pasta",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Prendo la pasta.",
+          "en": "I'll have the pasta."
+        },
+        {
+          "it": "Per cena mangio la pasta.",
+          "en": "For dinner I eat pasta."
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "il-pesce",
+      "word": "pesce",
+      "article": "il",
+      "translation": "fish",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il pesce costa dieci euro.",
+          "en": "The fish costs ten euros."
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "il-vino",
+      "word": "vino",
+      "article": "il",
+      "translation": "wine",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un vino, per favore.",
+          "en": "A wine, please."
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "la-cena",
+      "word": "cena",
+      "article": "la",
+      "translation": "dinner",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La cena è alle otto.",
+          "en": "Dinner is at eight."
+        },
+        {
+          "it": "Vuoi una cena con me?",
+          "en": "Do you want dinner with me?"
+        }
+      ],
+      "introducedInUnit": 15
+    },
+    {
+      "id": "voglio",
+      "word": "voglio",
+      "translation": "I want (volere; vorrei = polite)",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Voglio una pizza!",
+          "en": "I want a pizza!"
+        },
+        {
+          "it": "Cosa vuoi?",
+          "en": "What do you want?"
+        }
+      ],
+      "introducedInUnit": 15
     }
   ],
   "stories": [
