@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 14,
+    "version": 15,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -15503,6 +15503,814 @@
           }
         ]
       }
+    },
+    {
+      "id": "u22",
+      "number": 22,
+      "title": "La casa",
+      "lessons": [
+        {
+          "id": "u22l1",
+          "type": "vocabulary",
+          "title": "Le stanze e i mobili",
+          "dictionaryRefs": [
+            "la-cucina",
+            "il-bagno",
+            "la-camera",
+            "il-soggiorno",
+            "il-letto",
+            "la-sedia",
+            "il-divano",
+            "ma"
+          ],
+          "exercises": [
+            {
+              "id": "u22l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la cucina",
+              "options": [
+                "the kitchen",
+                "the cooking",
+                "the bedroom",
+                "the dining room"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La cucina' (f) = the kitchen. 'In cucina c'è un tavolo.' — In the kitchen there is a table.",
+              "dictionaryRefs": [
+                "la-cucina"
+              ]
+            },
+            {
+              "id": "u22l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il bagno",
+              "options": [
+                "the bathroom",
+                "the bath",
+                "the balcony",
+                "the bedroom"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il bagno' (m) = the bathroom. 'Dov'è il bagno?' — the most urgent question in any house (or restaurant).",
+              "dictionaryRefs": [
+                "il-bagno"
+              ]
+            },
+            {
+              "id": "u22l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la camera",
+              "options": [
+                "the bedroom; the room",
+                "the camera",
+                "the kitchen",
+                "the living room"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La camera' (f) = the bedroom (full form: la camera da letto). A FALSE FRIEND: a photo camera is 'la macchina fotografica'.",
+              "dictionaryRefs": [
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u22l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il soggiorno",
+              "options": [
+                "the living room",
+                "the stay",
+                "the study",
+                "the kitchen"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il soggiorno' (m) = the living room. Same word as 'a stay' (in a hotel) — the room where you spend your time.",
+              "dictionaryRefs": [
+                "il-soggiorno"
+              ]
+            },
+            {
+              "id": "u22l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il letto",
+              "options": [
+                "the bed",
+                "the sofa",
+                "the table",
+                "the room"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il letto' (m) = the bed. 'Il letto è in camera.' — The bed is in the bedroom.",
+              "dictionaryRefs": [
+                "il-letto"
+              ]
+            },
+            {
+              "id": "u22l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la sedia",
+              "options": [
+                "the chair",
+                "the armchair",
+                "the table",
+                "the sofa"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La sedia' (f) = the chair; plural le sedie. 'Ci sono quattro sedie in cucina.'",
+              "dictionaryRefs": [
+                "la-sedia"
+              ]
+            },
+            {
+              "id": "u22l1e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il divano",
+              "options": [
+                "the sofa; the couch",
+                "the bed",
+                "the desk",
+                "the chair"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il divano' (m) = the sofa. 'Il divano è nel soggiorno.' — nel = in + il (Unit 12's contraction).",
+              "dictionaryRefs": [
+                "il-divano",
+                "il-soggiorno"
+              ]
+            },
+            {
+              "id": "u22l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I like pizza, but I prefer pasta.)",
+              "sentence": "Mi piace la pizza, ___ preferisco la pasta.",
+              "answers": [
+                "ma"
+              ],
+              "explanation": "'Ma' = but. It joins two ideas that contrast: mi piace la pizza, MA preferisco la pasta. (Units 20 + 15.)",
+              "dictionaryRefs": [
+                "ma",
+                "mi-piace",
+                "preferire",
+                "la-pizza",
+                "la-pasta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u22l2",
+          "type": "grammar",
+          "title": "Dove sono le cose? C'è, ci sono, su, sotto",
+          "dictionaryRefs": [
+            "la-cucina",
+            "il-bagno",
+            "la-camera",
+            "il-soggiorno",
+            "il-letto",
+            "la-sedia",
+            "il-divano",
+            "ma",
+            "ce",
+            "ci-sono",
+            "il-tavolo",
+            "il-telefono",
+            "la-casa"
+          ],
+          "grammarNotes": "DOVE SONO LE COSE — where things are.\n\nPREPOSITIONS OF PLACE:\n• a / in — at/in: 'a casa' (at home), 'in cucina' — rooms drop the article after in: in cucina, in bagno, in camera, in soggiorno.\n• su — on: 'Il libro è sul tavolo.' (su + il → sul, exactly like a + il → al)\n• sotto — under: 'Le lettere sono sotto il libro.'\n• davanti a — in front of: 'Il bar è davanti alla stazione.' (a + la → alla)\n• dietro — behind: 'Il museo è dietro la piazza.'\n\nC'È / CI SONO with rooms (review from Unit 4):\n• 'In cucina c'è un tavolo.' — one thing: c'è.\n• 'Ci sono quattro sedie.' — more than one: ci sono.\n• Question: 'Quante sedie ci sono?' — How many chairs are there? (quante, feminine plural, Unit 8's quanto agreement.)\n\nMA — but: 'La casa è piccola ma bella.' The house is small but nice. Ma joins, never starts a fight.\n\nDESCRIBING YOUR HOME: 'La mia casa ha due camere, una cucina e un bagno.' — avere for what a house HAS. 💛 'Vieni da me sabato?' — Come to my place on Saturday? (da + person, Unit 18!)",
+          "exercises": [
+            {
+              "id": "u22l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (In the kitchen there is a table.)",
+              "sentence": "In cucina ___ un tavolo.",
+              "answers": [
+                "c'è",
+                "c'e",
+                "c e"
+              ],
+              "explanation": "'In cucina c'è un tavolo.' — one thing → c'è (Unit 4). Rooms drop the article after in: in cucina.",
+              "dictionaryRefs": [
+                "ce",
+                "la-cucina",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u22l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (In the bedroom there are two beds.)",
+              "sentence": "In camera ___ due letti.",
+              "answers": [
+                "ci sono"
+              ],
+              "explanation": "'In camera ci sono due letti.' — plural → ci sono. Letto's plural is letti (m).",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-camera",
+                "il-letto"
+              ]
+            },
+            {
+              "id": "u22l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The phone is on the table.) (Unit 4 recycling)",
+              "sentence": "Il telefono è ___ tavolo.",
+              "answers": [
+                "sul",
+                "su il"
+              ],
+              "explanation": "'Il telefono è sul tavolo.' — su + il contracts to sul, like a + il → al. Su + la → sulla.",
+              "dictionaryRefs": [
+                "il-telefono",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u22l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The letters are under the book.) (Unit 3+5 recycling)",
+              "sentence": "Le lettere sono ___ il libro.",
+              "answers": [
+                "sotto"
+              ],
+              "explanation": "'Le lettere sono sotto il libro.' — sotto (under) takes the plain article, no contraction.",
+              "dictionaryRefs": [
+                "la-lettera",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u22l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 5+18 recycling)",
+              "sourceEn": "The bar is in front of the station.",
+              "acceptedIt": [
+                "Il bar è davanti alla stazione.",
+                "Il bar è davanti alla stazione",
+                "Il bar e' davanti alla stazione"
+              ],
+              "explanation": "'Il bar è davanti alla stazione.' — davanti a + la stazione → alla (a + la contracts, like a + il → al).",
+              "dictionaryRefs": [
+                "il-bar",
+                "la-stazione"
+              ]
+            },
+            {
+              "id": "u22l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "There are four chairs in the kitchen.",
+              "acceptedIt": [
+                "In cucina ci sono quattro sedie.",
+                "In cucina ci sono quattro sedie",
+                "Ci sono quattro sedie in cucina"
+              ],
+              "explanation": "'In cucina ci sono quattro sedie.' — place first, then ci sono + number + sedie (plural of sedia).",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-cucina",
+                "la-sedia"
+              ]
+            },
+            {
+              "id": "u22l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il divano è nel soggiorno.",
+              "acceptedEn": [
+                "The sofa is in the living room."
+              ],
+              "explanation": "'Il divano è nel soggiorno.' — nel = in + il, the same contraction as 'nel weekend' (Unit 12).",
+              "dictionaryRefs": [
+                "il-divano",
+                "il-soggiorno"
+              ]
+            },
+            {
+              "id": "u22l2e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 8 recycling)",
+              "question": "Quante sedie ci sono?",
+              "options": [
+                "How many chairs are there?",
+                "How much are the chairs?",
+                "Where are the chairs?",
+                "Which chairs are there?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quante sedie ci sono?' — quante (f pl, agreeing with sedie) + ci sono. Unit 8's quanto agreement in action.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-sedia",
+                "quanto"
+              ]
+            },
+            {
+              "id": "u22l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5+6+14 recycling)",
+              "tokens": [
+                "La",
+                "mia",
+                "casa",
+                "è",
+                "bella."
+              ],
+              "correctSentence": "La mia casa è bella.",
+              "explanation": "'La mia casa è bella.' — casa keeps the article (not family, Unit 14); bella agrees (Unit 13).",
+              "dictionaryRefs": [
+                "la-casa",
+                "mio",
+                "bello"
+              ]
+            },
+            {
+              "id": "u22l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "In",
+                "soggiorno",
+                "c'è",
+                "un",
+                "divano."
+              ],
+              "correctSentence": "In soggiorno c'è un divano.",
+              "explanation": "'In soggiorno c'è un divano.' — place, then c'è, then the thing with un (m).",
+              "dictionaryRefs": [
+                "il-soggiorno",
+                "il-divano",
+                "ce"
+              ]
+            },
+            {
+              "id": "u22l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 8 recycling)",
+              "tokens": [
+                "Dove",
+                "sono",
+                "le",
+                "sedie?"
+              ],
+              "correctSentence": "Dove sono le sedie?",
+              "explanation": "'Dove sono le sedie?' — question word, verb, then the thing. Sedie: plural of sedia.",
+              "dictionaryRefs": [
+                "dove",
+                "la-sedia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u22l3",
+          "type": "mixed",
+          "title": "Vieni da me? 💛 — ripasso",
+          "dictionaryRefs": [
+            "la-casa",
+            "ce",
+            "ci-sono",
+            "il-tavolo",
+            "il-telefono",
+            "il-museo",
+            "dormire",
+            "venire",
+            "mio",
+            "la-cucina",
+            "il-bagno",
+            "la-camera",
+            "il-soggiorno",
+            "il-letto",
+            "la-sedia",
+            "il-divano",
+            "ma"
+          ],
+          "exercises": [
+            {
+              "id": "u22l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 4 recycling)",
+              "sourceEn": "Is there a sofa in the living room?",
+              "acceptedIt": [
+                "C'è un divano in soggiorno?",
+                "C'è un divano in soggiorno",
+                "In soggiorno c'è un divano?",
+                "C'e un divano in soggiorno"
+              ],
+              "explanation": "'C'è un divano in soggiorno?' — c'è (Unit 4) + un divano + in soggiorno. Question by intonation.",
+              "dictionaryRefs": [
+                "ce",
+                "il-divano",
+                "il-soggiorno"
+              ]
+            },
+            {
+              "id": "u22l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 14 recycling)",
+              "question": "La mia casa ha due camere.",
+              "options": [
+                "My house has two bedrooms.",
+                "My house has two beds.",
+                "My house is two rooms.",
+                "My family has two houses."
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mia casa ha due camere.' — avere for what a house has: ha due camere. La mia casa (Unit 14, not family → article).",
+              "dictionaryRefs": [
+                "la-casa",
+                "mio",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u22l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The phone is on the table.) (Unit 4+15 recycling)",
+              "sentence": "Il telefono è ___ tavolo.",
+              "answers": [
+                "sul",
+                "su il"
+              ],
+              "explanation": "'Il telefono è sul tavolo.' — su + il → sul. The same contraction family as al, nel, alla.",
+              "dictionaryRefs": [
+                "il-telefono",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u22l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ci sono tre sedie in cucina.",
+              "acceptedEn": [
+                "There are three chairs in the kitchen."
+              ],
+              "explanation": "'Ci sono tre sedie in cucina.' — ci sono + tre + sedie + in cucina.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-sedia",
+                "la-cucina"
+              ]
+            },
+            {
+              "id": "u22l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The bar is in front of the museum.) (Unit 5+18 recycling)",
+              "sentence": "Il bar è davanti ___ museo.",
+              "answers": [
+                "al",
+                "a il"
+              ],
+              "explanation": "'Il bar è davanti al museo.' — davanti a + il museo → al. Contractions: al, alla, nel, sul.",
+              "dictionaryRefs": [
+                "il-bar",
+                "il-museo"
+              ]
+            },
+            {
+              "id": "u22l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 12 recycling)",
+              "question": "Dormo in camera.",
+              "options": [
+                "I sleep in the bedroom.",
+                "I sleep in the living room.",
+                "The bedroom is mine.",
+                "I dream in the room."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dormo in camera.' — dormo (dormire, Unit 12) + in camera. Rooms drop the article after in.",
+              "dictionaryRefs": [
+                "dormire",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u22l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Quante",
+                "camere",
+                "ci",
+                "sono?"
+              ],
+              "correctSentence": "Quante camere ci sono?",
+              "explanation": "'Quante camere ci sono?' — quante (f pl) + camere + ci sono. How many rooms are there?",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u22l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 7+16+18 recycling)",
+              "sourceEn": "Are you coming to my place on Saturday?",
+              "acceptedIt": [
+                "Vieni da me sabato?",
+                "Vieni da me sabato",
+                "Tu vieni da me sabato?"
+              ],
+              "explanation": "'Vieni da me sabato?' — venire (tu vieni, Unit 7) + da me (to my place, Unit 18's da + person) + sabato. 💛 The home invitation.",
+              "dictionaryRefs": [
+                "venire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u22l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "la-cucina",
+            "il-bagno",
+            "la-camera",
+            "il-soggiorno",
+            "il-letto",
+            "la-sedia",
+            "il-divano",
+            "ce",
+            "ci-sono",
+            "la-casa",
+            "bello"
+          ],
+          "exercises": [
+            {
+              "id": "u22l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "In cucina c'è un tavolo.",
+              "options": [
+                "In the kitchen there is a table.",
+                "In the kitchen there are two tables.",
+                "The table is in the living room.",
+                "There is a kitchen in the house."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'In cucina c'è un tavolo.' — in cucina + c'è + un tavolo.",
+              "dictionaryRefs": [
+                "la-cucina",
+                "ce",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u22l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ci sono due camere.",
+              "acceptedIt": [
+                "Ci sono due camere.",
+                "Ci sono due camere"
+              ],
+              "explanation": "You heard: 'Ci sono due camere.' — There are two bedrooms. Plural → ci sono.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u22l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Dov'è il bagno?",
+              "options": [
+                "Where is the bathroom?",
+                "Where is the bedroom?",
+                "Where is the kitchen?",
+                "Is there a bathroom?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Dov'è il bagno?' — Where is the bathroom? The essential question.",
+              "dictionaryRefs": [
+                "il-bagno",
+                "dove"
+              ]
+            },
+            {
+              "id": "u22l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: My house is nice. (Unit 5+6+14 recycling)",
+              "targetIt": "La mia casa è bella.",
+              "minAccuracy": 0.7,
+              "explanation": "'La mia casa è bella.' — la MI-a CA-sa e BEL-la. Casa keeps the article; bella agrees.",
+              "dictionaryRefs": [
+                "la-casa",
+                "mio",
+                "bello"
+              ]
+            },
+            {
+              "id": "u22l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: In the living room there is a sofa.",
+              "targetIt": "In soggiorno c'è un divano.",
+              "minAccuracy": 0.7,
+              "explanation": "'In soggiorno c'è un divano.' — in sod-JOR-no CHE un DI-va-no.",
+              "dictionaryRefs": [
+                "il-soggiorno",
+                "ce",
+                "il-divano"
+              ]
+            },
+            {
+              "id": "u22l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Le sedie sono in cucina.",
+              "acceptedIt": [
+                "Le sedie sono in cucina.",
+                "Le sedie sono in cucina"
+              ],
+              "explanation": "You heard: 'Le sedie sono in cucina.' — The chairs are in the kitchen.",
+              "dictionaryRefs": [
+                "la-sedia",
+                "la-cucina"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u22c",
+        "exercises": [
+          {
+            "id": "u22ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il divano",
+            "options": [
+              "the sofa",
+              "the bed",
+              "the chair",
+              "the table"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il divano' (m) = the sofa. 'Il divano è nel soggiorno.'",
+            "dictionaryRefs": [
+              "il-divano"
+            ]
+          },
+          {
+            "id": "u22ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (In the bedroom there is a bed.)",
+            "sentence": "In camera ___ un letto.",
+            "answers": [
+              "c'è",
+              "c'e",
+              "c e"
+            ],
+            "explanation": "'In camera c'è un letto.' — one thing → c'è; plural → ci sono (Unit 4 review).",
+            "dictionaryRefs": [
+              "ce",
+              "la-camera",
+              "il-letto"
+            ]
+          },
+          {
+            "id": "u22ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "There are two chairs in the kitchen.",
+            "acceptedIt": [
+              "In cucina ci sono due sedie.",
+              "In cucina ci sono due sedie",
+              "Ci sono due sedie in cucina"
+            ],
+            "explanation": "'In cucina ci sono due sedie.' — place + ci sono + due sedie.",
+            "dictionaryRefs": [
+              "ci-sono",
+              "la-sedia",
+              "la-cucina"
+            ]
+          },
+          {
+            "id": "u22ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 18 recycling)",
+            "sourceIt": "Il museo è dietro la piazza.",
+            "acceptedEn": [
+              "The museum is behind the square."
+            ],
+            "explanation": "'Il museo è dietro la piazza.' — dietro (behind) + the plain article. Davanti a = in front of.",
+            "dictionaryRefs": [
+              "il-museo",
+              "la-piazza"
+            ]
+          },
+          {
+            "id": "u22ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the contraction. (The phone is on the table.)",
+            "question": "Il telefono è ___ tavolo.",
+            "options": [
+              "sul",
+              "su il",
+              "sulla",
+              "su la"
+            ],
+            "correctIndex": 0,
+            "explanation": "Su + il → sul. Tavolo is masculine. (Feminine would be sulla: sulla sedia.)",
+            "dictionaryRefs": [
+              "il-telefono",
+              "il-tavolo"
+            ]
+          },
+          {
+            "id": "u22ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the dialogue. (How many chairs are there? — Four.)",
+            "sentence": "___ sedie ci sono? — Quattro.",
+            "answers": [
+              "Quante"
+            ],
+            "explanation": "'Quante sedie ci sono?' — quante agrees with sedie (f pl). Quanti for masculine (Unit 8).",
+            "dictionaryRefs": [
+              "ci-sono",
+              "la-sedia",
+              "quanto"
+            ]
+          },
+          {
+            "id": "u22ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Vieni",
+              "da",
+              "me",
+              "sabato?"
+            ],
+            "correctSentence": "Vieni da me sabato?",
+            "explanation": "'Vieni da me sabato?' — vieni + da me (to my place) + sabato. 💛",
+            "dictionaryRefs": [
+              "venire"
+            ]
+          },
+          {
+            "id": "u22ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "La casa ha due bagni.",
+            "options": [
+              "The house has two bathrooms.",
+              "The house has two bedrooms.",
+              "The house is in two baths.",
+              "My house has a bathroom."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'La casa ha due bagni.' — avere for what a house has; bagni = plural of bagno.",
+            "dictionaryRefs": [
+              "la-casa",
+              "il-bagno"
+            ]
+          },
+          {
+            "id": "u22ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Il letto è in camera.",
+            "acceptedIt": [
+              "Il letto è in camera.",
+              "Il letto è in camera",
+              "Il letto e' in camera"
+            ],
+            "explanation": "You heard: 'Il letto è in camera.' — The bed is in the bedroom.",
+            "dictionaryRefs": [
+              "il-letto",
+              "la-camera"
+            ]
+          },
+          {
+            "id": "u22ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: where is the bathroom?",
+            "targetIt": "Dov'è il bagno?",
+            "minAccuracy": 0.7,
+            "explanation": "'Dov'è il bagno?' — do-VE il BA-nyo. The gn is like the ñ in señor.",
+            "dictionaryRefs": [
+              "il-bagno",
+              "dove"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -17798,6 +18606,132 @@
         }
       ],
       "introducedInUnit": 21
+    },
+    {
+      "id": "la-cucina",
+      "word": "cucina",
+      "article": "la",
+      "translation": "kitchen",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "In cucina c'è un tavolo.",
+          "en": "In the kitchen there is a table."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "il-bagno",
+      "word": "bagno",
+      "article": "il",
+      "translation": "bathroom",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Dov'è il bagno?",
+          "en": "Where is the bathroom?"
+        },
+        {
+          "it": "La casa ha due bagni.",
+          "en": "The house has two bathrooms."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "la-camera",
+      "word": "camera",
+      "article": "la",
+      "translation": "bedroom; room (full: camera da letto)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La casa ha due camere.",
+          "en": "The house has two bedrooms."
+        },
+        {
+          "it": "Dormo in camera.",
+          "en": "I sleep in the bedroom."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "il-soggiorno",
+      "word": "soggiorno",
+      "article": "il",
+      "translation": "living room",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "In soggiorno c'è un divano.",
+          "en": "In the living room there is a sofa."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "il-letto",
+      "word": "letto",
+      "article": "il",
+      "translation": "bed",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il letto è in camera.",
+          "en": "The bed is in the bedroom."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "la-sedia",
+      "word": "sedia",
+      "article": "la",
+      "translation": "chair",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ci sono quattro sedie in cucina.",
+          "en": "There are four chairs in the kitchen."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "il-divano",
+      "word": "divano",
+      "article": "il",
+      "translation": "sofa; couch",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il divano è nel soggiorno.",
+          "en": "The sofa is in the living room."
+        }
+      ],
+      "introducedInUnit": 22
+    },
+    {
+      "id": "ma",
+      "word": "ma",
+      "translation": "but",
+      "partOfSpeech": "conjunction",
+      "examples": [
+        {
+          "it": "Mi piace la pizza, ma preferisco la pasta.",
+          "en": "I like pizza, but I prefer pasta."
+        }
+      ],
+      "introducedInUnit": 22
     }
   ],
   "stories": [
