@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 17,
+    "version": 18,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -17873,6 +17873,789 @@
           }
         ]
       }
+    },
+    {
+      "id": "u25",
+      "number": 25,
+      "title": "Un appuntamento",
+      "lessons": [
+        {
+          "id": "u25l1",
+          "type": "vocabulary",
+          "title": "L'appuntamento, il posto, il biglietto",
+          "dictionaryRefs": [
+            "l-appuntamento",
+            "il-posto",
+            "prenotare",
+            "il-biglietto",
+            "va-bene",
+            "forse"
+          ],
+          "exercises": [
+            {
+              "id": "u25l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "l'appuntamento",
+              "options": [
+                "the date; the appointment",
+                "the meeting point",
+                "the invitation",
+                "the evening"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'appuntamento' (m, l' before the vowel) = the appointment — and yes, the romantic date. 'Ho un appuntamento sabato.' 💛",
+              "dictionaryRefs": [
+                "l-appuntamento"
+              ]
+            },
+            {
+              "id": "u25l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il posto",
+              "options": [
+                "the place",
+                "the seat",
+                "the post office",
+                "the position"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il posto' (m) = the place — and also a seat. 'Conosco un posto bello.' — I know a nice place. 💛",
+              "dictionaryRefs": [
+                "il-posto",
+                "conoscere",
+                "bello"
+              ]
+            },
+            {
+              "id": "u25l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "prenotare",
+              "options": [
+                "to book; to reserve",
+                "to order",
+                "to pay in advance",
+                "to invite"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Prenotare' = to book, to reserve — a regular -are verb. 'Prenoto un tavolo per due.' — I book a table for two.",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u25l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il biglietto",
+              "options": [
+                "the ticket",
+                "the bill",
+                "the card",
+                "the note"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il biglietto' (m) = the ticket. 'Ho due biglietti per il cinema.' — I have two tickets for the movies. 💛",
+              "dictionaryRefs": [
+                "il-biglietto",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u25l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "va bene",
+              "options": [
+                "all right; OK",
+                "it goes well",
+                "very good",
+                "come on"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Va bene' = all right, OK — literally 'it goes well' (andare, va). 'Alle otto va bene?' — Is eight OK?",
+              "dictionaryRefs": [
+                "va-bene",
+                "andare"
+              ]
+            },
+            {
+              "id": "u25l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "forse",
+              "options": [
+                "maybe; perhaps",
+                "perhaps not",
+                "probably",
+                "almost"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Forse' = maybe. 'Forse il cinema, forse il mare.' — Maybe the movies, maybe the sea.",
+              "dictionaryRefs": [
+                "forse"
+              ]
+            },
+            {
+              "id": "u25l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I book a table for two.) (Unit 15 recycling)",
+              "sentence": "___ un tavolo per due.",
+              "answers": [
+                "Prenoto",
+                "Io prenoto"
+              ],
+              "explanation": "'Prenoto un tavolo per due.' — prenotare, io-form: prenoto. Regular -are: prenoto, prenoti, prenota…",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u25l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "È un appuntamento.",
+              "acceptedEn": [
+                "It's a date.",
+                "It is a date.",
+                "It's an appointment."
+              ],
+              "explanation": "'È un appuntamento.' — It's a date. 💛 Say it like you finally believe it.",
+              "dictionaryRefs": [
+                "l-appuntamento"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u25l2",
+          "type": "grammar",
+          "title": "Un appuntamento, passo per passo 💛",
+          "dictionaryRefs": [
+            "l-appuntamento",
+            "il-posto",
+            "prenotare",
+            "il-biglietto",
+            "va-bene",
+            "forse",
+            "libero",
+            "uscire",
+            "il-ristorante",
+            "il-cinema"
+          ],
+          "grammarNotes": "UN APPUNTAMENTO, PASSO PER PASSO — planning a date end-to-end with Units 11–24. 💛\n\n1. THE INVITE: 'Vuoi uscire con me?' (Unit 21) — 'Usciamo sabato?' — the noi-form proposal.\n2. THE TIME: 'Quando sei libero/a?' (Unit 16) — 'Sabato sera. Alle otto va bene?' — va bene = it's OK (andare: va).\n3. THE PLACE: 'Dove?' — 'Conosco un posto bello.' (conoscere, Unit 19) — 'Il ristorante o il cinema?' — 'Forse il cinema.'\n4. THE BOOKING: 'Prenoto un tavolo per due.' / 'Ho due biglietti.' — done.\n5. THE COMPLIMENT: 'Che bella giacca!' (Unit 23).\n6. THE DAY AFTER: 'Mi piace molto.' / 'La vedo domani.' (Units 19–20). 💛\n\nGRAMMAR MAP — what you control now:\n• present tense: regular -are/-ere/-ire, the -isc- verbs, and essere, avere, fare, andare, venire, uscire, volere, stare\n• articles: il/lo/la/l'/i/gli/le and un/uno/una/un' (Units 5, 9)\n• adjectives: agreement and position (Unit 13), colors (Unit 23)\n• possessives: mio/tuo/suo + the family rule (Unit 14)\n• direct pronouns: lo/la/li/le before the verb (Unit 19)\n• piacere: mi piace / mi piacciono (Unit 20)\n• time, days, dates, prices (Units 10, 16, 17)\n• prepositions: a/in/da and the contractions al/alla/nel/sul (Units 18, 22)",
+          "exercises": [
+            {
+              "id": "u25l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Is eight o'clock OK?) (Unit 10 recycling)",
+              "sentence": "Alle otto ___ bene?",
+              "answers": [
+                "va"
+              ],
+              "explanation": "'Alle otto va bene?' — va (andare, lui/lei-form) + bene: 'it goes well' = it's OK. Alle otto from Unit 10.",
+              "dictionaryRefs": [
+                "va-bene",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u25l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I book a table for tomorrow evening.) (Unit 16 recycling)",
+              "sentence": "___ un tavolo per domani sera.",
+              "answers": [
+                "Prenoto",
+                "Io prenoto"
+              ],
+              "explanation": "'Prenoto un tavolo per domani sera.' — domani + sera: tomorrow evening, no preposition needed.",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo",
+                "domani",
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u25l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. 💛 (Are you free on Saturday?) (Unit 16 recycling)",
+              "sentence": "___ libero sabato?",
+              "answers": [
+                "Sei"
+              ],
+              "explanation": "'Sei libero sabato?' — sei + libero + sabato. To a woman: 'Sei libera sabato?' 💛",
+              "dictionaryRefs": [
+                "libero"
+              ]
+            },
+            {
+              "id": "u25l2e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 6+19 recycling)",
+              "question": "Conosco un posto bello.",
+              "options": [
+                "I know a nice place.",
+                "I know a beautiful person.",
+                "I see a nice place.",
+                "I know the beautiful place."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Conosco un posto bello.' — conosco (Unit 19) + un posto + bello (Unit 6). 💛 The line that answers 'Dove?'",
+              "dictionaryRefs": [
+                "conoscere",
+                "il-posto",
+                "bello"
+              ]
+            },
+            {
+              "id": "u25l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 21 recycling)",
+              "sourceEn": "Do you want to go out with me on Saturday?",
+              "acceptedIt": [
+                "Vuoi uscire con me sabato?",
+                "Vuoi uscire con me sabato",
+                "Tu vuoi uscire con me sabato?",
+                "Vuoi uscire con me il sabato?"
+              ],
+              "explanation": "'Vuoi uscire con me sabato?' — vuoi + uscire + con me + sabato. Unit 15's volere, Unit 21's uscire. 💛",
+              "dictionaryRefs": [
+                "voglio",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u25l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 15 recycling)",
+              "sourceEn": "I book a table for two.",
+              "acceptedIt": [
+                "Prenoto un tavolo per due.",
+                "Prenoto un tavolo per due",
+                "Io prenoto un tavolo per due"
+              ],
+              "explanation": "'Prenoto un tavolo per due.' — prenoto + un tavolo (masc.) + per due. Same shape as 'Vorrei un tavolo per due' (Unit 15).",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u25l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 19 recycling)",
+              "sourceIt": "I biglietti? Li ho.",
+              "acceptedEn": [
+                "The tickets? I have them.",
+                "The tickets? I've got them."
+              ],
+              "explanation": "'I biglietti? Li ho.' — i biglietti (m pl) → li before ho (Unit 19). The tickets are sorted.",
+              "dictionaryRefs": [
+                "il-biglietto"
+              ]
+            },
+            {
+              "id": "u25l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 15+20 recycling)",
+              "sourceIt": "Forse il cinema, forse il ristorante.",
+              "acceptedEn": [
+                "Maybe the movies, maybe the restaurant.",
+                "Perhaps the cinema, perhaps the restaurant."
+              ],
+              "explanation": "'Forse il cinema, forse il ristorante.' — forse + the option, twice. A playful indecision.",
+              "dictionaryRefs": [
+                "forse",
+                "il-cinema",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u25l2e9",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Va bene per te?",
+              "options": [
+                "Is it OK for you?",
+                "Does it go well for you?",
+                "Is it good for you?",
+                "Do you feel well?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Va bene per te?' — va bene + per te: OK for you? 💛 Check before you book.",
+              "dictionaryRefs": [
+                "va-bene"
+              ]
+            },
+            {
+              "id": "u25l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Usciamo",
+                "sabato",
+                "sera?"
+              ],
+              "correctSentence": "Usciamo sabato sera?",
+              "explanation": "'Usciamo sabato sera?' — the proposal (usciamo) + sabato sera (Saturday evening). 💛",
+              "dictionaryRefs": [
+                "uscire",
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u25l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Prenoto",
+                "un",
+                "tavolo",
+                "per",
+                "due."
+              ],
+              "correctSentence": "Prenoto un tavolo per due.",
+              "explanation": "'Prenoto un tavolo per due.' — verb, article, noun, per due. Booking in five words.",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u25l3",
+          "type": "mixed",
+          "title": "Il piano completo 💛 — ripasso generale",
+          "dictionaryRefs": [
+            "libero",
+            "mi-piace",
+            "conoscere",
+            "che-ore-sono",
+            "il-cinema",
+            "bello",
+            "l-appuntamento",
+            "il-posto",
+            "prenotare",
+            "il-biglietto",
+            "va-bene",
+            "forse",
+            "domani"
+          ],
+          "exercises": [
+            {
+              "id": "u25l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 16 recycling)",
+              "sourceEn": "Are you free on Friday evening?",
+              "acceptedIt": [
+                "Sei libera venerdì sera?",
+                "Sei libero venerdì sera?",
+                "Sei libera venerdì sera",
+                "Sei libero venerdì sera",
+                "Tu sei libera venerdì sera?",
+                "Tu sei libero venerdì sera?"
+              ],
+              "explanation": "'Sei libera venerdì sera?' (to a woman) / 'Sei libero…' (to a man) — venerdì sera: day + evening, no preposition. 💛",
+              "dictionaryRefs": [
+                "libero",
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u25l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 13+20 recycling)",
+              "question": "Mi piace molto il posto.",
+              "options": [
+                "I really like the place.",
+                "I like many places.",
+                "I very much like the places.",
+                "The place likes me a lot."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi piace molto il posto.' — mi piace (Unit 20) + molto (Unit 13) + il posto. 💛 Say it during the date.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "molto",
+                "il-posto"
+              ]
+            },
+            {
+              "id": "u25l3e3",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (The restaurant? I know it.) (Unit 15+19 recycling)",
+              "sentence": "Il ristorante? ___ conosco.",
+              "answers": [
+                "Lo"
+              ],
+              "explanation": "'Il ristorante? Lo conosco.' — il ristorante (m sing) → lo, before conosco (Unit 19).",
+              "dictionaryRefs": [
+                "il-ristorante",
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u25l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 16 recycling)",
+              "sourceIt": "Alle otto e mezza va bene?",
+              "acceptedEn": [
+                "Is half past eight OK?",
+                "Is half past eight all right?",
+                "Is eight thirty OK?"
+              ],
+              "explanation": "'Alle otto e mezza va bene?' — the time (Unit 16) + va bene. The plan has a shape now.",
+              "dictionaryRefs": [
+                "che-ore-sono",
+                "va-bene"
+              ]
+            },
+            {
+              "id": "u25l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I have two tickets for the cinema.) (Unit 20 recycling)",
+              "sentence": "Ho due ___ per il cinema.",
+              "answers": [
+                "biglietti"
+              ],
+              "explanation": "'Ho due biglietti per il cinema.' — plural of biglietto: biglietti. Two tickets: one for you, one for her. 💛",
+              "dictionaryRefs": [
+                "il-biglietto",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u25l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 23 recycling)",
+              "question": "Che bella giacca! — Grazie!",
+              "options": [
+                "What a nice jacket! — Thanks!",
+                "What a red jacket! — Thanks!",
+                "Your jacket is beautiful! — Please!",
+                "What a nice evening! — Thanks!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Che bella giacca! — Grazie!' — the Unit 23 compliment + the Unit 1 answer. 💛 The exchange in full.",
+              "dictionaryRefs": [
+                "bello",
+                "grazie"
+              ]
+            },
+            {
+              "id": "u25l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 20 recycling)",
+              "tokens": [
+                "Ti",
+                "piace",
+                "il",
+                "posto?"
+              ],
+              "correctSentence": "Ti piace il posto?",
+              "explanation": "'Ti piace il posto?' — ti + piace + il posto. 💛 Ask it when you arrive.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-posto"
+              ]
+            },
+            {
+              "id": "u25l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 16+18 recycling)",
+              "sourceEn": "See you tomorrow!",
+              "acceptedIt": [
+                "A domani!",
+                "A domani"
+              ],
+              "explanation": "'A domani!' — a (to/until, Unit 18) + domani (Unit 16): until tomorrow = see you tomorrow. 💛 The perfect goodbye.",
+              "dictionaryRefs": [
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u25l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "l-appuntamento",
+            "il-posto",
+            "prenotare",
+            "va-bene",
+            "forse",
+            "uscire",
+            "domani",
+            "bello",
+            "il-cinema"
+          ],
+          "exercises": [
+            {
+              "id": "u25l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛 (Unit 21 recycling)",
+              "mode": "choice",
+              "speakIt": "Vuoi uscire con me sabato?",
+              "options": [
+                "Do you want to go out with me on Saturday?",
+                "Do you want to go out with me on Friday?",
+                "Shall we go out on Saturday?",
+                "Do you want to eat with me on Saturday?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Vuoi uscire con me sabato?' — vuoi + uscire + con me + sabato. 💛 The whole question.",
+              "dictionaryRefs": [
+                "voglio",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u25l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Prenoto un tavolo per due.",
+              "acceptedIt": [
+                "Prenoto un tavolo per due.",
+                "Prenoto un tavolo per due",
+                "Io prenoto un tavolo per due"
+              ],
+              "explanation": "You heard: 'Prenoto un tavolo per due.' — I book a table for two.",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u25l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 16 recycling)",
+              "mode": "choice",
+              "speakIt": "Alle nove va bene?",
+              "options": [
+                "Is nine o'clock OK?",
+                "Is eight o'clock OK?",
+                "Shall we go at nine?",
+                "Is nine too late?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Alle nove va bene?' — Is nine OK? Alle + hour (Unit 16) + va bene.",
+              "dictionaryRefs": [
+                "va-bene",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u25l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I know a nice place. 💛",
+              "targetIt": "Conosco un posto bello.",
+              "minAccuracy": 0.7,
+              "explanation": "'Conosco un posto bello.' — ko-NO-sko un POS-to BEL-lo. 💛 Confidence in one sentence.",
+              "dictionaryRefs": [
+                "conoscere",
+                "il-posto",
+                "bello"
+              ]
+            },
+            {
+              "id": "u25l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: see you tomorrow! 💛",
+              "targetIt": "A domani!",
+              "minAccuracy": 0.7,
+              "explanation": "'A domani!' — a do-MA-ni. Short, warm, and it promises a next time. 💛",
+              "dictionaryRefs": [
+                "domani"
+              ]
+            },
+            {
+              "id": "u25l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Forse il cinema.",
+              "acceptedIt": [
+                "Forse il cinema.",
+                "Forse il cinema"
+              ],
+              "explanation": "You heard: 'Forse il cinema.' — Maybe the movies. Forse + the option.",
+              "dictionaryRefs": [
+                "forse",
+                "il-cinema"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u25c",
+        "exercises": [
+          {
+            "id": "u25ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "l'appuntamento",
+            "options": [
+              "the date; the appointment",
+              "the invitation",
+              "the evening",
+              "the plan"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'appuntamento' (m) = the date. 'Ho un appuntamento sabato.' 💛 You earned it.",
+            "dictionaryRefs": [
+              "l-appuntamento"
+            ]
+          },
+          {
+            "id": "u25ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I book a table for two.)",
+            "sentence": "___ un tavolo per due.",
+            "answers": [
+              "Prenoto",
+              "Io prenoto"
+            ],
+            "explanation": "'Prenoto un tavolo per due.' — prenotare, io-form. Regular -are endings all the way.",
+            "dictionaryRefs": [
+              "prenotare",
+              "il-tavolo"
+            ]
+          },
+          {
+            "id": "u25ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 21 recycling)",
+            "sourceEn": "Shall we go out on Saturday evening?",
+            "acceptedIt": [
+              "Usciamo sabato sera?",
+              "Usciamo sabato sera"
+            ],
+            "explanation": "'Usciamo sabato sera?' — the noi-form proposal + sabato sera. 💛",
+            "dictionaryRefs": [
+              "uscire",
+              "la-sera"
+            ]
+          },
+          {
+            "id": "u25ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 19 recycling)",
+            "sourceIt": "I biglietti li ho.",
+            "acceptedEn": [
+              "I have the tickets.",
+              "The tickets, I have them.",
+              "I've got the tickets."
+            ],
+            "explanation": "'I biglietti li ho.' — pronoun li (m pl) before ho. The tickets are handled. 💛",
+            "dictionaryRefs": [
+              "il-biglietto"
+            ]
+          },
+          {
+            "id": "u25ce5",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "forse",
+            "options": [
+              "maybe",
+              "probably",
+              "almost",
+              "of course"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Forse' = maybe. 'Forse sì, forse no.' — maybe yes, maybe no.",
+            "dictionaryRefs": [
+              "forse"
+            ]
+          },
+          {
+            "id": "u25ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Eight o'clock is OK.) (Unit 10 recycling)",
+            "sentence": "Alle otto ___ bene.",
+            "answers": [
+              "va"
+            ],
+            "explanation": "'Alle otto va bene.' — va (andare) + bene: it goes well = it's OK.",
+            "dictionaryRefs": [
+              "va-bene",
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u25ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Vuoi",
+              "uscire",
+              "con",
+              "me?"
+            ],
+            "correctSentence": "Vuoi uscire con me?",
+            "explanation": "'Vuoi uscire con me?' — vuoi + uscire + con me. 💛 Phase 2 in four words.",
+            "dictionaryRefs": [
+              "voglio",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u25ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 6 recycling)",
+            "mode": "choice",
+            "speakIt": "Il posto è bello.",
+            "options": [
+              "The place is nice.",
+              "The place is here.",
+              "I know the place.",
+              "The place is big."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Il posto è bello.' — The place is nice. Bello after è (Unit 13).",
+            "dictionaryRefs": [
+              "il-posto",
+              "bello"
+            ]
+          },
+          {
+            "id": "u25ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Va bene!",
+            "acceptedIt": [
+              "Va bene!",
+              "Va bene"
+            ],
+            "explanation": "You heard: 'Va bene!' — All right! The universal Italian agreement.",
+            "dictionaryRefs": [
+              "va-bene"
+            ]
+          },
+          {
+            "id": "u25ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: are you free on Saturday evening? (to a woman) 💛",
+            "targetIt": "Sei libera sabato sera?",
+            "minAccuracy": 0.7,
+            "explanation": "'Sei libera sabato sera?' — SEI LI-be-ra SA-ba-to SE-ra. 💛 The question that starts everything.",
+            "dictionaryRefs": [
+              "libero",
+              "la-sera"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -20510,6 +21293,106 @@
         }
       ],
       "introducedInUnit": 24
+    },
+    {
+      "id": "l-appuntamento",
+      "word": "appuntamento",
+      "article": "l'",
+      "translation": "appointment; date",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "È un appuntamento.",
+          "en": "It's a date."
+        },
+        {
+          "it": "Ho un appuntamento sabato.",
+          "en": "I have a date on Saturday."
+        }
+      ],
+      "introducedInUnit": 25
+    },
+    {
+      "id": "il-posto",
+      "word": "posto",
+      "article": "il",
+      "translation": "place; seat",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Conosco un posto bello.",
+          "en": "I know a nice place."
+        },
+        {
+          "it": "Il posto è qui vicino.",
+          "en": "The place is near here."
+        }
+      ],
+      "introducedInUnit": 25
+    },
+    {
+      "id": "prenotare",
+      "word": "prenotare",
+      "translation": "to book; to reserve",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Prenoto un tavolo per due.",
+          "en": "I book a table for two."
+        },
+        {
+          "it": "Prenoto per domani sera.",
+          "en": "I book for tomorrow evening."
+        }
+      ],
+      "introducedInUnit": 25
+    },
+    {
+      "id": "il-biglietto",
+      "word": "biglietto",
+      "article": "il",
+      "translation": "ticket",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho due biglietti per il cinema.",
+          "en": "I have two tickets for the movies."
+        }
+      ],
+      "introducedInUnit": 25
+    },
+    {
+      "id": "va-bene",
+      "word": "va bene",
+      "translation": "all right; OK",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Alle otto va bene?",
+          "en": "Is eight o'clock OK?"
+        },
+        {
+          "it": "Va bene!",
+          "en": "All right!"
+        }
+      ],
+      "introducedInUnit": 25
+    },
+    {
+      "id": "forse",
+      "word": "forse",
+      "translation": "maybe; perhaps",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Forse il cinema, forse il mare.",
+          "en": "Maybe the movies, maybe the sea."
+        }
+      ],
+      "introducedInUnit": 25
     }
   ],
   "stories": [
