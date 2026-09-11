@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 12,
+    "version": 13,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -13960,6 +13960,775 @@
           }
         ]
       }
+    },
+    {
+      "id": "u20",
+      "number": 20,
+      "title": "Mi piace",
+      "lessons": [
+        {
+          "id": "u20l1",
+          "type": "vocabulary",
+          "title": "Il cinema, il mare, la fotografia",
+          "dictionaryRefs": [
+            "il-cinema",
+            "il-mare",
+            "la-fotografia",
+            "preferito",
+            "mi-piace",
+            "mancare"
+          ],
+          "exercises": [
+            {
+              "id": "u20l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il cinema",
+              "options": [
+                "the cinema; the movies",
+                "the theater",
+                "the film",
+                "the museum"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il cinema' (m) = the cinema, the movies (the place AND the art). Invariable plural: i cinema. 'Andiamo al cinema?' 💛",
+              "dictionaryRefs": [
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u20l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il mare",
+              "options": [
+                "the sea",
+                "the lake",
+                "the beach",
+                "the mountain"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il mare' (m) = the sea. 'Mi piace il mare.' — I like the sea. 'Andiamo al mare!' — Let's go to the seaside!",
+              "dictionaryRefs": [
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u20l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la fotografia",
+              "options": [
+                "photography; the photograph",
+                "the painting",
+                "the film",
+                "the camera"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La fotografia' (f) = photography, and also a single photograph. In speech, short: la foto. 'Mi piace la fotografia.'",
+              "dictionaryRefs": [
+                "la-fotografia"
+              ]
+            },
+            {
+              "id": "u20l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "preferito",
+              "options": [
+                "favorite",
+                "preferred",
+                "first",
+                "best"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Preferito' = favorite — an adjective, so it agrees (Unit 13): il mio film preferito, la mia canzone preferita. 💛",
+              "dictionaryRefs": [
+                "preferito"
+              ]
+            },
+            {
+              "id": "u20l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "mi piace",
+              "options": [
+                "I like",
+                "I love",
+                "I want",
+                "I prefer"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi piace' = I like — literally 'it is pleasing to me'. 'Mi piace la musica.' The grammar flips next lesson.",
+              "dictionaryRefs": [
+                "mi-piace"
+              ]
+            },
+            {
+              "id": "u20l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "mancare",
+              "options": [
+                "to miss; to be missing",
+                "to lack nothing",
+                "to leave",
+                "to lose"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mancare' = to miss — works like piacere, backwards: 'Mi manchi.' — I miss you (literally: you are missing to me). 💛",
+              "dictionaryRefs": [
+                "mancare"
+              ]
+            },
+            {
+              "id": "u20l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My favorite film is…)",
+              "sentence": "Il mio film ___ è…",
+              "answers": [
+                "preferito"
+              ],
+              "explanation": "'Il mio film preferito' — preferito follows the noun and agrees: film (m sing) → preferito. La mia canzone preferita (f).",
+              "dictionaryRefs": [
+                "preferito",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u20l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Mi piace il mare.",
+              "acceptedEn": [
+                "I like the sea.",
+                "I like the seaside."
+              ],
+              "explanation": "'Mi piace il mare.' — I like the sea. Italian keeps the article on the thing you like.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-mare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u20l2",
+          "type": "grammar",
+          "title": "Piacere: mi piace, mi piacciono",
+          "dictionaryRefs": [
+            "mi-piace",
+            "mancare",
+            "il-cinema",
+            "il-mare",
+            "la-fotografia",
+            "preferito",
+            "il-film",
+            "la-musica",
+            "il-pesce",
+            "il-libro",
+            "la-canzone"
+          ],
+          "grammarNotes": "MI PIACE — liking things in Italian works BACKWARDS from English.\n\n'Mi piace la pizza.' — literally 'the pizza is pleasing TO ME'. The thing you like is the subject!\n\nTHE TWO FORMS YOU NEED:\n• mi piace + singular (or an infinitive): 'Mi piace il mare.' / 'Mi piace leggere.' — I like reading.\n• mi piacciono + plural: 'Mi piacciono i film.' — I like films.\n\nTHE PERSON CHANGES, THE LOGIC STAYS:\nmi piace (I like), ti piace (you like), le/gli piace (she/he likes), ci piace (we like), vi piace (you plural like), gli piace (they like).\nQuestions: 'Ti piace la musica?' — Do you like music? 💛\n\nNO: 'Non mi piace il pesce.' — I don't like fish. Non + mi piace.\n\nTHE FULL VERB, for reference (io piaccio, tu piaci, lui/lei piace, noi piacciamo, voi piacete, loro piacciono) — in daily life you mostly need piace and piacciono.\n\nMANCARE (to miss) works the same way: 'Mi manchi.' — I miss you (literally 'you are missing to me'). 💛\n\n💛 FIRST-DATE CORE:\n'Ti piace il cinema?' — 'Sì, mi piace molto!' / 'No, non mi piace.'\n'Qual è il tuo film preferito?' — What is your favorite film?",
+          "exercises": [
+            {
+              "id": "u20l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I like the pizza.)",
+              "sentence": "___ piace la pizza.",
+              "answers": [
+                "Mi"
+              ],
+              "explanation": "'Mi piace la pizza.' — mi (to me) + piace + the thing. The pizza does the pleasing; you just receive it.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u20l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Do you like films?)",
+              "sentence": "Ti ___ i film?",
+              "answers": [
+                "piacciono"
+              ],
+              "explanation": "'Ti piacciono i film?' — plural thing (i film) → piacciono. Singular would be piace: 'Ti piace il film?'",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u20l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I don't like fish.) (Unit 15 recycling)",
+              "sentence": "Non mi ___ il pesce.",
+              "answers": [
+                "piace"
+              ],
+              "explanation": "'Non mi piace il pesce.' — non + mi piace. Il pesce is singular → piace.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u20l2e4",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct sentence. (I like the sea.)",
+              "question": "I like the sea.",
+              "options": [
+                "Mi piace il mare.",
+                "Io piace il mare.",
+                "Mi piacciono il mare.",
+                "Mi piaci il mare."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi piace il mare.' — mi (not io!) + piace (il mare is singular, so not piacciono).",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u20l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (I like the songs.) (Unit 19 recycling)",
+              "question": "Mi ___ le canzoni.",
+              "options": [
+                "piacciono",
+                "piace",
+                "piaci",
+                "piaccio"
+              ],
+              "correctIndex": 0,
+              "explanation": "Le canzoni is plural → piacciono. The verb agrees with the THING liked, not with you.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-canzone"
+              ]
+            },
+            {
+              "id": "u20l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you like the cinema?",
+              "acceptedIt": [
+                "Ti piace il cinema?",
+                "Ti piace il cinema",
+                "A te piace il cinema?"
+              ],
+              "explanation": "'Ti piace il cinema?' — ti (to you) + piace + il cinema. 💛 The classic opener.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u20l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12 recycling)",
+              "sourceEn": "I like reading.",
+              "acceptedIt": [
+                "Mi piace leggere.",
+                "Mi piace leggere"
+              ],
+              "explanation": "'Mi piace leggere.' — an infinitive after piace stays singular: piace leggere, piace mangiare, piace viaggiare… (well, the first two for now).",
+              "dictionaryRefs": [
+                "mi-piace",
+                "leggere"
+              ]
+            },
+            {
+              "id": "u20l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 5 recycling)",
+              "sourceIt": "Mi piacciono i libri.",
+              "acceptedEn": [
+                "I like books.",
+                "I like the books."
+              ],
+              "explanation": "'Mi piacciono i libri.' — plural → piacciono. I libri (Unit 5) are what please you.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u20l2e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Mi manchi.",
+              "acceptedEn": [
+                "I miss you."
+              ],
+              "explanation": "'Mi manchi.' — I miss you. Mancare flips like piacere: the missed person is the subject. 💛 Two words, whole message.",
+              "dictionaryRefs": [
+                "mancare"
+              ]
+            },
+            {
+              "id": "u20l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 11 recycling)",
+              "tokens": [
+                "piace",
+                "Mi",
+                "la",
+                "musica."
+              ],
+              "correctSentence": "Mi piace la musica.",
+              "explanation": "'Mi piace la musica.' — mi first, then piace, then the thing with its article.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-musica"
+              ]
+            },
+            {
+              "id": "u20l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ti",
+                "piacciono",
+                "i",
+                "film?"
+              ],
+              "correctSentence": "Ti piacciono i film?",
+              "explanation": "'Ti piacciono i film?' — ti + piacciono (plural!) + i film. 💛 Ask it at the cinema.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-film"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u20l3",
+          "type": "mixed",
+          "title": "Cosa ti piace? 💛 — ripasso",
+          "dictionaryRefs": [
+            "la-musica",
+            "il-caffe",
+            "il-pesce",
+            "il-film",
+            "la-citta",
+            "andare",
+            "il-weekend",
+            "italiano",
+            "mi-piace",
+            "mancare",
+            "il-cinema",
+            "il-mare",
+            "la-fotografia",
+            "preferito"
+          ],
+          "exercises": [
+            {
+              "id": "u20l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 18 recycling)",
+              "sourceEn": "I like the city.",
+              "acceptedIt": [
+                "Mi piace la città.",
+                "Mi piace la città",
+                "Mi piace la citta"
+              ],
+              "explanation": "'Mi piace la città.' — la città (Unit 18, singular) → piace.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u20l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 9 recycling)",
+              "question": "Ti piace il caffè?",
+              "options": [
+                "Do you like coffee?",
+                "Do you want a coffee?",
+                "Do you like cafés?",
+                "Do you drink coffee?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ti piace il caffè?' — ti + piace + il caffè (Unit 9). Liking, not ordering: that was 'Vuoi un caffè?'",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u20l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I like Italian films.) (Unit 2+13 recycling)",
+              "sentence": "Mi ___ i film italiani.",
+              "answers": [
+                "piacciono"
+              ],
+              "explanation": "'Mi piacciono i film italiani.' — plural (i film) → piacciono; italiani agrees with film (m pl, Unit 13).",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-film",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u20l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 15 recycling)",
+              "sourceIt": "Non mi piace il pesce.",
+              "acceptedEn": [
+                "I don't like fish.",
+                "I do not like fish."
+              ],
+              "explanation": "'Non mi piace il pesce.' — non + mi piace + il pesce (Unit 15). A useful sentence at the restaurant.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u20l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I like going to the sea.) (Unit 7 recycling)",
+              "sentence": "Mi piace ___ al mare.",
+              "answers": [
+                "andare"
+              ],
+              "explanation": "'Mi piace andare al mare.' — piace + infinitive (andare, Unit 7): I like GOING to the sea.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u20l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Il mio film preferito è…",
+              "options": [
+                "My favorite film is…",
+                "My first film is…",
+                "I prefer the film…",
+                "My film is preferred…"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il mio film preferito è…' — preferito (favorite) agrees with film. 💛 Have your answer ready.",
+              "dictionaryRefs": [
+                "preferito",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u20l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 7 recycling)",
+              "tokens": [
+                "Ti",
+                "piace",
+                "la",
+                "pizza?"
+              ],
+              "correctSentence": "Ti piace la pizza?",
+              "explanation": "'Ti piace la pizza?' — ti + piace + la pizza (Unit 7). Singular thing → piace.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u20l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you like photography?",
+              "acceptedIt": [
+                "Ti piace la fotografia?",
+                "Ti piace la fotografia",
+                "Ti piace la foto?"
+              ],
+              "explanation": "'Ti piace la fotografia?' — la fotografia (f sing) → piace. 💛 A hobby question for the date.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-fotografia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u20l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "mi-piace",
+            "il-mare",
+            "il-cinema",
+            "la-canzone",
+            "il-pesce",
+            "la-fotografia",
+            "il-film",
+            "molto"
+          ],
+          "exercises": [
+            {
+              "id": "u20l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Mi piace il mare.",
+              "options": [
+                "I like the sea.",
+                "I like the city.",
+                "I like the cinema.",
+                "I miss the sea."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Mi piace il mare.' — I like the sea. Listen for mare (MA-re).",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u20l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Ti piace il cinema?",
+              "acceptedIt": [
+                "Ti piace il cinema?",
+                "Ti piace il cinema"
+              ],
+              "explanation": "You heard: 'Ti piace il cinema?' — Do you like the cinema? 💛",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u20l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 19 recycling)",
+              "mode": "choice",
+              "speakIt": "Mi piacciono le canzoni.",
+              "options": [
+                "I like the songs.",
+                "I like the song.",
+                "I listen to the songs.",
+                "I don't like the songs."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Mi piacciono le canzoni.' — plural (le canzoni, Unit 19) → piacciono. Listen for the -ono.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-canzone"
+              ]
+            },
+            {
+              "id": "u20l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I like it a lot. (Unit 13 recycling)",
+              "targetIt": "Mi piace molto.",
+              "minAccuracy": 0.7,
+              "explanation": "'Mi piace molto.' — mi PYA-che MOL-to. The enthusiastic answer to any 'Ti piace…?' 💛",
+              "dictionaryRefs": [
+                "mi-piace",
+                "molto"
+              ]
+            },
+            {
+              "id": "u20l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I don't like fish. (Unit 15 recycling)",
+              "targetIt": "Non mi piace il pesce.",
+              "minAccuracy": 0.7,
+              "explanation": "'Non mi piace il pesce.' — non mi PYA-che il PE-she. Clear, polite, complete.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-pesce"
+              ]
+            },
+            {
+              "id": "u20l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Mi piace la fotografia.",
+              "acceptedIt": [
+                "Mi piace la fotografia.",
+                "Mi piace la fotografia"
+              ],
+              "explanation": "You heard: 'Mi piace la fotografia.' — I like photography. Singular → piace.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "la-fotografia"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u20c",
+        "exercises": [
+          {
+            "id": "u20ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il mare",
+            "options": [
+              "the sea",
+              "the lake",
+              "the mountain",
+              "the river"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il mare' (m) = the sea. 'Andiamo al mare!' — Let's go to the seaside!",
+            "dictionaryRefs": [
+              "il-mare"
+            ]
+          },
+          {
+            "id": "u20ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I like books.) (Unit 5 recycling)",
+            "sentence": "Mi ___ i libri.",
+            "answers": [
+              "piacciono"
+            ],
+            "explanation": "'Mi piacciono i libri.' — plural thing → piacciono. Singular: 'Mi piace il libro.'",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u20ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 11 recycling)",
+            "sourceEn": "Do you like music?",
+            "acceptedIt": [
+              "Ti piace la musica?",
+              "Ti piace la musica"
+            ],
+            "explanation": "'Ti piace la musica?' — ti + piace + la musica (Unit 11). 💛",
+            "dictionaryRefs": [
+              "mi-piace",
+              "la-musica"
+            ]
+          },
+          {
+            "id": "u20ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 12 recycling)",
+            "sourceIt": "Mi piace il weekend.",
+            "acceptedEn": [
+              "I like the weekend."
+            ],
+            "explanation": "'Mi piace il weekend.' — il weekend (Unit 12, singular) → piace. Who doesn't?",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-weekend"
+            ]
+          },
+          {
+            "id": "u20ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct sentence. (She likes the film.)",
+            "question": "She likes the film.",
+            "options": [
+              "Le piace il film.",
+              "Mi piace il film.",
+              "Ti piace il film.",
+              "Le piacciono il film."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Le piace il film.' — le (to her) + piace (il film, singular). Mi = to me, ti = to you.",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-film"
+            ]
+          },
+          {
+            "id": "u20ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I don't like the city.) (Unit 18 recycling)",
+            "sentence": "Non ___ piace la città.",
+            "answers": [
+              "mi"
+            ],
+            "explanation": "'Non mi piace la città.' — non + mi + piace. The little mi carries 'to me'.",
+            "dictionaryRefs": [
+              "mi-piace",
+              "la-citta"
+            ]
+          },
+          {
+            "id": "u20ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 13 recycling)",
+            "tokens": [
+              "Mi",
+              "manchi",
+              "molto."
+            ],
+            "correctSentence": "Mi manchi molto.",
+            "explanation": "'Mi manchi molto.' — I miss you a lot. Mancare flips like piacere; molto (Unit 13) adds the feeling. 💛",
+            "dictionaryRefs": [
+              "mancare",
+              "molto"
+            ]
+          },
+          {
+            "id": "u20ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Ti piace la fotografia?",
+            "options": [
+              "Do you like photography?",
+              "Do you like the photo?",
+              "Do you like the film?",
+              "Do you like taking photos of me?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ti piace la fotografia?' — Do you like photography? Singular → piace.",
+            "dictionaryRefs": [
+              "mi-piace",
+              "la-fotografia"
+            ]
+          },
+          {
+            "id": "u20ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Mi piacciono i film.",
+            "acceptedIt": [
+              "Mi piacciono i film.",
+              "Mi piacciono i film"
+            ],
+            "explanation": "You heard: 'Mi piacciono i film.' — I like films. Plural → piacciono.",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-film"
+            ]
+          },
+          {
+            "id": "u20ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I like the cinema. 💛",
+            "targetIt": "Mi piace il cinema.",
+            "minAccuracy": 0.7,
+            "explanation": "'Mi piace il cinema.' — mi PYA-che il CHI-ne-ma. 💛 Then: 'Andiamo?'",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-cinema"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -16051,6 +16820,110 @@
         }
       ],
       "introducedInUnit": 19
+    },
+    {
+      "id": "il-cinema",
+      "word": "cinema",
+      "article": "il",
+      "translation": "cinema; movies (invariable plural: i cinema)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Andiamo al cinema?",
+          "en": "Shall we go to the movies?"
+        },
+        {
+          "it": "Mi piace il cinema.",
+          "en": "I like the cinema."
+        }
+      ],
+      "introducedInUnit": 20
+    },
+    {
+      "id": "il-mare",
+      "word": "mare",
+      "article": "il",
+      "translation": "sea; seaside",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Mi piace il mare.",
+          "en": "I like the sea."
+        },
+        {
+          "it": "Il mare è bello.",
+          "en": "The sea is beautiful."
+        }
+      ],
+      "introducedInUnit": 20
+    },
+    {
+      "id": "la-fotografia",
+      "word": "fotografia",
+      "article": "la",
+      "translation": "photography; photograph",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Mi piace la fotografia.",
+          "en": "I like photography."
+        }
+      ],
+      "introducedInUnit": 20
+    },
+    {
+      "id": "preferito",
+      "word": "preferito",
+      "translation": "favorite",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Il mio film preferito è bello.",
+          "en": "My favorite film is nice."
+        },
+        {
+          "it": "La mia canzone preferita.",
+          "en": "My favorite song."
+        }
+      ],
+      "introducedInUnit": 20
+    },
+    {
+      "id": "mi-piace",
+      "word": "mi piace",
+      "translation": "I like (plural: mi piacciono)",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Mi piace la musica.",
+          "en": "I like music."
+        },
+        {
+          "it": "Ti piace il cinema?",
+          "en": "Do you like the cinema?"
+        }
+      ],
+      "introducedInUnit": 20
+    },
+    {
+      "id": "mancare",
+      "word": "mancare",
+      "translation": "to miss; to be missing",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mi manchi.",
+          "en": "I miss you."
+        },
+        {
+          "it": "Mi manchi molto.",
+          "en": "I miss you a lot."
+        }
+      ],
+      "introducedInUnit": 20
     }
   ],
   "stories": [
