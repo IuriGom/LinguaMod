@@ -38,6 +38,7 @@ object ConjugationReference {
         "conoscere" to Paradigm(listOf("conosco", "conosci", "conosce", "conosciamo", "conoscete", "conoscono")),
         "vedere" to Paradigm(listOf("vedo", "vedi", "vede", "vediamo", "vedete", "vedono")),
         "chiamare" to Paradigm(listOf("chiamo", "chiami", "chiama", "chiamiamo", "chiamate", "chiamano")),
+        "uscire" to Paradigm(listOf("esco", "esci", "esce", "usciamo", "uscite", "escono")),
         "piacere" to Paradigm(listOf("piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono")),
         // Stage 6 extensions
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),

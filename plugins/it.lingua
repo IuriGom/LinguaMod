@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 13,
+    "version": 14,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -14729,6 +14729,780 @@
           }
         ]
       }
+    },
+    {
+      "id": "u21",
+      "number": 21,
+      "title": "Il weekend",
+      "lessons": [
+        {
+          "id": "u21l1",
+          "type": "vocabulary",
+          "title": "La passeggiata, la colazione, la spesa",
+          "dictionaryRefs": [
+            "la-passeggiata",
+            "la-colazione",
+            "la-spesa",
+            "la-palestra",
+            "il-parco",
+            "uscire"
+          ],
+          "exercises": [
+            {
+              "id": "u21l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la passeggiata",
+              "options": [
+                "the walk (fare una passeggiata = to take a walk)",
+                "the run",
+                "the trip",
+                "the break"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La passeggiata' (f) = the walk. With fare: 'Faccio una passeggiata al parco.' — I take a walk in the park.",
+              "dictionaryRefs": [
+                "la-passeggiata"
+              ]
+            },
+            {
+              "id": "u21l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la colazione",
+              "options": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "the coffee"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La colazione' (f) = breakfast. With fare: 'Faccio colazione al bar.' — cappuccino e cornetto, standing up (Unit 9).",
+              "dictionaryRefs": [
+                "la-colazione"
+              ]
+            },
+            {
+              "id": "u21l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la spesa",
+              "options": [
+                "the (grocery) shopping",
+                "the expense",
+                "the dinner",
+                "the list"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La spesa' (f) = the grocery shopping. With fare: 'Faccio la spesa il sabato.' — I do the shopping on Saturdays.",
+              "dictionaryRefs": [
+                "la-spesa"
+              ]
+            },
+            {
+              "id": "u21l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la palestra",
+              "options": [
+                "the gym",
+                "the stadium",
+                "the pool",
+                "the school"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La palestra' (f) = the gym. 'Vado in palestra.' — I go to the gym. (in palestra: venues take in.)",
+              "dictionaryRefs": [
+                "la-palestra"
+              ]
+            },
+            {
+              "id": "u21l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il parco",
+              "options": [
+                "the park",
+                "the garden",
+                "the square",
+                "the parking"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il parco' (m) = the park. 'Andiamo al parco!' — Let's go to the park! (a + il → al.)",
+              "dictionaryRefs": [
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u21l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "uscire",
+              "options": [
+                "to go out",
+                "to exit a program",
+                "to leave home for work",
+                "to go away"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Uscire' = to go out: 'Esco con gli amici.' — I go out with friends. 💛 'Usciamo sabato?' — Shall we go out on Saturday?",
+              "dictionaryRefs": [
+                "uscire"
+              ]
+            },
+            {
+              "id": "u21l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I take a walk in the park.)",
+              "sentence": "Faccio una ___ al parco.",
+              "answers": [
+                "passeggiata"
+              ],
+              "explanation": "'Faccio una passeggiata al parco.' — fare + una passeggiata: the fixed chunk for 'to take a walk'.",
+              "dictionaryRefs": [
+                "la-passeggiata",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u21l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Shall we go out on Saturday?",
+              "acceptedIt": [
+                "Usciamo sabato?",
+                "Usciamo sabato",
+                "Noi usciamo sabato?"
+              ],
+              "explanation": "'Usciamo sabato?' — the noi-form as a proposal, like 'Andiamo al bar?' (Unit 7). 💛 The invite in two words.",
+              "dictionaryRefs": [
+                "uscire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u21l2",
+          "type": "grammar",
+          "title": "Fare + le espressioni del weekend",
+          "dictionaryRefs": [
+            "la-passeggiata",
+            "la-colazione",
+            "la-spesa",
+            "la-palestra",
+            "il-parco",
+            "uscire",
+            "fare",
+            "lo-sport"
+          ],
+          "grammarNotes": "FARE EXPRESSIONS — fare (to do/make, Unit 7) builds fixed everyday phrases. Learn them as chunks:\n\n• fare una passeggiata — to take a walk: 'Facciamo una passeggiata al parco.'\n• fare colazione — to have breakfast: 'Faccio colazione al bar.'\n• fare la spesa — to do the grocery shopping: 'Faccio la spesa il sabato.'\n• fare sport — to do sport: 'Fate sport il weekend?' (lo sport, Unit 5)\n\nRecap of fare: io faccio, tu fai, lui/lei fa, noi facciamo, voi fate, loro fanno.\n\nWHY fare and not 'take/have/do': Italian picks ONE verb for all of these. The noun carries the meaning; fare just makes it happen. Don't translate word by word.\n\nUSCIRE (to go out) — irregular present:\n\nio esco — tu esci — lui/lei esce — noi usciamo — voi uscite — loro escono\n\n'Esco con gli amici il venerdì.' — I go out with friends on Fridays.\n💛 'Usciamo sabato?' — Shall we go out on Saturday? The noi-form as a proposal (like 'Andiamo al bar?', Unit 7).\n\nCONSOLIDATION — your present tense now covers: regular -are/-ere/-ire, the -isc- verbs, and essere, avere, fare, andare, venire, uscire, volere. 'Cosa fai nel weekend?' (Unit 12) finally has real answers: 'Faccio colazione, faccio una passeggiata, esco con gli amici, vado al mare…'",
+          "exercises": [
+            {
+              "id": "u21l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have breakfast at the bar.)",
+              "sentence": "___ colazione al bar.",
+              "answers": [
+                "Faccio",
+                "Io faccio"
+              ],
+              "explanation": "'Faccio colazione al bar.' — fare + colazione = to have breakfast. Io-form: faccio (irregular, Unit 7).",
+              "dictionaryRefs": [
+                "fare",
+                "la-colazione",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u21l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (We take a walk.)",
+              "sentence": "Noi ___ una passeggiata.",
+              "answers": [
+                "facciamo"
+              ],
+              "explanation": "'Noi facciamo una passeggiata.' — fare with noi: facciamo. 💛 Drop the noi and it becomes a proposal: 'Facciamo una passeggiata?'",
+              "dictionaryRefs": [
+                "fare",
+                "la-passeggiata"
+              ]
+            },
+            {
+              "id": "u21l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia does sport.)",
+              "sentence": "Giulia ___ sport.",
+              "answers": [
+                "fa"
+              ],
+              "explanation": "'Giulia fa sport.' — fare, lui/lei-form: fa. Fare sport = to do sport (lo sport, Unit 5).",
+              "dictionaryRefs": [
+                "fare",
+                "lo-sport"
+              ]
+            },
+            {
+              "id": "u21l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Do you go out with friends?) 💛",
+              "sentence": "Tu ___ con gli amici?",
+              "answers": [
+                "esci"
+              ],
+              "explanation": "'Tu esci con gli amici?' — uscire is irregular: esco, esci, esce… The tu-form is esci.",
+              "dictionaryRefs": [
+                "uscire",
+                "amico"
+              ]
+            },
+            {
+              "id": "u21l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I go out on Fridays.",
+              "acceptedIt": [
+                "Esco il venerdì.",
+                "Esco il venerdì",
+                "Io esco il venerdì",
+                "Esco venerdì"
+              ],
+              "explanation": "'Esco il venerdì.' — il + day = a habit (on Fridays); the day alone = this Friday (Unit 16).",
+              "dictionaryRefs": [
+                "uscire"
+              ]
+            },
+            {
+              "id": "u21l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Shall we take a walk?",
+              "acceptedIt": [
+                "Facciamo una passeggiata?",
+                "Facciamo una passeggiata"
+              ],
+              "explanation": "'Facciamo una passeggiata?' — the noi-form + question intonation = a proposal. 💛 Romantic and free.",
+              "dictionaryRefs": [
+                "fare",
+                "la-passeggiata"
+              ]
+            },
+            {
+              "id": "u21l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Fanno la spesa il sabato.",
+              "acceptedEn": [
+                "They do the shopping on Saturdays.",
+                "They do the grocery shopping on Saturday."
+              ],
+              "explanation": "'Fanno la spesa il sabato.' — fanno (loro, fare) + la spesa + il sabato (habit).",
+              "dictionaryRefs": [
+                "fare",
+                "la-spesa"
+              ]
+            },
+            {
+              "id": "u21l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (They go out on Fridays.)",
+              "question": "Loro ___ il venerdì.",
+              "options": [
+                "escono",
+                "esco",
+                "esci",
+                "esce"
+              ],
+              "correctIndex": 0,
+              "explanation": "Loro + uscire → escono. The irregular set: esco, esci, esce, usciamo, uscite, escono.",
+              "dictionaryRefs": [
+                "uscire"
+              ]
+            },
+            {
+              "id": "u21l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5+9 recycling)",
+              "tokens": [
+                "Faccio",
+                "colazione",
+                "al",
+                "bar."
+              ],
+              "correctSentence": "Faccio colazione al bar.",
+              "explanation": "'Faccio colazione al bar.' — faccio + colazione + al bar. No article in the chunk: fare colazione.",
+              "dictionaryRefs": [
+                "fare",
+                "la-colazione",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u21l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Fate",
+                "sport",
+                "il",
+                "weekend?"
+              ],
+              "correctSentence": "Fate sport il weekend?",
+              "explanation": "'Fate sport il weekend?' — fate (voi, fare) + sport + il weekend (Unit 12). Do you (all) do sport on the weekend?",
+              "dictionaryRefs": [
+                "fare",
+                "lo-sport",
+                "il-weekend"
+              ]
+            },
+            {
+              "id": "u21l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Esco",
+                "con",
+                "Giulia."
+              ],
+              "correctSentence": "Esco con Giulia.",
+              "explanation": "'Esco con Giulia.' — esco (io, uscire) + con + person. 💛 I go out with Giulia.",
+              "dictionaryRefs": [
+                "uscire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u21l3",
+          "type": "mixed",
+          "title": "Inviti per il weekend 💛 — ripasso",
+          "dictionaryRefs": [
+            "il-bar",
+            "il-caffe",
+            "il-cinema",
+            "il-mare",
+            "andare",
+            "voglio",
+            "libero",
+            "domani",
+            "la-mattina",
+            "la-passeggiata",
+            "la-colazione",
+            "la-spesa",
+            "il-parco",
+            "uscire"
+          ],
+          "exercises": [
+            {
+              "id": "u21l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 16 recycling)",
+              "sourceEn": "Shall we go out tomorrow?",
+              "acceptedIt": [
+                "Usciamo domani?",
+                "Usciamo domani"
+              ],
+              "explanation": "'Usciamo domani?' — usciamo (proposal) + domani (Unit 16). 💛 Two words, one plan.",
+              "dictionaryRefs": [
+                "uscire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u21l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 9+10 recycling)",
+              "question": "La mattina faccio colazione al bar.",
+              "options": [
+                "In the morning I have breakfast at the bar.",
+                "In the morning I make coffee at the bar.",
+                "In the evening I have breakfast at the bar.",
+                "In the morning I work at the bar."
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mattina faccio colazione al bar.' — la mattina (Unit 10) + faccio colazione + al bar (Unit 9). The full Italian morning.",
+              "dictionaryRefs": [
+                "la-mattina",
+                "fare",
+                "la-colazione",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u21l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (On Saturdays I do the shopping.)",
+              "sentence": "Il sabato faccio la ___.",
+              "answers": [
+                "spesa"
+              ],
+              "explanation": "'Il sabato faccio la spesa.' — il sabato (habit) + faccio la spesa. The fixed chunk keeps its article: LA spesa.",
+              "dictionaryRefs": [
+                "fare",
+                "la-spesa"
+              ]
+            },
+            {
+              "id": "u21l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 7+20 recycling)",
+              "sourceIt": "Andiamo al cinema sabato?",
+              "acceptedEn": [
+                "Shall we go to the movies on Saturday?",
+                "Are we going to the cinema on Saturday?"
+              ],
+              "explanation": "'Andiamo al cinema sabato?' — andiamo (noi, andare, Unit 7) as a proposal + al cinema (Unit 20). 💛",
+              "dictionaryRefs": [
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u21l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (In the morning I have breakfast.) (Unit 10 recycling)",
+              "sentence": "La mattina ___ colazione.",
+              "answers": [
+                "faccio",
+                "io faccio"
+              ],
+              "explanation": "'La mattina faccio colazione.' — time first, then faccio colazione. No article in the chunk.",
+              "dictionaryRefs": [
+                "la-mattina",
+                "fare",
+                "la-colazione"
+              ]
+            },
+            {
+              "id": "u21l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 15 recycling)",
+              "question": "Vuoi uscire con me?",
+              "options": [
+                "Do you want to go out with me?",
+                "Do you want to eat with me?",
+                "Do you go out with me?",
+                "Do you want to come home with me?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vuoi uscire con me?' — vuoi (volere, Unit 15) + infinitive (uscire) + con me. 💛 The direct version of the invite.",
+              "dictionaryRefs": [
+                "voglio",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u21l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 9+16 recycling)",
+              "tokens": [
+                "Vuoi",
+                "un",
+                "caffè",
+                "domani?"
+              ],
+              "correctSentence": "Vuoi un caffè domani?",
+              "explanation": "'Vuoi un caffè domani?' — the Unit 9 invitation + domani (Unit 16). 💛 Old words, new plans.",
+              "dictionaryRefs": [
+                "voglio",
+                "il-caffe",
+                "domani"
+              ]
+            },
+            {
+              "id": "u21l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 20 recycling)",
+              "sourceEn": "Do you want to go to the sea on Sunday?",
+              "acceptedIt": [
+                "Vuoi andare al mare domenica?",
+                "Vuoi andare al mare domenica",
+                "Tu vuoi andare al mare domenica?"
+              ],
+              "explanation": "'Vuoi andare al mare domenica?' — vuoi + andare (infinitive) + al mare (Unit 20) + domenica. 💛 A full plan in six words.",
+              "dictionaryRefs": [
+                "voglio",
+                "andare",
+                "il-mare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u21l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "la-passeggiata",
+            "la-colazione",
+            "la-spesa",
+            "il-parco",
+            "uscire",
+            "amico",
+            "voglio"
+          ],
+          "exercises": [
+            {
+              "id": "u21l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Faccio una passeggiata al parco.",
+              "options": [
+                "I take a walk in the park.",
+                "I take a walk in the city.",
+                "I go to the park by car.",
+                "I play sport in the park."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Faccio una passeggiata al parco.' — faccio + una passeggiata + al parco.",
+              "dictionaryRefs": [
+                "la-passeggiata",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u21l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 5 recycling)",
+              "mode": "type",
+              "speakIt": "Esco con gli amici.",
+              "acceptedIt": [
+                "Esco con gli amici.",
+                "Esco con gli amici",
+                "Io esco con gli amici"
+              ],
+              "explanation": "You heard: 'Esco con gli amici.' — I go out with friends. Gli amici = the friends (Unit 5, lo → gli rule).",
+              "dictionaryRefs": [
+                "uscire",
+                "amico"
+              ]
+            },
+            {
+              "id": "u21l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Usciamo sabato?",
+              "options": [
+                "Shall we go out on Saturday?",
+                "Shall we go out on Friday?",
+                "Do you go out on Saturdays?",
+                "Are we going out today?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Usciamo sabato?' — Shall we go out on Saturday? 💛 The noi-form proposal, voice rising.",
+              "dictionaryRefs": [
+                "uscire"
+              ]
+            },
+            {
+              "id": "u21l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I have breakfast at the bar.",
+              "targetIt": "Faccio colazione al bar.",
+              "minAccuracy": 0.7,
+              "explanation": "'Faccio colazione al bar.' — FAC-cio co-la-TSYO-ne al BAR. The double c of faccio is long.",
+              "dictionaryRefs": [
+                "fare",
+                "la-colazione",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u21l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: do you want to go out with me? 💛",
+              "targetIt": "Vuoi uscire con me?",
+              "minAccuracy": 0.7,
+              "explanation": "'Vuoi uscire con me?' — VWO-y u-SHI-re kon ME. 💛 Slow on uscire: the sc is 'sh'.",
+              "dictionaryRefs": [
+                "voglio",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u21l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Fate sport?",
+              "acceptedIt": [
+                "Fate sport?",
+                "Fate sport",
+                "Voi fate sport?"
+              ],
+              "explanation": "You heard: 'Fate sport?' — Do you (all) do sport? Fate = voi + fare.",
+              "dictionaryRefs": [
+                "fare",
+                "lo-sport"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u21c",
+        "exercises": [
+          {
+            "id": "u21ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la palestra",
+            "options": [
+              "the gym",
+              "the park",
+              "the pool",
+              "the school"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La palestra' (f) = the gym. 'Vado in palestra.'",
+            "dictionaryRefs": [
+              "la-palestra"
+            ]
+          },
+          {
+            "id": "u21ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (We have breakfast at eight.) (Unit 10 recycling)",
+            "sentence": "Noi ___ colazione alle otto.",
+            "answers": [
+              "facciamo"
+            ],
+            "explanation": "'Noi facciamo colazione alle otto.' — facciamo (noi, fare) + colazione + alle otto (Unit 10).",
+            "dictionaryRefs": [
+              "fare",
+              "la-colazione"
+            ]
+          },
+          {
+            "id": "u21ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "I take a walk in the park.",
+            "acceptedIt": [
+              "Faccio una passeggiata al parco.",
+              "Faccio una passeggiata al parco",
+              "Io faccio una passeggiata al parco"
+            ],
+            "explanation": "'Faccio una passeggiata al parco.' — the fare chunk: faccio + una passeggiata; a + il parco → al parco.",
+            "dictionaryRefs": [
+              "fare",
+              "la-passeggiata",
+              "il-parco"
+            ]
+          },
+          {
+            "id": "u21ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Escono il venerdì.",
+            "acceptedEn": [
+              "They go out on Fridays.",
+              "They go out on Friday."
+            ],
+            "explanation": "'Escono il venerdì.' — escono (loro, uscire) + il venerdì (habit). They go out on Fridays.",
+            "dictionaryRefs": [
+              "uscire"
+            ]
+          },
+          {
+            "id": "u21ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form. 💛 (Do you go out with me?)",
+            "question": "Tu ___ con me?",
+            "options": [
+              "esci",
+              "esco",
+              "esce",
+              "usci"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tu + uscire → esci. 'Tu esci con me?' 💛 (Esco is io, esce is lui/lei, 'usci' doesn't exist.)",
+            "dictionaryRefs": [
+              "uscire"
+            ]
+          },
+          {
+            "id": "u21ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (They do the shopping on Saturdays.)",
+            "sentence": "Fanno la ___ il sabato.",
+            "answers": [
+              "spesa"
+            ],
+            "explanation": "'Fanno la spesa il sabato.' — fanno (loro, fare) + la spesa. The chunk keeps its article.",
+            "dictionaryRefs": [
+              "fare",
+              "la-spesa"
+            ]
+          },
+          {
+            "id": "u21ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 7+16+20 recycling)",
+            "tokens": [
+              "Andiamo",
+              "al",
+              "cinema",
+              "domani?"
+            ],
+            "correctSentence": "Andiamo al cinema domani?",
+            "explanation": "'Andiamo al cinema domani?' — proposal + place + day. 💛 Unit 7 grammar, Unit 16 plans, Unit 20 tastes.",
+            "dictionaryRefs": [
+              "andare",
+              "il-cinema",
+              "domani"
+            ]
+          },
+          {
+            "id": "u21ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Faccio la spesa il sabato.",
+            "options": [
+              "I do the shopping on Saturdays.",
+              "I do the shopping on Sundays.",
+              "I spend money on Saturdays.",
+              "I cook on Saturdays."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Faccio la spesa il sabato.' — fare la spesa, the Saturday habit.",
+            "dictionaryRefs": [
+              "fare",
+              "la-spesa"
+            ]
+          },
+          {
+            "id": "u21ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Usciamo domani?",
+            "acceptedIt": [
+              "Usciamo domani?",
+              "Usciamo domani"
+            ],
+            "explanation": "You heard: 'Usciamo domani?' — Shall we go out tomorrow? 💛",
+            "dictionaryRefs": [
+              "uscire",
+              "domani"
+            ]
+          },
+          {
+            "id": "u21ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: shall we take a walk? 💛",
+            "targetIt": "Facciamo una passeggiata?",
+            "minAccuracy": 0.7,
+            "explanation": "'Facciamo una passeggiata?' — fac-CIA-mo U-na pas-sed-JA-ta. 💛 Voice up at the end.",
+            "dictionaryRefs": [
+              "fare",
+              "la-passeggiata"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -16924,6 +17698,106 @@
         }
       ],
       "introducedInUnit": 20
+    },
+    {
+      "id": "la-passeggiata",
+      "word": "passeggiata",
+      "article": "la",
+      "translation": "walk (fare una passeggiata = to take a walk)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Faccio una passeggiata al parco.",
+          "en": "I take a walk in the park."
+        },
+        {
+          "it": "Facciamo una passeggiata?",
+          "en": "Shall we take a walk?"
+        }
+      ],
+      "introducedInUnit": 21
+    },
+    {
+      "id": "la-colazione",
+      "word": "colazione",
+      "article": "la",
+      "translation": "breakfast (fare colazione = to have breakfast)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Faccio colazione al bar.",
+          "en": "I have breakfast at the bar."
+        }
+      ],
+      "introducedInUnit": 21
+    },
+    {
+      "id": "la-spesa",
+      "word": "spesa",
+      "article": "la",
+      "translation": "grocery shopping (fare la spesa = to do the shopping)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Faccio la spesa il sabato.",
+          "en": "I do the shopping on Saturdays."
+        }
+      ],
+      "introducedInUnit": 21
+    },
+    {
+      "id": "la-palestra",
+      "word": "palestra",
+      "article": "la",
+      "translation": "gym",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Vado in palestra.",
+          "en": "I go to the gym."
+        }
+      ],
+      "introducedInUnit": 21
+    },
+    {
+      "id": "il-parco",
+      "word": "parco",
+      "article": "il",
+      "translation": "park",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il parco è bello.",
+          "en": "The park is nice."
+        },
+        {
+          "it": "Andiamo al parco!",
+          "en": "Let's go to the park!"
+        }
+      ],
+      "introducedInUnit": 21
+    },
+    {
+      "id": "uscire",
+      "word": "uscire",
+      "translation": "to go out",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Esco con gli amici il venerdì.",
+          "en": "I go out with friends on Fridays."
+        },
+        {
+          "it": "Usciamo sabato?",
+          "en": "Shall we go out on Saturday?"
+        }
+      ],
+      "introducedInUnit": 21
     }
   ],
   "stories": [
