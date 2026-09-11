@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 8,
+    "version": 9,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -10890,6 +10890,767 @@
           }
         ]
       }
+    },
+    {
+      "id": "u16",
+      "number": 16,
+      "title": "Che ore sono?",
+      "lessons": [
+        {
+          "id": "u16l1",
+          "type": "vocabulary",
+          "title": "Ieri, oggi, domani",
+          "dictionaryRefs": [
+            "domani",
+            "ieri",
+            "la-settimana",
+            "il-mese",
+            "lunedi",
+            "libero"
+          ],
+          "exercises": [
+            {
+              "id": "u16l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "domani",
+              "options": [
+                "tomorrow",
+                "yesterday",
+                "today",
+                "tonight"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Domani' = tomorrow. 'Domani è sabato.' — Tomorrow is Saturday. The day after oggi.",
+              "dictionaryRefs": [
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "ieri",
+              "options": [
+                "yesterday",
+                "tomorrow",
+                "today",
+                "last week"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ieri' = yesterday. The trio to memorize: ieri — oggi — domani.",
+              "dictionaryRefs": [
+                "ieri"
+              ]
+            },
+            {
+              "id": "u16l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la settimana",
+              "options": [
+                "the week",
+                "the month",
+                "the weekend",
+                "the year"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La settimana' (f) = the week. 'La settimana ha sette giorni.' — The week has seven days.",
+              "dictionaryRefs": [
+                "la-settimana"
+              ]
+            },
+            {
+              "id": "u16l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il mese",
+              "options": [
+                "the month",
+                "the week",
+                "the day",
+                "the year"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il mese' (m) = the month. 'Un mese ha quattro settimane.' — A month has four weeks.",
+              "dictionaryRefs": [
+                "il-mese",
+                "la-settimana"
+              ]
+            },
+            {
+              "id": "u16l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "lunedì",
+              "options": [
+                "Monday",
+                "Sunday",
+                "Friday",
+                "Saturday"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lunedì' (m) = Monday — the first day of the Italian week. All days except domenica are masculine and take no capital letter.",
+              "dictionaryRefs": [
+                "lunedi"
+              ]
+            },
+            {
+              "id": "u16l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "libero",
+              "options": [
+                "free; available",
+                "busy",
+                "tired",
+                "happy"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Libero' = free, available. 💛 'Sei libero domani?' — Are you free tomorrow? Agrees like alto: libero, libera, liberi, libere.",
+              "dictionaryRefs": [
+                "libero"
+              ]
+            },
+            {
+              "id": "u16l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Tomorrow I study Italian.)",
+              "sentence": "___ studio italiano.",
+              "answers": [
+                "Domani"
+              ],
+              "explanation": "'Domani studio italiano.' — domani opens or closes the sentence; the verb stays present tense (Italian uses the present for future plans).",
+              "dictionaryRefs": [
+                "domani",
+                "studiare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u16l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Sei libero domani?",
+              "acceptedEn": [
+                "Are you free tomorrow?",
+                "Are you free tomorrow? (to a man)"
+              ],
+              "explanation": "'Sei libero domani?' — sei (tu, essere) + libero + domani. 💛 The question that makes plans happen. To a woman: 'Sei libera domani?'",
+              "dictionaryRefs": [
+                "libero",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u16l2",
+          "type": "grammar",
+          "title": "L'ora, i giorni, i mesi, le stagioni",
+          "dictionaryRefs": [
+            "domani",
+            "ieri",
+            "la-settimana",
+            "il-mese",
+            "lunedi",
+            "libero",
+            "che-ore-sono",
+            "oggi"
+          ],
+          "grammarNotes": "L'ORA — deeper than Unit 10.\n\nRECAP: 'Che ore sono?' — 'È l'una.' / 'Sono le due, le tre…'\n\nQUARTERS AND HALVES:\n• 'Sono le tre e un quarto.' — a quarter past three\n• 'Sono le tre e mezza.' — half past three\n• 'Sono le cinque meno un quarto.' — a quarter to five (literally 'five minus a quarter')\n\nOFFICIAL TIME (24 hours) — trains, opening hours, appointments:\n'Sono le quattordici e trenta.' = 'Sono le due e mezza di pomeriggio.' Both are correct; the 24-hour form is what you read, the informal one is what you say.\n\nI GIORNI (m, no capital letter): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica (f). 'Che giorno è oggi?' — 'Oggi è lunedì.' Days use essere: è lunedì, è martedì…\n\nI MESI (m, no capital): gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n\nLE STAGIONI (f): la primavera, l'estate, l'autunno, l'inverno. 'L'estate è bella.'\n\nAvere with time: 'La settimana ha sette giorni.' — the week HAS seven days. 'Un mese ha quattro settimane.'\n\n💛 MAKING PLANS: 'Quando sei libero/a?' — When are you free? — 'Sono libero sabato.' / 'Domani no, domenica sì.'",
+          "exercises": [
+            {
+              "id": "u16l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (It's half past three.)",
+              "sentence": "Sono le tre e ___.",
+              "answers": [
+                "mezza"
+              ],
+              "explanation": "'Sono le tre e mezza.' — e mezza = and a half. Mezza never changes: it's short for 'mezza ora' (half an hour).",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u16l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (It's a quarter to five.)",
+              "sentence": "Sono le cinque ___ un quarto.",
+              "answers": [
+                "meno"
+              ],
+              "explanation": "'Sono le cinque meno un quarto.' — meno = minus: five minus a quarter. Past the half-hour, Italians count down to the next hour.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u16l2e3",
+              "type": "multiple_choice",
+              "prompt": "Choose the meaning. (official time)",
+              "question": "Sono le quattordici.",
+              "options": [
+                "It's 2 pm.",
+                "It's 4 pm.",
+                "It's 2 am.",
+                "It's 4 am."
+              ],
+              "correctIndex": 0,
+              "explanation": "Official time runs to 24: le quattordici = 2 pm, le sedici = 4 pm. Subtract 12 after midday.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u16l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Today is Monday.",
+              "acceptedIt": [
+                "Oggi è lunedì.",
+                "Oggi è lunedì",
+                "Oggi e' lunedì",
+                "È lunedì oggi"
+              ],
+              "explanation": "'Oggi è lunedì.' — days use essere, and no capital letter: lunedì, martedì, mercoledì…",
+              "dictionaryRefs": [
+                "oggi",
+                "lunedi"
+              ]
+            },
+            {
+              "id": "u16l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Are you free tomorrow?",
+              "acceptedIt": [
+                "Sei libero domani?",
+                "Sei libera domani?",
+                "Sei libero domani",
+                "Sei libera domani",
+                "Tu sei libero domani?",
+                "Tu sei libera domani?"
+              ],
+              "explanation": "'Sei libero domani?' (to a man) / 'Sei libera domani?' (to a woman) — libero agrees with the person (Unit 13). 💛",
+              "dictionaryRefs": [
+                "libero",
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 7+9 recycling)",
+              "sourceIt": "Sabato vado al bar con Giulia.",
+              "acceptedEn": [
+                "On Saturday I go to the bar with Giulia.",
+                "Saturday I go to the bar with Giulia.",
+                "On Saturday I'm going to the bar with Giulia."
+              ],
+              "explanation": "'Sabato vado al bar con Giulia.' — the day alone means 'on Saturday'; the present tense covers future plans.",
+              "dictionaryRefs": [
+                "andare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u16l2e7",
+              "type": "fill_blank",
+              "prompt": "Complete the dialogue. (What day is it today? — Today is Tuesday.)",
+              "sentence": "Che ___ è oggi? — Oggi è martedì.",
+              "answers": [
+                "giorno"
+              ],
+              "explanation": "'Che giorno è oggi?' — che + giorno + è. The answer takes essere: è martedì.",
+              "dictionaryRefs": [
+                "il-giorno",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u16l2e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'estate",
+              "options": [
+                "the summer",
+                "the winter",
+                "the spring",
+                "the autumn"
+              ],
+              "correctIndex": 0,
+              "explanation": "Le stagioni: la primavera (spring), l'estate (summer), l'autunno (autumn), l'inverno (winter). All feminine."
+            },
+            {
+              "id": "u16l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Domani",
+                "è",
+                "martedì."
+              ],
+              "correctSentence": "Domani è martedì.",
+              "explanation": "'Domani è martedì.' — domani first for emphasis, then è + the day. No capital on martedì.",
+              "dictionaryRefs": [
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Sei",
+                "libera",
+                "sabato?"
+              ],
+              "correctSentence": "Sei libera sabato?",
+              "explanation": "'Sei libera sabato?' — sei + libera (f) + the day alone. 💛 Short, direct, effective.",
+              "dictionaryRefs": [
+                "libero"
+              ]
+            },
+            {
+              "id": "u16l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Sono",
+                "le",
+                "otto",
+                "e",
+                "mezza."
+              ],
+              "correctSentence": "Sono le otto e mezza.",
+              "explanation": "'Sono le otto e mezza.' — sono le + hour + e mezza. Half past eight.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u16l3",
+          "type": "mixed",
+          "title": "Fare programmi: ripasso 💛",
+          "dictionaryRefs": [
+            "che-ore-sono",
+            "lavorare",
+            "il-weekend",
+            "finire",
+            "andare",
+            "il-bar",
+            "quando",
+            "domani",
+            "ieri",
+            "la-settimana",
+            "lunedi",
+            "libero"
+          ],
+          "exercises": [
+            {
+              "id": "u16l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 10 recycling)",
+              "sourceEn": "It's half past seven.",
+              "acceptedIt": [
+                "Sono le sette e mezza.",
+                "Sono le sette e mezza",
+                "Sono le 7 e mezza"
+              ],
+              "explanation": "'Sono le sette e mezza.' — the Unit 10 pattern (sono le + hour) + e mezza.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u16l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (On Saturday I don't work.)",
+              "sentence": "Il sabato non ___.",
+              "answers": [
+                "lavoro",
+                "io lavoro"
+              ],
+              "explanation": "'Il sabato non lavoro.' — il + day = a habit ('on Saturdays'); non before the verb (Unit 7).",
+              "dictionaryRefs": [
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u16l3e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 8 recycling)",
+              "question": "Quando sei libero?",
+              "options": [
+                "When are you free?",
+                "Where are you free?",
+                "When are you tired?",
+                "Why are you free?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quando sei libero?' — quando (Unit 8) + sei + libero. 💛 Ask it, then propose: 'Allora sabato!'",
+              "dictionaryRefs": [
+                "quando",
+                "libero"
+              ]
+            },
+            {
+              "id": "u16l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 12 recycling)",
+              "sourceIt": "Il weekend finisce la domenica.",
+              "acceptedEn": [
+                "The weekend ends on Sunday.",
+                "The weekend finishes on Sunday."
+              ],
+              "explanation": "'Il weekend finisce la domenica.' — finisce (finire, -isc-, lui-form) + la domenica. The weekend 'ends' Sunday.",
+              "dictionaryRefs": [
+                "il-weekend",
+                "finire"
+              ]
+            },
+            {
+              "id": "u16l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (When are you free, tomorrow or Saturday?)",
+              "sentence": "___ sei libera, domani o sabato?",
+              "answers": [
+                "Quando"
+              ],
+              "explanation": "'Quando sei libera?' — question word first (Unit 8), then sei + libera. The choice 'domani o sabato' comes after.",
+              "dictionaryRefs": [
+                "quando",
+                "libero",
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l3e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the meaning. (official time)",
+              "question": "Sono le sedici.",
+              "options": [
+                "It's 4 pm.",
+                "It's 6 pm.",
+                "It's 4 am.",
+                "It's 6 am."
+              ],
+              "correctIndex": 0,
+              "explanation": "Le sedici = 16:00 = 4 pm. 24-hour time: subtract 12 after midday — sedici → le quattro di pomeriggio.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u16l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 7 recycling) 💛",
+              "tokens": [
+                "Andiamo",
+                "al",
+                "bar",
+                "domani?"
+              ],
+              "correctSentence": "Andiamo al bar domani?",
+              "explanation": "'Andiamo al bar domani?' — andiamo (noi, andare) as a proposal: 'Shall we go…?' The day closes the sentence. 💛",
+              "dictionaryRefs": [
+                "andare",
+                "il-bar",
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Are you free on Saturday?",
+              "acceptedIt": [
+                "Sei libero sabato?",
+                "Sei libera sabato?",
+                "Sei libero sabato",
+                "Sei libera sabato",
+                "Tu sei libero sabato?",
+                "Tu sei libera sabato?"
+              ],
+              "explanation": "'Sei libero sabato?' / 'Sei libera sabato?' — the day alone, no preposition: sabato = on Saturday.",
+              "dictionaryRefs": [
+                "libero"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u16l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "che-ore-sono",
+            "oggi",
+            "domani",
+            "libero",
+            "la-cena"
+          ],
+          "exercises": [
+            {
+              "id": "u16l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Sono le nove e un quarto.",
+              "options": [
+                "It's a quarter past nine.",
+                "It's a quarter to nine.",
+                "It's half past nine.",
+                "It's nine o'clock."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sono le nove e un quarto.' — e un quarto = a quarter PAST; meno un quarto = a quarter TO.",
+              "dictionaryRefs": [
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u16l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Oggi è venerdì.",
+              "acceptedIt": [
+                "Oggi è venerdì.",
+                "Oggi è venerdì",
+                "Oggi e' venerdi"
+              ],
+              "explanation": "You heard: 'Oggi è venerdì.' — Today is Friday. Days take essere and no capital letter.",
+              "dictionaryRefs": [
+                "oggi"
+              ]
+            },
+            {
+              "id": "u16l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Quando sei libero?",
+              "options": [
+                "When are you free?",
+                "When are you tired?",
+                "Where are you tonight?",
+                "Why are you free?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Quando sei libero?' — When are you free? 💛 Listen for quando + sei + libero.",
+              "dictionaryRefs": [
+                "quando",
+                "libero"
+              ]
+            },
+            {
+              "id": "u16l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Tomorrow is Saturday.",
+              "targetIt": "Domani è sabato.",
+              "minAccuracy": 0.7,
+              "explanation": "'Domani è sabato.' — do-MA-ni e SA-ba-to. Both stress the middle syllable.",
+              "dictionaryRefs": [
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: are you free tomorrow? (to a woman) 💛",
+              "targetIt": "Sei libera domani?",
+              "minAccuracy": 0.7,
+              "explanation": "'Sei libera domani?' — SEI LI-be-ra do-MA-ni, voice rising. 💛 The most useful question of the unit.",
+              "dictionaryRefs": [
+                "libero",
+                "domani"
+              ]
+            },
+            {
+              "id": "u16l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 15 recycling)",
+              "mode": "type",
+              "speakIt": "La cena è alle nove.",
+              "acceptedIt": [
+                "La cena è alle nove.",
+                "La cena è alle nove",
+                "La cena e' alle nove"
+              ],
+              "explanation": "You heard: 'La cena è alle nove.' — Dinner is at nine. Alle + hour for appointments (alle otto, alle nove).",
+              "dictionaryRefs": [
+                "la-cena",
+                "che-ore-sono"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u16c",
+        "exercises": [
+          {
+            "id": "u16ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "domani",
+            "options": [
+              "tomorrow",
+              "yesterday",
+              "today",
+              "next week"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Domani' = tomorrow. The trio: ieri — oggi — domani.",
+            "dictionaryRefs": [
+              "domani"
+            ]
+          },
+          {
+            "id": "u16ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (It's a quarter to two.)",
+            "sentence": "Sono le due ___ un quarto.",
+            "answers": [
+              "meno"
+            ],
+            "explanation": "'Sono le due meno un quarto.' — meno = minus. After the half-hour, count down to the next hour.",
+            "dictionaryRefs": [
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u16ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "Today is Wednesday.",
+            "acceptedIt": [
+              "Oggi è mercoledì.",
+              "Oggi è mercoledì",
+              "Oggi e' mercoledi",
+              "È mercoledì oggi"
+            ],
+            "explanation": "'Oggi è mercoledì.' — oggi + è + the day. Mercoledì: four syllables, mer-co-le-DÌ.",
+            "dictionaryRefs": [
+              "oggi"
+            ]
+          },
+          {
+            "id": "u16ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "La settimana ha sette giorni.",
+            "acceptedEn": [
+              "The week has seven days.",
+              "A week has seven days."
+            ],
+            "explanation": "'La settimana ha sette giorni.' — avere with time: the week HAS seven days. Ha = it has (lui/lei form).",
+            "dictionaryRefs": [
+              "la-settimana",
+              "il-giorno"
+            ]
+          },
+          {
+            "id": "u16ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the meaning. (official time)",
+            "question": "Sono le diciannove e trenta.",
+            "options": [
+              "It's 7:30 pm.",
+              "It's 9:30 am.",
+              "It's 7:30 am.",
+              "It's 6:30 pm."
+            ],
+            "correctIndex": 0,
+            "explanation": "Le diciannove = 19:00 → 7 pm; e trenta = and thirty. Informally: le sette e mezza di sera.",
+            "dictionaryRefs": [
+              "che-ore-sono",
+              "la-sera"
+            ]
+          },
+          {
+            "id": "u16ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the dialogue. (What day is it today? — Today is Thursday.)",
+            "sentence": "Che giorno è ___? — Oggi è giovedì.",
+            "answers": [
+              "oggi"
+            ],
+            "explanation": "'Che giorno è oggi?' — What day is today? Oggi closes the question; è + the day answers it.",
+            "dictionaryRefs": [
+              "oggi",
+              "il-giorno"
+            ]
+          },
+          {
+            "id": "u16ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Sei",
+              "libero",
+              "domani?"
+            ],
+            "correctSentence": "Sei libero domani?",
+            "explanation": "'Sei libero domani?' — sei + libero (m) + domani. To a woman: sei libera domani? 💛",
+            "dictionaryRefs": [
+              "libero",
+              "domani"
+            ]
+          },
+          {
+            "id": "u16ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Sono le tre e mezza.",
+            "options": [
+              "It's half past three.",
+              "It's half past four.",
+              "It's a quarter past three.",
+              "It's three o'clock."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Sono le tre e mezza.' — e mezza = half past. Listen for mezza vs un quarto.",
+            "dictionaryRefs": [
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u16ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Ieri o domani?",
+            "acceptedIt": [
+              "Ieri o domani?",
+              "Ieri o domani"
+            ],
+            "explanation": "You heard: 'Ieri o domani?' — Yesterday or tomorrow? The two bookends of oggi.",
+            "dictionaryRefs": [
+              "ieri",
+              "domani"
+            ]
+          },
+          {
+            "id": "u16ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: when are you free? 💛",
+            "targetIt": "Quando sei libero?",
+            "minAccuracy": 0.7,
+            "explanation": "'Quando sei libero?' — KWAN-do SEI LI-be-ro. 💛 Say it like you mean it.",
+            "dictionaryRefs": [
+              "quando",
+              "libero"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -12561,6 +13322,98 @@
         }
       ],
       "introducedInUnit": 15
+    },
+    {
+      "id": "domani",
+      "word": "domani",
+      "translation": "tomorrow",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Domani è sabato.",
+          "en": "Tomorrow is Saturday."
+        },
+        {
+          "it": "Sei libero domani?",
+          "en": "Are you free tomorrow?"
+        }
+      ],
+      "introducedInUnit": 16
+    },
+    {
+      "id": "ieri",
+      "word": "ieri",
+      "translation": "yesterday",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Ieri o domani?",
+          "en": "Yesterday or tomorrow?"
+        }
+      ],
+      "introducedInUnit": 16
+    },
+    {
+      "id": "la-settimana",
+      "word": "settimana",
+      "article": "la",
+      "translation": "week",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La settimana ha sette giorni.",
+          "en": "The week has seven days."
+        }
+      ],
+      "introducedInUnit": 16
+    },
+    {
+      "id": "il-mese",
+      "word": "mese",
+      "article": "il",
+      "translation": "month",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un mese ha quattro settimane.",
+          "en": "A month has four weeks."
+        }
+      ],
+      "introducedInUnit": 16
+    },
+    {
+      "id": "lunedi",
+      "word": "lunedì",
+      "article": "il",
+      "translation": "Monday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Oggi è lunedì.",
+          "en": "Today is Monday."
+        }
+      ],
+      "introducedInUnit": 16
+    },
+    {
+      "id": "libero",
+      "word": "libero",
+      "translation": "free; available",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Sei libero domani?",
+          "en": "Are you free tomorrow? (to a man)"
+        },
+        {
+          "it": "Sono libera sabato.",
+          "en": "I am free on Saturday. (woman speaking)"
+        }
+      ],
+      "introducedInUnit": 16
     }
   ],
   "stories": [
