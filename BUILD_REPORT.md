@@ -488,3 +488,52 @@ Failure modes found and fixed during the runs (not papered over):
   animation frames (gfxinfo window: 11 frames) → frame-generating scrolls use
   real UiDevice swipes; the 5% jank assert then measured the emulator, not
   the app (see #7) — spec fallback applied with the numbers logged.
+
+### Stage 5 — acceptance gates ✅ (2026-09-12)
+
+Scope: Units 11–25 + Story 2 (Phase 2 content). All eight acceptance criteria
+from `LinguaMod Autonomous Prompts/05 Phase 2 Content Units 11-25.md` green.
+
+New this stage:
+
+- `ChaosUnitsStage5JourneyTest` (AC4): Solver Bot chaos pass on units 11, 18
+  and 25 — up to 3 distinct exercises per lesson answered wrong once (wrong
+  answers re-queue and are then answered correctly; lessons still complete),
+  then the checkpoint attempted with `chaosStaysWrong` fails gracefully
+  (`checkpoint_failed`, no crash, no progress recorded), and a correct retry
+  passes.
+- `GamificationTest` +1 (AC7): `level 2 triggers exactly on unit 25 checkpoint
+  pass` — fast-forwards checkpoints 1–24, asserts Level 1; passes the unit 25
+  checkpoint, asserts Level 2 and the next threshold (40). Confirms the
+  Stage 2B `Levels` mechanism (PHASE_ENDS 10/25/40/60) fires at 25 as built —
+  no fix needed.
+- Suite hardening (not papering over, found during the full-suite run): with
+  the path now 25 units + story/boss rows long, `performScrollToNode`'s
+  scroll-through intermittently misjudged the list end under suite load, and
+  one flashcard flip tap was swallowed — `Stage4JourneyTest` and
+  `Story2JourneyTest` `openPathRow` now retry the whole scroll+click pass with
+  a swipe-based scroll-to-top (same idiom as `Stage4GatingTest.awaitPathRow`),
+  and the `ReviewFlashcardJourneyTest` flip retries the tap. All three had
+  passed in isolation; fixes are retry-only, assertions unchanged.
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 134 JVM tests, 0 failures**
+  (validator 27 tests incl. zero-error run on `it.lingua`, no forward refs,
+  orphan-entry rule; conjugation cross-check 2; recycling 2 pinning 25 units
+  with the 3..25 gate; story validation 12 incl. Story 2) — AC2, AC6.
+- `./gradlew connectedDebugAndroidTest` — **54/54 green** in one final full
+  pass (20m 58s). Journey coverage: `CompleteUnitsStage2JourneyTest`
+  units 1–10 + `CompleteUnitsStage5JourneyTest` units 11–25 = Solver Bot full
+  playthrough of every unit 1–25, zero failures (AC3); chaos units 11/18/25
+  (57s / 50s / 56s) (AC4); `Story2JourneyTest` correct path + 2 wrong-choice
+  loops + replay (AC5); all Stage 1–4 journeys still green (AC1).
+- Monkey: debug APK reinstalled (the instrumented task uninstalls it), then
+  `monkey -p com.linguamod.app --pct-syskeys 0 20000` — **20000 events
+  injected, zero crashes/ANRs** (0 FATAL EXCEPTIONs for the app in logcat,
+  process alive after the run; `/dev/input/event0 EACCES` flip warnings are
+  the known emulator quirk).
+- `./gradlew assembleRelease` — release APK **3,124,822 bytes ≈ 2.98 MB**
+  (cap 20 MB; 25 units + Stories 1–2 added ~1.1 MB over Stage 4) — AC8.
+
+**Stage 5 gate: GREEN.**
