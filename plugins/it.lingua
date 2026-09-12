@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 29,
+    "version": 30,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -26455,6 +26455,835 @@
           }
         ]
       }
+    },
+    {
+      "id": "u36",
+      "number": 36,
+      "title": "I comparativi",
+      "lessons": [
+        {
+          "id": "u36l1",
+          "type": "vocabulary",
+          "title": "Più, meno, meglio, peggio",
+          "dictionaryRefs": [
+            "piu",
+            "meno",
+            "meglio",
+            "peggio",
+            "cosi",
+            "diverso"
+          ],
+          "exercises": [
+            {
+              "id": "u36l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "più",
+              "options": [
+                "more",
+                "less",
+                "most",
+                "plus only"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Più' = more (and plus). 'Più alto' — taller; 'più bello' — nicer. The word that builds comparatives.",
+              "dictionaryRefs": [
+                "piu"
+              ]
+            },
+            {
+              "id": "u36l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "meno",
+              "options": [
+                "less",
+                "more",
+                "fewer only",
+                "minus only"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Meno' = less (and minus — you know it from 'le otto meno dieci', Unit 10). 'Meno caro'? Later; for now: 'meno bello', 'meno libero'.",
+              "dictionaryRefs": [
+                "meno"
+              ]
+            },
+            {
+              "id": "u36l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "meglio",
+              "options": [
+                "better",
+                "best",
+                "more",
+                "well"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Meglio' = better — the irregular comparative of bene. 'Oggi sto meglio.' — Today I feel better (Unit 24's stare!).",
+              "dictionaryRefs": [
+                "meglio",
+                "stare"
+              ]
+            },
+            {
+              "id": "u36l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "peggio",
+              "options": [
+                "worse",
+                "worst",
+                "less",
+                "bad"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Peggio' = worse — the irregular comparative of male. 'Oggi sto peggio.' — Today I feel worse. The pair: meglio / peggio.",
+              "dictionaryRefs": [
+                "peggio"
+              ]
+            },
+            {
+              "id": "u36l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "così… come",
+              "options": [
+                "as… as",
+                "so… that",
+                "like this",
+                "how much"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Così… come' = as… as. 'Il film è così bello come il libro.' — The film is as beautiful as the book. Often just: bello come il libro.",
+              "dictionaryRefs": [
+                "cosi"
+              ]
+            },
+            {
+              "id": "u36l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "diverso",
+              "options": [
+                "different",
+                "difficult",
+                "diverse",
+                "various"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Diverso' = different — agrees like alto: diverso, diversa, diversi, diverse. 💛 'Sei diversa da Marco.' — You're different from Marco.",
+              "dictionaryRefs": [
+                "diverso"
+              ]
+            },
+            {
+              "id": "u36l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia is taller than Marco.) (Unit 13 recycling)",
+              "sentence": "Giulia è ___ alta di Marco.",
+              "answers": [
+                "più"
+              ],
+              "explanation": "'Giulia è più alta di Marco.' — più + the adjective + di: più alta di Marco. The adjective still agrees: altA.",
+              "dictionaryRefs": [
+                "piu",
+                "alto"
+              ]
+            },
+            {
+              "id": "u36l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 24 recycling)",
+              "sourceIt": "Oggi sto meglio.",
+              "acceptedEn": [
+                "Today I feel better.",
+                "Today I'm better."
+              ],
+              "explanation": "'Oggi sto meglio.' — sto (stare, Unit 24) + meglio (better). Ieri stavo male, oggi meglio.",
+              "dictionaryRefs": [
+                "meglio",
+                "stare",
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u36l2",
+          "type": "grammar",
+          "title": "Più di, meno di, così come",
+          "dictionaryRefs": [
+            "piu",
+            "meno",
+            "meglio",
+            "peggio",
+            "cosi",
+            "diverso",
+            "alto",
+            "bello",
+            "simpatico",
+            "libero",
+            "il-mare",
+            "la-citta"
+          ],
+          "grammarNotes": "I COMPARATIVI — comparing things, places, people.\n\nTHREE FORMS:\n• più + adjective + di — more than: 'Giulia è più alta di Marco.'\n• meno + adjective + di — less than: 'Il lunedì è meno bello del sabato.'\n• (così) + adjective + come — as… as: 'Il film è (così) bello come il libro.'\n\nDI OR DA: compare things with di: 'più alto di Marco', 'più bello del museo' (di + il → del; di + la → della — same contraction family as al/alla). 'Different FROM' uses da: 'Sei diversa da Marco.' 💛\n\nTHE ADJECTIVE STILL AGREES: 'Giulia è più alta di Marco.' — altA, because Giulia is a woman. Più never changes; the adjective does its Unit 13 job.\n\nTHE IRREGULARS — meglio / peggio (better / worse, for how things go):\n• 'Oggi sto meglio.' — I feel better today. • 'Ieri stavo peggio.' — Yesterday I felt worse.\n(Next unit: il migliore / il peggiore — the best / the worst.)\n\n💛 Comparing people: 'Sei più simpatica di Marco.' / 'Sei diversa dagli altri'? — not yet. For now: 'Sei diversa da Marco.'",
+          "exercises": [
+            {
+              "id": "u36l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia is taller than Marco.)",
+              "sentence": "Giulia è ___ alta di Marco.",
+              "answers": [
+                "più"
+              ],
+              "explanation": "'Giulia è più alta di Marco.' — più + alta + di Marco. Di for comparisons between things or people.",
+              "dictionaryRefs": [
+                "piu",
+                "alto"
+              ]
+            },
+            {
+              "id": "u36l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Monday is less nice than Saturday.)",
+              "sentence": "Il lunedì è ___ bello del sabato.",
+              "answers": [
+                "meno"
+              ],
+              "explanation": "'Il lunedì è meno bello del sabato.' — meno + bello + del sabato (di + il → del).",
+              "dictionaryRefs": [
+                "meno",
+                "bello",
+                "lunedi"
+              ]
+            },
+            {
+              "id": "u36l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The film is as beautiful as the book.) (Unit 5+19 recycling)",
+              "sentence": "Il film è bello ___ il libro.",
+              "answers": [
+                "come",
+                "così come"
+              ],
+              "explanation": "'Il film è bello come il libro.' — or with così: 'così bello come il libro'. Both mean as… as.",
+              "dictionaryRefs": [
+                "cosi",
+                "il-film",
+                "bello",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u36l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Today I feel better.) (Unit 24 recycling)",
+              "sentence": "Oggi sto ___.",
+              "answers": [
+                "meglio"
+              ],
+              "explanation": "'Oggi sto meglio.' — meglio is irregular: not 'più bene'. The same jump as good → better.",
+              "dictionaryRefs": [
+                "meglio",
+                "stare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u36l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Giulia is taller than Marco.",
+              "acceptedIt": [
+                "Giulia è più alta di Marco.",
+                "Giulia è più alta di Marco",
+                "Giulia e' piu' alta di Marco"
+              ],
+              "explanation": "'Giulia è più alta di Marco.' — è + più alta (agrees with Giulia) + di Marco.",
+              "dictionaryRefs": [
+                "piu",
+                "alto"
+              ]
+            },
+            {
+              "id": "u36l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 18+20 recycling)",
+              "sourceEn": "The sea is nicer than the city.",
+              "acceptedIt": [
+                "Il mare è più bello della città.",
+                "Il mare è più bello della città",
+                "Il mare e' piu' bello della citta'"
+              ],
+              "explanation": "'Il mare è più bello della città.' — della città (di + la → della). 💛 The eternal Italian debate.",
+              "dictionaryRefs": [
+                "il-mare",
+                "piu",
+                "bello",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u36l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 24 recycling)",
+              "sourceIt": "Oggi sto peggio.",
+              "acceptedEn": [
+                "Today I feel worse.",
+                "Today I'm worse."
+              ],
+              "explanation": "'Oggi sto peggio.' — peggio, the irregular 'worse'. Meglio / peggio: learn them as a pair.",
+              "dictionaryRefs": [
+                "peggio",
+                "stare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u36l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the right word. (I speak Italian better than yesterday.) (Unit 11+16 recycling)",
+              "question": "Parlo italiano ___ di ieri.",
+              "options": [
+                "meglio",
+                "più",
+                "meno",
+                "peggio"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Parlo italiano meglio di ieri.' — how well you do something → meglio (better), not più. Progress! 💛",
+              "dictionaryRefs": [
+                "meglio",
+                "parlare",
+                "italiano",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u36l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Giulia",
+                "è",
+                "più",
+                "alta",
+                "di",
+                "Marco."
+              ],
+              "correctSentence": "Giulia è più alta di Marco.",
+              "explanation": "'Giulia è più alta di Marco.' — subject, è, più + adjective, di + the other.",
+              "dictionaryRefs": [
+                "piu",
+                "alto"
+              ]
+            },
+            {
+              "id": "u36l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5+19 recycling)",
+              "tokens": [
+                "Il",
+                "film",
+                "è",
+                "così",
+                "bello",
+                "come",
+                "il",
+                "libro."
+              ],
+              "correctSentence": "Il film è così bello come il libro.",
+              "explanation": "'Il film è così bello come il libro.' — così + bello + come + il libro. As… as.",
+              "dictionaryRefs": [
+                "cosi",
+                "il-film",
+                "bello",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u36l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 24 recycling)",
+              "tokens": [
+                "Sto",
+                "meglio",
+                "oggi."
+              ],
+              "correctSentence": "Sto meglio oggi.",
+              "explanation": "'Sto meglio oggi.' — sto + meglio + oggi. I feel better today.",
+              "dictionaryRefs": [
+                "meglio",
+                "stare",
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u36l3",
+          "type": "mixed",
+          "title": "Meglio il mare o la città? — ripasso 💛",
+          "dictionaryRefs": [
+            "la-citta",
+            "il-mare",
+            "il-cinema",
+            "il-museo",
+            "il-ristorante",
+            "la-musica",
+            "simpatico",
+            "divertente",
+            "libero",
+            "stare",
+            "oggi",
+            "piu",
+            "meno",
+            "meglio",
+            "peggio",
+            "diverso"
+          ],
+          "exercises": [
+            {
+              "id": "u36l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 18+20 recycling)",
+              "sourceEn": "The sea is nicer than the city.",
+              "acceptedIt": [
+                "Il mare è più bello della città.",
+                "Il mare è più bello della città",
+                "Il mare e' piu' bello della citta'"
+              ],
+              "explanation": "'Il mare è più bello della città.' — più + bello + della città (di + la → della).",
+              "dictionaryRefs": [
+                "il-mare",
+                "piu",
+                "bello",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u36l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 29 recycling)",
+              "question": "Il mare o la città? — Il mare, sempre.",
+              "options": [
+                "The sea or the city? — The sea, always.",
+                "The sea is more than the city, always.",
+                "The sea and the city, always.",
+                "Is the sea better than the city? Always."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il mare o la città? — Il mare, sempre.' — the choice question (o, or) + sempre (Unit 29). No comparison needed when the answer is clear.",
+              "dictionaryRefs": [
+                "il-mare",
+                "la-citta",
+                "sempre"
+              ]
+            },
+            {
+              "id": "u36l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The cinema is more fun than the museum.) (Unit 18+20 recycling)",
+              "sentence": "Il cinema è ___ divertente del museo.",
+              "answers": [
+                "più"
+              ],
+              "explanation": "'Il cinema è più divertente del museo.' — più + divertente (-e adjective, one form) + del museo (di + il → del).",
+              "dictionaryRefs": [
+                "il-cinema",
+                "piu",
+                "divertente",
+                "il-museo"
+              ]
+            },
+            {
+              "id": "u36l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 24 recycling)",
+              "sourceIt": "Ieri stavo male, oggi sto meglio.",
+              "acceptedEn": [
+                "Yesterday I felt bad, today I feel better.",
+                "Yesterday I was unwell, today I'm better."
+              ],
+              "explanation": "'Ieri stavo male, oggi sto meglio.' — stavo (stare imperfect, Unit 29) + male, then sto meglio. Both halves agree with the day.",
+              "dictionaryRefs": [
+                "ieri",
+                "stare",
+                "oggi",
+                "meglio"
+              ]
+            },
+            {
+              "id": "u36l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (Giulia is nicer than me.) (Unit 13 recycling)",
+              "sentence": "Giulia è ___ simpatica di me.",
+              "answers": [
+                "più"
+              ],
+              "explanation": "'Giulia è più simpatica di me.' — più simpatica + di me (than me). 💛 Say it; it's probably true.",
+              "dictionaryRefs": [
+                "piu",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u36l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 18+20 recycling)",
+              "question": "È meglio il mare o la città?",
+              "options": [
+                "Is the sea or the city better?",
+                "Is the sea the best or the city?",
+                "The sea is better than the city?",
+                "Is the best the sea or the city?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'È meglio il mare o la città?' — è meglio + the two options with o. The opinion question.",
+              "dictionaryRefs": [
+                "meglio",
+                "il-mare",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u36l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 6+18 recycling)",
+              "tokens": [
+                "La",
+                "città",
+                "è",
+                "così",
+                "bella",
+                "come",
+                "il",
+                "mare."
+              ],
+              "correctSentence": "La città è così bella come il mare.",
+              "explanation": "'La città è così bella come il mare.' — così bella come il mare: as beautiful as the sea. A tie.",
+              "dictionaryRefs": [
+                "la-citta",
+                "cosi",
+                "bello",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u36l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "You're different from Marco.",
+              "acceptedIt": [
+                "Sei diversa da Marco.",
+                "Sei diverso da Marco.",
+                "Sei diversa da Marco",
+                "Sei diverso da Marco",
+                "Tu sei diversa da Marco"
+              ],
+              "explanation": "'Sei diversa da Marco.' (to a woman) / 'Sei diverso da Marco.' (to a man) — different FROM takes da, not di. 💛 A compliment in disguise.",
+              "dictionaryRefs": [
+                "diverso"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u36l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "piu",
+            "meglio",
+            "peggio",
+            "alto",
+            "simpatico",
+            "bello",
+            "il-mare",
+            "la-citta",
+            "il-film",
+            "il-libro",
+            "stare",
+            "oggi"
+          ],
+          "exercises": [
+            {
+              "id": "u36l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Giulia è più alta di Marco.",
+              "options": [
+                "Giulia is taller than Marco.",
+                "Giulia is taller than me.",
+                "Giulia is the tallest.",
+                "Marco is taller than Giulia."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Giulia è più alta di Marco.' — più alta + di Marco.",
+              "dictionaryRefs": [
+                "piu",
+                "alto"
+              ]
+            },
+            {
+              "id": "u36l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 24 recycling)",
+              "mode": "type",
+              "speakIt": "Sto meglio oggi.",
+              "acceptedIt": [
+                "Sto meglio oggi.",
+                "Sto meglio oggi",
+                "Io sto meglio oggi"
+              ],
+              "explanation": "You heard: 'Sto meglio oggi.' — I feel better today.",
+              "dictionaryRefs": [
+                "meglio",
+                "stare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u36l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 18+20 recycling)",
+              "mode": "choice",
+              "speakIt": "Il mare è più bello della città.",
+              "options": [
+                "The sea is nicer than the city.",
+                "The sea is less nice than the city.",
+                "The city is nicer than the sea.",
+                "The sea is the nicest city."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Il mare è più bello della città.' — più bello della città.",
+              "dictionaryRefs": [
+                "il-mare",
+                "piu",
+                "bello",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u36l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: today I feel worse. (Unit 24 recycling)",
+              "targetIt": "Oggi sto peggio.",
+              "minAccuracy": 0.7,
+              "explanation": "'Oggi sto peggio.' — OJ-ji sto PEJ-jo. The gg is hard.",
+              "dictionaryRefs": [
+                "peggio",
+                "stare",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u36l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: you're nicer. 💛 (Unit 13 recycling)",
+              "targetIt": "Sei più simpatica.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sei più simpatica.' — SEI pyu sim-PA-ti-ka. 💛 To a man: sei più simpatico.",
+              "dictionaryRefs": [
+                "piu",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u36l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 5+19 recycling)",
+              "mode": "type",
+              "speakIt": "Il film è meno bello del libro.",
+              "acceptedIt": [
+                "Il film è meno bello del libro.",
+                "Il film è meno bello del libro",
+                "Il film e' meno bello del libro"
+              ],
+              "explanation": "You heard: 'Il film è meno bello del libro.' — meno bello + del libro (di + il → del).",
+              "dictionaryRefs": [
+                "meno",
+                "il-film",
+                "bello",
+                "il-libro"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u36c",
+        "exercises": [
+          {
+            "id": "u36ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "peggio",
+            "options": [
+              "worse",
+              "worst",
+              "better",
+              "less"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Peggio' = worse. The pair: meglio (better) / peggio (worse).",
+            "dictionaryRefs": [
+              "peggio"
+            ]
+          },
+          {
+            "id": "u36ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Marco is taller than me.)",
+            "sentence": "Marco è ___ alto di me.",
+            "answers": [
+              "più"
+            ],
+            "explanation": "'Marco è più alto di me.' — più + alto + di me (than me).",
+            "dictionaryRefs": [
+              "piu",
+              "alto"
+            ]
+          },
+          {
+            "id": "u36ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 24 recycling)",
+            "sourceEn": "Today I feel better.",
+            "acceptedIt": [
+              "Oggi sto meglio.",
+              "Oggi sto meglio",
+              "Oggi io sto meglio"
+            ],
+            "explanation": "'Oggi sto meglio.' — oggi + sto meglio. Not 'più bene' — the irregular meglio.",
+            "dictionaryRefs": [
+              "meglio",
+              "stare",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u36ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 18+20 recycling)",
+            "sourceIt": "Il cinema è meno divertente del mare.",
+            "acceptedEn": [
+              "The movies are less fun than the sea.",
+              "The cinema is less fun than the sea."
+            ],
+            "explanation": "'Il cinema è meno divertente del mare.' — meno + divertente + del mare (di + il → del).",
+            "dictionaryRefs": [
+              "il-cinema",
+              "meno",
+              "divertente",
+              "il-mare"
+            ]
+          },
+          {
+            "id": "u36ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the right word. (The film is as beautiful as the book.)",
+            "question": "Il film è ___ bello come il libro.",
+            "options": [
+              "così",
+              "più",
+              "meno",
+              "meglio"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Così bello come il libro.' — così… come = as… as. (Or drop così: 'bello come il libro'.)",
+            "dictionaryRefs": [
+              "cosi",
+              "il-film",
+              "bello",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u36ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I am less free on Monday.) (Unit 16 recycling)",
+            "sentence": "Il lunedì sono ___ libero.",
+            "answers": [
+              "meno"
+            ],
+            "explanation": "'Il lunedì sono meno libero.' — meno + libero (Unit 16). Less free.",
+            "dictionaryRefs": [
+              "meno",
+              "libero",
+              "lunedi"
+            ]
+          },
+          {
+            "id": "u36ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 24 recycling)",
+            "tokens": [
+              "Sto",
+              "peggio",
+              "oggi."
+            ],
+            "correctSentence": "Sto peggio oggi.",
+            "explanation": "'Sto peggio oggi.' — sto + peggio + oggi. I feel worse today.",
+            "dictionaryRefs": [
+              "peggio",
+              "stare",
+              "oggi"
+            ]
+          },
+          {
+            "id": "u36ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛 (Unit 13 recycling)",
+            "mode": "choice",
+            "speakIt": "Sei più simpatica di Marco.",
+            "options": [
+              "You're nicer than Marco.",
+              "You're nicer than me.",
+              "You're as nice as Marco.",
+              "Marco is nicer than you."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Sei più simpatica di Marco.' — 💛 più simpatica + di Marco.",
+            "dictionaryRefs": [
+              "piu",
+              "simpatico"
+            ]
+          },
+          {
+            "id": "u36ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Giulia è più simpatica.",
+            "acceptedIt": [
+              "Giulia è più simpatica.",
+              "Giulia è più simpatica",
+              "Giulia e' piu' simpatica"
+            ],
+            "explanation": "You heard: 'Giulia è più simpatica.' — Giulia is nicer. Più + simpatica (f sing).",
+            "dictionaryRefs": [
+              "piu",
+              "simpatico"
+            ]
+          },
+          {
+            "id": "u36ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: the sea is nicer. (Unit 20 recycling)",
+            "targetIt": "Il mare è più bello.",
+            "minAccuracy": 0.7,
+            "explanation": "'Il mare è più bello.' — il MA-re e pyu BEL-lo.",
+            "dictionaryRefs": [
+              "il-mare",
+              "piu",
+              "bello"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -30087,6 +30916,100 @@
         }
       ],
       "introducedInUnit": 35
+    },
+    {
+      "id": "piu",
+      "word": "più",
+      "translation": "more; plus",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Giulia è più alta di Marco.",
+          "en": "Giulia is taller than Marco."
+        },
+        {
+          "it": "Il mare è più bello della città.",
+          "en": "The sea is nicer than the city."
+        }
+      ],
+      "introducedInUnit": 36
+    },
+    {
+      "id": "meno",
+      "word": "meno",
+      "translation": "less; minus",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Il lunedì è meno bello del sabato.",
+          "en": "Monday is less nice than Saturday."
+        },
+        {
+          "it": "Il lunedì sono meno libero.",
+          "en": "I am less free on Monday."
+        }
+      ],
+      "introducedInUnit": 36
+    },
+    {
+      "id": "meglio",
+      "word": "meglio",
+      "translation": "better",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Oggi sto meglio.",
+          "en": "Today I feel better."
+        },
+        {
+          "it": "Parlo italiano meglio di ieri.",
+          "en": "I speak Italian better than yesterday."
+        }
+      ],
+      "introducedInUnit": 36
+    },
+    {
+      "id": "peggio",
+      "word": "peggio",
+      "translation": "worse",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Oggi sto peggio.",
+          "en": "Today I feel worse."
+        }
+      ],
+      "introducedInUnit": 36
+    },
+    {
+      "id": "cosi",
+      "word": "così",
+      "translation": "so; così… come = as… as",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Il film è così bello come il libro.",
+          "en": "The film is as beautiful as the book."
+        }
+      ],
+      "introducedInUnit": 36
+    },
+    {
+      "id": "diverso",
+      "word": "diverso",
+      "translation": "different",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Sei diversa da Marco.",
+          "en": "You're different from Marco. (to a woman)"
+        },
+        {
+          "it": "Sei diverso da Marco.",
+          "en": "You're different from Marco. (to a man)"
+        }
+      ],
+      "introducedInUnit": 36
     }
   ],
   "stories": [
