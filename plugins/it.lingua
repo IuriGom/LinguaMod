@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 21,
+    "version": 22,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -20982,6 +20982,781 @@
           }
         ]
       }
+    },
+    {
+      "id": "u29",
+      "number": 29,
+      "title": "Quando ero piccolo",
+      "lessons": [
+        {
+          "id": "u29l1",
+          "type": "vocabulary",
+          "title": "Giocare, i nonni, i ricordi",
+          "dictionaryRefs": [
+            "giocare",
+            "piccolo",
+            "il-nonno",
+            "il-ricordo",
+            "sempre"
+          ],
+          "exercises": [
+            {
+              "id": "u29l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "giocare",
+              "options": [
+                "to play",
+                "to play an instrument",
+                "to joke",
+                "to win"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Giocare' = to play: 'Gioco con Marco.' — I play with Marco. Present keeps the c hard with -i: tu giochi.",
+              "dictionaryRefs": [
+                "giocare"
+              ]
+            },
+            {
+              "id": "u29l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "piccolo",
+              "options": [
+                "small; little",
+                "short",
+                "young",
+                "tiny"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Piccolo' = small, little. An -o adjective: piccolo, piccola, piccoli, piccole. 'Quando ero piccolo…' — When I was little…",
+              "dictionaryRefs": [
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u29l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 14 family)",
+              "question": "il nonno",
+              "options": [
+                "the grandfather",
+                "the uncle",
+                "the cousin",
+                "the grandson"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il nonno' (m) = the grandfather; la nonna = the grandmother; i nonni = the grandparents. Family: 'mio nonno', no article (Unit 14).",
+              "dictionaryRefs": [
+                "il-nonno"
+              ]
+            },
+            {
+              "id": "u29l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il ricordo",
+              "options": [
+                "the memory",
+                "the souvenir",
+                "the thought",
+                "the dream"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il ricordo' (m) = the memory. 'Ho un ricordo di mio nonno.' — I have a memory of my grandfather.",
+              "dictionaryRefs": [
+                "il-ricordo"
+              ]
+            },
+            {
+              "id": "u29l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sempre",
+              "options": [
+                "always",
+                "sometimes",
+                "never",
+                "still"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sempre' = always. You know it from 'Vai sempre dritto' (Unit 18). With the imperfect it marks a habit: 'Giocavo sempre al parco.'",
+              "dictionaryRefs": [
+                "sempre",
+                "sempre-dritto"
+              ]
+            },
+            {
+              "id": "u29l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (When I was little, I played in the park.)",
+              "sentence": "Quando ero ___, giocavo al parco.",
+              "answers": [
+                "piccolo"
+              ],
+              "explanation": "'Quando ero piccolo, giocavo al parco.' — ero (I was, essere imperfect) + giocavo (I played / used to play). A woman: ero piccola.",
+              "dictionaryRefs": [
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u29l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I play with Marco.",
+              "acceptedIt": [
+                "Gioco con Marco.",
+                "Gioco con Marco",
+                "Io gioco con Marco"
+              ],
+              "explanation": "'Gioco con Marco.' — giocare, io-form: gioco. (Careful with tu: giochi — the h keeps the c hard.)",
+              "dictionaryRefs": [
+                "giocare"
+              ]
+            },
+            {
+              "id": "u29l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 14+17 recycling)",
+              "sourceIt": "Il nonno di Giulia si chiama Marco.",
+              "acceptedEn": [
+                "Giulia's grandfather is called Marco.",
+                "Giulia's grandfather's name is Marco."
+              ],
+              "explanation": "'Il nonno di Giulia' — di + name for possession (Unit 17); si chiama (Unit 1 pattern, third person).",
+              "dictionaryRefs": [
+                "il-nonno",
+                "mi-chiamo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u29l2",
+          "type": "grammar",
+          "title": "L'imperfetto: com'era",
+          "dictionaryRefs": [
+            "giocare",
+            "piccolo",
+            "il-nonno",
+            "sempre",
+            "la-casa",
+            "ascoltare",
+            "la-musica",
+            "abitare",
+            "contento",
+            "la-scuola"
+          ],
+          "grammarNotes": "L'IMPERFETTO — the past of descriptions, habits, and background. Not a finished event (that's the passato prossimo, Units 26–27) — the world AROUND the event.\n\nTHE ENDINGS — regular for every family:\n-are: -avo, -avi, -ava, -avamo, -avate, -avano\n-ere: -evo, -evi, -eva, -evamo, -evate, -evano\n-ire: -ivo, -ivi, -iva, -ivamo, -ivate, -ivano\n\nparlare → parlavo, parlavi, parlava, parlavamo, parlavate, parlavano\ndormire → dormivo, dormivi, dormiva, dormivamo, dormivate, dormivano\ngiocare → giocavo, giocavi, giocava, giocavamo, giocavate, giocavano\n\nIRREGULARS — the two you need most:\n• essere: ero, eri, era, eravamo, eravate, erano — 'Quando ero piccolo…' — When I was little…\n• avere: avevo, avevi, aveva, avevamo, avevate, avevano — 'Avevo dieci anni.' — I was ten.\n\nWHEN — three uses:\n• HABITS: 'Giocavo sempre al parco.' — I always played in the park. (sempre marks the habit)\n• DESCRIPTIONS: 'La casa era piccola ma bella.' — The house was small but nice.\n• AGE, FEELINGS: 'Avevo dieci anni. Ero contento.'\n\nTHE CONTRAST, in one line (Unit 30 drills it): imperfetto = the background film; passato prossimo = the snapshot. 'Guardavo il film.' (was watching) vs 'Ho guardato il film.' (watched it, done).",
+          "exercises": [
+            {
+              "id": "u29l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (When I was little, I played in the park.)",
+              "sentence": "Quando ___ piccolo, giocavo al parco.",
+              "answers": [
+                "ero"
+              ],
+              "explanation": "'Quando ero piccolo…' — essere imperfect, io: ero. A description of your past self = imperfetto.",
+              "dictionaryRefs": [
+                "piccolo",
+                "giocare"
+              ]
+            },
+            {
+              "id": "u29l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I was ten years old.) (Unit 4 recycling)",
+              "sentence": "Avevo dieci ___.",
+              "answers": [
+                "anni"
+              ],
+              "explanation": "'Avevo dieci anni.' — age in the past: avere imperfect (avevo) + anni, just like 'Ho dieci anni' in the present.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u29l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia always listened to music.) (Unit 11 recycling)",
+              "sentence": "Giulia ___ sempre la musica.",
+              "answers": [
+                "ascoltava"
+              ],
+              "explanation": "'Giulia ascoltava sempre la musica.' — ascoltare imperfect, lui/lei: -ava. Sempre marks the habit.",
+              "dictionaryRefs": [
+                "ascoltare",
+                "la-musica",
+                "sempre"
+              ]
+            },
+            {
+              "id": "u29l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (We lived in a small house.) (Unit 11+5 recycling)",
+              "sentence": "Noi ___ in una casa piccola.",
+              "answers": [
+                "abitavamo"
+              ],
+              "explanation": "'Noi abitavamo in una casa piccola.' — abitare imperfect, noi: -avamo. Where you lived = background → imperfetto.",
+              "dictionaryRefs": [
+                "abitare",
+                "la-casa",
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u29l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (As children, the boys played in the park.)",
+              "question": "Da piccoli, i ragazzi ___ al parco.",
+              "options": [
+                "giocavano",
+                "giocano",
+                "hanno giocato",
+                "giocare"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Da piccoli, i ragazzi giocavano al parco.' — a childhood habit → imperfetto (giocavano), not the passato prossimo.",
+              "dictionaryRefs": [
+                "giocare",
+                "il-parco",
+                "il-ragazzo",
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u29l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "When I was little, I played in the park.",
+              "acceptedIt": [
+                "Quando ero piccolo, giocavo al parco.",
+                "Quando ero piccolo, giocavo al parco",
+                "Quando ero piccola, giocavo al parco",
+                "Quando ero piccolo giocavo al parco"
+              ],
+              "explanation": "'Quando ero piccolo, giocavo al parco.' — ero (description) + giocavo (habit). Two imperfects, one childhood.",
+              "dictionaryRefs": [
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u29l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 5+6+22 recycling)",
+              "sourceEn": "The house was small but nice.",
+              "acceptedIt": [
+                "La casa era piccola ma bella.",
+                "La casa era piccola ma bella"
+              ],
+              "explanation": "'La casa era piccola ma bella.' — era (description) + piccola ma bella (Unit 13 agreement, ma from Unit 22).",
+              "dictionaryRefs": [
+                "la-casa",
+                "piccolo",
+                "ma",
+                "bello"
+              ]
+            },
+            {
+              "id": "u29l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 4 recycling)",
+              "sourceIt": "Avevo dieci anni.",
+              "acceptedEn": [
+                "I was ten years old.",
+                "I was ten."
+              ],
+              "explanation": "'Avevo dieci anni.' — avere imperfect for age in the past: I 'had ten years'.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u29l2e9",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (When Giulia was little, she read a lot.)",
+              "question": "Quando ___ piccola, Giulia leggeva molto.",
+              "options": [
+                "era",
+                "è",
+                "ha",
+                "sono"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quando era piccola, Giulia leggeva molto.' — era (description of the past) + leggeva (habit, -eva for -ere).",
+              "dictionaryRefs": [
+                "piccolo",
+                "leggere",
+                "molto"
+              ]
+            },
+            {
+              "id": "u29l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Giocavo",
+                "sempre",
+                "al",
+                "parco."
+              ],
+              "correctSentence": "Giocavo sempre al parco.",
+              "explanation": "'Giocavo sempre al parco.' — giocavo + sempre + al parco. Sempre marks the habit.",
+              "dictionaryRefs": [
+                "giocare",
+                "sempre",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u29l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5+6+22 recycling)",
+              "tokens": [
+                "La",
+                "casa",
+                "era",
+                "piccola",
+                "ma",
+                "bella."
+              ],
+              "correctSentence": "La casa era piccola ma bella.",
+              "explanation": "'La casa era piccola ma bella.' — era + piccola + ma + bella. Both adjectives agree with casa (f).",
+              "dictionaryRefs": [
+                "la-casa",
+                "piccolo",
+                "ma",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u29l3",
+          "type": "mixed",
+          "title": "I ricordi — ripasso",
+          "dictionaryRefs": [
+            "la-scuola",
+            "andare",
+            "il-bar",
+            "la-pizza",
+            "la-famiglia",
+            "guardare",
+            "il-film",
+            "giocare",
+            "piccolo",
+            "il-nonno",
+            "il-ricordo",
+            "sempre",
+            "abitare"
+          ],
+          "exercises": [
+            {
+              "id": "u29l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 5+7 recycling)",
+              "sourceEn": "I always went to school.",
+              "acceptedIt": [
+                "Andavo sempre a scuola.",
+                "Andavo sempre a scuola",
+                "Io andavo sempre a scuola"
+              ],
+              "explanation": "'Andavo sempre a scuola.' — andare imperfect (andavo) + sempre + a scuola. A habit, not an event.",
+              "dictionaryRefs": [
+                "andare",
+                "sempre",
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u29l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 4 recycling)",
+              "question": "Avevo cinque anni.",
+              "options": [
+                "I was five years old.",
+                "I have five years.",
+                "I was fifteen years old.",
+                "I turned five today."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Avevo cinque anni.' — avere imperfect: avevo. The past of 'Ho cinque anni.'",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u29l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I always watched films.) (Unit 19+26 recycling)",
+              "sentence": "Guardavo sempre i ___.",
+              "answers": [
+                "film"
+              ],
+              "explanation": "'Guardavo sempre i film.' — guardavo (habit) + i film (invariable plural, Unit 19).",
+              "dictionaryRefs": [
+                "guardare",
+                "il-film",
+                "sempre"
+              ]
+            },
+            {
+              "id": "u29l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 13+14 recycling)",
+              "sourceIt": "Mio nonno era alto e simpatico.",
+              "acceptedEn": [
+                "My grandfather was tall and nice.",
+                "My grandfather was tall and friendly."
+              ],
+              "explanation": "'Mio nonno era alto e simpatico.' — era (description) + two adjectives agreeing with nonno. Mio nonno: family, no article (Unit 14).",
+              "dictionaryRefs": [
+                "il-nonno",
+                "alto",
+                "simpatico",
+                "mio"
+              ]
+            },
+            {
+              "id": "u29l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My grandparents lived in Rome.) (Unit 11+14 recycling)",
+              "sentence": "I miei nonni ___ a Roma.",
+              "answers": [
+                "abitavano"
+              ],
+              "explanation": "'I miei nonni abitavano a Roma.' — i miei nonni (plural keeps the article, Unit 14) + abitavano (loro, -avano).",
+              "dictionaryRefs": [
+                "il-nonno",
+                "abitare",
+                "mio"
+              ]
+            },
+            {
+              "id": "u29l3e6",
+              "type": "multiple_choice",
+              "prompt": "Habit or event? Choose the meaning. (Unit 26 recycling)",
+              "question": "Ieri ho guardato un film.",
+              "options": [
+                "Yesterday I watched a film. (one event, done)",
+                "Yesterday I was watching a film. (background)",
+                "I used to watch films yesterday.",
+                "Yesterday I watch a film."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ieri ho guardato un film.' — ieri + a finished event → passato prossimo. 'Guardavo' would be the background: I was watching.",
+              "dictionaryRefs": [
+                "ieri",
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u29l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 5+6 recycling)",
+              "tokens": [
+                "Ero",
+                "contento",
+                "a",
+                "scuola."
+              ],
+              "correctSentence": "Ero contento a scuola.",
+              "explanation": "'Ero contento a scuola.' — ero (I was) + contento (Unit 6) + a scuola (Unit 5). A past feeling = imperfetto.",
+              "dictionaryRefs": [
+                "contento",
+                "la-scuola"
+              ]
+            },
+            {
+              "id": "u29l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 7 recycling)",
+              "sourceEn": "On Saturdays we always ate pizza.",
+              "acceptedIt": [
+                "Il sabato mangiavamo sempre la pizza.",
+                "Il sabato mangiavamo sempre la pizza",
+                "Mangiavamo sempre la pizza il sabato",
+                "Noi mangiavamo sempre la pizza il sabato"
+              ],
+              "explanation": "'Il sabato mangiavamo sempre la pizza.' — il sabato (habit, Unit 16) + mangiavamo (noi, -avamo) + sempre.",
+              "dictionaryRefs": [
+                "mangiare",
+                "sempre",
+                "la-pizza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u29l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "giocare",
+            "piccolo",
+            "il-parco",
+            "contento",
+            "la-casa",
+            "sempre"
+          ],
+          "exercises": [
+            {
+              "id": "u29l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Quando ero piccolo, giocavo al parco.",
+              "options": [
+                "When I was little, I played in the park.",
+                "When I was little, I lived in the park.",
+                "When I was a boy, I went to the park once.",
+                "When I was little, I play in the park."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Quando ero piccolo, giocavo al parco.' — ero + giocavo: the childhood sentence.",
+              "dictionaryRefs": [
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u29l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 6 recycling)",
+              "mode": "type",
+              "speakIt": "Ero contento.",
+              "acceptedIt": [
+                "Ero contento.",
+                "Ero contento",
+                "Io ero contento"
+              ],
+              "explanation": "You heard: 'Ero contento.' — I was happy. Ero = essere imperfect, io.",
+              "dictionaryRefs": [
+                "contento"
+              ]
+            },
+            {
+              "id": "u29l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 4 recycling)",
+              "mode": "choice",
+              "speakIt": "Avevo dieci anni.",
+              "options": [
+                "I was ten years old.",
+                "I am ten years old.",
+                "I was twenty years old.",
+                "I had ten years ago."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Avevo dieci anni.' — I was ten. Avevo, not ho: a past age.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u29l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: When I was little…",
+              "targetIt": "Quando ero piccolo.",
+              "minAccuracy": 0.7,
+              "explanation": "'Quando ero piccolo…' — KWAN-do E-ro PIK-ko-lo. The opening of every childhood story.",
+              "dictionaryRefs": [
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u29l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I always played in the park.",
+              "targetIt": "Giocavo sempre al parco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Giocavo sempre al parco.' — jo-KA-vo SEM-pre al PAR-ko.",
+              "dictionaryRefs": [
+                "giocare",
+                "sempre",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u29l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 5 recycling)",
+              "mode": "type",
+              "speakIt": "La casa era piccola.",
+              "acceptedIt": [
+                "La casa era piccola.",
+                "La casa era piccola"
+              ],
+              "explanation": "You heard: 'La casa era piccola.' — The house was small. Era for the description.",
+              "dictionaryRefs": [
+                "la-casa",
+                "piccolo"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u29c",
+        "exercises": [
+          {
+            "id": "u29ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il ricordo",
+            "options": [
+              "the memory",
+              "the dream",
+              "the thought",
+              "the souvenir"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il ricordo' (m) = the memory. Childhood memories: i ricordi.",
+            "dictionaryRefs": [
+              "il-ricordo"
+            ]
+          },
+          {
+            "id": "u29ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (When Giulia was little, she played with me.)",
+            "sentence": "Quando ___ piccola, Giulia giocava con me.",
+            "answers": [
+              "era"
+            ],
+            "explanation": "'Quando era piccola…' — era (description) + piccola (f, agreeing with Giulia).",
+            "dictionaryRefs": [
+              "piccolo",
+              "giocare"
+            ]
+          },
+          {
+            "id": "u29ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (We always ate pasta.) (Unit 15 recycling)",
+            "sentence": "Noi ___ sempre la pasta.",
+            "answers": [
+              "mangiavamo"
+            ],
+            "explanation": "'Noi mangiavamo sempre la pasta.' — mangiare imperfect, noi: -avamo. A habit.",
+            "dictionaryRefs": [
+              "mangiare",
+              "sempre",
+              "la-pasta"
+            ]
+          },
+          {
+            "id": "u29ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 4 recycling)",
+            "sourceEn": "I was ten years old.",
+            "acceptedIt": [
+              "Avevo dieci anni.",
+              "Avevo dieci anni",
+              "Io avevo dieci anni"
+            ],
+            "explanation": "'Avevo dieci anni.' — avere imperfect: avevo. The past of 'Ho dieci anni.'",
+            "dictionaryRefs": []
+          },
+          {
+            "id": "u29ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 11+14 recycling)",
+            "sourceIt": "I miei nonni abitavano a Roma.",
+            "acceptedEn": [
+              "My grandparents lived in Rome."
+            ],
+            "explanation": "'I miei nonni abitavano a Roma.' — i miei nonni (article stays, Unit 14) + abitavano (imperfect, -avano).",
+            "dictionaryRefs": [
+              "il-nonno",
+              "abitare",
+              "mio"
+            ]
+          },
+          {
+            "id": "u29ce6",
+            "type": "multiple_choice",
+            "prompt": "Event or description? Choose the correct form. (The house was small.)",
+            "question": "La casa ___ piccola.",
+            "options": [
+              "era",
+              "è stata",
+              "ha",
+              "è"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La casa era piccola.' — a background description → imperfetto (era), not the passato prossimo.",
+            "dictionaryRefs": [
+              "la-casa",
+              "piccolo"
+            ]
+          },
+          {
+            "id": "u29ce7",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (You always went to the bar.) (Unit 5+7 recycling)",
+            "sentence": "Tu ___ sempre al bar.",
+            "answers": [
+              "andavi"
+            ],
+            "explanation": "'Tu andavi sempre al bar.' — andare imperfect, tu: -avi. A past habit.",
+            "dictionaryRefs": [
+              "andare",
+              "sempre",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u29ce8",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Giocavamo",
+              "sempre",
+              "al",
+              "parco."
+            ],
+            "correctSentence": "Giocavamo sempre al parco.",
+            "explanation": "'Giocavamo sempre al parco.' — giocavamo (noi) + sempre + al parco. We always played in the park.",
+            "dictionaryRefs": [
+              "giocare",
+              "sempre",
+              "il-parco"
+            ]
+          },
+          {
+            "id": "u29ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Da piccolo giocavo al parco.",
+            "options": [
+              "As a child I played in the park.",
+              "As a child I lived in the park.",
+              "When I was little I went to the park once.",
+              "As a child I play in the park."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Da piccolo giocavo al parco.' — da piccolo = as a child; giocavo = the habit.",
+            "dictionaryRefs": [
+              "piccolo",
+              "giocare",
+              "il-parco"
+            ]
+          },
+          {
+            "id": "u29ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: When I was little…",
+            "targetIt": "Quando ero piccolo.",
+            "minAccuracy": 0.7,
+            "explanation": "'Quando ero piccolo…' — KWAN-do E-ro PIK-ko-lo. The story opener.",
+            "dictionaryRefs": [
+              "piccolo"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -24000,6 +24775,95 @@
         }
       ],
       "introducedInUnit": 28
+    },
+    {
+      "id": "giocare",
+      "word": "giocare",
+      "translation": "to play",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Giocavo al parco.",
+          "en": "I played in the park."
+        },
+        {
+          "it": "Gioco con Marco.",
+          "en": "I play with Marco."
+        }
+      ],
+      "introducedInUnit": 29
+    },
+    {
+      "id": "piccolo",
+      "word": "piccolo",
+      "translation": "small; little",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Quando ero piccolo, giocavo al parco.",
+          "en": "When I was little, I played in the park."
+        },
+        {
+          "it": "La casa era piccola.",
+          "en": "The house was small."
+        }
+      ],
+      "introducedInUnit": 29
+    },
+    {
+      "id": "il-nonno",
+      "word": "nonno",
+      "article": "il",
+      "translation": "grandfather (la nonna = grandmother; i nonni = grandparents)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Mio nonno era alto.",
+          "en": "My grandfather was tall."
+        },
+        {
+          "it": "I miei nonni abitavano a Roma.",
+          "en": "My grandparents lived in Rome."
+        }
+      ],
+      "introducedInUnit": 29
+    },
+    {
+      "id": "il-ricordo",
+      "word": "ricordo",
+      "article": "il",
+      "translation": "memory",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il ricordo è bello.",
+          "en": "The memory is beautiful."
+        },
+        {
+          "it": "Ho un ricordo di mio nonno.",
+          "en": "I have a memory of my grandfather."
+        }
+      ],
+      "introducedInUnit": 29
+    },
+    {
+      "id": "sempre",
+      "word": "sempre",
+      "translation": "always",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Giocavo sempre al parco.",
+          "en": "I always played in the park."
+        },
+        {
+          "it": "Vai sempre dritto.",
+          "en": "Go straight ahead."
+        }
+      ],
+      "introducedInUnit": 29
     }
   ],
   "stories": [
