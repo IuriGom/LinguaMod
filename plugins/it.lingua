@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 19,
+    "version": 20,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -19442,6 +19442,778 @@
           }
         ]
       }
+    },
+    {
+      "id": "u27",
+      "number": 27,
+      "title": "Il passato prossimo II",
+      "lessons": [
+        {
+          "id": "u27l1",
+          "type": "vocabulary",
+          "title": "Partire, arrivare, nascere, restare",
+          "dictionaryRefs": [
+            "partire",
+            "arrivare",
+            "nascere",
+            "restare",
+            "il-viaggio"
+          ],
+          "exercises": [
+            {
+              "id": "u27l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "partire",
+              "options": [
+                "to leave; to depart",
+                "to arrive",
+                "to start a job",
+                "to divide"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Partire' = to leave, to depart: 'Parto per Roma domani.' — I leave for Rome tomorrow. Regular -ire: parto, parti, parte…",
+              "dictionaryRefs": [
+                "partire"
+              ]
+            },
+            {
+              "id": "u27l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "arrivare",
+              "options": [
+                "to arrive",
+                "to leave",
+                "to return",
+                "to come in"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Arrivare' = to arrive: 'Quando arriva Giulia?' — When does Giulia arrive? The pair: partire (leave) / arrivare (arrive).",
+              "dictionaryRefs": [
+                "arrivare"
+              ]
+            },
+            {
+              "id": "u27l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "nascere",
+              "options": [
+                "to be born",
+                "to grow",
+                "to be born again",
+                "to rise"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Nascere' = to be born: 'Sono nato a Roma.' — I was born in Rome. You mostly meet it in the past — nobody says 'I am born' in the present.",
+              "dictionaryRefs": [
+                "nascere"
+              ]
+            },
+            {
+              "id": "u27l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "restare",
+              "options": [
+                "to stay; to remain",
+                "to rest",
+                "to return",
+                "to stop working"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Restare' = to stay, to remain: 'Resto a casa oggi.' — I'm staying home today. A FALSE FRIEND: resting is 'riposare'.",
+              "dictionaryRefs": [
+                "restare",
+                "la-casa",
+                "oggi"
+              ]
+            },
+            {
+              "id": "u27l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il viaggio",
+              "options": [
+                "the trip; the journey",
+                "the flight",
+                "the holiday",
+                "the road"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il viaggio' (m) = the trip. 'Ho fatto un viaggio.' — I took a trip (fare + noun, Unit 21's pattern).",
+              "dictionaryRefs": [
+                "il-viaggio",
+                "fare"
+              ]
+            },
+            {
+              "id": "u27l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I leave for Rome tomorrow.)",
+              "sentence": "___ per Roma domani.",
+              "answers": [
+                "Parto",
+                "Io parto"
+              ],
+              "explanation": "'Parto per Roma domani.' — partire, io-form: parto. Per + city for the destination of a departure.",
+              "dictionaryRefs": [
+                "partire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u27l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (When does Giulia arrive?)",
+              "sentence": "Quando ___ Giulia?",
+              "answers": [
+                "arriva"
+              ],
+              "explanation": "'Quando arriva Giulia?' — arrivare, lui/lei-form: arriva (regular -are: -a).",
+              "dictionaryRefs": [
+                "arrivare",
+                "quando"
+              ]
+            },
+            {
+              "id": "u27l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 6 recycling)",
+              "sourceIt": "Il viaggio è bello.",
+              "acceptedEn": [
+                "The trip is nice.",
+                "The journey is beautiful."
+              ],
+              "explanation": "'Il viaggio è bello.' — bello agrees with viaggio (m sing, Unit 13).",
+              "dictionaryRefs": [
+                "il-viaggio",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u27l2",
+          "type": "grammar",
+          "title": "Essere + il participio che si accorda",
+          "dictionaryRefs": [
+            "partire",
+            "arrivare",
+            "nascere",
+            "restare",
+            "il-viaggio",
+            "uscire",
+            "andare",
+            "ieri",
+            "la-cena",
+            "mangiare"
+          ],
+          "grammarNotes": "IL PASSATO PROSSIMO CON ESSERE — the second past. Two changes from Unit 26: the auxiliary is essere, AND the participle AGREES with the subject.\n\nWHICH VERBS TAKE ESSERE — movement and change of state:\n• movement: andare → andato, venire → venuto, partire → partito, arrivare → arrivato, uscire → uscito, entrare → entrato, tornare → tornato\n• state/change: essere → stato, stare → stato, nascere → nato, restare → restato, diventare → diventato\n• plus piacere (Unit 26 preview) and every reflexive (Unit 28).\nEverything else takes avere.\n\nRecap of essere: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono.\n\nTHE AGREEMENT RULE: with essere the participle works like an adjective (Unit 13) — it copies the subject:\n• Marco è andato. / Giulia è andata.\n• I ragazzi sono andati. / Le ragazze sono andate.\n💛 'Sono uscito ieri.' (a man) / 'Sono uscita ieri.' (a woman)\n\nCOMPARE — the two cliffs side by side:\n• 'Ho mangiato la pizza.' — avere: mangiato never changes.\n• 'Sono andato al ristorante.' — essere: andato → andata/andati/andate follows the subject.\n\nTHE TEST: movement or change of state → essere. An action you DO (eat, read, buy, watch, sleep) → avere. When in doubt: avere is the default; essere is the exception list above.",
+          "exercises": [
+            {
+              "id": "u27l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Yesterday I went out with Giulia. — man speaking) 💛",
+              "sentence": "Ieri ___ uscito con Giulia.",
+              "answers": [
+                "sono",
+                "io sono"
+              ],
+              "explanation": "'Ieri sono uscito con Giulia.' — uscire is movement → essere: sono. And uscitO — the participle agrees with Alex (m). 💛",
+              "dictionaryRefs": [
+                "ieri",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u27l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia went out yesterday.)",
+              "sentence": "Giulia è ___ ieri.",
+              "answers": [
+                "uscita"
+              ],
+              "explanation": "'Giulia è uscita ieri.' — essere for uscire, and uscitA because Giulia is a woman. Both cliffs in one word.",
+              "dictionaryRefs": [
+                "uscire",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u27l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I was born in Rome. — man speaking)",
+              "sentence": "Sono ___ a Roma.",
+              "answers": [
+                "nato"
+              ],
+              "explanation": "'Sono nato a Roma.' — nascere takes essere; nato (irregular participle) agrees: sono nato / sono nata.",
+              "dictionaryRefs": [
+                "nascere"
+              ]
+            },
+            {
+              "id": "u27l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco went to Italy.)",
+              "sentence": "Marco è ___ in Italia.",
+              "answers": [
+                "andato"
+              ],
+              "explanation": "'Marco è andato in Italia.' — andare takes essere; Marco (m sing) → andato.",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u27l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the participle. (The girls went to the bar.) (Unit 5 recycling)",
+              "question": "Le ragazze sono ___ al bar.",
+              "options": [
+                "andate",
+                "andato",
+                "andata",
+                "andati"
+              ],
+              "correctIndex": 0,
+              "explanation": "Le ragazze (f pl) → andate. The four forms of the agreement: andato, andata, andati, andate.",
+              "dictionaryRefs": [
+                "la-ragazza",
+                "andare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u27l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 15 recycling)",
+              "sourceEn": "We went to the restaurant.",
+              "acceptedIt": [
+                "Siamo andati al ristorante.",
+                "Siamo andati al ristorante",
+                "Noi siamo andati al ristorante",
+                "Siamo andate al ristorante",
+                "Noi siamo andate al ristorante"
+              ],
+              "explanation": "'Siamo andati al ristorante.' — siamo (noi, essere) + andati (m pl — the default for a mixed group).",
+              "dictionaryRefs": [
+                "andare",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u27l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Giulia arrived yesterday.",
+              "acceptedIt": [
+                "Giulia è arrivata ieri.",
+                "Giulia è arrivata ieri",
+                "Giulia e' arrivata ieri"
+              ],
+              "explanation": "'Giulia è arrivata ieri.' — arrivare takes essere; Giulia (f sing) → arrivata.",
+              "dictionaryRefs": [
+                "arrivare",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u27l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (the avere contrast)",
+              "sourceIt": "Ho fatto un viaggio.",
+              "acceptedEn": [
+                "I took a trip.",
+                "I made a trip."
+              ],
+              "explanation": "'Ho fatto un viaggio.' — fare takes AVERE: ho fatto. The trip is something you DO, not a movement. Fatto is irregular (fare → fatto).",
+              "dictionaryRefs": [
+                "fare",
+                "il-viaggio"
+              ]
+            },
+            {
+              "id": "u27l2e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 24 recycling)",
+              "sourceIt": "Sono stata bene.",
+              "acceptedEn": [
+                "I was well. (woman speaking)",
+                "I felt good. (woman speaking)"
+              ],
+              "explanation": "'Sono stata bene.' — stare takes essere; statA tells you a woman is speaking. A man: sono statO bene.",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u27l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Sono",
+                "uscita",
+                "ieri."
+              ],
+              "correctSentence": "Sono uscita ieri.",
+              "explanation": "'Sono uscita ieri.' — sono (essere) + uscita (f sing) + ieri. 💛 A woman says this.",
+              "dictionaryRefs": [
+                "uscire",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u27l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 20 recycling)",
+              "tokens": [
+                "Siamo",
+                "andati",
+                "al",
+                "mare."
+              ],
+              "correctSentence": "Siamo andati al mare.",
+              "explanation": "'Siamo andati al mare.' — siamo + andati (m pl) + al mare (Unit 20). We went to the seaside.",
+              "dictionaryRefs": [
+                "andare",
+                "il-mare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u27l3",
+          "type": "mixed",
+          "title": "Com'è andata? 💛 — ripasso",
+          "dictionaryRefs": [
+            "il-ristorante",
+            "la-cena",
+            "la-pizza",
+            "prendere",
+            "la-foto",
+            "la-casa",
+            "il-bar",
+            "il-cinema",
+            "uscire",
+            "arrivare",
+            "restare",
+            "mangiare",
+            "stare",
+            "ieri"
+          ],
+          "exercises": [
+            {
+              "id": "u27l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 16 recycling)",
+              "sourceEn": "I went out with Giulia yesterday.",
+              "acceptedIt": [
+                "Ieri sono uscito con Giulia.",
+                "Ieri sono uscito con Giulia",
+                "Sono uscito con Giulia ieri",
+                "Ieri sono uscita con Giulia",
+                "Ieri io sono uscito con Giulia"
+              ],
+              "explanation": "'Ieri sono uscito con Giulia.' — uscire → essere; uscito (man) / uscita (woman). 💛 The date report.",
+              "dictionaryRefs": [
+                "ieri",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u27l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 16 recycling)",
+              "question": "Giulia è arrivata alle otto.",
+              "options": [
+                "Giulia arrived at eight.",
+                "Giulia arrives at eight.",
+                "Giulia left at eight.",
+                "Giulia stayed until eight."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Giulia è arrivata alle otto.' — è arrivata (essere + agreement) + alle otto (Unit 16).",
+              "dictionaryRefs": [
+                "arrivare",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u27l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence — avere or essere? (The dinner? I ate the pasta.) (Unit 15 recycling)",
+              "sentence": "La cena? Ho ___ la pasta.",
+              "answers": [
+                "mangiato"
+              ],
+              "explanation": "'Ho mangiato la pasta.' — mangiare is an action you DO → avere. No agreement: mangiato stays.",
+              "dictionaryRefs": [
+                "la-cena",
+                "mangiare",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u27l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 5 recycling)",
+              "sourceIt": "Siamo andati al bar.",
+              "acceptedEn": [
+                "We went to the bar.",
+                "We went to the café."
+              ],
+              "explanation": "'Siamo andati al bar.' — andare takes essere; andati (m pl). The Unit 5 place, in the past.",
+              "dictionaryRefs": [
+                "andare",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u27l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco stayed home yesterday.) (Unit 5+16 recycling)",
+              "sentence": "Marco è ___ a casa ieri.",
+              "answers": [
+                "restato"
+              ],
+              "explanation": "'Marco è restato a casa ieri.' — restare is a state → essere; Marco (m) → restato.",
+              "dictionaryRefs": [
+                "restare",
+                "la-casa",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u27l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 26 recycling)",
+              "question": "Ho fatto una foto.",
+              "options": [
+                "I took a photo.",
+                "I have a photo.",
+                "I found a photo.",
+                "I made a photo album."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho fatto una foto.' — fare + una foto (Unit 26); fatto with avere, no agreement.",
+              "dictionaryRefs": [
+                "fare",
+                "la-foto"
+              ]
+            },
+            {
+              "id": "u27l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 16 recycling)",
+              "tokens": [
+                "È",
+                "arrivata",
+                "alle",
+                "nove."
+              ],
+              "correctSentence": "È arrivata alle nove.",
+              "explanation": "'È arrivata alle nove.' — è + arrivata (f sing) + alle nove. She arrived at nine.",
+              "dictionaryRefs": [
+                "arrivare",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u27l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 6+15 recycling)",
+              "sourceEn": "The dinner was nice.",
+              "acceptedIt": [
+                "La cena è stata bella.",
+                "La cena è stata bella",
+                "La cena e' stata bella"
+              ],
+              "explanation": "'La cena è stata bella.' — essere → stato (essere auxiliary!); stata agrees with la cena (f sing); bella agrees too. 💛",
+              "dictionaryRefs": [
+                "la-cena",
+                "stare",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u27l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "uscire",
+            "ieri",
+            "arrivare",
+            "andare",
+            "il-mare",
+            "il-cinema",
+            "stare",
+            "il-viaggio",
+            "fare"
+          ],
+          "exercises": [
+            {
+              "id": "u27l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Sono uscito ieri.",
+              "options": [
+                "I went out yesterday. (man speaking)",
+                "I went out yesterday. (woman speaking)",
+                "I left yesterday.",
+                "I go out yesterday."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sono uscito ieri.' — uscitO: a man is speaking. A woman says 'Sono uscita ieri.' 💛",
+              "dictionaryRefs": [
+                "uscire",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u27l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Giulia è arrivata.",
+              "acceptedIt": [
+                "Giulia è arrivata.",
+                "Giulia è arrivata",
+                "Giulia e' arrivata"
+              ],
+              "explanation": "You heard: 'Giulia è arrivata.' — Giulia arrived. È + arrivatA (f sing).",
+              "dictionaryRefs": [
+                "arrivare"
+              ]
+            },
+            {
+              "id": "u27l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 20 recycling)",
+              "mode": "choice",
+              "speakIt": "Siamo andati al mare.",
+              "options": [
+                "We went to the seaside.",
+                "We went to the mountains.",
+                "We are going to the sea.",
+                "We stayed at the sea."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Siamo andati al mare.' — siamo + andati (m pl). The seaside trip, done.",
+              "dictionaryRefs": [
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u27l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I went to the movies. (Unit 20 recycling)",
+              "targetIt": "Sono andato al cinema.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sono andato al cinema.' — SO-no an-DA-to al CHI-ne-ma. (A woman: sono andata.)",
+              "dictionaryRefs": [
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u27l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I was well. (woman speaking) (Unit 24 recycling)",
+              "targetIt": "Sono stata bene.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sono stata bene.' — SO-no STA-ta BE-ne. Stare takes essere; stata for a woman.",
+              "dictionaryRefs": [
+                "stare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u27l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ho fatto un viaggio.",
+              "acceptedIt": [
+                "Ho fatto un viaggio.",
+                "Ho fatto un viaggio",
+                "Io ho fatto un viaggio"
+              ],
+              "explanation": "You heard: 'Ho fatto un viaggio.' — I took a trip. Fare takes avere: ho fatto.",
+              "dictionaryRefs": [
+                "fare",
+                "il-viaggio"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u27c",
+        "exercises": [
+          {
+            "id": "u27ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "partire",
+            "options": [
+              "to leave; to depart",
+              "to arrive",
+              "to stay",
+              "to return"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Partire' = to leave. 'Giulia è partita ieri.' — Giulia left yesterday.",
+            "dictionaryRefs": [
+              "partire"
+            ]
+          },
+          {
+            "id": "u27ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Yesterday I went to the bar. — man speaking) (Unit 5 recycling)",
+            "sentence": "Ieri sono ___ al bar.",
+            "answers": [
+              "andato"
+            ],
+            "explanation": "'Ieri sono andato al bar.' — andare takes essere; a man → andato (a woman: andata).",
+            "dictionaryRefs": [
+              "ieri",
+              "andare",
+              "il-bar"
+            ]
+          },
+          {
+            "id": "u27ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Giulia left yesterday.)",
+            "sentence": "Giulia è ___ ieri.",
+            "answers": [
+              "partita"
+            ],
+            "explanation": "'Giulia è partita ieri.' — partire takes essere; Giulia (f sing) → partita.",
+            "dictionaryRefs": [
+              "partire",
+              "ieri"
+            ]
+          },
+          {
+            "id": "u27ce4",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence — avere or essere? (I ate the pasta.) (Unit 15 recycling)",
+            "sentence": "Ho ___ la pasta.",
+            "answers": [
+              "mangiato"
+            ],
+            "explanation": "'Ho mangiato la pasta.' — an action you DO → avere, and no agreement: mangiato.",
+            "dictionaryRefs": [
+              "mangiare",
+              "la-pasta"
+            ]
+          },
+          {
+            "id": "u27ce5",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "I was born in Rome. (man speaking)",
+            "acceptedIt": [
+              "Sono nato a Roma.",
+              "Sono nato a Roma",
+              "Io sono nato a Roma"
+            ],
+            "explanation": "'Sono nato a Roma.' — nascere takes essere; nato (m) / nata (f). The classic opener about your origins.",
+            "dictionaryRefs": [
+              "nascere"
+            ]
+          },
+          {
+            "id": "u27ce6",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 6+20 recycling)",
+            "sourceIt": "Le ragazze sono andate al cinema.",
+            "acceptedEn": [
+              "The girls went to the movies.",
+              "The girls went to the cinema."
+            ],
+            "explanation": "'Le ragazze sono andate al cinema.' — f pl → andate. The agreement ends in -e.",
+            "dictionaryRefs": [
+              "la-ragazza",
+              "andare",
+              "il-cinema"
+            ]
+          },
+          {
+            "id": "u27ce7",
+            "type": "multiple_choice",
+            "prompt": "Avere or essere? (Marco arrived.)",
+            "question": "Marco ___ arrivato.",
+            "options": [
+              "è",
+              "ha",
+              "sono",
+              "ho"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Marco è arrivato.' — arrivare is movement → essere. Marco is 'he' → è.",
+            "dictionaryRefs": [
+              "arrivare"
+            ]
+          },
+          {
+            "id": "u27ce8",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Sono",
+              "nata",
+              "a",
+              "Roma."
+            ],
+            "correctSentence": "Sono nata a Roma.",
+            "explanation": "'Sono nata a Roma.' — nata (f): a woman speaking. Sono + nato/a + a + city.",
+            "dictionaryRefs": [
+              "nascere"
+            ]
+          },
+          {
+            "id": "u27ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Sono uscita con Marco.",
+            "options": [
+              "I went out with Marco. (woman speaking)",
+              "I went out with Marco. (man speaking)",
+              "I left with Marco.",
+              "I go out with Marco."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Sono uscita con Marco.' — uscitA: a woman is speaking. 💛",
+            "dictionaryRefs": [
+              "uscire"
+            ]
+          },
+          {
+            "id": "u27ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I went to the restaurant. (Unit 15 recycling)",
+            "targetIt": "Sono andato al ristorante.",
+            "minAccuracy": 0.7,
+            "explanation": "'Sono andato al ristorante.' — SO-no an-DA-to al ri-sto-RAN-te. Essere + agreement.",
+            "dictionaryRefs": [
+              "andare",
+              "il-ristorante"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -22264,6 +23036,93 @@
         }
       ],
       "introducedInUnit": 26
+    },
+    {
+      "id": "partire",
+      "word": "partire",
+      "translation": "to leave; to depart",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Parto per Roma domani.",
+          "en": "I leave for Rome tomorrow."
+        },
+        {
+          "it": "Giulia è partita ieri.",
+          "en": "Giulia left yesterday."
+        }
+      ],
+      "introducedInUnit": 27
+    },
+    {
+      "id": "arrivare",
+      "word": "arrivare",
+      "translation": "to arrive",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Quando arriva Giulia?",
+          "en": "When does Giulia arrive?"
+        },
+        {
+          "it": "Giulia è arrivata alle otto.",
+          "en": "Giulia arrived at eight."
+        }
+      ],
+      "introducedInUnit": 27
+    },
+    {
+      "id": "nascere",
+      "word": "nascere",
+      "translation": "to be born",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Sono nato a Roma.",
+          "en": "I was born in Rome. (man speaking)"
+        },
+        {
+          "it": "Sono nata a Roma.",
+          "en": "I was born in Rome. (woman speaking)"
+        }
+      ],
+      "introducedInUnit": 27
+    },
+    {
+      "id": "restare",
+      "word": "restare",
+      "translation": "to stay; to remain",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Resto a casa oggi.",
+          "en": "I'm staying home today."
+        },
+        {
+          "it": "Marco è restato a casa ieri.",
+          "en": "Marco stayed home yesterday."
+        }
+      ],
+      "introducedInUnit": 27
+    },
+    {
+      "id": "il-viaggio",
+      "word": "viaggio",
+      "article": "il",
+      "translation": "trip; journey",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il viaggio è bello.",
+          "en": "The trip is nice."
+        },
+        {
+          "it": "Ho fatto un viaggio.",
+          "en": "I took a trip."
+        }
+      ],
+      "introducedInUnit": 27
     }
   ],
   "stories": [
