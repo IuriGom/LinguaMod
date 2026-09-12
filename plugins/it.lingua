@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 18,
+    "version": 19,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -18656,6 +18656,792 @@
           }
         ]
       }
+    },
+    {
+      "id": "u26",
+      "number": 26,
+      "title": "Il passato prossimo I",
+      "lessons": [
+        {
+          "id": "u26l1",
+          "type": "vocabulary",
+          "title": "Comprare, guardare, trovare",
+          "dictionaryRefs": [
+            "comprare",
+            "guardare",
+            "trovare",
+            "la-foto",
+            "la-sorpresa"
+          ],
+          "exercises": [
+            {
+              "id": "u26l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "comprare",
+              "options": [
+                "to buy",
+                "to sell",
+                "to pay",
+                "to shop around"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Comprare' = to buy. 'Compro un regalo.' — I buy a gift (Unit 17). A regular -are verb.",
+              "dictionaryRefs": [
+                "comprare",
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u26l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "guardare",
+              "options": [
+                "to watch; to look at",
+                "to see",
+                "to read",
+                "to listen"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Guardare' = to watch, to look at: 'Guardo un film.' — I watch a film. Vedere (Unit 19) is 'to see' — you guardi the film, you vedi Giulia.",
+              "dictionaryRefs": [
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u26l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "trovare",
+              "options": [
+                "to find",
+                "to look for",
+                "to lose",
+                "to meet"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Trovare' = to find. 'Trovo un libro interessante.'? — keep it simple: 'Trovo il libro.' — I find the book. Regular -are.",
+              "dictionaryRefs": [
+                "trovare",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u26l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la foto",
+              "options": [
+                "the photo",
+                "the photography",
+                "the camera",
+                "the picture frame"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La foto' (f) = the photo — short for la fotografia (Unit 20), and invariable in the plural: due foto. 'Faccio una foto.' — I take a photo.",
+              "dictionaryRefs": [
+                "la-foto",
+                "la-fotografia"
+              ]
+            },
+            {
+              "id": "u26l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "la sorpresa",
+              "options": [
+                "the surprise",
+                "the gift",
+                "the party",
+                "the secret"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La sorpresa' (f) = the surprise. 💛 'Ho una sorpresa per te.' — I have a surprise for you.",
+              "dictionaryRefs": [
+                "la-sorpresa"
+              ]
+            },
+            {
+              "id": "u26l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I buy a gift for Giulia.) (Unit 17 recycling)",
+              "sentence": "___ un regalo per Giulia.",
+              "answers": [
+                "Compro",
+                "Io compro"
+              ],
+              "explanation": "'Compro un regalo per Giulia.' — comprare, io-form: compro. 💛",
+              "dictionaryRefs": [
+                "comprare",
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u26l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I watch a film.",
+              "acceptedIt": [
+                "Guardo un film.",
+                "Guardo un film",
+                "Io guardo un film"
+              ],
+              "explanation": "'Guardo un film.' — guardare, io-form: guardo. The film is invariable: un film, due film (Unit 19).",
+              "dictionaryRefs": [
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u26l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ho una sorpresa per te.",
+              "acceptedEn": [
+                "I have a surprise for you."
+              ],
+              "explanation": "'Ho una sorpresa per te.' — ho + una sorpresa + per te (Unit 9's per me / per te). 💛",
+              "dictionaryRefs": [
+                "la-sorpresa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u26l2",
+          "type": "grammar",
+          "title": "Il passato prossimo con avere",
+          "dictionaryRefs": [
+            "comprare",
+            "guardare",
+            "trovare",
+            "la-foto",
+            "la-sorpresa",
+            "ieri",
+            "mangiare",
+            "dormire",
+            "il-film"
+          ],
+          "grammarNotes": "IL PASSATO PROSSIMO — the everyday past. Two parts: avere + the past participle.\n\nI PARTICIPI — the past participle is regular:\n• -are → -ato: parlare → parlato, mangiare → mangiato, guardare → guardato, comprare → comprato, trovare → trovato, lavorare → lavorato, studiare → studiato, ascoltare → ascoltato, prenotare → prenotato\n• -ere → -uto: vedere? no — irregular (visto, later). Regular: vendere → venduto. For now your -ere verbs: prendere → preso (irregular), leggere → letto (irregular), scrivere → scritto (irregular), dormire → dormito ✓ regular, capire → capito ✓, finire → finito ✓, preferire → preferito ✓\n• -ire → -ito: dormito, capito, finito, preferito\n\nTHE FORMULA: avere (io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno — Unit 6) + participle:\n• 'Ho mangiato una pizza.' — I ate a pizza.\n• 'Ieri hai dormito bene?' — Did you sleep well yesterday?\n• 'Giulia ha guardato un film.' — Giulia watched a film.\n• 'Abbiamo prenotato un tavolo.' — We booked a table.\n• 'Avete trovato il libro?' — Did you (pl) find the book?\n• 'Hanno comprato un regalo.' — They bought a gift.\n\nNO AGREEMENT WITH AVERE: the participle stays -o with avere, always: 'Ho mangiato la pizza.' / 'Ho mangiato i cornetti.' — mangiato never changes. (It changes with essere — next unit.)\n\nWHEN: a finished action at a finished time — ieri (yesterday), sabato, ieri sera. 'Ieri ho lavorato.' — Yesterday I worked.\n\n💛 'Ieri ho comprato un regalo per Giulia.' — Yesterday I bought a gift for Giulia.",
+          "exercises": [
+            {
+              "id": "u26l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Yesterday I ate a pizza.) (Unit 7+16 recycling)",
+              "sentence": "Ieri ho ___ una pizza.",
+              "answers": [
+                "mangiato"
+              ],
+              "explanation": "'Ieri ho mangiato una pizza.' — ho (avere) + mangiato (mangiare → -ato). Ieri marks the finished past.",
+              "dictionaryRefs": [
+                "ieri",
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u26l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Did you sleep well?) (Unit 12 recycling)",
+              "sentence": "Hai ___ bene?",
+              "answers": [
+                "dormito"
+              ],
+              "explanation": "'Hai dormito bene?' — hai + dormito (dormire → -ito). -ire verbs take -ito.",
+              "dictionaryRefs": [
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u26l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia watched a film.)",
+              "sentence": "Giulia ha ___ un film.",
+              "answers": [
+                "guardato"
+              ],
+              "explanation": "'Giulia ha guardato un film.' — ha (lui/lei) + guardato. The participle stays -o with avere, whoever the subject is.",
+              "dictionaryRefs": [
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u26l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (We booked a table.) (Unit 25 recycling)",
+              "sentence": "Abbiamo ___ un tavolo.",
+              "answers": [
+                "prenotato"
+              ],
+              "explanation": "'Abbiamo prenotato un tavolo.' — abbiamo (noi) + prenotato. Regular -are → -ato.",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u26l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Yesterday I bought a gift for Giulia.",
+              "acceptedIt": [
+                "Ieri ho comprato un regalo per Giulia.",
+                "Ieri ho comprato un regalo per Giulia",
+                "Ho comprato un regalo per Giulia ieri",
+                "Ieri io ho comprato un regalo per Giulia"
+              ],
+              "explanation": "'Ieri ho comprato un regalo per Giulia.' — ieri first, then ho comprato, then the gift. 💛",
+              "dictionaryRefs": [
+                "ieri",
+                "comprare",
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u26l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12 recycling)",
+              "sourceEn": "I finished the book.",
+              "acceptedIt": [
+                "Ho finito il libro.",
+                "Ho finito il libro",
+                "Io ho finito il libro"
+              ],
+              "explanation": "'Ho finito il libro.' — finire → finito (regular -ito). The -isc- is only for the present; the participle is simple.",
+              "dictionaryRefs": [
+                "finire",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u26l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 9 recycling)",
+              "sourceIt": "Hanno preso un caffè.",
+              "acceptedEn": [
+                "They had a coffee.",
+                "They took a coffee."
+              ],
+              "explanation": "'Hanno preso un caffè.' — prendere's participle is IRREGULAR: preso (not 'prenduto'). Hanno preso = they had.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u26l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the participle. (I listened to the music.) (Unit 11 recycling)",
+              "question": "Ho ___ la musica.",
+              "options": [
+                "ascoltato",
+                "ascoltito",
+                "ascoltuto",
+                "ascoltare"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ascoltare is -are → -ato: ascoltato. Never -ito (that's -ire), never -uto (that's -ere).",
+              "dictionaryRefs": [
+                "ascoltare",
+                "la-musica"
+              ]
+            },
+            {
+              "id": "u26l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Ho",
+                "mangiato",
+                "una",
+                "pizza."
+              ],
+              "correctSentence": "Ho mangiato una pizza.",
+              "explanation": "'Ho mangiato una pizza.' — auxiliary first, participle right after: ho mangiato.",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u26l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "una",
+                "Ho",
+                "sorpresa",
+                "per",
+                "te."
+              ],
+              "correctSentence": "Ho una sorpresa per te.",
+              "explanation": "'Ho una sorpresa per te.' — ho + una sorpresa + per te. 💛",
+              "dictionaryRefs": [
+                "la-sorpresa"
+              ]
+            },
+            {
+              "id": "u26l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "ieri.",
+                "Giulia",
+                "ha",
+                "lavorato"
+              ],
+              "correctSentence": "Giulia ha lavorato ieri.",
+              "explanation": "'Giulia ha lavorato ieri.' — subject, ha + lavorato, then ieri. The participle never changes with avere.",
+              "dictionaryRefs": [
+                "lavorare",
+                "ieri"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u26l3",
+          "type": "mixed",
+          "title": "Cosa hai fatto ieri? — ripasso",
+          "dictionaryRefs": [
+            "ieri",
+            "il-caffe",
+            "il-bar",
+            "il-film",
+            "la-fotografia",
+            "il-regalo",
+            "il-compleanno",
+            "studiare",
+            "mangiare",
+            "comprare",
+            "guardare",
+            "trovare",
+            "la-foto",
+            "la-sorpresa"
+          ],
+          "exercises": [
+            {
+              "id": "u26l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 8+16 recycling)",
+              "sourceEn": "What did you do yesterday?",
+              "acceptedIt": [
+                "Cosa hai fatto ieri?",
+                "Cosa hai fatto ieri",
+                "Che hai fatto ieri?",
+                "Cosa hai fatto ieri tu?"
+              ],
+              "explanation": "'Cosa hai fatto ieri?' — cosa (Unit 8) + hai fatto (fare's participle is irregular: fatto) + ieri. THE yesterday question.",
+              "dictionaryRefs": [
+                "ieri",
+                "fare"
+              ]
+            },
+            {
+              "id": "u26l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 9 recycling)",
+              "question": "Ho preso un caffè al bar.",
+              "options": [
+                "I had a coffee at the bar.",
+                "I take a coffee at the bar.",
+                "I bought a coffee at the bar.",
+                "I have a coffee at the bar."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho preso un caffè al bar.' — ho + preso (prendere's irregular participle) = I had / I took. The Unit 9 order, in the past.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe",
+                "il-bar"
+              ]
+            },
+            {
+              "id": "u26l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I watched a film yesterday evening.) (Unit 10+16 recycling)",
+              "sentence": "Ieri sera ho ___ un film.",
+              "answers": [
+                "guardato"
+              ],
+              "explanation": "'Ieri sera ho guardato un film.' — ieri sera (yesterday evening, Units 16+10) + ho guardato.",
+              "dictionaryRefs": [
+                "ieri",
+                "la-sera",
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u26l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 17 recycling)",
+              "sourceIt": "Ho comprato un regalo per il compleanno di Giulia.",
+              "acceptedEn": [
+                "I bought a gift for Giulia's birthday."
+              ],
+              "explanation": "'Ho comprato un regalo per il compleanno di Giulia.' — ho comprato + per + il compleanno di Giulia (Unit 17).",
+              "dictionaryRefs": [
+                "comprare",
+                "il-regalo",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u26l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I found a nice photo.) (Unit 13 recycling)",
+              "sentence": "Ho ___ una foto bella.",
+              "answers": [
+                "trovato"
+              ],
+              "explanation": "'Ho trovato una foto bella.' — ho + trovato. Bella agrees with foto (f sing, Unit 13).",
+              "dictionaryRefs": [
+                "trovare",
+                "la-foto",
+                "bello"
+              ]
+            },
+            {
+              "id": "u26l3e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the participle. (You studied Italian yesterday.) (Unit 8 recycling)",
+              "question": "Ieri hai ___ italiano.",
+              "options": [
+                "studiato",
+                "studiito",
+                "studiuto",
+                "studiate"
+              ],
+              "correctIndex": 0,
+              "explanation": "Studiare → studiato (-are → -ato). 'Ieri hai studiato italiano.'",
+              "dictionaryRefs": [
+                "studiare",
+                "italiano",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u26l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 19 recycling)",
+              "tokens": [
+                "una",
+                "Ho",
+                "foto",
+                "di",
+                "Giulia."
+              ],
+              "correctSentence": "Ho una foto di Giulia.",
+              "explanation": "'Ho una foto di Giulia.' — ho + una foto + di Giulia. Di + name = possession, like 'il compleanno di Giulia' (Unit 17). 💛",
+              "dictionaryRefs": [
+                "la-foto"
+              ]
+            },
+            {
+              "id": "u26l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 20 recycling)",
+              "sourceEn": "I liked the film.",
+              "acceptedIt": [
+                "Mi è piaciuto il film.",
+                "Mi è piaciuto il film",
+                "Mi e' piaciuto il film"
+              ],
+              "explanation": "'Mi è piaciuto il film.' — piacere in the past takes essere and agrees with the thing: il film (m) → piaciuto. Preview of Unit 27's rule.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-film"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u26l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "ieri",
+            "mangiare",
+            "dormire",
+            "la-pizza",
+            "bene",
+            "guardare",
+            "il-film",
+            "comprare",
+            "il-regalo"
+          ],
+          "exercises": [
+            {
+              "id": "u26l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 7+16 recycling)",
+              "mode": "choice",
+              "speakIt": "Ieri ho mangiato una pizza.",
+              "options": [
+                "Yesterday I ate a pizza.",
+                "Yesterday I bought a pizza.",
+                "Today I eat a pizza.",
+                "Yesterday I wanted a pizza."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ieri ho mangiato una pizza.' — ieri + ho mangiato: a finished action, yesterday.",
+              "dictionaryRefs": [
+                "ieri",
+                "mangiare",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u26l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 12 recycling)",
+              "mode": "type",
+              "speakIt": "Hai dormito bene?",
+              "acceptedIt": [
+                "Hai dormito bene?",
+                "Hai dormito bene",
+                "Tu hai dormito bene?"
+              ],
+              "explanation": "You heard: 'Hai dormito bene?' — Did you sleep well? Hai + dormito.",
+              "dictionaryRefs": [
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u26l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Giulia ha guardato un film.",
+              "options": [
+                "Giulia watched a film.",
+                "Giulia watches a film.",
+                "Giulia bought a film.",
+                "Giulia saw Giulia's film."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Giulia ha guardato un film.' — ha + guardato. The participle stays -o with avere.",
+              "dictionaryRefs": [
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u26l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Yesterday I bought a gift. 💛",
+              "targetIt": "Ieri ho comprato un regalo.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ieri ho comprato un regalo.' — YE-ri o kom-PRA-to un re-GA-lo. 💛",
+              "dictionaryRefs": [
+                "ieri",
+                "comprare",
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u26l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I slept well.",
+              "targetIt": "Ho dormito bene.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ho dormito bene.' — o dor-MI-to BE-ne. Dormire → dormito.",
+              "dictionaryRefs": [
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u26l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Ho una sorpresa per te.",
+              "acceptedIt": [
+                "Ho una sorpresa per te.",
+                "Ho una sorpresa per te"
+              ],
+              "explanation": "You heard: 'Ho una sorpresa per te.' — I have a surprise for you. 💛",
+              "dictionaryRefs": [
+                "la-sorpresa"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u26c",
+        "exercises": [
+          {
+            "id": "u26ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la sorpresa",
+            "options": [
+              "the surprise",
+              "the gift",
+              "the secret",
+              "the party"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La sorpresa' (f) = the surprise. 'Ho una sorpresa per te.' 💛",
+            "dictionaryRefs": [
+              "la-sorpresa"
+            ]
+          },
+          {
+            "id": "u26ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Yesterday I worked.) (Unit 8 recycling)",
+            "sentence": "Ieri ho ___.",
+            "answers": [
+              "lavorato"
+            ],
+            "explanation": "'Ieri ho lavorato.' — lavorare → lavorato. -are verbs take -ato in the past.",
+            "dictionaryRefs": [
+              "ieri",
+              "lavorare"
+            ]
+          },
+          {
+            "id": "u26ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "They watched a film yesterday.",
+            "acceptedIt": [
+              "Hanno guardato un film ieri.",
+              "Ieri hanno guardato un film.",
+              "Hanno guardato un film ieri",
+              "Loro hanno guardato un film ieri"
+            ],
+            "explanation": "'Hanno guardato un film ieri.' — hanno (loro, avere) + guardato. The participle never changes with avere.",
+            "dictionaryRefs": [
+              "guardare",
+              "il-film",
+              "ieri"
+            ]
+          },
+          {
+            "id": "u26ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 12 recycling)",
+            "sourceIt": "Ho capito la domanda.",
+            "acceptedEn": [
+              "I understood the question.",
+              "I have understood the question."
+            ],
+            "explanation": "'Ho capito la domanda.' — capire → capito (regular -ito; the -isc- is only in the present).",
+            "dictionaryRefs": [
+              "capire",
+              "la-domanda"
+            ]
+          },
+          {
+            "id": "u26ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the participle. (We ate at the restaurant.) (Unit 15 recycling)",
+            "question": "Abbiamo ___ al ristorante.",
+            "options": [
+              "mangiato",
+              "mangiuto",
+              "mangiito",
+              "mangiare"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mangiare → mangiato (-are → -ato). 'Abbiamo mangiato al ristorante.'",
+            "dictionaryRefs": [
+              "mangiare",
+              "il-ristorante"
+            ]
+          },
+          {
+            "id": "u26ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (You found the book.) (Unit 5 recycling)",
+            "sentence": "Hai ___ il libro.",
+            "answers": [
+              "trovato"
+            ],
+            "explanation": "'Hai trovato il libro.' — trovare → trovato. Regular -are → -ato.",
+            "dictionaryRefs": [
+              "trovare",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u26ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 17 recycling)",
+            "tokens": [
+              "comprato",
+              "Ho",
+              "un",
+              "regalo."
+            ],
+            "correctSentence": "Ho comprato un regalo.",
+            "explanation": "'Ho comprato un regalo.' — ho + comprato + un regalo (Unit 17). 💛",
+            "dictionaryRefs": [
+              "comprare",
+              "il-regalo"
+            ]
+          },
+          {
+            "id": "u26ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 8 recycling)",
+            "mode": "choice",
+            "speakIt": "Cosa hai fatto ieri?",
+            "options": [
+              "What did you do yesterday?",
+              "What are you doing today?",
+              "What did you do today?",
+              "What do you do on Saturdays?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Cosa hai fatto ieri?' — cosa + hai fatto (fatto = fare's irregular participle) + ieri.",
+            "dictionaryRefs": [
+              "ieri",
+              "fare"
+            ]
+          },
+          {
+            "id": "u26ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Ho finito il libro.",
+            "acceptedIt": [
+              "Ho finito il libro.",
+              "Ho finito il libro",
+              "Io ho finito il libro"
+            ],
+            "explanation": "You heard: 'Ho finito il libro.' — I finished the book. Finire → finito.",
+            "dictionaryRefs": [
+              "finire",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u26ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Yesterday I ate a pizza.",
+            "targetIt": "Ieri ho mangiato una pizza.",
+            "minAccuracy": 0.7,
+            "explanation": "'Ieri ho mangiato una pizza.' — YE-ri o man-JA-to U-na PIZ-za.",
+            "dictionaryRefs": [
+              "ieri",
+              "mangiare",
+              "la-pizza"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -21393,6 +22179,91 @@
         }
       ],
       "introducedInUnit": 25
+    },
+    {
+      "id": "comprare",
+      "word": "comprare",
+      "translation": "to buy",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Compro un regalo per Giulia.",
+          "en": "I buy a gift for Giulia."
+        },
+        {
+          "it": "Ieri ho comprato un regalo.",
+          "en": "Yesterday I bought a gift."
+        }
+      ],
+      "introducedInUnit": 26
+    },
+    {
+      "id": "guardare",
+      "word": "guardare",
+      "translation": "to watch; to look at",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Guardo un film.",
+          "en": "I watch a film."
+        },
+        {
+          "it": "Giulia ha guardato un film.",
+          "en": "Giulia watched a film."
+        }
+      ],
+      "introducedInUnit": 26
+    },
+    {
+      "id": "trovare",
+      "word": "trovare",
+      "translation": "to find",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ho trovato il libro.",
+          "en": "I found the book."
+        },
+        {
+          "it": "Ho trovato una foto bella.",
+          "en": "I found a nice photo."
+        }
+      ],
+      "introducedInUnit": 26
+    },
+    {
+      "id": "la-foto",
+      "word": "foto",
+      "article": "la",
+      "translation": "photo (invariable plural: le foto)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una foto di Giulia.",
+          "en": "I have a photo of Giulia."
+        },
+        {
+          "it": "Faccio una foto.",
+          "en": "I take a photo."
+        }
+      ],
+      "introducedInUnit": 26
+    },
+    {
+      "id": "la-sorpresa",
+      "word": "sorpresa",
+      "article": "la",
+      "translation": "surprise",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una sorpresa per te.",
+          "en": "I have a surprise for you."
+        }
+      ],
+      "introducedInUnit": 26
     }
   ],
   "stories": [

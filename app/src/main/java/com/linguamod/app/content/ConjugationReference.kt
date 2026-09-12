@@ -41,6 +41,19 @@ object ConjugationReference {
         "uscire" to Paradigm(listOf("esco", "esci", "esce", "usciamo", "uscite", "escono")),
         "stare" to Paradigm(listOf("sto", "stai", "sta", "stiamo", "state", "stanno")),
         "prenotare" to Paradigm(listOf("prenoto", "prenoti", "prenota", "prenotiamo", "prenotate", "prenotano")),
+        // Stage 6 extensions
+        "comprare" to Paradigm(listOf("compro", "compri", "compra", "compriamo", "comprate", "comprano")),
+        "guardare" to Paradigm(listOf("guardo", "guardi", "guarda", "guardiamo", "guardate", "guardano")),
+        "trovare" to Paradigm(listOf("trovo", "trovi", "trova", "troviamo", "trovate", "trovano")),
+        "giocare" to Paradigm(listOf("gioco", "giochi", "gioca", "giochiamo", "giocate", "giocano")),
+        "partire" to Paradigm(listOf("parto", "parti", "parte", "partiamo", "partite", "partono")),
+        "arrivare" to Paradigm(listOf("arrivo", "arrivi", "arriva", "arriviamo", "arrivate", "arrivano")),
+        "nascere" to Paradigm(listOf("nasco", "nasci", "nasce", "nasciamo", "nascete", "nascono")),
+        "restare" to Paradigm(listOf("resto", "resti", "resta", "restiamo", "restate", "restano")),
+        "svegliare" to Paradigm(listOf("sveglio", "svegli", "sveglia", "svegliamo", "svegliate", "svegliano")),
+        "alzare" to Paradigm(listOf("alzo", "alzi", "alza", "alziamo", "alzate", "alzano")),
+        "vestire" to Paradigm(listOf("vesto", "vesti", "veste", "vestiamo", "vestite", "vestono")),
+        "divertire" to Paradigm(listOf("diverto", "diverti", "diverte", "divertiamo", "divertite", "divertono")),
         "piacere" to Paradigm(listOf("piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono")),
         // Stage 6 extensions
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),
@@ -63,13 +76,27 @@ object ConjugationReference {
         "tradurre" to "tradotto", "vincere" to "vinto", "piacere" to "piaciuto",
         "stare" to "stato", "dovere" to "dovuto", "potere" to "potuto",
         "volere" to "voluto", "conoscere" to "conosciuto", "crescere" to "cresciuto",
+        // Stage 6 batch 1: regular forms for content verbs (Units 26–30)
+        "parlare" to "parlato", "mangiare" to "mangiato", "abitare" to "abitato",
+        "lavorare" to "lavorato", "studiare" to "studiato", "ascoltare" to "ascoltato",
+        "girare" to "girato", "chiamare" to "chiamato", "prenotare" to "prenotato",
+        "comprare" to "comprato", "guardare" to "guardato", "trovare" to "trovato",
+        "giocare" to "giocato", "dormire" to "dormito", "capire" to "capito",
+        "finire" to "finito", "preferire" to "preferito", "uscire" to "uscito",
+        "partire" to "partito", "arrivare" to "arrivato", "restare" to "restato",
+        "svegliare" to "svegliato", "alzare" to "alzato", "vestire" to "vestito",
+        "divertire" to "divertito", "tornare" to "tornato", "entrare" to "entrato",
+        "salire" to "salito", "diventare" to "diventato",
     )
 
-    /** Verbs taking essere as auxiliary in passato prossimo (Stage 6, Unit 27). */
+    /** Verbs taking essere as auxiliary in passato prossimo (Stage 6, Unit 27).
+     *  Movement / state-change verbs plus reflexives (Unit 28). */
     val ESSERE_AUXILIARY = setOf(
         "andare", "venire", "partire", "arrivare", "uscire", "essere", "nascere",
         "morire", "restare", "stare", "diventare", "salire", "scendere", "entrare",
         "tornare", "cadere", "crescere", "rimanere", "piacere", "succedere",
+        // reflexives (Unit 28): always essere
+        "svegliarsi", "alzarsi", "vestirsi", "divertirsi", "chiamarsi",
     )
 
     /** Future tense, regular pattern + irregular stems (Stage 6, Unit 31). */
@@ -118,5 +145,11 @@ object ConjugationReference {
         "avere" to Paradigm(listOf("avevo", "avevi", "aveva", "avevamo", "avevate", "avevano")),
         "fare" to Paradigm(listOf("facevo", "facevi", "faceva", "facevamo", "facevate", "facevano")),
         "parlare" to Paradigm(listOf("parlavo", "parlavi", "parlava", "parlavamo", "parlavate", "parlavano")),
+        "giocare" to Paradigm(listOf("giocavo", "giocavi", "giocava", "giocavamo", "giocavate", "giocavano")),
+        "abitare" to Paradigm(listOf("abitavo", "abitavi", "abitava", "abitavamo", "abitavate", "abitavano")),
+        "andare" to Paradigm(listOf("andavo", "andavi", "andava", "andavamo", "andavate", "andavano")),
+        "dormire" to Paradigm(listOf("dormivo", "dormivi", "dormiva", "dormivamo", "dormivate", "dormivano")),
+        "guardare" to Paradigm(listOf("guardavo", "guardavi", "guardava", "guardavamo", "guardavate", "guardavano")),
+        "mangiare" to Paradigm(listOf("mangiavo", "mangiavi", "mangiava", "mangiavamo", "mangiavate", "mangiavano")),
     )
 }
