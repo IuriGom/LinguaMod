@@ -52,6 +52,30 @@ class ConjugationCrossCheckTest {
     }
 
     @Test
+    fun `grammarNotes future tables match reference`() {
+        // Stage 6: if a notes table uses a future form (trigger: the io-form, e.g.
+        // "andrò"), ALL six persons of that verb's future must appear exactly as in
+        // the reference — a half-written table is a content bug.
+        val errors = mutableListOf<String>()
+        plugin.units.forEach { unit ->
+            unit.lessons?.forEach { lesson ->
+                val notes = lesson.grammarNotes ?: return@forEach
+                ConjugationReference.FUTURE.forEach { (verb, paradigm) ->
+                    if (notes.contains(paradigm.io)) {
+                        paradigm.persons.forEachIndexed { i, form ->
+                            val personLabel = persons[i].split("/")[0]
+                            if (!notes.contains(form)) {
+                                errors += "u${unit.number}/${lesson.id}: grammarNotes use future '${paradigm.io}' ($verb) but miss form '$form' ($personLabel)"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (errors.isNotEmpty()) fail(errors.joinToString("\n"))
+    }
+
+    @Test
     fun `no exercise answer contradicts subject pronoun + reference form`() {
         val errors = mutableListOf<String>()
         // wrong pairs: subject -> forms that must NOT follow it

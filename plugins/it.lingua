@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 24,
+    "version": 25,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -22574,6 +22574,791 @@
           }
         ]
       }
+    },
+    {
+      "id": "u31",
+      "number": 31,
+      "title": "Il futuro",
+      "lessons": [
+        {
+          "id": "u31l1",
+          "type": "vocabulary",
+          "title": "Progetti e promesse",
+          "dictionaryRefs": [
+            "portare",
+            "la-promessa",
+            "dopodomani",
+            "prossimo",
+            "presto",
+            "il-futuro"
+          ],
+          "exercises": [
+            {
+              "id": "u31l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "portare",
+              "options": [
+                "to bring; to take (someone somewhere)",
+                "to carry a passport",
+                "to wear",
+                "to leave"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Portare' = to bring, to take along: 'Porto un regalo a Giulia.' 💛 'Ti porterò a Venezia.' — I'll take you to Venice.",
+              "dictionaryRefs": [
+                "portare"
+              ]
+            },
+            {
+              "id": "u31l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la promessa",
+              "options": [
+                "the promise",
+                "the plan",
+                "the appointment",
+                "the permission"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La promessa' (f) = the promise. 'È una promessa.' — It's a promise. The future tense loves promises.",
+              "dictionaryRefs": [
+                "la-promessa"
+              ]
+            },
+            {
+              "id": "u31l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dopodomani",
+              "options": [
+                "the day after tomorrow",
+                "tomorrow morning",
+                "in two weeks",
+                "after lunch"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dopodomani' = the day after tomorrow — dopo (after, Unit 30) + domani (Unit 16), one word.",
+              "dictionaryRefs": [
+                "dopodomani",
+                "domani"
+              ]
+            },
+            {
+              "id": "u31l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "prossimo",
+              "options": [
+                "next",
+                "last",
+                "near",
+                "following week"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Prossimo' = next — an -o adjective: la settimana prossima, sabato prossimo, l'anno prossimo (next year).",
+              "dictionaryRefs": [
+                "prossimo"
+              ]
+            },
+            {
+              "id": "u31l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "presto",
+              "options": [
+                "soon; early",
+                "fast",
+                "late",
+                "immediately"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Presto' = soon (and early). 'A presto!' — See you soon! 💛",
+              "dictionaryRefs": [
+                "presto"
+              ]
+            },
+            {
+              "id": "u31l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il futuro",
+              "options": [
+                "the future",
+                "the plan",
+                "the promise",
+                "the destiny"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il futuro' (m) = the future. 'Il futuro è bello.' — The future is nice/bright.",
+              "dictionaryRefs": [
+                "il-futuro",
+                "bello"
+              ]
+            },
+            {
+              "id": "u31l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I bring a gift for Giulia.) (Unit 17 recycling)",
+              "sentence": "___ un regalo per Giulia.",
+              "answers": [
+                "Porto",
+                "Io porto"
+              ],
+              "explanation": "'Porto un regalo per Giulia.' — portare, io-form: porto. Regular -are. 💛",
+              "dictionaryRefs": [
+                "portare",
+                "il-regalo"
+              ]
+            },
+            {
+              "id": "u31l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "See you soon!",
+              "acceptedIt": [
+                "A presto!",
+                "A presto"
+              ],
+              "explanation": "'A presto!' — a (until) + presto (soon): until soon. The warm goodbye. 💛",
+              "dictionaryRefs": [
+                "presto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u31l2",
+          "type": "grammar",
+          "title": "Il futuro semplice",
+          "dictionaryRefs": [
+            "portare",
+            "la-promessa",
+            "dopodomani",
+            "prossimo",
+            "presto",
+            "il-futuro",
+            "andare",
+            "scrivere",
+            "uscire",
+            "il-mare"
+          ],
+          "grammarNotes": "IL FUTURO SEMPLICE — talking about tomorrow and beyond. One word, no helper: andrò = I will go.\n\nREGULAR: infinitive minus the final -e (-are: also a → e) + ò, ai, à, emo, ete, anno.\nparlare → parlerò, parlerai, parlerà, parleremo, parlerete, parleranno\nportare → porterò, porterai, porterà, porteremo, porterete, porteranno\nscrivere → scriverò, scriverai, scriverà, scriveremo, scriverete, scriveranno\nuscire → uscirò, uscirai, uscirà, usciremo, uscirete, usciranno\n\nTHE IRREGULAR STEMS — memorize these five:\n• andare → andr-: andrò, andrai, andrà, andremo, andrete, andranno\n• fare → far-: farò, farai, farà, faremo, farete, faranno\n• essere → sar-: sarò, sarai, sarà, saremo, sarete, saranno\n• avere → avr-: avrò, avrai, avrà, avremo, avrete, avranno\n• venire → verr-: verrò, verrai, verrà, verremo, verrete, verranno\n• volere → vorr-: vorrò, vorrai, vorrà, vorremo, vorrete, vorranno\n• potere → potr-: potrò, potrai, potrà, potremo, potrete, potranno\n\nWHEN — plans, predictions, promises:\n• 'Domani andrò al mare.' — Tomorrow I'll go to the seaside.\n• 'Sarà una bella festa.' — It will be a nice party.\n• 💛 'Ti porterò a Venezia.' — I'll take you to Venice. (ti = to you — Unit 33 makes it official)\n\nNOTE: for plans Italians often just use the present ('Domani vado al mare' — Unit 16). The future adds intention or promise.",
+          "exercises": [
+            {
+              "id": "u31l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Tomorrow I'll go to the seaside.) (Unit 20 recycling)",
+              "sentence": "Domani ___ al mare.",
+              "answers": [
+                "andrò",
+                "andro'",
+                "io andrò"
+              ],
+              "explanation": "'Domani andrò al mare.' — andare's future stem is irregular: andr-. The endings stay regular: -ò, -ai, -à…",
+              "dictionaryRefs": [
+                "domani",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u31l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (On Saturday we'll take a walk.) (Unit 21 recycling)",
+              "sentence": "Sabato ___ una passeggiata.",
+              "answers": [
+                "faremo"
+              ],
+              "explanation": "'Sabato faremo una passeggiata.' — fare → far- + emo (noi). The fare chunk works in the future too.",
+              "dictionaryRefs": [
+                "fare",
+                "la-passeggiata"
+              ]
+            },
+            {
+              "id": "u31l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia will be happy.) (Unit 6 recycling)",
+              "sentence": "Giulia ___ contenta.",
+              "answers": [
+                "sarà",
+                "sara'"
+              ],
+              "explanation": "'Giulia sarà contenta.' — essere → sar- + à. Watch the accent: sarà (will be) is not sara.",
+              "dictionaryRefs": [
+                "contento"
+              ]
+            },
+            {
+              "id": "u31l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (They will arrive tomorrow.) (Unit 27 recycling)",
+              "sentence": "Loro ___ domani.",
+              "answers": [
+                "arriveranno",
+                "arriveranno'"
+              ],
+              "explanation": "'Loro arriveranno domani.' — arrivare is regular: arriver- + anno. Double r, double n: arriveranno.",
+              "dictionaryRefs": [
+                "arrivare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u31l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'll take you to Venice.",
+              "acceptedIt": [
+                "Ti porterò a Venezia.",
+                "Ti porterò a Venezia",
+                "Ti portero' a Venezia",
+                "Io ti porterò a Venezia"
+              ],
+              "explanation": "'Ti porterò a Venezia.' — ti (to you) + porterò (portare + ò) + a Venezia. 💛 The promise sentence of Phase 3.",
+              "dictionaryRefs": [
+                "portare"
+              ]
+            },
+            {
+              "id": "u31l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 21 recycling)",
+              "sourceEn": "Tomorrow we will go out.",
+              "acceptedIt": [
+                "Domani usciremo.",
+                "Domani usciremo",
+                "Noi usciremo domani",
+                "Domani noi usciremo"
+              ],
+              "explanation": "'Domani usciremo.' — uscire is regular in the future: uscir- + emo. (The irregular esco is only the present.)",
+              "dictionaryRefs": [
+                "domani",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u31l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 17 recycling)",
+              "sourceIt": "Sarà una bella festa.",
+              "acceptedEn": [
+                "It will be a nice party.",
+                "It will be a beautiful party."
+              ],
+              "explanation": "'Sarà una bella festa.' — sarà (essere, lui/lei) + una bella festa (Unit 17).",
+              "dictionaryRefs": [
+                "la-festa",
+                "bello"
+              ]
+            },
+            {
+              "id": "u31l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the future form. (I'll write to you tomorrow.) 💛 (Unit 19 recycling)",
+              "question": "Ti ___ domani.",
+              "options": [
+                "scriverò",
+                "scrivo",
+                "scriverai",
+                "scriverete"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ti scriverò domani.' — scrivere → scriver- + ò. Scriverai is tu, scriverete is voi; scrivo is the present.",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u31l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 20 recycling)",
+              "tokens": [
+                "Domani",
+                "andrò",
+                "al",
+                "mare."
+              ],
+              "correctSentence": "Domani andrò al mare.",
+              "explanation": "'Domani andrò al mare.' — domani + andrò + al mare. The day opens the sentence.",
+              "dictionaryRefs": [
+                "domani",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u31l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 21 recycling)",
+              "tokens": [
+                "Faremo",
+                "una",
+                "passeggiata."
+              ],
+              "correctSentence": "Faremo una passeggiata.",
+              "explanation": "'Faremo una passeggiata.' — faremo (noi) + una passeggiata. We'll take a walk.",
+              "dictionaryRefs": [
+                "fare",
+                "la-passeggiata"
+              ]
+            },
+            {
+              "id": "u31l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ti",
+                "scriverò",
+                "domani."
+              ],
+              "correctSentence": "Ti scriverò domani.",
+              "explanation": "'Ti scriverò domani.' — ti + scriverò + domani. 💛 A small promise, in the future tense.",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u31l3",
+          "type": "mixed",
+          "title": "Progetti: ripasso 💛",
+          "dictionaryRefs": [
+            "domani",
+            "il-weekend",
+            "la-cena",
+            "il-mare",
+            "andare",
+            "fare",
+            "il-cinema",
+            "la-sorpresa",
+            "la-sera",
+            "portare",
+            "la-promessa",
+            "dopodomani",
+            "prossimo",
+            "presto",
+            "il-futuro"
+          ],
+          "exercises": [
+            {
+              "id": "u31l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+20 recycling)",
+              "sourceEn": "Next week we'll go to the seaside.",
+              "acceptedIt": [
+                "La settimana prossima andremo al mare.",
+                "La settimana prossima andremo al mare",
+                "Andremo al mare la settimana prossima"
+              ],
+              "explanation": "'La settimana prossima andremo al mare.' — prossima agrees with settimana (f sing); andremo (noi, andr- + emo).",
+              "dictionaryRefs": [
+                "prossimo",
+                "la-settimana",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u31l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Dopodomani è domenica.",
+              "options": [
+                "The day after tomorrow is Sunday.",
+                "Tomorrow is Sunday.",
+                "The day after tomorrow is Saturday.",
+                "Sunday is tomorrow."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dopodomani è domenica.' — dopo + domani: the day after tomorrow. Days take essere (Unit 16).",
+              "dictionaryRefs": [
+                "dopodomani"
+              ]
+            },
+            {
+              "id": "u31l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (What will you do tomorrow?) (Unit 8+16 recycling)",
+              "sentence": "Cosa ___ domani?",
+              "answers": [
+                "farai"
+              ],
+              "explanation": "'Cosa farai domani?' — fare → far- + ai (tu). The future of 'Cosa fai?'",
+              "dictionaryRefs": [
+                "fare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u31l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 20 recycling)",
+              "sourceIt": "Ti porterò al mare.",
+              "acceptedEn": [
+                "I'll take you to the seaside.",
+                "I will take you to the sea."
+              ],
+              "explanation": "'Ti porterò al mare.' — ti + porterò + al mare. 💛 The Venezia promise, nearer home.",
+              "dictionaryRefs": [
+                "portare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u31l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Dinner will be at eight.) (Unit 15+16 recycling)",
+              "sentence": "La cena ___ alle otto.",
+              "answers": [
+                "sarà",
+                "sara'"
+              ],
+              "explanation": "'La cena sarà alle otto.' — essere → sarà. Or simply the present: 'La cena è alle otto' (Unit 15).",
+              "dictionaryRefs": [
+                "la-cena",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u31l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 26 recycling)",
+              "question": "Farò una sorpresa a Giulia.",
+              "options": [
+                "I'll surprise Giulia. / I'll prepare a surprise for Giulia.",
+                "I made a surprise for Giulia.",
+                "I'll take a surprise from Giulia.",
+                "Giulia will surprise me."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Farò una sorpresa a Giulia.' — farò (fare, future) + una sorpresa + a Giulia. 💛",
+              "dictionaryRefs": [
+                "fare",
+                "la-sorpresa"
+              ]
+            },
+            {
+              "id": "u31l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 20 recycling)",
+              "tokens": [
+                "Andremo",
+                "al",
+                "cinema",
+                "presto."
+              ],
+              "correctSentence": "Andremo al cinema presto.",
+              "explanation": "'Andremo al cinema presto.' — andremo + al cinema + presto. We'll go to the movies soon.",
+              "dictionaryRefs": [
+                "andare",
+                "il-cinema",
+                "presto"
+              ]
+            },
+            {
+              "id": "u31l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "It's a promise: tomorrow I'll study.",
+              "acceptedIt": [
+                "È una promessa: domani studierò.",
+                "È una promessa: domani studio.",
+                "E' una promessa: domani studierò",
+                "È una promessa, domani studio"
+              ],
+              "explanation": "'È una promessa: domani studierò.' — or with the present for plans: 'domani studio'. Both are correct Italian.",
+              "dictionaryRefs": [
+                "la-promessa",
+                "domani",
+                "studiare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u31l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "portare",
+            "presto",
+            "dopodomani",
+            "scrivere",
+            "domani",
+            "andare",
+            "il-mare",
+            "la-festa",
+            "bello",
+            "partire"
+          ],
+          "exercises": [
+            {
+              "id": "u31l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 20 recycling)",
+              "mode": "choice",
+              "speakIt": "Domani andrò al mare.",
+              "options": [
+                "Tomorrow I'll go to the seaside.",
+                "Tomorrow I go to the sea.",
+                "Yesterday I went to the seaside.",
+                "Tomorrow we'll go to the sea."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Domani andrò al mare.' — andrò (io) + al mare. The -ò ending = I, will.",
+              "dictionaryRefs": [
+                "domani",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u31l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 17 recycling)",
+              "mode": "type",
+              "speakIt": "Sarà una bella festa.",
+              "acceptedIt": [
+                "Sarà una bella festa.",
+                "Sarà una bella festa",
+                "Sara' una bella festa"
+              ],
+              "explanation": "You heard: 'Sarà una bella festa.' — It will be a nice party. Sarà with the accent.",
+              "dictionaryRefs": [
+                "la-festa",
+                "bello"
+              ]
+            },
+            {
+              "id": "u31l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Ti scriverò domani.",
+              "options": [
+                "I'll write to you tomorrow.",
+                "I'll write to you today.",
+                "I'll call you tomorrow.",
+                "You write to me tomorrow."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ti scriverò domani.' — I'll write to you tomorrow. 💛",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u31l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: See you soon! 💛",
+              "targetIt": "A presto!",
+              "minAccuracy": 0.7,
+              "explanation": "'A presto!' — a PRES-to. Until soon. 💛",
+              "dictionaryRefs": [
+                "presto"
+              ]
+            },
+            {
+              "id": "u31l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'll take you to Venice. 💛",
+              "targetIt": "Ti porterò a Venezia.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ti porterò a Venezia.' — ti por-te-RÒ a ve-NE-tsya. 💛 The promise, out loud.",
+              "dictionaryRefs": [
+                "portare"
+              ]
+            },
+            {
+              "id": "u31l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 27 recycling)",
+              "mode": "type",
+              "speakIt": "Dopodomani parto.",
+              "acceptedIt": [
+                "Dopodomani parto.",
+                "Dopodomani parto",
+                "Dopodomani io parto"
+              ],
+              "explanation": "You heard: 'Dopodomani parto.' — I leave the day after tomorrow. The present tense works for near plans; 'Dopodomani partirò' is the full future.",
+              "dictionaryRefs": [
+                "dopodomani",
+                "partire"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u31c",
+        "exercises": [
+          {
+            "id": "u31ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "dopodomani",
+            "options": [
+              "the day after tomorrow",
+              "tomorrow morning",
+              "next week",
+              "after dinner"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Dopodomani' = the day after tomorrow. Dopo + domani, one word.",
+            "dictionaryRefs": [
+              "dopodomani"
+            ]
+          },
+          {
+            "id": "u31ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Tomorrow we'll go to the movies.) (Unit 20 recycling)",
+            "sentence": "Domani ___ al cinema.",
+            "answers": [
+              "andremo"
+            ],
+            "explanation": "'Domani andremo al cinema.' — andare → andr- + emo (noi).",
+            "dictionaryRefs": [
+              "domani",
+              "andare",
+              "il-cinema"
+            ]
+          },
+          {
+            "id": "u31ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 17 recycling)",
+            "sourceEn": "It will be a nice party.",
+            "acceptedIt": [
+              "Sarà una bella festa.",
+              "Sarà una bella festa",
+              "Sara' una bella festa"
+            ],
+            "explanation": "'Sarà una bella festa.' — essere → sar- + à. The accent carries the future.",
+            "dictionaryRefs": [
+              "la-festa",
+              "bello"
+            ]
+          },
+          {
+            "id": "u31ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Ti porterò a Venezia.",
+            "acceptedEn": [
+              "I'll take you to Venice.",
+              "I will take you to Venice."
+            ],
+            "explanation": "'Ti porterò a Venezia.' — ti (to you) + porterò (I will take/bring). 💛",
+            "dictionaryRefs": [
+              "portare"
+            ]
+          },
+          {
+            "id": "u31ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the future form. (We'll arrive soon.) (Unit 27 recycling)",
+            "question": "Noi ___ presto.",
+            "options": [
+              "arriveremo",
+              "arriveremmo",
+              "arriverete",
+              "arrivaremo"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Noi arriveremo presto.' — arrivare is regular in the future: arriver- + emo. ('Arriveremmo' is the conditional — Unit 41.)",
+            "dictionaryRefs": [
+              "arrivare",
+              "presto"
+            ]
+          },
+          {
+            "id": "u31ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Next week I go to Rome.) (Unit 16 recycling)",
+            "sentence": "La settimana ___ vado a Roma.",
+            "answers": [
+              "prossima"
+            ],
+            "explanation": "'La settimana prossima vado a Roma.' — prossimo agrees: la settimana prossima. The present is fine for a fixed plan.",
+            "dictionaryRefs": [
+              "prossimo",
+              "la-settimana",
+              "andare"
+            ]
+          },
+          {
+            "id": "u31ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Ti",
+              "scriverò",
+              "domani."
+            ],
+            "correctSentence": "Ti scriverò domani.",
+            "explanation": "'Ti scriverò domani.' — ti + scriverò + domani. 💛",
+            "dictionaryRefs": [
+              "scrivere",
+              "domani"
+            ]
+          },
+          {
+            "id": "u31ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 21 recycling)",
+            "mode": "choice",
+            "speakIt": "Faremo una passeggiata.",
+            "options": [
+              "We'll take a walk.",
+              "We're taking a walk.",
+              "We took a walk.",
+              "We make a walk."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Faremo una passeggiata.' — faremo (fare → far- + emo). The future of the Unit 21 chunk.",
+            "dictionaryRefs": [
+              "fare",
+              "la-passeggiata"
+            ]
+          },
+          {
+            "id": "u31ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 18 recycling)",
+            "mode": "type",
+            "speakIt": "Andrò a Roma.",
+            "acceptedIt": [
+              "Andrò a Roma.",
+              "Andrò a Roma",
+              "Io andrò a Roma",
+              "Andro' a Roma"
+            ],
+            "explanation": "You heard: 'Andrò a Roma.' — I will go to Rome. Andare → andr- + ò.",
+            "dictionaryRefs": [
+              "andare"
+            ]
+          },
+          {
+            "id": "u31ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: It will be nice. (Unit 6 recycling)",
+            "targetIt": "Sarà bello.",
+            "minAccuracy": 0.7,
+            "explanation": "'Sarà bello.' — sa-RÀ BEL-lo. It will be nice. 💛",
+            "dictionaryRefs": [
+              "bello"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -25769,6 +26554,104 @@
         }
       ],
       "introducedInUnit": 30
+    },
+    {
+      "id": "portare",
+      "word": "portare",
+      "translation": "to bring; to take (someone somewhere)",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Porto un regalo per Giulia.",
+          "en": "I bring a gift for Giulia."
+        },
+        {
+          "it": "Ti porterò a Venezia.",
+          "en": "I'll take you to Venice."
+        }
+      ],
+      "introducedInUnit": 31
+    },
+    {
+      "id": "la-promessa",
+      "word": "promessa",
+      "article": "la",
+      "translation": "promise",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "È una promessa.",
+          "en": "It's a promise."
+        },
+        {
+          "it": "È una promessa: domani studierò.",
+          "en": "It's a promise: tomorrow I'll study."
+        }
+      ],
+      "introducedInUnit": 31
+    },
+    {
+      "id": "dopodomani",
+      "word": "dopodomani",
+      "translation": "the day after tomorrow",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Dopodomani è domenica.",
+          "en": "The day after tomorrow is Sunday."
+        }
+      ],
+      "introducedInUnit": 31
+    },
+    {
+      "id": "prossimo",
+      "word": "prossimo",
+      "translation": "next",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "La settimana prossima andremo al mare.",
+          "en": "Next week we'll go to the seaside."
+        },
+        {
+          "it": "Sabato prossimo.",
+          "en": "Next Saturday."
+        }
+      ],
+      "introducedInUnit": 31
+    },
+    {
+      "id": "presto",
+      "word": "presto",
+      "translation": "soon; early",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "A presto!",
+          "en": "See you soon!"
+        },
+        {
+          "it": "Andremo al cinema presto.",
+          "en": "We'll go to the movies soon."
+        }
+      ],
+      "introducedInUnit": 31
+    },
+    {
+      "id": "il-futuro",
+      "word": "futuro",
+      "article": "il",
+      "translation": "future",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il futuro è bello.",
+          "en": "The future is bright."
+        }
+      ],
+      "introducedInUnit": 31
     }
   ],
   "stories": [

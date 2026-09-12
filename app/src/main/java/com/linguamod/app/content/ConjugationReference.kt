@@ -54,6 +54,13 @@ object ConjugationReference {
         "alzare" to Paradigm(listOf("alzo", "alzi", "alza", "alziamo", "alzate", "alzano")),
         "vestire" to Paradigm(listOf("vesto", "vesti", "veste", "vestiamo", "vestite", "vestono")),
         "divertire" to Paradigm(listOf("diverto", "diverti", "diverte", "divertiamo", "divertite", "divertono")),
+        // Stage 6 batch 2
+        "portare" to Paradigm(listOf("porto", "porti", "porta", "portiamo", "portate", "portano")),
+        "mandare" to Paradigm(listOf("mando", "mandi", "manda", "mandiamo", "mandate", "mandano")),
+        "rispondere" to Paradigm(listOf("rispondo", "rispondi", "risponde", "rispondiamo", "rispondete", "rispondono")),
+        "telefonare" to Paradigm(listOf("telefono", "telefoni", "telefona", "telefoniamo", "telefonate", "telefonano")),
+        "pensare" to Paradigm(listOf("penso", "pensi", "pensa", "pensiamo", "pensate", "pensano")),
+        "entrare" to Paradigm(listOf("entro", "entri", "entra", "entriamo", "entrate", "entrano")),
         "piacere" to Paradigm(listOf("piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono")),
         // Stage 6 extensions
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),
@@ -87,6 +94,9 @@ object ConjugationReference {
         "svegliare" to "svegliato", "alzare" to "alzato", "vestire" to "vestito",
         "divertire" to "divertito", "tornare" to "tornato", "entrare" to "entrato",
         "salire" to "salito", "diventare" to "diventato",
+        // Stage 6 batch 2
+        "mandare" to "mandato", "telefonare" to "telefonato", "pensare" to "pensato",
+        "portare" to "portato",
     )
 
     /** Verbs taking essere as auxiliary in passato prossimo (Stage 6, Unit 27).
@@ -109,6 +119,17 @@ object ConjugationReference {
         "fare" to Paradigm(listOf("farò", "farai", "farà", "faremo", "farete", "faranno")),
         "essere" to Paradigm(listOf("sarò", "sarai", "sarà", "saremo", "sarete", "saranno")),
         "avere" to Paradigm(listOf("avrò", "avrai", "avrà", "avremo", "avrete", "avranno")),
+        // Unit 31 content verbs
+        "portare" to Paradigm(listOf("porterò", "porterai", "porterà", "porteremo", "porterete", "porteranno")),
+        "scrivere" to Paradigm(listOf("scriverò", "scriverai", "scriverà", "scriveremo", "scriverete", "scriveranno")),
+        "uscire" to Paradigm(listOf("uscirò", "uscirai", "uscirà", "usciremo", "uscirete", "usciranno")),
+        "dormire" to Paradigm(listOf("dormirò", "dormirai", "dormirà", "dormiremo", "dormirete", "dormiranno")),
+        "prenotare" to Paradigm(listOf("prenoterò", "prenoterai", "prenoterà", "prenoteremo", "prenoterete", "prenoteranno")),
+        "arrivare" to Paradigm(listOf("arriverò", "arriverai", "arriverà", "arriveremo", "arriverete", "arriveranno")),
+        "venire" to Paradigm(listOf("verrò", "verrai", "verrà", "verremo", "verrete", "verranno")),
+        "volere" to Paradigm(listOf("vorrò", "vorrai", "vorrà", "vorremo", "vorrete", "vorranno")),
+        "potere" to Paradigm(listOf("potrò", "potrai", "potrà", "potremo", "potrete", "potranno")),
+        "dovere" to Paradigm(listOf("dovrò", "dovrai", "dovrà", "dovremo", "dovrete", "dovranno")),
     )
 
     /** Conditional present (Stage 7). */
