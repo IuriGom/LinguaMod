@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 27,
+    "version": 28,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -24927,6 +24927,774 @@
           }
         ]
       }
+    },
+    {
+      "id": "u34",
+      "number": 34,
+      "title": "Ci",
+      "lessons": [
+        {
+          "id": "u34l1",
+          "type": "vocabulary",
+          "title": "Ci vediamo! Stasera, il gelato",
+          "dictionaryRefs": [
+            "ci-vediamo",
+            "pensare",
+            "la-cosa",
+            "il-gelato",
+            "stasera"
+          ],
+          "exercises": [
+            {
+              "id": "u34l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "ci vediamo",
+              "options": [
+                "see you; we'll see each other",
+                "we see",
+                "see us",
+                "let's watch"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci vediamo!' = See you! — literally 'we see each other'. 'Ci vediamo domani!' — See you tomorrow. 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "domani"
+              ]
+            },
+            {
+              "id": "u34l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "pensare",
+              "options": [
+                "to think",
+                "to think about it",
+                "to believe",
+                "to plan"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Pensare' = to think: 'Penso a te.' — I think of you. With ci: 'Ci penso io.' — I'll think about it.",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la cosa",
+              "options": [
+                "the thing",
+                "the cause",
+                "the question",
+                "the case"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La cosa' (f) = the thing. 'Ci sono cose belle.' — There are nice things. You know 'cosa' from 'Cosa fai?' (Unit 7).",
+              "dictionaryRefs": [
+                "la-cosa"
+              ]
+            },
+            {
+              "id": "u34l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il gelato",
+              "options": [
+                "the ice cream",
+                "the dessert",
+                "the frozen yogurt",
+                "the sorbet"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il gelato' (m) = the ice cream. 💛 'Vuoi un gelato?' — Do you want an ice cream? Italy's sweetest invitation.",
+              "dictionaryRefs": [
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u34l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "stasera",
+              "options": [
+                "tonight; this evening",
+                "this afternoon",
+                "last night",
+                "late"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Stasera' = tonight (questa + sera, contracted). 'Cosa fai stasera?' — What are you doing tonight? 💛",
+              "dictionaryRefs": [
+                "stasera"
+              ]
+            },
+            {
+              "id": "u34l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I'll think about it.)",
+              "sentence": "___ penso io.",
+              "answers": [
+                "Ci"
+              ],
+              "explanation": "'Ci penso io.' — ci = about it, penso = I think (pensare). The calm answer to a complicated plan.",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "See you tomorrow!",
+              "acceptedIt": [
+                "Ci vediamo domani!",
+                "Ci vediamo domani"
+              ],
+              "explanation": "'Ci vediamo domani!' — ci (each other) + vediamo + domani. 💛 The goodbye that makes a plan.",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "domani"
+              ]
+            },
+            {
+              "id": "u34l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Cosa fai stasera?",
+              "acceptedEn": [
+                "What are you doing tonight?"
+              ],
+              "explanation": "'Cosa fai stasera?' — cosa + fai + stasera (tonight). 💛 The question that opens the evening.",
+              "dictionaryRefs": [
+                "stasera",
+                "fare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u34l2",
+          "type": "grammar",
+          "title": "Ci: là, di questa cosa, noi due",
+          "dictionaryRefs": [
+            "ci-vediamo",
+            "pensare",
+            "la-cosa",
+            "stasera",
+            "il-gelato",
+            "il-bar",
+            "il-cinema",
+            "la-festa",
+            "ce",
+            "ci-sono"
+          ],
+          "grammarNotes": "CI — one syllable, three jobs. You already know two of its cousins: c'è / ci sono (Unit 4).\n\n1. CI = THERE — it replaces a place (a + place, in + place):\n'Vai al bar domani?' — 'Sì, ci vado domani.' — Yes, I'm going (there) tomorrow.\n'Conosci il museo?' — 'Sì, ci vado domani.' — Yes, I'm going (there) tomorrow.\n\n2. CI = ABOUT IT — with pensare and friends:\n'Ci penso io.' — I'll think about it. 'Ci pensi?' — Are you thinking about it?\n\n3. CI = EACH OTHER — the reflexive 'we':\n'Ci vediamo domani!' — See you tomorrow! (we see each other)\n'Ci sentiamo!' — Talk soon! (we hear each other — on the phone)\n\nC'È / CI SONO, REVIEW: 'Stasera c'è un film bello al cinema.' — Tonight there's a nice film at the cinema. 'Ci sono due cose.' — There are two things.\n\nWHY so small a word: Italian hates repeating places and topics. The answer to 'where/about what' collapses into ci before the verb.",
+          "exercises": [
+            {
+              "id": "u34l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. (Are you going to the bar tomorrow? — Yes, I'm going there.) (Unit 5 recycling)",
+              "sentence": "'Vai al bar domani?' — 'Sì, ___ vado domani.'",
+              "answers": [
+                "ci"
+              ],
+              "explanation": "'Sì, ci vado domani.' — ci replaces 'al bar': I'm going THERE. Before the verb, like the pronouns of Units 19/33.",
+              "dictionaryRefs": [
+                "il-bar",
+                "andare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u34l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'll think about it.)",
+              "sentence": "___ penso io.",
+              "answers": [
+                "Ci"
+              ],
+              "explanation": "'Ci penso io.' — ci (about it) + penso (pensare) + io for emphasis.",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (See you tonight!)",
+              "sentence": "___ vediamo stasera!",
+              "answers": [
+                "Ci"
+              ],
+              "explanation": "'Ci vediamo stasera!' — ci (each other) + vediamo + stasera. 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u34l2e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Ci vediamo!",
+              "options": [
+                "See you!",
+                "We see it.",
+                "We see each other.",
+                "Watch us!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci vediamo!' = See you! Literally 'we see each other' — the reflexive we. (Option 3 is the literal machinery; option 1 is what it means.)",
+              "dictionaryRefs": [
+                "ci-vediamo"
+              ]
+            },
+            {
+              "id": "u34l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I'll think about it.",
+              "acceptedIt": [
+                "Ci penso io.",
+                "Ci penso io",
+                "Ci penso",
+                "Io ci penso"
+              ],
+              "explanation": "'Ci penso io.' — ci + penso + io. The io at the end is pure emphasis: *I*'ll handle it.",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 17 recycling)",
+              "sourceEn": "Are you going to the party? — Yes, I'm going.",
+              "acceptedIt": [
+                "Vai alla festa? Sì, ci vado.",
+                "Vai alla festa? Sì, ci vado",
+                "Vai alla festa? — Sì, ci vado"
+              ],
+              "explanation": "'Sì, ci vado.' — ci = alla festa (there). No need to repeat the place.",
+              "dictionaryRefs": [
+                "la-festa",
+                "andare"
+              ]
+            },
+            {
+              "id": "u34l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 13 recycling)",
+              "sourceIt": "Ci sono cose belle.",
+              "acceptedEn": [
+                "There are nice things.",
+                "There are beautiful things."
+              ],
+              "explanation": "'Ci sono cose belle.' — ci sono (there are, Unit 4) + cose belle (plural of la cosa; belle agrees).",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-cosa",
+                "bello"
+              ]
+            },
+            {
+              "id": "u34l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 19+20 recycling)",
+              "sourceIt": "Stasera c'è un film bello al cinema.",
+              "acceptedEn": [
+                "Tonight there's a nice film at the cinema."
+              ],
+              "explanation": "'Stasera c'è un film bello al cinema.' — stasera + c'è + un film bello + al cinema. 💛",
+              "dictionaryRefs": [
+                "stasera",
+                "ce",
+                "il-film",
+                "bello",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u34l2e9",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 8+22 recycling)",
+              "question": "Quante cose ci sono?",
+              "options": [
+                "How many things are there?",
+                "How much are the things?",
+                "Where are the things?",
+                "Which things are there?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Quante cose ci sono?' — quante (f pl, Unit 8) + cose + ci sono. The Unit 22 pattern with the new word.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-cosa",
+                "quanto"
+              ]
+            },
+            {
+              "id": "u34l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ci",
+                "vediamo",
+                "stasera!"
+              ],
+              "correctSentence": "Ci vediamo stasera!",
+              "explanation": "'Ci vediamo stasera!' — ci + vediamo + stasera. 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u34l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 16 recycling)",
+              "tokens": [
+                "Ci",
+                "vado",
+                "domani."
+              ],
+              "correctSentence": "Ci vado domani.",
+              "explanation": "'Ci vado domani.' — ci (there) + vado + domani. The place is already known.",
+              "dictionaryRefs": [
+                "andare",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u34l3",
+          "type": "mixed",
+          "title": "Stasera: ripasso 💛",
+          "dictionaryRefs": [
+            "il-cinema",
+            "la-festa",
+            "il-film",
+            "andare",
+            "ce",
+            "ci-sono",
+            "domani",
+            "la-sera",
+            "ci-vediamo",
+            "pensare",
+            "la-cosa",
+            "il-gelato",
+            "stasera"
+          ],
+          "exercises": [
+            {
+              "id": "u34l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you want an ice cream tonight?",
+              "acceptedIt": [
+                "Vuoi un gelato stasera?",
+                "Vuoi un gelato stasera",
+                "Tu vuoi un gelato stasera?"
+              ],
+              "explanation": "'Vuoi un gelato stasera?' — vuoi (volere, Unit 32) + un gelato + stasera. 💛 The easiest yes in Italy.",
+              "dictionaryRefs": [
+                "volere",
+                "il-gelato",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u34l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Ci penso io.",
+              "options": [
+                "I'll think about it.",
+                "I think so.",
+                "I think of you.",
+                "I'll do it myself."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci penso io.' — I'll think about it. Ci (about it) + penso + io (emphasis).",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'm going to the cinema tomorrow evening.) (Unit 16+20 recycling)",
+              "sentence": "Al cinema ___ vado domani sera.",
+              "answers": [
+                "ci"
+              ],
+              "explanation": "'Al cinema ci vado domani sera.' — the place first (al cinema), then ci repeats it: there. Domani sera (Units 16+10).",
+              "dictionaryRefs": [
+                "il-cinema",
+                "andare",
+                "domani",
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u34l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "C'è un gelato per te.",
+              "acceptedEn": [
+                "There's an ice cream for you."
+              ],
+              "explanation": "'C'è un gelato per te.' — c'è (there is) + un gelato + per te. 💛",
+              "dictionaryRefs": [
+                "ce",
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u34l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Tonight there are two films.) (Unit 4+19 recycling)",
+              "sentence": "Stasera ___ sono due film.",
+              "answers": [
+                "ci"
+              ],
+              "explanation": "'Stasera ci sono due film.' — ci sono (there are) + due film (invariable plural, Unit 19).",
+              "dictionaryRefs": [
+                "stasera",
+                "ci-sono",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u34l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 16 recycling)",
+              "question": "Ci vediamo alle nove?",
+              "options": [
+                "See you at nine?",
+                "Shall we see it at nine?",
+                "Are we visible at nine?",
+                "See you tomorrow?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci vediamo alle nove?' — ci vediamo + alle nove. 💛 The plan in one breath.",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u34l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Penso",
+                "a",
+                "te."
+              ],
+              "correctSentence": "Penso a te.",
+              "explanation": "'Penso a te.' — pensare a + person: I think of you. 💛",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 20+22 recycling)",
+              "sourceEn": "There are two cinemas here.",
+              "acceptedIt": [
+                "Ci sono due cinema qui.",
+                "Ci sono due cinema qui",
+                "Qui ci sono due cinema"
+              ],
+              "explanation": "'Ci sono due cinema qui.' — ci sono + due cinema (invariable plural) + qui (here, Unit 9).",
+              "dictionaryRefs": [
+                "ci-sono",
+                "il-cinema"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u34l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "ci-vediamo",
+            "stasera",
+            "il-gelato",
+            "pensare",
+            "domani",
+            "la-sorpresa",
+            "ce",
+            "volere"
+          ],
+          "exercises": [
+            {
+              "id": "u34l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Ci vediamo stasera.",
+              "options": [
+                "See you tonight.",
+                "See you tomorrow.",
+                "We see it tonight.",
+                "See you there."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ci vediamo stasera.' — See you tonight. 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u34l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ci penso io.",
+              "acceptedIt": [
+                "Ci penso io.",
+                "Ci penso io"
+              ],
+              "explanation": "You heard: 'Ci penso io.' — I'll think about it.",
+              "dictionaryRefs": [
+                "pensare"
+              ]
+            },
+            {
+              "id": "u34l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Vuoi un gelato?",
+              "options": [
+                "Do you want an ice cream?",
+                "Do you want a coffee?",
+                "Do you like ice cream?",
+                "Do you have ice cream?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Vuoi un gelato?' — Do you want an ice cream? 💛",
+              "dictionaryRefs": [
+                "volere",
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u34l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: see you tomorrow! 💛",
+              "targetIt": "Ci vediamo domani!",
+              "minAccuracy": 0.7,
+              "explanation": "'Ci vediamo domani!' — chi ve-DYA-mo do-MA-ni. 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "domani"
+              ]
+            },
+            {
+              "id": "u34l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: do you want an ice cream tonight? 💛",
+              "targetIt": "Vuoi un gelato stasera?",
+              "minAccuracy": 0.7,
+              "explanation": "'Vuoi un gelato stasera?' — VWO-y un je-LA-to sta-SE-ra. 💛",
+              "dictionaryRefs": [
+                "volere",
+                "il-gelato",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u34l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 26 recycling)",
+              "mode": "type",
+              "speakIt": "C'è una sorpresa.",
+              "acceptedIt": [
+                "C'è una sorpresa.",
+                "C'è una sorpresa",
+                "C'e una sorpresa"
+              ],
+              "explanation": "You heard: 'C'è una sorpresa.' — There's a surprise. C'è + una sorpresa (Unit 26).",
+              "dictionaryRefs": [
+                "ce",
+                "la-sorpresa"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u34c",
+        "exercises": [
+          {
+            "id": "u34ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "stasera",
+            "options": [
+              "tonight",
+              "last night",
+              "this afternoon",
+              "tomorrow evening"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Stasera' = tonight. 'Cosa fai stasera?' 💛",
+            "dictionaryRefs": [
+              "stasera"
+            ]
+          },
+          {
+            "id": "u34ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. 💛 (See you tomorrow!)",
+            "sentence": "___ vediamo domani!",
+            "answers": [
+              "Ci"
+            ],
+            "explanation": "'Ci vediamo domani!' — ci (each other) + vediamo + domani.",
+            "dictionaryRefs": [
+              "ci-vediamo",
+              "domani"
+            ]
+          },
+          {
+            "id": "u34ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "See you tonight!",
+            "acceptedIt": [
+              "Ci vediamo stasera!",
+              "Ci vediamo stasera"
+            ],
+            "explanation": "'Ci vediamo stasera!' — the warmest goodbye. 💛",
+            "dictionaryRefs": [
+              "ci-vediamo",
+              "stasera"
+            ]
+          },
+          {
+            "id": "u34ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 4+34 recycling)",
+            "sourceIt": "Ci sono due cose.",
+            "acceptedEn": [
+              "There are two things."
+            ],
+            "explanation": "'Ci sono due cose.' — ci sono (there are) + due cose (plural of la cosa).",
+            "dictionaryRefs": [
+              "ci-sono",
+              "la-cosa"
+            ]
+          },
+          {
+            "id": "u34ce5",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il gelato",
+            "options": [
+              "the ice cream",
+              "the dessert",
+              "the iced coffee",
+              "the cake"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il gelato' (m) = the ice cream. 'Vuoi un gelato?' 💛",
+            "dictionaryRefs": [
+              "il-gelato"
+            ]
+          },
+          {
+            "id": "u34ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the answer. (The museum? I'm going there tomorrow.) (Unit 18 recycling)",
+            "sentence": "Il museo? ___ vado domani.",
+            "answers": [
+              "Ci"
+            ],
+            "explanation": "'Il museo? Ci vado domani.' — ci = to the museum (there). No repeating the place.",
+            "dictionaryRefs": [
+              "il-museo",
+              "andare",
+              "domani"
+            ]
+          },
+          {
+            "id": "u34ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Vuoi",
+              "un",
+              "gelato",
+              "stasera?"
+            ],
+            "correctSentence": "Vuoi un gelato stasera?",
+            "explanation": "'Vuoi un gelato stasera?' — vuoi + un gelato + stasera. 💛",
+            "dictionaryRefs": [
+              "volere",
+              "il-gelato",
+              "stasera"
+            ]
+          },
+          {
+            "id": "u34ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Ci penso io.",
+            "options": [
+              "I'll think about it.",
+              "I think so.",
+              "I'll do it.",
+              "I think of you."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ci penso io.' — ci (about it) + penso + io.",
+            "dictionaryRefs": [
+              "pensare"
+            ]
+          },
+          {
+            "id": "u34ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 26 recycling)",
+            "mode": "type",
+            "speakIt": "C'è una sorpresa.",
+            "acceptedIt": [
+              "C'è una sorpresa.",
+              "C'è una sorpresa",
+              "C'e una sorpresa"
+            ],
+            "explanation": "You heard: 'C'è una sorpresa.' — There's a surprise. 💛",
+            "dictionaryRefs": [
+              "ce",
+              "la-sorpresa"
+            ]
+          },
+          {
+            "id": "u34ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: see you tonight! 💛",
+            "targetIt": "Ci vediamo stasera!",
+            "minAccuracy": 0.7,
+            "explanation": "'Ci vediamo stasera!' — chi ve-DYA-mo sta-SE-ra. 💛",
+            "dictionaryRefs": [
+              "ci-vediamo",
+              "stasera"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -28391,6 +29159,95 @@
         }
       ],
       "introducedInUnit": 33
+    },
+    {
+      "id": "ci-vediamo",
+      "word": "ci vediamo",
+      "translation": "see you; we'll see each other",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Ci vediamo domani!",
+          "en": "See you tomorrow!"
+        },
+        {
+          "it": "Ci vediamo alle nove?",
+          "en": "See you at nine?"
+        }
+      ],
+      "introducedInUnit": 34
+    },
+    {
+      "id": "pensare",
+      "word": "pensare",
+      "translation": "to think",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ci penso io.",
+          "en": "I'll think about it."
+        },
+        {
+          "it": "Penso a te.",
+          "en": "I think of you."
+        }
+      ],
+      "introducedInUnit": 34
+    },
+    {
+      "id": "la-cosa",
+      "word": "cosa",
+      "article": "la",
+      "translation": "thing",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ci sono cose belle.",
+          "en": "There are nice things."
+        },
+        {
+          "it": "Ci sono due cose.",
+          "en": "There are two things."
+        }
+      ],
+      "introducedInUnit": 34
+    },
+    {
+      "id": "il-gelato",
+      "word": "gelato",
+      "article": "il",
+      "translation": "ice cream",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Vuoi un gelato?",
+          "en": "Do you want an ice cream?"
+        },
+        {
+          "it": "C'è un gelato per te.",
+          "en": "There's an ice cream for you."
+        }
+      ],
+      "introducedInUnit": 34
+    },
+    {
+      "id": "stasera",
+      "word": "stasera",
+      "translation": "tonight; this evening",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Cosa fai stasera?",
+          "en": "What are you doing tonight?"
+        },
+        {
+          "it": "Ci vediamo stasera!",
+          "en": "See you tonight!"
+        }
+      ],
+      "introducedInUnit": 34
     }
   ],
   "stories": [
