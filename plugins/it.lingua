@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 28,
+    "version": 29,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -25695,6 +25695,766 @@
           }
         ]
       }
+    },
+    {
+      "id": "u35",
+      "number": 35,
+      "title": "Ne",
+      "lessons": [
+        {
+          "id": "u35l1",
+          "type": "vocabulary",
+          "title": "Un pezzo, una bottiglia, un bicchiere",
+          "dictionaryRefs": [
+            "il-pezzo",
+            "la-bottiglia",
+            "il-bicchiere",
+            "il-chilo",
+            "la-meta"
+          ],
+          "exercises": [
+            {
+              "id": "u35l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il pezzo",
+              "options": [
+                "the piece",
+                "the slice",
+                "the bit",
+                "the price"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il pezzo' (m) = the piece. 'Un pezzo di pizza.' — A piece of pizza. (Un pezzo di… = a piece of…)",
+              "dictionaryRefs": [
+                "il-pezzo",
+                "la-pizza"
+              ]
+            },
+            {
+              "id": "u35l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la bottiglia",
+              "options": [
+                "the bottle",
+                "the glass",
+                "the jar",
+                "the can"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La bottiglia' (f) = the bottle. 'Una bottiglia d'acqua.' — A bottle of water. (di + acqua → d'acqua.)",
+              "dictionaryRefs": [
+                "la-bottiglia",
+                "acqua"
+              ]
+            },
+            {
+              "id": "u35l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il bicchiere",
+              "options": [
+                "the glass (for drinking)",
+                "the cup",
+                "the mug",
+                "the bottle"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il bicchiere' (m) = the drinking glass. 'Un bicchiere di vino, per favore.' — A glass of wine, please.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino"
+              ]
+            },
+            {
+              "id": "u35l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il chilo",
+              "options": [
+                "the kilo",
+                "the gram",
+                "the liter",
+                "the pound"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il chilo' (m) = the kilo. 'Un chilo di pasta.' — A kilo of pasta. Shopping Italian.",
+              "dictionaryRefs": [
+                "il-chilo",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u35l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la metà",
+              "options": [
+                "the half",
+                "the middle",
+                "the piece",
+                "the share"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La metà' (f) = the half. 'La metà, per favore.' — Half, please. Invariable: una metà, due metà.",
+              "dictionaryRefs": [
+                "la-meta"
+              ]
+            },
+            {
+              "id": "u35l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (A glass of wine, please.) (Unit 15 recycling)",
+              "sentence": "Un ___ di vino, per favore.",
+              "answers": [
+                "bicchiere"
+              ],
+              "explanation": "'Un bicchiere di vino, per favore.' — un bicchiere (m) + di + il vino → di vino (no contraction with di).",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u35l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 9 recycling)",
+              "sourceEn": "A bottle of water, please.",
+              "acceptedIt": [
+                "Una bottiglia d'acqua, per favore.",
+                "Una bottiglia d'acqua, per favore",
+                "Una bottiglia di acqua, per favore",
+                "Una bottiglia d'acqua per favore"
+              ],
+              "explanation": "'Una bottiglia d'acqua, per favore.' — una bottiglia + d'acqua (di drops to d' before the vowel).",
+              "dictionaryRefs": [
+                "la-bottiglia",
+                "acqua",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u35l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Un pezzo di pizza, per favore.",
+              "acceptedEn": [
+                "A piece of pizza, please."
+              ],
+              "explanation": "'Un pezzo di pizza, per favore.' — un pezzo + di + la pizza → di pizza.",
+              "dictionaryRefs": [
+                "il-pezzo",
+                "la-pizza",
+                "per-favore"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u35l2",
+          "type": "grammar",
+          "title": "Ne: quanti? Quante?",
+          "dictionaryRefs": [
+            "il-pezzo",
+            "la-bottiglia",
+            "il-bicchiere",
+            "il-chilo",
+            "la-meta",
+            "il-fratello",
+            "la-sorella",
+            "il-caffe",
+            "la-foto"
+          ],
+          "grammarNotes": "NE — the little word for 'of it / of them'. It answers a quantity question without repeating the noun.\n\nTHE PATTERN: question with quanti/quante + noun → answer with ne + the number:\n• 'Quanti fratelli hai?' — 'Ne ho due.' — I have two (of them).\n• 'Quante sorelle hai?' — 'Ne ho tre.'\n• 'Quanti caffè volete?' — 'Ne vogliamo due.' — We want two.\n• 'Vuoi la pasta?' — 'Ne voglio un chilo.' — I want a kilo of it.\n\nPOSITION: before the verb, like all the small pronouns (Units 19, 33, 34): ne ho, ne voglio, ne prendo.\n\nWHY: 'Ho due fratelli' repeats fratelli. 'Ne ho due' doesn't. Ne = di + the thing just mentioned.\n\nTHE CONTAINERS — quantity words with di:\n• un pezzo di pizza — a piece of pizza\n• una bottiglia d'acqua — a bottle of water (di → d' before a vowel)\n• un bicchiere di vino — a glass of wine\n• un chilo di pasta — a kilo of pasta\n• la metà — the half: 'Ne voglio la metà.' — I want half of it.\n\nIN THE PAST: 'Ne ho comprati due.' — I bought two of them. (Small extra: with ne the participle can agree — comprati, plural, for what ne replaces. Recognize it for now.)",
+          "exercises": [
+            {
+              "id": "u35l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. (How many brothers do you have? — I have two.) (Unit 14 recycling)",
+              "sentence": "'Quanti fratelli hai?' — '___ ho due.'",
+              "answers": [
+                "Ne"
+              ],
+              "explanation": "'Ne ho due.' — ne replaces 'fratelli': of them. Ho due fratelli → ne ho due.",
+              "dictionaryRefs": [
+                "il-fratello"
+              ]
+            },
+            {
+              "id": "u35l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. (Do you want a coffee? — Yes, I want one.) (Unit 9 recycling)",
+              "sentence": "'Vuoi un caffè?' — 'Sì, ___ voglio uno.'",
+              "answers": [
+                "ne"
+              ],
+              "explanation": "'Sì, ne voglio uno.' — ne (of it) + voglio + uno (one, masculine). One caffè.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "volere"
+              ]
+            },
+            {
+              "id": "u35l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. (How many photos do you have? — I have three.) (Unit 26 recycling)",
+              "sentence": "'Quante foto hai?' — '___ ho tre.'",
+              "answers": [
+                "Ne"
+              ],
+              "explanation": "'Ne ho tre.' — quante foto (f) → still ne; the number does the work: tre.",
+              "dictionaryRefs": [
+                "la-foto"
+              ]
+            },
+            {
+              "id": "u35l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I want two of them.",
+              "acceptedIt": [
+                "Ne voglio due.",
+                "Ne voglio due"
+              ],
+              "explanation": "'Ne voglio due.' — ne + voglio + due. I want two (of them).",
+              "dictionaryRefs": [
+                "volere"
+              ]
+            },
+            {
+              "id": "u35l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12+15 recycling)",
+              "sourceEn": "I'll take a bottle of water.",
+              "acceptedIt": [
+                "Prendo una bottiglia d'acqua.",
+                "Prendo una bottiglia d'acqua",
+                "Prendo una bottiglia di acqua",
+                "Io prendo una bottiglia d'acqua"
+              ],
+              "explanation": "'Prendo una bottiglia d'acqua.' — prendo (Unit 12's ordering verb) + una bottiglia + d'acqua.",
+              "dictionaryRefs": [
+                "prendere",
+                "la-bottiglia",
+                "acqua"
+              ]
+            },
+            {
+              "id": "u35l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ne ho tre.",
+              "acceptedEn": [
+                "I have three (of them).",
+                "I have three of them."
+              ],
+              "explanation": "'Ne ho tre.' — I have three of them. English needs 'of them'; Italian just needs ne.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u35l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 15 recycling)",
+              "sourceIt": "Un bicchiere di vino, per favore.",
+              "acceptedEn": [
+                "A glass of wine, please."
+              ],
+              "explanation": "'Un bicchiere di vino, per favore.' — the restaurant order with a quantity.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u35l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the right word. (Do you have sisters? — Yes, I have one.) (Unit 14 recycling)",
+              "question": "'Hai sorelle?' — 'Sì, ___ ho una.'",
+              "options": [
+                "ne",
+                "le",
+                "la",
+                "ci"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sì, ne ho una.' — a quantity question answers with ne. Le/la would point at specific sisters ('I have her'); ne counts them.",
+              "dictionaryRefs": [
+                "la-sorella"
+              ]
+            },
+            {
+              "id": "u35l2e9",
+              "type": "multiple_choice",
+              "prompt": "Choose the container. (A kilo of pasta, please.) (Unit 15 recycling)",
+              "question": "Un ___ di pasta, per favore.",
+              "options": [
+                "chilo",
+                "pezzo",
+                "bicchiere",
+                "bottiglia"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Un chilo di pasta.' — pasta by weight: un chilo. Un pezzo di pizza, un bicchiere di vino, una bottiglia d'acqua — each thing has its container.",
+              "dictionaryRefs": [
+                "il-chilo",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u35l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Ne",
+                "voglio",
+                "due."
+              ],
+              "correctSentence": "Ne voglio due.",
+              "explanation": "'Ne voglio due.' — ne first, then the verb, then the number.",
+              "dictionaryRefs": [
+                "volere"
+              ]
+            },
+            {
+              "id": "u35l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 15 recycling)",
+              "tokens": [
+                "Un",
+                "pezzo",
+                "di",
+                "pizza."
+              ],
+              "correctSentence": "Un pezzo di pizza.",
+              "explanation": "'Un pezzo di pizza.' — un pezzo + di + pizza. The container + di + the thing.",
+              "dictionaryRefs": [
+                "il-pezzo",
+                "la-pizza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u35l3",
+          "type": "mixed",
+          "title": "Quanti? Quante? — ripasso",
+          "dictionaryRefs": [
+            "quanti-anni-hai",
+            "il-fratello",
+            "la-sorella",
+            "il-caffe",
+            "acqua",
+            "il-vino",
+            "la-pizza",
+            "il-messaggio",
+            "il-pezzo",
+            "la-bottiglia",
+            "il-bicchiere",
+            "il-chilo",
+            "la-meta"
+          ],
+          "exercises": [
+            {
+              "id": "u35l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 4+14 recycling)",
+              "sourceEn": "How many brothers do you have? — I have two.",
+              "acceptedIt": [
+                "Quanti fratelli hai? — Ne ho due.",
+                "Quanti fratelli hai? Ne ho due",
+                "Quanti fratelli hai, ne ho due"
+              ],
+              "explanation": "'Quanti fratelli hai? — Ne ho due.' — the full exchange (Unit 14's question) with the new answer: ne ho due. 💛",
+              "dictionaryRefs": [
+                "quanti-anni-hai",
+                "il-fratello"
+              ]
+            },
+            {
+              "id": "u35l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Ne voglio due.",
+              "options": [
+                "I want two of them.",
+                "I want both.",
+                "I want two more.",
+                "I don't want two."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ne voglio due.' — I want two of them. Ne carries 'of it/of them'; due counts.",
+              "dictionaryRefs": [
+                "volere"
+              ]
+            },
+            {
+              "id": "u35l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'll take a glass of wine.) (Unit 12+15 recycling)",
+              "sentence": "Prendo un ___ di vino.",
+              "answers": [
+                "bicchiere"
+              ],
+              "explanation": "'Prendo un bicchiere di vino.' — prendo (ordering, Unit 12) + un bicchiere + di vino.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "prendere"
+              ]
+            },
+            {
+              "id": "u35l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 9 recycling)",
+              "sourceIt": "Una bottiglia d'acqua, per favore.",
+              "acceptedEn": [
+                "A bottle of water, please."
+              ],
+              "explanation": "'Una bottiglia d'acqua, per favore.' — una bottiglia + d'acqua (di → d' before the vowel).",
+              "dictionaryRefs": [
+                "la-bottiglia",
+                "acqua",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u35l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. (How old are you? — I'm twenty.) (Unit 4 recycling)",
+              "sentence": "'Quanti anni hai?' — '___ ho venti.'",
+              "answers": [
+                "Ne"
+              ],
+              "explanation": "'Ne ho venti.' — even age answers with ne: ne ho venti (of them, the years). The Unit 4 question, the Unit 35 answer.",
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
+            },
+            {
+              "id": "u35l3e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the right word. 💛 (Do you have messages? — Yes, I have one from Giulia.) (Unit 28 recycling)",
+              "question": "'Hai messaggi?' — 'Sì, ___ ho uno di Giulia.'",
+              "options": [
+                "ne",
+                "li",
+                "ci",
+                "gli"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sì, ne ho uno di Giulia.' — ne counts the messages (uno di Giulia). 💛 And it's from her.",
+              "dictionaryRefs": [
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u35l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Ne",
+                "ho",
+                "tre."
+              ],
+              "correctSentence": "Ne ho tre.",
+              "explanation": "'Ne ho tre.' — ne + ho + tre. I have three of them.",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u35l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12+15 recycling)",
+              "sourceEn": "I'll have a piece of pizza.",
+              "acceptedIt": [
+                "Prendo un pezzo di pizza.",
+                "Prendo un pezzo di pizza",
+                "Io prendo un pezzo di pizza"
+              ],
+              "explanation": "'Prendo un pezzo di pizza.' — prendo + un pezzo + di pizza.",
+              "dictionaryRefs": [
+                "il-pezzo",
+                "la-pizza",
+                "prendere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u35l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "il-bicchiere",
+            "il-vino",
+            "il-chilo",
+            "la-pasta",
+            "la-meta",
+            "il-pezzo",
+            "la-bottiglia",
+            "acqua",
+            "per-favore",
+            "volere"
+          ],
+          "exercises": [
+            {
+              "id": "u35l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Ne voglio due.",
+              "options": [
+                "I want two of them.",
+                "I want both.",
+                "I don't want them.",
+                "I want two more."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ne voglio due.' — I want two of them.",
+              "dictionaryRefs": [
+                "volere"
+              ]
+            },
+            {
+              "id": "u35l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 15 recycling)",
+              "mode": "type",
+              "speakIt": "Un bicchiere di vino, per favore.",
+              "acceptedIt": [
+                "Un bicchiere di vino, per favore.",
+                "Un bicchiere di vino, per favore",
+                "Un bicchiere di vino per favore"
+              ],
+              "explanation": "You heard: 'Un bicchiere di vino, per favore.' — A glass of wine, please.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u35l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Ne ho tre.",
+              "options": [
+                "I have three of them.",
+                "I have three.",
+                "I have three of those things there.",
+                "There are three."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ne ho tre.' — I have three of them. (Option 2 misses the ne — but in speech they're close; the ne matters in writing.)",
+              "dictionaryRefs": []
+            },
+            {
+              "id": "u35l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I want two of them.",
+              "targetIt": "Ne voglio due.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ne voglio due.' — ne VO-lyo DU-e. Tiny word first.",
+              "dictionaryRefs": [
+                "volere"
+              ]
+            },
+            {
+              "id": "u35l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: a bottle of water, please. (Unit 9 recycling)",
+              "targetIt": "Una bottiglia d'acqua, per favore.",
+              "minAccuracy": 0.7,
+              "explanation": "'Una bottiglia d'acqua, per favore.' — U-na bo-TTI-lya DA-kwa, per fa-VO-re.",
+              "dictionaryRefs": [
+                "la-bottiglia",
+                "acqua",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u35l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "La metà, per favore.",
+              "acceptedIt": [
+                "La metà, per favore.",
+                "La metà, per favore",
+                "La meta, per favore",
+                "La metà per favore"
+              ],
+              "explanation": "You heard: 'La metà, per favore.' — Half, please. Metà is invariable.",
+              "dictionaryRefs": [
+                "la-meta",
+                "per-favore"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u35c",
+        "exercises": [
+          {
+            "id": "u35ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la bottiglia",
+            "options": [
+              "the bottle",
+              "the glass",
+              "the jar",
+              "the can"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La bottiglia' (f) = the bottle. 'Una bottiglia d'acqua.'",
+            "dictionaryRefs": [
+              "la-bottiglia"
+            ]
+          },
+          {
+            "id": "u35ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the answer. (How many do you want? — I want two.)",
+            "sentence": "'Quanti ne vuoi?' — '___ voglio due.'",
+            "answers": [
+              "Ne"
+            ],
+            "explanation": "'Ne voglio due.' — ne + voglio + due. (Note the question itself: 'Quanti NE vuoi?' — ne in both.)",
+            "dictionaryRefs": [
+              "volere"
+            ]
+          },
+          {
+            "id": "u35ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 9 recycling)",
+            "sourceEn": "A glass of water, please.",
+            "acceptedIt": [
+              "Un bicchiere d'acqua, per favore.",
+              "Un bicchiere d'acqua, per favore",
+              "Un bicchiere di acqua, per favore",
+              "Un bicchiere d'acqua per favore"
+            ],
+            "explanation": "'Un bicchiere d'acqua, per favore.' — un bicchiere + d'acqua (di → d' before the vowel).",
+            "dictionaryRefs": [
+              "il-bicchiere",
+              "acqua",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u35ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 26 recycling)",
+            "sourceIt": "Ne ho comprati due.",
+            "acceptedEn": [
+              "I bought two of them."
+            ],
+            "explanation": "'Ne ho comprati due.' — ho comprati (bought) + due. With ne, the participle can agree: comprati, plural, for what ne replaces.",
+            "dictionaryRefs": [
+              "comprare"
+            ]
+          },
+          {
+            "id": "u35ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the container. (A piece of pizza.) (Unit 15 recycling)",
+            "question": "Un ___ di pizza.",
+            "options": [
+              "pezzo",
+              "chilo",
+              "bicchiere",
+              "bottiglia"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Un pezzo di pizza.' — pizza by the piece, pasta by the kilo, wine by the glass, water by the bottle.",
+            "dictionaryRefs": [
+              "il-pezzo",
+              "la-pizza"
+            ]
+          },
+          {
+            "id": "u35ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I want half of it.)",
+            "sentence": "___ voglio la metà.",
+            "answers": [
+              "Ne"
+            ],
+            "explanation": "'Ne voglio la metà.' — ne + voglio + la metà (the half). I want half of it.",
+            "dictionaryRefs": [
+              "la-meta",
+              "volere"
+            ]
+          },
+          {
+            "id": "u35ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "due.",
+              "Ne",
+              "voglio"
+            ],
+            "correctSentence": "Ne voglio due.",
+            "explanation": "'Ne voglio due.' — ne first, verb second, number last.",
+            "dictionaryRefs": [
+              "volere"
+            ]
+          },
+          {
+            "id": "u35ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 15 recycling)",
+            "mode": "choice",
+            "speakIt": "Un chilo di pasta, per favore.",
+            "options": [
+              "A kilo of pasta, please.",
+              "A piece of pasta, please.",
+              "A kilo of pizza, please.",
+              "A bottle of pasta, please."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Un chilo di pasta, per favore.' — A kilo of pasta, please.",
+            "dictionaryRefs": [
+              "il-chilo",
+              "la-pasta",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u35ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Ne voglio uno.",
+            "acceptedIt": [
+              "Ne voglio uno.",
+              "Ne voglio uno"
+            ],
+            "explanation": "You heard: 'Ne voglio uno.' — I want one of them.",
+            "dictionaryRefs": [
+              "volere"
+            ]
+          },
+          {
+            "id": "u35ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I have two of them. 💛 (Unit 14 recycling)",
+            "targetIt": "Ne ho due.",
+            "minAccuracy": 0.7,
+            "explanation": "'Ne ho due.' — ne O DU-e. The answer to 'Quanti fratelli hai?' 💛",
+            "dictionaryRefs": [
+              "il-fratello"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -29248,6 +30008,85 @@
         }
       ],
       "introducedInUnit": 34
+    },
+    {
+      "id": "il-pezzo",
+      "word": "pezzo",
+      "article": "il",
+      "translation": "piece",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un pezzo di pizza, per favore.",
+          "en": "A piece of pizza, please."
+        }
+      ],
+      "introducedInUnit": 35
+    },
+    {
+      "id": "la-bottiglia",
+      "word": "bottiglia",
+      "article": "la",
+      "translation": "bottle",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Una bottiglia d'acqua, per favore.",
+          "en": "A bottle of water, please."
+        }
+      ],
+      "introducedInUnit": 35
+    },
+    {
+      "id": "il-bicchiere",
+      "word": "bicchiere",
+      "article": "il",
+      "translation": "glass (for drinking)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un bicchiere di vino, per favore.",
+          "en": "A glass of wine, please."
+        }
+      ],
+      "introducedInUnit": 35
+    },
+    {
+      "id": "il-chilo",
+      "word": "chilo",
+      "article": "il",
+      "translation": "kilo",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un chilo di pasta, per favore.",
+          "en": "A kilo of pasta, please."
+        }
+      ],
+      "introducedInUnit": 35
+    },
+    {
+      "id": "la-meta",
+      "word": "metà",
+      "article": "la",
+      "translation": "half (invariable)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ne voglio la metà.",
+          "en": "I want half of it."
+        },
+        {
+          "it": "La metà, per favore.",
+          "en": "Half, please."
+        }
+      ],
+      "introducedInUnit": 35
     }
   ],
   "stories": [

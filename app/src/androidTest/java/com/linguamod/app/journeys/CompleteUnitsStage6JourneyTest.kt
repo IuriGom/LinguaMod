@@ -87,6 +87,7 @@ class CompleteUnitsStage6JourneyTest {
     @Test fun unit_32() = runUnitJourney(32)
     @Test fun unit_33() = runUnitJourney(33)
     @Test fun unit_34() = runUnitJourney(34)
+    @Test fun unit_35() = runUnitJourney(35)
 
     private fun runUnitJourney(n: Int) {
         val plugin = loadPlugin()
