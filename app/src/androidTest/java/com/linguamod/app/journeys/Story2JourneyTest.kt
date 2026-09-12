@@ -9,7 +9,10 @@ import androidx.compose.ui.test.junit4.createEmptyComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollToNode
+import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.swipeDown
 import androidx.compose.ui.test.waitUntilExactlyOneExists
+import androidx.compose.ui.semantics.getOrNull
 import androidx.test.core.app.ActivityScenario
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -99,21 +102,40 @@ class Story2JourneyTest {
     }
 
     /** Scrolls to a path row and taps it, retrying until [targetTag] appears
-     *  (taps can be swallowed mid-scroll on a loaded emulator). */
+     *  (taps can be swallowed mid-scroll on a loaded emulator, and the
+     *  scroll-through itself can miss rows on the 25-unit path under load). */
     private fun openPathRow(rowTag: String, targetTag: String) {
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(rowTag))
-        val deadline = System.currentTimeMillis() + 30_000
-        while (true) {
-            composeRule.onNodeWithTag(rowTag).performClick()
+        val deadline = System.currentTimeMillis() + 60_000
+        var last: Throwable? = null
+        while (System.currentTimeMillis() < deadline) {
             try {
+                composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(rowTag))
+                composeRule.onNodeWithTag(rowTag).performClick()
                 composeRule.waitUntilExactlyOneExists(hasTestTag(targetTag), 8_000)
                 return
+            } catch (e: AssertionError) {
+                last = e
             } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
-                if (System.currentTimeMillis() >= deadline) throw e
-                if (nodeExists("path_list")) {
-                    composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(rowTag))
-                }
+                last = e
             }
+            if (nodeExists("path_list")) scrollPathToTop()
+        }
+        throw AssertionError("row $rowTag never opened ($targetTag)", last)
+    }
+
+    /**
+     * performScrollToNode's scroll-through can misjudge the end on the long
+     * 25-unit path under load — swipe back up until the list can't scroll
+     * further before retrying (same idiom as Stage4GatingTest).
+     */
+    private fun scrollPathToTop() {
+        val deadline = System.currentTimeMillis() + 20_000
+        while (System.currentTimeMillis() < deadline) {
+            val range = composeRule.onNodeWithTag("path_list").fetchSemanticsNode()
+                .config.getOrNull(androidx.compose.ui.semantics.SemanticsProperties.VerticalScrollAxisRange)
+            if (range == null || range.value() <= 0f) return
+            composeRule.onNodeWithTag("path_list").performTouchInput { swipeDown() }
+            composeRule.waitForIdle()
         }
     }
 

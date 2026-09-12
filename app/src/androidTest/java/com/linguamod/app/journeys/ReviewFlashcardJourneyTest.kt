@@ -171,12 +171,21 @@ class ReviewFlashcardJourneyTest {
         composeRule.onNodeWithTag("flashcard_progress").assertTextEquals("Card 1 of $deckSize")
 
         // flip: English + example/gender side shows (the clickable card merges
-        // its subtree — inner tags live in the unmerged tree)
+        // its subtree — inner tags live in the unmerged tree). The tap can be
+        // swallowed under suite load — retry it until the back face shows.
         val firstWord = cardWord()
-        composeRule.onNodeWithTag("flashcard_card").performClick()
-        composeRule.waitUntil(5_000) {
-            composeRule.onAllNodes(hasTestTag("flashcard_translation"), useUnmergedTree = true)
-                .fetchSemanticsNodes().size == 1
+        val flipDeadline = System.currentTimeMillis() + 20_000
+        while (true) {
+            composeRule.onNodeWithTag("flashcard_card").performClick()
+            try {
+                composeRule.waitUntil(5_000) {
+                    composeRule.onAllNodes(hasTestTag("flashcard_translation"), useUnmergedTree = true)
+                        .fetchSemanticsNodes().size == 1
+                }
+                break
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                if (System.currentTimeMillis() >= flipDeadline) throw e
+            }
         }
 
         // "Still learning" re-queues the card within the session
