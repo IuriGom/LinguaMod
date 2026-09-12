@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 26,
+    "version": 27,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -24155,6 +24155,778 @@
           }
         ]
       }
+    },
+    {
+      "id": "u33",
+      "number": 33,
+      "title": "I pronomi indiretti",
+      "lessons": [
+        {
+          "id": "u33l1",
+          "type": "vocabulary",
+          "title": "Mandare, rispondere, telefonare",
+          "dictionaryRefs": [
+            "mandare",
+            "rispondere",
+            "telefonare",
+            "la-notizia",
+            "insieme"
+          ],
+          "exercises": [
+            {
+              "id": "u33l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "mandare",
+              "options": [
+                "to send",
+                "to receive",
+                "to mail a letter",
+                "to command"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mandare' = to send: 'Mando un messaggio a Giulia.' — I send Giulia a message. Regular -are.",
+              "dictionaryRefs": [
+                "mandare",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "rispondere",
+              "options": [
+                "to reply; to answer",
+                "to respond to a letter only",
+                "to ask",
+                "to call back"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Rispondere' = to reply: 'Rispondo al messaggio.' — I reply to the message. (rispondere a + thing.)",
+              "dictionaryRefs": [
+                "rispondere",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "telefonare",
+              "options": [
+                "to phone; to call",
+                "to text",
+                "to phone repeatedly",
+                "to answer the phone"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Telefonare' = to phone: 'Telefono a Marco.' — I phone Marco. (telefonare a + person.)",
+              "dictionaryRefs": [
+                "telefonare"
+              ]
+            },
+            {
+              "id": "u33l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la notizia",
+              "options": [
+                "the news (one piece)",
+                "the newspaper",
+                "the notice",
+                "the notification"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La notizia' (f) = the piece of news. 'Ho una notizia per te.' — I have news for you. 💛",
+              "dictionaryRefs": [
+                "la-notizia"
+              ]
+            },
+            {
+              "id": "u33l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "insieme",
+              "options": [
+                "together",
+                "again",
+                "alone",
+                "instead"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Insieme' = together. 💛 'Usciamo insieme domani.' — We'll go out together tomorrow.",
+              "dictionaryRefs": [
+                "insieme"
+              ]
+            },
+            {
+              "id": "u33l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I send a message to Giulia.)",
+              "sentence": "___ un messaggio a Giulia.",
+              "answers": [
+                "Mando",
+                "Io mando"
+              ],
+              "explanation": "'Mando un messaggio a Giulia.' — mandare, io-form: mando. The receiver takes a: a Giulia.",
+              "dictionaryRefs": [
+                "mandare",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I reply to the message.)",
+              "sentence": "___ al messaggio.",
+              "answers": [
+                "Rispondo",
+                "Io rispondo"
+              ],
+              "explanation": "'Rispondo al messaggio.' — rispondere, io-form: rispondo. Rispondere a + the thing.",
+              "dictionaryRefs": [
+                "rispondere",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ho una notizia per te.",
+              "acceptedEn": [
+                "I have news for you.",
+                "I have a piece of news for you."
+              ],
+              "explanation": "'Ho una notizia per te.' — ho + una notizia + per te. 💛",
+              "dictionaryRefs": [
+                "la-notizia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u33l2",
+          "type": "grammar",
+          "title": "Mi, ti, gli, le — a chi?",
+          "dictionaryRefs": [
+            "mandare",
+            "rispondere",
+            "telefonare",
+            "la-notizia",
+            "il-messaggio",
+            "la-foto",
+            "il-numero",
+            "domani",
+            "subito"
+          ],
+          "grammarNotes": "I PRONOMI INDIRETTI — the little words for 'TO someone'. Unit 19 answered 'who/what?' (lo, la, li, le — I see HIM: lo vedo). This unit answers 'TO whom?':\n\n• mi — to me: 'Mi scrivi?' — Will you write to me?\n• ti — to you: 'Ti scrivo domani.' — I'll write to you tomorrow. 💛\n• gli — to him: 'Gli telefono.' — I'll phone him.\n• le — to her: 'Le mando un messaggio.' — I'll send her a message.\n• ci — to us: 'Ci scrivete?' — Will you write to us?\n• vi — to you (plural): 'Vi mando una foto.' — I'll send you (all) a photo.\n• loro — to them: goes AFTER the verb — 'Telefono loro domani.' (or, more common: 'Gli telefono domani.')\n\nPOSITION: before the verb, like the direct pronouns — ti scrivo, gli telefono, le mando.\n\nTHE CONTRAST (Unit 19 vs now):\n• 'La vedo domani.' — I see HER tomorrow. (direct: whom do I see? her)\n• 'Le scrivo domani.' — I write TO her tomorrow. (indirect: to whom? to her)\nSame person, different job. With vedere the person is the object; with scrivere/mandare/telefonare the person RECEIVES the action.\n\nVERBS THAT TAKE THE INDIRECT: scrivere a, mandare a, telefonare a, rispondere a, dare a (to give — later).",
+          "exercises": [
+            {
+              "id": "u33l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I'll write to you tomorrow.)",
+              "sentence": "___ scrivo domani.",
+              "answers": [
+                "Ti"
+              ],
+              "explanation": "'Ti scrivo domani.' — ti (to you) before the verb. 💛 The promise of the morning after.",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'll phone her tomorrow.)",
+              "sentence": "___ telefono domani.",
+              "answers": [
+                "Le"
+              ],
+              "explanation": "'Le telefono domani.' — le (to her). Careful: la vedo (I see her, direct) vs le telefono (I phone her, indirect).",
+              "dictionaryRefs": [
+                "telefonare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'll send him a message.)",
+              "sentence": "___ mando un messaggio.",
+              "answers": [
+                "Gli"
+              ],
+              "explanation": "'Gli mando un messaggio.' — gli (to him). Gli mando, gli scrivo, gli telefono.",
+              "dictionaryRefs": [
+                "mandare",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l2e4",
+              "type": "multiple_choice",
+              "prompt": "Direct or indirect? Choose the meaning. (Unit 19 recycling)",
+              "question": "La vedo domani.",
+              "options": [
+                "I see her tomorrow.",
+                "I write to her tomorrow.",
+                "I call her tomorrow.",
+                "I see them tomorrow."
+              ],
+              "correctIndex": 0,
+              "explanation": "'La vedo domani.' — vedere takes the person directly: la (her). Compare: 'Le scrivo domani' — I write TO her.",
+              "dictionaryRefs": [
+                "vedere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'll write to you tomorrow.",
+              "acceptedIt": [
+                "Ti scrivo domani.",
+                "Ti scrivo domani",
+                "Io ti scrivo domani"
+              ],
+              "explanation": "'Ti scrivo domani.' — ti + scrivo + domani. 💛 Short, warm, certain.",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I reply to Giulia.",
+              "acceptedIt": [
+                "Rispondo a Giulia.",
+                "Rispondo a Giulia",
+                "Le rispondo",
+                "Le rispondo."
+              ],
+              "explanation": "'Rispondo a Giulia.' or with the pronoun: 'Le rispondo.' — rispondere a + person → le/gli/ti…",
+              "dictionaryRefs": [
+                "rispondere"
+              ]
+            },
+            {
+              "id": "u33l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ci scrivete?",
+              "acceptedEn": [
+                "Will you write to us?",
+                "Do you write to us? (plural you)"
+              ],
+              "explanation": "'Ci scrivete?' — ci (to us) + scrivete (voi, scrivere).",
+              "dictionaryRefs": [
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u33l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 26 recycling)",
+              "sourceIt": "Gli mando una foto.",
+              "acceptedEn": [
+                "I'll send him a photo.",
+                "I send him a photo."
+              ],
+              "explanation": "'Gli mando una foto.' — gli (to him) + mando + una foto (Unit 26).",
+              "dictionaryRefs": [
+                "mandare",
+                "la-foto"
+              ]
+            },
+            {
+              "id": "u33l2e9",
+              "type": "multiple_choice",
+              "prompt": "Direct or indirect? (Do you know Marco? — Yes, I know him.) (Unit 19 recycling)",
+              "question": "Conosci Marco? — Sì, ___ conosco.",
+              "options": [
+                "lo",
+                "gli",
+                "li",
+                "le"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sì, lo conosco.' — conoscere takes the person directly (whom do I know? him → lo). 'Gli conosco' would need a verb like scrivere a.",
+              "dictionaryRefs": [
+                "conoscere"
+              ]
+            },
+            {
+              "id": "u33l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ti",
+                "mando",
+                "un",
+                "messaggio."
+              ],
+              "correctSentence": "Ti mando un messaggio.",
+              "explanation": "'Ti mando un messaggio.' — ti + mando + un messaggio. The pronoun leads.",
+              "dictionaryRefs": [
+                "mandare",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 32 recycling)",
+              "tokens": [
+                "Le",
+                "rispondo",
+                "subito."
+              ],
+              "correctSentence": "Le rispondo subito.",
+              "explanation": "'Le rispondo subito.' — le (to her) + rispondo + subito (right away, Unit 32).",
+              "dictionaryRefs": [
+                "rispondere",
+                "subito"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u33l3",
+          "type": "mixed",
+          "title": "Messaggi 💛 — ripasso",
+          "dictionaryRefs": [
+            "il-telefono",
+            "il-numero",
+            "il-messaggio",
+            "la-foto",
+            "il-regalo",
+            "scrivere",
+            "domani",
+            "insieme",
+            "mandare",
+            "rispondere",
+            "telefonare",
+            "la-notizia"
+          ],
+          "exercises": [
+            {
+              "id": "u33l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I send Giulia a message.",
+              "acceptedIt": [
+                "Mando un messaggio a Giulia.",
+                "Mando un messaggio a Giulia",
+                "Le mando un messaggio",
+                "Le mando un messaggio."
+              ],
+              "explanation": "'Mando un messaggio a Giulia.' — or with the pronoun: 'Le mando un messaggio.' Both correct; the pronoun version is what Italians actually say.",
+              "dictionaryRefs": [
+                "mandare",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 16 recycling)",
+              "question": "Ti telefono domani.",
+              "options": [
+                "I'll call you tomorrow.",
+                "I'll write to you tomorrow.",
+                "You call me tomorrow.",
+                "I'll call you tonight."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ti telefono domani.' — ti (to you) + telefono + domani. 💛",
+              "dictionaryRefs": [
+                "telefonare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I'll write you my number.) (Unit 4 recycling)",
+              "sentence": "___ scrivo il mio numero.",
+              "answers": [
+                "Ti"
+              ],
+              "explanation": "'Ti scrivo il mio numero.' — ti (to you) + scrivo + il mio numero (Unit 4). 💛",
+              "dictionaryRefs": [
+                "scrivere",
+                "il-numero",
+                "mio"
+              ]
+            },
+            {
+              "id": "u33l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 26 recycling)",
+              "sourceIt": "Mandiamo una foto a Marco.",
+              "acceptedEn": [
+                "We send Marco a photo.",
+                "We'll send Marco a photo."
+              ],
+              "explanation": "'Mandiamo una foto a Marco.' — mandiamo (noi) + una foto + a Marco. With a pronoun: gli mandiamo una foto.",
+              "dictionaryRefs": [
+                "mandare",
+                "la-foto"
+              ]
+            },
+            {
+              "id": "u33l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I reply to Giulia's message.) (Unit 28 recycling)",
+              "sentence": "Rispondo ___ messaggio di Giulia.",
+              "answers": [
+                "al",
+                "a il"
+              ],
+              "explanation": "'Rispondo al messaggio di Giulia.' — rispondere a + il messaggio → al. Di Giulia = Giulia's (Unit 17).",
+              "dictionaryRefs": [
+                "rispondere",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 26+28 recycling)",
+              "question": "Le ho scritto ieri.",
+              "options": [
+                "I wrote to her yesterday.",
+                "I wrote to him yesterday.",
+                "I saw her yesterday.",
+                "She wrote to me yesterday."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Le ho scritto ieri.' — le (to her) + ho scritto (scrivere → scritto, irregular). 💛 You did write back.",
+              "dictionaryRefs": [
+                "scrivere",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u33l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 16 recycling)",
+              "tokens": [
+                "Ti",
+                "telefono",
+                "alle",
+                "nove."
+              ],
+              "correctSentence": "Ti telefono alle nove.",
+              "explanation": "'Ti telefono alle nove.' — ti + telefono + alle nove. A plan with a time.",
+              "dictionaryRefs": [
+                "telefonare",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u33l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 16+21 recycling)",
+              "sourceEn": "We'll go out together tomorrow.",
+              "acceptedIt": [
+                "Usciamo insieme domani.",
+                "Usciamo insieme domani",
+                "Domani usciamo insieme"
+              ],
+              "explanation": "'Usciamo insieme domani.' — usciamo (Unit 21 proposal) + insieme (together) + domani. 💛",
+              "dictionaryRefs": [
+                "uscire",
+                "insieme",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u33l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "scrivere",
+            "mandare",
+            "telefonare",
+            "rispondere",
+            "domani",
+            "il-messaggio",
+            "la-foto",
+            "subito",
+            "insieme",
+            "uscire"
+          ],
+          "exercises": [
+            {
+              "id": "u33l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Ti scrivo domani.",
+              "options": [
+                "I'll write to you tomorrow.",
+                "I'll call you tomorrow.",
+                "You write to me tomorrow.",
+                "I'll write to you tonight."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ti scrivo domani.' — ti + scrivo + domani. 💛",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Le mando un messaggio.",
+              "acceptedIt": [
+                "Le mando un messaggio.",
+                "Le mando un messaggio"
+              ],
+              "explanation": "You heard: 'Le mando un messaggio.' — I'll send her a message. Le (to her) + mando.",
+              "dictionaryRefs": [
+                "mandare",
+                "il-messaggio"
+              ]
+            },
+            {
+              "id": "u33l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Mi rispondi?",
+              "options": [
+                "Will you answer me?",
+                "Will you write to her?",
+                "Do you answer them?",
+                "Will you call me?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Mi rispondi?' — mi (to me) + rispondi. The anxious texter's question.",
+              "dictionaryRefs": [
+                "rispondere"
+              ]
+            },
+            {
+              "id": "u33l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'll write to you tomorrow. 💛",
+              "targetIt": "Ti scrivo domani.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ti scrivo domani.' — ti SKRI-vo do-MA-ni. 💛",
+              "dictionaryRefs": [
+                "scrivere",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'll call you tomorrow.",
+              "targetIt": "Ti telefono domani.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ti telefono domani.' — ti te-LE-fo-no do-MA-ni.",
+              "dictionaryRefs": [
+                "telefonare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u33l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Gli scriviamo.",
+              "acceptedIt": [
+                "Gli scriviamo.",
+                "Gli scriviamo",
+                "Noi gli scriviamo"
+              ],
+              "explanation": "You heard: 'Gli scriviamo.' — We write to him. Gli (to him) + scriviamo (noi).",
+              "dictionaryRefs": [
+                "scrivere"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u33c",
+        "exercises": [
+          {
+            "id": "u33ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la notizia",
+            "options": [
+              "the news (one piece)",
+              "the newspaper",
+              "the message",
+              "the announcement"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La notizia' (f) = the piece of news. 'Ho una notizia per te.' 💛",
+            "dictionaryRefs": [
+              "la-notizia"
+            ]
+          },
+          {
+            "id": "u33ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. 💛 (I'll write to you tomorrow.)",
+            "sentence": "___ scrivo domani.",
+            "answers": [
+              "Ti"
+            ],
+            "explanation": "'Ti scrivo domani.' — ti (to you) before the verb.",
+            "dictionaryRefs": [
+              "scrivere",
+              "domani"
+            ]
+          },
+          {
+            "id": "u33ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "I'll send you a message.",
+            "acceptedIt": [
+              "Ti mando un messaggio.",
+              "Ti mando un messaggio",
+              "Io ti mando un messaggio"
+            ],
+            "explanation": "'Ti mando un messaggio.' — ti + mando + un messaggio. 💛",
+            "dictionaryRefs": [
+              "mandare",
+              "il-messaggio"
+            ]
+          },
+          {
+            "id": "u33ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Gli telefono.",
+            "acceptedEn": [
+              "I'll phone him.",
+              "I phone him."
+            ],
+            "explanation": "'Gli telefono.' — gli (to him) + telefono. To her: le telefono.",
+            "dictionaryRefs": [
+              "telefonare"
+            ]
+          },
+          {
+            "id": "u33ce5",
+            "type": "multiple_choice",
+            "prompt": "Direct or indirect? (I write TO her tomorrow.)",
+            "question": "___ scrivo domani.",
+            "options": [
+              "Le",
+              "La",
+              "Lo",
+              "Li"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Le scrivo domani.' — scrivere A someone → indirect: le. 'La vedo' (I see her) is direct (Unit 19).",
+            "dictionaryRefs": [
+              "scrivere",
+              "domani"
+            ]
+          },
+          {
+            "id": "u33ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Marco always answers me.)",
+            "sentence": "Marco ___ risponde sempre.",
+            "answers": [
+              "mi"
+            ],
+            "explanation": "'Marco mi risponde sempre.' — mi (to me) + risponde (lui) + sempre (Unit 29).",
+            "dictionaryRefs": [
+              "rispondere",
+              "sempre"
+            ]
+          },
+          {
+            "id": "u33ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Mando",
+              "un",
+              "messaggio",
+              "a",
+              "Giulia."
+            ],
+            "correctSentence": "Mando un messaggio a Giulia.",
+            "explanation": "'Mando un messaggio a Giulia.' — mando + un messaggio + a Giulia. The receiver takes a.",
+            "dictionaryRefs": [
+              "mandare",
+              "il-messaggio"
+            ]
+          },
+          {
+            "id": "u33ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 26 recycling)",
+            "mode": "choice",
+            "speakIt": "Ti mando una foto.",
+            "options": [
+              "I'll send you a photo.",
+              "I'll send you a message.",
+              "You send me a photo.",
+              "I'll write you a photo."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ti mando una foto.' — ti + mando + una foto (Unit 26).",
+            "dictionaryRefs": [
+              "mandare",
+              "la-foto"
+            ]
+          },
+          {
+            "id": "u33ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 32 recycling)",
+            "mode": "type",
+            "speakIt": "Rispondo subito.",
+            "acceptedIt": [
+              "Rispondo subito.",
+              "Rispondo subito",
+              "Io rispondo subito"
+            ],
+            "explanation": "You heard: 'Rispondo subito.' — I reply right away. Subito (Unit 32).",
+            "dictionaryRefs": [
+              "rispondere",
+              "subito"
+            ]
+          },
+          {
+            "id": "u33ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: we'll go out together tomorrow. 💛",
+            "targetIt": "Usciamo insieme domani.",
+            "minAccuracy": 0.7,
+            "explanation": "'Usciamo insieme domani.' — u-SHAM-o in-SYE-me do-MA-ni. 💛 Together, tomorrow.",
+            "dictionaryRefs": [
+              "uscire",
+              "insieme",
+              "domani"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -27544,6 +28316,81 @@
         }
       ],
       "introducedInUnit": 32
+    },
+    {
+      "id": "mandare",
+      "word": "mandare",
+      "translation": "to send",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mando un messaggio a Giulia.",
+          "en": "I send Giulia a message."
+        },
+        {
+          "it": "Le mando una foto.",
+          "en": "I'll send her a photo."
+        }
+      ],
+      "introducedInUnit": 33
+    },
+    {
+      "id": "rispondere",
+      "word": "rispondere",
+      "translation": "to reply; to answer",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Rispondo al messaggio.",
+          "en": "I reply to the message."
+        },
+        {
+          "it": "Marco mi risponde sempre.",
+          "en": "Marco always answers me."
+        }
+      ],
+      "introducedInUnit": 33
+    },
+    {
+      "id": "telefonare",
+      "word": "telefonare",
+      "translation": "to phone; to call",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ti telefono domani.",
+          "en": "I'll call you tomorrow."
+        }
+      ],
+      "introducedInUnit": 33
+    },
+    {
+      "id": "la-notizia",
+      "word": "notizia",
+      "article": "la",
+      "translation": "news (one piece)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una notizia per te.",
+          "en": "I have news for you."
+        }
+      ],
+      "introducedInUnit": 33
+    },
+    {
+      "id": "insieme",
+      "word": "insieme",
+      "translation": "together",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Usciamo insieme domani.",
+          "en": "We'll go out together tomorrow."
+        }
+      ],
+      "introducedInUnit": 33
     }
   ],
   "stories": [
