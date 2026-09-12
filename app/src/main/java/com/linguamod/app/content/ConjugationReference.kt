@@ -95,8 +95,10 @@ object ConjugationReference {
         "andare", "venire", "partire", "arrivare", "uscire", "essere", "nascere",
         "morire", "restare", "stare", "diventare", "salire", "scendere", "entrare",
         "tornare", "cadere", "crescere", "rimanere", "piacere", "succedere",
-        // reflexives (Unit 28): always essere
-        "svegliarsi", "alzarsi", "vestirsi", "divertirsi", "chiamarsi",
+        // reflexives (Unit 28): always essere. NB: chiamarsi is NOT listed —
+        // 'chiamato' is ambiguous (transitive chiamare takes avere: 'Giulia ha
+        // chiamato'), and no content uses chiamarsi in the past.
+        "svegliarsi", "alzarsi", "vestirsi", "divertirsi",
     )
 
     /** Future tense, regular pattern + irregular stems (Stage 6, Unit 31). */

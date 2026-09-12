@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 22,
+    "version": 23,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -21757,6 +21757,823 @@
           }
         ]
       }
+    },
+    {
+      "id": "u30",
+      "number": 30,
+      "title": "Ieri e allora",
+      "lessons": [
+        {
+          "id": "u30l1",
+          "type": "vocabulary",
+          "title": "Allora, mentre, poi, dopo",
+          "dictionaryRefs": [
+            "allora",
+            "mentre",
+            "la-storia",
+            "una-volta",
+            "poi",
+            "dopo"
+          ],
+          "exercises": [
+            {
+              "id": "u30l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "allora",
+              "options": [
+                "then; back then",
+                "now",
+                "always",
+                "later"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Allora' = back then (and also 'so/then'). 'Allora abitavo a Roma.' — Back then I lived in Rome. A signal word for the imperfetto.",
+              "dictionaryRefs": [
+                "allora",
+                "abitare"
+              ]
+            },
+            {
+              "id": "u30l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "mentre",
+              "options": [
+                "while",
+                "during",
+                "meanwhile",
+                "until"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mentre' = while. 'Mentre dormivo, ha chiamato Giulia.' — While I was sleeping, Giulia called. The word that glues the two pasts together.",
+              "dictionaryRefs": [
+                "mentre"
+              ]
+            },
+            {
+              "id": "u30l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la storia",
+              "options": [
+                "the story",
+                "the history",
+                "the tale",
+                "all of these"
+              ],
+              "correctIndex": 3,
+              "explanation": "'La storia' (f) = story AND history AND tale. 'La storia è divertente.' — The story is fun.",
+              "dictionaryRefs": [
+                "la-storia",
+                "divertente"
+              ]
+            },
+            {
+              "id": "u30l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "una volta",
+              "options": [
+                "once; one time",
+                "one time per week",
+                "sometimes",
+                "a long time"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Una volta' = once, one time. 'Una volta al mese' — once a month. A signal word for ONE finished event → passato prossimo.",
+              "dictionaryRefs": [
+                "una-volta"
+              ]
+            },
+            {
+              "id": "u30l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "poi",
+              "options": [
+                "then; afterwards",
+                "before",
+                "after (a noun)",
+                "finally"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Poi' = then, afterwards. 'Ho fatto la doccia, poi sono uscito.' — I took a shower, then I went out.",
+              "dictionaryRefs": [
+                "poi"
+              ]
+            },
+            {
+              "id": "u30l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dopo",
+              "options": [
+                "after; later",
+                "before",
+                "during",
+                "then again"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dopo' = after, later. 'Faccio colazione dopo la doccia.' — I have breakfast after the shower. The pair: prima… not yet; for now: dopo.",
+              "dictionaryRefs": [
+                "dopo",
+                "la-colazione",
+                "la-doccia"
+              ]
+            },
+            {
+              "id": "u30l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Back then I watched a film every Saturday.)",
+              "sentence": "___ guardavo un film il sabato.",
+              "answers": [
+                "Allora"
+              ],
+              "explanation": "'Allora guardavo un film il sabato.' — allora (back then) + il sabato (habit) → imperfetto: guardavo.",
+              "dictionaryRefs": [
+                "allora",
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u30l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Una volta al mese mangiavo la pizza.",
+              "acceptedEn": [
+                "Once a month I ate pizza.",
+                "Once a month I used to eat pizza."
+              ],
+              "explanation": "'Una volta al mese mangiavo la pizza.' — a repeated 'once' is a habit → imperfetto: mangiavo.",
+              "dictionaryRefs": [
+                "una-volta",
+                "il-mese",
+                "mangiare",
+                "la-pizza"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u30l2",
+          "type": "grammar",
+          "title": "Imperfetto o passato prossimo?",
+          "dictionaryRefs": [
+            "allora",
+            "mentre",
+            "la-storia",
+            "una-volta",
+            "poi",
+            "dopo",
+            "ieri",
+            "sempre",
+            "piccolo",
+            "guardare",
+            "mangiare",
+            "dormire",
+            "il-messaggio"
+          ],
+          "grammarNotes": "IERI E ALLORA — the two pasts, side by side. This is THE drill unit.\n\nPASSATO PROSSIMO — the event, finished, once: 'Ho mangiato la pizza.' (I ate it; done.)\nIMPERFETTO — the habit, the background, the description: 'Mangiavo la pizza il venerdì.' (I used to eat pizza on Fridays.)\n\nTHE SIGNAL WORDS:\n• ieri, ieri sera, una volta (once), a specific day (sabato) → passato prossimo\n• sempre, da piccolo, allora (back then) → imperfetto\n\nMENTRE — while: the background action takes the imperfetto; the interrupting event takes the passato prossimo:\n• 'Mentre guardavo il film, è arrivato il messaggio.' — While I was watching the film, the message arrived.\n• 'Mentre mangiavo, Giulia ha scritto.' — While I was eating, Giulia wrote. (scrivere → scritto, irregular)\n\nTELLING A STORY — the skeleton:\n1. background (imperfetto): 'Era sera. Ero stanco.'\n2. event (passato prossimo): 'Ho fatto la doccia.'\n3. another event: 'Mi sono vestito.' (Unit 28)\n4. ending with poi: 'Poi sono uscito.' — Then I went out.\n\nWHY the split: Italian asks 'does this move the story forward?' — yes → passato prossimo. 'Does it set the scene?' — yes → imperfetto.",
+          "exercises": [
+            {
+              "id": "u30l2e1",
+              "type": "fill_blank",
+              "prompt": "Event. Complete the sentence. (Yesterday I ate the pasta.) (Unit 15 recycling)",
+              "sentence": "Ieri ___ la pasta.",
+              "answers": [
+                "ho mangiato"
+              ],
+              "explanation": "'Ieri ho mangiato la pasta.' — ieri + one finished event → passato prossimo: ho mangiato.",
+              "dictionaryRefs": [
+                "ieri",
+                "mangiare",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u30l2e2",
+              "type": "fill_blank",
+              "prompt": "Habit. Complete the sentence. (On Fridays I always ate pasta.)",
+              "sentence": "Il venerdì ___ sempre la pasta.",
+              "answers": [
+                "mangiavo"
+              ],
+              "explanation": "'Il venerdì mangiavo sempre la pasta.' — il venerdì + sempre = a habit → imperfetto: mangiavo.",
+              "dictionaryRefs": [
+                "mangiare",
+                "sempre",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u30l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (While I was watching the film, the message arrived.) (Unit 26+28 recycling)",
+              "sentence": "Mentre ___, è arrivato il messaggio.",
+              "answers": [
+                "guardavo il film",
+                "guardavo un film"
+              ],
+              "explanation": "'Mentre guardavo il film, è arrivato il messaggio.' — mentre + background (guardavo) + the interrupting event (è arrivato).",
+              "dictionaryRefs": [
+                "mentre",
+                "guardare",
+                "il-film",
+                "il-messaggio",
+                "arrivare"
+              ]
+            },
+            {
+              "id": "u30l2e4",
+              "type": "fill_blank",
+              "prompt": "Habit. Complete the sentence. (As a child I used to play in the park.) (Unit 29 recycling)",
+              "sentence": "Da piccolo ___ al parco.",
+              "answers": [
+                "giocavo"
+              ],
+              "explanation": "'Da piccolo giocavo al parco.' — da piccolo (as a child) is a habit zone → imperfetto: giocavo.",
+              "dictionaryRefs": [
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u30l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (While I was eating, Giulia wrote.)",
+              "question": "Mentre ___, Giulia ha scritto.",
+              "options": [
+                "mangiavo",
+                "ho mangiato",
+                "mangio",
+                "mangi"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mentre mangiavo, Giulia ha scritto.' — mentre asks for the imperfetto (background); the event takes the passato prossimo (ha scritto — scrivere → scritto).",
+              "dictionaryRefs": [
+                "mentre",
+                "mangiare",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u30l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12+28 recycling)",
+              "sourceEn": "While I was sleeping, Giulia called.",
+              "acceptedIt": [
+                "Mentre dormivo, Giulia ha chiamato.",
+                "Mentre dormivo, Giulia ha chiamato",
+                "Mentre dormivo Giulia ha chiamato"
+              ],
+              "explanation": "'Mentre dormivo, Giulia ha chiamato.' — sleeping = background (dormivo); the call = event (ha chiamato).",
+              "dictionaryRefs": [
+                "mentre",
+                "dormire",
+                "chiamare"
+              ]
+            },
+            {
+              "id": "u30l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Event! Unit 16+26 recycling)",
+              "sourceEn": "Yesterday evening I watched a film.",
+              "acceptedIt": [
+                "Ieri sera ho guardato un film.",
+                "Ieri sera ho guardato un film",
+                "Ho guardato un film ieri sera"
+              ],
+              "explanation": "'Ieri sera ho guardato un film.' — ieri sera, one finished event → passato prossimo. (I was watching it = guardavo.)",
+              "dictionaryRefs": [
+                "ieri",
+                "la-sera",
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u30l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 6+29 recycling)",
+              "sourceIt": "Da piccolo ero contento.",
+              "acceptedEn": [
+                "As a child I was happy.",
+                "When I was little I was happy."
+              ],
+              "explanation": "'Da piccolo ero contento.' — a past state of being → imperfetto: ero. Da piccolo = as a child.",
+              "dictionaryRefs": [
+                "piccolo",
+                "contento"
+              ]
+            },
+            {
+              "id": "u30l2e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 27 recycling)",
+              "sourceIt": "Poi sono uscito.",
+              "acceptedEn": [
+                "Then I went out. (man speaking)",
+                "Then I left. (man speaking)"
+              ],
+              "explanation": "'Poi sono uscito.' — poi (then) moves the story forward; the event takes the passato prossimo: sono uscito. 💛",
+              "dictionaryRefs": [
+                "poi",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u30l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 19 recycling)",
+              "tokens": [
+                "Mentre",
+                "dormivo,",
+                "ha",
+                "chiamato",
+                "Giulia."
+              ],
+              "correctSentence": "Mentre dormivo, ha chiamato Giulia.",
+              "explanation": "'Mentre dormivo, ha chiamato Giulia.' — background first (mentre + imperfetto), then the event, then who did it.",
+              "dictionaryRefs": [
+                "mentre",
+                "dormire",
+                "chiamare"
+              ]
+            },
+            {
+              "id": "u30l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Event! Unit 26 recycling)",
+              "tokens": [
+                "Ho",
+                "guardato",
+                "un",
+                "film",
+                "ieri."
+              ],
+              "correctSentence": "Ho guardato un film ieri.",
+              "explanation": "'Ho guardato un film ieri.' — ho guardato + un film + ieri. One event, one past.",
+              "dictionaryRefs": [
+                "guardare",
+                "il-film",
+                "ieri"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u30l3",
+          "type": "mixed",
+          "title": "La storia di ieri — ripasso 💛",
+          "dictionaryRefs": [
+            "stanco",
+            "la-doccia",
+            "vestirsi",
+            "uscire",
+            "il-parco",
+            "la-sorpresa",
+            "il-ristorante",
+            "la-cena",
+            "vedere",
+            "abitare",
+            "allora",
+            "mentre",
+            "una-volta",
+            "poi",
+            "dopo",
+            "ieri"
+          ],
+          "exercises": [
+            {
+              "id": "u30l3e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 6+24 recycling — background)",
+              "question": "Era sera. Ero stanco.",
+              "options": [
+                "It was evening. I was tired.",
+                "It is evening. I am tired.",
+                "It was evening. I got tired.",
+                "Yesterday evening. I was tired once."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Era sera. Ero stanco.' — two imperfects: the scene and the state. The story's background.",
+              "dictionaryRefs": [
+                "la-sera",
+                "stanco"
+              ]
+            },
+            {
+              "id": "u30l3e2",
+              "type": "fill_blank",
+              "prompt": "Event. Complete the sentence. (Once I found a surprise.) (Unit 26 recycling)",
+              "sentence": "Una volta ho ___ una sorpresa.",
+              "answers": [
+                "trovato"
+              ],
+              "explanation": "'Una volta ho trovato una sorpresa.' — una volta (once) = one finished event → passato prossimo.",
+              "dictionaryRefs": [
+                "una-volta",
+                "trovare",
+                "la-sorpresa"
+              ]
+            },
+            {
+              "id": "u30l3e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 27+28 recycling)",
+              "sourceEn": "I took a shower, and afterwards I went out. (man speaking)",
+              "acceptedIt": [
+                "Ho fatto la doccia, dopo sono uscito.",
+                "Ho fatto la doccia, dopo sono uscito",
+                "Ho fatto la doccia e dopo sono uscito",
+                "Ho fatto la doccia, dopo sono uscita"
+              ],
+              "explanation": "'Ho fatto la doccia, dopo sono uscito.' — two events in sequence: avere for fare (ho fatto), essere for uscire (sono uscito). Dopo = afterwards.",
+              "dictionaryRefs": [
+                "la-doccia",
+                "dopo",
+                "uscire",
+                "fare"
+              ]
+            },
+            {
+              "id": "u30l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Mentre mangiavo, è arrivata Giulia.",
+              "acceptedEn": [
+                "While I was eating, Giulia arrived."
+              ],
+              "explanation": "'Mentre mangiavo, è arrivata Giulia.' — mangiavo (background) + è arrivata (event, agreeing with Giulia).",
+              "dictionaryRefs": [
+                "mentre",
+                "mangiare",
+                "arrivare"
+              ]
+            },
+            {
+              "id": "u30l3e5",
+              "type": "fill_blank",
+              "prompt": "Habit. Complete the sentence. (Back then I lived in a small house.) (Unit 5+22+29 recycling)",
+              "sentence": "Allora ___ in una casa piccola.",
+              "answers": [
+                "abitavo"
+              ],
+              "explanation": "'Allora abitavo in una casa piccola.' — allora (back then) + a description → imperfetto: abitavo.",
+              "dictionaryRefs": [
+                "allora",
+                "abitare",
+                "la-casa",
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u30l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 19 recycling)",
+              "question": "Ieri ho visto Giulia.",
+              "options": [
+                "Yesterday I saw Giulia.",
+                "Yesterday I was seeing Giulia.",
+                "I see Giulia yesterday.",
+                "Yesterday I watched Giulia."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ieri ho visto Giulia.' — vedere's participle is irregular: visto. One finished event.",
+              "dictionaryRefs": [
+                "ieri",
+                "vedere"
+              ]
+            },
+            {
+              "id": "u30l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 28 recycling)",
+              "tokens": [
+                "Poi",
+                "mi",
+                "sono",
+                "vestito."
+              ],
+              "correctSentence": "Poi mi sono vestito.",
+              "explanation": "'Poi mi sono vestito.' — poi (then) + the reflexive past: mi sono vestito. Then I got dressed.",
+              "dictionaryRefs": [
+                "poi",
+                "vestirsi"
+              ]
+            },
+            {
+              "id": "u30l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 19+21 recycling)",
+              "sourceEn": "Once I saw Giulia at the park.",
+              "acceptedIt": [
+                "Una volta ho visto Giulia al parco.",
+                "Una volta ho visto Giulia al parco",
+                "Ho visto Giulia al parco una volta"
+              ],
+              "explanation": "'Una volta ho visto Giulia al parco.' — una volta (once) + ho visto (event). 💛 The first time you saw her.",
+              "dictionaryRefs": [
+                "una-volta",
+                "vedere",
+                "il-parco"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u30l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "mentre",
+            "allora",
+            "poi",
+            "dormire",
+            "chiamare",
+            "guardare",
+            "il-film",
+            "ieri",
+            "uscire",
+            "abitare"
+          ],
+          "exercises": [
+            {
+              "id": "u30l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Mentre dormivo, ha chiamato Giulia.",
+              "options": [
+                "While I was sleeping, Giulia called.",
+                "While I was sleeping, Giulia wrote.",
+                "While Giulia slept, I called.",
+                "While I slept, Giulia was calling."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Mentre dormivo, ha chiamato Giulia.' — background (dormivo) + event (ha chiamato).",
+              "dictionaryRefs": [
+                "mentre",
+                "dormire",
+                "chiamare"
+              ]
+            },
+            {
+              "id": "u30l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 26 recycling)",
+              "mode": "type",
+              "speakIt": "Ieri ho guardato un film.",
+              "acceptedIt": [
+                "Ieri ho guardato un film.",
+                "Ieri ho guardato un film",
+                "Ieri io ho guardato un film"
+              ],
+              "explanation": "You heard: 'Ieri ho guardato un film.' — Yesterday I watched a film. Ieri + ho guardato.",
+              "dictionaryRefs": [
+                "ieri",
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u30l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Allora abitavo a Roma.",
+              "options": [
+                "Back then I lived in Rome.",
+                "Then I moved to Rome.",
+                "Back then I was born in Rome.",
+                "Now I live in Rome."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Allora abitavo a Roma.' — allora (back then) + the habit: abitavo.",
+              "dictionaryRefs": [
+                "allora",
+                "abitare"
+              ]
+            },
+            {
+              "id": "u30l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Then I went out. (man speaking) 💛",
+              "targetIt": "Poi sono uscito.",
+              "minAccuracy": 0.7,
+              "explanation": "'Poi sono uscito.' — POY SO-no u-SHI-to. 💛 The story moves forward.",
+              "dictionaryRefs": [
+                "poi",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u30l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: While I was watching the film.",
+              "targetIt": "Mentre guardavo il film.",
+              "minAccuracy": 0.7,
+              "explanation": "'Mentre guardavo il film.' — MEN-tre gwar-DA-vo il FILM. The background clause.",
+              "dictionaryRefs": [
+                "mentre",
+                "guardare",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u30l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 26 recycling)",
+              "mode": "type",
+              "speakIt": "Una volta ho trovato una foto.",
+              "acceptedIt": [
+                "Una volta ho trovato una foto.",
+                "Una volta ho trovato una foto"
+              ],
+              "explanation": "You heard: 'Una volta ho trovato una foto.' — Once I found a photo. Una volta + passato prossimo.",
+              "dictionaryRefs": [
+                "una-volta",
+                "trovare",
+                "la-foto"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u30c",
+        "exercises": [
+          {
+            "id": "u30ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "mentre",
+            "options": [
+              "while",
+              "during",
+              "until",
+              "then"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Mentre' = while. Mentre + imperfetto for the background; the event takes the passato prossimo.",
+            "dictionaryRefs": [
+              "mentre"
+            ]
+          },
+          {
+            "id": "u30ce2",
+            "type": "fill_blank",
+            "prompt": "Event. Complete the sentence. (Yesterday evening I watched a film.) (Unit 16 recycling)",
+            "sentence": "Ieri sera ___ un film.",
+            "answers": [
+              "ho guardato"
+            ],
+            "explanation": "'Ieri sera ho guardato un film.' — one finished event → passato prossimo.",
+            "dictionaryRefs": [
+              "ieri",
+              "la-sera",
+              "guardare",
+              "il-film"
+            ]
+          },
+          {
+            "id": "u30ce3",
+            "type": "fill_blank",
+            "prompt": "Habit. Complete the sentence. (As a child I always played in the park.) (Unit 29 recycling)",
+            "sentence": "Da piccolo ___ sempre al parco.",
+            "answers": [
+              "giocavo"
+            ],
+            "explanation": "'Da piccolo giocavo sempre al parco.' — da piccolo + sempre = habit → imperfetto.",
+            "dictionaryRefs": [
+              "piccolo",
+              "giocare",
+              "sempre",
+              "il-parco"
+            ]
+          },
+          {
+            "id": "u30ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "While I was eating, Giulia arrived.",
+            "acceptedIt": [
+              "Mentre mangiavo, è arrivata Giulia.",
+              "Mentre mangiavo, è arrivata Giulia",
+              "Mentre mangiavo è arrivata Giulia",
+              "Mentre mangiavo, e' arrivata Giulia"
+            ],
+            "explanation": "'Mentre mangiavo, è arrivata Giulia.' — mentre + imperfetto for the background; the arrival is the event.",
+            "dictionaryRefs": [
+              "mentre",
+              "mangiare",
+              "arrivare"
+            ]
+          },
+          {
+            "id": "u30ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 5+27 recycling)",
+            "sourceIt": "Poi sono andato a casa.",
+            "acceptedEn": [
+              "Then I went home. (man speaking)"
+            ],
+            "explanation": "'Poi sono andato a casa.' — poi (then) + sono andato (event, movement → essere). A woman: sono andata.",
+            "dictionaryRefs": [
+              "poi",
+              "andare",
+              "la-casa"
+            ]
+          },
+          {
+            "id": "u30ce6",
+            "type": "multiple_choice",
+            "prompt": "Habit or event? (On Saturdays I used to eat pizza.)",
+            "question": "Il sabato mangiavo la pizza.",
+            "options": [
+              "a habit — imperfetto",
+              "one event — passato prossimo",
+              "a future plan",
+              "right now"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il sabato mangiavo la pizza.' — il sabato (every Saturday) = habit → imperfetto: mangiavo.",
+            "dictionaryRefs": [
+              "mangiare",
+              "la-pizza"
+            ]
+          },
+          {
+            "id": "u30ce7",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (While I was watching the film, the message arrived.) (Unit 28 recycling)",
+            "sentence": "Mentre guardavo il film, è ___ il messaggio.",
+            "answers": [
+              "arrivato"
+            ],
+            "explanation": "'…è arrivato il messaggio.' — the event interrupts: è arrivato (arrivare, movement → essere; agrees with il messaggio).",
+            "dictionaryRefs": [
+              "mentre",
+              "guardare",
+              "arrivare",
+              "il-messaggio"
+            ]
+          },
+          {
+            "id": "u30ce8",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 6+24 recycling — background)",
+            "tokens": [
+              "Era",
+              "sera",
+              "e",
+              "ero",
+              "stanco."
+            ],
+            "correctSentence": "Era sera e ero stanco.",
+            "explanation": "'Era sera e ero stanco.' — two imperfects set the scene: era (it was) + ero (I was).",
+            "dictionaryRefs": [
+              "la-sera",
+              "stanco"
+            ]
+          },
+          {
+            "id": "u30ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 19 recycling)",
+            "mode": "choice",
+            "speakIt": "Ho visto Giulia ieri.",
+            "options": [
+              "I saw Giulia yesterday.",
+              "I see Giulia today.",
+              "I was seeing Giulia yesterday.",
+              "I watched Giulia yesterday."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ho visto Giulia ieri.' — vedere → visto (irregular). One finished event.",
+            "dictionaryRefs": [
+              "vedere",
+              "ieri"
+            ]
+          },
+          {
+            "id": "u30ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: Yesterday I watched a film.",
+            "targetIt": "Ieri ho guardato un film.",
+            "minAccuracy": 0.7,
+            "explanation": "'Ieri ho guardato un film.' — YE-ri o gwar-DA-to un FILM. Event, done, yesterday.",
+            "dictionaryRefs": [
+              "ieri",
+              "guardare",
+              "il-film"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -24864,6 +25681,94 @@
         }
       ],
       "introducedInUnit": 29
+    },
+    {
+      "id": "allora",
+      "word": "allora",
+      "translation": "then; back then",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Allora abitavo a Roma.",
+          "en": "Back then I lived in Rome."
+        }
+      ],
+      "introducedInUnit": 30
+    },
+    {
+      "id": "mentre",
+      "word": "mentre",
+      "translation": "while",
+      "partOfSpeech": "conjunction",
+      "examples": [
+        {
+          "it": "Mentre dormivo, ha chiamato Giulia.",
+          "en": "While I was sleeping, Giulia called."
+        }
+      ],
+      "introducedInUnit": 30
+    },
+    {
+      "id": "la-storia",
+      "word": "storia",
+      "article": "la",
+      "translation": "story; history",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La storia è divertente.",
+          "en": "The story is fun."
+        }
+      ],
+      "introducedInUnit": 30
+    },
+    {
+      "id": "una-volta",
+      "word": "una volta",
+      "translation": "once; one time",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Una volta ho visto Giulia al parco.",
+          "en": "Once I saw Giulia at the park."
+        },
+        {
+          "it": "Una volta al mese mangiavo la pizza.",
+          "en": "Once a month I used to eat pizza."
+        }
+      ],
+      "introducedInUnit": 30
+    },
+    {
+      "id": "poi",
+      "word": "poi",
+      "translation": "then; afterwards",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Ho fatto la doccia, poi sono uscito.",
+          "en": "I took a shower, then I went out."
+        }
+      ],
+      "introducedInUnit": 30
+    },
+    {
+      "id": "dopo",
+      "word": "dopo",
+      "translation": "after; later; afterwards",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Faccio colazione dopo la doccia.",
+          "en": "I have breakfast after the shower."
+        },
+        {
+          "it": "Mangio dopo.",
+          "en": "I eat later."
+        }
+      ],
+      "introducedInUnit": 30
     }
   ],
   "stories": [
