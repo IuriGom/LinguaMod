@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 25,
+    "version": 26,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -23359,6 +23359,802 @@
           }
         ]
       }
+    },
+    {
+      "id": "u32",
+      "number": 32,
+      "title": "Volere, potere, dovere",
+      "lessons": [
+        {
+          "id": "u32l1",
+          "type": "vocabulary",
+          "title": "Volere, potere, dovere — le parole",
+          "dictionaryRefs": [
+            "volere",
+            "potere",
+            "dovere",
+            "il-favore",
+            "possibile",
+            "subito"
+          ],
+          "exercises": [
+            {
+              "id": "u32l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "volere",
+              "options": [
+                "to want",
+                "to be able to",
+                "to have to",
+                "to wish upon"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Volere' = to want. You know voglio (Unit 15) and vorrei (Unit 9) — this is the verb behind them: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+              "dictionaryRefs": [
+                "volere",
+                "voglio",
+                "vorrei"
+              ]
+            },
+            {
+              "id": "u32l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "potere",
+              "options": [
+                "can; to be able to",
+                "to have to",
+                "to want",
+                "power"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Potere' = can, to be able to: 'Posso entrare?' — Can I come in? posso, puoi, può, possiamo, potete, possono.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u32l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dovere",
+              "options": [
+                "must; to have to",
+                "to owe",
+                "to want",
+                "duty"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dovere' = must, to have to: 'Devo lavorare.' — I have to work. devo, devi, deve, dobbiamo, dovete, devono.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u32l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il favore",
+              "options": [
+                "the favor",
+                "the favorite",
+                "the permission",
+                "the request"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il favore' (m) = the favor. You say it every day: 'per favore' (Unit 9) = for favor = please.",
+              "dictionaryRefs": [
+                "il-favore",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u32l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "possibile",
+              "options": [
+                "possible",
+                "impossible",
+                "probable",
+                "allowed"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Possibile' = possible — from potere. 'È possibile?' — Is it possible? An -e adjective: one form singular, possibili plural.",
+              "dictionaryRefs": [
+                "possibile"
+              ]
+            },
+            {
+              "id": "u32l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "subito",
+              "options": [
+                "right away; immediately",
+                "slowly",
+                "soon",
+                "suddenly"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Subito' = right away, immediately. 'Vengo subito.' — I'll come right away. Stronger than presto (soon).",
+              "dictionaryRefs": [
+                "subito"
+              ]
+            },
+            {
+              "id": "u32l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I must work tomorrow.) (Unit 8 recycling)",
+              "sentence": "___ lavorare domani.",
+              "answers": [
+                "Devo",
+                "Io devo"
+              ],
+              "explanation": "'Devo lavorare domani.' — modal + infinitive: devo lavorare. No extra words between them.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Vengo subito.",
+              "acceptedEn": [
+                "I'll come right away.",
+                "I'm coming right away."
+              ],
+              "explanation": "'Vengo subito.' — vengo (venire, io) + subito (right away). The answer to 'Vieni?'",
+              "dictionaryRefs": [
+                "subito",
+                "venire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u32l2",
+          "type": "grammar",
+          "title": "I modali: voglio, posso, devo",
+          "dictionaryRefs": [
+            "volere",
+            "potere",
+            "dovere",
+            "il-favore",
+            "subito",
+            "uscire",
+            "lavorare",
+            "venire",
+            "il-caffe",
+            "il-tavolo"
+          ],
+          "grammarNotes": "I VERBI MODALI — the three verbs that carry another verb. Modal + infinitive, nothing between them.\n\nVOLERE (to want): io voglio, tu vuoi, lui/lei vuole, noi vogliamo, voi volete, loro vogliono\n'Voglio uscire.' — I want to go out.\n\nPOTERE (can, may): io posso, tu puoi, lui/lei può, noi possiamo, voi potete, loro possono\n'Posso entrare?' — Can I come in? (permission)\n\nDOVERE (must): io devo, tu devi, lui/lei deve, noi dobbiamo, voi dovete, loro devono\n'Devo lavorare domani.' — I have to work tomorrow.\n\nWHY 'modal': the modal changes the MODE of the other verb — wanting it, being able to do it, having to do it. The second verb stays in the infinitive: devo lavorare, posso entrare, voglio uscire.\n\nTHE POLITENESS LADDER (from Unit 15):\n• 'Voglio il conto!' — I want the bill. (direct — friends)\n• 'Posso avere il conto?' — Can I have the bill? (neutral)\n• 'Vorrei il conto.' — I would like the bill. (polite — restaurants)\n\nIN THE PAST (avere + participle): 'Ho voluto…' (I wanted), 'Non ho potuto venire.' (I couldn't come), 'Ho dovuto lavorare.' (I had to work). (Advanced note, just recognize it: with movement verbs the modal can take essere — 'sono dovuto andare'.)",
+          "exercises": [
+            {
+              "id": "u32l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the question. 💛 (Do you want to go out with me?) (Unit 21 recycling)",
+              "sentence": "___ uscire con me?",
+              "answers": [
+                "Vuoi",
+                "Tu vuoi"
+              ],
+              "explanation": "'Vuoi uscire con me?' — volere (tu: vuoi) + infinitive (uscire). Modal + infinitive, nothing between. 💛",
+              "dictionaryRefs": [
+                "volere",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u32l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I can't come tomorrow.) (Unit 16+27 recycling)",
+              "sentence": "Non ___ venire domani.",
+              "answers": [
+                "posso"
+              ],
+              "explanation": "'Non posso venire domani.' — potere (io: posso) + venire. The polite no.",
+              "dictionaryRefs": [
+                "potere",
+                "venire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have to work tomorrow.)",
+              "sentence": "Devo ___ domani.",
+              "answers": [
+                "lavorare"
+              ],
+              "explanation": "'Devo lavorare domani.' — devo + the infinitive. Never conjugate the second verb.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Yesterday I couldn't come.) (Unit 16+26 recycling)",
+              "sentence": "Ieri non ho ___ venire.",
+              "answers": [
+                "potuto"
+              ],
+              "explanation": "'Ieri non ho potuto venire.' — potere in the past: ho potuto. Modals take avere + participle.",
+              "dictionaryRefs": [
+                "potere",
+                "ieri",
+                "venire"
+              ]
+            },
+            {
+              "id": "u32l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Can I come in?",
+              "acceptedIt": [
+                "Posso entrare?",
+                "Posso entrare",
+                "Io posso entrare?"
+              ],
+              "explanation": "'Posso entrare?' — posso (may/can I) + entrare (to come in, Unit 18's entrato in reverse). The door question.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u32l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+26 recycling)",
+              "sourceEn": "Yesterday I had to work.",
+              "acceptedIt": [
+                "Ieri ho dovuto lavorare.",
+                "Ieri ho dovuto lavorare",
+                "Ieri io ho dovuto lavorare",
+                "Ho dovuto lavorare ieri"
+              ],
+              "explanation": "'Ieri ho dovuto lavorare.' — ho dovuto (past of dovere) + lavorare (infinitive). The modal changes; the second verb never does.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u32l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 16+21 recycling)",
+              "sourceIt": "Non possiamo uscire domani.",
+              "acceptedEn": [
+                "We can't go out tomorrow.",
+                "We cannot go out tomorrow."
+              ],
+              "explanation": "'Non possiamo uscire domani.' — non + possiamo (noi, potere) + uscire. 💛",
+              "dictionaryRefs": [
+                "potere",
+                "uscire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 9+12 recycling)",
+              "sourceIt": "Vuoi un caffè o preferisci un'acqua?",
+              "acceptedEn": [
+                "Do you want a coffee or do you prefer a water?",
+                "Do you want a coffee or would you prefer a water?"
+              ],
+              "explanation": "'Vuoi un caffè o preferisci un'acqua?' — volere vs preferire (Unit 12): the direct want vs the preference.",
+              "dictionaryRefs": [
+                "volere",
+                "il-caffe",
+                "preferire",
+                "acqua"
+              ]
+            },
+            {
+              "id": "u32l2e9",
+              "type": "multiple_choice",
+              "prompt": "The politeness ladder: which is the restaurant-polite one? (Unit 15 recycling)",
+              "question": "Al ristorante:",
+              "options": [
+                "Vorrei il conto.",
+                "Voglio il conto!",
+                "Devo avere il conto.",
+                "Il conto!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vorrei il conto.' — the conditional softens: voglio (direct) → vorrei (polite). You knew it as a set phrase since Unit 9; now you see the ladder.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-conto"
+              ]
+            },
+            {
+              "id": "u32l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 16 recycling)",
+              "tokens": [
+                "Devo",
+                "lavorare",
+                "domani."
+              ],
+              "correctSentence": "Devo lavorare domani.",
+              "explanation": "'Devo lavorare domani.' — devo + lavorare + domani. Modal first, infinitive right after.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 21 recycling)",
+              "tokens": [
+                "Vuoi",
+                "uscire",
+                "con",
+                "me?"
+              ],
+              "correctSentence": "Vuoi uscire con me?",
+              "explanation": "'Vuoi uscire con me?' — the invite from Unit 21, now with the grammar explained: vuoi + uscire + con me. 💛",
+              "dictionaryRefs": [
+                "volere",
+                "uscire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u32l3",
+          "type": "mixed",
+          "title": "Richieste e permessi — ripasso",
+          "dictionaryRefs": [
+            "il-conto",
+            "il-tavolo",
+            "prenotare",
+            "la-spesa",
+            "la-cena",
+            "il-film",
+            "vedere",
+            "venire",
+            "lavorare",
+            "volere",
+            "potere",
+            "dovere",
+            "possibile",
+            "subito"
+          ],
+          "exercises": [
+            {
+              "id": "u32l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+27 recycling)",
+              "sourceEn": "Can you come tomorrow?",
+              "acceptedIt": [
+                "Puoi venire domani?",
+                "Puoi venire domani",
+                "Tu puoi venire domani?"
+              ],
+              "explanation": "'Puoi venire domani?' — puoi (tu, potere) + venire + domani. 💛",
+              "dictionaryRefs": [
+                "potere",
+                "venire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 21 recycling)",
+              "question": "Devo fare la spesa.",
+              "options": [
+                "I have to do the shopping.",
+                "I want to do the shopping.",
+                "I can do the shopping.",
+                "I did the shopping."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Devo fare la spesa.' — devo (obligation) + fare la spesa (Unit 21 chunk).",
+              "dictionaryRefs": [
+                "dovere",
+                "fare",
+                "la-spesa"
+              ]
+            },
+            {
+              "id": "u32l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Yesterday I couldn't sleep.) (Unit 12+26 recycling)",
+              "sentence": "Ieri non ho ___ dormire.",
+              "answers": [
+                "potuto"
+              ],
+              "explanation": "'Ieri non ho potuto dormire.' — ho potuto (potere, past) + dormire. The participle: potuto.",
+              "dictionaryRefs": [
+                "potere",
+                "dormire",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u32l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 25 recycling)",
+              "sourceIt": "Dobbiamo prenotare un tavolo.",
+              "acceptedEn": [
+                "We have to book a table."
+              ],
+              "explanation": "'Dobbiamo prenotare un tavolo.' — dobbiamo (noi, dovere) + prenotare (Unit 25) + un tavolo.",
+              "dictionaryRefs": [
+                "dovere",
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u32l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (May I come in, please?) (Unit 9 recycling)",
+              "sentence": "___ favore, posso entrare?",
+              "answers": [
+                "Per"
+              ],
+              "explanation": "'Per favore, posso entrare?' — per favore (Unit 9) + posso entrare. The politest door.",
+              "dictionaryRefs": [
+                "il-favore",
+                "per-favore",
+                "potere"
+              ]
+            },
+            {
+              "id": "u32l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 19 recycling)",
+              "question": "Voglio vedere il film.",
+              "options": [
+                "I want to see the film.",
+                "I can see the film.",
+                "I have to see the film.",
+                "I saw the film."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Voglio vedere il film.' — voglio (volere) + vedere (Unit 19). Want + infinitive.",
+              "dictionaryRefs": [
+                "volere",
+                "vedere",
+                "il-film"
+              ]
+            },
+            {
+              "id": "u32l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 25 recycling)",
+              "tokens": [
+                "Devo",
+                "prenotare",
+                "il",
+                "tavolo."
+              ],
+              "correctSentence": "Devo prenotare il tavolo.",
+              "explanation": "'Devo prenotare il tavolo.' — devo + prenotare + il tavolo. Modal, infinitive, object.",
+              "dictionaryRefs": [
+                "dovere",
+                "prenotare",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u32l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 8+16 recycling)",
+              "sourceEn": "Do you have to work tomorrow?",
+              "acceptedIt": [
+                "Devi lavorare domani?",
+                "Devi lavorare domani",
+                "Tu devi lavorare domani?"
+              ],
+              "explanation": "'Devi lavorare domani?' — devi (tu, dovere) + lavorare + domani. 💛 The question before making plans.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u32l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "potere",
+            "dovere",
+            "volere",
+            "lavorare",
+            "domani",
+            "venire",
+            "uscire",
+            "il-caffe"
+          ],
+          "exercises": [
+            {
+              "id": "u32l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Posso entrare?",
+              "options": [
+                "Can I come in?",
+                "Can I go out?",
+                "May I pay?",
+                "Can I sit?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Posso entrare?' — Can I come in? Posso + entrare.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u32l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Devo lavorare domani.",
+              "acceptedIt": [
+                "Devo lavorare domani.",
+                "Devo lavorare domani",
+                "Io devo lavorare domani"
+              ],
+              "explanation": "You heard: 'Devo lavorare domani.' — I have to work tomorrow.",
+              "dictionaryRefs": [
+                "dovere",
+                "lavorare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u32l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 27 recycling)",
+              "mode": "choice",
+              "speakIt": "Non ho potuto venire.",
+              "options": [
+                "I couldn't come.",
+                "I didn't want to come.",
+                "I can't come.",
+                "I couldn't go."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Non ho potuto venire.' — I couldn't come. Ho potuto = potere in the past.",
+              "dictionaryRefs": [
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u32l4e4",
+              "type": "speaking",
+              "prompt": "Ask in Italian: do you want to go out with me? 💛 (Unit 21 recycling)",
+              "targetIt": "Vuoi uscire con me?",
+              "minAccuracy": 0.7,
+              "explanation": "'Vuoi uscire con me?' — VWO-y u-SHI-re kon ME. 💛 Now you know every piece of it.",
+              "dictionaryRefs": [
+                "volere",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u32l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: can I come in?",
+              "targetIt": "Posso entrare?",
+              "minAccuracy": 0.7,
+              "explanation": "'Posso entrare?' — POS-so en-TRA-re, voice rising.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u32l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 9 recycling)",
+              "mode": "type",
+              "speakIt": "Vogliamo due caffè.",
+              "acceptedIt": [
+                "Vogliamo due caffè.",
+                "Vogliamo due caffè",
+                "Vogliamo due caffe",
+                "Noi vogliamo due caffè"
+              ],
+              "explanation": "You heard: 'Vogliamo due caffè.' — We want two coffees. Vogliamo (noi, volere).",
+              "dictionaryRefs": [
+                "volere",
+                "il-caffe"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u32c",
+        "exercises": [
+          {
+            "id": "u32ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il favore",
+            "options": [
+              "the favor",
+              "the favorite",
+              "the flavor",
+              "the permission"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il favore' (m) = the favor — the same word inside 'per favore' (please).",
+            "dictionaryRefs": [
+              "il-favore"
+            ]
+          },
+          {
+            "id": "u32ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the question. (Can we go to the seaside tomorrow?) (Unit 16+20 recycling)",
+            "sentence": "___ andare al mare domani?",
+            "answers": [
+              "Possiamo"
+            ],
+            "explanation": "'Possiamo andare al mare domani?' — possiamo (noi, potere) + andare. Can we go…?",
+            "dictionaryRefs": [
+              "potere",
+              "andare",
+              "il-mare",
+              "domani"
+            ]
+          },
+          {
+            "id": "u32ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 8+16 recycling)",
+            "sourceEn": "I have to study tomorrow.",
+            "acceptedIt": [
+              "Devo studiare domani.",
+              "Devo studiare domani",
+              "Io devo studiare domani",
+              "Domani devo studiare"
+            ],
+            "explanation": "'Devo studiare domani.' — devo + studiare (infinitive) + domani.",
+            "dictionaryRefs": [
+              "dovere",
+              "studiare",
+              "domani"
+            ]
+          },
+          {
+            "id": "u32ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 16+27 recycling)",
+            "sourceIt": "Non posso venire sabato.",
+            "acceptedEn": [
+              "I can't come on Saturday.",
+              "I cannot come on Saturday."
+            ],
+            "explanation": "'Non posso venire sabato.' — non + posso + venire + sabato. The honest no.",
+            "dictionaryRefs": [
+              "potere",
+              "venire"
+            ]
+          },
+          {
+            "id": "u32ce5",
+            "type": "multiple_choice",
+            "prompt": "The politeness ladder: pick the polite one. (Unit 15 recycling)",
+            "question": "Con il cameriere:",
+            "options": [
+              "Vorrei un vino.",
+              "Voglio un vino!",
+              "Devo avere un vino.",
+              "Posso un vino?"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Vorrei un vino.' — vorrei softens. 'Posso un vino?' is missing the verb (avere) — potere needs an infinitive.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-vino"
+            ]
+          },
+          {
+            "id": "u32ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Yesterday I couldn't go out.) (Unit 21+26 recycling)",
+            "sentence": "Ieri non ho ___ uscire.",
+            "answers": [
+              "potuto"
+            ],
+            "explanation": "'Ieri non ho potuto uscire.' — ho potuto (past) + uscire (infinitive).",
+            "dictionaryRefs": [
+              "potere",
+              "uscire",
+              "ieri"
+            ]
+          },
+          {
+            "id": "u32ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 21 recycling)",
+            "tokens": [
+              "Dobbiamo",
+              "fare",
+              "la",
+              "spesa."
+            ],
+            "correctSentence": "Dobbiamo fare la spesa.",
+            "explanation": "'Dobbiamo fare la spesa.' — dobbiamo (noi) + fare la spesa. Obligation + the Unit 21 chunk.",
+            "dictionaryRefs": [
+              "dovere",
+              "fare",
+              "la-spesa"
+            ]
+          },
+          {
+            "id": "u32ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Possiamo entrare?",
+            "options": [
+              "Can we come in?",
+              "Can I come in?",
+              "Can we go out?",
+              "Can we pay?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Possiamo entrare?' — possiamo (noi) + entrare. Listen for -iamo.",
+            "dictionaryRefs": [
+              "potere"
+            ]
+          },
+          {
+            "id": "u32ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Devo lavorare.",
+            "acceptedIt": [
+              "Devo lavorare.",
+              "Devo lavorare",
+              "Io devo lavorare"
+            ],
+            "explanation": "You heard: 'Devo lavorare.' — I have to work.",
+            "dictionaryRefs": [
+              "dovere",
+              "lavorare"
+            ]
+          },
+          {
+            "id": "u32ce10",
+            "type": "speaking",
+            "prompt": "Ask in Italian: can I come in?",
+            "targetIt": "Posso entrare?",
+            "minAccuracy": 0.7,
+            "explanation": "'Posso entrare?' — POS-so en-TRA-re. The door question, perfected.",
+            "dictionaryRefs": [
+              "potere"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -26652,6 +27448,102 @@
         }
       ],
       "introducedInUnit": 31
+    },
+    {
+      "id": "volere",
+      "word": "volere",
+      "translation": "to want",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Voglio uscire.",
+          "en": "I want to go out."
+        },
+        {
+          "it": "Vuoi uscire con me?",
+          "en": "Do you want to go out with me?"
+        }
+      ],
+      "introducedInUnit": 32
+    },
+    {
+      "id": "potere",
+      "word": "potere",
+      "translation": "can; to be able to",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Posso entrare?",
+          "en": "Can I come in?"
+        },
+        {
+          "it": "Non posso venire domani.",
+          "en": "I can't come tomorrow."
+        }
+      ],
+      "introducedInUnit": 32
+    },
+    {
+      "id": "dovere",
+      "word": "dovere",
+      "translation": "must; to have to",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Devo lavorare domani.",
+          "en": "I have to work tomorrow."
+        },
+        {
+          "it": "Dobbiamo prenotare un tavolo.",
+          "en": "We have to book a table."
+        }
+      ],
+      "introducedInUnit": 32
+    },
+    {
+      "id": "il-favore",
+      "word": "favore",
+      "article": "il",
+      "translation": "favor",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Un piccolo favore.",
+          "en": "A small favor."
+        },
+        {
+          "it": "Per favore, posso entrare?",
+          "en": "Please, can I come in?"
+        }
+      ],
+      "introducedInUnit": 32
+    },
+    {
+      "id": "possibile",
+      "word": "possibile",
+      "translation": "possible",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È possibile?",
+          "en": "Is it possible?"
+        }
+      ],
+      "introducedInUnit": 32
+    },
+    {
+      "id": "subito",
+      "word": "subito",
+      "translation": "right away; immediately",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Vengo subito.",
+          "en": "I'll come right away."
+        }
+      ],
+      "introducedInUnit": 32
     }
   ],
   "stories": [
