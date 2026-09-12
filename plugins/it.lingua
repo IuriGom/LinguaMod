@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 20,
+    "version": 21,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -20214,6 +20214,774 @@
           }
         ]
       }
+    },
+    {
+      "id": "u28",
+      "number": 28,
+      "title": "I verbi riflessivi",
+      "lessons": [
+        {
+          "id": "u28l1",
+          "type": "vocabulary",
+          "title": "Svegliarsi, alzarsi, vestirsi",
+          "dictionaryRefs": [
+            "svegliarsi",
+            "alzarsi",
+            "vestirsi",
+            "divertirsi",
+            "la-doccia",
+            "lo-specchio",
+            "il-messaggio"
+          ],
+          "exercises": [
+            {
+              "id": "u28l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "svegliarsi",
+              "options": [
+                "to wake up",
+                "to get up",
+                "to fall asleep",
+                "to get dressed"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Svegliarsi' = to wake up. The -si marks a reflexive verb: the action comes back to you. 'Mi sveglio alle sette.'",
+              "dictionaryRefs": [
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "alzarsi",
+              "options": [
+                "to get up",
+                "to wake up",
+                "to stand up straight",
+                "to go up"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Alzarsi' = to get up (out of bed, out of a chair). 'Mi alzo alle otto.' First you ti svegli, then ti alzi.",
+              "dictionaryRefs": [
+                "alzarsi"
+              ]
+            },
+            {
+              "id": "u28l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "vestirsi",
+              "options": [
+                "to get dressed",
+                "to wear a vest",
+                "to undress",
+                "to wash"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vestirsi' = to get dressed — from il vestito (Unit 23). 'Mi vesto e esco.' — I get dressed and go out.",
+              "dictionaryRefs": [
+                "vestirsi",
+                "il-vestito"
+              ]
+            },
+            {
+              "id": "u28l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "divertirsi",
+              "options": [
+                "to have fun",
+                "to get distracted",
+                "to amuse someone",
+                "to go out"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Divertirsi' = to have fun — from divertente (Unit 13). 💛 'Mi sono divertito.' — I had fun. The sentence after a great date.",
+              "dictionaryRefs": [
+                "divertirsi",
+                "divertente"
+              ]
+            },
+            {
+              "id": "u28l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la doccia",
+              "options": [
+                "the shower",
+                "the bath",
+                "the sink",
+                "the bathroom"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La doccia' (f) = the shower. With fare (Unit 21): 'Faccio la doccia.' — I take a shower.",
+              "dictionaryRefs": [
+                "la-doccia"
+              ]
+            },
+            {
+              "id": "u28l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "lo specchio",
+              "options": [
+                "the mirror",
+                "the window",
+                "the glass",
+                "the wall"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo specchio' (m) = the mirror. S+consonant → lo (Unit 5's rule). 'Lo specchio è nel bagno.'",
+              "dictionaryRefs": [
+                "lo-specchio",
+                "il-bagno"
+              ]
+            },
+            {
+              "id": "u28l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I wake up at seven.)",
+              "sentence": "Mi ___ alle sette.",
+              "answers": [
+                "sveglio"
+              ],
+              "explanation": "'Mi sveglio alle sette.' — mi + sveglio: the reflexive pronoun hugs the verb. Io mi sveglio, tu ti svegli…",
+              "dictionaryRefs": [
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Mi sono divertito.",
+              "acceptedEn": [
+                "I had fun. (man speaking)",
+                "I had a good time. (man speaking)"
+              ],
+              "explanation": "'Mi sono divertito.' — reflexives take essere (Unit 27): mi sono + divertito. 💛 A woman: 'Mi sono divertita.'",
+              "dictionaryRefs": [
+                "divertirsi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u28l2",
+          "type": "grammar",
+          "title": "Mi sveglio, ti svegli… — la routine",
+          "dictionaryRefs": [
+            "svegliarsi",
+            "alzarsi",
+            "vestirsi",
+            "divertirsi",
+            "la-doccia",
+            "mi-chiamo",
+            "bene",
+            "ieri",
+            "molto"
+          ],
+          "grammarNotes": "I VERBI RIFLESSIVI — the action comes back to you. The little pronoun (mi, ti, si, ci, vi, si) hugs the verb.\n\nPRESENT — svegliarsi (to wake up):\n\nio mi sveglio — tu ti svegli — lui/lei si sveglia — noi ci svegliamo — voi vi svegliate — loro si svegliano\n\nThe same pattern:\n• alzarsi (to get up): mi alzo, ti alzi, si alza, ci alziamo, vi alzate, si alzano\n• vestirsi (to get dressed): mi vesto, ti vesti, si veste, ci vestiamo, vi vestite, si vestono\n• divertirsi (to have fun): mi diverto, ti diverti, si diverte, ci divertiamo, vi divertite, si divertono\n\nYou already know one! 'Mi chiamo Alex' (Unit 1) — chiamarsi, to call oneself. The reflexive was there from day one.\n\nTHE DAILY ROUTINE: 'Mi sveglio alle sette. Mi alzo. Faccio la doccia (Unit 21's fare chunk). Mi vesto. Faccio colazione.'\n\nPASSATO PROSSIMO — reflexives always take essere, and the participle agrees (Unit 27):\n• 'Mi sono svegliato alle sette.' (man) / 'Mi sono svegliata alle sette.' (woman)\n• 💛 'Mi sono divertito.' / 'Mi sono divertita.' — I had fun.\n\nWHY essere: the action reflects back on the subject — Italian treats it like a change of state, and states take essere.",
+          "exercises": [
+            {
+              "id": "u28l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I wake up at seven.)",
+              "sentence": "Mi ___ alle sette.",
+              "answers": [
+                "sveglio"
+              ],
+              "explanation": "'Mi sveglio alle sette.' — mi (to myself) + sveglio. The pronoun never leaves the verb.",
+              "dictionaryRefs": [
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (You get up at eight.)",
+              "sentence": "Tu ___ alle otto.",
+              "answers": [
+                "ti alzi"
+              ],
+              "explanation": "'Tu ti alzi alle otto.' — tu → ti alzi. The pronoun changes with the person: mi, ti, si, ci, vi, si.",
+              "dictionaryRefs": [
+                "alzarsi"
+              ]
+            },
+            {
+              "id": "u28l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia gets up at half past seven.) (Unit 16 recycling)",
+              "sentence": "Giulia ___ alle sette e mezza.",
+              "answers": [
+                "si alza"
+              ],
+              "explanation": "'Giulia si alza alle sette e mezza.' — she → si alza. The third-person reflexive is si.",
+              "dictionaryRefs": [
+                "alzarsi",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u28l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Yesterday I woke up at six. — man speaking)",
+              "sentence": "Ieri mi sono ___ alle sei.",
+              "answers": [
+                "svegliato"
+              ],
+              "explanation": "'Ieri mi sono svegliato alle sei.' — reflexive past: mi + sono + svegliato. Essere always; agreement with the subject.",
+              "dictionaryRefs": [
+                "svegliarsi",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u28l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct auxiliary. (Yesterday Giulia had fun.) 💛",
+              "question": "Ieri Giulia ___ divertita.",
+              "options": [
+                "si è",
+                "si ha",
+                "mi sono",
+                "ti sei"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ieri Giulia si è divertita.' — reflexives take essere: si è + divertita (f, agreeing with Giulia).",
+              "dictionaryRefs": [
+                "divertirsi",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u28l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 21 recycling)",
+              "sourceEn": "I get dressed and take a shower.",
+              "acceptedIt": [
+                "Mi vesto e faccio la doccia.",
+                "Mi vesto e faccio la doccia",
+                "Io mi vesto e faccio la doccia"
+              ],
+              "explanation": "'Mi vesto e faccio la doccia.' — reflexive (mi vesto) + fare chunk (faccio la doccia). The morning in one line.",
+              "dictionaryRefs": [
+                "vestirsi",
+                "la-doccia",
+                "fare"
+              ]
+            },
+            {
+              "id": "u28l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Did you have fun?",
+              "acceptedIt": [
+                "Ti sei divertito?",
+                "Ti sei divertita?",
+                "Ti sei divertito",
+                "Ti sei divertita",
+                "Tu ti sei divertito?"
+              ],
+              "explanation": "'Ti sei divertito/a?' — ti + sei + divertito (to a man) / divertita (to a woman). 💛 Ask it the morning after.",
+              "dictionaryRefs": [
+                "divertirsi"
+              ]
+            },
+            {
+              "id": "u28l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ci svegliamo alle sette.",
+              "acceptedEn": [
+                "We wake up at seven.",
+                "We wake up at seven o'clock."
+              ],
+              "explanation": "'Ci svegliamo alle sette.' — noi → ci svegliamo. The pronoun ci for 'ourselves'.",
+              "dictionaryRefs": [
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l2e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 13 recycling)",
+              "sourceIt": "Mi sono divertita molto.",
+              "acceptedEn": [
+                "I had a lot of fun. (woman speaking)",
+                "I had so much fun. (woman speaking)"
+              ],
+              "explanation": "'Mi sono divertita molto.' — divertitA: a woman is speaking. Molto (Unit 13) never changes. 💛",
+              "dictionaryRefs": [
+                "divertirsi",
+                "molto"
+              ]
+            },
+            {
+              "id": "u28l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "alzo",
+                "Mi",
+                "alle",
+                "sette."
+              ],
+              "correctSentence": "Mi alzo alle sette.",
+              "explanation": "'Mi alzo alle sette.' — mi first, then alzo, then the time. The pronoun leads.",
+              "dictionaryRefs": [
+                "alzarsi"
+              ]
+            },
+            {
+              "id": "u28l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 7 recycling)",
+              "tokens": [
+                "Si",
+                "vestono",
+                "bene."
+              ],
+              "correctSentence": "Si vestono bene.",
+              "explanation": "'Si vestono bene.' — loro → si vestono: they dress well (literally: they dress themselves well).",
+              "dictionaryRefs": [
+                "vestirsi",
+                "bene"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u28l3",
+          "type": "mixed",
+          "title": "La routine di Alex — ripasso",
+          "dictionaryRefs": [
+            "la-mattina",
+            "la-colazione",
+            "il-bar",
+            "la-scuola",
+            "andare",
+            "lavorare",
+            "fare",
+            "il-ragazzo",
+            "ieri",
+            "la-sera",
+            "svegliarsi",
+            "alzarsi",
+            "vestirsi",
+            "divertirsi",
+            "la-doccia",
+            "il-messaggio"
+          ],
+          "exercises": [
+            {
+              "id": "u28l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 10 recycling)",
+              "sourceEn": "In the morning I wake up at seven.",
+              "acceptedIt": [
+                "La mattina mi sveglio alle sette.",
+                "La mattina mi sveglio alle sette",
+                "Mi sveglio alle sette la mattina"
+              ],
+              "explanation": "'La mattina mi sveglio alle sette.' — la mattina (Unit 10) first, then mi sveglio alle sette.",
+              "dictionaryRefs": [
+                "la-mattina",
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 21 recycling)",
+              "question": "Faccio la doccia e mi vesto.",
+              "options": [
+                "I take a shower and get dressed.",
+                "I take a shower and go out.",
+                "I wash and get dressed.",
+                "I take a shower and wake up."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Faccio la doccia e mi vesto.' — the fare chunk (Unit 21) + the reflexive mi vesto. Two morning steps.",
+              "dictionaryRefs": [
+                "fare",
+                "la-doccia",
+                "vestirsi"
+              ]
+            },
+            {
+              "id": "u28l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I take a shower and get dressed.)",
+              "sentence": "Faccio la doccia e mi ___.",
+              "answers": [
+                "vesto"
+              ],
+              "explanation": "'Faccio la doccia e mi vesto.' — one subject, two verbs: faccio… e mi vesto. The pronoun repeats with each reflexive.",
+              "dictionaryRefs": [
+                "la-doccia",
+                "vestirsi"
+              ]
+            },
+            {
+              "id": "u28l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Vi siete divertiti?",
+              "acceptedEn": [
+                "Did you (all) have fun?",
+                "Did you have fun? (plural)"
+              ],
+              "explanation": "'Vi siete divertiti?' — voi → vi siete divertiti (m pl). The question to a couple of friends.",
+              "dictionaryRefs": [
+                "divertirsi"
+              ]
+            },
+            {
+              "id": "u28l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The boys wake up at seven.) (Unit 6 recycling)",
+              "sentence": "I ragazzi si ___ alle sette.",
+              "answers": [
+                "svegliano"
+              ],
+              "explanation": "'I ragazzi si svegliano alle sette.' — loro → si svegliano. The -ano ending you know from -are verbs.",
+              "dictionaryRefs": [
+                "il-ragazzo",
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 10+13+16 recycling)",
+              "question": "Mi sono divertito molto ieri sera.",
+              "options": [
+                "I had a lot of fun last night. (man speaking)",
+                "I had a lot of fun last night. (woman speaking)",
+                "I have a lot of fun in the evenings.",
+                "I had fun this morning."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi sono divertito molto ieri sera.' — divertitO (a man), ieri sera (last night, Units 16+10). 💛",
+              "dictionaryRefs": [
+                "divertirsi",
+                "molto",
+                "ieri",
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u28l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 10+21 recycling)",
+              "tokens": [
+                "Faccio",
+                "la",
+                "doccia",
+                "la",
+                "mattina."
+              ],
+              "correctSentence": "Faccio la doccia la mattina.",
+              "explanation": "'Faccio la doccia la mattina.' — the two 'la' tokens are interchangeable: the chunk la doccia, then the time la mattina.",
+              "dictionaryRefs": [
+                "fare",
+                "la-doccia",
+                "la-mattina"
+              ]
+            },
+            {
+              "id": "u28l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Do you wake up at six?",
+              "acceptedIt": [
+                "Ti svegli alle sei?",
+                "Ti svegli alle sei",
+                "Tu ti svegli alle sei?"
+              ],
+              "explanation": "'Ti svegli alle sei?' — ti + svegli + alle sei. The reflexive question.",
+              "dictionaryRefs": [
+                "svegliarsi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u28l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "svegliarsi",
+            "alzarsi",
+            "divertirsi",
+            "la-doccia",
+            "ieri",
+            "la-sera",
+            "molto",
+            "vestirsi"
+          ],
+          "exercises": [
+            {
+              "id": "u28l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Mi sveglio alle sette.",
+              "options": [
+                "I wake up at seven.",
+                "I get up at seven.",
+                "I wake up at six.",
+                "We wake up at seven."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Mi sveglio alle sette.' — mi (io) + sveglio. Listen for mi vs ci.",
+              "dictionaryRefs": [
+                "svegliarsi"
+              ]
+            },
+            {
+              "id": "u28l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Mi sono divertita.",
+              "acceptedIt": [
+                "Mi sono divertita.",
+                "Mi sono divertita"
+              ],
+              "explanation": "You heard: 'Mi sono divertita.' — I had fun (woman speaking). DivertitA ends in -a.",
+              "dictionaryRefs": [
+                "divertirsi"
+              ]
+            },
+            {
+              "id": "u28l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 21 recycling)",
+              "mode": "choice",
+              "speakIt": "Faccio la doccia.",
+              "options": [
+                "I take a shower.",
+                "I take a bath.",
+                "I have breakfast.",
+                "I get dressed."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Faccio la doccia.' — fare + la doccia: I take a shower.",
+              "dictionaryRefs": [
+                "fare",
+                "la-doccia"
+              ]
+            },
+            {
+              "id": "u28l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I get up at eight.",
+              "targetIt": "Mi alzo alle otto.",
+              "minAccuracy": 0.7,
+              "explanation": "'Mi alzo alle otto.' — mi AL-tso AL-le OT-to. The lz is one quick sound.",
+              "dictionaryRefs": [
+                "alzarsi"
+              ]
+            },
+            {
+              "id": "u28l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I had a lot of fun last night. 💛",
+              "targetIt": "Mi sono divertito molto ieri sera.",
+              "minAccuracy": 0.7,
+              "explanation": "'Mi sono divertito molto ieri sera.' — 💛 the sentence of the morning after. Take it slow: di-ver-TI-to.",
+              "dictionaryRefs": [
+                "divertirsi",
+                "molto",
+                "ieri",
+                "la-sera"
+              ]
+            },
+            {
+              "id": "u28l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ci vestiamo.",
+              "acceptedIt": [
+                "Ci vestiamo.",
+                "Ci vestiamo",
+                "Noi ci vestiamo"
+              ],
+              "explanation": "You heard: 'Ci vestiamo.' — We get dressed. Noi → ci vestiamo.",
+              "dictionaryRefs": [
+                "vestirsi"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u28c",
+        "exercises": [
+          {
+            "id": "u28ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "lo specchio",
+            "options": [
+              "the mirror",
+              "the window",
+              "the shower",
+              "the wall"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Lo specchio' (m) = the mirror. S+consonant → lo (Unit 5).",
+            "dictionaryRefs": [
+              "lo-specchio"
+            ]
+          },
+          {
+            "id": "u28ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I wake up at half past seven.) (Unit 16 recycling)",
+            "sentence": "Mi ___ alle sette e mezza.",
+            "answers": [
+              "sveglio"
+            ],
+            "explanation": "'Mi sveglio alle sette e mezza.' — mi + sveglio; the time with e mezza (Unit 16).",
+            "dictionaryRefs": [
+              "svegliarsi",
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u28ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. 💛 (Yesterday Giulia had a lot of fun.)",
+            "sentence": "Ieri Giulia si è ___ molto.",
+            "answers": [
+              "divertita"
+            ],
+            "explanation": "'Ieri Giulia si è divertita molto.' — reflexive past: si è + divertita (f, agreeing with Giulia).",
+            "dictionaryRefs": [
+              "divertirsi",
+              "ieri",
+              "molto"
+            ]
+          },
+          {
+            "id": "u28ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 10+16 recycling)",
+            "sourceEn": "We had fun yesterday evening.",
+            "acceptedIt": [
+              "Ci siamo divertiti ieri sera.",
+              "Ci siamo divertiti ieri sera",
+              "Noi ci siamo divertiti ieri sera",
+              "Ci siamo divertite ieri sera"
+            ],
+            "explanation": "'Ci siamo divertiti ieri sera.' — noi: ci siamo divertiti (m pl). All reflexives take essere.",
+            "dictionaryRefs": [
+              "divertirsi",
+              "ieri",
+              "la-sera"
+            ]
+          },
+          {
+            "id": "u28ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Il messaggio è di Giulia.",
+            "acceptedEn": [
+              "The message is from Giulia."
+            ],
+            "explanation": "'Il messaggio è di Giulia.' — di + name: from/of Giulia, like 'il compleanno di Giulia' (Unit 17).",
+            "dictionaryRefs": [
+              "il-messaggio"
+            ]
+          },
+          {
+            "id": "u28ce6",
+            "type": "multiple_choice",
+            "prompt": "Choose the auxiliary. 💛 (I had fun. — man speaking)",
+            "question": "Mi ___ divertito.",
+            "options": [
+              "sono",
+              "ho",
+              "è",
+              "sei"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Mi sono divertito.' — reflexives always take essere. Never 'mi ho'.",
+            "dictionaryRefs": [
+              "divertirsi"
+            ]
+          },
+          {
+            "id": "u28ce7",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I take a shower in the morning.) (Unit 10 recycling)",
+            "sentence": "Faccio la ___ la mattina.",
+            "answers": [
+              "doccia"
+            ],
+            "explanation": "'Faccio la doccia la mattina.' — the fare chunk keeps its article: la doccia.",
+            "dictionaryRefs": [
+              "fare",
+              "la-doccia",
+              "la-mattina"
+            ]
+          },
+          {
+            "id": "u28ce8",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Ti",
+              "sei",
+              "divertito?"
+            ],
+            "correctSentence": "Ti sei divertito?",
+            "explanation": "'Ti sei divertito?' — ti + sei + divertito. To a woman: ti sei divertita? 💛",
+            "dictionaryRefs": [
+              "divertirsi"
+            ]
+          },
+          {
+            "id": "u28ce9",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Si sveglia alle sei.",
+            "options": [
+              "She wakes up at six.",
+              "I wake up at six.",
+              "She gets up at seven.",
+              "They wake up at six."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Si sveglia alle sei.' — si (he/she) + sveglia. Third person singular.",
+            "dictionaryRefs": [
+              "svegliarsi"
+            ]
+          },
+          {
+            "id": "u28ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I had a lot of fun last night. 💛",
+            "targetIt": "Mi sono divertito molto ieri sera.",
+            "minAccuracy": 0.7,
+            "explanation": "'Mi sono divertito molto ieri sera.' — 💛 say it to a friend about the date.",
+            "dictionaryRefs": [
+              "divertirsi",
+              "molto",
+              "ieri",
+              "la-sera"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -23123,6 +23891,115 @@
         }
       ],
       "introducedInUnit": 27
+    },
+    {
+      "id": "svegliarsi",
+      "word": "svegliarsi",
+      "translation": "to wake up",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mi sveglio alle sette.",
+          "en": "I wake up at seven."
+        },
+        {
+          "it": "Mi sono svegliato alle sei.",
+          "en": "I woke up at six. (man speaking)"
+        }
+      ],
+      "introducedInUnit": 28
+    },
+    {
+      "id": "alzarsi",
+      "word": "alzarsi",
+      "translation": "to get up",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mi alzo alle otto.",
+          "en": "I get up at eight."
+        }
+      ],
+      "introducedInUnit": 28
+    },
+    {
+      "id": "vestirsi",
+      "word": "vestirsi",
+      "translation": "to get dressed",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mi vesto e esco.",
+          "en": "I get dressed and go out."
+        }
+      ],
+      "introducedInUnit": 28
+    },
+    {
+      "id": "divertirsi",
+      "word": "divertirsi",
+      "translation": "to have fun",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mi sono divertito molto.",
+          "en": "I had a lot of fun. (man speaking)"
+        },
+        {
+          "it": "Ti sei divertita?",
+          "en": "Did you have fun? (to a woman)"
+        }
+      ],
+      "introducedInUnit": 28
+    },
+    {
+      "id": "la-doccia",
+      "word": "doccia",
+      "article": "la",
+      "translation": "shower (fare la doccia = to take a shower)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Faccio la doccia la mattina.",
+          "en": "I take a shower in the morning."
+        }
+      ],
+      "introducedInUnit": 28
+    },
+    {
+      "id": "lo-specchio",
+      "word": "specchio",
+      "article": "lo",
+      "translation": "mirror",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Lo specchio è nel bagno.",
+          "en": "The mirror is in the bathroom."
+        }
+      ],
+      "introducedInUnit": 28
+    },
+    {
+      "id": "il-messaggio",
+      "word": "messaggio",
+      "article": "il",
+      "translation": "message",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il messaggio è di Giulia.",
+          "en": "The message is from Giulia."
+        },
+        {
+          "it": "Ho un messaggio per te.",
+          "en": "I have a message for you."
+        }
+      ],
+      "introducedInUnit": 28
     }
   ],
   "stories": [

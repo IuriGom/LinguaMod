@@ -39,8 +39,9 @@ class PastTenseCrossCheckTest {
         ConjugationReference.PARTICIPLES.forEach { (verb, form) ->
             if (verb.startsWith("-")) return@forEach // conjugation-class defaults
             val essere = verb in ConjugationReference.ESSERE_AUXILIARY ||
-                // reflexive content verbs of Unit 28 are listed under their base form
-                "${verb}si" in ConjugationReference.ESSERE_AUXILIARY
+                // reflexive content verbs of Unit 28 are listed under their base form;
+                // the reflexive infinitive drops the final -e: divertire → divertirsi
+                "${verb.dropLast(1)}si" in ConjugationReference.ESSERE_AUXILIARY
             map[form] = essere
             if (form.endsWith("o")) {
                 map[form.dropLast(1) + "a"] = essere

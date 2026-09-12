@@ -30,7 +30,7 @@ class AuxiliarySelectionTest {
         ConjugationReference.PARTICIPLES.forEach { (verb, form) ->
             if (verb.startsWith("-")) return@forEach
             val essere = verb in ConjugationReference.ESSERE_AUXILIARY ||
-                "${verb}si" in ConjugationReference.ESSERE_AUXILIARY
+                "${verb.dropLast(1)}si" in ConjugationReference.ESSERE_AUXILIARY
             map[form] = essere
             if (form.endsWith("o")) {
                 map[form.dropLast(1) + "a"] = essere
