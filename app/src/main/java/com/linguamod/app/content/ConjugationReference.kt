@@ -61,6 +61,8 @@ object ConjugationReference {
         "telefonare" to Paradigm(listOf("telefono", "telefoni", "telefona", "telefoniamo", "telefonate", "telefonano")),
         "pensare" to Paradigm(listOf("penso", "pensi", "pensa", "pensiamo", "pensate", "pensano")),
         "entrare" to Paradigm(listOf("entro", "entri", "entra", "entriamo", "entrate", "entrano")),
+        "sentire" to Paradigm(listOf("sento", "senti", "sente", "sentiamo", "sentite", "sentono")),
+        "richiamare" to Paradigm(listOf("richiamo", "richiami", "richiama", "richiamiamo", "richiamate", "richiamano")),
         "piacere" to Paradigm(listOf("piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono")),
         // Stage 6 extensions
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),

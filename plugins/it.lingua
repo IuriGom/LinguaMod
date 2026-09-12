@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 31,
+    "version": 32,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -28090,6 +28090,774 @@
           }
         ]
       }
+    },
+    {
+      "id": "u38",
+      "number": 38,
+      "title": "Al telefono",
+      "lessons": [
+        {
+          "id": "u38l1",
+          "type": "vocabulary",
+          "title": "Pronto! Sentire e richiamare",
+          "dictionaryRefs": [
+            "pronto",
+            "sentire",
+            "richiamare",
+            "l-indirizzo",
+            "la-chiamata"
+          ],
+          "exercises": [
+            {
+              "id": "u38l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean — on the phone?",
+              "question": "pronto",
+              "options": [
+                "hello (on the phone); ready",
+                "fast",
+                "first",
+                "present"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Pronto?' — the phone hello, literally 'ready'. Also an adjective: 'Sono pronto.' — I'm ready. Two words in one.",
+              "dictionaryRefs": [
+                "pronto"
+              ]
+            },
+            {
+              "id": "u38l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sentire",
+              "options": [
+                "to hear; to feel",
+                "to listen to music",
+                "to smell",
+                "to sense danger"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sentire' = to hear, to feel: 'Non sento bene.' — I can't hear well. 'Ci sentiamo!' — Talk soon! (we hear each other, Unit 34's ci).",
+              "dictionaryRefs": [
+                "sentire"
+              ]
+            },
+            {
+              "id": "u38l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "richiamare",
+              "options": [
+                "to call back",
+                "to call again tomorrow",
+                "to recall",
+                "to name again"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Richiamare' = to call back — ri- (again) + chiamare (Unit 19). 'Ti richiamo dopo.' — I'll call you back later.",
+              "dictionaryRefs": [
+                "richiamare",
+                "chiamare"
+              ]
+            },
+            {
+              "id": "u38l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "l'indirizzo",
+              "options": [
+                "the address",
+                "the direction",
+                "the street name",
+                "the envelope"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'indirizzo' (m, l' before the vowel) = the address. 💛 'Mi mandi l'indirizzo?' — Will you send me the address? The text before every date.",
+              "dictionaryRefs": [
+                "l-indirizzo"
+              ]
+            },
+            {
+              "id": "u38l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la chiamata",
+              "options": [
+                "the (phone) call",
+                "the calling",
+                "the ringtone",
+                "the phone"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La chiamata' (f) = the call — from chiamare (Unit 19). 'Una chiamata di Giulia.' — A call from Giulia.",
+              "dictionaryRefs": [
+                "la-chiamata",
+                "chiamare"
+              ]
+            },
+            {
+              "id": "u38l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I can't hear well.) (Unit 7 recycling)",
+              "sentence": "Non ___ bene.",
+              "answers": [
+                "sento"
+              ],
+              "explanation": "'Non sento bene.' — sentire, io-form: sento. The phone line's classic line.",
+              "dictionaryRefs": [
+                "sentire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u38l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Will you send me the address?",
+              "acceptedIt": [
+                "Mi mandi l'indirizzo?",
+                "Mi mandi l'indirizzo",
+                "Mi mandi l indirizzo?",
+                "Tu mi mandi l'indirizzo?"
+              ],
+              "explanation": "'Mi mandi l'indirizzo?' — mi (to me, Unit 33) + mandi (mandare, tu) + l'indirizzo. 💛",
+              "dictionaryRefs": [
+                "l-indirizzo",
+                "mandare"
+              ]
+            },
+            {
+              "id": "u38l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 30+33 recycling)",
+              "sourceIt": "Ti richiamo dopo.",
+              "acceptedEn": [
+                "I'll call you back later."
+              ],
+              "explanation": "'Ti richiamo dopo.' — ti (you, Unit 33) + richiamo (call back) + dopo (later, Unit 30).",
+              "dictionaryRefs": [
+                "richiamare",
+                "dopo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u38l2",
+          "type": "grammar",
+          "title": "Il registro del telefono — e i pronomi, tutti",
+          "dictionaryRefs": [
+            "pronto",
+            "sentire",
+            "richiamare",
+            "l-indirizzo",
+            "la-chiamata",
+            "il-telefono",
+            "il-messaggio",
+            "mandare",
+            "dopo",
+            "domani",
+            "ci-vediamo"
+          ],
+          "grammarNotes": "AL TELEFONO — the register of calls and texts.\n\nON THE PHONE:\n• 'Pronto?' — Hello? (literally 'ready')\n• 'Chi parla?' — Who's speaking? — 'Sono Alex.' — It's Alex.\n• 'Non sento bene.' — I can't hear well.\n• 'Ti richiamo dopo.' — I'll call you back later.\n• 'Ci sentiamo domani!' — Talk tomorrow! (ci = each other, Unit 34)\n\nTEXTING — short, warm, present tense:\n• 'Ci sei?' — Are you around? (literally: are you there?)\n• 'A dopo!' — See you later! (Unit 30's dopo)\n• 💛 'Mi mandi l'indirizzo?' — Will you send me the address?\n\nPRONOUN CONSOLIDATION — all four little-word families in one place:\n• direct (Unit 19): 'Lo vedo domani.' — I see him tomorrow.\n• indirect (Unit 33): 'Gli scrivo domani.' — I write to him tomorrow.\n• ci, there/about it (Unit 34): 'Ci vado domani.' — I'm going there tomorrow.\n• ne, of them (Unit 35): 'Ne ho due.' — I have two of them.\n• and the phone's own: 'Ti richiamo.' — I'll call YOU back.\n\nSame position for all: before the verb. The question is always: what does the little word replace?",
+          "exercises": [
+            {
+              "id": "u38l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the phone greeting. (Hello? It's Alex.)",
+              "sentence": "___? Sono Alex.",
+              "answers": [
+                "Pronto"
+              ],
+              "explanation": "'Pronto? Sono Alex.' — the phone hello (ready?) + sono Alex (it's Alex — essere for who you are).",
+              "dictionaryRefs": [
+                "pronto"
+              ]
+            },
+            {
+              "id": "u38l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'll call you back later.) (Unit 30+33 recycling)",
+              "sentence": "Ti ___ dopo.",
+              "answers": [
+                "richiamo"
+              ],
+              "explanation": "'Ti richiamo dopo.' — ti + richiamo (ri- + chiamo) + dopo. The busy person's promise.",
+              "dictionaryRefs": [
+                "richiamare",
+                "dopo"
+              ]
+            },
+            {
+              "id": "u38l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. 💛 (Will you send me the address?)",
+              "sentence": "Mi ___ l'indirizzo?",
+              "answers": [
+                "mandi"
+              ],
+              "explanation": "'Mi mandi l'indirizzo?' — mi (to me) + mandi (tu, mandare) + l'indirizzo. 💛",
+              "dictionaryRefs": [
+                "mandare",
+                "l-indirizzo"
+              ]
+            },
+            {
+              "id": "u38l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+33 recycling)",
+              "sourceEn": "I'll call you back tomorrow.",
+              "acceptedIt": [
+                "Ti richiamo domani.",
+                "Ti richiamo domani",
+                "Io ti richiamo domani"
+              ],
+              "explanation": "'Ti richiamo domani.' — ti + richiamo + domani. Call back tomorrow.",
+              "dictionaryRefs": [
+                "richiamare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u38l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 7 recycling)",
+              "sourceEn": "I can't hear well.",
+              "acceptedIt": [
+                "Non sento bene.",
+                "Non sento bene",
+                "Io non sento bene"
+              ],
+              "explanation": "'Non sento bene.' — non + sento + bene. The phone problem in three words.",
+              "dictionaryRefs": [
+                "sentire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u38l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 34 recycling)",
+              "sourceIt": "Ci sentiamo domani!",
+              "acceptedEn": [
+                "Talk tomorrow!",
+                "We'll talk tomorrow!"
+              ],
+              "explanation": "'Ci sentiamo domani!' — ci (each other) + sentiamo (we hear) + domani. The phone goodbye.",
+              "dictionaryRefs": [
+                "sentire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u38l2e7",
+              "type": "multiple_choice",
+              "prompt": "Phone register: how do you answer a call?",
+              "question": "Al telefono, 'hello' è…",
+              "options": [
+                "Pronto?",
+                "Arrivederci?",
+                "Grazie mille?",
+                "Buonasera?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Pronto?' — literally 'ready?'. Buonasera works face to face; the phone wants pronto.",
+              "dictionaryRefs": [
+                "pronto"
+              ]
+            },
+            {
+              "id": "u38l2e8",
+              "type": "multiple_choice",
+              "prompt": "Pronoun consolidation. (The bar? I'm going there tonight.) (Unit 5+34 recycling)",
+              "question": "Il bar? ___ vado stasera.",
+              "options": [
+                "Ci",
+                "Ne",
+                "Lo",
+                "Gli"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ci vado stasera.' — a place → ci (there, Unit 34). Ne counts things (Unit 35); lo/gli are people (Units 19/33).",
+              "dictionaryRefs": [
+                "il-bar",
+                "andare",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u38l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Mi",
+                "mandi",
+                "l'indirizzo?"
+              ],
+              "correctSentence": "Mi mandi l'indirizzo?",
+              "explanation": "'Mi mandi l'indirizzo?' — mi + mandi + l'indirizzo. 💛",
+              "dictionaryRefs": [
+                "mandare",
+                "l-indirizzo"
+              ]
+            },
+            {
+              "id": "u38l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 16+33 recycling)",
+              "tokens": [
+                "Ti",
+                "richiamo",
+                "domani."
+              ],
+              "correctSentence": "Ti richiamo domani.",
+              "explanation": "'Ti richiamo domani.' — ti + richiamo + domani.",
+              "dictionaryRefs": [
+                "richiamare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u38l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 30+34 recycling)",
+              "tokens": [
+                "Ci",
+                "sentiamo",
+                "dopo."
+              ],
+              "correctSentence": "Ci sentiamo dopo.",
+              "explanation": "'Ci sentiamo dopo.' — ci + sentiamo + dopo. Talk later.",
+              "dictionaryRefs": [
+                "sentire",
+                "dopo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u38l3",
+          "type": "mixed",
+          "title": "L'invito giusto 💛 — ripasso",
+          "dictionaryRefs": [
+            "libero",
+            "stasera",
+            "uscire",
+            "il-ristorante",
+            "la-pizza",
+            "il-messaggio",
+            "il-cinema",
+            "dopo",
+            "domani",
+            "pronto",
+            "sentire",
+            "richiamare",
+            "l-indirizzo",
+            "ci-vediamo"
+          ],
+          "exercises": [
+            {
+              "id": "u38l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 21+34 recycling)",
+              "sourceEn": "Shall we go out tonight?",
+              "acceptedIt": [
+                "Usciamo stasera?",
+                "Usciamo stasera"
+              ],
+              "explanation": "'Usciamo stasera?' — usciamo (the proposal, Unit 21) + stasera (Unit 34). 💛 Text it.",
+              "dictionaryRefs": [
+                "uscire",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u38l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (phone register)",
+              "question": "Pronto, chi parla?",
+              "options": [
+                "Hello, who's speaking?",
+                "Hello, who is it?",
+                "Ready, who are you?",
+                "Hello, who's talking?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Pronto, chi parla?' — Hello, who's speaking? Chi (who, Unit 8) + parla (parlare, Unit 11).",
+              "dictionaryRefs": [
+                "pronto",
+                "chi",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u38l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the goodbye. (See you later!) (Unit 30 recycling)",
+              "sentence": "___ dopo!",
+              "answers": [
+                "A"
+              ],
+              "explanation": "'A dopo!' — a (until) + dopo (later): see you later. The texting goodbye.",
+              "dictionaryRefs": [
+                "dopo"
+              ]
+            },
+            {
+              "id": "u38l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 15+33 recycling)",
+              "sourceIt": "Mi scrivi l'indirizzo del ristorante?",
+              "acceptedEn": [
+                "Will you write me the restaurant's address?",
+                "Will you text me the address of the restaurant?"
+              ],
+              "explanation": "'Mi scrivi l'indirizzo del ristorante?' — mi (to me) + scrivi + l'indirizzo + del ristorante (di + il → del, Unit 36). 💛",
+              "dictionaryRefs": [
+                "scrivere",
+                "l-indirizzo",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u38l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I can't hear well: I'll call back later.)",
+              "sentence": "Non ___ bene: richiamo dopo.",
+              "answers": [
+                "sento"
+              ],
+              "explanation": "'Non sento bene: richiamo dopo.' — the full phone-save: can't hear → call back later.",
+              "dictionaryRefs": [
+                "sentire",
+                "bene",
+                "richiamare",
+                "dopo"
+              ]
+            },
+            {
+              "id": "u38l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 7+34 recycling)",
+              "question": "Vuoi una pizza con me stasera?",
+              "options": [
+                "Do you want a pizza with me tonight?",
+                "Do you want a pizza with me tomorrow?",
+                "Do you like pizza with me tonight?",
+                "Do you want the pizza or me tonight?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vuoi una pizza con me stasera?' — vuoi + una pizza + con me + stasera. 💛 The casual invite, perfected.",
+              "dictionaryRefs": [
+                "volere",
+                "la-pizza",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u38l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 30 recycling)",
+              "tokens": [
+                "A",
+                "dopo,",
+                "Giulia!"
+              ],
+              "correctSentence": "A dopo, Giulia!",
+              "explanation": "'A dopo, Giulia!' — until later + the name. Short and warm.",
+              "dictionaryRefs": [
+                "dopo"
+              ]
+            },
+            {
+              "id": "u38l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 34 recycling)",
+              "sourceEn": "Talk tomorrow!",
+              "acceptedIt": [
+                "Ci sentiamo domani!",
+                "Ci sentiamo domani"
+              ],
+              "explanation": "'Ci sentiamo domani!' — ci + sentiamo + domani. The phone version of 'ci vediamo'.",
+              "dictionaryRefs": [
+                "sentire",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u38l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "pronto",
+            "richiamare",
+            "sentire",
+            "dopo",
+            "domani",
+            "l-indirizzo",
+            "mandare"
+          ],
+          "exercises": [
+            {
+              "id": "u38l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Pronto, sono Alex.",
+              "options": [
+                "Hello, it's Alex.",
+                "Hello, I'm ready.",
+                "Hi, Alex here.",
+                "Hello, is Alex there?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Pronto, sono Alex.' — Hello, it's Alex. The phone's first two words.",
+              "dictionaryRefs": [
+                "pronto"
+              ]
+            },
+            {
+              "id": "u38l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 30+33 recycling)",
+              "mode": "type",
+              "speakIt": "Ti richiamo dopo.",
+              "acceptedIt": [
+                "Ti richiamo dopo.",
+                "Ti richiamo dopo",
+                "Io ti richiamo dopo"
+              ],
+              "explanation": "You heard: 'Ti richiamo dopo.' — I'll call you back later.",
+              "dictionaryRefs": [
+                "richiamare",
+                "dopo"
+              ]
+            },
+            {
+              "id": "u38l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 34 recycling)",
+              "mode": "choice",
+              "speakIt": "Ci sentiamo domani!",
+              "options": [
+                "Talk tomorrow!",
+                "See you tomorrow!",
+                "We hear each other tomorrow.",
+                "Hear you tomorrow!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ci sentiamo domani!' — Talk tomorrow! (Option 3 is the literal machinery; option 1 is what it means.)",
+              "dictionaryRefs": [
+                "sentire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u38l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: hello, it's Alex.",
+              "targetIt": "Pronto, sono Alex.",
+              "minAccuracy": 0.7,
+              "explanation": "'Pronto, sono Alex.' — PRON-to, SO-no Alex. Answer like that.",
+              "dictionaryRefs": [
+                "pronto"
+              ]
+            },
+            {
+              "id": "u38l4e5",
+              "type": "speaking",
+              "prompt": "Ask in Italian: will you send me the address? 💛",
+              "targetIt": "Mi mandi l'indirizzo?",
+              "minAccuracy": 0.7,
+              "explanation": "'Mi mandi l'indirizzo?' — mi MAN-di lin-DRI-tso. 💛",
+              "dictionaryRefs": [
+                "mandare",
+                "l-indirizzo"
+              ]
+            },
+            {
+              "id": "u38l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 7 recycling)",
+              "mode": "type",
+              "speakIt": "Non sento bene.",
+              "acceptedIt": [
+                "Non sento bene.",
+                "Non sento bene",
+                "Io non sento bene"
+              ],
+              "explanation": "You heard: 'Non sento bene.' — I can't hear well.",
+              "dictionaryRefs": [
+                "sentire",
+                "bene"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u38c",
+        "exercises": [
+          {
+            "id": "u38ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "l'indirizzo",
+            "options": [
+              "the address",
+              "the direction",
+              "the street",
+              "the envelope"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'indirizzo' (m) = the address. 'Mi mandi l'indirizzo?' 💛",
+            "dictionaryRefs": [
+              "l-indirizzo"
+            ]
+          },
+          {
+            "id": "u38ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I'll call you back later.)",
+            "sentence": "Ti ___ dopo.",
+            "answers": [
+              "richiamo"
+            ],
+            "explanation": "'Ti richiamo dopo.' — richiamare = ri- + chiamare. Ti (you) + richiamo + dopo.",
+            "dictionaryRefs": [
+              "richiamare",
+              "dopo"
+            ]
+          },
+          {
+            "id": "u38ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "I can't hear well. I'll call you back.",
+            "acceptedIt": [
+              "Non sento bene. Ti richiamo dopo.",
+              "Non sento bene, ti richiamo dopo",
+              "Non sento bene. Ti richiamo dopo"
+            ],
+            "explanation": "'Non sento bene. Ti richiamo dopo.' — the two-step phone save.",
+            "dictionaryRefs": [
+              "sentire",
+              "bene",
+              "richiamare"
+            ]
+          },
+          {
+            "id": "u38ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 34 recycling)",
+            "sourceIt": "Ci sentiamo stasera.",
+            "acceptedEn": [
+              "Talk tonight.",
+              "We'll talk tonight."
+            ],
+            "explanation": "'Ci sentiamo stasera.' — ci + sentiamo + stasera. The phone's 'see you'.",
+            "dictionaryRefs": [
+              "sentire",
+              "stasera"
+            ]
+          },
+          {
+            "id": "u38ce5",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? (Unit 8 recycling)",
+            "question": "Chi parla?",
+            "options": [
+              "Who's speaking?",
+              "Who is it?",
+              "Who's there?",
+              "Who calls?"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Chi parla?' — Who's speaking? Chi + parla. The phone's identity question.",
+            "dictionaryRefs": [
+              "chi",
+              "parlare"
+            ]
+          },
+          {
+            "id": "u38ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the phone greeting. (Hello? It's Alex.)",
+            "sentence": "___! Sono Alex.",
+            "answers": [
+              "Pronto"
+            ],
+            "explanation": "'Pronto! Sono Alex.' — ready? It's Alex. The Italian phone opens like this.",
+            "dictionaryRefs": [
+              "pronto"
+            ]
+          },
+          {
+            "id": "u38ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Mi",
+              "mandi",
+              "l'indirizzo?"
+            ],
+            "correctSentence": "Mi mandi l'indirizzo?",
+            "explanation": "'Mi mandi l'indirizzo?' — 💛 the pre-date text.",
+            "dictionaryRefs": [
+              "mandare",
+              "l-indirizzo"
+            ]
+          },
+          {
+            "id": "u38ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 16 recycling)",
+            "mode": "choice",
+            "speakIt": "Ti richiamo domani.",
+            "options": [
+              "I'll call you back tomorrow.",
+              "I'll call you tomorrow.",
+              "You call me back tomorrow.",
+              "I'll text you tomorrow."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ti richiamo domani.' — I'll call you BACK tomorrow. Richiamare = ri- + chiamare.",
+            "dictionaryRefs": [
+              "richiamare",
+              "domani"
+            ]
+          },
+          {
+            "id": "u38ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 30+34 recycling)",
+            "mode": "type",
+            "speakIt": "Ci sentiamo dopo.",
+            "acceptedIt": [
+              "Ci sentiamo dopo.",
+              "Ci sentiamo dopo"
+            ],
+            "explanation": "You heard: 'Ci sentiamo dopo.' — Talk later.",
+            "dictionaryRefs": [
+              "sentire",
+              "dopo"
+            ]
+          },
+          {
+            "id": "u38ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: see you later! (Unit 30 recycling)",
+            "targetIt": "A dopo!",
+            "minAccuracy": 0.7,
+            "explanation": "'A dopo!' — a DO-po. Until later. The texting goodbye.",
+            "dictionaryRefs": [
+              "dopo"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -31893,6 +32661,87 @@
         }
       ],
       "introducedInUnit": 37
+    },
+    {
+      "id": "pronto",
+      "word": "pronto",
+      "translation": "ready; hello (on the phone)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Pronto, sono Alex.",
+          "en": "Hello, it's Alex."
+        },
+        {
+          "it": "Sono pronto.",
+          "en": "I'm ready."
+        }
+      ],
+      "introducedInUnit": 38
+    },
+    {
+      "id": "sentire",
+      "word": "sentire",
+      "translation": "to hear; to feel",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Non sento bene.",
+          "en": "I can't hear well."
+        },
+        {
+          "it": "Ci sentiamo domani!",
+          "en": "Talk tomorrow!"
+        }
+      ],
+      "introducedInUnit": 38
+    },
+    {
+      "id": "richiamare",
+      "word": "richiamare",
+      "translation": "to call back",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ti richiamo dopo.",
+          "en": "I'll call you back later."
+        },
+        {
+          "it": "Ti richiamo domani.",
+          "en": "I'll call you back tomorrow."
+        }
+      ],
+      "introducedInUnit": 38
+    },
+    {
+      "id": "l-indirizzo",
+      "word": "indirizzo",
+      "article": "l'",
+      "translation": "address",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Mi mandi l'indirizzo?",
+          "en": "Will you send me the address?"
+        }
+      ],
+      "introducedInUnit": 38
+    },
+    {
+      "id": "la-chiamata",
+      "word": "chiamata",
+      "article": "la",
+      "translation": "(phone) call",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Una chiamata di Giulia.",
+          "en": "A call from Giulia."
+        }
+      ],
+      "introducedInUnit": 38
     }
   ],
   "stories": [
