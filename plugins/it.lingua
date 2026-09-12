@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 23,
+    "version": 24,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -26279,7 +26279,240 @@
       "id": "story3",
       "title": "Il messaggio",
       "unlockAfterUnit": 28,
-      "nodes": []
+      "nodes": [
+        {
+          "id": "n1",
+          "speaker": "Narratore",
+          "textIt": "È mattina. Ieri sera: la cena con Giulia. Ti sei divertito molto! Ora: un messaggio di Giulia. Cosa fai?",
+          "textEn": "It's morning. Yesterday evening: the dinner with Giulia. You had a lot of fun! Now: a message from Giulia. What do you do?",
+          "choices": [
+            {
+              "text": "Leggo il messaggio.",
+              "next": "n2",
+              "correct": true
+            },
+            {
+              "text": "Faccio colazione.",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "Colazione can wait — Giulia's message can't. Read it first: leggo il messaggio."
+            },
+            {
+              "text": "Vado al bar.",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "The bar? Giulia messaged YOU. First read her message: leggo il messaggio."
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "speaker": "Giulia (messaggio)",
+          "textIt": "Buongiorno, Alex! Grazie per ieri sera. Mi sono divertita molto!",
+          "textEn": "Good morning, Alex! Thanks for yesterday evening. I had a lot of fun!",
+          "choices": [
+            {
+              "text": "Mi sono divertito molto, Giulia.",
+              "next": "n3",
+              "correct": true
+            },
+            {
+              "text": "Ho divertito molto.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "Divertirsi is reflexive and takes essere: mi sono divertito — never 'ho divertito'. (Unit 28.)"
+            },
+            {
+              "text": "Mi sono divertita molto.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "You're Alex — masculine: divertitO. Giulia wrote divertita because SHE is a woman. (Unit 28 agreement.)"
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "speaker": "Giulia (messaggio)",
+          "textIt": "Hai dormito bene?",
+          "textEn": "Did you sleep well?",
+          "choices": [
+            {
+              "text": "Sì, ho dormito bene. E tu?",
+              "next": "n4",
+              "correct": true
+            },
+            {
+              "text": "Sì, sono dormito bene.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "Dormire takes avere: ho dormito. Essere is for movement and change of state (andare, uscire, nascere…). (Units 26–27.)"
+            },
+            {
+              "text": "Sì, ho dormita bene.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "Two slips: dormire → dormito, and with avere the participle never agrees: ho dormito, always. (Unit 26.)"
+            }
+          ]
+        },
+        {
+          "id": "n4",
+          "speaker": "Giulia (messaggio)",
+          "textIt": "Sì, molto bene. Alex — vuoi un caffè oggi?",
+          "textEn": "Yes, very well. Alex — do you want a coffee today?",
+          "choices": [
+            {
+              "text": "Sì! A che ora?",
+              "next": "n5",
+              "correct": true
+            },
+            {
+              "text": "Sì! Ho un caffè oggi.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "That says 'I'm having a coffee today' — she asked whether you WANT one (vuoi). Answer: Sì! A che ora?"
+            },
+            {
+              "text": "No, grazie.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "You want the second date! Accept and set the time: Sì! A che ora?"
+            }
+          ]
+        },
+        {
+          "id": "n5",
+          "speaker": "Giulia (messaggio)",
+          "textIt": "Alle undici, al bar. Va bene?",
+          "textEn": "At eleven, at the café. Is that OK?",
+          "choices": [
+            {
+              "text": "Alle undici va bene!",
+              "next": "n6",
+              "correct": true
+            },
+            {
+              "text": "Alle undici sono bene.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "The set phrase is VA bene (andare: va) — 'it goes well'. 'Sono bene' isn't Italian. (Unit 25.)"
+            },
+            {
+              "text": "Va male.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "Va male = it's NOT OK — you just cancelled the date! Agree: alle undici va bene."
+            }
+          ]
+        },
+        {
+          "id": "n6",
+          "speaker": "Narratore",
+          "textIt": "Tu esci di casa. Hai due magliette: una rossa e una nera. Cosa prendi?",
+          "textEn": "You leave the house. You have two t-shirts: a red one and a black one. Which do you take?",
+          "choices": [
+            {
+              "text": "La maglietta rossa.",
+              "next": "n7",
+              "correct": true
+            },
+            {
+              "text": "Il maglietta rosso.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "Maglietta is feminine: LA maglietta rossA — article and adjective both agree. (Units 5, 13, 23.)"
+            },
+            {
+              "text": "Le magliette rossi.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "You need ONE t-shirt: la maglietta rossa. The plural would be le magliette rosse."
+            }
+          ]
+        },
+        {
+          "id": "n7",
+          "speaker": "Giulia",
+          "textIt": "Ciao Alex! Stai bene oggi!",
+          "textEn": "Hi Alex! You're well today! / You look well today!",
+          "choices": [
+            {
+              "text": "Sto molto bene! Ho una sorpresa: due biglietti per il cinema.",
+              "next": "n8",
+              "correct": true
+            },
+            {
+              "text": "Sto molto bello.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "Stare pairs with bene/male — how you FEEL. Bello describes what you ARE: sei bello vs stai bene. (Unit 24.)"
+            },
+            {
+              "text": "Ho molto bene.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "Bene goes with stare: sto bene. Avere takes a noun: ho fame, ho una sorpresa. (Unit 24.)"
+            }
+          ]
+        },
+        {
+          "id": "n8",
+          "speaker": "Giulia",
+          "textIt": "Il cinema! Quando?",
+          "textEn": "The movies! When?",
+          "choices": [
+            {
+              "text": "Domani sera, va bene?",
+              "next": "n9",
+              "correct": true
+            },
+            {
+              "text": "Ieri sera, va bene?",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "Ieri is yesterday — the cinema is in the future. Say: domani sera, va bene?"
+            },
+            {
+              "text": "Vado al cinema ieri.",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "Ieri needs the past: ieri sono andato al cinema. For plans, the present works: vado domani. (Units 16, 27.)"
+            }
+          ]
+        },
+        {
+          "id": "n9",
+          "speaker": "Giulia",
+          "textIt": "Va bene! Domani sera. Sei un ragazzo carino, Alex.",
+          "textEn": "OK! Tomorrow evening. You're a sweet boy, Alex.",
+          "choices": [
+            {
+              "text": "Grazie, Giulia. Tu sei simpatica.",
+              "next": "n10",
+              "correct": true
+            },
+            {
+              "text": "Grazie, Giulia. Tu sei simpatico.",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "Giulia is a woman — simpaticA. The adjective agrees with her, not with you. (Unit 13.)"
+            },
+            {
+              "text": "Sì, sono carino.",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "Accept the compliment with grazie — and return it: tu sei simpatica. 💛"
+            }
+          ]
+        },
+        {
+          "id": "n10",
+          "speaker": "Narratore",
+          "textIt": "Un caffè, un sorriso, un messaggio. Alex e Giulia: domani sera, il cinema. Bravissimo!",
+          "textEn": "A coffee, a smile (un sorriso), a message. Alex and Giulia: tomorrow evening, the movies. Well done!",
+          "terminal": true
+        }
+      ]
     },
     {
       "id": "story4",
