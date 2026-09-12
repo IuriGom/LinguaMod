@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 30,
+    "version": 31,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -27284,6 +27284,812 @@
           }
         ]
       }
+    },
+    {
+      "id": "u37",
+      "number": 37,
+      "title": "I superlativi",
+      "lessons": [
+        {
+          "id": "u37l1",
+          "type": "vocabulary",
+          "title": "Il migliore, il peggiore, il primo",
+          "dictionaryRefs": [
+            "migliore",
+            "peggiore",
+            "primo",
+            "ultimo",
+            "vero"
+          ],
+          "exercises": [
+            {
+              "id": "u37l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "migliore",
+              "options": [
+                "better; best",
+                "best only",
+                "bigger",
+                "greater"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Migliore' = better (adjective) and, with the article, the best: 'il miglior ristorante' — the best restaurant. Invariable in gender: il migliore / la migliore; plural: i/le migliori.",
+              "dictionaryRefs": [
+                "migliore",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u37l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "peggiore",
+              "options": [
+                "worse; worst",
+                "worst only",
+                "smaller",
+                "less good"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Peggiore' = worse / the worst: 'il giorno peggiore' — the worst day. The pair: migliore / peggiore (like meglio / peggio, Unit 36).",
+              "dictionaryRefs": [
+                "peggiore"
+              ]
+            },
+            {
+              "id": "u37l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "primo",
+              "options": [
+                "first",
+                "main",
+                "prime",
+                "early"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Primo' = first. You know it from dates: 'il primo maggio' (Unit 17). 'Il primo giorno.' — The first day.",
+              "dictionaryRefs": [
+                "primo"
+              ]
+            },
+            {
+              "id": "u37l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "ultimo",
+              "options": [
+                "last",
+                "latest",
+                "final",
+                "ultimate"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ultimo' = last. 'Domenica è l'ultimo giorno della settimana.' — Sunday is the last day of the week. (della settimana: di + la → della, Unit 36.)",
+              "dictionaryRefs": [
+                "ultimo",
+                "la-settimana"
+              ]
+            },
+            {
+              "id": "u37l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "vero",
+              "options": [
+                "true; real",
+                "true only",
+                "green",
+                "genuine"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vero' = true, real. 'È vero?' — Is it true? / Really? 'È una storia vera.' — It's a true story (Unit 30).",
+              "dictionaryRefs": [
+                "vero",
+                "la-storia"
+              ]
+            },
+            {
+              "id": "u37l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (It's the best restaurant in the city.) (Unit 15+18 recycling)",
+              "sentence": "È il ___ ristorante della città.",
+              "answers": [
+                "miglior",
+                "migliore"
+              ],
+              "explanation": "'È il miglior ristorante della città.' — migliore drops its -e before a masculine consonant: il miglior ristorante. Della città (di + la). 💛",
+              "dictionaryRefs": [
+                "migliore",
+                "il-ristorante",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l1e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "È vero, Giulia?",
+              "acceptedEn": [
+                "Is it true, Giulia?",
+                "Really, Giulia?"
+              ],
+              "explanation": "'È vero?' — Is it true? / Really? The one-word reply to surprising news. 💛",
+              "dictionaryRefs": [
+                "vero"
+              ]
+            },
+            {
+              "id": "u37l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 16+17 recycling)",
+              "sourceIt": "Oggi è il primo giorno.",
+              "acceptedEn": [
+                "Today is the first day."
+              ],
+              "explanation": "'Oggi è il primo giorno.' — oggi + è + il primo giorno. Primo from the Unit 17 dates.",
+              "dictionaryRefs": [
+                "primo",
+                "il-giorno",
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u37l2",
+          "type": "grammar",
+          "title": "Il più bello, il migliore, bellissimo",
+          "dictionaryRefs": [
+            "migliore",
+            "peggiore",
+            "primo",
+            "ultimo",
+            "vero",
+            "piu",
+            "bello",
+            "simpatico",
+            "la-famiglia",
+            "il-giorno",
+            "la-settimana",
+            "la-festa"
+          ],
+          "grammarNotes": "I SUPERLATIVI — the most, the best, the -issimo.\n\nIL SUPERLATIVO RELATIVO — the most… of/in a group:\narticle + più + adjective: 'Giulia è la più simpatica della famiglia.' — Giulia is the nicest in the family. (della famiglia: di + la → della.)\nThe adjective agrees as always: il più alto, la più alta, i più alti, le più alte.\n\nTHE IRREGULARS — better/worse as ADJECTIVES:\n• migliore — better, best: 'il miglior ristorante della città' 💛 (before a masculine consonant it drops the -e: il miglior ristorante; after the noun it is always safe: il ristorante migliore.)\n• peggiore — worse, worst: 'Il lunedì è il giorno peggiore.' — Monday is the worst day.\n(Meglio/peggio from Unit 36 are the adverbs — how things GO; migliore/peggiore describe THINGS.)\n\nIL SUPERLATIVO ASSOLUTO — very/extremely, no comparison: -issimo.\nbello → bellissimo: 'Il film è bellissimo.' — The film is absolutely beautiful. 'È una festa bellissima.' (It agrees: bellissimo, bellissima, bellissimi, bellissime.)\n\nPRIMO E ULTIMO — first and last: 'il primo giorno' / 'l'ultimo giorno della settimana' (Sunday). Ordinal numbers are adjectives: il primo posto, la prima volta (the first time — una volta, Unit 30!).",
+          "exercises": [
+            {
+              "id": "u37l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia is the nicest in the family.) (Unit 14 recycling)",
+              "sentence": "Giulia è la ___ simpatica della famiglia.",
+              "answers": [
+                "più"
+              ],
+              "explanation": "'Giulia è la più simpatica della famiglia.' — la + più + simpatica (agrees) + della famiglia. The most of a group.",
+              "dictionaryRefs": [
+                "piu",
+                "simpatico",
+                "la-famiglia"
+              ]
+            },
+            {
+              "id": "u37l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (It's the best restaurant in the city.)",
+              "sentence": "È il ___ ristorante della città.",
+              "answers": [
+                "miglior",
+                "migliore"
+              ],
+              "explanation": "'Il miglior ristorante della città.' — migliore = best (adjective); meglio (Unit 36) = better, how things go. 💛",
+              "dictionaryRefs": [
+                "migliore",
+                "il-ristorante",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Monday is the first day.)",
+              "sentence": "Il lunedì è il ___ giorno.",
+              "answers": [
+                "primo"
+              ],
+              "explanation": "'Il lunedì è il primo giorno.' — primo (first), an adjective: il primo giorno, la prima settimana.",
+              "dictionaryRefs": [
+                "primo",
+                "lunedi",
+                "il-giorno"
+              ]
+            },
+            {
+              "id": "u37l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "The best restaurant in the city.",
+              "acceptedIt": [
+                "Il miglior ristorante della città.",
+                "Il miglior ristorante della città",
+                "Il migliore ristorante della città"
+              ],
+              "explanation": "'Il miglior ristorante della città.' — 💛 where to take someone. Miglior drops the -e before the consonant.",
+              "dictionaryRefs": [
+                "migliore",
+                "il-ristorante",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 19 recycling)",
+              "sourceEn": "The film is absolutely beautiful.",
+              "acceptedIt": [
+                "Il film è bellissimo.",
+                "Il film è bellissimo",
+                "Il film e' bellissimo"
+              ],
+              "explanation": "'Il film è bellissimo.' — bello + -issimo = absolutely beautiful. No comparison needed.",
+              "dictionaryRefs": [
+                "il-film",
+                "bello"
+              ]
+            },
+            {
+              "id": "u37l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il lunedì è il giorno peggiore.",
+              "acceptedEn": [
+                "Monday is the worst day."
+              ],
+              "explanation": "'Il lunedì è il giorno peggiore.' — il + giorno + peggiore. The worst day of the week — a classic opinion.",
+              "dictionaryRefs": [
+                "peggiore",
+                "lunedi",
+                "il-giorno"
+              ]
+            },
+            {
+              "id": "u37l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 16 recycling)",
+              "sourceIt": "Domenica è l'ultimo giorno della settimana.",
+              "acceptedEn": [
+                "Sunday is the last day of the week."
+              ],
+              "explanation": "'Domenica è l'ultimo giorno della settimana.' — l'ultimo (before the vowel of ultimo, il → l') + della settimana.",
+              "dictionaryRefs": [
+                "ultimo",
+                "il-giorno",
+                "la-settimana"
+              ]
+            },
+            {
+              "id": "u37l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the right form. (Venice is the most beautiful city.)",
+              "question": "Venezia è la città ___ bella.",
+              "options": [
+                "più",
+                "migliore",
+                "meglio",
+                "bellissima"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Venezia è la città più bella.' — la + più + bella: the superlative of a regular adjective. (Bellissima would drop the comparison: 'una città bellissima'.)",
+              "dictionaryRefs": [
+                "piu",
+                "bello",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l2e9",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "È vero?",
+              "options": [
+                "Is it true? / Really?",
+                "Is it green?",
+                "Is it real leather?",
+                "Is he here?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'È vero?' — Is it true? The everyday 'Really?' 💛",
+              "dictionaryRefs": [
+                "vero"
+              ]
+            },
+            {
+              "id": "u37l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Il",
+                "miglior",
+                "ristorante",
+                "della",
+                "città."
+              ],
+              "correctSentence": "Il miglior ristorante della città.",
+              "explanation": "'Il miglior ristorante della città.' — il + miglior + ristorante + della città. 💛",
+              "dictionaryRefs": [
+                "migliore",
+                "il-ristorante",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 17 recycling)",
+              "tokens": [
+                "È",
+                "una",
+                "festa",
+                "bellissima."
+              ],
+              "correctSentence": "È una festa bellissima.",
+              "explanation": "'È una festa bellissima.' — festa (f) → bellissima. The -issimo agrees like any -o adjective.",
+              "dictionaryRefs": [
+                "la-festa",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u37l3",
+          "type": "mixed",
+          "title": "Il miglior posto 💛 — ripasso",
+          "dictionaryRefs": [
+            "la-citta",
+            "il-ristorante",
+            "il-gelato",
+            "il-mare",
+            "il-nonno",
+            "la-pizza",
+            "il-cornetto",
+            "il-posto",
+            "conoscere",
+            "la-famiglia",
+            "alto",
+            "il-giorno",
+            "migliore",
+            "peggiore",
+            "primo",
+            "ultimo",
+            "vero"
+          ],
+          "exercises": [
+            {
+              "id": "u37l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 34+18 recycling)",
+              "sourceEn": "The best ice cream in the city.",
+              "acceptedIt": [
+                "Il miglior gelato della città.",
+                "Il miglior gelato della città",
+                "Il migliore gelato della città"
+              ],
+              "explanation": "'Il miglior gelato della città.' — 💛 il miglior gelato + della città. Where you take someone on a hot evening.",
+              "dictionaryRefs": [
+                "migliore",
+                "il-gelato",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 14+29 recycling)",
+              "question": "Mio nonno è il più alto della famiglia.",
+              "options": [
+                "My grandfather is the tallest in the family.",
+                "My grandfather is taller than the family.",
+                "My grandfather is the oldest in the family.",
+                "My grandfather is very tall in the family."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mio nonno è il più alto della famiglia.' — il più alto + della famiglia. Mio nonno, no article (Unit 14).",
+              "dictionaryRefs": [
+                "il-nonno",
+                "alto",
+                "la-famiglia",
+                "piu",
+                "mio"
+              ]
+            },
+            {
+              "id": "u37l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Pizza is better than the croissant.) (Unit 7+9 recycling)",
+              "sentence": "La pizza è ___ del cornetto.",
+              "answers": [
+                "migliore"
+              ],
+              "explanation": "'La pizza è migliore del cornetto.' — migliore (better, adjective) + del cornetto (di + il → del). Fight me.",
+              "dictionaryRefs": [
+                "la-pizza",
+                "migliore",
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u37l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 25 recycling)",
+              "sourceIt": "Conosco il posto migliore.",
+              "acceptedEn": [
+                "I know the best place."
+              ],
+              "explanation": "'Conosco il posto migliore.' — conoscere (Unit 19) + il posto (Unit 25) + migliore after the noun. 💛",
+              "dictionaryRefs": [
+                "conoscere",
+                "il-posto",
+                "migliore"
+              ]
+            },
+            {
+              "id": "u37l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Sunday is the last day.) (Unit 16 recycling)",
+              "sentence": "Domenica è l'___ giorno della settimana.",
+              "answers": [
+                "ultimo"
+              ],
+              "explanation": "'Domenica è l'ultimo giorno della settimana.' — ultimo starts with a vowel: il → l'.",
+              "dictionaryRefs": [
+                "ultimo",
+                "il-giorno",
+                "la-settimana"
+              ]
+            },
+            {
+              "id": "u37l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 30 recycling)",
+              "question": "È una storia vera.",
+              "options": [
+                "It's a true story.",
+                "It's a real lie.",
+                "It's the first story.",
+                "It's a green story."
+              ],
+              "correctIndex": 0,
+              "explanation": "'È una storia vera.' — vera agrees with storia (f sing). A true story (Unit 30).",
+              "dictionaryRefs": [
+                "la-storia",
+                "vero"
+              ]
+            },
+            {
+              "id": "u37l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 14 recycling)",
+              "tokens": [
+                "La",
+                "mia",
+                "famiglia",
+                "è",
+                "la",
+                "migliore."
+              ],
+              "correctSentence": "La mia famiglia è la migliore.",
+              "explanation": "'La mia famiglia è la migliore.' — the two la tokens are interchangeable. My family is the best. 💛",
+              "dictionaryRefs": [
+                "la-famiglia",
+                "mio",
+                "migliore"
+              ]
+            },
+            {
+              "id": "u37l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+17 recycling)",
+              "sourceEn": "Today is the first day.",
+              "acceptedIt": [
+                "Oggi è il primo giorno.",
+                "Oggi è il primo giorno",
+                "Oggi e' il primo giorno"
+              ],
+              "explanation": "'Oggi è il primo giorno.' — il primo giorno. (Dates: il primo maggio, Unit 17.)",
+              "dictionaryRefs": [
+                "primo",
+                "il-giorno",
+                "oggi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u37l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "migliore",
+            "peggiore",
+            "ultimo",
+            "vero",
+            "il-ristorante",
+            "la-citta",
+            "il-film",
+            "bello",
+            "il-giorno",
+            "il-gelato"
+          ],
+          "exercises": [
+            {
+              "id": "u37l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "È il miglior ristorante della città.",
+              "options": [
+                "It's the best restaurant in the city.",
+                "It's the best restaurant in town today.",
+                "It's a better restaurant than the city.",
+                "It's the worst restaurant in the city."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'È il miglior ristorante della città.' 💛 Listen for miglior before the noun.",
+              "dictionaryRefs": [
+                "migliore",
+                "il-ristorante",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 19 recycling)",
+              "mode": "type",
+              "speakIt": "Il film è bellissimo.",
+              "acceptedIt": [
+                "Il film è bellissimo.",
+                "Il film è bellissimo",
+                "Il film e' bellissimo"
+              ],
+              "explanation": "You heard: 'Il film è bellissimo.' — absolutely beautiful, no comparison.",
+              "dictionaryRefs": [
+                "il-film",
+                "bello"
+              ]
+            },
+            {
+              "id": "u37l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 16 recycling)",
+              "mode": "choice",
+              "speakIt": "Domenica è l'ultimo giorno.",
+              "options": [
+                "Sunday is the last day.",
+                "Sunday is the first day.",
+                "Sunday is the best day.",
+                "Sunday is the worst day."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Domenica è l'ultimo giorno.' — Sunday is the last day.",
+              "dictionaryRefs": [
+                "ultimo",
+                "il-giorno"
+              ]
+            },
+            {
+              "id": "u37l4e4",
+              "type": "speaking",
+              "prompt": "Ask in Italian: is it true? 💛",
+              "targetIt": "È vero?",
+              "minAccuracy": 0.7,
+              "explanation": "'È vero?' — e VE-ro, voice rising. Really?",
+              "dictionaryRefs": [
+                "vero"
+              ]
+            },
+            {
+              "id": "u37l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: the best ice cream in the city. 💛",
+              "targetIt": "Il miglior gelato della città.",
+              "minAccuracy": 0.7,
+              "explanation": "'Il miglior gelato della città.' — il mi-LYOR je-LA-to DEL-la CHIT-ta. 💛",
+              "dictionaryRefs": [
+                "migliore",
+                "il-gelato",
+                "la-citta"
+              ]
+            },
+            {
+              "id": "u37l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 17 recycling)",
+              "mode": "type",
+              "speakIt": "È una festa bellissima.",
+              "acceptedIt": [
+                "È una festa bellissima.",
+                "È una festa bellissima",
+                "E' una festa bellissima"
+              ],
+              "explanation": "You heard: 'È una festa bellissima.' — It's an absolutely wonderful party.",
+              "dictionaryRefs": [
+                "la-festa",
+                "bello"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u37c",
+        "exercises": [
+          {
+            "id": "u37ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "ultimo",
+            "options": [
+              "last",
+              "latest",
+              "first",
+              "final only"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Ultimo' = last. L'ultimo giorno, la prima settimana… the pair: primo / ultimo.",
+            "dictionaryRefs": [
+              "ultimo"
+            ]
+          },
+          {
+            "id": "u37ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Giulia is the nicest in the family.) (Unit 14 recycling)",
+            "sentence": "Giulia è la ___ simpatica della famiglia.",
+            "answers": [
+              "più"
+            ],
+            "explanation": "'La più simpatica della famiglia.' — la + più + simpatica + della famiglia.",
+            "dictionaryRefs": [
+              "piu",
+              "simpatico",
+              "la-famiglia"
+            ]
+          },
+          {
+            "id": "u37ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "The best restaurant in the city.",
+            "acceptedIt": [
+              "Il miglior ristorante della città.",
+              "Il miglior ristorante della città",
+              "Il migliore ristorante della città"
+            ],
+            "explanation": "'Il miglior ristorante della città.' — 💛 the Unit's promise.",
+            "dictionaryRefs": [
+              "migliore",
+              "il-ristorante",
+              "la-citta"
+            ]
+          },
+          {
+            "id": "u37ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Il lunedì è il giorno peggiore.",
+            "acceptedEn": [
+              "Monday is the worst day."
+            ],
+            "explanation": "'Il lunedì è il giorno peggiore.' — il giorno + peggiore. The irregular worst.",
+            "dictionaryRefs": [
+              "peggiore",
+              "lunedi",
+              "il-giorno"
+            ]
+          },
+          {
+            "id": "u37ce5",
+            "type": "multiple_choice",
+            "prompt": "Migliore or meglio? (It's the best place in the city.) (Unit 25 recycling)",
+            "question": "È il ___ posto della città.",
+            "options": [
+              "migliore",
+              "meglio",
+              "più",
+              "migliori"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il miglior(e) posto.' — migliore is the adjective (the best place); meglio is the adverb (things GO meglio, Unit 36). Migliori is plural.",
+            "dictionaryRefs": [
+              "migliore",
+              "il-posto",
+              "la-citta"
+            ]
+          },
+          {
+            "id": "u37ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (It's a wonderful surprise.) (Unit 26 recycling)",
+            "sentence": "È una sorpresa ___.",
+            "answers": [
+              "bellissima"
+            ],
+            "explanation": "'È una sorpresa bellissima.' — sorpresa (f) → bellissima. The -issimo superlative agrees.",
+            "dictionaryRefs": [
+              "la-sorpresa",
+              "bello"
+            ]
+          },
+          {
+            "id": "u37ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 17 recycling)",
+            "tokens": [
+              "È",
+              "il",
+              "primo",
+              "giorno."
+            ],
+            "correctSentence": "È il primo giorno.",
+            "explanation": "'È il primo giorno.' — It's the first day. Primo, the ordinal adjective.",
+            "dictionaryRefs": [
+              "primo",
+              "il-giorno"
+            ]
+          },
+          {
+            "id": "u37ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛 (Unit 25 recycling)",
+            "mode": "choice",
+            "speakIt": "Conosco il posto migliore.",
+            "options": [
+              "I know the best place.",
+              "I know a better place.",
+              "I know the worst place.",
+              "I know the place better."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Conosco il posto migliore.' — 💛 il posto migliore (migliore after the noun works too).",
+            "dictionaryRefs": [
+              "conoscere",
+              "il-posto",
+              "migliore"
+            ]
+          },
+          {
+            "id": "u37ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 19 recycling)",
+            "mode": "type",
+            "speakIt": "Il film è bellissimo.",
+            "acceptedIt": [
+              "Il film è bellissimo.",
+              "Il film è bellissimo",
+              "Il film e' bellissimo"
+            ],
+            "explanation": "You heard: 'Il film è bellissimo.' — absolutely beautiful.",
+            "dictionaryRefs": [
+              "il-film",
+              "bello"
+            ]
+          },
+          {
+            "id": "u37ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: the best restaurant in the city. 💛",
+            "targetIt": "Il miglior ristorante della città.",
+            "minAccuracy": 0.7,
+            "explanation": "'Il miglior ristorante della città.' — il mi-LYOR ri-sto-RAN-te DEL-la CHIT-ta. 💛",
+            "dictionaryRefs": [
+              "migliore",
+              "il-ristorante",
+              "la-citta"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -31010,6 +31816,83 @@
         }
       ],
       "introducedInUnit": 36
+    },
+    {
+      "id": "migliore",
+      "word": "migliore",
+      "translation": "better; best (adjective)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È il miglior ristorante della città.",
+          "en": "It's the best restaurant in the city."
+        },
+        {
+          "it": "Conosco il posto migliore.",
+          "en": "I know the best place."
+        }
+      ],
+      "introducedInUnit": 37
+    },
+    {
+      "id": "peggiore",
+      "word": "peggiore",
+      "translation": "worse; worst (adjective)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Il lunedì è il giorno peggiore.",
+          "en": "Monday is the worst day."
+        }
+      ],
+      "introducedInUnit": 37
+    },
+    {
+      "id": "primo",
+      "word": "primo",
+      "translation": "first",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Oggi è il primo giorno.",
+          "en": "Today is the first day."
+        },
+        {
+          "it": "Il primo maggio.",
+          "en": "May 1st."
+        }
+      ],
+      "introducedInUnit": 37
+    },
+    {
+      "id": "ultimo",
+      "word": "ultimo",
+      "translation": "last",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Domenica è l'ultimo giorno della settimana.",
+          "en": "Sunday is the last day of the week."
+        }
+      ],
+      "introducedInUnit": 37
+    },
+    {
+      "id": "vero",
+      "word": "vero",
+      "translation": "true; real",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È vero?",
+          "en": "Is it true? / Really?"
+        },
+        {
+          "it": "È una storia vera.",
+          "en": "It's a true story."
+        }
+      ],
+      "introducedInUnit": 37
     }
   ],
   "stories": [
