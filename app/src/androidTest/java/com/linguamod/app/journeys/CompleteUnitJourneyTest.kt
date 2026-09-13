@@ -100,8 +100,7 @@ class CompleteUnitJourneyTest {
     fun journey_complete_unit() {
         val plugin = loadPlugin()
         composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_1"), 30_000)
-        composeRule.onNodeWithTag("unit_node_1").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
+        openUnitNode(1)
         val bot = SolverBot(composeRule, plugin, db = db)
         for (l in 0..3) bot.completeLesson(1, l)
         assertTrue("checkpoint should pass", bot.runCheckpoint(1))
@@ -118,16 +117,31 @@ class CompleteUnitJourneyTest {
             androidx.test.platform.app.InstrumentationRegistry.getInstrumentation()
         ).pressBack()
         composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_2"), 30_000)
-        composeRule.onNodeWithTag("unit_node_2").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
+        openUnitNode(2)
+    }
+
+    /** Clicks unit [n]'s node and asserts navigation to its detail screen,
+     *  retrying the tap when it is swallowed (same idiom as the Stage 5/6
+     *  journey openUnitFromHome; single-shot clicks timed out under a
+     *  loaded emulator in the Stage 6 full-suite run). */
+    private fun openUnitNode(n: Int) {
+        val deadline = System.currentTimeMillis() + 30_000
+        while (true) {
+            composeRule.onNodeWithTag("unit_node_$n").performClick()
+            try {
+                composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 8_000)
+                return
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                if (System.currentTimeMillis() >= deadline) throw e
+            }
+        }
     }
 
     @Test
     fun journey_fail_checkpoint() {
         val plugin = loadPlugin()
         composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_1"), 30_000)
-        composeRule.onNodeWithTag("unit_node_1").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
+        openUnitNode(1)
         val bot = SolverBot(composeRule, plugin, db = db)
         for (l in 0..3) bot.completeLesson(1, l)
         // chaos mode fails the checkpoint -> friendly retry screen, no penalty
