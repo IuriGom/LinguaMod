@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 33,
+    "version": 34,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -29657,6 +29657,821 @@
           }
         ]
       }
+    },
+    {
+      "id": "u40",
+      "number": 40,
+      "title": "La mia settimana",
+      "lessons": [
+        {
+          "id": "u40l1",
+          "type": "vocabulary",
+          "title": "Da martedì a domenica",
+          "dictionaryRefs": [
+            "martedi",
+            "mercoledi",
+            "giovedi",
+            "venerdi",
+            "sabato",
+            "domenica"
+          ],
+          "exercises": [
+            {
+              "id": "u40l1e1",
+              "type": "multiple_choice",
+              "prompt": "What day is it? (Unit 16 recycling)",
+              "question": "martedì",
+              "options": [
+                "Tuesday",
+                "Thursday",
+                "Wednesday",
+                "Monday"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Martedì' (m) = Tuesday. The week: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.",
+              "dictionaryRefs": [
+                "martedi"
+              ]
+            },
+            {
+              "id": "u40l1e2",
+              "type": "multiple_choice",
+              "prompt": "What day is it?",
+              "question": "mercoledì",
+              "options": [
+                "Wednesday",
+                "Tuesday",
+                "Friday",
+                "Thursday"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mercoledì' (m) = Wednesday. Four syllables: mer-co-le-DÌ.",
+              "dictionaryRefs": [
+                "mercoledi"
+              ]
+            },
+            {
+              "id": "u40l1e3",
+              "type": "multiple_choice",
+              "prompt": "What day is it?",
+              "question": "giovedì",
+              "options": [
+                "Thursday",
+                "Tuesday",
+                "Friday",
+                "Wednesday"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Giovedì' (m) = Thursday. The soft g: jo-ve-DÌ.",
+              "dictionaryRefs": [
+                "giovedi"
+              ]
+            },
+            {
+              "id": "u40l1e4",
+              "type": "multiple_choice",
+              "prompt": "What day is it? 💛",
+              "question": "venerdì",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Saturday",
+                "Thursday"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Venerdì' (m) = Friday. 💛 'Venerdì sono uscito con gli amici.' — Friday I went out with friends.",
+              "dictionaryRefs": [
+                "venerdi"
+              ]
+            },
+            {
+              "id": "u40l1e5",
+              "type": "multiple_choice",
+              "prompt": "What day is it?",
+              "question": "sabato",
+              "options": [
+                "Saturday",
+                "Sunday",
+                "Friday",
+                "the sabbath only"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sabato' (m) = Saturday. The week's only name without -dì. 'Il weekend è sabato e domenica.'",
+              "dictionaryRefs": [
+                "sabato"
+              ]
+            },
+            {
+              "id": "u40l1e6",
+              "type": "multiple_choice",
+              "prompt": "What day is it?",
+              "question": "domenica",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Monday",
+                "the weekend"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La domenica' (f) = Sunday — the week's only feminine day. 'La domenica sono libero.' — On Sundays I'm free.",
+              "dictionaryRefs": [
+                "domenica",
+                "libero"
+              ]
+            },
+            {
+              "id": "u40l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (On Saturday I go to the seaside.) (Unit 20 recycling)",
+              "sentence": "___ vado al mare.",
+              "answers": [
+                "Sabato"
+              ],
+              "explanation": "'Sabato vado al mare.' — the day alone, no preposition (Unit 16): sabato = on Saturday.",
+              "dictionaryRefs": [
+                "sabato",
+                "il-mare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u40l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 16 recycling)",
+              "sourceIt": "La domenica sono libero.",
+              "acceptedEn": [
+                "On Sundays I'm free.",
+                "On Sundays I am free. (man speaking)"
+              ],
+              "explanation": "'La domenica sono libero.' — la + day = the habit (every Sunday). Libero from Unit 16. 💛",
+              "dictionaryRefs": [
+                "domenica",
+                "libero"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u40l2",
+          "type": "grammar",
+          "title": "Raccontare una settimana",
+          "dictionaryRefs": [
+            "martedi",
+            "mercoledi",
+            "giovedi",
+            "venerdi",
+            "sabato",
+            "domenica",
+            "lunedi",
+            "la-settimana",
+            "ieri",
+            "lavorare",
+            "andare",
+            "uscire",
+            "dormire"
+          ],
+          "grammarNotes": "LA MIA SETTIMANA — the Phase 3 capstone: narrate a full week, past tenses mixed.\n\nTHE DAYS (Unit 16's lunedì + the rest): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n\nTHE SKELETON — day + what happened (passato prossimo for events, imperfetto for how things were):\n• Lunedì ho lavorato. — Monday I worked. (event, avere)\n• Martedì sono andato al cinema con Giulia — il film era bellissimo. — Tuesday I went to the movies with Giulia — the film was wonderful. (movement → essere; the film's quality = background, imperfetto)\n• Mercoledì ero stanco. — Wednesday I was tired. (state, imperfetto)\n• Giovedì ho fatto la spesa. — Thursday I did the shopping. (Unit 21 chunk, event)\n• Venerdì sono uscito con gli amici. — Friday I went out with friends. (movement)\n• Sabato abbiamo visto il mare. — Saturday we saw the sea. (vedere → visto, irregular)\n• Domenica ho dormito molto. — Sunday I slept a lot.\n\nTHE RULE OF THUMB, one last time (Unit 30): does it move the story? → passato prossimo. Does it set the scene or describe a habit? → imperfetto.\n\n💛 'Com'è andata la settimana?' — How did the week go? 'Bene. È stata una settimana bellissima.' (Unit 37's -issima!)",
+          "exercises": [
+            {
+              "id": "u40l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the week. (Monday I worked.) (Unit 26 recycling)",
+              "sentence": "Lunedì ho ___.",
+              "answers": [
+                "lavorato"
+              ],
+              "explanation": "'Lunedì ho lavorato.' — one finished event → avere + lavorato (Unit 26).",
+              "dictionaryRefs": [
+                "lunedi",
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u40l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the week. (Tuesday I went to the movies. — man speaking) (Unit 27 recycling)",
+              "sentence": "Martedì sono ___ al cinema.",
+              "answers": [
+                "andato"
+              ],
+              "explanation": "'Martedì sono andato al cinema.' — movement → essere; a man: andato (a woman: andata).",
+              "dictionaryRefs": [
+                "martedi",
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u40l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the week. (Wednesday I was tired.) (Unit 29 recycling)",
+              "sentence": "Mercoledì ___ stanco.",
+              "answers": [
+                "ero"
+              ],
+              "explanation": "'Mercoledì ero stanco.' — a past state → imperfetto: ero (Unit 29). Not 'sono stato stanco' — that's a finished episode.",
+              "dictionaryRefs": [
+                "mercoledi",
+                "stanco"
+              ]
+            },
+            {
+              "id": "u40l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the week. (Thursday I did the shopping.) (Unit 21 recycling)",
+              "sentence": "Giovedì ho fatto la ___.",
+              "answers": [
+                "spesa"
+              ],
+              "explanation": "'Giovedì ho fatto la spesa.' — the fare chunk in the past: ho fatto + la spesa.",
+              "dictionaryRefs": [
+                "giovedi",
+                "fare",
+                "la-spesa"
+              ]
+            },
+            {
+              "id": "u40l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 21+27 recycling)",
+              "sourceEn": "On Friday I went out with friends.",
+              "acceptedIt": [
+                "Venerdì sono uscito con gli amici.",
+                "Venerdì sono uscito con gli amici",
+                "Venerdì sono uscita con gli amici",
+                "Venerdì io sono uscito con gli amici"
+              ],
+              "explanation": "'Venerdì sono uscito con gli amici.' — uscire → essere; uscito (m) / uscita (f). Gli amici (Unit 5's gli rule). 💛",
+              "dictionaryRefs": [
+                "venerdi",
+                "uscire",
+                "amico"
+              ]
+            },
+            {
+              "id": "u40l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12+26 recycling)",
+              "sourceEn": "On Sunday I slept a lot.",
+              "acceptedIt": [
+                "Domenica ho dormito molto.",
+                "Domenica ho dormito molto",
+                "Ho dormito molto domenica"
+              ],
+              "explanation": "'Domenica ho dormito molto.' — ho dormito (event) + molto (Unit 13).",
+              "dictionaryRefs": [
+                "domenica",
+                "dormire",
+                "molto"
+              ]
+            },
+            {
+              "id": "u40l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 19+27 recycling)",
+              "sourceIt": "Sabato abbiamo visto il mare.",
+              "acceptedEn": [
+                "On Saturday we saw the sea.",
+                "Saturday we saw the seaside."
+              ],
+              "explanation": "'Sabato abbiamo visto il mare.' — abbiamo visto (vedere → visto, irregular). The sea, seen.",
+              "dictionaryRefs": [
+                "sabato",
+                "vedere",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u40l2e8",
+              "type": "multiple_choice",
+              "prompt": "What comes next? (After Thursday comes…) (Unit 7+30 recycling)",
+              "question": "Dopo giovedì viene…",
+              "options": [
+                "venerdì",
+                "sabato",
+                "mercoledì",
+                "domenica"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dopo giovedì viene venerdì.' — dopo (Unit 30) + viene (venire, Unit 7). The week's order.",
+              "dictionaryRefs": [
+                "dopo",
+                "giovedi",
+                "venerdi"
+              ]
+            },
+            {
+              "id": "u40l2e9",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 37 recycling)",
+              "question": "È stata una settimana bellissima.",
+              "options": [
+                "It was a wonderful week.",
+                "It was a beautiful week, once.",
+                "It will be a beautiful week.",
+                "It is a very beautiful week."
+              ],
+              "correctIndex": 0,
+              "explanation": "'È stata una settimana bellissima.' — è stata (essere → essere + agrees with settimana, Unit 27) + bellissima (Unit 37). 💛",
+              "dictionaryRefs": [
+                "la-settimana",
+                "bello"
+              ]
+            },
+            {
+              "id": "u40l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 27 recycling)",
+              "tokens": [
+                "Martedì",
+                "sono",
+                "andato",
+                "al",
+                "cinema."
+              ],
+              "correctSentence": "Martedì sono andato al cinema.",
+              "explanation": "'Martedì sono andato al cinema.' — day, auxiliary + participle, place. The week's line two.",
+              "dictionaryRefs": [
+                "martedi",
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u40l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 13+26 recycling)",
+              "tokens": [
+                "Domenica",
+                "ho",
+                "dormito",
+                "molto."
+              ],
+              "correctSentence": "Domenica ho dormito molto.",
+              "explanation": "'Domenica ho dormito molto.' — day, ho dormito, molto. The week closes.",
+              "dictionaryRefs": [
+                "domenica",
+                "dormire",
+                "molto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u40l3",
+          "type": "mixed",
+          "title": "La settimana con Giulia 💛 — ripasso generale",
+          "dictionaryRefs": [
+            "stanco",
+            "lavorare",
+            "il-lavoro",
+            "il-ristorante",
+            "la-cena",
+            "libero",
+            "il-mare",
+            "amico",
+            "la-settimana",
+            "bello",
+            "martedi",
+            "mercoledi",
+            "giovedi",
+            "venerdi",
+            "sabato",
+            "domenica"
+          ],
+          "exercises": [
+            {
+              "id": "u40l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 21+27 recycling)",
+              "sourceEn": "On Tuesday I went out with Giulia. (man speaking)",
+              "acceptedIt": [
+                "Martedì sono uscito con Giulia.",
+                "Martedì sono uscito con Giulia",
+                "Martedì io sono uscito con Giulia"
+              ],
+              "explanation": "'Martedì sono uscito con Giulia.' — uscire → essere; uscito. 💛 The week gets interesting on Tuesday.",
+              "dictionaryRefs": [
+                "martedi",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u40l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 22+29 recycling — mixed pasts)",
+              "question": "Mercoledì ero stanco, ma sono andato al lavoro.",
+              "options": [
+                "Wednesday I was tired, but I went to work.",
+                "Wednesday I got tired, so I went to work.",
+                "Wednesday I was tired and didn't go to work.",
+                "On Wednesday I am tired, but I go to work."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mercoledì ero stanco, ma sono andato al lavoro.' — ero (background state) + ma (Unit 22) + sono andato (event). The two pasts in one sentence.",
+              "dictionaryRefs": [
+                "mercoledi",
+                "stanco",
+                "ma",
+                "andare",
+                "il-lavoro"
+              ]
+            },
+            {
+              "id": "u40l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the week. 💛 (Thursday evening we ate at the restaurant.) (Unit 15+26 recycling)",
+              "sentence": "Giovedì sera abbiamo ___ al ristorante.",
+              "answers": [
+                "mangiato"
+              ],
+              "explanation": "'Giovedì sera abbiamo mangiato al ristorante.' — giovedì sera (day + evening) + abbiamo mangiato. 💛",
+              "dictionaryRefs": [
+                "giovedi",
+                "la-sera",
+                "mangiare",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u40l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 16+26+29 recycling — the mix)",
+              "sourceIt": "Venerdì Giulia ha lavorato; io ero libero.",
+              "acceptedEn": [
+                "On Friday Giulia worked; I was free.",
+                "Friday Giulia worked; I was free."
+              ],
+              "explanation": "'Venerdì Giulia ha lavorato; io ero libero.' — her event (ha lavorato), your state (ero libero). The contrast in one line.",
+              "dictionaryRefs": [
+                "venerdi",
+                "lavorare",
+                "libero"
+              ]
+            },
+            {
+              "id": "u40l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the week. (Saturday we went to the seaside.) (Unit 20+27 recycling)",
+              "sentence": "Sabato ___ andati al mare.",
+              "answers": [
+                "siamo"
+              ],
+              "explanation": "'Sabato siamo andati al mare.' — noi: siamo + andati (m pl). Movement, essere, agreement — all three Unit 27 cliffs.",
+              "dictionaryRefs": [
+                "sabato",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u40l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 13+26 recycling)",
+              "question": "Domenica ho dormito molto.",
+              "options": [
+                "On Sunday I slept a lot.",
+                "On Sunday I sleep a lot.",
+                "Sunday I was very tired.",
+                "On Sunday I slept early."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Domenica ho dormito molto.' — ho dormito (event) + molto (a lot, Unit 13). The week's reward.",
+              "dictionaryRefs": [
+                "domenica",
+                "dormire",
+                "molto"
+              ]
+            },
+            {
+              "id": "u40l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 27 recycling)",
+              "tokens": [
+                "La",
+                "settimana",
+                "è",
+                "stata",
+                "bella."
+              ],
+              "correctSentence": "La settimana è stata bella.",
+              "explanation": "'La settimana è stata bella.' — è stata (essere → essere, agrees with la settimana) + bella. Unit 27, closing the week.",
+              "dictionaryRefs": [
+                "la-settimana",
+                "bello"
+              ]
+            },
+            {
+              "id": "u40l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 37 recycling)",
+              "sourceEn": "It was a wonderful week.",
+              "acceptedIt": [
+                "È stata una settimana bellissima.",
+                "È stata una settimana bellissima",
+                "E' stata una settimana bellissima"
+              ],
+              "explanation": "'È stata una settimana bellissima.' — è stata + una settimana + bellissima (-issima, Unit 37). 💛",
+              "dictionaryRefs": [
+                "la-settimana",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u40l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "lunedi",
+            "martedi",
+            "venerdi",
+            "sabato",
+            "domenica",
+            "lavorare",
+            "andare",
+            "il-cinema",
+            "il-mare",
+            "dormire",
+            "molto",
+            "la-settimana",
+            "bello",
+            "uscire"
+          ],
+          "exercises": [
+            {
+              "id": "u40l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 26 recycling)",
+              "mode": "choice",
+              "speakIt": "Lunedì ho lavorato.",
+              "options": [
+                "Monday I worked.",
+                "Monday I work.",
+                "Monday I was tired.",
+                "Monday I went out."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Lunedì ho lavorato.' — Monday I worked. The week begins.",
+              "dictionaryRefs": [
+                "lunedi",
+                "lavorare"
+              ]
+            },
+            {
+              "id": "u40l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 27 recycling)",
+              "mode": "type",
+              "speakIt": "Martedì sono andato al cinema.",
+              "acceptedIt": [
+                "Martedì sono andato al cinema.",
+                "Martedì sono andato al cinema",
+                "Martedì io sono andato al cinema"
+              ],
+              "explanation": "You heard: 'Martedì sono andato al cinema.' — Tuesday I went to the movies.",
+              "dictionaryRefs": [
+                "martedi",
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u40l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 16 recycling)",
+              "mode": "choice",
+              "speakIt": "Domani è venerdì.",
+              "options": [
+                "Tomorrow is Friday.",
+                "Tomorrow is Thursday.",
+                "Today is Friday.",
+                "Tomorrow is Saturday."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Domani è venerdì.' — Tomorrow is Friday. Days take essere (Unit 16). 💛 Almost the weekend.",
+              "dictionaryRefs": [
+                "domani",
+                "venerdi"
+              ]
+            },
+            {
+              "id": "u40l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: Saturday I went to the seaside. (Unit 20+27 recycling)",
+              "targetIt": "Sabato sono andato al mare.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sabato sono andato al mare.' — SA-ba-to SO-no an-DA-to al MA-re.",
+              "dictionaryRefs": [
+                "sabato",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u40l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: it was a wonderful week. 💛 (Unit 37 recycling)",
+              "targetIt": "È stata una settimana bellissima.",
+              "minAccuracy": 0.7,
+              "explanation": "'È stata una settimana bellissima.' — e STA-ta U-na set-ti-MA-na bel-LIS-si-ma. 💛 The capstone line.",
+              "dictionaryRefs": [
+                "la-settimana",
+                "bello"
+              ]
+            },
+            {
+              "id": "u40l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 13+26 recycling)",
+              "mode": "type",
+              "speakIt": "Domenica ho dormito molto.",
+              "acceptedIt": [
+                "Domenica ho dormito molto.",
+                "Domenica ho dormito molto"
+              ],
+              "explanation": "You heard: 'Domenica ho dormito molto.' — Sunday I slept a lot.",
+              "dictionaryRefs": [
+                "domenica",
+                "dormire",
+                "molto"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u40c",
+        "exercises": [
+          {
+            "id": "u40ce1",
+            "type": "multiple_choice",
+            "prompt": "What day is it?",
+            "question": "domenica",
+            "options": [
+              "Sunday",
+              "Saturday",
+              "Monday",
+              "Friday"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La domenica' (f) = Sunday — the week's only feminine day.",
+            "dictionaryRefs": [
+              "domenica"
+            ]
+          },
+          {
+            "id": "u40ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the week. 💛 (Friday I went out with friends. — man speaking) (Unit 27 recycling)",
+            "sentence": "Venerdì sono ___ con gli amici.",
+            "answers": [
+              "uscito"
+            ],
+            "explanation": "'Venerdì sono uscito con gli amici.' — uscire → essere; uscito (m) / uscita (f). 💛",
+            "dictionaryRefs": [
+              "venerdi",
+              "uscire",
+              "amico"
+            ]
+          },
+          {
+            "id": "u40ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 29 recycling)",
+            "sourceEn": "On Wednesday I was tired.",
+            "acceptedIt": [
+              "Mercoledì ero stanco.",
+              "Mercoledì ero stanco",
+              "Mercoledì ero stanca",
+              "Mercoledì io ero stanco"
+            ],
+            "explanation": "'Mercoledì ero stanco.' — a past state → imperfetto: ero (a woman: ero stanca).",
+            "dictionaryRefs": [
+              "mercoledi",
+              "stanco"
+            ]
+          },
+          {
+            "id": "u40ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 21+26 recycling)",
+            "sourceIt": "Giovedì ho fatto la spesa.",
+            "acceptedEn": [
+              "On Thursday I did the shopping.",
+              "Thursday I did the grocery shopping."
+            ],
+            "explanation": "'Giovedì ho fatto la spesa.' — ho fatto + la spesa. The chunk in the past.",
+            "dictionaryRefs": [
+              "giovedi",
+              "fare",
+              "la-spesa"
+            ]
+          },
+          {
+            "id": "u40ce5",
+            "type": "multiple_choice",
+            "prompt": "What comes next? (After Tuesday comes…) (Unit 30 recycling)",
+            "question": "Dopo martedì viene…",
+            "options": [
+              "mercoledì",
+              "giovedì",
+              "lunedì",
+              "venerdì"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Dopo martedì viene mercoledì.' — dopo + viene. The order of the week.",
+            "dictionaryRefs": [
+              "dopo",
+              "martedi",
+              "mercoledi"
+            ]
+          },
+          {
+            "id": "u40ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the week. (Saturday we saw the sea.) (Unit 19+27 recycling)",
+            "sentence": "Sabato abbiamo ___ il mare.",
+            "answers": [
+              "visto"
+            ],
+            "explanation": "'Sabato abbiamo visto il mare.' — vedere → visto (irregular participle, avere).",
+            "dictionaryRefs": [
+              "sabato",
+              "vedere",
+              "il-mare"
+            ]
+          },
+          {
+            "id": "u40ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 13+26 recycling)",
+            "tokens": [
+              "Domenica",
+              "ho",
+              "dormito",
+              "molto."
+            ],
+            "correctSentence": "Domenica ho dormito molto.",
+            "explanation": "'Domenica ho dormito molto.' — the week ends slow. 💛",
+            "dictionaryRefs": [
+              "domenica",
+              "dormire",
+              "molto"
+            ]
+          },
+          {
+            "id": "u40ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 27 recycling)",
+            "mode": "choice",
+            "speakIt": "La settimana è stata bella.",
+            "options": [
+              "The week was nice.",
+              "The week is nice.",
+              "The week will be nice.",
+              "The weekend was nice."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'La settimana è stata bella.' — è stata (essere + agreement, Unit 27).",
+            "dictionaryRefs": [
+              "la-settimana",
+              "bello"
+            ]
+          },
+          {
+            "id": "u40ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛 (Unit 27 recycling)",
+            "mode": "type",
+            "speakIt": "Venerdì sono uscito con gli amici.",
+            "acceptedIt": [
+              "Venerdì sono uscito con gli amici.",
+              "Venerdì sono uscito con gli amici",
+              "Venerdì io sono uscito con gli amici"
+            ],
+            "explanation": "You heard: 'Venerdì sono uscito con gli amici.' — Friday I went out with friends. 💛",
+            "dictionaryRefs": [
+              "venerdi",
+              "uscire",
+              "amico"
+            ]
+          },
+          {
+            "id": "u40ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: it was a wonderful week. 💛 (Unit 37 recycling)",
+            "targetIt": "È stata una settimana bellissima.",
+            "minAccuracy": 0.7,
+            "explanation": "'È stata una settimana bellissima.' — the Phase 3 capstone line. 💛",
+            "dictionaryRefs": [
+              "la-settimana",
+              "bello"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -33643,6 +34458,108 @@
         }
       ],
       "introducedInUnit": 39
+    },
+    {
+      "id": "martedi",
+      "word": "martedì",
+      "article": "il",
+      "translation": "Tuesday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Martedì sono andato al cinema.",
+          "en": "On Tuesday I went to the movies."
+        }
+      ],
+      "introducedInUnit": 40
+    },
+    {
+      "id": "mercoledi",
+      "word": "mercoledì",
+      "article": "il",
+      "translation": "Wednesday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Mercoledì ero stanco.",
+          "en": "On Wednesday I was tired."
+        }
+      ],
+      "introducedInUnit": 40
+    },
+    {
+      "id": "giovedi",
+      "word": "giovedì",
+      "article": "il",
+      "translation": "Thursday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Giovedì ho fatto la spesa.",
+          "en": "On Thursday I did the shopping."
+        }
+      ],
+      "introducedInUnit": 40
+    },
+    {
+      "id": "venerdi",
+      "word": "venerdì",
+      "article": "il",
+      "translation": "Friday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Venerdì sono uscito con gli amici.",
+          "en": "On Friday I went out with friends."
+        },
+        {
+          "it": "Domani è venerdì.",
+          "en": "Tomorrow is Friday."
+        }
+      ],
+      "introducedInUnit": 40
+    },
+    {
+      "id": "sabato",
+      "word": "sabato",
+      "article": "il",
+      "translation": "Saturday",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Sabato vado al mare.",
+          "en": "On Saturday I go to the seaside."
+        },
+        {
+          "it": "Sabato sono andato al mare.",
+          "en": "On Saturday I went to the seaside."
+        }
+      ],
+      "introducedInUnit": 40
+    },
+    {
+      "id": "domenica",
+      "word": "domenica",
+      "article": "la",
+      "translation": "Sunday",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La domenica sono libero.",
+          "en": "On Sundays I'm free."
+        },
+        {
+          "it": "Domenica ho dormito molto.",
+          "en": "On Sunday I slept a lot."
+        }
+      ],
+      "introducedInUnit": 40
     }
   ],
   "stories": [
