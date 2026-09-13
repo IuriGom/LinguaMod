@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 32,
+    "version": 33,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -28858,6 +28858,805 @@
           }
         ]
       }
+    },
+    {
+      "id": "u39",
+      "number": 39,
+      "title": "I viaggi",
+      "lessons": [
+        {
+          "id": "u39l1",
+          "type": "vocabulary",
+          "title": "Il treno, l'albergo, la valigia",
+          "dictionaryRefs": [
+            "il-treno",
+            "l-albergo",
+            "il-passaporto",
+            "la-valigia",
+            "il-binario",
+            "l-orario"
+          ],
+          "exercises": [
+            {
+              "id": "u39l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il treno",
+              "options": [
+                "the train",
+                "the platform",
+                "the track",
+                "the trip"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il treno' (m) = the train. 'Andiamo a Roma in treno.' — We go to Rome by train (in + transport).",
+              "dictionaryRefs": [
+                "il-treno"
+              ]
+            },
+            {
+              "id": "u39l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'albergo",
+              "options": [
+                "the hotel",
+                "the tree",
+                "the hostel",
+                "the room"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'albergo' (m, l' before the vowel) = the hotel. 'Ho prenotato un albergo a Venezia.' — I booked a hotel in Venice. 💛",
+              "dictionaryRefs": [
+                "l-albergo",
+                "prenotare"
+              ]
+            },
+            {
+              "id": "u39l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il passaporto",
+              "options": [
+                "the passport",
+                "the boarding pass",
+                "the ticket",
+                "the border"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il passaporto' (m) = the passport. 'Il passaporto è qui.' — The passport is here. (Whew.)",
+              "dictionaryRefs": [
+                "il-passaporto"
+              ]
+            },
+            {
+              "id": "u39l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la valigia",
+              "options": [
+                "the suitcase",
+                "the bag",
+                "the luggage rack",
+                "the backpack"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La valigia' (f) = the suitcase; plural le valigie. 'La valigia è piccola.' — The suitcase is small.",
+              "dictionaryRefs": [
+                "la-valigia",
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u39l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il binario",
+              "options": [
+                "the (train) platform",
+                "the rail",
+                "the track",
+                "the binary system"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il binario' (m) = the platform. 'Il treno parte dal binario tre.' — The train leaves from platform three. (dal = da + il.)",
+              "dictionaryRefs": [
+                "il-binario",
+                "il-treno",
+                "partire"
+              ]
+            },
+            {
+              "id": "u39l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'orario",
+              "options": [
+                "the schedule; the timetable",
+                "the clock",
+                "the hour",
+                "the opening time only"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'orario' (m, l' before the vowel) = the schedule. 'L'orario dei treni.' — The train schedule. (dei = di + i.)",
+              "dictionaryRefs": [
+                "l-orario",
+                "il-treno"
+              ]
+            },
+            {
+              "id": "u39l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The train leaves from platform three.)",
+              "sentence": "Il treno parte dal ___ tre.",
+              "answers": [
+                "binario"
+              ],
+              "explanation": "'Il treno parte dal binario tre.' — dal = da + il (Unit 18's da). The station's most important word.",
+              "dictionaryRefs": [
+                "il-treno",
+                "partire",
+                "il-binario"
+              ]
+            },
+            {
+              "id": "u39l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 27 recycling)",
+              "sourceIt": "Partiamo domani.",
+              "acceptedEn": [
+                "We leave tomorrow."
+              ],
+              "explanation": "'Partiamo domani.' — partiamo (noi, partire, Unit 27) + domani. The present for a fixed plan.",
+              "dictionaryRefs": [
+                "partire",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u39l2",
+          "type": "grammar",
+          "title": "In viaggio: tutto quello che sai",
+          "dictionaryRefs": [
+            "il-treno",
+            "l-albergo",
+            "il-passaporto",
+            "la-valigia",
+            "il-binario",
+            "l-orario",
+            "prenotare",
+            "il-biglietto",
+            "la-camera",
+            "partire",
+            "arrivare"
+          ],
+          "grammarNotes": "IN VIAGGIO — no new grammar today: travel is where Phase 3 comes together.\n\nSCHEDULES use the present (Unit 16's habit logic): 'Il treno parte alle nove.' — The train leaves at nine. 'Il treno arriva alle undici.'\n\nBOOKING uses the modals (Unit 32) and vorrei (Unit 9):\n• 'Vorrei una camera per due.' — I'd like a room for two. (la camera, Unit 22)\n• 'Devo prenotare l'albergo.' — I have to book the hotel.\n• 'Posso portare una valigia?' — Can I bring a suitcase?\n\nMOVEMENT takes da/a/in (Unit 18): 'dal binario tre' (da + il → dal), 'dall'albergo' (da + l' → dall'), 'a Roma', 'in treno' (by train), 'in Italia'.\n\nTHE TRIP IN THE FUTURE (Unit 31): 'Partiamo domani.' or 'Partiremo domani.' — both correct; the present is enough for a booked plan.\n\n💛 PLANNING TOGETHER: 'Andiamo a Venezia la settimana prossima?' — 'Sì! Ho due biglietti.' — 'Prenoto l'albergo io.' — the whole phase in three lines.",
+          "exercises": [
+            {
+              "id": "u39l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The train leaves at nine.) (Unit 16+27 recycling)",
+              "sentence": "Il treno ___ alle nove.",
+              "answers": [
+                "parte"
+              ],
+              "explanation": "'Il treno parte alle nove.' — schedules take the present: parte (lui/lei, partire).",
+              "dictionaryRefs": [
+                "il-treno",
+                "partire",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u39l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have to book the hotel.) (Unit 25+32 recycling)",
+              "sentence": "Devo ___ l'albergo.",
+              "answers": [
+                "prenotare"
+              ],
+              "explanation": "'Devo prenotare l'albergo.' — devo + the infinitive (Unit 32). L'albergo: l' before the vowel.",
+              "dictionaryRefs": [
+                "dovere",
+                "prenotare",
+                "l-albergo"
+              ]
+            },
+            {
+              "id": "u39l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Can I bring a suitcase?) (Unit 31+32 recycling)",
+              "sentence": "Posso ___ una valigia?",
+              "answers": [
+                "portare"
+              ],
+              "explanation": "'Posso portare una valigia?' — posso + portare (to bring, Unit 31) + una valigia.",
+              "dictionaryRefs": [
+                "potere",
+                "portare",
+                "la-valigia"
+              ]
+            },
+            {
+              "id": "u39l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+27 recycling)",
+              "sourceEn": "We leave tomorrow at nine.",
+              "acceptedIt": [
+                "Partiamo domani alle nove.",
+                "Partiamo domani alle nove",
+                "Domani partiamo alle nove",
+                "Noi partiamo domani alle nove"
+              ],
+              "explanation": "'Partiamo domani alle nove.' — partiamo + domani + alle nove. Booked plan, present tense.",
+              "dictionaryRefs": [
+                "partire",
+                "domani",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u39l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 15+22 recycling)",
+              "sourceEn": "I'd like a room for two.",
+              "acceptedIt": [
+                "Vorrei una camera per due.",
+                "Vorrei una camera per due",
+                "Io vorrei una camera per due"
+              ],
+              "explanation": "'Vorrei una camera per due.' — vorrei (Unit 9/15) + una camera (Unit 22) + per due. The hotel version of the restaurant line.",
+              "dictionaryRefs": [
+                "vorrei",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u39l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Il treno parte dal binario tre.",
+              "acceptedEn": [
+                "The train leaves from platform three."
+              ],
+              "explanation": "'Il treno parte dal binario tre.' — parte (schedule, present) + dal binario tre (da + il → dal).",
+              "dictionaryRefs": [
+                "il-treno",
+                "partire",
+                "il-binario"
+              ]
+            },
+            {
+              "id": "u39l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 18 recycling)",
+              "sourceIt": "Andiamo a Roma in treno.",
+              "acceptedEn": [
+                "We go to Rome by train.",
+                "We're going to Rome by train."
+              ],
+              "explanation": "'Andiamo a Roma in treno.' — a + the city (Roma), in + the transport (treno). The Unit 18 rule, traveling.",
+              "dictionaryRefs": [
+                "andare",
+                "il-treno"
+              ]
+            },
+            {
+              "id": "u39l2e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 25 recycling)",
+              "question": "Ho due biglietti per Venezia.",
+              "options": [
+                "I have two tickets for Venice.",
+                "I booked two hotels in Venice.",
+                "I have two tickets from Venice.",
+                "I want two tickets for Venice."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho due biglietti per Venezia.' — 💛 two tickets. One for you, one for her.",
+              "dictionaryRefs": [
+                "il-biglietto"
+              ]
+            },
+            {
+              "id": "u39l2e9",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 31+27 recycling)",
+              "question": "Domani partiamo presto.",
+              "options": [
+                "Tomorrow we leave early.",
+                "Tomorrow we leave soon.",
+                "Tomorrow we arrive early.",
+                "We left early tomorrow."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Domani partiamo presto.' — presto = early (also soon, Unit 31). With domani + a plan, both readings land the same.",
+              "dictionaryRefs": [
+                "partire",
+                "domani",
+                "presto"
+              ]
+            },
+            {
+              "id": "u39l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 15+22 recycling)",
+              "tokens": [
+                "Vorrei",
+                "una",
+                "camera",
+                "per",
+                "due."
+              ],
+              "correctSentence": "Vorrei una camera per due.",
+              "explanation": "'Vorrei una camera per due.' — vorrei + una camera + per due. Same shape as 'un tavolo per due' (Unit 15).",
+              "dictionaryRefs": [
+                "vorrei",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u39l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 27+31 recycling)",
+              "tokens": [
+                "Partiamo",
+                "domani",
+                "presto."
+              ],
+              "correctSentence": "Partiamo domani presto.",
+              "explanation": "'Partiamo domani presto.' — partiamo + domani + presto. We leave early tomorrow.",
+              "dictionaryRefs": [
+                "partire",
+                "domani",
+                "presto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u39l3",
+          "type": "mixed",
+          "title": "Venezia insieme 💛 — ripasso",
+          "dictionaryRefs": [
+            "prenotare",
+            "il-biglietto",
+            "il-viaggio",
+            "la-stazione",
+            "andare",
+            "dopodomani",
+            "il-mare",
+            "prossimo",
+            "la-settimana",
+            "insieme",
+            "il-treno",
+            "l-albergo",
+            "il-passaporto",
+            "la-valigia",
+            "il-binario",
+            "l-orario"
+          ],
+          "exercises": [
+            {
+              "id": "u39l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 31 recycling)",
+              "sourceEn": "Shall we go to Venice next week?",
+              "acceptedIt": [
+                "Andiamo a Venezia la settimana prossima?",
+                "Andiamo a Venezia la settimana prossima",
+                "Andiamo a Venezia la settimana prossima"
+              ],
+              "explanation": "'Andiamo a Venezia la settimana prossima?' — the proposal (andiamo) + a Venezia + la settimana prossima (Unit 31). 💛",
+              "dictionaryRefs": [
+                "andare",
+                "prossimo",
+                "la-settimana"
+              ]
+            },
+            {
+              "id": "u39l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 26 recycling)",
+              "question": "Ho prenotato un albergo a Venezia.",
+              "options": [
+                "I booked a hotel in Venice.",
+                "I book a hotel in Venice.",
+                "I found a hotel in Venice.",
+                "I booked a room in Venice."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ho prenotato un albergo a Venezia.' — ho prenotato (Unit 26) + un albergo + a Venezia. 💛 Done deal.",
+              "dictionaryRefs": [
+                "prenotare",
+                "l-albergo"
+              ]
+            },
+            {
+              "id": "u39l3e3",
+              "type": "fill_blank",
+              "prompt": "Answer with a pronoun. (The tickets? I have them.) (Unit 19+25 recycling)",
+              "sentence": "I biglietti? ___ ho.",
+              "answers": [
+                "Li"
+              ],
+              "explanation": "'I biglietti? Li ho.' — i biglietti (m pl) → li, before ho (Unit 19). The tickets are handled.",
+              "dictionaryRefs": [
+                "il-biglietto"
+              ]
+            },
+            {
+              "id": "u39l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 27 recycling)",
+              "sourceIt": "Il viaggio in treno è bello.",
+              "acceptedEn": [
+                "The trip by train is nice.",
+                "The train journey is beautiful."
+              ],
+              "explanation": "'Il viaggio in treno è bello.' — il viaggio (Unit 27) + in treno + è bello.",
+              "dictionaryRefs": [
+                "il-viaggio",
+                "il-treno",
+                "bello"
+              ]
+            },
+            {
+              "id": "u39l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The hotel is near the station.) (Unit 18+22 recycling)",
+              "sentence": "L'albergo è vicino ___ stazione.",
+              "answers": [
+                "alla",
+                "a la"
+              ],
+              "explanation": "'L'albergo è vicino alla stazione.' — vicino a + la stazione → alla (Unit 22's contractions).",
+              "dictionaryRefs": [
+                "l-albergo",
+                "la-stazione"
+              ]
+            },
+            {
+              "id": "u39l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 31 recycling)",
+              "question": "Porto la valigia e il passaporto.",
+              "options": [
+                "I bring the suitcase and the passport.",
+                "I carry the suitcase and the passport.",
+                "I bring the luggage and the ticket.",
+                "I pack the suitcase and the passport."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Porto la valigia e il passaporto.' — portare (to bring, Unit 31) + the two travel essentials.",
+              "dictionaryRefs": [
+                "portare",
+                "la-valigia",
+                "il-passaporto"
+              ]
+            },
+            {
+              "id": "u39l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 25 recycling)",
+              "tokens": [
+                "Prenoto",
+                "due",
+                "biglietti",
+                "domani."
+              ],
+              "correctSentence": "Prenoto due biglietti domani.",
+              "explanation": "'Prenoto due biglietti domani.' — prenoto + due biglietti + domani. 💛",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-biglietto",
+                "domani"
+              ]
+            },
+            {
+              "id": "u39l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 16+27 recycling)",
+              "sourceEn": "The train arrives at eleven.",
+              "acceptedIt": [
+                "Il treno arriva alle undici.",
+                "Il treno arriva alle undici"
+              ],
+              "explanation": "'Il treno arriva alle undici.' — schedules in the present: arriva + alle undici.",
+              "dictionaryRefs": [
+                "il-treno",
+                "arrivare",
+                "che-ore-sono"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u39l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "il-treno",
+            "l-albergo",
+            "la-stazione",
+            "la-valigia",
+            "il-biglietto",
+            "la-camera",
+            "partire",
+            "arrivare",
+            "potere",
+            "portare",
+            "vorrei"
+          ],
+          "exercises": [
+            {
+              "id": "u39l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 16+27 recycling)",
+              "mode": "choice",
+              "speakIt": "Il treno parte alle nove.",
+              "options": [
+                "The train leaves at nine.",
+                "The train arrives at nine.",
+                "The train left at nine.",
+                "The train is at nine."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Il treno parte alle nove.' — parte (leaves), alle nove. Listen for parte vs arriva.",
+              "dictionaryRefs": [
+                "il-treno",
+                "partire",
+                "che-ore-sono"
+              ]
+            },
+            {
+              "id": "u39l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 15+22 recycling)",
+              "mode": "type",
+              "speakIt": "Vorrei una camera per due.",
+              "acceptedIt": [
+                "Vorrei una camera per due.",
+                "Vorrei una camera per due",
+                "Io vorrei una camera per due"
+              ],
+              "explanation": "You heard: 'Vorrei una camera per due.' — I'd like a room for two.",
+              "dictionaryRefs": [
+                "vorrei",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u39l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 18 recycling)",
+              "mode": "choice",
+              "speakIt": "Andiamo a Roma in treno?",
+              "options": [
+                "Shall we go to Rome by train?",
+                "Are we going to Rome tomorrow?",
+                "Do we go to Rome by train?",
+                "Shall we go to Rome by car?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Andiamo a Roma in treno?' — andiamo (proposal) + in treno (by train). 💛",
+              "dictionaryRefs": [
+                "andare",
+                "il-treno"
+              ]
+            },
+            {
+              "id": "u39l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I have two tickets for Venice. 💛 (Unit 25 recycling)",
+              "targetIt": "Ho due biglietti per Venezia.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ho due biglietti per Venezia.' — o DU-e bi-LYET-ti per ve-NE-tsya. 💛",
+              "dictionaryRefs": [
+                "il-biglietto"
+              ]
+            },
+            {
+              "id": "u39l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: we leave early tomorrow. (Unit 31 recycling)",
+              "targetIt": "Partiamo domani presto.",
+              "minAccuracy": 0.7,
+              "explanation": "'Partiamo domani presto.' — par-TYA-mo do-MA-ni PRES-to.",
+              "dictionaryRefs": [
+                "partire",
+                "domani",
+                "presto"
+              ]
+            },
+            {
+              "id": "u39l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 18+22 recycling)",
+              "mode": "type",
+              "speakIt": "L'albergo è vicino alla stazione.",
+              "acceptedIt": [
+                "L'albergo è vicino alla stazione.",
+                "L'albergo è vicino alla stazione",
+                "L'albergo e' vicino alla stazione"
+              ],
+              "explanation": "You heard: 'L'albergo è vicino alla stazione.' — The hotel is near the station.",
+              "dictionaryRefs": [
+                "l-albergo",
+                "la-stazione"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u39c",
+        "exercises": [
+          {
+            "id": "u39ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la valigia",
+            "options": [
+              "the suitcase",
+              "the bag",
+              "the ticket",
+              "the passport"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La valigia' (f) = the suitcase. Plural: le valigie.",
+            "dictionaryRefs": [
+              "la-valigia"
+            ]
+          },
+          {
+            "id": "u39ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The train leaves from platform three.)",
+            "sentence": "Il treno parte ___ binario tre.",
+            "answers": [
+              "dal",
+              "da il"
+            ],
+            "explanation": "'Il treno parte dal binario tre.' — da + il → dal (Unit 18's da, contracting like a + il → al).",
+            "dictionaryRefs": [
+              "il-treno",
+              "partire",
+              "il-binario"
+            ]
+          },
+          {
+            "id": "u39ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 26 recycling)",
+            "sourceEn": "I booked a hotel in Venice.",
+            "acceptedIt": [
+              "Ho prenotato un albergo a Venezia.",
+              "Ho prenotato un albergo a Venezia",
+              "Io ho prenotato un albergo a Venezia"
+            ],
+            "explanation": "'Ho prenotato un albergo a Venezia.' — ho prenotato + un albergo + a Venezia. 💛",
+            "dictionaryRefs": [
+              "prenotare",
+              "l-albergo"
+            ]
+          },
+          {
+            "id": "u39ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 27+31 recycling)",
+            "sourceIt": "Partiamo dopodomani.",
+            "acceptedEn": [
+              "We leave the day after tomorrow."
+            ],
+            "explanation": "'Partiamo dopodomani.' — partiamo + dopodomani (Unit 31). The present covers the booked plan.",
+            "dictionaryRefs": [
+              "partire",
+              "dopodomani"
+            ]
+          },
+          {
+            "id": "u39ce5",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "l'orario",
+            "options": [
+              "the schedule",
+              "the clock",
+              "the hour",
+              "the delay"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'orario' (m) = the schedule. 'L'orario dei treni.'",
+            "dictionaryRefs": [
+              "l-orario"
+            ]
+          },
+          {
+            "id": "u39ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I'd like a room for two, please.) (Unit 15+22 recycling)",
+            "sentence": "___ una camera per due, per favore.",
+            "answers": [
+              "Vorrei",
+              "Io vorrei"
+            ],
+            "explanation": "'Vorrei una camera per due, per favore.' — the hotel desk's polite line.",
+            "dictionaryRefs": [
+              "vorrei",
+              "la-camera",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u39ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. (Unit 18 recycling)",
+            "tokens": [
+              "Andiamo",
+              "in",
+              "treno."
+            ],
+            "correctSentence": "Andiamo in treno.",
+            "explanation": "'Andiamo in treno.' — andiamo + in treno. By train, together. 💛",
+            "dictionaryRefs": [
+              "andare",
+              "il-treno"
+            ]
+          },
+          {
+            "id": "u39ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. (Unit 31+32 recycling)",
+            "mode": "choice",
+            "speakIt": "Posso portare una valigia?",
+            "options": [
+              "Can I bring a suitcase?",
+              "Can I carry the bag?",
+              "May I pack a suitcase?",
+              "Can I take the passport?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Posso portare una valigia?' — posso + portare + una valigia.",
+            "dictionaryRefs": [
+              "potere",
+              "portare",
+              "la-valigia"
+            ]
+          },
+          {
+            "id": "u39ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 16+27 recycling)",
+            "mode": "type",
+            "speakIt": "Il treno arriva alle undici.",
+            "acceptedIt": [
+              "Il treno arriva alle undici.",
+              "Il treno arriva alle undici"
+            ],
+            "explanation": "You heard: 'Il treno arriva alle undici.' — The train arrives at eleven.",
+            "dictionaryRefs": [
+              "il-treno",
+              "arrivare",
+              "che-ore-sono"
+            ]
+          },
+          {
+            "id": "u39ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I'd like a room for two. 💛",
+            "targetIt": "Vorrei una camera per due.",
+            "minAccuracy": 0.7,
+            "explanation": "'Vorrei una camera per due.' — vor-REI U-na CA-me-ra per DU-e. 💛",
+            "dictionaryRefs": [
+              "vorrei",
+              "la-camera"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -32742,6 +33541,108 @@
         }
       ],
       "introducedInUnit": 38
+    },
+    {
+      "id": "il-treno",
+      "word": "treno",
+      "article": "il",
+      "translation": "train",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il treno parte alle nove.",
+          "en": "The train leaves at nine."
+        },
+        {
+          "it": "Andiamo a Roma in treno.",
+          "en": "We go to Rome by train."
+        }
+      ],
+      "introducedInUnit": 39
+    },
+    {
+      "id": "l-albergo",
+      "word": "albergo",
+      "article": "l'",
+      "translation": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho prenotato un albergo a Venezia.",
+          "en": "I booked a hotel in Venice."
+        },
+        {
+          "it": "L'albergo è vicino alla stazione.",
+          "en": "The hotel is near the station."
+        }
+      ],
+      "introducedInUnit": 39
+    },
+    {
+      "id": "il-passaporto",
+      "word": "passaporto",
+      "article": "il",
+      "translation": "passport",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il passaporto è qui.",
+          "en": "The passport is here."
+        }
+      ],
+      "introducedInUnit": 39
+    },
+    {
+      "id": "la-valigia",
+      "word": "valigia",
+      "article": "la",
+      "translation": "suitcase",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La valigia è piccola.",
+          "en": "The suitcase is small."
+        },
+        {
+          "it": "Posso portare una valigia?",
+          "en": "Can I bring a suitcase?"
+        }
+      ],
+      "introducedInUnit": 39
+    },
+    {
+      "id": "il-binario",
+      "word": "binario",
+      "article": "il",
+      "translation": "(train) platform",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il treno parte dal binario tre.",
+          "en": "The train leaves from platform three."
+        }
+      ],
+      "introducedInUnit": 39
+    },
+    {
+      "id": "l-orario",
+      "word": "orario",
+      "article": "l'",
+      "translation": "schedule; timetable",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "L'orario dei treni.",
+          "en": "The train schedule."
+        }
+      ],
+      "introducedInUnit": 39
     }
   ],
   "stories": [
