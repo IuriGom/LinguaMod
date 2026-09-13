@@ -180,13 +180,25 @@ class Stage4GatingTest {
         }
 
         // sanity: exactly 3 checkpoints passed — leaderboards may have tripped,
-        // but story/boss/ocr/mixed must not
+        // but story/boss/ocr/mixed must not. The VM records the checkpoint in a
+        // fire-and-forget coroutine, so poll the DataStore-backed flags until
+        // the write lands instead of reading once (racy under emulator load).
         runBlocking {
-            assertTrue(featureUnlocks.isUnlocked(FeatureUnlocks.LEADERBOARDS))
-            listOf(
+            val mustStayLocked = listOf(
                 FeatureUnlocks.STORY1, FeatureUnlocks.BOSS_BATTLES,
                 FeatureUnlocks.OCR_CAMERA, FeatureUnlocks.MIXED_PRACTICE,
-            ).forEach { assertTrue("$it must NOT be tripped", !featureUnlocks.isUnlocked(it)) }
+            )
+            val deadline = System.currentTimeMillis() + 15_000
+            while (true) {
+                val leaderboards = featureUnlocks.isUnlocked(FeatureUnlocks.LEADERBOARDS)
+                val leaked = mustStayLocked.filter { featureUnlocks.isUnlocked(it) }
+                if (leaderboards && leaked.isEmpty()) break
+                assertTrue(
+                    "leaderboards tripped=${leaderboards}, must-stay-locked leaked=${leaked}",
+                    System.currentTimeMillis() < deadline,
+                )
+                kotlinx.coroutines.delay(200)
+            }
         }
 
         // all Stage 4 entry points hidden
