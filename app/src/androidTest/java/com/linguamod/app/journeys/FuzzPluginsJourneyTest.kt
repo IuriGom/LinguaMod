@@ -84,13 +84,18 @@ class FuzzPluginsJourneyTest {
         scenario.close()
     }
 
-    /** Generate >= [count] malformed plugin texts by mutating the real plugin. */
-    private fun generateCorpus(count: Int): List<Pair<String, ByteArray>> {
+    /** Generate >= [count] malformed plugin texts by mutating the real plugin,
+     *  writing each one to [pluginDir] as it is generated. The corpus is never
+     *  retained in memory: 200+ full-size copies of the 40-unit plugin would
+     *  outlive the instrumentation process's 192 MB heap before rescan even
+     *  starts (OOM seen on the full Stage 6 suite). */
+    private fun generateAndWriteCorpus(count: Int): List<String> {
         val baseText = context.assets.open("plugins/it.lingua").bufferedReader().readText()
         val baseBytes = baseText.toByteArray()
         val base = json.parseToJsonElement(baseText).jsonObject
         val rnd = Random(42)
-        val out = mutableListOf<Pair<String, ByteArray>>()
+        val names = mutableListOf<String>()
+        pluginDir.mkdirs()
 
         // Every corpus entry MUST be rejected by the validator; if a mutation
         // accidentally produced a valid file, truncate it until it is not.
@@ -101,7 +106,8 @@ class FuzzPluginsJourneyTest {
                 b = b.copyOf((b.size * 2 / 3).coerceAtLeast(1))
             }
             require(!PluginValidator.validateFile(b).isValid) { "could not make '$name' invalid" }
-            out += name to b
+            File(pluginDir, "fuzz_$name.lingua").writeBytes(b)
+            names += name
         }
 
         // truncations
@@ -204,31 +210,30 @@ class FuzzPluginsJourneyTest {
             u["lessons"] = JsonArray((u["lessons"] as JsonArray).take(2))
             putUnit(it, u)
         }
-        out += "empty_file" to ByteArray(0)
-        out += "xml_file" to "<plugin/>".toByteArray()
+        addChecked("empty_file", ByteArray(0))
+        addChecked("xml_file", "<plugin/>".toByteArray())
 
         // fill the rest with more truncations to reach count
         var i = 0
-        while (out.size < count) {
+        while (names.size < count) {
             val cut = rnd.nextInt(1, baseBytes.size)
             addChecked("extra_$i", baseBytes.copyOf(cut))
             i++
         }
-        return out
+        return names
     }
 
     @Test
     fun journey_fuzz_plugins() {
         composeRule.waitUntilExactlyOneExists(hasTestTag("unit_node_1"), 30_000)
-        val corpus = generateCorpus(220)
-        assertTrue(corpus.size >= 200)
+        val corpusNames = generateAndWriteCorpus(220)
+        assertTrue(corpusNames.size >= 200)
 
-        corpus.forEach { (name, bytes) -> File(pluginDir, "fuzz_$name.lingua").writeBytes(bytes) }
         runBlocking { repo.reload() }
 
         val metas = runBlocking { db.pluginMetaDao().getAll() }
         val fuzzMetas = metas.filter { it.fileName.startsWith("fuzz_") }
-        assertEquals("every fuzz file got a verdict row", corpus.size, fuzzMetas.size)
+        assertEquals("every fuzz file got a verdict row", corpusNames.size, fuzzMetas.size)
         val accepted = fuzzMetas.filter { it.valid }
         assertTrue("fuzz files must all be rejected; accepted: ${accepted.map { it.fileName }}", accepted.isEmpty())
         assertTrue("every rejection has a clear message", fuzzMetas.all { it.errors.isNotBlank() })
