@@ -537,3 +537,70 @@ Checks run (API-34 emulator `emulator-5554`):
   (cap 20 MB; 25 units + Stories 1–2 added ~1.1 MB over Stage 4) — AC8.
 
 **Stage 5 gate: GREEN.**
+
+### Stage 6 — acceptance gates ✅ (2026-09-13)
+
+Scope: Units 26–40 + Story 3 (Phase 3 content). All nine acceptance criteria
+from `LinguaMod Autonomous Prompts/06 Phase 3 Content Units 26-40.md` green.
+
+New this stage:
+
+- `ChaosUnitsStage6JourneyTest` (AC4): Solver Bot chaos pass on units 27, 33
+  and 40 — up to 3 distinct exercises per lesson answered wrong once (re-queue
+  then complete), checkpoint attempted with `chaosStaysWrong` fails gracefully
+  (`checkpoint_failed`, no crash, no progress recorded), correct retry passes;
+  unit 40 (course capstone) settles into the completed-course home without a
+  crash. 48s / 49s / 47s in the suite run.
+- `GamificationTest` +1 (AC8): `level 3 triggers exactly on unit 40 checkpoint
+  pass` — checkpoints 1–39 → Level 2, unit 40 checkpoint pass → Level 3,
+  next threshold 60. Confirms the Stage 2B `Levels` mechanism
+  (`PHASE_ENDS 10/25/40/60`) fires at 40 as built — no fix needed.
+- Suite hardening (found during full-suite runs, not papered over):
+  - `FuzzPluginsJourneyTest` now writes each generated fuzz file to disk as it
+    is generated instead of retaining the corpus: 220 full-size copies of the
+    40-unit plugin (~270 MB) exceeded the 192 MB instrumentation heap before
+    `PluginLoader.rescan` even started (`OutOfMemoryError` inside
+    `PluginValidator.validateText` on the full-suite run; the
+    `ReviewFlashcardJourneyTest` ComposeTimeout right after was the same
+    near-OOM heap, both green after the fix). Corpus content and assertions
+    unchanged.
+  - `Stage4GatingTest` polls the DataStore-backed feature flags with a 15s
+    deadline instead of a single-shot read: the LessonViewModel records the
+    checkpoint in a fire-and-forget coroutine, and the one-shot read lost the
+    race under a loaded emulator.
+  - `CompleteUnitJourneyTest` retries swallowed unit-node taps (same idiom as
+    the Stage 5/6 `openUnitFromHome`); its single-shot click timed out at the
+    detail-screen wait during a system-ANR window (see environment note).
+- Environment note (for future stages): two mid-stage full-suite attempts were
+  invalidated by host CPU starvation — Minecraft + Roblox sessions alongside
+  the emulators pushed host load to 16–22 and the API-34 emulator's
+  system_server into ANR ("Process system isn't responding"), which surfaces
+  as `path_list`/`unit_node_1` timeouts and swallowed taps across unrelated
+  test classes. All affected classes re-ran green in isolation and in the
+  final full pass once the host was quiet. Not app bugs; no code changes were
+  made for them beyond the two hardening items above.
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 139 JVM tests, 0 failures**
+  (validator 27 incl. zero-error run on `it.lingua`, no forward refs,
+  orphan-entry rule; conjugation cross-check 3 with the extended passato
+  prossimo/future/modal tables; recycling 2 pinning 40 units with the 3..40
+  gate; story validation 13 incl. Story 3; past-tense cross-check 1;
+  auxiliary selection 1 incl. Unit 27's essere-selection drills; gamification
+  15 incl. Level 3 at unit 40) — AC2, AC6, AC7, AC8.
+- `./gradlew connectedDebugAndroidTest` — **73/73 green in one final full pass
+  (31m 03s)**. Journey coverage: `CompleteUnitsStage2JourneyTest` units 1–10 +
+  `CompleteUnitsStage5JourneyTest` units 11–25 + `CompleteUnitsStage6JourneyTest`
+  units 26–40 = Solver Bot full playthrough of every unit 1–40, zero failures,
+  strictly-linear gate asserted both ways around each checkpoint (AC3);
+  chaos units 11/18/25 + 27/33/40 (AC4); `Story3JourneyTest` correct path +
+  2 wrong-choice teaching loops + rewards + replay (AC5) plus `Story2`; all
+  Stage 1–4 journeys still green (AC1).
+- Monkey: debug APK reinstalled (the instrumented task uninstalls it), then
+  `monkey -p com.linguamod.app --pct-syskeys 0 20000` — **20000 events
+  injected in 223988ms, zero crashes/ANRs** (`tools/journeys/monkey.sh`).
+- `./gradlew assembleRelease` — release APK **3,187,650 bytes ≈ 3.04 MB**
+  (cap 20 MB; 15 Phase-3 units + Story 3 added ~60 KB over Stage 5) — AC9.
+
+**Stage 6 gate: GREEN.**
