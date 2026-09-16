@@ -76,6 +76,57 @@ class ConjugationCrossCheckTest {
     }
 
     @Test
+    fun `grammarNotes conditional tables match reference`() {
+        // Stage 7: trigger = io-form AND tu-form of a conditional co-present as
+        // tokens (the lone "Vorrei…" of Units 9/15 is a set phrase, not a table).
+        val errors = mutableListOf<String>()
+        plugin.units.forEach { unit ->
+            unit.lessons?.forEach { lesson ->
+                val notes = lesson.grammarNotes ?: return@forEach
+                val tokens = com.linguamod.app.plugin.AnswerMatcher.normalize(notes).split(" ").toSet()
+                ConjugationReference.CONDITIONAL.forEach { (verb, paradigm) ->
+                    if (paradigm.io in tokens && paradigm.tu in tokens) {
+                        paradigm.persons.forEachIndexed { i, form ->
+                            val personLabel = persons[i].split("/")[0]
+                            if (form !in tokens) {
+                                errors += "u${unit.number}/${lesson.id}: grammarNotes use conditional of $verb but miss form '$form' ($personLabel)"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (errors.isNotEmpty()) fail(errors.joinToString("\n"))
+    }
+
+    @Test
+    fun `grammarNotes subjunctive tables match reference`() {
+        // Stage 7: trigger = any DISTINCTIVELY subjunctive form (one that does not
+        // collide with the present indicative), matched as a WHOLE TOKEN — "sia"
+        // must not trigger on "siamo". If triggered, the full table must appear.
+        val errors = mutableListOf<String>()
+        plugin.units.forEach { unit ->
+            unit.lessons?.forEach { lesson ->
+                val notes = lesson.grammarNotes ?: return@forEach
+                val tokens = com.linguamod.app.plugin.AnswerMatcher.normalize(notes).split(" ").toSet()
+                ConjugationReference.SUBJUNCTIVE_PRESENT.forEach { (verb, paradigm) ->
+                    val present = ConjugationReference.PRESENT[verb]?.persons ?: emptyList()
+                    val distinctive = paradigm.persons.toSet() - present.toSet()
+                    if (distinctive.any { it in tokens }) {
+                        paradigm.persons.forEachIndexed { i, form ->
+                            val personLabel = persons[i].split("/")[0]
+                            if (form !in tokens) {
+                                errors += "u${unit.number}/${lesson.id}: grammarNotes use subjunctive of $verb but miss form '$form' ($personLabel)"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (errors.isNotEmpty()) fail(errors.joinToString("\n"))
+    }
+
+    @Test
     fun `no exercise answer contradicts subject pronoun + reference form`() {
         val errors = mutableListOf<String>()
         // wrong pairs: subject -> forms that must NOT follow it

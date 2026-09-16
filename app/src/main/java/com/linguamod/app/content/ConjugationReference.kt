@@ -63,6 +63,10 @@ object ConjugationReference {
         "entrare" to Paradigm(listOf("entro", "entri", "entra", "entriamo", "entrate", "entrano")),
         "sentire" to Paradigm(listOf("sento", "senti", "sente", "sentiamo", "sentite", "sentono")),
         "richiamare" to Paradigm(listOf("richiamo", "richiami", "richiama", "richiamiamo", "richiamate", "richiamano")),
+        // Stage 7
+        "sperare" to Paradigm(listOf("spero", "speri", "spera", "speriamo", "sperate", "sperano")),
+        "sapere" to Paradigm(listOf("so", "sai", "sa", "sappiamo", "sapete", "sanno")),
+        "credere" to Paradigm(listOf("credo", "credi", "crede", "crediamo", "credete", "credono")),
         "piacere" to Paradigm(listOf("piaccio", "piaci", "piace", "piacciamo", "piacete", "piacciono")),
         // Stage 6 extensions
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),
@@ -99,6 +103,8 @@ object ConjugationReference {
         // Stage 6 batch 2
         "mandare" to "mandato", "telefonare" to "telefonato", "pensare" to "pensato",
         "portare" to "portato",
+        // Stage 7
+        "sperare" to "sperato", "sapere" to "saputo", "credere" to "creduto",
     )
 
     /** Verbs taking essere as auxiliary in passato prossimo (Stage 6, Unit 27).
@@ -144,6 +150,20 @@ object ConjugationReference {
         "volere" to Paradigm(listOf("vorrei", "vorresti", "vorrebbe", "vorremmo", "vorreste", "vorrebbero")),
         "potere" to Paradigm(listOf("potrei", "potresti", "potrebbe", "potremmo", "potreste", "potrebbero")),
         "dovere" to Paradigm(listOf("dovrei", "dovresti", "dovrebbe", "dovremmo", "dovreste", "dovrebbero")),
+        // Unit 41-42 content verbs
+        "uscire" to Paradigm(listOf("uscirei", "usciresti", "uscirebbe", "usciremmo", "uscireste", "uscirebbero")),
+        "venire" to Paradigm(listOf("verrei", "verresti", "verrebbe", "verremmo", "verreste", "verrebbero")),
+        "prendere" to Paradigm(listOf("prenderei", "prenderesti", "prenderebbe", "prenderemmo", "prendereste", "prenderebbero")),
+        "dormire" to Paradigm(listOf("dormirei", "dormiresti", "dormirebbe", "dormiremmo", "dormireste", "dormirebbero")),
+        "piacere" to Paradigm(listOf("piacerei", "piaceresti", "piacerebbe", "piaceremmo", "piacereste", "piacerebbero")),
+        "portare" to Paradigm(listOf("porterei", "porteresti", "porterebbe", "porteremmo", "portereste", "porterebbero")),
+        "mandare" to Paradigm(listOf("manderei", "manderesti", "manderebbe", "manderemmo", "mandereste", "manderebbero")),
+        "scrivere" to Paradigm(listOf("scriverei", "scriveresti", "scriverebbe", "scriveremmo", "scrivereste", "scriverebbero")),
+        "prenotare" to Paradigm(listOf("prenoterei", "prenoteresti", "prenoterebbe", "prenoteremmo", "prenotereste", "prenoterebbero")),
+        "mangiare" to Paradigm(listOf("mangerei", "mangeresti", "mangerebbe", "mangeremmo", "mangereste", "mangerebbero")),
+        "lavorare" to Paradigm(listOf("lavorerei", "lavoreresti", "lavorerebbe", "lavoreremmo", "lavorereste", "lavorerebbero")),
+        "giocare" to Paradigm(listOf("giocherei", "giocheresti", "giocherebbe", "giocheremmo", "giochereste", "giocherebbero")),
+        "restare" to Paradigm(listOf("resterei", "resteresti", "resterebbe", "resteremmo", "restereste", "resterebbero")),
     )
 
     /** Subjunctive present (Stage 7, Units 43-44). */
@@ -155,6 +175,34 @@ object ConjugationReference {
         "potere" to Paradigm(listOf("possa", "possa", "possa", "possiamo", "possiate", "possano")),
         "volere" to Paradigm(listOf("voglia", "voglia", "voglia", "vogliamo", "vogliate", "vogliano")),
         "dovere" to Paradigm(listOf("debba", "debba", "debba", "dobbiamo", "dobbiate", "debbano")),
+        // regular -are/-ere/-ire + content verbs (Units 43-45)
+        "parlare" to Paradigm(listOf("parli", "parli", "parli", "parliamo", "parliate", "parlino")),
+        "mangiare" to Paradigm(listOf("mangi", "mangi", "mangi", "mangiamo", "mangiate", "mangino")),
+        "lavorare" to Paradigm(listOf("lavori", "lavori", "lavori", "lavoriamo", "lavoriate", "lavorino")),
+        "studiare" to Paradigm(listOf("studi", "studi", "studi", "studiamo", "studiate", "studino")),
+        "abitare" to Paradigm(listOf("abiti", "abiti", "abiti", "abitiamo", "abitiate", "abitino")),
+        "restare" to Paradigm(listOf("resti", "resti", "resti", "restiamo", "restiate", "restino")),
+        "giocare" to Paradigm(listOf("giochi", "giochi", "giochi", "giochiamo", "giochiate", "giochino")),
+        "pensare" to Paradigm(listOf("pensi", "pensi", "pensi", "pensiamo", "pensiate", "pensino")),
+        "sperare" to Paradigm(listOf("speri", "speri", "speri", "speriamo", "speriate", "sperino")),
+        "mandare" to Paradigm(listOf("mandi", "mandi", "mandi", "mandiamo", "mandiate", "mandino")),
+        "telefonare" to Paradigm(listOf("telefoni", "telefoni", "telefoni", "telefoniamo", "telefoniate", "telefonino")),
+        "prenotare" to Paradigm(listOf("prenoti", "prenoti", "prenoti", "prenotiamo", "prenotiate", "prenotino")),
+        "dormire" to Paradigm(listOf("dorma", "dorma", "dorma", "dormiamo", "dormiate", "dormano")),
+        "partire" to Paradigm(listOf("parta", "parta", "parta", "partiamo", "partiate", "partano")),
+        "capire" to Paradigm(listOf("capisca", "capisca", "capisca", "capiamo", "capiate", "capiscano")),
+        "finire" to Paradigm(listOf("finisca", "finisca", "finisca", "finiamo", "finiate", "finiscano")),
+        "preferire" to Paradigm(listOf("preferisca", "preferisca", "preferisca", "preferiamo", "preferiate", "preferiscano")),
+        "uscire" to Paradigm(listOf("esca", "esca", "esca", "usciamo", "usciate", "escano")),
+        "venire" to Paradigm(listOf("venga", "venga", "venga", "veniamo", "veniate", "vengano")),
+        "prendere" to Paradigm(listOf("prenda", "prenda", "prenda", "prendiamo", "prendiate", "prendano")),
+        "scrivere" to Paradigm(listOf("scriva", "scriva", "scriva", "scriviamo", "scriviate", "scrivano")),
+        "leggere" to Paradigm(listOf("legga", "legga", "legga", "leggiamo", "leggiate", "leggano")),
+        "vedere" to Paradigm(listOf("veda", "veda", "veda", "vediamo", "vediate", "vedano")),
+        "conoscere" to Paradigm(listOf("conosca", "conosca", "conosca", "conosciamo", "conosciate", "conoscano")),
+        "credere" to Paradigm(listOf("creda", "creda", "creda", "crediamo", "crediate", "credano")),
+        "sapere" to Paradigm(listOf("sappia", "sappia", "sappia", "sappiamo", "sappiate", "sappiano")),
+        "stare" to Paradigm(listOf("stia", "stia", "stia", "stiamo", "stiate", "stiano")),
     )
 
     /** Imperfect subjunctive (Stage 7, Unit 48). */

@@ -30,8 +30,20 @@ class PastTenseCrossCheckTest {
         Json { ignoreUnknownKeys = true }.decodeFromString(LinguaPluginDto.serializer(), text)
     }
 
-    private val avereForms = setOf("ho", "hai", "ha", "abbiamo", "avete", "hanno")
-    private val essereForms = setOf("sono", "sei", "è", "siamo", "siete")
+    private val avereForms = setOf(
+        "ho", "hai", "ha", "abbiamo", "avete", "hanno",
+        // conditional perfect (Unit 42): avrei + participle
+        "avrei", "avresti", "avrebbe", "avremmo", "avreste", "avrebbero",
+        // past subjunctive (Unit 45): abbia + participle
+        "abbia", "abbiate", "abbiano",
+    )
+    private val essereForms = setOf(
+        "sono", "sei", "è", "siamo", "siete",
+        // conditional perfect (Unit 42): sarei + participle
+        "sarei", "saresti", "sarebbe", "saremmo", "sareste", "sarebbero",
+        // past subjunctive (Unit 45): sia + participle
+        "sia", "siate", "siano",
+    )
 
     /** participle form (incl. agreement variants) -> takes essere? */
     private val participleTakesEssere: Map<String, Boolean> by lazy {

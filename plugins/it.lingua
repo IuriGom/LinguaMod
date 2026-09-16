@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 34,
+    "version": 35,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -30472,6 +30472,785 @@
           }
         ]
       }
+    },
+    {
+      "id": "u41",
+      "number": 41,
+      "title": "Il condizionale I",
+      "lessons": [
+        {
+          "id": "u41l1",
+          "type": "vocabulary",
+          "title": "L'invito, gentile, la richiesta",
+          "dictionaryRefs": [
+            "l-invito",
+            "gentile",
+            "la-richiesta",
+            "il-desiderio",
+            "disponibile"
+          ],
+          "exercises": [
+            {
+              "id": "u41l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "l'invito",
+              "options": [
+                "the invitation",
+                "the invitee",
+                "the invention",
+                "the entrance"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'invito' (m, l' before the vowel) = the invitation. 💛 'Grazie per l'invito!' — Thanks for the invitation!",
+              "dictionaryRefs": [
+                "l-invito"
+              ]
+            },
+            {
+              "id": "u41l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "gentile",
+              "options": [
+                "kind; polite",
+                "gentle",
+                "noble",
+                "gentleman-like"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Gentile' = kind, polite — an -e adjective (like intelligente): gentile / gentili. 'Lei è molto gentile.' — You are very kind (formal!).",
+              "dictionaryRefs": [
+                "gentile"
+              ]
+            },
+            {
+              "id": "u41l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la richiesta",
+              "options": [
+                "the request",
+                "the question",
+                "the demand",
+                "the receipt"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La richiesta' (f) = the request. From chiedere (to ask — later). A polite request: 'Ho una richiesta.' — I have a request.",
+              "dictionaryRefs": [
+                "la-richiesta"
+              ]
+            },
+            {
+              "id": "u41l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il desiderio",
+              "options": [
+                "the wish; the desire",
+                "the desert",
+                "the design",
+                "the decision"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il desiderio' (m) = the wish, the desire. 'Ho un desiderio: un caffè con te.' — I have a wish: a coffee with you. 💛",
+              "dictionaryRefs": [
+                "il-desiderio"
+              ]
+            },
+            {
+              "id": "u41l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "disponibile",
+              "options": [
+                "available",
+                "disposable",
+                "busy",
+                "willing to pay"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Disponibile' = available — an -e adjective. 'Sei disponibile sabato?' — Are you available on Saturday? (like libero, Unit 16.)",
+              "dictionaryRefs": [
+                "disponibile",
+                "libero"
+              ]
+            },
+            {
+              "id": "u41l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (Thanks for the invitation!)",
+              "sentence": "Grazie per ___!",
+              "answers": [
+                "l'invito",
+                "l invito"
+              ],
+              "explanation": "'Grazie per l'invito!' — grazie per + l'invito. The gracious answer to any invitation. 💛",
+              "dictionaryRefs": [
+                "l-invito",
+                "grazie"
+              ]
+            },
+            {
+              "id": "u41l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "You are very kind.",
+              "acceptedIt": [
+                "Lei è molto gentile.",
+                "Lei è molto gentile",
+                "Lei e' molto gentile",
+                "Sei molto gentile"
+              ],
+              "explanation": "'Lei è molto gentile.' (formal, for her mother) or 'Sei molto gentile.' (informal, for Giulia). The register matters — Unit 46 goes deep. 💛",
+              "dictionaryRefs": [
+                "gentile",
+                "molto"
+              ]
+            },
+            {
+              "id": "u41l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ho un desiderio: un caffè con te.",
+              "acceptedEn": [
+                "I have a wish: a coffee with you.",
+                "I have one wish: a coffee with you."
+              ],
+              "explanation": "'Ho un desiderio: un caffè con te.' — ho + un desiderio. 💛 Softer than 'voglio'.",
+              "dictionaryRefs": [
+                "il-desiderio",
+                "il-caffe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u41l2",
+          "type": "grammar",
+          "title": "Il condizionale: vorrei, potrei, sarebbe",
+          "dictionaryRefs": [
+            "l-invito",
+            "gentile",
+            "la-richiesta",
+            "il-desiderio",
+            "disponibile",
+            "uscire",
+            "il-gelato",
+            "il-caffe",
+            "il-tavolo",
+            "l-albergo",
+            "il-mare",
+            "bello"
+          ],
+          "grammarNotes": "IL CONDIZIONALE PRESENTE — the tense of politeness and 'would'. You know 'Vorrei' since Unit 9; now the whole grammar, honestly.\n\nREGULAR: infinitive minus the final -e (-are: also a → e — exactly like the future, Unit 31) + ei, esti, ebbe, emmo, este, ebbero.\nparlare → parlerei, parleresti, parlerebbe, parleremmo, parlereste, parlerebbero\nuscire → uscirei, usciresti, uscirebbe, usciremmo, uscireste, uscirebbero\n\nTHE IRREGULAR STEMS — the same as the future's:\n• andare → andrei, andresti, andrebbe, andremmo, andreste, andrebbero\n• fare → farei, faresti, farebbe, faremmo, fareste, farebbero\n• essere → sarei, saresti, sarebbe, saremmo, sareste, sarebbero\n• avere → avrei, avresti, avrebbe, avremmo, avreste, avrebbero\n• volere → vorrei, vorresti, vorrebbe, vorremmo, vorreste, vorrebbero\n• potere → potrei, potresti, potrebbe, potremmo, potreste, potrebbero\n• dovere → dovrei, dovresti, dovrebbe, dovremmo, dovreste, dovrebbero\n\nPOLITENESS — the ladder from Unit 32, completed:\n• 'Voglio un caffè.' (direct) → 'Vorrei un caffè.' (polite)\n• 'Posso entrare?' (can I) → 'Potrei entrare?' (could I — softer)\n• 'Sarebbe bello.' — It would be nice. 💛\n\nTHE BIG ASK, done right: 'Vorresti uscire con me?' — Would you like to go out with me? 💛 Vorresti (tu) + uscire + con me. Softer than 'Vuoi uscire con me?' (Unit 32) — and much harder to refuse.\n\n'Piace' works too: 'Mi piacerebbe un gelato.' — I'd like an ice cream (piacere, conditional).",
+          "exercises": [
+            {
+              "id": "u41l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the order, politely. (I would like a coffee, please.) (Unit 9 recycling)",
+              "sentence": "___ un caffè, per favore.",
+              "answers": [
+                "Vorrei",
+                "Io vorrei"
+              ],
+              "explanation": "'Vorrei un caffè, per favore.' — volere, conditional io: vorrei. The set phrase from Unit 9 now has its grammar.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-caffe",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u41l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the question. 💛 (Would you like to go out with me?) (Unit 21+32 recycling)",
+              "sentence": "___ uscire con me?",
+              "answers": [
+                "Vorresti",
+                "Tu vorresti"
+              ],
+              "explanation": "'Vorresti uscire con me?' — vorresti (tu, conditional) + uscire. The softest, hardest-to-refuse invitation. 💛",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia would like to go out.)",
+              "sentence": "Giulia ___ uscire.",
+              "answers": [
+                "vorrebbe"
+              ],
+              "explanation": "'Giulia vorrebbe uscire.' — lui/lei conditional: vorrebbe. -bbe is the third person's signature.",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the request. (Could I have a room for two?) (Unit 32+39 recycling)",
+              "sentence": "___ avere una camera per due?",
+              "answers": [
+                "Potrei"
+              ],
+              "explanation": "'Potrei avere una camera per due?' — potere, conditional io: potrei. The hotel-desk softener (Unit 39).",
+              "dictionaryRefs": [
+                "potere",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u41l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Would you like to go out with me?",
+              "acceptedIt": [
+                "Vorresti uscire con me?",
+                "Vorresti uscire con me",
+                "Tu vorresti uscire con me?"
+              ],
+              "explanation": "'Vorresti uscire con me?' — the big ask, done right. 💛",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 34 recycling)",
+              "sourceEn": "I'd like an ice cream.",
+              "acceptedIt": [
+                "Mi piacerebbe un gelato.",
+                "Mi piacerebbe un gelato"
+              ],
+              "explanation": "'Mi piacerebbe un gelato.' — mi + piacerebbe (piacere, conditional) + un gelato. Softer than 'mi piace' — a wish, not a statement.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u41l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 6 recycling)",
+              "sourceIt": "Sarebbe bello.",
+              "acceptedEn": [
+                "It would be nice.",
+                "It would be beautiful."
+              ],
+              "explanation": "'Sarebbe bello.' — essere, conditional lui/lei: sarebbe. The dreamy answer to any proposal. 💛",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u41l2e8",
+              "type": "multiple_choice",
+              "prompt": "The politeness ladder: the softest way to ask Giulia out. 💛",
+              "question": "L'invito perfetto:",
+              "options": [
+                "Vorresti uscire con me?",
+                "Vuoi uscire con me?",
+                "Devi uscire con me.",
+                "Usciamo!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Vorresti uscire con me?' — the conditional makes it a wish, not a demand: easy to accept, easy to decline kindly. 'Vuoi…' is fine but direct; 'devi' is a trap; 'usciamo!' assumes the yes.",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Vorresti",
+                "uscire",
+                "con",
+                "me?"
+              ],
+              "correctSentence": "Vorresti uscire con me?",
+              "explanation": "'Vorresti uscire con me?' — vorresti + uscire + con me. 💛",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 6 recycling)",
+              "tokens": [
+                "Sarebbe",
+                "bello."
+              ],
+              "correctSentence": "Sarebbe bello.",
+              "explanation": "'Sarebbe bello.' — It would be nice. Two words of pure conditional.",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u41l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 34 recycling)",
+              "tokens": [
+                "Mi",
+                "piacerebbe",
+                "un",
+                "gelato."
+              ],
+              "correctSentence": "Mi piacerebbe un gelato.",
+              "explanation": "'Mi piacerebbe un gelato.' — mi + piacerebbe + un gelato. 💛",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-gelato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u41l3",
+          "type": "mixed",
+          "title": "La scala della gentilezza — ripasso 💛",
+          "dictionaryRefs": [
+            "il-caffe",
+            "il-tavolo",
+            "il-ristorante",
+            "l-albergo",
+            "il-mare",
+            "il-gelato",
+            "il-viaggio",
+            "il-weekend",
+            "uscire",
+            "prenotare",
+            "bello",
+            "molto",
+            "l-invito",
+            "gentile",
+            "la-richiesta",
+            "disponibile"
+          ],
+          "exercises": [
+            {
+              "id": "u41l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 15 recycling)",
+              "sourceEn": "I would like a table for two.",
+              "acceptedIt": [
+                "Vorrei un tavolo per due.",
+                "Vorrei un tavolo per due",
+                "Io vorrei un tavolo per due"
+              ],
+              "explanation": "'Vorrei un tavolo per due.' — Unit 15's door-sentence. You knew the words; now you own the grammar.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u41l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 6+16 recycling)",
+              "question": "Sarebbe bello uscire sabato.",
+              "options": [
+                "It would be nice to go out on Saturday.",
+                "It will be nice to go out on Saturday.",
+                "It is nice to go out on Saturdays.",
+                "It was nice to go out on Saturday."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sarebbe bello uscire sabato.' — sarebbe (would be) + bello + uscire. A soft plan. 💛",
+              "dictionaryRefs": [
+                "bello",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. 💛 (Are you available on Saturday?) (Unit 16 recycling)",
+              "sentence": "___ disponibile sabato?",
+              "answers": [
+                "Sei"
+              ],
+              "explanation": "'Sei disponibile sabato?' — like 'Sei libero/a?' (Unit 16). Disponibile, the politer cousin of libero.",
+              "dictionaryRefs": [
+                "disponibile"
+              ]
+            },
+            {
+              "id": "u41l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 39 recycling)",
+              "sourceIt": "Potrei prenotare l'albergo?",
+              "acceptedEn": [
+                "Could I book the hotel?",
+                "May I book the hotel?"
+              ],
+              "explanation": "'Potrei prenotare l'albergo?' — potrei (could I) + prenotare + l'albergo. The hotel-softener (Unit 39).",
+              "dictionaryRefs": [
+                "potere",
+                "prenotare",
+                "l-albergo"
+              ]
+            },
+            {
+              "id": "u41l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (We would like two tickets.) (Unit 25 recycling)",
+              "sentence": "___ due biglietti.",
+              "answers": [
+                "Vorremmo"
+              ],
+              "explanation": "'Vorremmo due biglietti.' — noi, conditional: vorremmo. The -emmo ending for we-would.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-biglietto"
+              ]
+            },
+            {
+              "id": "u41l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 20+31 recycling)",
+              "question": "Mi piacerebbe andare al mare con te.",
+              "options": [
+                "I'd like to go to the seaside with you.",
+                "I like going to the sea with you.",
+                "I would go to the sea for you.",
+                "I liked going to the sea with you."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi piacerebbe andare al mare con te.' — mi piacerebbe + andare + al mare + con te. 💛 The wish version of Unit 20.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u41l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 39 recycling)",
+              "tokens": [
+                "Vorrei",
+                "una",
+                "camera",
+                "per",
+                "due."
+              ],
+              "correctSentence": "Vorrei una camera per due.",
+              "explanation": "'Vorrei una camera per due.' — the hotel line from Unit 39: vorrei + una camera + per due.",
+              "dictionaryRefs": [
+                "vorrei",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u41l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 20 recycling)",
+              "sourceEn": "Would you like to go to the seaside?",
+              "acceptedIt": [
+                "Vorresti andare al mare?",
+                "Vorresti andare al mare",
+                "Tu vorresti andare al mare?"
+              ],
+              "explanation": "'Vorresti andare al mare?' — vorresti + andare + al mare. 💛 The big ask, beach edition.",
+              "dictionaryRefs": [
+                "vorrei",
+                "andare",
+                "il-mare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u41l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "l-invito",
+            "gentile",
+            "il-gelato",
+            "il-caffe",
+            "uscire",
+            "bello",
+            "il-tavolo",
+            "mi-piace"
+          ],
+          "exercises": [
+            {
+              "id": "u41l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Vorresti uscire con me?",
+              "options": [
+                "Would you like to go out with me?",
+                "Do you want to go out with me?",
+                "Would you like to eat with me?",
+                "Will you go out with me?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Vorresti uscire con me?' — the conditional: would you like. 💛",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 15 recycling)",
+              "mode": "type",
+              "speakIt": "Vorrei un tavolo per due.",
+              "acceptedIt": [
+                "Vorrei un tavolo per due.",
+                "Vorrei un tavolo per due",
+                "Io vorrei un tavolo per due"
+              ],
+              "explanation": "You heard: 'Vorrei un tavolo per due.' — I would like a table for two.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u41l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛 (Unit 34 recycling)",
+              "mode": "choice",
+              "speakIt": "Mi piacerebbe un gelato.",
+              "options": [
+                "I'd like an ice cream.",
+                "I like the ice cream.",
+                "I would like two ice creams.",
+                "I liked the ice cream."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Mi piacerebbe un gelato.' — I'd like an ice cream. The -ebbe of the conditional.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u41l4e4",
+              "type": "speaking",
+              "prompt": "Ask in Italian: would you like to go out with me? 💛",
+              "targetIt": "Vorresti uscire con me?",
+              "minAccuracy": 0.7,
+              "explanation": "'Vorresti uscire con me?' — vor-RES-ti u-SHI-re kon ME. 💛 The big ask.",
+              "dictionaryRefs": [
+                "vorrei",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u41l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: it would be nice. (Unit 6 recycling)",
+              "targetIt": "Sarebbe bello.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sarebbe bello.' — sa-REB-be BEL-lo.",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u41l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛 (Unit 6 recycling)",
+              "mode": "type",
+              "speakIt": "Grazie, sei molto gentile.",
+              "acceptedIt": [
+                "Grazie, sei molto gentile.",
+                "Grazie, sei molto gentile",
+                "Grazie sei molto gentile"
+              ],
+              "explanation": "You heard: 'Grazie, sei molto gentile.' — Thanks, you're very kind. (To Giulia's mother: 'Lei è molto gentile.')",
+              "dictionaryRefs": [
+                "grazie",
+                "gentile",
+                "molto"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u41c",
+        "exercises": [
+          {
+            "id": "u41ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "l'invito",
+            "options": [
+              "the invitation",
+              "the entrance",
+              "the invention",
+              "the party"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'invito' (m) = the invitation. 'Grazie per l'invito!' 💛",
+            "dictionaryRefs": [
+              "l-invito"
+            ]
+          },
+          {
+            "id": "u41ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the order, politely. (I would like a coffee.) (Unit 9 recycling)",
+            "sentence": "___ un caffè.",
+            "answers": [
+              "Vorrei",
+              "Io vorrei"
+            ],
+            "explanation": "'Vorrei un caffè.' — the conditional of volere, io: vorrei.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u41ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "Would you like to go out with me?",
+            "acceptedIt": [
+              "Vorresti uscire con me?",
+              "Vorresti uscire con me",
+              "Tu vorresti uscire con me?"
+            ],
+            "explanation": "'Vorresti uscire con me?' — the big ask, done right. 💛",
+            "dictionaryRefs": [
+              "vorrei",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u41ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 6 recycling)",
+            "sourceIt": "Sarebbe bello.",
+            "acceptedEn": [
+              "It would be nice.",
+              "It would be beautiful."
+            ],
+            "explanation": "'Sarebbe bello.' — essere, conditional: sarebbe (lui/lei).",
+            "dictionaryRefs": [
+              "bello"
+            ]
+          },
+          {
+            "id": "u41ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the softest request. (Unit 39 recycling)",
+            "question": "All'albergo:",
+            "options": [
+              "Potrei avere una camera?",
+              "Voglio una camera!",
+              "Devo avere una camera.",
+              "Dammi una camera."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Potrei avere una camera?' — potrei (could I) is the hotel-softener. ('Dammi' orders — never at the desk.)",
+            "dictionaryRefs": [
+              "potere",
+              "la-camera"
+            ]
+          },
+          {
+            "id": "u41ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (We would like two coffees.) (Unit 9 recycling)",
+            "sentence": "___ due caffè.",
+            "answers": [
+              "Vorremmo"
+            ],
+            "explanation": "'Vorremmo due caffè.' — noi, conditional: vorremmo. Politer than 'vogliamo' (Unit 32).",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u41ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 34 recycling)",
+            "tokens": [
+              "Mi",
+              "piacerebbe",
+              "un",
+              "gelato."
+            ],
+            "correctSentence": "Mi piacerebbe un gelato.",
+            "explanation": "'Mi piacerebbe un gelato.' — 💛 the conditional wish.",
+            "dictionaryRefs": [
+              "mi-piace",
+              "il-gelato"
+            ]
+          },
+          {
+            "id": "u41ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Vorresti uscire con me?",
+            "options": [
+              "Would you like to go out with me?",
+              "Do you want to go out with me?",
+              "Would you like a coffee with me?",
+              "Will you go out with me?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Vorresti uscire con me?' 💛",
+            "dictionaryRefs": [
+              "vorrei",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u41ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 15 recycling)",
+            "mode": "type",
+            "speakIt": "Vorrei un tavolo per due.",
+            "acceptedIt": [
+              "Vorrei un tavolo per due.",
+              "Vorrei un tavolo per due",
+              "Io vorrei un tavolo per due"
+            ],
+            "explanation": "You heard: 'Vorrei un tavolo per due.'",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-tavolo"
+            ]
+          },
+          {
+            "id": "u41ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: you're very kind. 💛",
+            "targetIt": "Sei molto gentile.",
+            "minAccuracy": 0.7,
+            "explanation": "'Sei molto gentile.' — SEI MOL-to JEN-ti-le. 💛",
+            "dictionaryRefs": [
+              "gentile",
+              "molto"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -34560,6 +35339,81 @@
         }
       ],
       "introducedInUnit": 40
+    },
+    {
+      "id": "l-invito",
+      "word": "invito",
+      "article": "l'",
+      "translation": "invitation",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Grazie per l'invito!",
+          "en": "Thanks for the invitation!"
+        }
+      ],
+      "introducedInUnit": 41
+    },
+    {
+      "id": "gentile",
+      "word": "gentile",
+      "translation": "kind; polite",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Lei è molto gentile.",
+          "en": "You are very kind. (formal)"
+        },
+        {
+          "it": "Sei molto gentile.",
+          "en": "You are very kind. (informal)"
+        }
+      ],
+      "introducedInUnit": 41
+    },
+    {
+      "id": "la-richiesta",
+      "word": "richiesta",
+      "article": "la",
+      "translation": "request",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una richiesta.",
+          "en": "I have a request."
+        }
+      ],
+      "introducedInUnit": 41
+    },
+    {
+      "id": "il-desiderio",
+      "word": "desiderio",
+      "article": "il",
+      "translation": "wish; desire",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho un desiderio: un caffè con te.",
+          "en": "I have a wish: a coffee with you."
+        }
+      ],
+      "introducedInUnit": 41
+    },
+    {
+      "id": "disponibile",
+      "word": "disponibile",
+      "translation": "available",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Sei disponibile sabato?",
+          "en": "Are you available on Saturday?"
+        }
+      ],
+      "introducedInUnit": 41
     }
   ],
   "stories": [
