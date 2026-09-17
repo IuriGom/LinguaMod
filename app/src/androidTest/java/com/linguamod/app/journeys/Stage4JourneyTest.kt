@@ -209,9 +209,27 @@ class Stage4JourneyTest {
 
     @Test
     fun journey_placeholder_story_renders_future_pack() {
-        // story4's anchor unit (45) is not in the plugin; trip the flag
-        // directly — the row parks at the end of the path.
+        // story4 shipped as an empty-nodes placeholder when this journey was
+        // written; Stage 7 made it a real 13-node story. Synthesize the
+        // placeholder case instead: a plugin variant with story4 nodes = []
+        // written to the external plugin dir under a name that sorts before
+        // it.lingua, so PluginLoader picks it over the bundled plugin.
+        scenario.close()
+        val plugin = loadPlugin()
+        val placeholderVariant = plugin.copy(
+            stories = plugin.stories.map {
+                if (it.id == "story4") it.copy(nodes = emptyList()) else it
+            }
+        )
+        val pluginDir = File(context.getExternalFilesDir(null), "plugins")
+        File(pluginDir, "aa_placeholder.lingua").writeText(
+            Json { ignoreUnknownKeys = true; encodeDefaults = true }
+                .encodeToString(LinguaPluginDto.serializer(), placeholderVariant)
+        )
+        // story4's anchor unit (45) has no progress; trip the flag directly.
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY4) }
+        scenario = ActivityScenario.launch(MainActivity::class.java)
+
         composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 30_000)
         openPathRow("story_row_story4", "story_placeholder")
         composeRule.waitUntilExactlyOneExists(
