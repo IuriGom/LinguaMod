@@ -72,6 +72,9 @@ object ConjugationReference {
         "volere" to Paradigm(listOf("voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono")),
         "potere" to Paradigm(listOf("posso", "puoi", "può", "possiamo", "potete", "possono")),
         "dovere" to Paradigm(listOf("devo", "devi", "deve", "dobbiamo", "dovete", "devono")),
+"dare" to Paradigm(listOf("do", "dai", "dà", "diamo", "date", "danno")),
+        "dire" to Paradigm(listOf("dico", "dici", "dice", "diciamo", "dite", "dicono"))
+
     )
 
     /** Regular past participles by conjugation (Stage 6). */
@@ -105,6 +108,10 @@ object ConjugationReference {
         "portare" to "portato",
         // Stage 7
         "sperare" to "sperato", "sapere" to "saputo", "credere" to "creduto",
+"dare" to "dato", "sbagliare" to "sbagliato", "sognare" to "sognato",
+        "presentare" to "presentato", "accettare" to "accettato", "prestare" to "prestato",
+        "restituire" to "restituito", "viaggiare" to "viaggiato"
+
     )
 
     /** Verbs taking essere as auxiliary in passato prossimo (Stage 6, Unit 27).
@@ -164,6 +171,9 @@ object ConjugationReference {
         "lavorare" to Paradigm(listOf("lavorerei", "lavoreresti", "lavorerebbe", "lavoreremmo", "lavorereste", "lavorerebbero")),
         "giocare" to Paradigm(listOf("giocherei", "giocheresti", "giocherebbe", "giocheremmo", "giochereste", "giocherebbero")),
         "restare" to Paradigm(listOf("resterei", "resteresti", "resterebbe", "resteremmo", "restereste", "resterebbero")),
+"comprare" to Paradigm(listOf("comprerei", "compreresti", "comprerebbe", "compreremmo", "comprereste", "comprerebbero")),
+        "viaggiare" to Paradigm(listOf("viaggerei", "viaggeresti", "viaggerebbe", "viaggeremmo", "viaggereste", "viaggerebbero"))
+
     )
 
     /** Subjunctive present (Stage 7, Units 43-44). */
@@ -210,6 +220,19 @@ object ConjugationReference {
         "essere" to Paradigm(listOf("fossi", "fossi", "fosse", "fossimo", "foste", "fossero")),
         "avere" to Paradigm(listOf("avessi", "avessi", "avesse", "avessimo", "aveste", "avessero")),
         "fare" to Paradigm(listOf("facessi", "facessi", "facesse", "facessimo", "faceste", "facessero")),
+"andare" to Paradigm(listOf("andassi", "andassi", "andasse", "andassimo", "andaste", "andassero")),
+        "parlare" to Paradigm(listOf("parlassi", "parlassi", "parlasse", "parlassimo", "parlaste", "parlassero")),
+        "comprare" to Paradigm(listOf("comprassi", "comprassi", "comprasse", "comprassimo", "compraste", "comprassero")),
+        "volere" to Paradigm(listOf("volessi", "volessi", "volesse", "volessimo", "voleste", "volessero")),
+        "potere" to Paradigm(listOf("potessi", "potessi", "potesse", "potessimo", "poteste", "potessero")),
+        "credere" to Paradigm(listOf("credessi", "credessi", "credesse", "credessimo", "credeste", "credessero")),
+        "dormire" to Paradigm(listOf("dormissi", "dormissi", "dormisse", "dormissimo", "dormiste", "dormissero")),
+        "sapere" to Paradigm(listOf("sapessi", "sapessi", "sapesse", "sapessimo", "sapeste", "sapessero")),
+        "vedere" to Paradigm(listOf("vedessi", "vedessi", "vedesse", "vedessimo", "vedeste", "vedessero")),
+        "dire" to Paradigm(listOf("dicessi", "dicessi", "dicesse", "dicessimo", "diceste", "dicessero")),
+        "stare" to Paradigm(listOf("stessi", "stessi", "stesse", "stessimo", "steste", "stessero")),
+        "dare" to Paradigm(listOf("dessi", "dessi", "desse", "dessimo", "deste", "dessero"))
+
     )
 
     /** Past conditional (Stage 7, Unit 42): conditional of the auxiliary + participle.

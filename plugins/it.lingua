@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 38,
+    "version": 39,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -159,7 +159,7 @@
             "mi-chiamo",
             "come-ti-chiami"
           ],
-          "grammarNotes": "ESSERE (to be) — present tense, all six persons:\n\nio sono — I am\ntu sei — you are (informal)\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nIn this unit you need the first two: 'Io sono Marco' (I am Marco) and 'Tu sei Sara?' (Are you Sara?).\n\nSET PHRASES (learn them whole — full grammar later):\n• 'Mi chiamo Marco.' — My name is Marco. (literally: 'I call myself Marco')\n• 'Come ti chiami?' — What is your name?\n• 'Piacere di conoscerti.' — Nice to meet you.",
+          "grammarNotes": "ESSERE (to be) — present tense, all six persons:\n\nio sono — I am\ntu sei — you are (informal)\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nIn this unit you need the first two: 'Io sono Marco' (I am Marco) and 'Tu sei Sara?' (Are you Sara?).\n\nSET PHRASES (learn them whole — full grammar later):\n• 'Mi chiamo Marco.' — My name is Marco. (literally: 'I call myself Marco')\n• 'Come ti chiami?' — What is your name?\n• 'Piacere di conoscerti.' — Nice to meet you.\n\nESSERE (present, full): sono, sei, è, siamo, siete, sono.",
           "exercises": [
             {
               "id": "u1l2e1",
@@ -764,7 +764,7 @@
             "dove",
             "di-dove-sei"
           ],
-          "grammarNotes": "ESSERE (to be) — the full present tense:\n\nio sono — I am\ntu sei — you are\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nNote: io sono and loro sono look the same; context tells them apart.\n\nQUESTIONS BY INTONATION: any statement becomes a question by raising your voice at the end. 'Sei italiano.' → 'Sei italiano?'\n\nQUESTION WORDS: 'come' (how), 'dove' (where). 'Di dove sei?' = Where are you from? (literally 'Of where are you?')",
+          "grammarNotes": "ESSERE (to be) — the full present tense:\n\nio sono — I am\ntu sei — you are\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nNote: io sono and loro sono look the same; context tells them apart.\n\nQUESTIONS BY INTONATION: any statement becomes a question by raising your voice at the end. 'Sei italiano.' → 'Sei italiano?'\n\nQUESTION WORDS: 'come' (how), 'dove' (where). 'Di dove sei?' = Where are you from? (literally 'Of where are you?')\n\nESSERE (present, full): sono, sei, è, siamo, siete, sono.",
           "exercises": [
             {
               "id": "u2l2e1",
@@ -2030,7 +2030,7 @@
             "ce",
             "ci-sono"
           ],
-          "grammarNotes": "I NUMERI — numbers 1–20:\n\n1 uno, 2 due, 3 tre, 4 quattro, 5 cinque, 6 sei, 7 sette, 8 otto, 9 nove, 10 dieci, 11 undici, 12 dodici, 13 tredici, 14 quattordici, 15 quindici, 16 sedici, 17 diciassette, 18 diciotto, 19 diciannove, 20 venti\n\nThe tens: 30 trenta, 40 quaranta, 50 cinquanta, 60 sessanta, 70 settanta, 80 ottanta, 90 novanta, 100 cento.\nCombine freely: 21 ventuno, 42 quarantadue, 99 novantanove. (Small detail: venti drops its final -i before uno and otto: ventuno, ventotto; before tre it takes an accent: ventitré.)\n\nC'È / CI SONO — there is / there are:\n• C'è un problema. — There is a problem. (singular)\n• Ci sono due problemi. — There are two problems. (plural)\n\nAVERE (to have) — three forms for now:\n\nio ho — I have\ntu hai — you have\nlui/lei ha — he/she has\n\nAge uses avere: 'Quanti anni hai?' — 'Ho venti anni.' (How many years do you have? — I have twenty.)\nPreview of the rest of the paradigm (full practice in Unit 6): noi abbiamo, voi avete, loro hanno.",
+          "grammarNotes": "I NUMERI — numbers 1–20:\n\n1 uno, 2 due, 3 tre, 4 quattro, 5 cinque, 6 sei, 7 sette, 8 otto, 9 nove, 10 dieci, 11 undici, 12 dodici, 13 tredici, 14 quattordici, 15 quindici, 16 sedici, 17 diciassette, 18 diciotto, 19 diciannove, 20 venti\n\nThe tens: 30 trenta, 40 quaranta, 50 cinquanta, 60 sessanta, 70 settanta, 80 ottanta, 90 novanta, 100 cento.\nCombine freely: 21 ventuno, 42 quarantadue, 99 novantanove. (Small detail: venti drops its final -i before uno and otto: ventuno, ventotto; before tre it takes an accent: ventitré.)\n\nC'È / CI SONO — there is / there are:\n• C'è un problema. — There is a problem. (singular)\n• Ci sono due problemi. — There are two problems. (plural)\n\nAVERE (to have) — three forms for now:\n\nio ho — I have\ntu hai — you have\nlui/lei ha — he/she has\n\nAge uses avere: 'Quanti anni hai?' — 'Ho venti anni.' (How many years do you have? — I have twenty.)\nPreview of the rest of the paradigm (full practice in Unit 6): noi abbiamo, voi avete, loro hanno.\n\nAVERE (present, full): ho, hai, ha, abbiamo, avete, hanno.",
           "exercises": [
             {
               "id": "u4l2e1",
@@ -3391,7 +3391,7 @@
             "stanco",
             "contento"
           ],
-          "grammarNotes": "ESSERE (to be) — full present tense:\n\nio sono — I am\ntu sei — you are\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nUse essere for WHO or WHAT someone/something is — identity, nationality, description with an adjective: 'Sono Marco.', 'Lei è stanca.', 'Il libro è bello.'\n\nAVERE (to have) — full present tense:\n\nio ho — I have\ntu hai — you have\nlui/lei ha — he/she has\nnoi abbiamo — we have\nvoi avete — you have (plural)\nloro hanno — they have\n\nUse avere for possession: 'Ho un telefono.' — and for IDIOMS where English uses 'to be':\n• avere fame — 'Ho fame.' = I am hungry (literally: I have hunger)\n• avere sete — 'Hai sete?' = Are you thirsty?\n• avere … anni — 'Ho venti anni.' = I am twenty (Unit 4)\n\nTHE CONTRAST: 'Sono stanco' (I am tired — adjective → essere) vs 'Ho fame' (I am hungry — idiom → avere). Rule of thumb: with an adjective use essere; with fame/sete/anni use avere.\n\nPREVIEW: adjectives agree with the person — stanco/stanca, contento/contenta; -e adjectives like 'triste' never change. Full treatment in Unit 13.",
+          "grammarNotes": "ESSERE (to be) — full present tense:\n\nio sono — I am\ntu sei — you are\nlui/lei è — he/she is\nnoi siamo — we are\nvoi siete — you are (plural)\nloro sono — they are\n\nUse essere for WHO or WHAT someone/something is — identity, nationality, description with an adjective: 'Sono Marco.', 'Lei è stanca.', 'Il libro è bello.'\n\nAVERE (to have) — full present tense:\n\nio ho — I have\ntu hai — you have\nlui/lei ha — he/she has\nnoi abbiamo — we have\nvoi avete — you have (plural)\nloro hanno — they have\n\nUse avere for possession: 'Ho un telefono.' — and for IDIOMS where English uses 'to be':\n• avere fame — 'Ho fame.' = I am hungry (literally: I have hunger)\n• avere sete — 'Hai sete?' = Are you thirsty?\n• avere … anni — 'Ho venti anni.' = I am twenty (Unit 4)\n\nTHE CONTRAST: 'Sono stanco' (I am tired — adjective → essere) vs 'Ho fame' (I am hungry — idiom → avere). Rule of thumb: with an adjective use essere; with fame/sete/anni use avere.\n\nPREVIEW: adjectives agree with the person — stanco/stanca, contento/contenta; -e adjectives like 'triste' never change. Full treatment in Unit 13.\n\nESSERE (present, full): sono, sei, è, siamo, siete, sono | AVERE (present, full): ho, hai, ha, abbiamo, avete, hanno.",
           "exercises": [
             {
               "id": "u6l2e1",
@@ -4118,7 +4118,7 @@
             "il-lavoro",
             "la-pizza"
           ],
-          "grammarNotes": "LA FRASE SEMPLICE — the simple sentence.\n\nWORD ORDER: Italian uses the same order as English — Subject, Verb, Object:\n'Marco (S) mangia (V) una pizza (O).' — Marco eats a pizza.\nThe subject is often dropped because the verb ending says who it is: 'Mangio una pizza.' — the -o says 'io'.\n\nNEGATION: put 'non' directly before the verb — that's all:\n'Vado a scuola.' → 'Non vado a scuola.' (I am not going to school.)\n'Ho fame.' → 'Non ho fame.' (I am not hungry.)\n\nTHREE ESSENTIAL VERBS — full present tense:\n\nFARE (to do/make):\nio faccio — tu fai — lui/lei fa — noi facciamo — voi fate — loro fanno\n'Faccio una pizza.' / 'Cosa fai?'\n\nANDARE (to go):\nio vado — tu vai — lui/lei va — noi andiamo — voi andate — loro vanno\n'Vado a casa.' / 'Andiamo al bar!'\n\nVENIRE (to come):\nio vengo — tu vieni — lui/lei viene — noi veniamo — voi venite — loro vengono\n'Vengo da Roma.' / 'Vieni al bar?'\n\nAll three are irregular in the io/tu/lui forms — learn them as they are.",
+          "grammarNotes": "LA FRASE SEMPLICE — the simple sentence.\n\nWORD ORDER: Italian uses the same order as English — Subject, Verb, Object:\n'Marco (S) mangia (V) una pizza (O).' — Marco eats a pizza.\nThe subject is often dropped because the verb ending says who it is: 'Mangio una pizza.' — the -o says 'io'.\n\nNEGATION: put 'non' directly before the verb — that's all:\n'Vado a scuola.' → 'Non vado a scuola.' (I am not going to school.)\n'Ho fame.' → 'Non ho fame.' (I am not hungry.)\n\nTHREE ESSENTIAL VERBS — full present tense:\n\nFARE (to do/make):\nio faccio — tu fai — lui/lei fa — noi facciamo — voi fate — loro fanno\n'Faccio una pizza.' / 'Cosa fai?'\n\nANDARE (to go):\nio vado — tu vai — lui/lei va — noi andiamo — voi andate — loro vanno\n'Vado a casa.' / 'Andiamo al bar!'\n\nVENIRE (to come):\nio vengo — tu vieni — lui/lei viene — noi veniamo — voi venite — loro vengono\n'Vengo da Roma.' / 'Vieni al bar?'\n\nAll three are irregular in the io/tu/lui forms — learn them as they are.\n\ndare (presente completo): do, dai, dà, diamo, date, danno.",
           "exercises": [
             {
               "id": "u7l2e1",
@@ -12604,7 +12604,7 @@
             "venire",
             "prendere"
           ],
-          "grammarNotes": "A, IN, DA — three little words that do a lot.\n\nA — to/at a city or small place: 'Vado a Roma.', 'Vado al bar.' (a + il → al; a + la → alla: 'Vado alla stazione.')\nIN — to/in a country or region, and 'by' + transport: 'Vado in Italia.', 'Abito in Italia.', 'in treno' (by train).\nDA — from, or 'to someone's place': 'Vengo da Milano.' (Unit 7), 'Vado da Giulia.' — I go to Giulia's.\n\nWHY a vs in: cities take A (a Roma, a Milano); countries take IN (in Italia, in Francia). Small = a, big = in.\n\nL'IMPERATIVO (tu, informal) — telling one person you know what to do:\n• -are verbs: -a! — 'Gira a destra!' (Turn right!) The tu vowel flips: tu giri → gira!\n• -ere/-ire verbs: -i! — same as the present: 'Prendi la prima via a sinistra.' (Take the first street on the left.)\n• andare is irregular: vai! — 'Vai dritto!' (Go straight!)\n\nDIRECTIONS SET PHRASES:\n• 'Dov'è la stazione?' — Where is the station? (dove + è → dov'è)\n• 'È qui vicino.' — It's near here. (vicino = near)\n• 'Grazie mille!' — Thanks a lot! (literally: a thousand thanks)",
+          "grammarNotes": "A, IN, DA — three little words that do a lot.\n\nA — to/at a city or small place: 'Vado a Roma.', 'Vado al bar.' (a + il → al; a + la → alla: 'Vado alla stazione.')\nIN — to/in a country or region, and 'by' + transport: 'Vado in Italia.', 'Abito in Italia.', 'in treno' (by train).\nDA — from, or 'to someone's place': 'Vengo da Milano.' (Unit 7), 'Vado da Giulia.' — I go to Giulia's.\n\nWHY a vs in: cities take A (a Roma, a Milano); countries take IN (in Italia, in Francia). Small = a, big = in.\n\nL'IMPERATIVO (tu, informal) — telling one person you know what to do:\n• -are verbs: -a! — 'Gira a destra!' (Turn right!) The tu vowel flips: tu giri → gira!\n• -ere/-ire verbs: -i! — same as the present: 'Prendi la prima via a sinistra.' (Take the first street on the left.)\n• andare is irregular: vai! — 'Vai dritto!' (Go straight!)\n\nDIRECTIONS SET PHRASES:\n• 'Dov'è la stazione?' — Where is the station? (dove + è → dov'è)\n• 'È qui vicino.' — It's near here. (vicino = near)\n• 'Grazie mille!' — Thanks a lot! (literally: a thousand thanks)\n\ndire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
           "exercises": [
             {
               "id": "u18l2e1",
@@ -13369,7 +13369,7 @@
             "il-ragazzo",
             "la-ragazza"
           ],
-          "grammarNotes": "I PRONOMI DIRETTI — the little words that replace 'him / her / it / them'.\n\nTHE FOUR FORMS:\n• lo — him, it (m sing): 'Il film? Lo vedo domani.' — The film? I see it tomorrow.\n• la — her, it (f sing): 'La canzone? La ascolto.' — The song? I listen to it.\n• li — them (m pl): 'I libri? Li leggo.' — The books? I read them.\n• le — them (f pl): 'Le lettere? Le scrivo.' — The letters? I write them.\n\nPOSITION — before the verb, the opposite of English:\n'Lo conosci?' — Do you know HIM? (lo comes before conosci)\n'La vedo domani.' — I see HER tomorrow. 💛\n\nBEFORE A VOWEL, lo and la drop to l': 'L'ascolto.' — I listen to it. (Same l' rule as the articles, Unit 5.)\n\nWHY: Italians hate repeating nouns. 'Conosci Marco?' — 'Sì, lo conosco.' — Yes, I know HIM.\nThe pronoun carries the gender and number of what it replaces: lo for il ragazzo, la for la ragazza, li for i libri, le for le lettere.\n\n💛 'Lo conosci?' — Do you know him? 'La vedo domani.' — I'll see her tomorrow. 'La chiamo domani.' — I'll call her tomorrow.",
+          "grammarNotes": "I PRONOMI DIRETTI — the little words that replace 'him / her / it / them'.\n\nTHE FOUR FORMS:\n• lo — him, it (m sing): 'Il film? Lo vedo domani.' — The film? I see it tomorrow.\n• la — her, it (f sing): 'La canzone? La ascolto.' — The song? I listen to it.\n• li — them (m pl): 'I libri? Li leggo.' — The books? I read them.\n• le — them (f pl): 'Le lettere? Le scrivo.' — The letters? I write them.\n\nPOSITION — before the verb, the opposite of English:\n'Lo conosci?' — Do you know HIM? (lo comes before conosci)\n'La vedo domani.' — I see HER tomorrow. 💛\n\nBEFORE A VOWEL, lo and la drop to l': 'L'ascolto.' — I listen to it. (Same l' rule as the articles, Unit 5.)\n\nWHY: Italians hate repeating nouns. 'Conosci Marco?' — 'Sì, lo conosco.' — Yes, I know HIM.\nThe pronoun carries the gender and number of what it replaces: lo for il ragazzo, la for la ragazza, li for i libri, le for le lettere.\n\n💛 'Lo conosci?' — Do you know him? 'La vedo domani.' — I'll see her tomorrow. 'La chiamo domani.' — I'll call her tomorrow.\n\ndire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
           "exercises": [
             {
               "id": "u19l2e1",
@@ -18824,7 +18824,7 @@
             "dormire",
             "il-film"
           ],
-          "grammarNotes": "IL PASSATO PROSSIMO — the everyday past. Two parts: avere + the past participle.\n\nI PARTICIPI — the past participle is regular:\n• -are → -ato: parlare → parlato, mangiare → mangiato, guardare → guardato, comprare → comprato, trovare → trovato, lavorare → lavorato, studiare → studiato, ascoltare → ascoltato, prenotare → prenotato\n• -ere → -uto: vedere? no — irregular (visto, later). Regular: vendere → venduto. For now your -ere verbs: prendere → preso (irregular), leggere → letto (irregular), scrivere → scritto (irregular), dormire → dormito ✓ regular, capire → capito ✓, finire → finito ✓, preferire → preferito ✓\n• -ire → -ito: dormito, capito, finito, preferito\n\nTHE FORMULA: avere (io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno — Unit 6) + participle:\n• 'Ho mangiato una pizza.' — I ate a pizza.\n• 'Ieri hai dormito bene?' — Did you sleep well yesterday?\n• 'Giulia ha guardato un film.' — Giulia watched a film.\n• 'Abbiamo prenotato un tavolo.' — We booked a table.\n• 'Avete trovato il libro?' — Did you (pl) find the book?\n• 'Hanno comprato un regalo.' — They bought a gift.\n\nNO AGREEMENT WITH AVERE: the participle stays -o with avere, always: 'Ho mangiato la pizza.' / 'Ho mangiato i cornetti.' — mangiato never changes. (It changes with essere — next unit.)\n\nWHEN: a finished action at a finished time — ieri (yesterday), sabato, ieri sera. 'Ieri ho lavorato.' — Yesterday I worked.\n\n💛 'Ieri ho comprato un regalo per Giulia.' — Yesterday I bought a gift for Giulia.",
+          "grammarNotes": "IL PASSATO PROSSIMO — the everyday past. Two parts: avere + the past participle.\n\nI PARTICIPI — the past participle is regular:\n• -are → -ato: parlare → parlato, mangiare → mangiato, guardare → guardato, comprare → comprato, trovare → trovato, lavorare → lavorato, studiare → studiato, ascoltare → ascoltato, prenotare → prenotato\n• -ere → -uto: vedere? no — irregular (visto, later). Regular: vendere → venduto. For now your -ere verbs: prendere → preso (irregular), leggere → letto (irregular), scrivere → scritto (irregular), dormire → dormito ✓ regular, capire → capito ✓, finire → finito ✓, preferire → preferito ✓\n• -ire → -ito: dormito, capito, finito, preferito\n\nTHE FORMULA: avere (io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno — Unit 6) + participle:\n• 'Ho mangiato una pizza.' — I ate a pizza.\n• 'Ieri hai dormito bene?' — Did you sleep well yesterday?\n• 'Giulia ha guardato un film.' — Giulia watched a film.\n• 'Abbiamo prenotato un tavolo.' — We booked a table.\n• 'Avete trovato il libro?' — Did you (pl) find the book?\n• 'Hanno comprato un regalo.' — They bought a gift.\n\nNO AGREEMENT WITH AVERE: the participle stays -o with avere, always: 'Ho mangiato la pizza.' / 'Ho mangiato i cornetti.' — mangiato never changes. (It changes with essere — next unit.)\n\nWHEN: a finished action at a finished time — ieri (yesterday), sabato, ieri sera. 'Ieri ho lavorato.' — Yesterday I worked.\n\n💛 'Ieri ho comprato un regalo per Giulia.' — Yesterday I bought a gift for Giulia.\n\nAVERE (present, full): ho, hai, ha, abbiamo, avete, hanno.",
           "exercises": [
             {
               "id": "u26l2e1",
@@ -19610,7 +19610,7 @@
             "la-cena",
             "mangiare"
           ],
-          "grammarNotes": "IL PASSATO PROSSIMO CON ESSERE — the second past. Two changes from Unit 26: the auxiliary is essere, AND the participle AGREES with the subject.\n\nWHICH VERBS TAKE ESSERE — movement and change of state:\n• movement: andare → andato, venire → venuto, partire → partito, arrivare → arrivato, uscire → uscito, entrare → entrato, tornare → tornato\n• state/change: essere → stato, stare → stato, nascere → nato, restare → restato, diventare → diventato\n• plus piacere (Unit 26 preview) and every reflexive (Unit 28).\nEverything else takes avere.\n\nRecap of essere: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono.\n\nTHE AGREEMENT RULE: with essere the participle works like an adjective (Unit 13) — it copies the subject:\n• Marco è andato. / Giulia è andata.\n• I ragazzi sono andati. / Le ragazze sono andate.\n💛 'Sono uscito ieri.' (a man) / 'Sono uscita ieri.' (a woman)\n\nCOMPARE — the two cliffs side by side:\n• 'Ho mangiato la pizza.' — avere: mangiato never changes.\n• 'Sono andato al ristorante.' — essere: andato → andata/andati/andate follows the subject.\n\nTHE TEST: movement or change of state → essere. An action you DO (eat, read, buy, watch, sleep) → avere. When in doubt: avere is the default; essere is the exception list above.",
+          "grammarNotes": "IL PASSATO PROSSIMO CON ESSERE — the second past. Two changes from Unit 26: the auxiliary is essere, AND the participle AGREES with the subject.\n\nWHICH VERBS TAKE ESSERE — movement and change of state:\n• movement: andare → andato, venire → venuto, partire → partito, arrivare → arrivato, uscire → uscito, entrare → entrato, tornare → tornato\n• state/change: essere → stato, stare → stato, nascere → nato, restare → restato, diventare → diventato\n• plus piacere (Unit 26 preview) and every reflexive (Unit 28).\nEverything else takes avere.\n\nRecap of essere: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono.\n\nTHE AGREEMENT RULE: with essere the participle works like an adjective (Unit 13) — it copies the subject:\n• Marco è andato. / Giulia è andata.\n• I ragazzi sono andati. / Le ragazze sono andate.\n💛 'Sono uscito ieri.' (a man) / 'Sono uscita ieri.' (a woman)\n\nCOMPARE — the two cliffs side by side:\n• 'Ho mangiato la pizza.' — avere: mangiato never changes.\n• 'Sono andato al ristorante.' — essere: andato → andata/andati/andate follows the subject.\n\nTHE TEST: movement or change of state → essere. An action you DO (eat, read, buy, watch, sleep) → avere. When in doubt: avere is the default; essere is the exception list above.\n\nESSERE (present, full): sono, sei, è, siamo, siete, sono.",
           "exercises": [
             {
               "id": "u27l2e1",
@@ -24321,7 +24321,7 @@
             "domani",
             "subito"
           ],
-          "grammarNotes": "I PRONOMI INDIRETTI — the little words for 'TO someone'. Unit 19 answered 'who/what?' (lo, la, li, le — I see HIM: lo vedo). This unit answers 'TO whom?':\n\n• mi — to me: 'Mi scrivi?' — Will you write to me?\n• ti — to you: 'Ti scrivo domani.' — I'll write to you tomorrow. 💛\n• gli — to him: 'Gli telefono.' — I'll phone him.\n• le — to her: 'Le mando un messaggio.' — I'll send her a message.\n• ci — to us: 'Ci scrivete?' — Will you write to us?\n• vi — to you (plural): 'Vi mando una foto.' — I'll send you (all) a photo.\n• loro — to them: goes AFTER the verb — 'Telefono loro domani.' (or, more common: 'Gli telefono domani.')\n\nPOSITION: before the verb, like the direct pronouns — ti scrivo, gli telefono, le mando.\n\nTHE CONTRAST (Unit 19 vs now):\n• 'La vedo domani.' — I see HER tomorrow. (direct: whom do I see? her)\n• 'Le scrivo domani.' — I write TO her tomorrow. (indirect: to whom? to her)\nSame person, different job. With vedere the person is the object; with scrivere/mandare/telefonare the person RECEIVES the action.\n\nVERBS THAT TAKE THE INDIRECT: scrivere a, mandare a, telefonare a, rispondere a, dare a (to give — later).",
+          "grammarNotes": "I PRONOMI INDIRETTI — the little words for 'TO someone'. Unit 19 answered 'who/what?' (lo, la, li, le — I see HIM: lo vedo). This unit answers 'TO whom?':\n\n• mi — to me: 'Mi scrivi?' — Will you write to me?\n• ti — to you: 'Ti scrivo domani.' — I'll write to you tomorrow. 💛\n• gli — to him: 'Gli telefono.' — I'll phone him.\n• le — to her: 'Le mando un messaggio.' — I'll send her a message.\n• ci — to us: 'Ci scrivete?' — Will you write to us?\n• vi — to you (plural): 'Vi mando una foto.' — I'll send you (all) a photo.\n• loro — to them: goes AFTER the verb — 'Telefono loro domani.' (or, more common: 'Gli telefono domani.')\n\nPOSITION: before the verb, like the direct pronouns — ti scrivo, gli telefono, le mando.\n\nTHE CONTRAST (Unit 19 vs now):\n• 'La vedo domani.' — I see HER tomorrow. (direct: whom do I see? her)\n• 'Le scrivo domani.' — I write TO her tomorrow. (indirect: to whom? to her)\nSame person, different job. With vedere the person is the object; with scrivere/mandare/telefonare the person RECEIVES the action.\n\nVERBS THAT TAKE THE INDIRECT: scrivere a, mandare a, telefonare a, rispondere a, dare a (to give — later).\n\ndare (presente completo): do, dai, dà, diamo, date, danno.\n\ndire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
           "exercises": [
             {
               "id": "u33l2e1",
@@ -34446,6 +34446,3909 @@
           }
         ]
       }
+    },
+    {
+      "id": "u46",
+      "number": 46,
+      "title": "Lei o tu?",
+      "lessons": [
+        {
+          "id": "u46l1",
+          "type": "vocabulary",
+          "title": "Il signore, la signora, presentare",
+          "dictionaryRefs": [
+            "il-signore",
+            "la-signora",
+            "presentare",
+            "piacere-di-conoscerla",
+            "la-fidanzata",
+            "cortese",
+            "dare-del-lei"
+          ],
+          "exercises": [
+            {
+              "id": "u46l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il signore",
+              "options": [
+                "the gentleman; sir",
+                "the singer",
+                "the sign",
+                "the office"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il signore' (m) = the gentleman, sir. 'Buonasera, signore.' — the safe formal address to a man you don't know. 💛",
+              "dictionaryRefs": [
+                "il-signore"
+              ]
+            },
+            {
+              "id": "u46l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la signora",
+              "options": [
+                "the lady; madam",
+                "the secretary",
+                "the sign",
+                "the Miss"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La signora' (f) = the lady, madam, Mrs. 'Buonasera, signora.' — to your elderly neighbour, to Giulia's grandmother. 💛",
+              "dictionaryRefs": [
+                "la-signora"
+              ]
+            },
+            {
+              "id": "u46l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "presentare",
+              "options": [
+                "to introduce; to present",
+                "to present (a gift only)",
+                "to prepare",
+                "to pretend"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Presentare' = to introduce. 'Ti presento Giulia.' — let me introduce Giulia (to you). The verb of every first meeting. 💛",
+              "dictionaryRefs": [
+                "presentare"
+              ]
+            },
+            {
+              "id": "u46l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "la fidanzata",
+              "options": [
+                "the girlfriend; fiancée",
+                "the fiancé (male)",
+                "the friend",
+                "the cousin"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La fidanzata' (f) = the girlfriend, fiancée. 'Ti presento la mia fidanzata.' — the big moment. 💛",
+              "dictionaryRefs": [
+                "la-fidanzata"
+              ]
+            },
+            {
+              "id": "u46l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "cortese",
+              "options": [
+                "courteous; polite",
+                "curt; rude",
+                "expensive",
+                "famous"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Cortese' = courteous, polite — like gentile but a touch more formal. 'Grazie, è molto cortese.' — perfect with Lei (lesson 2).",
+              "dictionaryRefs": [
+                "cortese",
+                "gentile"
+              ]
+            },
+            {
+              "id": "u46l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (Sunday lunch — introduce Giulia to your mother)",
+              "sentence": "Ti ___ Giulia.",
+              "answers": [
+                "presento"
+              ],
+              "explanation": "'Ti presento Giulia.' — ti (to you, informal: it's your mum!) + presento. 💛",
+              "dictionaryRefs": [
+                "presentare",
+                "la-fidanzata"
+              ]
+            },
+            {
+              "id": "u46l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (To Giulia's grandmother, 70 — first meeting)",
+              "sourceEn": "Pleased to meet you, madam.",
+              "acceptedIt": [
+                "Piacere di conoscerla, signora.",
+                "Piacere di conoscerla, signora",
+                "Piacere di conoscerla signora",
+                "È un piacere conoscerla, signora.",
+                "E' un piacere conoscerla, signora."
+              ],
+              "explanation": "'Piacere di conoscerla, signora.' — conoscerLA: the -la is Lei (formal 'you'), exactly because it's her grandmother, first meeting. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla",
+                "la-signora"
+              ]
+            },
+            {
+              "id": "u46l1e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Marco, 30, is always formal with his grandmother)",
+              "sentence": "Marco dà ___ Lei a sua nonna.",
+              "answers": [
+                "del"
+              ],
+              "explanation": "'Marco dà del Lei a sua nonna.' — dare del Lei = to address someone with Lei. His grandmother, his choice — but formal! 💛",
+              "dictionaryRefs": [
+                "dare-del-lei"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u46l2",
+          "type": "grammar",
+          "title": "Tu o Lei? La scelta giusta",
+          "dictionaryRefs": [
+            "il-signore",
+            "la-signora",
+            "cortese",
+            "dare-del-lei",
+            "gentile",
+            "come-stai",
+            "amico",
+            "chiamare",
+            "la-madre",
+            "il-lavoro"
+          ],
+          "grammarNotes": "TU O LEI? — the register choice, once and for all.\n\nTU — friends, family, children, peers, anyone you want close: 'Ciao! Come stai?' (Unit 24). 💛\nLEI — strangers, older people, formal settings: job interviews, offices, the first Sunday lunch with the family. 'Buongiorno, come sta?'\n\nTHE GRAMMAR: Lei takes the THIRD-PERSON SINGULAR — the same verb forms as lui/lei/Giulia. Only the pronoun changes:\nessere (present): sono, sei, è, siamo, siete, sono → 'Lei è' (just like 'Giulia è')\navere (present): ho, hai, ha, abbiamo, avete, hanno → 'Lei ha' (just like 'Giulia ha')\nparlare (present): parlo, parli, parla, parliamo, parlate, parlano → 'Lei parla' (just like 'Giulia parla')\nstare (present): sto, stai, sta, stiamo, state, stanno → 'Come sta?' — the formal 'come stai?'\ndare (present): do, dai, dà, diamo, date, danno → 'dare del Lei' — to address someone with Lei.\n\nTHE CAPITAL: writing 'Lei' with a capital L is extra courtesy — common in letters, optional in texts. 'lei' lowercase is also correct.\n\nCHIAMARE — the first question of every meeting:\nchiamare (present): chiamo, chiami, chiama, chiamiamo, chiamate, chiamano → tu asks 'Come ti chiami?', Lei asks 'Come si chiama?'\n\nTHE SWITCH: at some point the older person may offer: 'Chiamami Anna!' — permission granted: from that moment, tu. Then: 'Ciao Anna!'",
+          "exercises": [
+            {
+              "id": "u46l2e1",
+              "type": "multiple_choice",
+              "prompt": "You're 25, meeting your friend Giulia at the bar. The right greeting: 💛",
+              "question": "La scelta giusta:",
+              "options": [
+                "Ciao Giulia, come stai?",
+                "Buongiorno, come sta, signorina?",
+                "Salve, Lei sta bene?",
+                "Buonasera, signora."
+              ],
+              "correctIndex": 0,
+              "explanation": "Giulia + your age + the bar = tu, always: 'Ciao Giulia, come stai?' The lei-forms here would push your girlfriend away. 💛",
+              "dictionaryRefs": [
+                "come-stai"
+              ]
+            },
+            {
+              "id": "u46l2e2",
+              "type": "multiple_choice",
+              "prompt": "You're 28, at a job interview with a 50-year-old manager. You say:",
+              "question": "La scelta giusta:",
+              "options": [
+                "Come sta, signore?",
+                "Ciao! Come stai?",
+                "Ehi, tutto bene?",
+                "Ciao, bello!"
+              ],
+              "correctIndex": 0,
+              "explanation": "Interview + stranger + 50 years old = Lei, no discussion: 'Come sta, signore?' 'Ciao, come stai?' can cost you the job.",
+              "dictionaryRefs": [
+                "il-signore",
+                "il-lavoro"
+              ]
+            },
+            {
+              "id": "u46l2e3",
+              "type": "multiple_choice",
+              "prompt": "Sunday lunch: you meet Giulia's grandmother for the first time. 💛 You say:",
+              "question": "La scelta giusta:",
+              "options": [
+                "Piacere di conoscerla, signora.",
+                "Ciao nonna!",
+                "Piacere di conoscerti, signora!",
+                "Tu come stai, nonna?"
+              ],
+              "correctIndex": 0,
+              "explanation": "First meeting + elderly + family-of-girlfriend = Lei and conoscerLA: 'Piacere di conoscerla, signora.' Warm and correct — the 'signora' shows respect, the smile shows the heart. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla",
+                "la-signora"
+              ]
+            },
+            {
+              "id": "u46l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the message. (Your best friend Marco, 24 — totally informal)",
+              "sentence": "Marco, ___ molto gentile.",
+              "answers": [
+                "sei"
+              ],
+              "explanation": "'Marco, sei molto gentile.' — sei = tu. Your best friend gets tu, always (Unit 41).",
+              "dictionaryRefs": [
+                "come-stai",
+                "gentile",
+                "amico"
+              ]
+            },
+            {
+              "id": "u46l2e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (First meeting, to Giulia's mother)",
+              "sentence": "Lei ___ molto gentile.",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'Lei è molto gentile.' — è (third person) because Lei IS third person. Same verb as 'Giulia è' — only the pronoun changed. 💛",
+              "dictionaryRefs": [
+                "gentile",
+                "la-madre"
+              ]
+            },
+            {
+              "id": "u46l2e6",
+              "type": "fill_blank",
+              "prompt": "Complete the phone question. (Unit 38 recycling — a stranger calls about the apartment)",
+              "sentence": "Pronto, Lei ___ il signor Bianchi?",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'Pronto, Lei è il signor Bianchi?' — on the phone with a stranger: Lei + è. Third person again, even though you're asking about 'you'.",
+              "dictionaryRefs": [
+                "pronto",
+                "il-signore"
+              ]
+            },
+            {
+              "id": "u46l2e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (To your elderly neighbour, first meeting)",
+              "sourceEn": "How are you, madam?",
+              "acceptedIt": [
+                "Come sta, signora?",
+                "Come sta, signora",
+                "Come sta signora?",
+                "Come sta?"
+              ],
+              "explanation": "'Come sta, signora?' — sta (not stai!) because she's elderly and a stranger. One letter changes, the whole relationship changes.",
+              "dictionaryRefs": [
+                "la-signora",
+                "come-stai"
+              ]
+            },
+            {
+              "id": "u46l2e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (To your girlfriend's father, first Sunday lunch)",
+              "sourceEn": "Pleased to meet you.",
+              "acceptedIt": [
+                "Piacere di conoscerla.",
+                "Piacere di conoscerla",
+                "È un piacere conoscerla.",
+                "E' un piacere conoscerla."
+              ],
+              "explanation": "'Piacere di conoscerla.' — conoscerla, with -la = Lei. Girlfriend's father, first meeting: formal until he offers the tu. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla"
+              ]
+            },
+            {
+              "id": "u46l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Piacere",
+                "di",
+                "conoscerla,",
+                "signora."
+              ],
+              "correctSentence": "Piacere di conoscerla, signora.",
+              "explanation": "'Piacere di conoscerla, signora.' — the sentence that opens every good first meeting. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla",
+                "la-signora"
+              ]
+            },
+            {
+              "id": "u46l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (To your professor, 60)",
+              "tokens": [
+                "Lei",
+                "è",
+                "molto",
+                "cortese."
+              ],
+              "correctSentence": "Lei è molto cortese.",
+              "explanation": "'Lei è molto cortese.' — Lei + è: the formal compliment, third-person engine.",
+              "dictionaryRefs": [
+                "cortese"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u46l3",
+          "type": "mixed",
+          "title": "Incontro di famiglia — ripasso 💛",
+          "dictionaryRefs": [
+            "gentile",
+            "i-genitori",
+            "la-famiglia",
+            "piacere-di-conoscerla",
+            "il-signore",
+            "presentare",
+            "la-fidanzata",
+            "chiamare",
+            "il-piacere"
+          ],
+          "exercises": [
+            {
+              "id": "u46l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (To the waiter, 60, after he helps you)",
+              "sourceEn": "Thanks, you're very kind.",
+              "acceptedIt": [
+                "Grazie, è molto gentile.",
+                "Grazie, Lei è molto gentile.",
+                "Grazie, è molto gentile",
+                "Grazie, Lei è molto gentile",
+                "Grazie, è molto cortese."
+              ],
+              "explanation": "'Grazie, è molto gentile.' — è = Lei: older stranger, formal. To Giulia you'd say 'sei molto gentile' (Unit 41). Same compliment, different engine. 💛",
+              "dictionaryRefs": [
+                "grazie",
+                "gentile",
+                "il-signore"
+              ]
+            },
+            {
+              "id": "u46l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 14 recycling) 💛",
+              "question": "i genitori di Giulia",
+              "options": [
+                "Giulia's parents",
+                "Giulia's children",
+                "Giulia's grandparents",
+                "Giulia's brothers and sisters"
+              ],
+              "correctIndex": 0,
+              "explanation": "'I genitori' = the parents (Unit 14). Sunday lunch with i genitori di Giulia — the classic first test. 💛",
+              "dictionaryRefs": [
+                "i-genitori",
+                "la-famiglia"
+              ]
+            },
+            {
+              "id": "u46l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (First meeting — to Giulia's father)",
+              "sentence": "Signore, piacere di ___.",
+              "answers": [
+                "conoscerla"
+              ],
+              "explanation": "'Signore, piacere di conoscerla.' — the -la is Lei: her father, first meeting, hands shaken, register formal. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla",
+                "il-signore"
+              ]
+            },
+            {
+              "id": "u46l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (To your own mother — informal!)",
+              "sourceIt": "Ti presento la mia fidanzata.",
+              "acceptedEn": [
+                "Let me introduce you to my girlfriend.",
+                "I introduce my girlfriend to you.",
+                "Let me introduce my girlfriend.",
+                "This is my girlfriend."
+              ],
+              "explanation": "'Ti presento la mia fidanzata.' — ti = informal, because it's your mother. The big moment, tu edition. 💛",
+              "dictionaryRefs": [
+                "presentare",
+                "la-fidanzata"
+              ]
+            },
+            {
+              "id": "u46l3e5",
+              "type": "multiple_choice",
+              "prompt": "At the office: your 55-year-old boss arrives. You say:",
+              "question": "Buongiorno…",
+              "options": [
+                "Buongiorno, come sta?",
+                "Ciao! Come stai?",
+                "Ehi, tutto bene?",
+                "Ciao, che fai?"
+              ],
+              "correctIndex": 0,
+              "explanation": "Boss + 55 + office = Lei: 'Buongiorno, come sta?' The tu-forms are warm, but this is not the moment for warm.",
+              "dictionaryRefs": [
+                "il-lavoro",
+                "il-signore"
+              ]
+            },
+            {
+              "id": "u46l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the exclamation. (Your new colleague Luca, 26: 'Relax! ___ Luca!')",
+              "sentence": "___ Luca!",
+              "answers": [
+                "Chiamami"
+              ],
+              "explanation": "'Chiamami Luca!' — call me Luca! The magic offer: from this moment, tu. (mi + command = one word, Unit 45.)",
+              "dictionaryRefs": [
+                "chiamare",
+                "amico"
+              ]
+            },
+            {
+              "id": "u46l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ti",
+                "presento",
+                "Giulia."
+              ],
+              "correctSentence": "Ti presento Giulia.",
+              "explanation": "'Ti presento Giulia.' — three words that start everything. 💛",
+              "dictionaryRefs": [
+                "presentare"
+              ]
+            },
+            {
+              "id": "u46l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Formal — first meeting with an elderly man)",
+              "sourceEn": "It's a pleasure to meet you, sir.",
+              "acceptedIt": [
+                "È un piacere conoscerla, signore.",
+                "E' un piacere conoscerla, signore.",
+                "È un piacere conoscerla, signore",
+                "Piacere di conoscerla, signore.",
+                "Piacere di conoscerla, signore"
+              ],
+              "explanation": "'È un piacere conoscerla, signore.' — è = Lei (third person!), conoscerla = to meet YOU-formal. The full formal package. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla",
+                "il-signore",
+                "il-piacere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u46l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "il-signore",
+            "la-signora",
+            "presentare",
+            "piacere-di-conoscerla",
+            "la-fidanzata",
+            "come-stai",
+            "cortese"
+          ],
+          "exercises": [
+            {
+              "id": "u46l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Piacere di conoscerla, signora.",
+              "options": [
+                "Pleased to meet you, madam.",
+                "See you soon, madam.",
+                "Thank you very much, madam.",
+                "Where is the lady?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Piacere di conoscerla, signora.' — conoscerla: the -la is formal you. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla",
+                "la-signora"
+              ]
+            },
+            {
+              "id": "u46l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (To an elderly neighbour)",
+              "mode": "type",
+              "speakIt": "Come sta, signora?",
+              "acceptedIt": [
+                "Come sta, signora?",
+                "Come sta, signora",
+                "Come sta signora?"
+              ],
+              "explanation": "You heard: 'Come sta, signora?' — sta with Lei, not stai. Elderly neighbour = formal.",
+              "dictionaryRefs": [
+                "la-signora",
+                "come-stai"
+              ]
+            },
+            {
+              "id": "u46l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Ti presento la mia fidanzata.",
+              "options": [
+                "Let me introduce you to my girlfriend.",
+                "I present the fiancée to her.",
+                "She introduces her friend.",
+                "This is my mother's friend."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ti presento la mia fidanzata.' — the big introduction, tu edition. 💛",
+              "dictionaryRefs": [
+                "presentare",
+                "la-fidanzata"
+              ]
+            },
+            {
+              "id": "u46l4e4",
+              "type": "speaking",
+              "prompt": "Say to Giulia's mother, first meeting: 'Pleased to meet you.' 💛",
+              "targetIt": "Piacere di conoscerla.",
+              "minAccuracy": 0.7,
+              "explanation": "'Piacere di conoscerla.' — PIA-che-re di ko-no-sker-LA. The -la carries the formality. 💛",
+              "dictionaryRefs": [
+                "piacere-di-conoscerla"
+              ]
+            },
+            {
+              "id": "u46l4e5",
+              "type": "speaking",
+              "prompt": "Ask your elderly neighbour, formally: 'How are you?'",
+              "targetIt": "Come sta?",
+              "minAccuracy": 0.7,
+              "explanation": "'Come sta?' — KO-me STA. Not 'stai': this Lei is the respectful kind.",
+              "dictionaryRefs": [
+                "come-stai"
+              ]
+            },
+            {
+              "id": "u46l4e6",
+              "type": "speaking",
+              "prompt": "Introduce Giulia to your mother: 'Ti presento Giulia.' 💛",
+              "targetIt": "Ti presento Giulia.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ti presento Giulia.' — ti pre-SEN-to JU-lia. Tu with mum, always. 💛",
+              "dictionaryRefs": [
+                "presentare"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u46c",
+        "exercises": [
+          {
+            "id": "u46ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il signore",
+            "options": [
+              "the gentleman; sir",
+              "the singer",
+              "the office",
+              "the neighbour"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il signore' (m) = the gentleman, sir. 'Buonasera, signore.'",
+            "dictionaryRefs": [
+              "il-signore"
+            ]
+          },
+          {
+            "id": "u46ce2",
+            "type": "multiple_choice",
+            "prompt": "You're 28, at a job interview with a 50-year-old manager. You say:",
+            "question": "La scelta giusta:",
+            "options": [
+              "Come sta, signore?",
+              "Ciao! Come stai?",
+              "Ehi, tutto bene?",
+              "Salve, che fai?"
+            ],
+            "correctIndex": 0,
+            "explanation": "Interview + stranger + older = Lei: 'Come sta, signore?'",
+            "dictionaryRefs": [
+              "il-signore",
+              "il-lavoro"
+            ]
+          },
+          {
+            "id": "u46ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. 💛 (First Sunday lunch — to Giulia's grandmother)",
+            "sentence": "Lei ___ molto cortese.",
+            "answers": [
+              "è",
+              "e'"
+            ],
+            "explanation": "'Lei è molto cortese.' — è: Lei runs on the third person, like 'Giulia è'. 💛",
+            "dictionaryRefs": [
+              "la-signora",
+              "cortese"
+            ]
+          },
+          {
+            "id": "u46ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (To an elderly neighbour, first meeting)",
+            "sourceEn": "How are you, madam?",
+            "acceptedIt": [
+              "Come sta, signora?",
+              "Come sta, signora",
+              "Come sta signora?",
+              "Come sta?"
+            ],
+            "explanation": "'Come sta, signora?' — sta = formal. The neighbour gets Lei until she says otherwise.",
+            "dictionaryRefs": [
+              "la-signora"
+            ]
+          },
+          {
+            "id": "u46ce5",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Piacere di conoscerla, signora.",
+            "options": [
+              "Pleased to meet you, madam.",
+              "Good evening, madam.",
+              "Thank you, madam.",
+              "Goodbye, madam."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Piacere di conoscerla, signora.' 💛",
+            "dictionaryRefs": [
+              "piacere-di-conoscerla"
+            ]
+          },
+          {
+            "id": "u46ce6",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Formal)",
+            "mode": "type",
+            "speakIt": "Come sta, signora?",
+            "acceptedIt": [
+              "Come sta, signora?",
+              "Come sta, signora",
+              "Come sta signora?"
+            ],
+            "explanation": "You heard: 'Come sta, signora?' — third-person sta.",
+            "dictionaryRefs": [
+              "la-signora"
+            ]
+          },
+          {
+            "id": "u46ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Ti",
+              "presento",
+              "Giulia."
+            ],
+            "correctSentence": "Ti presento Giulia.",
+            "explanation": "'Ti presento Giulia.' — ti = informal, because family. 💛",
+            "dictionaryRefs": [
+              "presentare"
+            ]
+          },
+          {
+            "id": "u46ce8",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. 💛 (Giovanni, 30, is very formal with his grandmother)",
+            "sentence": "Giovanni dà ___ Lei a sua nonna.",
+            "answers": [
+              "del"
+            ],
+            "explanation": "'Giovanni dà del Lei a sua nonna.' — dare del Lei: the formal address, made a verb. 💛",
+            "dictionaryRefs": [
+              "dare-del-lei"
+            ]
+          },
+          {
+            "id": "u46ce9",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Said to YOU, formally)",
+            "sourceIt": "Lei è molto gentile.",
+            "acceptedEn": [
+              "You are very kind.",
+              "She is very kind.",
+              "He is very kind."
+            ],
+            "explanation": "'Lei è molto gentile.' — with capital Lei: 'you are very kind (formal)'. With lowercase lei it could mean 'she' — context decides.",
+            "dictionaryRefs": [
+              "gentile",
+              "molto"
+            ]
+          },
+          {
+            "id": "u46ce10",
+            "type": "multiple_choice",
+            "prompt": "You're texting your best friend Marco, 24. Choose:",
+            "question": "La scelta giusta:",
+            "options": [
+              "Ciao Marco, come stai?",
+              "Buongiorno signore, come sta?",
+              "Salve, Lei come sta?",
+              "Arrivederci, signora."
+            ],
+            "correctIndex": 0,
+            "explanation": "Best friend + your age + texting = tu: 'Ciao Marco, come stai?' The lei-forms would sound like a breakup text.",
+            "dictionaryRefs": [
+              "come-stai",
+              "amico"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u47",
+      "number": 47,
+      "title": "Il periodo ipotetico I",
+      "lessons": [
+        {
+          "id": "u47l1",
+          "type": "vocabulary",
+          "title": "Il sogno, ricco, viaggiare",
+          "dictionaryRefs": [
+            "il-sogno",
+            "ricco",
+            "viaggiare",
+            "la-macchina",
+            "l-isola",
+            "famoso"
+          ],
+          "exercises": [
+            {
+              "id": "u47l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il sogno",
+              "options": [
+                "the dream",
+                "the sleep",
+                "the sound",
+                "the song"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il sogno' (m) = the dream. 'Raccontami il tuo sogno.' — tell me your dream. 💛",
+              "dictionaryRefs": [
+                "il-sogno",
+                "la-canzone"
+              ]
+            },
+            {
+              "id": "u47l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "ricco",
+              "options": [
+                "rich",
+                "rice (dish)",
+                "risky",
+                "tired"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ricco' = rich (ricco/ricca/ricchi/ricche). 'Se fossi ricco…' — the dreamer's opening line. The grammar arrives in lesson 2! 💛",
+              "dictionaryRefs": [
+                "ricco"
+              ]
+            },
+            {
+              "id": "u47l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "viaggiare",
+              "options": [
+                "to travel",
+                "to sail",
+                "to fly away",
+                "to move house"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Viaggiare' = to travel. 'Vorrei viaggiare di più.' — I'd like to travel more (Unit 41's conditional!).",
+              "dictionaryRefs": [
+                "viaggiare",
+                "il-viaggio"
+              ]
+            },
+            {
+              "id": "u47l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la macchina",
+              "options": [
+                "the car",
+                "the machine only",
+                "the motorbike",
+                "the train"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La macchina' (f) = the car. Also 'machine' in other contexts — but on the road, always the car. 'Compro una macchina nuova.'",
+              "dictionaryRefs": [
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u47l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'isola",
+              "options": [
+                "the island",
+                "the coast",
+                "the hill",
+                "the lake"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'isola' (f, l' before the vowel) = the island. 'Una casa sull'isola…' — every dream has one. 💛",
+              "dictionaryRefs": [
+                "l-isola",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u47l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "famoso",
+              "options": [
+                "famous",
+                "hungry",
+                "feminine",
+                "family-like"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Famoso' = famous (famoso/famosa/famosi/famose). 'Se fossi famoso…' — dream big. 💛",
+              "dictionaryRefs": [
+                "famoso"
+              ]
+            },
+            {
+              "id": "u47l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the dream. 💛 (the vowel needs an apostrophe)",
+              "sentence": "Vorrei vivere su ___ isola.",
+              "answers": [
+                "un'",
+                "un"
+              ],
+              "explanation": "'Vorrei vivere su un'isola.' — un'isola: un drops its o before a vowel, like un'albergo (Unit 39). Dream accordingly. 💛",
+              "dictionaryRefs": [
+                "l-isola",
+                "vorrei"
+              ]
+            },
+            {
+              "id": "u47l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (a noun AND a verb in two words)",
+              "sourceEn": "I dream of an island.",
+              "acceptedIt": [
+                "Sogno un'isola.",
+                "Sogno un'isola",
+                "Sogno un isola.",
+                "Io sogno un'isola."
+              ],
+              "explanation": "'Sogno un'isola.' — sogno = I dream (verb) and il sogno = the dream (noun). Italian lets you dream with the same word you dream of. 💛",
+              "dictionaryRefs": [
+                "il-sogno",
+                "l-isola"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u47l2",
+          "type": "grammar",
+          "title": "Se fossi ricco…",
+          "dictionaryRefs": [
+            "il-sogno",
+            "ricco",
+            "viaggiare",
+            "la-macchina",
+            "l-isola",
+            "famoso",
+            "il-mare",
+            "la-casa",
+            "contento",
+            "partire"
+          ],
+          "grammarNotes": "IL PERIODO IPOTETICO, TIPO 2 — dreams with 'se'. Structure: SE + imperfetto congiuntivo, then CONDIZIONALE presente. Both halves are untrue right now: 'Se fossi ricco, comprerei una macchina.' — I'm not rich; there is no car. 💛\n\nIMPERFETTO CONGIUNTIVO — the verb of the se-clause. Take the io-form of the imperfetto and give it new endings: -ssi, -ssi, -sse, -ssimo, -ste, -ssero.\nessere: fossi, fossi, fosse, fossimo, foste, fossero\navere: avessi, avessi, avesse, avessimo, aveste, avessero\nparlare (the regular -are model): parlassi, parlassi, parlasse, parlassimo, parlaste, parlassero\nandare: andassi, andassi, andasse, andassimo, andaste, andassero\ncomprare: comprassi, comprassi, comprasse, comprassimo, compraste, comprassero\nvolere: volessi, volessi, volesse, volessimo, voleste, volessero\npotere: potessi, potessi, potesse, potessimo, poteste, potessero\n\nCONDIZIONALE — the consequence, straight from Unit 41:\nessere: sarei, saresti, sarebbe, saremmo, sareste, sarebbero\navere: avrei, avresti, avrebbe, avremmo, avreste, avrebbero\nandare: andrei, andresti, andrebbe, andremmo, andreste, andrebbero\ncomprare: comprerei, compreresti, comprerebbe, compreremmo, comprereste, comprerebbero\nvolere: vorrei, vorresti, vorrebbe, vorremmo, vorreste, vorrebbero\npotere: potrei, potresti, potrebbe, potremmo, potreste, potrebbero\n\nTHE PAIRS YOU'LL DREAM IN:\n• 'Se avessi una macchina, andrei al mare.' — no car, no seaside.\n• 'Se fossi ricco, comprerei una casa sull'isola.' — the classic. 💛\n• 'Se potessi, partirei domani.' — but I can't.\n• 'Se veniste con me, sarei molto contento.' — the nicest dream of all.\n\nORDER MATTERS — and never breaks: the se-clause takes the subjunctive, NEVER the conditional. Wrong: 'Se sarei ricco…' Right: 'Se fossi ricco…' The conditional lives in the main clause. And the halves can swap freely: 'Comprerei una macchina se fossi ricco.'",
+          "exercises": [
+            {
+              "id": "u47l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the dream. 💛 (Se ___ ricco, comprerei una macchina.)",
+              "sentence": "Se ___ ricco, comprerei una macchina.",
+              "answers": [
+                "fossi"
+              ],
+              "explanation": "'Se fossi ricco…' — essere, imperfetto congiuntivo io: fossi. The se-clause of every Italian dream.",
+              "dictionaryRefs": [
+                "ricco",
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u47l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the dream. (Se ___ una macchina, andrei al mare.)",
+              "sentence": "Se ___ una macchina, andrei al mare.",
+              "answers": [
+                "avessi"
+              ],
+              "explanation": "'Se avessi una macchina…' — avere, imperfetto congiuntivo io: avessi. Same -ssi ending as fossi: regular, honest grammar.",
+              "dictionaryRefs": [
+                "la-macchina",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u47l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. (If I could, I would leave tomorrow.)",
+              "sentence": "Se potessi, ___ domani.",
+              "answers": [
+                "partirei"
+              ],
+              "explanation": "'Se potessi, partirei domani.' — potessi (se-clause, subjunctive) + partirei (main clause, conditional). Two halves, two tenses, one dream.",
+              "dictionaryRefs": [
+                "potere",
+                "partire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u47l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "If I were rich, I would buy a house.",
+              "acceptedIt": [
+                "Se fossi ricco, comprerei una casa.",
+                "Se fossi ricco comprerei una casa.",
+                "Se fossi ricco, comprerei una casa",
+                "Se fossi ricco comprerei una casa",
+                "Comprerei una casa se fossi ricco."
+              ],
+              "explanation": "'Se fossi ricco, comprerei una casa.' — fossi (subjunctive after se) + comprerei (conditional in the main clause). Or swap the halves: same meaning. 💛",
+              "dictionaryRefs": [
+                "ricco",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u47l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (to a friend)",
+              "sourceEn": "If you could, would you travel more?",
+              "acceptedIt": [
+                "Se potessi, viaggeresti di più?",
+                "Se potessi viaggeresti di più?",
+                "Se potessi, viaggeresti di più",
+                "Se potessi viaggeresti di più"
+              ],
+              "explanation": "'Se potessi, viaggeresti di più?' — potessi (io? No: tu! The io- and tu-forms are identical: potessi) + viaggeresti (conditional tu).",
+              "dictionaryRefs": [
+                "potere",
+                "viaggiare",
+                "piu"
+              ]
+            },
+            {
+              "id": "u47l2e6",
+              "type": "multiple_choice",
+              "prompt": "Which sentence is correct?",
+              "question": "Il sogno, grammaticalmente:",
+              "options": [
+                "Se fossi ricco, comprerei una macchina.",
+                "Se sarei ricco, comprerei una macchina.",
+                "Se comprerei una macchina, fossi ricco.",
+                "Se essere ricco, compro una macchina."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Se fossi ricco, comprerei una macchina.' — subjunctive after se, conditional in the main clause. 'Se sarei…' is the classic Italian mistake: the conditional never follows se.",
+              "dictionaryRefs": [
+                "ricco",
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u47l2e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Se avessi una macchina, andrei al mare.",
+              "options": [
+                "If I had a car, I would go to the seaside.",
+                "If I have a car, I go to the seaside.",
+                "When I had a car, I went to the seaside.",
+                "I have a car, so I go to the seaside."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Se avessi… andrei…' — avessi (imperfect subjunctive) + andrei (conditional): a present dream, not a fact. 💛",
+              "dictionaryRefs": [
+                "la-macchina",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u47l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Se veniste con me, sarei molto contento.",
+              "acceptedEn": [
+                "If you came with me, I would be very happy.",
+                "If you (plural) came with me, I would be very happy.",
+                "If you all came with me, I would be very happy.",
+                "If you came with me I would be very happy."
+              ],
+              "explanation": "'Se veniste con me, sarei molto contento.' — veniste (imperfect subjunctive of venire, voi) + sarei (conditional). The voi-form because it's aimed at everyone at the table. 💛",
+              "dictionaryRefs": [
+                "venire",
+                "contento"
+              ]
+            },
+            {
+              "id": "u47l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Se",
+                "fossi",
+                "ricco,",
+                "comprerei",
+                "una",
+                "macchina."
+              ],
+              "correctSentence": "Se fossi ricco, comprerei una macchina.",
+              "explanation": "'Se fossi ricco, comprerei una macchina.' — fossi after se, comprerei in the main clause. 💛",
+              "dictionaryRefs": [
+                "ricco",
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u47l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (the swapped version)",
+              "tokens": [
+                "Comprerei",
+                "una",
+                "casa",
+                "se",
+                "fossi",
+                "ricco."
+              ],
+              "correctSentence": "Comprerei una casa se fossi ricco.",
+              "explanation": "'Comprerei una casa se fossi ricco.' — the halves may swap; the tenses may not. Conditional in front, subjunctive after se, always.",
+              "dictionaryRefs": [
+                "ricco",
+                "la-casa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u47l3",
+          "type": "mixed",
+          "title": "Sogni — ripasso 💛",
+          "dictionaryRefs": [
+            "il-sogno",
+            "ricco",
+            "viaggiare",
+            "la-macchina",
+            "l-isola",
+            "famoso",
+            "il-mare",
+            "la-casa",
+            "contento",
+            "il-viaggio",
+            "l-albergo",
+            "il-desiderio",
+            "il-gelato",
+            "domani",
+            "il-desiderio"
+          ],
+          "exercises": [
+            {
+              "id": "u47l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 41 recycling)",
+              "sourceEn": "I'd like to travel more.",
+              "acceptedIt": [
+                "Vorrei viaggiare di più.",
+                "Vorrei viaggiare di piu.",
+                "Vorrei viaggiare di più",
+                "Io vorrei viaggiare di più."
+              ],
+              "explanation": "'Vorrei viaggiare di più.' — Unit 41's conditional + the new verb. Dreams start with vorrei.",
+              "dictionaryRefs": [
+                "vorrei",
+                "viaggiare"
+              ]
+            },
+            {
+              "id": "u47l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 41 recycling) 💛",
+              "question": "il desiderio",
+              "options": [
+                "the wish; the desire",
+                "the dessert",
+                "the design",
+                "the request"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il desiderio' = the wish. Dreams are desideri wearing grammar. 💛",
+              "dictionaryRefs": [
+                "il-desiderio"
+              ]
+            },
+            {
+              "id": "u47l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the dream. (Se ___ al mare domani, sarei contento.)",
+              "sentence": "Se ___ al mare domani, sarei contento.",
+              "answers": [
+                "andassi"
+              ],
+              "explanation": "'Se andassi al mare domani…' — andare, imperfetto congiuntivo io: andassi. Regular -are model: parlare → parlassi, andare → andassi.",
+              "dictionaryRefs": [
+                "andare",
+                "il-mare",
+                "contento"
+              ]
+            },
+            {
+              "id": "u47l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Se potessi, comprerei un gelato per tutti.",
+              "acceptedEn": [
+                "If I could, I would buy an ice cream for everyone.",
+                "If I could I would buy everyone an ice cream.",
+                "If I could, I'd buy an ice cream for everyone.",
+                "If I could, I would buy ice cream for everybody."
+              ],
+              "explanation": "'Se potessi, comprerei un gelato per tutti.' — potessi + comprerei: the dream structure, gelato edition. 💛",
+              "dictionaryRefs": [
+                "potere",
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u47l3e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct 'dream' pairing:",
+              "question": "Il periodo ipotetico giusto:",
+              "options": [
+                "Se avessi una macchina, andrei al mare.",
+                "Se avrò una macchina, vado al mare.",
+                "Se avevo una macchina, andavo al mare.",
+                "Se avessi una macchina, vado al mare."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Se avessi… andrei…' — imperfect subjunctive + conditional. The other pairs mix tenses that don't dream together.",
+              "dictionaryRefs": [
+                "la-macchina",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u47l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the plan-dream. (Unit 39 recycling — dreaming about the trip 💛)",
+              "sentence": "Se prenotassimo l'albergo, ___ una camera.",
+              "answers": [
+                "avremmo"
+              ],
+              "explanation": "'Se prenotassimo l'albergo, avremmo una camera.' — prenotassimo (noi, imperfetto congiuntivo) + avremmo (conditional noi). The hotel dream, conditional-perfect-safe.",
+              "dictionaryRefs": [
+                "prenotare",
+                "l-albergo",
+                "la-camera"
+              ]
+            },
+            {
+              "id": "u47l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Se",
+                "potessi,",
+                "partirei",
+                "domani."
+              ],
+              "correctSentence": "Se potessi, partirei domani.",
+              "explanation": "'Se potessi, partirei domani.' — potessi after se, partirei in front. 💛",
+              "dictionaryRefs": [
+                "potere",
+                "partire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u47l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (the island house)",
+              "sourceEn": "If I had a house on the island, I would be very happy.",
+              "acceptedIt": [
+                "Se avessi una casa sull'isola, sarei molto contento.",
+                "Se avessi una casa sull'isola sarei molto contento.",
+                "Se avessi una casa sull'isola, sarei molto contenta.",
+                "Se avessi una casa sull'isola sarei molto contenta."
+              ],
+              "explanation": "'Se avessi una casa sull'isola, sarei molto contento.' — avessi (avere, subjunctive) + sarei (essere, conditional). One house, two auxiliaries, one dream. 💛",
+              "dictionaryRefs": [
+                "l-isola",
+                "la-casa",
+                "contento"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u47l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "il-sogno",
+            "ricco",
+            "la-macchina",
+            "l-isola",
+            "il-mare",
+            "partire",
+            "contento",
+            "domani"
+          ],
+          "exercises": [
+            {
+              "id": "u47l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Se fossi ricco, comprerei una macchina.",
+              "options": [
+                "If I were rich, I would buy a car.",
+                "If I were rich, I would buy the machine.",
+                "When I am rich, I will buy a car.",
+                "I am rich and I bought a car."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Se fossi ricco, comprerei una macchina.' — fossi + comprerei: the dream pair. 💛",
+              "dictionaryRefs": [
+                "ricco",
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u47l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Se potessi, partirei domani.",
+              "acceptedIt": [
+                "Se potessi, partirei domani.",
+                "Se potessi, partirei domani",
+                "Se potessi partirei domani.",
+                "Se potessi partirei domani"
+              ],
+              "explanation": "You heard: 'Se potessi, partirei domani.' — potessi (subjunctive) + partirei (conditional).",
+              "dictionaryRefs": [
+                "potere",
+                "partire",
+                "domani"
+              ]
+            },
+            {
+              "id": "u47l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (the swapped halves)",
+              "mode": "choice",
+              "speakIt": "Comprerei una casa se fossi ricco.",
+              "options": [
+                "I would buy a house if I were rich.",
+                "I will buy a house when I am rich.",
+                "I bought a house because I am rich.",
+                "If I buy a house, I will be rich."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Comprerei una casa se fossi ricco.' — halves swapped, tenses intact: conditional + subjunctive.",
+              "dictionaryRefs": [
+                "ricco",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u47l4e4",
+              "type": "speaking",
+              "prompt": "Say the dream: 'If I were rich, I would buy a car.' 💛",
+              "targetIt": "Se fossi ricco, comprerei una macchina.",
+              "minAccuracy": 0.7,
+              "explanation": "'Se fossi ricco, comprerei una macchina.' — se FOS-si RIK-ko, kom-pre-REI una MA-ki-na. 💛",
+              "dictionaryRefs": [
+                "ricco",
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u47l4e5",
+              "type": "speaking",
+              "prompt": "Say the wish: 'If I could, I would leave tomorrow.'",
+              "targetIt": "Se potessi, partirei domani.",
+              "minAccuracy": 0.7,
+              "explanation": "'Se potessi, partirei domani.' — se po-TES-si, par-ti-REI do-MA-ni.",
+              "dictionaryRefs": [
+                "potere",
+                "partire"
+              ]
+            },
+            {
+              "id": "u47l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Se avessi una macchina, andrei al mare.",
+              "acceptedIt": [
+                "Se avessi una macchina, andrei al mare.",
+                "Se avessi una macchina, andrei al mare",
+                "Se avessi una macchina andrei al mare."
+              ],
+              "explanation": "You heard: 'Se avessi una macchina, andrei al mare.' — avessi + andrei, the workhorse dream.",
+              "dictionaryRefs": [
+                "la-macchina",
+                "andare",
+                "il-mare"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u47c",
+        "exercises": [
+          {
+            "id": "u47ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il sogno",
+            "options": [
+              "the dream",
+              "the sleep",
+              "the song",
+              "the sound"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il sogno' (m) = the dream. 'Sogno un'isola' uses its verb twin (sognare, Unit 48).",
+            "dictionaryRefs": [
+              "il-sogno"
+            ]
+          },
+          {
+            "id": "u47ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the dream. 💛 (Se ___ ricco, comprerei una macchina.)",
+            "sentence": "Se ___ ricco, comprerei una macchina.",
+            "answers": [
+              "fossi"
+            ],
+            "explanation": "'Se fossi ricco…' — essere, imperfetto congiuntivo: fossi. 💛",
+            "dictionaryRefs": [
+              "ricco",
+              "la-macchina"
+            ]
+          },
+          {
+            "id": "u47ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "If I were rich, I would buy a house.",
+            "acceptedIt": [
+              "Se fossi ricco, comprerei una casa.",
+              "Se fossi ricco comprerei una casa.",
+              "Se fossi ricco, comprerei una casa",
+              "Comprerei una casa se fossi ricco."
+            ],
+            "explanation": "'Se fossi ricco, comprerei una casa.' — subjunctive after se, conditional in the main clause. 💛",
+            "dictionaryRefs": [
+              "ricco",
+              "la-casa"
+            ]
+          },
+          {
+            "id": "u47ce4",
+            "type": "multiple_choice",
+            "prompt": "Which sentence is correct?",
+            "question": "Il sogno grammaticalmente giusto:",
+            "options": [
+              "Se avessi una macchina, andrei al mare.",
+              "Se avrei una macchina, andrei al mare.",
+              "Se avevo una macchina, andavo al mare.",
+              "Se avessi una macchina, vado al mare."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Se avessi… andrei…' — the conditional never follows se; the imperfect subjunctive does.",
+            "dictionaryRefs": [
+              "la-macchina",
+              "il-mare"
+            ]
+          },
+          {
+            "id": "u47ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Se potessi, viaggerei di più.",
+            "acceptedEn": [
+              "If I could, I would travel more.",
+              "If I could I would travel more.",
+              "If I could, I'd travel more."
+            ],
+            "explanation": "'Se potessi, viaggerei di più.' — potessi (subjunctive) + viaggerei (conditional).",
+            "dictionaryRefs": [
+              "potere",
+              "viaggiare"
+            ]
+          },
+          {
+            "id": "u47ce6",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Se",
+              "fossi",
+              "ricco,",
+              "comprerei",
+              "una",
+              "macchina."
+            ],
+            "correctSentence": "Se fossi ricco, comprerei una macchina.",
+            "explanation": "'Se fossi ricco, comprerei una macchina.' 💛",
+            "dictionaryRefs": [
+              "ricco",
+              "la-macchina"
+            ]
+          },
+          {
+            "id": "u47ce7",
+            "type": "fill_blank",
+            "prompt": "Complete the dream. (Se avessi una macchina, andrei al ___.)",
+            "sentence": "Se avessi una macchina, andrei al ___.",
+            "answers": [
+              "mare"
+            ],
+            "explanation": "'…andrei al mare.' — Unit 20's favorite destination, now reachable by dream car.",
+            "dictionaryRefs": [
+              "la-macchina",
+              "andare",
+              "il-mare"
+            ]
+          },
+          {
+            "id": "u47ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Se fossi ricco, comprerei una macchina.",
+            "options": [
+              "If I were rich, I would buy a car.",
+              "If I were rich, I would buy a machine.",
+              "When I am rich, I buy a car.",
+              "I was rich and bought a car."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Se fossi ricco, comprerei una macchina.' 💛",
+            "dictionaryRefs": [
+              "ricco",
+              "la-macchina"
+            ]
+          },
+          {
+            "id": "u47ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Se potessi, partirei domani.",
+            "acceptedIt": [
+              "Se potessi, partirei domani.",
+              "Se potessi, partirei domani",
+              "Se potessi partirei domani."
+            ],
+            "explanation": "You heard: 'Se potessi, partirei domani.'",
+            "dictionaryRefs": [
+              "potere",
+              "partire"
+            ]
+          },
+          {
+            "id": "u47ce10",
+            "type": "speaking",
+            "prompt": "Say the start of every Italian dream: 'If I were rich.' 💛",
+            "targetIt": "Se fossi ricco.",
+            "minAccuracy": 0.7,
+            "explanation": "'Se fossi ricco.' — se FOS-si RIK-ko. Three syllables of pure imagination. 💛",
+            "dictionaryRefs": [
+              "ricco"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u48",
+      "number": 48,
+      "title": "Il congiuntivo imperfetto",
+      "lessons": [
+        {
+          "id": "u48l1",
+          "type": "vocabulary",
+          "title": "Magari, come se, il rimpianto",
+          "dictionaryRefs": [
+            "magari",
+            "come-se",
+            "il-rimpianto",
+            "sognare",
+            "ancora",
+            "sbagliare"
+          ],
+          "exercises": [
+            {
+              "id": "u48l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "magari",
+              "options": [
+                "if only!; maybe; I wish!",
+                "tomorrow",
+                "never",
+                "thank you"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Magari!' alone = I wish! With a verb: 'Magari fosse sabato!' — if only it were Saturday! The word of every dream. 💛",
+              "dictionaryRefs": [
+                "magari"
+              ]
+            },
+            {
+              "id": "u48l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "come se",
+              "options": [
+                "as if",
+                "however",
+                "as soon as",
+                "because"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Come se' = as if. 'Mi guarda come se fossi ricco.' — he looks at me as if I were rich. Grammar in lesson 2!",
+              "dictionaryRefs": [
+                "come-se"
+              ]
+            },
+            {
+              "id": "u48l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il rimpianto",
+              "options": [
+                "the regret",
+                "the dream",
+                "the mistake",
+                "the memory"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il rimpianto' (m) = the regret. 'I miei rimpianti sono pochi.' — my regrets are few. Light regrets only in this unit — heavy ones are Unit 49. 💛",
+              "dictionaryRefs": [
+                "il-rimpianto",
+                "il-ricordo"
+              ]
+            },
+            {
+              "id": "u48l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sognare",
+              "options": [
+                "to dream",
+                "to sleep",
+                "to sound",
+                "to wish harm"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sognare' = to dream — the verb of il sogno (Unit 47). 'Sogno il mare.' — I dream of the seaside.",
+              "dictionaryRefs": [
+                "sognare",
+                "il-sogno"
+              ]
+            },
+            {
+              "id": "u48l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "ancora",
+              "options": [
+                "still; yet; again",
+                "always",
+                "already",
+                "never"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ancora' = still, yet, again — context decides. 'Sei ancora qui?' — are you still here? 'Ancora una foto?' — one more photo?",
+              "dictionaryRefs": [
+                "ancora",
+                "sempre"
+              ]
+            },
+            {
+              "id": "u48l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sbagliare",
+              "options": [
+                "to make a mistake; to be wrong",
+                "to change",
+                "to exchange",
+                "to fix"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sbagliare' = to make a mistake. Its adjective you know: sbagliato (Unit 44). 'Tutti sbagliano.' — everyone makes mistakes.",
+              "dictionaryRefs": [
+                "sbagliare",
+                "sbagliato"
+              ]
+            },
+            {
+              "id": "u48l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. 💛 (If only it were Saturday!)",
+              "sentence": "___ fosse sabato!",
+              "answers": [
+                "Magari",
+                "magari"
+              ],
+              "explanation": "'Magari fosse sabato!' — magari + imperfetto congiuntivo = the wish. Lesson 2 gives you the whole tense. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "sabato"
+              ]
+            },
+            {
+              "id": "u48l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Lui parla come se sapesse tutto.",
+              "acceptedEn": [
+                "He talks as if he knew everything.",
+                "He speaks as if he knew everything.",
+                "He talks like he knows everything."
+              ],
+              "explanation": "'Lui parla come se sapesse tutto.' — come se + sapesse (imperfect subjunctive of sapere). He doesn't know — that's the point of 'as if'.",
+              "dictionaryRefs": [
+                "come-se",
+                "sapere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u48l2",
+          "type": "grammar",
+          "title": "Il congiuntivo imperfetto, a fondo",
+          "dictionaryRefs": [
+            "magari",
+            "come-se",
+            "il-rimpianto",
+            "sognare",
+            "sbagliare",
+            "sabato",
+            "domenica",
+            "peccato",
+            "venire",
+            "ricco"
+          ],
+          "grammarNotes": "IL CONGIUNTIVO IMPERFETTO — the subjunctive of wishes, regrets and 'as if'. You met the present subjunctive (Units 43–45) for hopes about NOW; the imperfect subjunctive covers the imagination: wishes with magari, unreal comparisons with come se, and the se-clause of dreams (Unit 47).\n\nFORMATION: take the io-form of the imperfetto, then the endings -ssi, -ssi, -sse, -ssimo, -ste, -ssero. Identical for -are, -ere and -ire:\nparlare: parlassi, parlassi, parlasse, parlassimo, parlaste, parlassero\ncredere: credessi, credessi, credesse, credessimo, credeste, credessero\ndormire: dormissi, dormissi, dormisse, dormissimo, dormiste, dormissero\n\nTHE USUAL SUSPECTS — irregular stems, perfectly regular endings:\nessere: fossi, fossi, fosse, fossimo, foste, fossero\navere: avessi, avessi, avesse, avessimo, aveste, avessero\nfare: facessi, facessi, facesse, facessimo, faceste, facessero\nstare: stessi, stessi, stesse, stessimo, steste, stessero\ndare: dessi, dessi, desse, dessimo, deste, dessero\ndire: dicessi, dicessi, dicesse, dicessimo, diceste, dicessero\nsapere: sapessi, sapessi, sapesse, sapessimo, sapeste, sapessero\nvedere: vedessi, vedessi, vedesse, vedessimo, vedeste, vedessero\n\nMAGARI + imperfetto congiuntivo = the wish: 'Magari fosse sabato!' — if only it were Saturday! 'Magari avessi una macchina!' 💛\n\nCOME SE + imperfetto congiuntivo = as if, present unreal: 'Mi parla come se fossi un bambino.' — he talks to me as if I were a child. For a PAST unreal, come se takes the trapassato: 'Sembra come se avesse visto un fantasma' — avesse (imperfetto congiuntivo of avere) + visto (participle).\n\nREGRET, LIGHTLY: 'Peccato che non potessi venire.' — peccato che + imperfect subjunctive for the chance that slipped away. 💛 (The deep past regret — 'se avessi saputo' — is Unit 49.)\n\ndare (presente completo): do, dai, dà, diamo, date, danno | dire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
+          "exercises": [
+            {
+              "id": "u48l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. 💛 (If only I had a car!)",
+              "sentence": "___ avessi una macchina!",
+              "answers": [
+                "Magari",
+                "magari"
+              ],
+              "explanation": "'Magari avessi una macchina!' — magari + avessi (imperfect subjunctive of avere). A wish, not a plan. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "la-macchina"
+              ]
+            },
+            {
+              "id": "u48l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (He talks as if he ___ everything.)",
+              "sentence": "Lui parla come se ___ tutto.",
+              "answers": [
+                "sapesse"
+              ],
+              "explanation": "'Lui parla come se sapesse tutto.' — come se + imperfect subjunctive: sapesse. He doesn't know everything — the grammar says so.",
+              "dictionaryRefs": [
+                "come-se",
+                "sapere"
+              ]
+            },
+            {
+              "id": "u48l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. (If only it were Saturday!)",
+              "sentence": "___ fosse sabato!",
+              "answers": [
+                "Magari",
+                "magari"
+              ],
+              "explanation": "'Magari fosse sabato!' — magari + fosse (imperfect subjunctive of essere). The weekend wish, in one word plus one verb.",
+              "dictionaryRefs": [
+                "magari",
+                "sabato"
+              ]
+            },
+            {
+              "id": "u48l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (He looks at me — as if I were rich!)",
+              "sourceEn": "He looks at me as if I were rich.",
+              "acceptedIt": [
+                "Mi guarda come se fossi ricco.",
+                "Mi guarda come se fossi ricco",
+                "Lui mi guarda come se fossi ricco.",
+                "Mi guarda come se io fossi ricco."
+              ],
+              "explanation": "'Mi guarda come se fossi ricco.' — guardare (Unit 26) + come se + fossi. The imperfect subjunctive makes the comparison unreal: I'm not rich. 💛",
+              "dictionaryRefs": [
+                "guardare",
+                "come-se",
+                "ricco"
+              ]
+            },
+            {
+              "id": "u48l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (the wish about Giulia)",
+              "sourceEn": "If only Giulia could come!",
+              "acceptedIt": [
+                "Magari Giulia potesse venire!",
+                "Magari potesse venire Giulia!",
+                "Magari Giulia potesse venire",
+                "Magari Giulia potesse venire."
+              ],
+              "explanation": "'Magari Giulia potesse venire!' — magari + potesse (imperfect subjunctive of potere). Wishing her there. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u48l2e6",
+              "type": "multiple_choice",
+              "prompt": "Which verb form fits? (a missed chance yesterday)",
+              "question": "Peccato che ieri non ___ venire.",
+              "options": [
+                "potessi",
+                "possa",
+                "potrò",
+                "puoi"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Peccato che ieri non potessi venire.' — peccato che + imperfetto congiuntivo for the chance that didn't happen. The present subjunctive (possa) would be about now.",
+              "dictionaryRefs": [
+                "peccato",
+                "potere"
+              ]
+            },
+            {
+              "id": "u48l2e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Mi parla come se sapessi tutto.",
+              "options": [
+                "He talks to me as if I knew everything.",
+                "He talks to me because I know everything.",
+                "He talked to me as if I knew everything.",
+                "He talks to me so that I learn everything."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi parla come se sapessi tutto.' — come se + imperfect subjunctive = unreal comparison, present time. Not because, not so that — as if.",
+              "dictionaryRefs": [
+                "come-se",
+                "sapere"
+              ]
+            },
+            {
+              "id": "u48l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Magari fosse sabato!",
+              "acceptedEn": [
+                "If only it were Saturday!",
+                "If only it was Saturday!",
+                "I wish it were Saturday!",
+                "I wish it was Saturday!"
+              ],
+              "explanation": "'Magari fosse sabato!' — magari + fosse. Two words, one whole weekend of wishing. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "sabato"
+              ]
+            },
+            {
+              "id": "u48l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Mi",
+                "guarda",
+                "come",
+                "se",
+                "fossi",
+                "ricco."
+              ],
+              "correctSentence": "Mi guarda come se fossi ricco.",
+              "explanation": "'Mi guarda come se fossi ricco.' — mi + guarda + come se + fossi. 💛",
+              "dictionaryRefs": [
+                "guardare",
+                "come-se",
+                "ricco"
+              ]
+            },
+            {
+              "id": "u48l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (the light regret)",
+              "tokens": [
+                "Peccato",
+                "che",
+                "non",
+                "potessi",
+                "venire."
+              ],
+              "correctSentence": "Peccato che non potessi venire.",
+              "explanation": "'Peccato che non potessi venire.' — peccato che + imperfetto congiuntivo: the polite, gentle regret.",
+              "dictionaryRefs": [
+                "peccato",
+                "venire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u48l3",
+          "type": "mixed",
+          "title": "Magari! — ripasso 💛",
+          "dictionaryRefs": [
+            "magari",
+            "come-se",
+            "il-rimpianto",
+            "sognare",
+            "ancora",
+            "peccato",
+            "purtroppo",
+            "sperare",
+            "domenica",
+            "la-festa",
+            "il-lavoro",
+            "stasera"
+          ],
+          "exercises": [
+            {
+              "id": "u48l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 42 recycling)",
+              "sourceEn": "Unfortunately, I can't come tonight.",
+              "acceptedIt": [
+                "Purtroppo non posso venire stasera.",
+                "Purtroppo non posso venire stasera",
+                "Purtroppo, non posso venire stasera."
+              ],
+              "explanation": "'Purtroppo non posso venire stasera.' — purtroppo (Unit 42) + venire. The apology before the grammar even starts.",
+              "dictionaryRefs": [
+                "purtroppo",
+                "venire",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u48l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 42 recycling)",
+              "question": "l'impegno",
+              "options": [
+                "the commitment; prior engagement",
+                "the promise",
+                "the request",
+                "the excuse"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'impegno' = the commitment, the thing already planned. The classic reason for a peccato.",
+              "dictionaryRefs": [
+                "l-impegno",
+                "peccato"
+              ]
+            },
+            {
+              "id": "u48l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (still at work?)",
+              "sentence": "Sei ___ a lavoro?",
+              "answers": [
+                "ancora"
+              ],
+              "explanation": "'Sei ancora a lavoro?' — ancora = still. The office at 8pm deserves the question.",
+              "dictionaryRefs": [
+                "ancora",
+                "il-lavoro"
+              ]
+            },
+            {
+              "id": "u48l3e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 43 recycling)",
+              "sourceEn": "I hope you can come.",
+              "acceptedIt": [
+                "Spero che tu possa venire.",
+                "Spero che possa venire.",
+                "Spero che tu possa venire",
+                "Spero tu possa venire."
+              ],
+              "explanation": "'Spero che tu possa venire.' — Unit 43: sperare che + present subjunctive (possa) for a real hope about now. Compare magari + potesse: a wish about an unreal world.",
+              "dictionaryRefs": [
+                "sperare",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u48l3e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the wish. 💛",
+              "question": "___ fosse domenica!",
+              "options": [
+                "Magari",
+                "Forse",
+                "Purtroppo",
+                "Peccato"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Magari fosse domenica!' — magari makes the wish; forse only guesses; purtroppo and peccato complain. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "domenica"
+              ]
+            },
+            {
+              "id": "u48l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (They talk as if they ___ everything.)",
+              "sentence": "Loro parlano come se ___ tutto.",
+              "answers": [
+                "sapessero"
+              ],
+              "explanation": "'Loro parlano come se sapessero tutto.' — loro: sapessero (-ssero ending, just like fossero). The grammar is suspicious; the speakers are sure.",
+              "dictionaryRefs": [
+                "parlare",
+                "sapere"
+              ]
+            },
+            {
+              "id": "u48l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Magari",
+                "potessi",
+                "venire!"
+              ],
+              "correctSentence": "Magari potessi venire!",
+              "explanation": "'Magari potessi venire!' — the wish in its purest form: magari + one imperfect subjunctive. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u48l3e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (the gentle apology)",
+              "sourceIt": "Peccato che non potessi venire.",
+              "acceptedEn": [
+                "Too bad you couldn't come.",
+                "It's a pity that you couldn't come.",
+                "What a pity that you couldn't come.",
+                "It's a shame you couldn't come."
+              ],
+              "explanation": "'Peccato che non potessi venire.' — peccato che + potessi: the past chance that slipped away, said kindly.",
+              "dictionaryRefs": [
+                "peccato",
+                "venire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u48l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "magari",
+            "come-se",
+            "peccato",
+            "sabato",
+            "ricco",
+            "sapere",
+            "venire"
+          ],
+          "exercises": [
+            {
+              "id": "u48l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Magari fosse sabato!",
+              "options": [
+                "If only it were Saturday!",
+                "Maybe it's Saturday.",
+                "Saturday was fine.",
+                "It's Saturday tomorrow."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Magari fosse sabato!' — magari + fosse = the wish, not a guess. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "sabato"
+              ]
+            },
+            {
+              "id": "u48l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Lui parla come se sapesse tutto.",
+              "acceptedIt": [
+                "Lui parla come se sapesse tutto.",
+                "Lui parla come se sapesse tutto",
+                "Parla come se sapesse tutto."
+              ],
+              "explanation": "You heard: 'Lui parla come se sapesse tutto.' — come se + sapesse, the unreal comparison.",
+              "dictionaryRefs": [
+                "come-se",
+                "sapere"
+              ]
+            },
+            {
+              "id": "u48l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Peccato che non potessi venire.",
+              "options": [
+                "Too bad you couldn't come.",
+                "Thank you for coming.",
+                "You can come tomorrow.",
+                "Be careful when you come."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Peccato che non potessi venire.' — peccato che + potessi: the gentle regret.",
+              "dictionaryRefs": [
+                "peccato",
+                "venire"
+              ]
+            },
+            {
+              "id": "u48l4e4",
+              "type": "speaking",
+              "prompt": "Make the wish: 'If only it were Saturday!' 💛",
+              "targetIt": "Magari fosse sabato!",
+              "minAccuracy": 0.7,
+              "explanation": "'Magari fosse sabato!' — ma-GA-ri FOS-se SA-ba-to! Two words of pure wishing. 💛",
+              "dictionaryRefs": [
+                "magari",
+                "sabato"
+              ]
+            },
+            {
+              "id": "u48l4e5",
+              "type": "speaking",
+              "prompt": "Say it: 'He talks as if he knew everything.'",
+              "targetIt": "Lui parla come se sapesse tutto.",
+              "minAccuracy": 0.7,
+              "explanation": "'Lui parla come se sapesse tutto.' — LU-i PAR-la KO-me se sa-PES-se TUT-to.",
+              "dictionaryRefs": [
+                "come-se"
+              ]
+            },
+            {
+              "id": "u48l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Mi guarda come se fossi ricco.",
+              "acceptedIt": [
+                "Mi guarda come se fossi ricco.",
+                "Mi guarda come se fossi ricco",
+                "Mi guarda come se io fossi ricco."
+              ],
+              "explanation": "You heard: 'Mi guarda come se fossi ricco.' — if only! 💛",
+              "dictionaryRefs": [
+                "guardare",
+                "come-se",
+                "ricco"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u48c",
+        "exercises": [
+          {
+            "id": "u48ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "magari",
+            "options": [
+              "if only!; maybe; I wish!",
+              "tomorrow",
+              "never",
+              "always"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Magari!' = I wish! The engine of every Italian daydream. 💛",
+            "dictionaryRefs": [
+              "magari"
+            ]
+          },
+          {
+            "id": "u48ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the wish. 💛",
+            "sentence": "___ fosse sabato!",
+            "answers": [
+              "Magari",
+              "magari"
+            ],
+            "explanation": "'Magari fosse sabato!' — magari + fosse (imperfect subjunctive of essere). 💛",
+            "dictionaryRefs": [
+              "magari",
+              "sabato"
+            ]
+          },
+          {
+            "id": "u48ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "If only Giulia could come!",
+            "acceptedIt": [
+              "Magari Giulia potesse venire!",
+              "Magari potesse venire Giulia!",
+              "Magari Giulia potesse venire",
+              "Magari Giulia potesse venire."
+            ],
+            "explanation": "'Magari Giulia potesse venire!' — magari + potesse: the wish with a name in it. 💛",
+            "dictionaryRefs": [
+              "magari",
+              "potere",
+              "venire"
+            ]
+          },
+          {
+            "id": "u48ce4",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (He talks as if he ___ everything.)",
+            "sentence": "Lui parla come se ___ tutto.",
+            "answers": [
+              "sapesse"
+            ],
+            "explanation": "'Lui parla come se sapesse tutto.' — come se + imperfect subjunctive.",
+            "dictionaryRefs": [
+              "come-se",
+              "sapere"
+            ]
+          },
+          {
+            "id": "u48ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Lui parla come se sapesse tutto.",
+            "acceptedEn": [
+              "He talks as if he knew everything.",
+              "He speaks as if he knew everything.",
+              "He talks like he knows everything."
+            ],
+            "explanation": "'Lui parla come se sapesse tutto.' — 'as if', not 'because'.",
+            "dictionaryRefs": [
+              "come-se",
+              "sapere"
+            ]
+          },
+          {
+            "id": "u48ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the question. (still here?)",
+            "sentence": "Sei ___ qui?",
+            "answers": [
+              "ancora"
+            ],
+            "explanation": "'Sei ancora qui?' — ancora = still.",
+            "dictionaryRefs": [
+              "ancora"
+            ]
+          },
+          {
+            "id": "u48ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Mi",
+              "guarda",
+              "come",
+              "se",
+              "fossi",
+              "ricco."
+            ],
+            "correctSentence": "Mi guarda come se fossi ricco.",
+            "explanation": "'Mi guarda come se fossi ricco.' — come se + fossi. 💛",
+            "dictionaryRefs": [
+              "guardare",
+              "come-se"
+            ]
+          },
+          {
+            "id": "u48ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Magari fosse sabato!",
+            "options": [
+              "If only it were Saturday!",
+              "Maybe it's Saturday.",
+              "Saturday was fine.",
+              "Tomorrow is Saturday."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Magari fosse sabato!' 💛",
+            "dictionaryRefs": [
+              "magari",
+              "sabato"
+            ]
+          },
+          {
+            "id": "u48ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Peccato che non potessi venire.",
+            "acceptedIt": [
+              "Peccato che non potessi venire.",
+              "Peccato che non potessi venire",
+              "Peccato che non potessi venire!"
+            ],
+            "explanation": "You heard: 'Peccato che non potessi venire.'",
+            "dictionaryRefs": [
+              "peccato",
+              "venire"
+            ]
+          },
+          {
+            "id": "u48ce10",
+            "type": "speaking",
+            "prompt": "Make the wish: 'If only it were Saturday!' 💛",
+            "targetIt": "Magari fosse sabato!",
+            "minAccuracy": 0.7,
+            "explanation": "'Magari fosse sabato!' — ma-GA-ri FOS-se SA-ba-to! 💛",
+            "dictionaryRefs": [
+              "magari",
+              "sabato"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u49",
+      "number": 49,
+      "title": "Il periodo ipotetico II",
+      "lessons": [
+        {
+          "id": "u49l1",
+          "type": "vocabulary",
+          "title": "Dire, decidere, l'occasione",
+          "dictionaryRefs": [
+            "dire",
+            "decidere",
+            "accettare",
+            "tardi",
+            "prima",
+            "l-occasione"
+          ],
+          "exercises": [
+            {
+              "id": "u49l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dire",
+              "options": [
+                "to say; to tell",
+                "to do",
+                "to give",
+                "to ask"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dire' = to say, to tell. 'Cosa vuoi dirmi?' — what do you want to tell me? Its participle is detto (Unit 36) — you'll need it in lesson 2. 💛",
+              "dictionaryRefs": [
+                "dire",
+                "volere"
+              ]
+            },
+            {
+              "id": "u49l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "decidere",
+              "options": [
+                "to decide",
+                "to decline",
+                "to decipher",
+                "to disconnect"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Decidere' = to decide. 'Decido io.' — I'll decide. Regular -ere verb with participle deciso (Unit 37's list already has it).",
+              "dictionaryRefs": [
+                "decidere"
+              ]
+            },
+            {
+              "id": "u49l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "accettare",
+              "options": [
+                "to accept",
+                "to except",
+                "to expect",
+                "to excuse"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Accettare' = to accept. 'Accetto il tuo invito.' — I accept your invitation (Unit 41!). Saying yes, formally. 💛",
+              "dictionaryRefs": [
+                "accettare",
+                "l-invito"
+              ]
+            },
+            {
+              "id": "u49l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'occasione",
+              "options": [
+                "the opportunity; the chance",
+                "the accident",
+                "the occasion (party)",
+                "the excuse"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'occasione' (f, l' before the vowel) = the opportunity, the chance. 'È l'occasione giusta.' — it's the right opportunity (giusto, Unit 44).",
+              "dictionaryRefs": [
+                "l-occasione",
+                "giusto"
+              ]
+            },
+            {
+              "id": "u49l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "tardi",
+              "options": [
+                "late",
+                "early",
+                "slow",
+                "tired"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Tardi' = late. 'Non fare tardi!' — don't be late! A classic mum line, and the seed of every 'se fossi partito prima' regret. 💛",
+              "dictionaryRefs": [
+                "tardi"
+              ]
+            },
+            {
+              "id": "u49l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "prima",
+              "options": [
+                "earlier; before",
+                "only",
+                "afterwards",
+                "soon"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Prima' = earlier, before. 'Prima o poi.' — sooner or later (poi, Unit 30). The word every regret is built on: I should have done it prima.",
+              "dictionaryRefs": [
+                "prima",
+                "poi"
+              ]
+            },
+            {
+              "id": "u49l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. 💛 (To the invitation — yes!)",
+              "sentence": "___ il tuo invito, grazie.",
+              "answers": [
+                "Accetto",
+                "accetto"
+              ],
+              "explanation": "'Accetto il tuo invito, grazie.' — accept + the invitation: the happiest sentence of Unit 41, finally in Italian. 💛",
+              "dictionaryRefs": [
+                "accettare",
+                "l-invito"
+              ]
+            },
+            {
+              "id": "u49l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ho deciso: parto domani.",
+              "acceptedEn": [
+                "I've decided: I'm leaving tomorrow.",
+                "I have decided: I leave tomorrow.",
+                "I decided: I'm leaving tomorrow.",
+                "I've made my decision: I'm leaving tomorrow."
+              ],
+              "explanation": "'Ho deciso: parto domani.' — ho deciso (passato prossimo with avere: deciso, Unit 36) + parto (present for the near future, Unit 31's trick).",
+              "dictionaryRefs": [
+                "decidere",
+                "partire",
+                "domani"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u49l2",
+          "type": "grammar",
+          "title": "Se avessi saputo…",
+          "dictionaryRefs": [
+            "dire",
+            "decidere",
+            "accettare",
+            "tardi",
+            "prima",
+            "l-occasione",
+            "sapere",
+            "l-invito",
+            "la-verita",
+            "partire",
+            "l-appuntamento"
+          ],
+          "grammarNotes": "IL PERIODO IPOTETICO, TIPO 3 — the regret tense. Structure: SE + trapassato congiuntivo, then CONDIZIONALE PASSATO. Both halves are about the PAST, and both are untrue: 'Se avessi saputo, sarei venuto.' — I didn't know; I didn't come. 💛\n\nTRAPASSATO CONGIUNTIVO = imperfetto congiuntivo of avere/essere + participle (Units 36–37). The two auxiliaries, in full again:\navere: avessi, avessi, avesse, avessimo, aveste, avessero → 'avessi saputo' — if I had known\nessere: fossi, fossi, fosse, fossimo, foste, fossero → 'fossi partito/a' — if I had left\n\nCONDIZIONALE PASSATO = condizionale of avere/essere + participle (Unit 42's endings, Unit 36–37's participle):\navere: avrei, avresti, avrebbe, avremmo, avreste, avrebbero → 'avrei detto' — I would have said\nessere: sarei, saresti, sarebbe, saremmo, sareste, sarebbero → 'sarei andato/a' — I would have gone\n\nESSERE OR AVERE? The passato prossimo rule (Unit 27), unchanged: movement and state-change verbs take essere — 'sarei partito', 'sarei arrivato' — and the participle agrees: 'Giulia sarebbe partita'. Verbs with a direct object take avere: 'avrei detto la verità', 'avrei accettato'.\n\nPARTICIPLES ON DUTY: detto (dire), saputo (sapere), fatto (fare), andato (andare), accettato (accettare), deciso (decidere) — regular, reliable, already yours.\n\nTHE GREAT REGRETS:\n• 'Se avessi saputo, ti avrei detto tutto.' — I didn't know, so I said nothing.\n• 'Se fossi partito prima, non sarei arrivato tardi.' — the eternal commute. 💛\n• 'Avrei accettato, se avessi potuto.' — halves can swap, tenses cannot.\n\nGENTLE VARIATION: the consequence can jump to the present when a past cause has present effects: 'Se avessi studiato, ora saprei la risposta.' — saprei is the plain conditional (Unit 41). Keep it rare; the past–past pairing is the core.\n\nESSERE (present, full): sono, sei, è, siamo, siete, sono | AVERE (present, full): ho, hai, ha, abbiamo, avete, hanno.\n\ndire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
+          "exercises": [
+            {
+              "id": "u49l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the regret. 💛 (Se avessi saputo, ti ___ detto tutto.)",
+              "sentence": "Se avessi saputo, ti ___ detto tutto.",
+              "answers": [
+                "avrei"
+              ],
+              "explanation": "'Se avessi saputo, ti avrei detto tutto.' — avrei detto: conditional of avere + detto. The regret in its national form. 💛",
+              "dictionaryRefs": [
+                "sapere",
+                "dire"
+              ]
+            },
+            {
+              "id": "u49l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the regret. (If I had left earlier, I wouldn't have arrived late.)",
+              "sentence": "Se fossi partito ___, non sarei arrivato tardi.",
+              "answers": [
+                "prima"
+              ],
+              "explanation": "'Se fossi partito prima…' — fossi partito (trapassato congiuntivo of partire, essere!) + prima. The two regret words of this unit in one sentence.",
+              "dictionaryRefs": [
+                "partire",
+                "prima",
+                "tardi"
+              ]
+            },
+            {
+              "id": "u49l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I would have accepted, if I had been able to.)",
+              "sentence": "___ accettato, se avessi potuto.",
+              "answers": [
+                "Avrei",
+                "avrei"
+              ],
+              "explanation": "'Avrei accettato, se avessi potuto.' — avrei accettato (conditional perfect) + avessi potuto (past perfect subjunctive). Halves swapped, grammar intact.",
+              "dictionaryRefs": [
+                "accettare",
+                "potere"
+              ]
+            },
+            {
+              "id": "u49l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "If I had known, I would have told you.",
+              "acceptedIt": [
+                "Se avessi saputo, ti avrei detto.",
+                "Se avessi saputo ti avrei detto.",
+                "Se avessi saputo, ti avrei detto",
+                "Ti avrei detto se avessi saputo.",
+                "Se l'avessi saputo, te l'avrei detto."
+              ],
+              "explanation": "'Se avessi saputo, ti avrei detto.' — avessi saputo (past perfect subjunctive) + avrei detto (conditional perfect). The sentence that could have changed everything. 💛",
+              "dictionaryRefs": [
+                "sapere",
+                "dire"
+              ]
+            },
+            {
+              "id": "u49l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Giulia would have accepted the invitation.",
+              "acceptedIt": [
+                "Giulia avrebbe accettato l'invito.",
+                "Giulia avrebbe accettato l'invito",
+                "Giulia avrebbe accettato l invito.",
+                "Avrebbe accettato l'invito."
+              ],
+              "explanation": "'Giulia avrebbe accettato l'invito.' — avrebbe accettato: conditional of avere + accettato. With l'invito from Unit 41: the yes that stayed unsaid. 💛",
+              "dictionaryRefs": [
+                "accettare",
+                "l-invito"
+              ]
+            },
+            {
+              "id": "u49l2e6",
+              "type": "multiple_choice",
+              "prompt": "Which sentence is correct?",
+              "question": "Il rimpianto grammaticalmente giusto:",
+              "options": [
+                "Se avessi saputo, sarei venuto.",
+                "Se avrei saputo, sarei venuto.",
+                "Se sapevo, sarei venuto.",
+                "Se saputo, avrei venuto."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Se avessi saputo, sarei venuto.' — trapassato congiuntivo after se (avessi saputo), condizionale passato in the main clause (sarei venuto, essere + venuto). 'Se avrei…' is the eternal mistake.",
+              "dictionaryRefs": [
+                "sapere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u49l2e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Se fossi partito prima, non sarei arrivato tardi.",
+              "options": [
+                "If I had left earlier, I wouldn't have arrived late.",
+                "If I left earlier, I won't arrive late.",
+                "If I leave first, I don't arrive late.",
+                "When I left early, I didn't arrive late."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Se fossi partito prima, non sarei arrivato tardi.' — fossi partito (if I had left) + sarei arrivato (I would have arrived): pure past regret. 💛",
+              "dictionaryRefs": [
+                "partire",
+                "prima",
+                "tardi"
+              ]
+            },
+            {
+              "id": "u49l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Se avessimo deciso prima, avremmo prenotato.",
+              "acceptedEn": [
+                "If we had decided earlier, we would have booked.",
+                "If we had decided before, we would have made a reservation.",
+                "If we had decided earlier we would have booked."
+              ],
+              "explanation": "'Se avessimo deciso prima, avremmo prenotato.' — avessimo deciso (noi) + avremmo prenotato (Unit 25's verb). Two auxiliaries, one regret, no room at the hotel.",
+              "dictionaryRefs": [
+                "decidere",
+                "prenotare",
+                "prima"
+              ]
+            },
+            {
+              "id": "u49l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Se",
+                "avessi",
+                "saputo,",
+                "ti",
+                "avrei",
+                "detto."
+              ],
+              "correctSentence": "Se avessi saputo, ti avrei detto.",
+              "explanation": "'Se avessi saputo, ti avrei detto.' — the regret in six words. 💛",
+              "dictionaryRefs": [
+                "sapere",
+                "dire"
+              ]
+            },
+            {
+              "id": "u49l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (the swapped halves)",
+              "tokens": [
+                "Avrei",
+                "accettato",
+                "se",
+                "avessi",
+                "potuto."
+              ],
+              "correctSentence": "Avrei accettato se avessi potuto.",
+              "explanation": "'Avrei accettato se avessi potuto.' — conditional perfect in front, past perfect subjunctive after se, always.",
+              "dictionaryRefs": [
+                "accettare",
+                "potere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u49l3",
+          "type": "mixed",
+          "title": "Rimpianti — ripasso 💛",
+          "dictionaryRefs": [
+            "dire",
+            "decidere",
+            "accettare",
+            "tardi",
+            "prima",
+            "l-occasione",
+            "l-invito",
+            "l-appuntamento",
+            "la-verita",
+            "il-biglietto",
+            "il-treno",
+            "la-stazione",
+            "peccato",
+            "il-compleanno",
+            "il-regalo"
+          ],
+          "exercises": [
+            {
+              "id": "u49l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 41 recycling) 💛",
+              "sourceEn": "I would have said yes.",
+              "acceptedIt": [
+                "Avrei detto di sì.",
+                "Avrei detto di si.",
+                "Avrei detto di sì",
+                "Avrei detto sì.",
+                "Avrei detto si."
+              ],
+              "explanation": "'Avrei detto di sì.' — conditional of avere + detto (dire), plus Unit 1's sì. The yes that lives in the past conditional. 💛",
+              "dictionaryRefs": [
+                "dire",
+                "si"
+              ]
+            },
+            {
+              "id": "u49l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 25 recycling)",
+              "question": "l'appuntamento",
+              "options": [
+                "the appointment; the date",
+                "the invitation",
+                "the price",
+                "the train ticket"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'appuntamento' = the appointment, the date. Some appuntamenti you miss — and then comes this unit's grammar.",
+              "dictionaryRefs": [
+                "l-appuntamento"
+              ]
+            },
+            {
+              "id": "u49l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the regret. 💛 (the invitation you didn't take)",
+              "sentence": "Se avessi ___ l'invito, sarei venuto.",
+              "answers": [
+                "accettato"
+              ],
+              "explanation": "'Se avessi accettato l'invito, sarei venuto.' — avessi accettato (avere + accettato) + sarei venuto (essere + venuto). One night, two auxiliaries. 💛",
+              "dictionaryRefs": [
+                "accettare",
+                "l-invito",
+                "venire"
+              ]
+            },
+            {
+              "id": "u49l3e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 42 + 48 recycling — the gentle version)",
+              "sourceEn": "It's a pity that you couldn't come.",
+              "acceptedIt": [
+                "Peccato che non potessi venire.",
+                "Peccato che non potessi venire",
+                "Peccato che tu non potessi venire."
+              ],
+              "explanation": "'Peccato che non potessi venire.' — Unit 48's peccato che + imperfect subjunctive: the kind regret. Unit 49 would add '…avrei preparato la cena' — but peccato stays gentle.",
+              "dictionaryRefs": [
+                "peccato",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u49l3e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct regret:",
+              "question": "Il rimpianto perfetto:",
+              "options": [
+                "Se avessi saputo, avrei detto la verità.",
+                "Se avrei saputo, avrei detto la verità.",
+                "Se sapessi, direi la verità.",
+                "Se sapevo, dicevo la verità."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Se avessi saputo, avrei detto la verità.' — past perfect subjunctive + conditional perfect, and Unit 44's la verità as the object.",
+              "dictionaryRefs": [
+                "sapere",
+                "dire",
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u49l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the regret. (Unit 39 recycling — the missed train)",
+              "sentence": "Se avessi deciso ___, avremmo preso il treno.",
+              "answers": [
+                "prima"
+              ],
+              "explanation": "'Se avessi deciso prima, avremmo preso il treno.' — deciso (avere) but preso also avere (prendere takes avere, Unit 36). The station regret. 💛",
+              "dictionaryRefs": [
+                "decidere",
+                "prima",
+                "il-treno"
+              ]
+            },
+            {
+              "id": "u49l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 39 recycling)",
+              "tokens": [
+                "Se",
+                "fossi",
+                "partito",
+                "prima,",
+                "sarei",
+                "arrivato",
+                "in",
+                "orario."
+              ],
+              "correctSentence": "Se fossi partito prima, sarei arrivato in orario.",
+              "explanation": "'Se fossi partito prima, sarei arrivato in orario.' — partito and arrivato both take essere: movement verbs, Unit 27's rule holding the schedule together. 💛",
+              "dictionaryRefs": [
+                "partire",
+                "prima",
+                "l-orario"
+              ]
+            },
+            {
+              "id": "u49l3e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 17 recycling)",
+              "sourceIt": "Se avessimo saputo del compleanno, avremmo comprato un regalo.",
+              "acceptedEn": [
+                "If we had known about the birthday, we would have bought a gift.",
+                "If we had known about the birthday we would have bought a present.",
+                "If we'd known about the birthday, we would have bought a gift."
+              ],
+              "explanation": "'Se avessimo saputo del compleanno, avremmo comprato un regalo.' — saputo (sapere) and comprato (comprare) both take avere. The birthday regret, gift included. 💛",
+              "dictionaryRefs": [
+                "sapere",
+                "comprare",
+                "il-compleanno",
+                "il-regalo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u49l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "dire",
+            "accettare",
+            "sapere",
+            "partire",
+            "l-invito",
+            "tardi",
+            "prima"
+          ],
+          "exercises": [
+            {
+              "id": "u49l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Se avessi saputo, ti avrei detto.",
+              "options": [
+                "If I had known, I would have told you.",
+                "If I knew, I would tell you.",
+                "If you had known, you would have told me.",
+                "I know, and I told you."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Se avessi saputo, ti avrei detto.' — avessi saputo + avrei detto: the past regret. 💛",
+              "dictionaryRefs": [
+                "sapere",
+                "dire"
+              ]
+            },
+            {
+              "id": "u49l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Se fossi partito prima, non sarei arrivato tardi.",
+              "acceptedIt": [
+                "Se fossi partito prima, non sarei arrivato tardi.",
+                "Se fossi partito prima, non sarei arrivato tardi",
+                "Se fossi partito prima non sarei arrivato tardi."
+              ],
+              "explanation": "You heard: 'Se fossi partito prima, non sarei arrivato tardi.' — fossi partito (essere!) + sarei arrivato (essere!).",
+              "dictionaryRefs": [
+                "partire",
+                "tardi",
+                "prima"
+              ]
+            },
+            {
+              "id": "u49l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Giulia avrebbe accettato l'invito.",
+              "options": [
+                "Giulia would have accepted the invitation.",
+                "Giulia will accept the invitation.",
+                "Giulia accepted the invitation.",
+                "Giulia has accepted the invitation."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Giulia avrebbe accettato l'invito.' — avrebbe accettato: the yes that never happened. 💛",
+              "dictionaryRefs": [
+                "accettare",
+                "l-invito"
+              ]
+            },
+            {
+              "id": "u49l4e4",
+              "type": "speaking",
+              "prompt": "Say the regret: 'If I had known, I would have told you.' 💛",
+              "targetIt": "Se avessi saputo, ti avrei detto.",
+              "minAccuracy": 0.7,
+              "explanation": "'Se avessi saputo, ti avrei detto.' — se a-VES-si sa-PU-to, ti a-VREI DE-to. 💛",
+              "dictionaryRefs": [
+                "sapere",
+                "dire"
+              ]
+            },
+            {
+              "id": "u49l4e5",
+              "type": "speaking",
+              "prompt": "Say it: 'I would have accepted.'",
+              "targetIt": "Avrei accettato.",
+              "minAccuracy": 0.7,
+              "explanation": "'Avrei accettato.' — a-VREI ak-chet-TA-to. Short, elegant, too late.",
+              "dictionaryRefs": [
+                "accettare"
+              ]
+            },
+            {
+              "id": "u49l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Avrei accettato, se avessi potuto.",
+              "acceptedIt": [
+                "Avrei accettato, se avessi potuto.",
+                "Avrei accettato, se avessi potuto",
+                "Avrei accettato se avessi potuto.",
+                "Se avessi potuto, avrei accettato."
+              ],
+              "explanation": "You heard: 'Avrei accettato, se avessi potuto.' — halves swapped, tenses loyal.",
+              "dictionaryRefs": [
+                "accettare",
+                "potere"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u49c",
+        "exercises": [
+          {
+            "id": "u49ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "dire",
+            "options": [
+              "to say; to tell",
+              "to do",
+              "to give",
+              "to decide"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Dire' = to say, to tell. Participle: detto.",
+            "dictionaryRefs": [
+              "dire"
+            ]
+          },
+          {
+            "id": "u49ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the regret. 💛",
+            "sentence": "Se avessi saputo, ti ___ detto tutto.",
+            "answers": [
+              "avrei"
+            ],
+            "explanation": "'Se avessi saputo, ti avrei detto tutto.' — avrei + detto: the conditional perfect. 💛",
+            "dictionaryRefs": [
+              "sapere",
+              "dire"
+            ]
+          },
+          {
+            "id": "u49ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "If I had known, I would have told you.",
+            "acceptedIt": [
+              "Se avessi saputo, ti avrei detto.",
+              "Se avessi saputo ti avrei detto.",
+              "Ti avrei detto se avessi saputo.",
+              "Se l'avessi saputo, te l'avrei detto."
+            ],
+            "explanation": "'Se avessi saputo, ti avrei detto.' — past perfect subjunctive + conditional perfect. 💛",
+            "dictionaryRefs": [
+              "sapere",
+              "dire"
+            ]
+          },
+          {
+            "id": "u49ce4",
+            "type": "multiple_choice",
+            "prompt": "Which sentence is correct?",
+            "question": "Il rimpianto giusto:",
+            "options": [
+              "Se avessi saputo, sarei venuto.",
+              "Se avrei saputo, sarei venuto.",
+              "Se sapevo, sarei venuto.",
+              "Se sapessi, sarei venuto."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Se avessi saputo, sarei venuto.' — trapassato congiuntivo after se; conditional perfect in the main clause.",
+            "dictionaryRefs": [
+              "sapere",
+              "venire"
+            ]
+          },
+          {
+            "id": "u49ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Se fossi partito prima, non sarei arrivato tardi.",
+            "acceptedEn": [
+              "If I had left earlier, I wouldn't have arrived late.",
+              "If I had left earlier I would not have arrived late.",
+              "If I'd left earlier, I wouldn't have arrived late."
+            ],
+            "explanation": "'Se fossi partito prima, non sarei arrivato tardi.' — the commute regret. 💛",
+            "dictionaryRefs": [
+              "partire",
+              "prima",
+              "tardi"
+            ]
+          },
+          {
+            "id": "u49ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the regret. (earlier!)",
+            "sentence": "Se fossi partito ___, non sarei arrivato tardi.",
+            "answers": [
+              "prima"
+            ],
+            "explanation": "'Se fossi partito prima…' — prima: the most regretted adverb in Italian.",
+            "dictionaryRefs": [
+              "prima"
+            ]
+          },
+          {
+            "id": "u49ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Se",
+              "avessi",
+              "saputo,",
+              "ti",
+              "avrei",
+              "detto."
+            ],
+            "correctSentence": "Se avessi saputo, ti avrei detto.",
+            "explanation": "'Se avessi saputo, ti avrei detto.' 💛",
+            "dictionaryRefs": [
+              "sapere",
+              "dire"
+            ]
+          },
+          {
+            "id": "u49ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Se avessi saputo, ti avrei detto.",
+            "options": [
+              "If I had known, I would have told you.",
+              "If I knew, I would tell you.",
+              "When I found out, I told you.",
+              "I knew it and I told you."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Se avessi saputo, ti avrei detto.' 💛",
+            "dictionaryRefs": [
+              "sapere",
+              "dire"
+            ]
+          },
+          {
+            "id": "u49ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Giulia avrebbe accettato l'invito.",
+            "acceptedIt": [
+              "Giulia avrebbe accettato l'invito.",
+              "Giulia avrebbe accettato l'invito",
+              "Giulia avrebbe accettato l invito."
+            ],
+            "explanation": "You heard: 'Giulia avrebbe accettato l'invito.' — avrebbe + accettato. 💛",
+            "dictionaryRefs": [
+              "accettare",
+              "l-invito"
+            ]
+          },
+          {
+            "id": "u49ce10",
+            "type": "speaking",
+            "prompt": "Say it: 'I would have accepted.' 💛",
+            "targetIt": "Avrei accettato.",
+            "minAccuracy": 0.7,
+            "explanation": "'Avrei accettato.' — a-VREI ak-chet-TA-to. 💛",
+            "dictionaryRefs": [
+              "accettare"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u50",
+      "number": 50,
+      "title": "I pronomi combinati",
+      "lessons": [
+        {
+          "id": "u50l1",
+          "type": "vocabulary",
+          "title": "Il pacco, la chiave, dare",
+          "dictionaryRefs": [
+            "il-pacco",
+            "la-chiave",
+            "prestare",
+            "restituire",
+            "il-denaro",
+            "dare"
+          ],
+          "exercises": [
+            {
+              "id": "u50l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il pacco",
+              "options": [
+                "the package; parcel",
+                "the park",
+                "the backpack",
+                "the packet of cards"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il pacco' (m) = the package, the parcel. 'C'è un pacco per te.' — there's a package for you. Who sent it? 💛",
+              "dictionaryRefs": [
+                "il-pacco",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u50l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la chiave",
+              "options": [
+                "the key",
+                "the door",
+                "the house",
+                "the chair"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La chiave' (f) = the key. 'Ho perso la chiave.' — I lost the key. Small word, big panic.",
+              "dictionaryRefs": [
+                "la-chiave",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u50l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "prestare",
+              "options": [
+                "to lend",
+                "to borrow",
+                "to prepare",
+                "to press"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Prestare' = to lend. 'Mi presti la chiave?' — can you lend me the key? (The lender lends; the borrower asks — with mi, lesson 2 makes it one word.)",
+              "dictionaryRefs": [
+                "prestare",
+                "la-chiave"
+              ]
+            },
+            {
+              "id": "u50l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "restituire",
+              "options": [
+                "to give back; to return",
+                "to restore (a building)",
+                "to rest",
+                "to substitute"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Restituire' = to give back, to return. 'Restituisco il libro giovedì.' — I'll return the book on Thursday. Like finire and capire: -isco in the io-form (Unit 12).",
+              "dictionaryRefs": [
+                "restituire",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u50l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il denaro",
+              "options": [
+                "the money",
+                "the dinner",
+                "the debt",
+                "the change (coins)"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il denaro' (m) = the money — a bit more formal than the everyday word, perfect at the bank and in exercises.",
+              "dictionaryRefs": [
+                "il-denaro",
+                "il-prezzo"
+              ]
+            },
+            {
+              "id": "u50l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "dare",
+              "options": [
+                "to give",
+                "to date",
+                "to dare",
+                "to date (fruit)"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dare' = to give. 'Dai a me!' is two words; 'Dammi!' is one. Lesson 2 fuses it with lo: dammelo! 💛",
+              "dictionaryRefs": [
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (a delivery arrives)",
+              "sentence": "C'è un ___ per te.",
+              "answers": [
+                "pacco"
+              ],
+              "explanation": "'C'è un pacco per te.' — c'è (Unit 4) + un pacco + per te. Go on, open it. 💛",
+              "dictionaryRefs": [
+                "il-pacco",
+                "ce"
+              ]
+            },
+            {
+              "id": "u50l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (to a friend)",
+              "sourceIt": "Mi presti la chiave?",
+              "acceptedEn": [
+                "Can you lend me the key?",
+                "Could you lend me the key?",
+                "Will you lend me the key?",
+                "Can you lend the key to me?"
+              ],
+              "explanation": "'Mi presti la chiave?' — mi (to me) + presti (tu of prestare) + la chiave. The mi is already there: lesson 2 adds the second pronoun.",
+              "dictionaryRefs": [
+                "prestare",
+                "la-chiave"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u50l2",
+          "type": "grammar",
+          "title": "Me lo, te ne, glielo",
+          "dictionaryRefs": [
+            "il-pacco",
+            "la-chiave",
+            "prestare",
+            "restituire",
+            "il-denaro",
+            "dare",
+            "dire",
+            "portare",
+            "andare",
+            "potere",
+            "volere",
+            "il-biglietto"
+          ],
+          "grammarNotes": "I PRONOMI COMBINATI — two pronouns, one word: me lo, te ne, glielo. Indirect (mi, ti, gli, le, ci, vi) + direct (lo, la, li, le, ne). Indirect first, direct second — and they fuse.\n\nTHE GRID: mi + lo → me lo; mi + ne → me ne. ti + lo → te lo; ti + ne → te ne. gli/le + lo → glielo; gli/le + ne → gliene. ci + lo → ce lo; vi + lo → ve lo. And loro folds into gli-: 'to them + it' is glielo too. 💛\n\nMI→ME, TI→TE: before lo/la/li/le/ne the short forms stretch: 'mi dà il libro' → 'me lo dà'. Gli and le both become GLIE-: glielo, gliela, glieli, gliele, gliene — the gender and number ride on the second half.\n\nNE counts or means 'of it': 'Te ne do uno.' — I'll give you one (of them). One word, one number, one happy friend.\n\nWITH THE IMPERATIVE they attach: dammi → dammelo; dimmi → dimmelo; porta → portamelo. The verbs behind the everyday commands:\ndare: do, dai, dà, diamo, date, danno\ndire: dico, dici, dice, diciamo, dite, dicono\nportare: porto, porti, porta, portiamo, portate, portano\n\nWITH THE INFINITIVE they attach and the -e drops: 'Posso portartelo?' — can I bring it to you? And the softeners from Units 9 and 41 join in:\npotere: posso, puoi, può, possiamo, potete, possono\nvolere (conditional): vorrei, vorresti, vorrebbe, vorremmo, vorreste, vorrebbero → 'Vorrei dirtelo.' — I'd like to tell you (it). 💛\n\nAND THE GREAT GOODBYE: 'Me ne vado!' — I'm off! (vado of andare, going away made personal):\nandare: vado, vai, va, andiamo, andate, vanno\n\nWHY IT MATTERS: this fusion is why fast Italian sounds like one long word — five written words, one breath. Master me lo / te ne / glielo and the radio suddenly has spaces in it.",
+          "exercises": [
+            {
+              "id": "u50l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the command. (Marco wants the package — one word: 'Give it to him!')",
+              "sentence": "___!",
+              "answers": [
+                "Daglielo",
+                "Daglielo!"
+              ],
+              "explanation": "'Daglielo!' = da' (give, command of dare) + gli (a lui, to him) + lo (il pacco, it). Two pronouns, one word, zero patience.",
+              "dictionaryRefs": [
+                "il-pacco",
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Two tickets — one is for you: 'I'll give you one.') 💛",
+              "sentence": "Te ___ do uno.",
+              "answers": [
+                "ne"
+              ],
+              "explanation": "'Te ne do uno.' — te (to you) + ne (of them) + do uno (I give one). Ne does the counting for you. 💛",
+              "dictionaryRefs": [
+                "il-biglietto",
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the exit line. (It's late, the party is boring — 'I'm off!')",
+              "sentence": "Me ___ vado!",
+              "answers": [
+                "ne"
+              ],
+              "explanation": "'Me ne vado!' — me (for me) + ne (away) + vado (andare). The fastest goodbye in Italian: one fused word and a door.",
+              "dictionaryRefs": [
+                "andare",
+                "tardi"
+              ]
+            },
+            {
+              "id": "u50l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (la chiave — ask a friend)",
+              "sourceEn": "Can you lend it to me?",
+              "acceptedIt": [
+                "Me lo presti?",
+                "Me lo presti",
+                "Me lo puoi prestare?",
+                "Puoi prestarmelo?",
+                "Me lo puoi prestare"
+              ],
+              "explanation": "'Me lo presti?' — me (to me) + lo (la chiave) + presti. The mi you knew becomes me before lo: that's the whole lesson in one question.",
+              "dictionaryRefs": [
+                "la-chiave",
+                "prestare"
+              ]
+            },
+            {
+              "id": "u50l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (il regalo — 'I'll give it to you tomorrow.')",
+              "sourceEn": "I'll give it to you tomorrow.",
+              "acceptedIt": [
+                "Te lo do domani.",
+                "Te lo do domani",
+                "Te lo darò domani.",
+                "Te lo daro' domani."
+              ],
+              "explanation": "'Te lo do domani.' — te (to you) + lo (il regalo) + do domani. Five English words, three Italian ones. 💛",
+              "dictionaryRefs": [
+                "dare",
+                "il-regalo",
+                "domani"
+              ]
+            },
+            {
+              "id": "u50l2e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the fast, natural version: (I'm giving it to you.)",
+              "question": "Il modo più naturale:",
+              "options": [
+                "Te lo do.",
+                "Lo do a te.",
+                "Do lo a te.",
+                "Ti lo do."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Te lo do.' — fused: te (mi→me before lo) + lo + do. 'Ti lo do' breaks the me-rule; 'Lo do a te' is grammar-book Italian, not bar Italian.",
+              "dictionaryRefs": [
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l2e7",
+              "type": "multiple_choice",
+              "prompt": "What does 'glielo' mean?",
+              "question": "Glielo:",
+              "options": [
+                "to him/her + it (gli/le + lo)",
+                "to them + it only",
+                "it for me",
+                "there it is"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Glielo' = gli (to him) or le (to her) + lo (it). Gli and le both collapse into glie-; the lo carries the 'it'. Gender lives in the second half.",
+              "dictionaryRefs": [
+                "dare",
+                "dire"
+              ]
+            },
+            {
+              "id": "u50l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Me ne vado!",
+              "acceptedEn": [
+                "I'm leaving!",
+                "I'm off!",
+                "I'm going!",
+                "I'm going away!",
+                "I'm out of here!"
+              ],
+              "explanation": "'Me ne vado!' — me ne + vado: literally 'I go (away) from here for myself'. In practice: the exit line. 💛",
+              "dictionaryRefs": [
+                "andare",
+                "tardi"
+              ]
+            },
+            {
+              "id": "u50l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Me",
+                "lo",
+                "dai",
+                "o",
+                "no?"
+              ],
+              "correctSentence": "Me lo dai o no?",
+              "explanation": "'Me lo dai o no?' — are you giving it to me or not? The question every nonna asks about the salt. 💛",
+              "dictionaryRefs": [
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (two tickets, one for you)",
+              "tokens": [
+                "Te",
+                "ne",
+                "do",
+                "uno."
+              ],
+              "correctSentence": "Te ne do uno.",
+              "explanation": "'Te ne do uno.' — te + ne + do + uno. Ne counts, te receives, do gives.",
+              "dictionaryRefs": [
+                "dare",
+                "il-biglietto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u50l3",
+          "type": "mixed",
+          "title": "Parla come un italiano — ripasso 💛",
+          "dictionaryRefs": [
+            "il-pacco",
+            "la-chiave",
+            "prestare",
+            "restituire",
+            "il-denaro",
+            "dare",
+            "il-messaggio",
+            "il-favore",
+            "la-foto",
+            "la-maglietta",
+            "il-regalo",
+            "il-biglietto",
+            "mandare"
+          ],
+          "exercises": [
+            {
+              "id": "u50l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 33 recycling — il messaggio)",
+              "sourceEn": "I'll send it to you tonight.",
+              "acceptedIt": [
+                "Te lo mando stasera.",
+                "Te lo mando stasera",
+                "Te lo mando questa sera.",
+                "Ve lo mando stasera."
+              ],
+              "explanation": "'Te lo mando stasera.' — mandare (Unit 33) + te lo: the message travels fast when the pronouns fuse.",
+              "dictionaryRefs": [
+                "il-messaggio",
+                "mandare"
+              ]
+            },
+            {
+              "id": "u50l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 32 recycling)",
+              "question": "il favore",
+              "options": [
+                "the favor",
+                "the flavor",
+                "the discount",
+                "the meeting"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il favore' = the favor (Unit 32). 'Mi fai un favore?' — and with pronouns it becomes: 'Fammi questo favore!'",
+              "dictionaryRefs": [
+                "il-favore"
+              ]
+            },
+            {
+              "id": "u50l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (due foto — 'I'll show you one of them.')",
+              "sentence": "Te ___ faccio vedere una.",
+              "answers": [
+                "ne"
+              ],
+              "explanation": "'Te ne faccio vedere una.' — ne = of them; faccio vedere = I show (literally 'I make see'). One ne, one foto, saved.",
+              "dictionaryRefs": [
+                "la-foto",
+                "vedere"
+              ]
+            },
+            {
+              "id": "u50l3e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (la maglietta — your sister's. 'Lend it to me, please!') 💛",
+              "sourceEn": "Lend it to me, please!",
+              "acceptedIt": [
+                "Prestamela, per favore!",
+                "Prestamela per favore!",
+                "Prestamela!",
+                "Prestamela"
+              ],
+              "explanation": "'Prestamela!' — presta (command of prestare) + me + la (la maglietta). Attached to the command, just like dammelo. 💛",
+              "dictionaryRefs": [
+                "la-maglietta",
+                "prestare"
+              ]
+            },
+            {
+              "id": "u50l3e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the only correct version:",
+              "question": "Dillo bene:",
+              "options": [
+                "Glielo dico io.",
+                "Gli lo dico io.",
+                "Lo gli dico io.",
+                "Glie lo dico io."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Glielo dico io.' — gli/le + lo always fuse into glielo, never gli lo. One piece, no spaces, no exceptions.",
+              "dictionaryRefs": [
+                "dire"
+              ]
+            },
+            {
+              "id": "u50l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the question. 💛 (il regalo — ask Marco: 'Are you giving it to her?')",
+              "sentence": "Glielo ___?",
+              "answers": [
+                "dai"
+              ],
+              "explanation": "'Glielo dai?' — gli (a lei, to her — Giulia) + lo (il regalo) + dai (tu of dare). One fused word plus one verb: the whole love triangle. 💛",
+              "dictionaryRefs": [
+                "il-regalo",
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Me",
+                "ne",
+                "vado!"
+              ],
+              "correctSentence": "Me ne vado!",
+              "explanation": "'Me ne vado!' — the exit, scrambled for the last time. 💛",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u50l3e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (due biglietti — 'Te ne do due.')",
+              "sourceIt": "Te ne do due.",
+              "acceptedEn": [
+                "I'll give you two.",
+                "I'll give you two of them.",
+                "I give you two.",
+                "I'll give two to you."
+              ],
+              "explanation": "'Te ne do due.' — te (to you) + ne (of them) + due (two). The ne does the math: two of the tickets.",
+              "dictionaryRefs": [
+                "il-biglietto",
+                "dare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u50l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "il-pacco",
+            "la-chiave",
+            "prestare",
+            "dare",
+            "andare",
+            "il-regalo"
+          ],
+          "exercises": [
+            {
+              "id": "u50l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Me lo dai?",
+              "options": [
+                "Are you giving it to me?",
+                "Are you giving me?",
+                "Are you going there?",
+                "Are you calling me?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Me lo dai?' — me (to me) + lo (it) + dai. The nonna question. 💛",
+              "dictionaryRefs": [
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Te ne do uno.",
+              "acceptedIt": [
+                "Te ne do uno.",
+                "Te ne do uno",
+                "Te ne do 1."
+              ],
+              "explanation": "You heard: 'Te ne do uno.' — te + ne + do + uno.",
+              "dictionaryRefs": [
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Me ne vado!",
+              "options": [
+                "I'm leaving!",
+                "I'm coming!",
+                "Give it to me!",
+                "I'm fine!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Me ne vado!' — the great goodbye, fused.",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u50l4e4",
+              "type": "speaking",
+              "prompt": "Ask a friend: 'Can you lend it to me?' (la chiave) 💛",
+              "targetIt": "Me lo presti?",
+              "minAccuracy": 0.7,
+              "explanation": "'Me lo presti?' — me lo pres-ti? Three syllables where English needs five words. 💛",
+              "dictionaryRefs": [
+                "la-chiave",
+                "prestare"
+              ]
+            },
+            {
+              "id": "u50l4e5",
+              "type": "speaking",
+              "prompt": "Say the one-word command: 'Give it to him!' (il pacco)",
+              "targetIt": "Daglielo!",
+              "minAccuracy": 0.7,
+              "explanation": "'Daglielo!' — DA-lye-lo. Da' + gli + lo: the command with two pronouns bolted on.",
+              "dictionaryRefs": [
+                "il-pacco",
+                "dare"
+              ]
+            },
+            {
+              "id": "u50l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Glielo dico io.",
+              "acceptedIt": [
+                "Glielo dico io.",
+                "Glielo dico io",
+                "Glielo dico!"
+              ],
+              "explanation": "You heard: 'Glielo dico io.' — I'll tell him/her. Glie- fused, io for emphasis.",
+              "dictionaryRefs": [
+                "dire"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u50c",
+        "exercises": [
+          {
+            "id": "u50ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il pacco",
+            "options": [
+              "the package; parcel",
+              "the park",
+              "the backpack",
+              "the palace"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il pacco' (m) = the package. 'C'è un pacco per te.' 💛",
+            "dictionaryRefs": [
+              "il-pacco"
+            ]
+          },
+          {
+            "id": "u50ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the exit line. (It's late — 'I'm off!')",
+            "sentence": "Me ___ vado!",
+            "answers": [
+              "ne"
+            ],
+            "explanation": "'Me ne vado!' — me + ne + vado. The fastest goodbye in Italian.",
+            "dictionaryRefs": [
+              "andare"
+            ]
+          },
+          {
+            "id": "u50ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (la chiave — ask a friend)",
+            "sourceEn": "Can you lend it to me?",
+            "acceptedIt": [
+              "Me lo presti?",
+              "Me lo presti",
+              "Me lo puoi prestare?",
+              "Puoi prestarmelo?"
+            ],
+            "explanation": "'Me lo presti?' — me + lo + presti. mi stretches to me before lo.",
+            "dictionaryRefs": [
+              "la-chiave",
+              "prestare"
+            ]
+          },
+          {
+            "id": "u50ce4",
+            "type": "multiple_choice",
+            "prompt": "Choose the fast, natural version: (I'm giving it to you.)",
+            "question": "Il modo più naturale:",
+            "options": [
+              "Te lo do.",
+              "Lo do a te.",
+              "Do lo a te.",
+              "Ti lo do."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Te lo do.' — fused pronouns, natural speech. 'Ti lo do' breaks the me-rule.",
+            "dictionaryRefs": [
+              "dare"
+            ]
+          },
+          {
+            "id": "u50ce5",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Me lo dai?",
+            "options": [
+              "Are you giving it to me?",
+              "Are you going away?",
+              "Are you calling me?",
+              "Are you late?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Me lo dai?' — me + lo + dai. 💛",
+            "dictionaryRefs": [
+              "dare"
+            ]
+          },
+          {
+            "id": "u50ce6",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Me ne vado!",
+            "acceptedIt": [
+              "Me ne vado!",
+              "Me ne vado",
+              "Me ne vado."
+            ],
+            "explanation": "You heard: 'Me ne vado!'",
+            "dictionaryRefs": [
+              "andare"
+            ]
+          },
+          {
+            "id": "u50ce7",
+            "type": "speaking",
+            "prompt": "Say the one-word command: 'Give it to him!' (il pacco) 💛",
+            "targetIt": "Daglielo!",
+            "minAccuracy": 0.7,
+            "explanation": "'Daglielo!' — DA-lye-lo. 💛",
+            "dictionaryRefs": [
+              "il-pacco",
+              "dare"
+            ]
+          },
+          {
+            "id": "u50ce8",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Te",
+              "ne",
+              "do",
+              "uno."
+            ],
+            "correctSentence": "Te ne do uno.",
+            "explanation": "'Te ne do uno.' — ne counts, te receives. 💛",
+            "dictionaryRefs": [
+              "dare",
+              "il-biglietto"
+            ]
+          },
+          {
+            "id": "u50ce9",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (il pacco — one word, a command: 'Bring it to me!')",
+            "sourceEn": "Bring it to me!",
+            "acceptedIt": [
+              "Portamelo!",
+              "Portamelo",
+              "Portamelo!"
+            ],
+            "explanation": "'Portamelo!' — porta (command of portare) + me + lo (il pacco). Same engine as dammelo. 💛",
+            "dictionaryRefs": [
+              "il-pacco",
+              "portare"
+            ]
+          },
+          {
+            "id": "u50ce10",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Me ne vado!",
+            "acceptedEn": [
+              "I'm leaving!",
+              "I'm off!",
+              "I'm going!",
+              "I'm going away!",
+              "I'm out of here!"
+            ],
+            "explanation": "'Me ne vado!' — the exit line, fully fused. 💛",
+            "dictionaryRefs": [
+              "andare"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -38944,6 +42847,555 @@
       "introducedInUnit": 45,
       "article": "l'",
       "gender": "f"
+    },
+    {
+      "id": "il-signore",
+      "word": "signore",
+      "article": "il",
+      "translation": "the gentleman; sir; Mr.",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Buonasera, signore.",
+          "en": "Good evening, sir."
+        },
+        {
+          "it": "Il signore è molto gentile.",
+          "en": "The gentleman is very kind."
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "la-signora",
+      "word": "la signora",
+      "article": "la",
+      "translation": "the lady; madam; Mrs.",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Buonasera, signora.",
+          "en": "Good evening, madam."
+        },
+        {
+          "it": "La signora Rossi è qui.",
+          "en": "Mrs. Rossi is here."
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "presentare",
+      "word": "presentare",
+      "translation": "to introduce; to present",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ti presento Giulia.",
+          "en": "Let me introduce Giulia to you."
+        },
+        {
+          "it": "Presento Giulia a mia madre.",
+          "en": "I introduce Giulia to my mother."
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "piacere-di-conoscerla",
+      "word": "piacere di conoscerla",
+      "translation": "pleased to meet you (formal)",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Piacere di conoscerla, signora.",
+          "en": "Pleased to meet you, madam."
+        },
+        {
+          "it": "Piacere di conoscerla!",
+          "en": "Pleased to meet you! (formal)"
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "la-fidanzata",
+      "word": "la fidanzata",
+      "article": "la",
+      "translation": "the girlfriend; fiancée",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Giulia è la mia fidanzata.",
+          "en": "Giulia is my girlfriend."
+        },
+        {
+          "it": "Ti presento la mia fidanzata. 💛",
+          "en": "Let me introduce you to my girlfriend. 💛"
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "cortese",
+      "word": "cortese",
+      "translation": "courteous; polite",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Lei è molto cortese.",
+          "en": "You are very courteous. (formal)"
+        },
+        {
+          "it": "Grazie, è molto cortese.",
+          "en": "Thank you, you are very kind."
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "dare-del-lei",
+      "word": "dare del Lei",
+      "translation": "to use formal 'you' (Lei) with someone",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Marco dà del Lei a sua nonna.",
+          "en": "Marco uses formal 'you' with his grandmother."
+        },
+        {
+          "it": "Al lavoro si dà del Lei.",
+          "en": "At work one uses formal 'you'."
+        }
+      ],
+      "introducedInUnit": 46
+    },
+    {
+      "id": "il-sogno",
+      "word": "sogno",
+      "article": "il",
+      "translation": "the dream",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Raccontami il tuo sogno.",
+          "en": "Tell me your dream."
+        },
+        {
+          "it": "Ho un sogno: il mare.",
+          "en": "I have a dream: the seaside."
+        }
+      ],
+      "introducedInUnit": 47
+    },
+    {
+      "id": "ricco",
+      "word": "ricco",
+      "translation": "rich",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Se fossi ricco…",
+          "en": "If I were rich…"
+        },
+        {
+          "it": "Mario è ricco.",
+          "en": "Mario is rich."
+        }
+      ],
+      "introducedInUnit": 47
+    },
+    {
+      "id": "viaggiare",
+      "word": "viaggiare",
+      "translation": "to travel",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Vorrei viaggiare di più.",
+          "en": "I'd like to travel more."
+        },
+        {
+          "it": "Viaggiamo insieme?",
+          "en": "Shall we travel together?"
+        }
+      ],
+      "introducedInUnit": 47
+    },
+    {
+      "id": "la-macchina",
+      "word": "la macchina",
+      "article": "la",
+      "translation": "the car",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Compro una macchina nuova.",
+          "en": "I'm buying a new car."
+        },
+        {
+          "it": "Se avessi una macchina, andrei al mare.",
+          "en": "If I had a car, I would go to the seaside."
+        }
+      ],
+      "introducedInUnit": 47
+    },
+    {
+      "id": "l-isola",
+      "word": "isola",
+      "article": "l'",
+      "translation": "the island",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Sogno un'isola.",
+          "en": "I dream of an island."
+        },
+        {
+          "it": "Una casa sull'isola.",
+          "en": "A house on the island."
+        }
+      ],
+      "introducedInUnit": 47
+    },
+    {
+      "id": "famoso",
+      "word": "famoso",
+      "translation": "famous",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Roma è famosa.",
+          "en": "Rome is famous."
+        },
+        {
+          "it": "Se fossi famoso…",
+          "en": "If I were famous…"
+        }
+      ],
+      "introducedInUnit": 47
+    },
+    {
+      "id": "magari",
+      "word": "magari",
+      "translation": "if only!; maybe; I wish!",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Magari fosse sabato!",
+          "en": "If only it were Saturday!"
+        },
+        {
+          "it": "'Vieni al mare?' 'Magari!'",
+          "en": "'Are you coming to the seaside?' 'I wish!'"
+        }
+      ],
+      "introducedInUnit": 48
+    },
+    {
+      "id": "come-se",
+      "word": "come se",
+      "translation": "as if",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Mi guarda come se fossi ricco.",
+          "en": "He looks at me as if I were rich."
+        },
+        {
+          "it": "Parla come se sapesse tutto.",
+          "en": "He talks as if he knew everything."
+        }
+      ],
+      "introducedInUnit": 48
+    },
+    {
+      "id": "il-rimpianto",
+      "word": "rimpianto",
+      "article": "il",
+      "translation": "the regret",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "I miei rimpianti sono pochi.",
+          "en": "My regrets are few."
+        },
+        {
+          "it": "Senza rimpianti!",
+          "en": "No regrets!"
+        }
+      ],
+      "introducedInUnit": 48
+    },
+    {
+      "id": "sognare",
+      "word": "sognare",
+      "translation": "to dream",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Sogno il mare.",
+          "en": "I dream of the seaside."
+        },
+        {
+          "it": "Sogni ad occhi aperti?",
+          "en": "Are you daydreaming?"
+        }
+      ],
+      "introducedInUnit": 48
+    },
+    {
+      "id": "ancora",
+      "word": "ancora",
+      "translation": "still; yet; again",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Sei ancora qui?",
+          "en": "Are you still here?"
+        },
+        {
+          "it": "Ancora una foto?",
+          "en": "One more photo?"
+        }
+      ],
+      "introducedInUnit": 48
+    },
+    {
+      "id": "sbagliare",
+      "word": "sbagliare",
+      "translation": "to make a mistake; to be wrong",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Tutti sbagliano.",
+          "en": "Everyone makes mistakes."
+        },
+        {
+          "it": "Ho sbagliato io.",
+          "en": "It was my mistake."
+        }
+      ],
+      "introducedInUnit": 48
+    },
+    {
+      "id": "dire",
+      "word": "dire",
+      "translation": "to say; to tell",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Cosa dici?",
+          "en": "What are you saying?"
+        },
+        {
+          "it": "Ti direi la verità.",
+          "en": "I would tell you the truth."
+        }
+      ],
+      "introducedInUnit": 49
+    },
+    {
+      "id": "decidere",
+      "word": "decidere",
+      "translation": "to decide",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Decido io.",
+          "en": "I'll decide."
+        },
+        {
+          "it": "Ho deciso: parto domani.",
+          "en": "I've decided: I'm leaving tomorrow."
+        }
+      ],
+      "introducedInUnit": 49
+    },
+    {
+      "id": "accettare",
+      "word": "accettare",
+      "translation": "to accept",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Accetto il tuo invito. 💛",
+          "en": "I accept your invitation. 💛"
+        },
+        {
+          "it": "Avrei accettato, ma non potevo.",
+          "en": "I would have accepted, but I couldn't."
+        }
+      ],
+      "introducedInUnit": 49
+    },
+    {
+      "id": "tardi",
+      "word": "tardi",
+      "translation": "late",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Non fare tardi!",
+          "en": "Don't be late!"
+        },
+        {
+          "it": "È tardi, me ne vado.",
+          "en": "It's late, I'm off."
+        }
+      ],
+      "introducedInUnit": 49
+    },
+    {
+      "id": "prima",
+      "word": "prima",
+      "translation": "earlier; before",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Prima o poi.",
+          "en": "Sooner or later."
+        },
+        {
+          "it": "Se fossi partito prima…",
+          "en": "If I had left earlier…"
+        }
+      ],
+      "introducedInUnit": 49
+    },
+    {
+      "id": "l-occasione",
+      "word": "occasione",
+      "article": "l'",
+      "translation": "the opportunity; the chance",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "È l'occasione giusta.",
+          "en": "It's the right opportunity."
+        },
+        {
+          "it": "Un'occasione unica!",
+          "en": "A unique opportunity!"
+        }
+      ],
+      "introducedInUnit": 49
+    },
+    {
+      "id": "il-pacco",
+      "word": "pacco",
+      "article": "il",
+      "translation": "the package; parcel",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "C'è un pacco per te.",
+          "en": "There's a package for you."
+        },
+        {
+          "it": "Daglielo, il pacco!",
+          "en": "Give it to him — the package!"
+        }
+      ],
+      "introducedInUnit": 50
+    },
+    {
+      "id": "la-chiave",
+      "word": "la chiave",
+      "article": "la",
+      "translation": "the key",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho perso la chiave.",
+          "en": "I lost the key."
+        },
+        {
+          "it": "Mi presti la chiave?",
+          "en": "Can you lend me the key?"
+        }
+      ],
+      "introducedInUnit": 50
+    },
+    {
+      "id": "prestare",
+      "word": "prestare",
+      "translation": "to lend",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Mi presti la chiave?",
+          "en": "Can you lend me the key?"
+        },
+        {
+          "it": "Te lo presto volentieri.",
+          "en": "I'll lend it to you gladly."
+        }
+      ],
+      "introducedInUnit": 50
+    },
+    {
+      "id": "restituire",
+      "word": "restituire",
+      "translation": "to give back; to return",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Restituisco il libro giovedì.",
+          "en": "I'll return the book on Thursday."
+        },
+        {
+          "it": "Te lo restituisco domani.",
+          "en": "I'll give it back to you tomorrow."
+        }
+      ],
+      "introducedInUnit": 50
+    },
+    {
+      "id": "il-denaro",
+      "word": "denaro",
+      "article": "il",
+      "translation": "the money",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il denaro non è tutto.",
+          "en": "Money isn't everything."
+        },
+        {
+          "it": "Non ho denaro con me.",
+          "en": "I don't have money with me."
+        }
+      ],
+      "introducedInUnit": 50
+    },
+    {
+      "id": "dare",
+      "word": "dare",
+      "translation": "to give",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Dammi la chiave!",
+          "en": "Give me the key!"
+        },
+        {
+          "it": "Te lo do domani.",
+          "en": "I'll give it to you tomorrow."
+        }
+      ],
+      "introducedInUnit": 50
     }
   ],
   "stories": [
