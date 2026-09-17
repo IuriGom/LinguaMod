@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 39,
+    "version": 40,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -38349,6 +38349,4415 @@
           }
         ]
       }
+    },
+    {
+      "id": "u51",
+      "number": 51,
+      "title": "La forma passiva",
+      "lessons": [
+        {
+          "id": "u51l1",
+          "type": "vocabulary",
+          "title": "Il giornale, l'articolo, il tesoro",
+          "dictionaryRefs": [
+            "il-giornale",
+            "l-articolo",
+            "il-titolo",
+            "la-fabbrica",
+            "il-tesoro",
+            "il-romanzo"
+          ],
+          "exercises": [
+            {
+              "id": "u51l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "il giornale",
+              "options": [
+                "the newspaper",
+                "the diary",
+                "the magazine",
+                "the notebook"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il giornale' (m) = the newspaper — the daily news on paper. The news itself also 'è sul giornale' (it's in the paper). News-Italian starts here. 💛",
+              "dictionaryRefs": [
+                "il-giornale"
+              ]
+            },
+            {
+              "id": "u51l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'articolo",
+              "options": [
+                "the article",
+                "the chapter",
+                "the advertisement",
+                "the opinion"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'articolo' (m, l' before the vowel) = the article — a piece of writing in the newspaper. (Also the grammar word 'the', but here: the news article.)",
+              "dictionaryRefs": [
+                "l-articolo"
+              ]
+            },
+            {
+              "id": "u51l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il titolo",
+              "options": [
+                "the title; the headline",
+                "the ticket",
+                "the subtitle",
+                "the signature"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il titolo' (m) = the title — of a book, a film, or the headline of an article. 'Un bel titolo attira l'attenzione.' — a good headline draws attention.",
+              "dictionaryRefs": [
+                "il-titolo"
+              ]
+            },
+            {
+              "id": "u51l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la fabbrica",
+              "options": [
+                "the factory",
+                "the fabric shop",
+                "the pharmacy",
+                "the farm"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La fabbrica' (f) = the factory — where things are made. 'Le scarpe sono fatte in fabbrica.' — the shoes are made in a factory. (Made — you see where this unit is going.)",
+              "dictionaryRefs": [
+                "la-fabbrica"
+              ]
+            },
+            {
+              "id": "u51l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il tesoro",
+              "options": [
+                "the treasure",
+                "the test",
+                "the territory",
+                "the wallet"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il tesoro' (m) = the treasure — 'un tesoro nascosto' (hidden). Also said to people: 'Sei un tesoro!' — you're a treasure! 💛 Perfect headline word: 'È stato trovato un tesoro!'",
+              "dictionaryRefs": [
+                "il-tesoro"
+              ]
+            },
+            {
+              "id": "u51l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il romanzo",
+              "options": [
+                "the novel",
+                "the romance",
+                "the rhyme",
+                "the short story"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il romanzo' (m) = the novel — a long story in a book. 'un romanzo famoso' (famoso, Unit 47). Novels get written — the passive is coming.",
+              "dictionaryRefs": [
+                "il-romanzo",
+                "famoso"
+              ]
+            },
+            {
+              "id": "u51l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I read the newspaper in the morning.)",
+              "sentence": "Leggo il ___ la mattina.",
+              "answers": [
+                "giornale"
+              ],
+              "explanation": "'Leggo il giornale la mattina.' — leggo (leggere, Unit 12) + il giornale. The morning ritual, Italian edition.",
+              "dictionaryRefs": [
+                "il-giornale",
+                "la-mattina"
+              ]
+            },
+            {
+              "id": "u51l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I read the newspaper every morning.",
+              "acceptedIt": [
+                "Leggo il giornale ogni mattina.",
+                "Leggo il giornale ogni mattina",
+                "Ogni mattina leggo il giornale.",
+                "Ogni mattina leggo il giornale"
+              ],
+              "explanation": "'Leggo il giornale ogni mattina.' — present tense for habits (Unit 10), ogni mattina = every morning. 💛",
+              "dictionaryRefs": [
+                "il-giornale",
+                "la-mattina"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u51l2",
+          "type": "grammar",
+          "title": "La forma passiva: è scritta, è stata scritta, si mangia",
+          "dictionaryRefs": [
+            "il-giornale",
+            "il-titolo",
+            "il-tesoro",
+            "il-romanzo",
+            "la-fabbrica",
+            "la-lettera",
+            "scrivere",
+            "trovare",
+            "ieri",
+            "la-casa",
+            "vedere",
+            "il-mare",
+            "la-pizza",
+            "fare",
+            "la-pasta",
+            "mangiare",
+            "potere",
+            "prenotare",
+            "la-camera"
+          ],
+          "grammarNotes": "LA FORMA PASSIVA — the object becomes the subject; the doer steps back. English: 'The letter is written.' Italian: ESSERE + the participio passato (Unit 27: -ato, -uto, -ito; irregulars you know — scritto, letto, fatto, detto, visto). 💛\n\nESSERE, presente — the passive's engine: sono, sei, è, siamo, siete, sono. The participle agrees with the new subject, like an adjective: 'La lettera è scritta.' / 'I libri sono scritti.'\n\nTWO SHAPES:\n• present: 'La casa è vista dal mare.' — the house is seen from the sea. 💛\n• passato prossimo: è stata / è stato + participio — 'La lettera è stata scritta da Giulia.' (stato agrees too: è stata.)\n\nVENIRE, presente — the elegant alternative: vengo, vieni, viene, veniamo, venite, vengono. 'La lettera viene scritta a mano.' Same meaning, no da-phrase needed.\n\nTHE DOER: da + name ('da Giulia'); dal/dalla for things ('dal mare'). Why da? It marks the author — the same da as 'un regalo da Marco' (Unit 17).\n\nSI PASSIVANTE — the headline shortcut: si + third person, object after the verb:\n• 'Si mangia la pasta.' = 'La pasta è mangiata.' ('One eats pasta' sounds robotic in English; Italian just says it.)\n• Plural object → plural verb: 'Si comprano le scarpe.' 💛\n• With a modal: 'Si può prenotare online?' — POTERE, presente: posso, puoi, può, possiamo, potete, possono. PRENOTARE, presente: prenoto, prenoti, prenota, prenotiamo, prenotate, prenotano.\n\nWHY TWO PASSIVES? The full passive points at the doer; si-passive reports the fact — perfect for news: 'Ieri si è trovato un tesoro.' 💛",
+          "exercises": [
+            {
+              "id": "u51l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The letter is written by Giulia.)",
+              "sentence": "La lettera ___ scritta da Giulia.",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'La lettera è scritta da Giulia.' — essere (è) + scritta, agreeing with la lettera; da Giulia names the doer. The participle behaves like an adjective.",
+              "dictionaryRefs": [
+                "la-lettera",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u51l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the news. (The treasure was found yesterday.)",
+              "sentence": "Il tesoro ___ stato trovato ieri.",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'Il tesoro è stato trovato ieri.' — è stato + trovato: the news-style past passive. è (present of essere) + stato (participle of essere) + trovato.",
+              "dictionaryRefs": [
+                "il-tesoro",
+                "trovare",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u51l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the description. (The house is seen from the sea.)",
+              "sentence": "La casa ___ vista dal mare.",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'La casa è vista dal mare.' — passive in the present: è + vista (agrees with la casa). Descriptions love the passive.",
+              "dictionaryRefs": [
+                "la-casa",
+                "vedere",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u51l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (In Italy, pasta is eaten.)",
+              "sentence": "In Italia si ___ la pasta.",
+              "answers": [
+                "mangia"
+              ],
+              "explanation": "'In Italia si mangia la pasta.' — si + mangia: si passivante. Singular object (la pasta) → singular verb. English needs 'one eats'; Italian needs nothing.",
+              "dictionaryRefs": [
+                "la-pasta",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u51l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "The letter was written by Giulia.",
+              "acceptedIt": [
+                "La lettera è stata scritta da Giulia.",
+                "La lettera è stata scritta da Giulia",
+                "La lettera e' stata scritta da Giulia",
+                "La lettera e' stata scritta da Giulia."
+              ],
+              "explanation": "'La lettera è stata scritta da Giulia.' — è stata (passive past) + scritta, agreeing with la lettera; da Giulia = the doer. 💛",
+              "dictionaryRefs": [
+                "la-lettera",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u51l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "In Italy, people eat pasta every day.",
+              "acceptedIt": [
+                "In Italia si mangia la pasta ogni giorno.",
+                "In Italia si mangia la pasta ogni giorno",
+                "In Italia la pasta si mangia ogni giorno.",
+                "In Italia la pasta si mangia ogni giorno",
+                "In Italia si mangia pasta ogni giorno."
+              ],
+              "explanation": "'In Italia si mangia la pasta ogni giorno.' — si passivante for general truths. The si-passive reports the fact; nobody is named, everybody is implied. 💛",
+              "dictionaryRefs": [
+                "la-pasta",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u51l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "La camera è stata prenotata da Marco.",
+              "acceptedEn": [
+                "The room was booked by Marco.",
+                "The room has been booked by Marco.",
+                "The room was reserved by Marco.",
+                "The room has been reserved by Marco."
+              ],
+              "explanation": "'La camera è stata prenotata da Marco.' — è stata + prenotata (agrees with la camera); da Marco = the doer. The hotel line, in the passive.",
+              "dictionaryRefs": [
+                "la-camera",
+                "prenotare"
+              ]
+            },
+            {
+              "id": "u51l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct sentence.",
+              "question": "La pizza ___ in Italia.",
+              "options": [
+                "è fatta",
+                "è facendo",
+                "ha fatta",
+                "si fatta"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La pizza è fatta in Italia.' — essere + fatta, agreeing with la pizza. 'Ha fatta' doubles the auxiliaries — a classic trap (fare already owns 'fatto').",
+              "dictionaryRefs": [
+                "la-pizza",
+                "fare"
+              ]
+            },
+            {
+              "id": "u51l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (News headline!)",
+              "tokens": [
+                "Il",
+                "tesoro",
+                "è",
+                "stato",
+                "trovato."
+              ],
+              "correctSentence": "Il tesoro è stato trovato.",
+              "explanation": "'Il tesoro è stato trovato.' — passive past: è stato + trovato. How news breaks. 💛",
+              "dictionaryRefs": [
+                "il-tesoro",
+                "trovare"
+              ]
+            },
+            {
+              "id": "u51l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "La",
+                "lettera",
+                "è",
+                "stata",
+                "scritta",
+                "da",
+                "Giulia."
+              ],
+              "correctSentence": "La lettera è stata scritta da Giulia.",
+              "explanation": "'La lettera è stata scritta da Giulia.' — è stata + scritta + da Giulia. Object first, doer last: the passive order. 💛",
+              "dictionaryRefs": [
+                "la-lettera",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u51l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "In",
+                "Italia",
+                "si",
+                "mangia",
+                "la",
+                "pasta."
+              ],
+              "correctSentence": "In Italia si mangia la pasta.",
+              "explanation": "'In Italia si mangia la pasta.' — si + mangia + la pasta. The si passivante: subject last, verb first.",
+              "dictionaryRefs": [
+                "la-pasta",
+                "mangiare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u51l3",
+          "type": "mixed",
+          "title": "Dal giornale al mare — ripasso 💛",
+          "dictionaryRefs": [
+            "il-biglietto",
+            "comprare",
+            "ieri",
+            "il-mare",
+            "la-camera",
+            "vedere",
+            "potere",
+            "prenotare",
+            "la-pizza",
+            "mangiare",
+            "amico",
+            "vorrei",
+            "il-tavolo",
+            "bene",
+            "le-scarpe",
+            "fare",
+            "il-romanzo",
+            "leggere",
+            "l-articolo",
+            "il-giornale"
+          ],
+          "exercises": [
+            {
+              "id": "u51l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "The tickets were bought yesterday.",
+              "acceptedIt": [
+                "I biglietti sono stati comprati ieri.",
+                "I biglietti sono stati comprati ieri",
+                "Ieri sono stati comprati i biglietti.",
+                "I biglietti sono stati comprati da me ieri."
+              ],
+              "explanation": "'I biglietti sono stati comprati ieri.' — plural subject → sono stati + comprati (Unit 25 tickets, now in the passive).",
+              "dictionaryRefs": [
+                "il-biglietto",
+                "comprare",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u51l3e2",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Si vede il mare dalla camera.",
+              "acceptedEn": [
+                "You can see the sea from the room.",
+                "The sea is seen from the room.",
+                "One sees the sea from the room.",
+                "The sea can be seen from the room."
+              ],
+              "explanation": "'Si vede il mare dalla camera.' — si + vede: the si passivante describing a view (Unit 39 room, Unit 20 sea).",
+              "dictionaryRefs": [
+                "il-mare",
+                "la-camera",
+                "vedere"
+              ]
+            },
+            {
+              "id": "u51l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (Can one book online?) (Unit 32 recycling)",
+              "sentence": "Si ___ prenotare online?",
+              "answers": [
+                "può",
+                "puo",
+                "puo'"
+              ],
+              "explanation": "'Si può prenotare online?' — si passivante with a modal: potere (Unit 32) + prenotare (Unit 25). The traveler's question.",
+              "dictionaryRefs": [
+                "potere",
+                "prenotare"
+              ]
+            },
+            {
+              "id": "u51l3e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "In Italia si mangia la pizza con gli amici.",
+              "options": [
+                "In Italy, pizza is eaten with friends.",
+                "In Italy, I eat pizza with my friends.",
+                "In Italy, people are eating pizza now.",
+                "My friends eat pizza in Italy."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Si mangia la pizza con gli amici.' — si + mangia = people eat / one eats / pizza is eaten. The si passivante keeps it general (Unit 5 gli amici).",
+              "dictionaryRefs": [
+                "la-pizza",
+                "mangiare",
+                "amico"
+              ]
+            },
+            {
+              "id": "u51l3e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 41 recycling)",
+              "sourceEn": "I would like a table for two.",
+              "acceptedIt": [
+                "Vorrei un tavolo per due.",
+                "Vorrei un tavolo per due",
+                "Io vorrei un tavolo per due",
+                "Io vorrei un tavolo per due."
+              ],
+              "explanation": "'Vorrei un tavolo per due.' — the conditional door-opener (Unit 41) — for a table with a sea view, perhaps: 'Si vede il mare!'",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u51l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Si",
+                "mangia",
+                "bene",
+                "qui."
+              ],
+              "correctSentence": "Si mangia bene qui.",
+              "explanation": "'Si mangia bene qui.' — people eat well here. The review every restaurant wants. 💛",
+              "dictionaryRefs": [
+                "mangiare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u51l3e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Le scarpe sono fatte in Italia.",
+              "acceptedEn": [
+                "The shoes are made in Italy.",
+                "Shoes are made in Italy.",
+                "The shoes are made in Italy"
+              ],
+              "explanation": "'Le scarpe sono fatte in Italia.' — sono + fatte, agreeing with le scarpe (Unit 23). A very Italian sentence.",
+              "dictionaryRefs": [
+                "le-scarpe",
+                "fare"
+              ]
+            },
+            {
+              "id": "u51l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The novel is read by all my friends.)",
+              "sentence": "Il romanzo è ___ da tutti i miei amici.",
+              "answers": [
+                "letto"
+              ],
+              "explanation": "'Il romanzo è letto da tutti i miei amici.' — passive present: è + letto (leggere → letto, Unit 12 irregular participle).",
+              "dictionaryRefs": [
+                "il-romanzo",
+                "leggere",
+                "amico"
+              ]
+            },
+            {
+              "id": "u51l3e9",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I've read the article in the newspaper.",
+              "acceptedIt": [
+                "Ho letto l'articolo sul giornale.",
+                "Ho letto l'articolo sul giornale",
+                "Ho letto l'articolo nel giornale.",
+                "Ho letto l'articolo nel giornale",
+                "Ho letto l'articolo sul giornale oggi."
+              ],
+              "explanation": "'Ho letto l'articolo sul giornale.' — the active version (ho letto), sul giornale = in the newspaper. Active or passive: you now have both.",
+              "dictionaryRefs": [
+                "l-articolo",
+                "il-giornale",
+                "leggere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u51l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "la-lettera",
+            "scrivere",
+            "la-pasta",
+            "mangiare",
+            "il-tesoro",
+            "trovare",
+            "ieri",
+            "le-scarpe",
+            "comprare",
+            "il-negozio",
+            "la-camera",
+            "prenotare"
+          ],
+          "exercises": [
+            {
+              "id": "u51l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "La lettera è stata scritta da Giulia.",
+              "options": [
+                "The letter was written by Giulia.",
+                "The letter is written by Giulia.",
+                "The letter will be written by Giulia.",
+                "Giulia is writing the letter now."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'La lettera è stata scritta da Giulia.' — è stata + scritta: the passive past. 💛",
+              "dictionaryRefs": [
+                "la-lettera",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u51l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "In Italia si mangia la pasta.",
+              "acceptedIt": [
+                "In Italia si mangia la pasta.",
+                "In Italia si mangia la pasta",
+                "In Italia si mangia la pasta!"
+              ],
+              "explanation": "You heard: 'In Italia si mangia la pasta.' — si + mangia: the si passivante.",
+              "dictionaryRefs": [
+                "la-pasta",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u51l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Il tesoro è stato trovato ieri.",
+              "options": [
+                "The treasure was found yesterday.",
+                "The treasure is found every day.",
+                "The treasure was lost yesterday.",
+                "They are looking for the treasure."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Il tesoro è stato trovato ieri.' — è stato + trovato: yesterday's news, passively.",
+              "dictionaryRefs": [
+                "il-tesoro",
+                "trovare",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u51l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: the letter was written by Giulia. 💛",
+              "targetIt": "La lettera è stata scritta da Giulia.",
+              "minAccuracy": 0.7,
+              "explanation": "'La lettera è stata scritta da Giulia.' — la LET-te-ra è STA-ta SCRIT-ta da JU-lia. 💛",
+              "dictionaryRefs": [
+                "la-lettera",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u51l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: in Italy, people eat pasta.",
+              "targetIt": "In Italia si mangia la pasta.",
+              "minAccuracy": 0.7,
+              "explanation": "'In Italia si mangia la pasta.' — in i-TA-lia si MAN-jia la PAS-ta.",
+              "dictionaryRefs": [
+                "la-pasta",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u51l4e6",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🛍️",
+              "mode": "choice",
+              "speakIt": "Si comprano le scarpe in questo negozio.",
+              "options": [
+                "Shoes are bought in this shop.",
+                "Shoes are sold in this shop.",
+                "They buy shoes at this shop.",
+                "The shoes are in this shop."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Si comprano le scarpe in questo negozio.' — si + comprano: plural object, plural verb (Unit 17 negozio).",
+              "dictionaryRefs": [
+                "le-scarpe",
+                "comprare",
+                "il-negozio"
+              ]
+            },
+            {
+              "id": "u51l4e7",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 🛏️",
+              "mode": "type",
+              "speakIt": "La camera è stata prenotata.",
+              "acceptedIt": [
+                "La camera è stata prenotata.",
+                "La camera è stata prenotata",
+                "La camera e' stata prenotata.",
+                "La camera e' stata prenotata"
+              ],
+              "explanation": "You heard: 'La camera è stata prenotata.' — è stata + prenotata: booked, done, passive.",
+              "dictionaryRefs": [
+                "la-camera",
+                "prenotare"
+              ]
+            },
+            {
+              "id": "u51l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: the treasure was found.",
+              "targetIt": "Il tesoro è stato trovato.",
+              "minAccuracy": 0.7,
+              "explanation": "'Il tesoro è stato trovato.' — il te-ZO-ro è STA-to tro-VA-to.",
+              "dictionaryRefs": [
+                "il-tesoro",
+                "trovare"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u51c",
+        "exercises": [
+          {
+            "id": "u51ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "il giornale",
+            "options": [
+              "the newspaper",
+              "the diary",
+              "the magazine",
+              "the notebook"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il giornale' (m) = the newspaper.",
+            "dictionaryRefs": [
+              "il-giornale"
+            ]
+          },
+          {
+            "id": "u51ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The letter was written by Giulia.)",
+            "sentence": "La lettera ___ stata scritta da Giulia.",
+            "answers": [
+              "è",
+              "e'"
+            ],
+            "explanation": "'La lettera è stata scritta da Giulia.' — è stata + scritta: the passive past.",
+            "dictionaryRefs": [
+              "la-lettera",
+              "scrivere"
+            ]
+          },
+          {
+            "id": "u51ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (In Italy, pasta is eaten.)",
+            "sentence": "In Italia si ___ la pasta.",
+            "answers": [
+              "mangia"
+            ],
+            "explanation": "'In Italia si mangia la pasta.' — si + mangia: the si passivante.",
+            "dictionaryRefs": [
+              "la-pasta",
+              "mangiare"
+            ]
+          },
+          {
+            "id": "u51ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian.",
+            "sourceEn": "The room was booked by Marco.",
+            "acceptedIt": [
+              "La camera è stata prenotata da Marco.",
+              "La camera è stata prenotata da Marco",
+              "La camera e' stata prenotata da Marco",
+              "La camera e' stata prenotata da Marco."
+            ],
+            "explanation": "'La camera è stata prenotata da Marco.' — è stata + prenotata, agreeing with la camera.",
+            "dictionaryRefs": [
+              "la-camera",
+              "prenotare"
+            ]
+          },
+          {
+            "id": "u51ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Si comprano le scarpe in questo negozio.",
+            "acceptedEn": [
+              "Shoes are bought in this shop.",
+              "One buys shoes in this shop.",
+              "You buy shoes in this shop.",
+              "Shoes are bought in this store."
+            ],
+            "explanation": "'Si comprano le scarpe…' — plural object (le scarpe) → plural verb (comprano). The si passivante at the shops (Unit 17).",
+            "dictionaryRefs": [
+              "le-scarpe",
+              "comprare",
+              "il-negozio"
+            ]
+          },
+          {
+            "id": "u51ce6",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct sentence.",
+            "question": "La casa ___ dal mare.",
+            "options": [
+              "è vista",
+              "è visto",
+              "vede",
+              "ha vista"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La casa è vista dal mare.' — è + vista: the participle agrees with la casa (f). 'È visto' would be the masculine trap.",
+            "dictionaryRefs": [
+              "la-casa",
+              "vedere",
+              "il-mare"
+            ]
+          },
+          {
+            "id": "u51ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 📰",
+            "tokens": [
+              "Il",
+              "romanzo",
+              "è",
+              "stato",
+              "scritto",
+              "nel",
+              "1881."
+            ],
+            "correctSentence": "Il romanzo è stato scritto nel 1881.",
+            "explanation": "'Il romanzo è stato scritto nel 1881.' — passive past with a date: written in 1881.",
+            "dictionaryRefs": [
+              "il-romanzo",
+              "scrivere"
+            ]
+          },
+          {
+            "id": "u51ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛 (Unit 41 recycling)",
+            "mode": "choice",
+            "speakIt": "Vorresti leggere l'articolo?",
+            "options": [
+              "Would you like to read the article?",
+              "Did you read the article?",
+              "Will you read the article?",
+              "Do you like the article?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Vorresti leggere l'articolo?' — the conditional vorresti (Unit 41) + the new word l'articolo.",
+            "dictionaryRefs": [
+              "vorrei",
+              "l-articolo",
+              "leggere"
+            ]
+          },
+          {
+            "id": "u51ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "La pizza si fa in casa.",
+            "acceptedIt": [
+              "La pizza si fa in casa.",
+              "La pizza si fa in casa",
+              "La pizza si fa' in casa"
+            ],
+            "explanation": "You heard: 'La pizza si fa in casa.' — si + fa: the si passivante — 'it's made at home', no auxiliary needed. 💛",
+            "dictionaryRefs": [
+              "la-pizza",
+              "fare"
+            ]
+          },
+          {
+            "id": "u51ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: in Italy, people eat pasta. 💛",
+            "targetIt": "In Italia si mangia la pasta.",
+            "minAccuracy": 0.7,
+            "explanation": "'In Italia si mangia la pasta.' — in i-TA-lia si MAN-jia la PAS-ta. 💛",
+            "dictionaryRefs": [
+              "la-pasta",
+              "mangiare"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u52",
+      "number": 52,
+      "title": "Il si impersonale",
+      "lessons": [
+        {
+          "id": "u52l1",
+          "type": "vocabulary",
+          "title": "Il pranzo, la coda, la mancia",
+          "dictionaryRefs": [
+            "il-pranzo",
+            "la-coda",
+            "la-mancia",
+            "il-cameriere",
+            "l-aperitivo",
+            "il-riposo"
+          ],
+          "exercises": [
+            {
+              "id": "u52l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "il pranzo",
+              "options": [
+                "lunch; the midday meal",
+                "the dinner",
+                "the snack",
+                "the breakfast"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il pranzo' (m) = lunch — the big midday meal, eaten around 13:00 in Italy. 'A pranzo' = at lunch. 💛",
+              "dictionaryRefs": [
+                "il-pranzo"
+              ]
+            },
+            {
+              "id": "u52l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la coda",
+              "options": [
+                "the queue; the line",
+                "the tail",
+                "the code",
+                "the road"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La coda' (f) = the queue — also 'tail', but for people: 'fare la coda' (to queue) is the national sport: 'Si fa la coda alla posta.'",
+              "dictionaryRefs": [
+                "la-coda"
+              ]
+            },
+            {
+              "id": "u52l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la mancia",
+              "options": [
+                "the tip",
+                "the change",
+                "the wallet",
+                "the salary"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La mancia' (f) = the tip — what you leave for the waiter. 'Lasciare la mancia al cameriere.'",
+              "dictionaryRefs": [
+                "la-mancia"
+              ]
+            },
+            {
+              "id": "u52l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il cameriere",
+              "options": [
+                "the waiter",
+                "the hotelier",
+                "the neighbor",
+                "the customer"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il cameriere' (m) = the waiter — he brings il menù (Unit 15) and il conto (Unit 9). Say 'grazie' to him. 💛",
+              "dictionaryRefs": [
+                "il-cameriere"
+              ]
+            },
+            {
+              "id": "u52l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'aperitivo",
+              "options": [
+                "the aperitif; pre-dinner drink",
+                "the appetizer (food)",
+                "the digestive",
+                "the soda"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'aperitivo' (m, l' before the vowel) = the aperitif — the drink before dinner, around 19:00, with snacks. A daily institution. 💛",
+              "dictionaryRefs": [
+                "l-aperitivo"
+              ]
+            },
+            {
+              "id": "u52l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il riposo",
+              "options": [
+                "the rest; the break",
+                "the nap only",
+                "the holiday",
+                "the sleep"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il riposo' (m) = rest — sacred after lunch: 'Dopo pranzo c'è il riposo.' (il pomeriggio, Unit 10, is when it happens.)",
+              "dictionaryRefs": [
+                "il-riposo",
+                "il-pomeriggio"
+              ]
+            },
+            {
+              "id": "u52l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (At the restaurant you leave the tip for the waiter.)",
+              "sentence": "Al ristorante si lascia la ___ al cameriere.",
+              "answers": [
+                "mancia"
+              ],
+              "explanation": "'Al ristorante si lascia la mancia al cameriere.' — la mancia + al cameriere. Notice si lascia: the si impersonale, your grammar today.",
+              "dictionaryRefs": [
+                "la-mancia",
+                "il-cameriere",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u52l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "In Italy, lunch is at one o'clock.",
+              "acceptedIt": [
+                "In Italia il pranzo è all'una.",
+                "In Italia il pranzo è all'una",
+                "In Italia si pranza all'una.",
+                "In Italia a pranzo si mangia all'una.",
+                "In Italia il pranzo e' all'una."
+              ],
+              "explanation": "'In Italia il pranzo è all'una.' — all'una = at one o'clock (Unit 10 time-telling). Italian lunch runs late — and long. 💛",
+              "dictionaryRefs": [
+                "il-pranzo",
+                "mangiare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u52l2",
+          "type": "grammar",
+          "title": "Il si impersonale: si mangia, si va, ci si alza",
+          "dictionaryRefs": [
+            "il-pranzo",
+            "la-coda",
+            "la-mancia",
+            "il-cameriere",
+            "l-aperitivo",
+            "il-riposo",
+            "parlare",
+            "italiano",
+            "mangiare",
+            "prendere",
+            "il-bar",
+            "il-caffe",
+            "fare",
+            "andare",
+            "il-mare",
+            "potere",
+            "dovere",
+            "alzarsi",
+            "domenica",
+            "le-scarpe",
+            "comprare"
+          ],
+          "grammarNotes": "IL SI IMPERSONALE — Italy's way of saying 'people do', 'you do', 'one does' — without naming anyone. Rules, habits, the weather of daily life: 'Si mangia bene qui.' 💛\n\nTHE FORM: si + third person. Singular object → singular verb: 'Si mangia la pasta.' Plural object → plural verb: 'Si comprano le scarpe.' Why? The object is the real subject — the same agreement as the passive (Unit 51).\n\nVERBS OF DAILY LIFE:\nPARLARE, presente: parlo, parli, parla, parliamo, parlate, parlano — 'In Italia si parla italiano.'\nMANGIARE, presente: mangio, mangi, mangia, mangiamo, mangiate, mangiano — 'A pranzo si mangia alle 13.' 💛\nPRENDERE, presente: prendo, prendi, prende, prendiamo, prendete, prendono — 'Al bar si prende il caffè in piedi.' The morning ritual!\nFARE, presente: faccio, fai, fa, facciamo, fate, fanno — 'Si fa la coda alla posta.' 'Si fa colazione con il cappuccino.'\nANDARE, presente: vado, vai, va, andiamo, andate, vanno — 'D'estate si va al mare.' 💛\n\nQUESTIONS AND RULES: 'Si può pagare con la carta?' — the traveler's key question. POTERE, presente: posso, puoi, può, possiamo, potete, possono.\n'Non si deve parlare a voce alta.' — the polite prohibition. DOVERE, presente: devo, devi, deve, dobbiamo, dovete, devono. (Unit 32 modals, now cultural.)\n\nREFLEXIVE MEETS SI: 'La domenica ci si alza tardi.' ALZARE, presente: alzo, alzi, alza, alziamo, alzate, alzano. Why ci? Two si can't touch — si si alza collapses into ci si alza (Unit 28 reflexives, back for an encore). 💛\n\nCULTURE, NOT SMALLTALK: these sentences describe how Italy works — meal times, queues, the aperitivo hour. Learn the grammar and the country comes free.\n\ndare (presente): do, dai, dà, diamo, date, danno.",
+          "exercises": [
+            {
+              "id": "u52l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the ritual. (At the bar, people have coffee standing.)",
+              "sentence": "Al bar si ___ il caffè in piedi.",
+              "answers": [
+                "prende"
+              ],
+              "explanation": "'Al bar si prende il caffè in piedi.' — si + prende: at the bar (Unit 5) the coffee (Unit 9) is quick and standing. A true Italian scene.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-bar",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u52l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the fact. (In Italy, people speak Italian.)",
+              "sentence": "In Italia si ___ italiano.",
+              "answers": [
+                "parla"
+              ],
+              "explanation": "'In Italia si parla italiano.' — si + parla: a statement of fact with no agent. The si impersonale at its purest.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u52l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (On Sundays people get up late.)",
+              "sentence": "La domenica ci ___ alza tardi.",
+              "answers": [
+                "si"
+              ],
+              "explanation": "'La domenica ci si alza tardi.' — two si can't touch, so the reflexive si becomes ci: ci si alza. Reflexives (Unit 28) meet the si impersonale.",
+              "dictionaryRefs": [
+                "alzarsi",
+                "domenica"
+              ]
+            },
+            {
+              "id": "u52l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "In the summer, people go to the seaside.",
+              "acceptedIt": [
+                "D'estate si va al mare.",
+                "D'estate si va al mare",
+                "In estate si va al mare.",
+                "In estate si va al mare",
+                "D'estate la gente va al mare."
+              ],
+              "explanation": "'D'estate si va al mare.' — si + va (andare): the summer migration. No subject needed — everyone knows who goes. 💛",
+              "dictionaryRefs": [
+                "il-mare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u52l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (The polite rule.)",
+              "sourceEn": "One must not speak loudly here.",
+              "acceptedIt": [
+                "Qui non si deve parlare a voce alta.",
+                "Qui non si deve parlare a voce alta",
+                "Non si deve parlare a voce alta.",
+                "Non si deve parlare a voce alta",
+                "Qui non si deve parlare ad alta voce."
+              ],
+              "explanation": "'Qui non si deve parlare a voce alta.' — non si deve + infinitive: the gentle Italian prohibition. dovere + si = house rules.",
+              "dictionaryRefs": [
+                "dovere"
+              ]
+            },
+            {
+              "id": "u52l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (The traveler's key question.)",
+              "sourceEn": "Can you pay by card?",
+              "acceptedIt": [
+                "Si può pagare con la carta?",
+                "Si può pagare con la carta",
+                "Si puo' pagare con la carta?",
+                "Si puo' pagare con la carta",
+                "Qui si può pagare con la carta?"
+              ],
+              "explanation": "'Si può pagare con la carta?' — si + può: can one pay by card? The question that opens every Italian checkout. 💛",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u52l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Si fa la coda alla posta.",
+              "acceptedEn": [
+                "One queues at the post office.",
+                "People stand in line at the post office.",
+                "You queue at the post office.",
+                "There's a line at the post office.",
+                "People queue at the post office."
+              ],
+              "explanation": "'Si fa la coda alla posta.' — si + fa (fare) + la coda: the national sport, at the post office. si fa + noun = it is done.",
+              "dictionaryRefs": [
+                "fare",
+                "la-coda"
+              ]
+            },
+            {
+              "id": "u52l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. ☕",
+              "tokens": [
+                "Al",
+                "bar",
+                "si",
+                "prende",
+                "il",
+                "caffè."
+              ],
+              "correctSentence": "Al bar si prende il caffè.",
+              "explanation": "'Al bar si prende il caffè.' — place, si, verb, object: the daily ritual in five words.",
+              "dictionaryRefs": [
+                "il-bar",
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u52l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "D'estate",
+                "si",
+                "va",
+                "al",
+                "mare."
+              ],
+              "correctSentence": "D'estate si va al mare.",
+              "explanation": "'D'estate si va al mare.' — si va: everybody goes. The si impersonale of August. 💛",
+              "dictionaryRefs": [
+                "il-mare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u52l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 😴",
+              "tokens": [
+                "Ci",
+                "si",
+                "alza",
+                "tardi",
+                "la",
+                "domenica."
+              ],
+              "correctSentence": "Ci si alza tardi la domenica.",
+              "explanation": "'Ci si alza tardi la domenica.' — ci si alza: the reflexive si becomes ci. Sundays are for sleeping in.",
+              "dictionaryRefs": [
+                "alzarsi",
+                "domenica"
+              ]
+            },
+            {
+              "id": "u52l2e11",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form.",
+              "question": "Al mercato si ___ le scarpe.",
+              "options": [
+                "comprano",
+                "compra",
+                "comprare",
+                "comprate"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Si comprano le scarpe' — plural object (le scarpe) → plural verb (comprano). Same agreement rule as the passive (Unit 51).",
+              "dictionaryRefs": [
+                "comprare",
+                "le-scarpe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u52l3",
+          "type": "mixed",
+          "title": "L'Italia quotidiana — ripasso 💛",
+          "dictionaryRefs": [
+            "prenotare",
+            "il-tavolo",
+            "il-pranzo",
+            "telefonare",
+            "mangiare",
+            "il-ristorante",
+            "bene",
+            "viaggiare",
+            "divertirsi",
+            "potere",
+            "giocare",
+            "il-parco",
+            "amico",
+            "l-aperitivo",
+            "prima",
+            "la-cena",
+            "la-mancia",
+            "il-cameriere"
+          ],
+          "exercises": [
+            {
+              "id": "u52l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 31 recycling)",
+              "sourceEn": "I'll book a table for lunch.",
+              "acceptedIt": [
+                "Prenoterò un tavolo per pranzo.",
+                "Prenoterò un tavolo per pranzo",
+                "Prenderò un tavolo per pranzo.",
+                "Prenoto un tavolo per pranzo.",
+                "Prenotero' un tavolo per pranzo."
+              ],
+              "explanation": "'Prenoterò un tavolo per pranzo.' — future (Unit 31) + per pranzo (new word): booking ahead for the big meal.",
+              "dictionaryRefs": [
+                "prenotare",
+                "il-tavolo",
+                "il-pranzo"
+              ]
+            },
+            {
+              "id": "u52l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 33 recycling)",
+              "sourceEn": "I'll call you after lunch.",
+              "acceptedIt": [
+                "Ti telefono dopo il pranzo.",
+                "Ti telefono dopo il pranzo",
+                "Ti chiamo dopo il pranzo.",
+                "Ti chiamo dopo pranzo.",
+                "Ti telefono dopo pranzo."
+              ],
+              "explanation": "'Ti telefono dopo il pranzo.' — telefonare (Unit 33) + dopo il pranzo: the Italian afternoon starts after food.",
+              "dictionaryRefs": [
+                "telefonare",
+                "il-pranzo"
+              ]
+            },
+            {
+              "id": "u52l3e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "Al ristorante si mangia bene.",
+              "options": [
+                "People eat well at the restaurant.",
+                "I eat well at the restaurant.",
+                "We are eating at the restaurant now.",
+                "The restaurant eats well."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Al ristorante si mangia bene.' — si mangia bene: people eat well here. The review every restaurant wants (bene, Unit 7).",
+              "dictionaryRefs": [
+                "mangiare",
+                "il-ristorante",
+                "bene"
+              ]
+            },
+            {
+              "id": "u52l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Quando si viaggia, ci si diverte.",
+              "acceptedEn": [
+                "When you travel, you have fun.",
+                "When one travels, one has fun.",
+                "While travelling, people have fun.",
+                "When you travel, you enjoy yourself."
+              ],
+              "explanation": "'Quando si viaggia, ci si diverte.' — two si-structures in one line: si viaggia (impersonal) + ci si diverte (impersonal reflexive, divertirsi Unit 28). 💛",
+              "dictionaryRefs": [
+                "viaggiare",
+                "divertirsi"
+              ]
+            },
+            {
+              "id": "u52l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💳",
+              "tokens": [
+                "Si",
+                "può",
+                "pagare",
+                "con",
+                "la",
+                "carta?"
+              ],
+              "correctSentence": "Si può pagare con la carta?",
+              "explanation": "'Si può pagare con la carta?' — si + può + infinitive: the question that opens every checkout.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u52l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (On Saturdays people play football with friends.)",
+              "sentence": "Il sabato si ___ a calcio con gli amici.",
+              "answers": [
+                "gioca"
+              ],
+              "explanation": "'Il sabato si gioca a calcio con gli amici.' — si + gioca (giocare, Unit 29) + a calcio. Saturday ritual with gli amici (Unit 5).",
+              "dictionaryRefs": [
+                "giocare",
+                "amico"
+              ]
+            },
+            {
+              "id": "u52l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "One eats well in this restaurant.",
+              "acceptedIt": [
+                "Si mangia bene in questo ristorante.",
+                "Si mangia bene in questo ristorante",
+                "In questo ristorante si mangia bene.",
+                "In questo ristorante si mangia bene"
+              ],
+              "explanation": "'Si mangia bene in questo ristorante.' — the si impersonale review: no 'I', no 'they' — just the fact.",
+              "dictionaryRefs": [
+                "mangiare",
+                "bene",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u52l3e8",
+              "type": "multiple_choice",
+              "prompt": "When is the aperitivo? 💛",
+              "question": "L'aperitivo viene ___ cena.",
+              "options": [
+                "prima",
+                "dopo",
+                "durante",
+                "sotto"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'aperitivo viene prima di cena.' — the aperitivo comes BEFORE dinner (prima, Unit 49), around 19:00. Timing is culture. 💛",
+              "dictionaryRefs": [
+                "l-aperitivo",
+                "prima",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u52l3e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "La mancia si lascia al cameriere.",
+              "acceptedEn": [
+                "The tip is left for the waiter.",
+                "You leave the tip for the waiter.",
+                "The tip is given to the waiter.",
+                "One leaves the tip for the waiter."
+              ],
+              "explanation": "'La mancia si lascia al cameriere.' — la mancia + si lascia + al cameriere: the tip and its rightful owner.",
+              "dictionaryRefs": [
+                "la-mancia",
+                "il-cameriere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u52l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "il-bar",
+            "prendere",
+            "il-caffe",
+            "il-mare",
+            "andare",
+            "potere",
+            "mangiare",
+            "bene",
+            "parlare",
+            "italiano",
+            "alzarsi",
+            "domenica"
+          ],
+          "exercises": [
+            {
+              "id": "u52l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. ☕",
+              "mode": "choice",
+              "speakIt": "Al bar si prende il caffè.",
+              "options": [
+                "At the bar you have your coffee standing.",
+                "The bar takes the coffee away.",
+                "Coffee is drunk sitting at the table.",
+                "At the bar you pay for coffee first."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Al bar si prende il caffè.' — si prende: the daily ritual. (In piedi — standing — is the real detail.)",
+              "dictionaryRefs": [
+                "il-bar",
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u52l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "D'estate si va al mare.",
+              "acceptedIt": [
+                "D'estate si va al mare.",
+                "D'estate si va al mare",
+                "In estate si va al mare.",
+                "In estate si va al mare"
+              ],
+              "explanation": "You heard: 'D'estate si va al mare.' — si va: in summer, everybody goes. 💛",
+              "dictionaryRefs": [
+                "il-mare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u52l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💳",
+              "mode": "choice",
+              "speakIt": "Si può pagare con la carta?",
+              "options": [
+                "Can you pay by card?",
+                "Did you pay by card?",
+                "Is the card paid?",
+                "Can I have your card?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Si può pagare con la carta?' — si può: the traveler's key question.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            },
+            {
+              "id": "u52l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: people eat well here.",
+              "targetIt": "Si mangia bene qui.",
+              "minAccuracy": 0.7,
+              "explanation": "'Si mangia bene qui.' — si MAN-jia BE-ne QU-I. The review every restaurant wants.",
+              "dictionaryRefs": [
+                "mangiare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u52l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: in the summer, people go to the seaside. 💛",
+              "targetIt": "D'estate si va al mare.",
+              "minAccuracy": 0.7,
+              "explanation": "'D'estate si va al mare.' — des-TA-te si VA al MA-re. 💛",
+              "dictionaryRefs": [
+                "il-mare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u52l4e6",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🇮🇹",
+              "mode": "choice",
+              "speakIt": "In Italia si parla italiano.",
+              "options": [
+                "In Italy, people speak Italian.",
+                "In Italy, I speak Italian.",
+                "People are learning Italian.",
+                "Do you speak Italian in Italy?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'In Italia si parla italiano.' — si parla: a fact with no agent, the si impersonale at its purest.",
+              "dictionaryRefs": [
+                "parlare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u52l4e7",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 😴",
+              "mode": "type",
+              "speakIt": "Ci si alza tardi la domenica.",
+              "acceptedIt": [
+                "Ci si alza tardi la domenica.",
+                "Ci si alza tardi la domenica",
+                "La domenica ci si alza tardi.",
+                "La domenica ci si alza tardi"
+              ],
+              "explanation": "You heard: 'Ci si alza tardi la domenica.' — ci si alza: reflexive si becomes ci (alzarsi, Unit 28).",
+              "dictionaryRefs": [
+                "alzarsi",
+                "domenica"
+              ]
+            },
+            {
+              "id": "u52l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: can you pay by card?",
+              "targetIt": "Si può pagare con la carta?",
+              "minAccuracy": 0.7,
+              "explanation": "'Si può pagare con la carta?' — si PUO pa-GA-re kon la KAR-ta.",
+              "dictionaryRefs": [
+                "potere"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u52c",
+        "exercises": [
+          {
+            "id": "u52ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la coda",
+            "options": [
+              "the queue; the line",
+              "the tail",
+              "the code",
+              "the crowd"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La coda' (f) = the queue — 'fare la coda': the national sport.",
+            "dictionaryRefs": [
+              "la-coda"
+            ]
+          },
+          {
+            "id": "u52ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the fact. (In Italy, people speak Italian.)",
+            "sentence": "In Italia si ___ italiano.",
+            "answers": [
+              "parla"
+            ],
+            "explanation": "'In Italia si parla italiano.' — si + parla: fact, no agent.",
+            "dictionaryRefs": [
+              "parlare",
+              "italiano"
+            ]
+          },
+          {
+            "id": "u52ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the rule. (One must not speak loudly.)",
+            "sentence": "Non si ___ parlare a voce alta.",
+            "answers": [
+              "deve"
+            ],
+            "explanation": "'Non si deve parlare a voce alta.' — si + deve: the polite prohibition (dovere, Unit 32).",
+            "dictionaryRefs": [
+              "dovere"
+            ]
+          },
+          {
+            "id": "u52ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "Can you pay by card?",
+            "acceptedIt": [
+              "Si può pagare con la carta?",
+              "Si può pagare con la carta",
+              "Si puo' pagare con la carta?",
+              "Si puo' pagare con la carta",
+              "Qui si può pagare con la carta?"
+            ],
+            "explanation": "'Si può pagare con la carta?' — si + può: the question that opens every checkout. 💛",
+            "dictionaryRefs": [
+              "potere"
+            ]
+          },
+          {
+            "id": "u52ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 😴",
+            "sourceIt": "Ci si alza tardi la domenica.",
+            "acceptedEn": [
+              "On Sundays you get up late.",
+              "One gets up late on Sunday.",
+              "People get up late on Sundays.",
+              "On Sunday you get up late."
+            ],
+            "explanation": "'Ci si alza tardi la domenica.' — ci si alza: reflexive si becomes ci before the impersonal si (Unit 28 + Unit 52).",
+            "dictionaryRefs": [
+              "alzarsi",
+              "domenica"
+            ]
+          },
+          {
+            "id": "u52ce6",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. ☕",
+            "tokens": [
+              "Al",
+              "bar",
+              "si",
+              "prende",
+              "il",
+              "caffè."
+            ],
+            "correctSentence": "Al bar si prende il caffè.",
+            "explanation": "'Al bar si prende il caffè.' — the daily ritual, scrambled.",
+            "dictionaryRefs": [
+              "il-bar",
+              "prendere",
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u52ce7",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form.",
+            "question": "Al mercato si ___ le scarpe.",
+            "options": [
+              "comprano",
+              "compra",
+              "comprate",
+              "comprando"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Si comprano le scarpe' — plural object → plural verb, like the passive (Unit 51).",
+            "dictionaryRefs": [
+              "comprare",
+              "le-scarpe"
+            ]
+          },
+          {
+            "id": "u52ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💳",
+            "mode": "choice",
+            "speakIt": "Si può pagare con la carta?",
+            "options": [
+              "Can you pay by card?",
+              "Could you pay by card?",
+              "Did you pay by card?",
+              "Is it possible to park the card?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Si può pagare con la carta?' — si può, present of potere.",
+            "dictionaryRefs": [
+              "potere"
+            ]
+          },
+          {
+            "id": "u52ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "In Italia si mangia la pasta.",
+            "acceptedIt": [
+              "In Italia si mangia la pasta.",
+              "In Italia si mangia la pasta",
+              "In Italia si mangia la pasta!"
+            ],
+            "explanation": "You heard: 'In Italia si mangia la pasta.' — si mangia: the si impersonale (Unit 51's si passivante, back for an encore).",
+            "dictionaryRefs": [
+              "la-pasta",
+              "mangiare"
+            ]
+          },
+          {
+            "id": "u52ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: at the bar, people have coffee standing. ☕",
+            "targetIt": "Al bar si prende il caffè in piedi.",
+            "minAccuracy": 0.7,
+            "explanation": "'Al bar si prende il caffè in piedi.' — al BAR si PREN-de il caf-FÈ in PIE-di.",
+            "dictionaryRefs": [
+              "il-bar",
+              "prendere",
+              "il-caffe"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u53",
+      "number": 53,
+      "title": "Frasi complesse",
+      "lessons": [
+        {
+          "id": "u53l1",
+          "type": "vocabulary",
+          "title": "Benché, affinché, purché",
+          "dictionaryRefs": [
+            "benche",
+            "affinche",
+            "purche",
+            "la-paura",
+            "la-speranza",
+            "lo-scopo"
+          ],
+          "exercises": [
+            {
+              "id": "u53l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "benché",
+              "options": [
+                "although; even though",
+                "because",
+                "unless",
+                "if only"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Benché' = although — it admits the fact and denies the conclusion: 'Benché piova, usciamo.' — although it rains, we go out. It DEMANDS the subjunctive.",
+              "dictionaryRefs": [
+                "benche"
+              ]
+            },
+            {
+              "id": "u53l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "affinché",
+              "options": [
+                "so that; in order that",
+                "so as not to",
+                "as if",
+                "until"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Affinché' = so that — it introduces a purpose: 'Ti scrivo affinché tu sappia.' — I write so that you know. Purpose → subjunctive.",
+              "dictionaryRefs": [
+                "affinche"
+              ]
+            },
+            {
+              "id": "u53l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "purché",
+              "options": [
+                "provided that; as long as",
+                "because",
+                "although",
+                "before"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Purché' = provided that — the condition for a yes: 'Puoi uscire, purché tu sia a casa per cena.' Condition → subjunctive.",
+              "dictionaryRefs": [
+                "purche"
+              ]
+            },
+            {
+              "id": "u53l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la paura",
+              "options": [
+                "the fear",
+                "the pain",
+                "the panic room",
+                "the danger"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La paura' (f) = the fear — 'Ho paura di sbagliare.' — I'm afraid of making mistakes (sbagliare, Unit 48). Fear is a feeling: feelings love the subjunctive.",
+              "dictionaryRefs": [
+                "la-paura"
+              ]
+            },
+            {
+              "id": "u53l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "la speranza",
+              "options": [
+                "the hope",
+                "the expectation",
+                "the promise",
+                "the wait"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La speranza' (f) = the hope — from sperare (Unit 43). 'C'è speranza.' 💛 Hope, doubt, fear — the subjunctive's best friends.",
+              "dictionaryRefs": [
+                "la-speranza",
+                "sperare"
+              ]
+            },
+            {
+              "id": "u53l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "lo scopo",
+              "options": [
+                "the purpose; the aim",
+                "the scope",
+                "the sports target",
+                "the view"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo scopo' (m) = the purpose, the aim — 'Qual è lo scopo?' — what's the point? Purposes are what affinché is for.",
+              "dictionaryRefs": [
+                "lo-scopo"
+              ]
+            },
+            {
+              "id": "u53l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'm afraid of making mistakes.)",
+              "sentence": "Ho ___ di sbagliare.",
+              "answers": [
+                "paura"
+              ],
+              "explanation": "'Ho paura di sbagliare.' — ho paura di + infinitive: the fixed phrase for fear. Everyone's fear before speaking Italian.",
+              "dictionaryRefs": [
+                "la-paura",
+                "sbagliare"
+              ]
+            },
+            {
+              "id": "u53l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (A first taste of the subjunctive!)",
+              "sourceEn": "Although it's raining, we're going out.",
+              "acceptedIt": [
+                "Benché piova, usciamo.",
+                "Benché piova usciamo.",
+                "Benché piova, usciamo",
+                "Anche se piove, usciamo.",
+                "Anche se piove, usciamo"
+              ],
+              "explanation": "'Benché piova, usciamo.' — benché + subjunctive (piova), the everyday alternative 'anche se piove' + indicative. Both are correct — different registers. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u53l2",
+          "type": "grammar",
+          "title": "Il congiuntivo con benché, affinché, purché",
+          "dictionaryRefs": [
+            "benche",
+            "affinche",
+            "purche",
+            "la-paura",
+            "la-speranza",
+            "lo-scopo",
+            "uscire",
+            "sapere",
+            "la-verita",
+            "potere",
+            "la-casa",
+            "la-cena",
+            "scrivere",
+            "restare",
+            "parlare"
+          ],
+          "grammarNotes": "FRASI COMPLESSE — main clause + subordinate clause, glued by a che-word. You know several already: perché (Unit 8), quando (Unit 8), mentre (Unit 30), prima (Unit 49). Now the three that DEMAND the subjunctive: benché (although), affinché (so that), purché (provided that). Why the subjunctive? They express contrast, purpose, condition — not plain facts.\n\nCONGIUNTIVO PRESENTE — the full paradigms:\nESSERE: sia, sia, sia, siamo, siate, siano\nAVERE: abbia, abbia, abbia, abbiamo, abbiate, abbiano\nPOTERE: possa, possa, possa, possiamo, possiate, possano\nVOLERE: voglia, voglia, voglia, vogliamo, vogliate, vogliano\nFARE: faccia, faccia, faccia, facciamo, facciate, facciano\nSAPERE: sappia, sappia, sappia, sappiamo, sappiate, sappiano\n\nBENCHÉ = although — admits the fact, denies the conclusion: 'Benché sia tardi, usciamo.' It's late AND we're going out. The everyday alternative: 'anche se' + indicative — 'Anche se è tardi, usciamo.' Same truth, different register. 💛\n\nAFFINCHÉ = so that — the purpose clause: 'Ti scrivo affinché tu sappia la verità.' Why the subjunctive? The purpose isn't a fact — it's a goal. You reach for the indicative once the goal becomes real.\n\nPURCHÉ = provided that — the condition for a yes: 'Puoi uscire, purché tu sia a casa per cena.' Condition → subjunctive. 💛 (The verb inside: USCIRE, presente — esco, esci, esce, usciamo, uscite, escono.)\n\nPAST IN THE SUBORDINATE — benché + imperfetto congiuntivo: ESSERE: fossi, fossi, fosse, fossimo, foste, fossero; AVERE: avessi, avessi, avesse, avessimo, aveste, avessero; FARE: facessi, facessi, facesse, facessimo, faceste, facessero. 'Benché fosse tardi, siamo restati ancora un po'.' — nobody wanted to leave.\n\nTHE GOLDEN RULE: indicative states, subjunctive feels. The conjunction tells you which.\n\nessere (presente): sono, sei, è, siamo, siete, sono | avere (presente): ho, hai, ha, abbiamo, avete, hanno | fare (presente): faccio, fai, fa, facciamo, fate, fanno | sapere (presente): so, sai, sa, sappiamo, sapete, sanno | volere (presente): voglio, vuoi, vuole, vogliamo, volete, vogliono | potere (presente): posso, puoi, può, possiamo, potete, possono.",
+          "exercises": [
+            {
+              "id": "u53l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Although it's late, we go out.)",
+              "sentence": "Benché ___ tardi, usciamo.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Benché sia tardi, usciamo.' — benché + sia (subjunctive of essere): it's late AND we go out. Indicative (è) would break the rule.",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u53l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the purpose. (I'm writing to you so that you know the truth.)",
+              "sentence": "Ti scrivo affinché tu ___ la verità.",
+              "answers": [
+                "sappia"
+              ],
+              "explanation": "'Ti scrivo affinché tu sappia la verità.' — affinché + sappia (subjunctive of sapere): the goal, not yet a fact. (sappia — the irregular gem from Unit 43.)",
+              "dictionaryRefs": [
+                "affinche",
+                "sapere",
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u53l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the condition. (You can go out, provided you're home for dinner.)",
+              "sentence": "Puoi uscire, purché tu ___ a casa per cena.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Puoi uscire, purché tu sia a casa per cena.' — purché + sia: the condition for the yes (potere, Unit 32).",
+              "dictionaryRefs": [
+                "purche",
+                "potere",
+                "la-casa",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u53l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Although it's late, we go out.",
+              "acceptedIt": [
+                "Benché sia tardi, usciamo.",
+                "Benché sia tardi, usciamo",
+                "Benché sia tardi usciamo.",
+                "Benché sia tardi usciamo",
+                "Anche se è tardi, usciamo.",
+                "Anche se e' tardi, usciamo."
+              ],
+              "explanation": "'Benché sia tardi, usciamo.' — benché + subjunctive. With 'anche se' you may use the indicative — that's the everyday spoken version. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u53l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I'm writing to you so that you know the truth.",
+              "acceptedIt": [
+                "Ti scrivo affinché tu sappia la verità.",
+                "Ti scrivo affinché tu sappia la verità",
+                "Ti scrivo affinché sappia la verità.",
+                "Ti scrivo affinché sappia la verità",
+                "Ti scrivo perché tu sappia la verità."
+              ],
+              "explanation": "'Ti scrivo affinché tu sappia la verità.' — ti scrivo (scrivere, Unit 12) + affinché + subjunctive: writing with a purpose.",
+              "dictionaryRefs": [
+                "affinche",
+                "sapere",
+                "la-verita",
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u53l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "You can go out, provided you're home for dinner.",
+              "acceptedIt": [
+                "Puoi uscire, purché tu sia a casa per cena.",
+                "Puoi uscire purché tu sia a casa per cena",
+                "Puoi uscire, purché sia a casa per cena.",
+                "Puoi uscire, purché tu sia a casa per cena",
+                "Puoi uscire, a condizione che tu sia a casa per cena."
+              ],
+              "explanation": "'Puoi uscire, purché tu sia a casa per cena.' — purché + subjunctive: the bargain. Conditions are goals, not facts. 💛",
+              "dictionaryRefs": [
+                "purche",
+                "potere",
+                "uscire",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u53l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Benché fosse tardi, siamo restati ancora un po'.",
+              "acceptedEn": [
+                "Although it was late, we stayed a little longer.",
+                "Even though it was late, we stayed a bit longer.",
+                "Although it was late, we stayed on for a while.",
+                "Even though it was late, we stayed a while longer."
+              ],
+              "explanation": "'Benché fosse tardi…' — benché + imperfect subjunctive (fosse): the fact is past, the grammar of feeling remains. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "restare"
+              ]
+            },
+            {
+              "id": "u53l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Benché",
+                "sia",
+                "tardi,",
+                "usciamo."
+              ],
+              "correctSentence": "Benché sia tardi, usciamo.",
+              "explanation": "'Benché sia tardi, usciamo.' — contrast first, conclusion second. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u53l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Ti",
+                "scrivo",
+                "affinché",
+                "tu",
+                "sappia",
+                "la",
+                "verità."
+              ],
+              "correctSentence": "Ti scrivo affinché tu sappia la verità.",
+              "explanation": "'Ti scrivo affinché tu sappia la verità.' — purpose clause after the main clause: the natural Italian order.",
+              "dictionaryRefs": [
+                "affinche",
+                "sapere",
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u53l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Puoi",
+                "uscire,",
+                "purché",
+                "tu",
+                "sia",
+                "a",
+                "casa",
+                "per",
+                "cena."
+              ],
+              "correctSentence": "Puoi uscire, purché tu sia a casa per cena.",
+              "explanation": "'Puoi uscire, purché tu sia a casa per cena.' — the permission, then the condition.",
+              "dictionaryRefs": [
+                "purche",
+                "potere",
+                "uscire",
+                "la-casa",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u53l2e11",
+              "type": "multiple_choice",
+              "prompt": "Which sentence uses the subjunctive?",
+              "question": "Quale frase usa il congiuntivo?",
+              "options": [
+                "Benché piova, usciamo.",
+                "Ieri è piovuto tutto il giorno.",
+                "Domani piove, purtroppo.",
+                "Piove spesso qui."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Benché piova…' — benché demands the subjunctive (piova). The others are plain facts: indicative. Conjunction first, mood second.",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u53l3",
+          "type": "mixed",
+          "title": "Frasi della vita vera — ripasso 💛",
+          "dictionaryRefs": [
+            "sperare",
+            "domani",
+            "vorrei",
+            "chiamare",
+            "arrivare",
+            "la-casa",
+            "importante",
+            "sapere",
+            "la-verita",
+            "telefonare",
+            "affinche",
+            "la-notizia",
+            "pensare",
+            "decidere",
+            "benche",
+            "stanco",
+            "uscire",
+            "fare",
+            "la-passeggiata",
+            "purche",
+            "potere",
+            "la-macchina",
+            "pronto"
+          ],
+          "exercises": [
+            {
+              "id": "u53l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 43 recycling — hope + subjunctive!)",
+              "sourceEn": "I hope it doesn't rain tomorrow.",
+              "acceptedIt": [
+                "Spero che domani non piova.",
+                "Spero che domani non piova",
+                "Spero che non piova domani.",
+                "Spero che non piova domani",
+                "Spero che domani non piova!"
+              ],
+              "explanation": "'Spero che domani non piova.' — sperare (Unit 43) + subjunctive: hope is a feeling, not a fact. che + piova — the subjunctive you now understand.",
+              "dictionaryRefs": [
+                "sperare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u53l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 48 recycling)",
+              "sourceEn": "I wish you were here.",
+              "acceptedIt": [
+                "Vorrei che tu fossi qui.",
+                "Vorrei che tu fossi qui",
+                "Vorrei che fossi qui.",
+                "Magari tu fossi qui.",
+                "Magari fossi qui."
+              ],
+              "explanation": "'Vorrei che tu fossi qui.' — vorrei (Unit 41) + imperfect subjunctive (fossi): the wish-world of Unit 48, now with its grammar named. 💛",
+              "dictionaryRefs": [
+                "vorrei"
+              ]
+            },
+            {
+              "id": "u53l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'll call you when I get home.) (Unit 19 recycling)",
+              "sentence": "Ti chiamo quando ___ a casa.",
+              "answers": [
+                "arrivo",
+                "sono"
+              ],
+              "explanation": "'Ti chiamo quando arrivo a casa.' — quando + present for the future: when I arrive / when I am home. No future after quando (Unit 8).",
+              "dictionaryRefs": [
+                "chiamare",
+                "arrivare",
+                "la-casa"
+              ]
+            },
+            {
+              "id": "u53l3e4",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form. (Unit 44 recycling)",
+              "question": "È importante che tu ___ la verità.",
+              "options": [
+                "sappia",
+                "sai",
+                "sapete",
+                "sapendo"
+              ],
+              "correctIndex": 0,
+              "explanation": "'È importante che tu sappia…' — è importante che + subjunctive (Unit 44) + sappia: the irregular you learned with sapere (Unit 43).",
+              "dictionaryRefs": [
+                "importante",
+                "sapere",
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u53l3e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 33 recycling)",
+              "sourceEn": "I'll call you so that you know the news.",
+              "acceptedIt": [
+                "Ti telefono affinché tu sappia la notizia.",
+                "Ti telefono affinché tu sappia la notizia",
+                "Ti chiamo affinché tu sappia la notizia.",
+                "Ti telefono perché tu sappia la notizia.",
+                "Ti chiamo affinché sappia la notizia."
+              ],
+              "explanation": "'Ti telefono affinché tu sappia la notizia.' — telefonare (Unit 33) + affinché + subjunctive: calling with a purpose.",
+              "dictionaryRefs": [
+                "telefonare",
+                "affinche",
+                "sapere",
+                "la-notizia"
+              ]
+            },
+            {
+              "id": "u53l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 49 recycling)",
+              "tokens": [
+                "Prima",
+                "penso,",
+                "poi",
+                "decido."
+              ],
+              "correctSentence": "Prima penso, poi decido.",
+              "explanation": "'Prima penso, poi decido.' — pensare (Unit 34) + decidere (Unit 49): first I think, then I decide. Simple clauses first — the complex ones are coming.",
+              "dictionaryRefs": [
+                "pensare",
+                "decidere"
+              ]
+            },
+            {
+              "id": "u53l3e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Although I'm tired, I go out with you.)",
+              "sentence": "Benché ___ stanco, esco con voi.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Benché sia stanco, esco con voi.' — benché + sia + adjective: tired, but going. Feelings vs facts.",
+              "dictionaryRefs": [
+                "benche",
+                "stanco",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u53l3e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 21 recycling)",
+              "sourceIt": "Benché piova, facciamo una passeggiata.",
+              "acceptedEn": [
+                "Although it's raining, we take a walk.",
+                "Even though it rains, we take a walk.",
+                "Although it's raining, we go for a walk.",
+                "Even though it's raining, we're taking a walk.",
+                "Although it rains, we go for a walk."
+              ],
+              "explanation": "'Benché piova, facciamo una passeggiata.' — benché + subjunctive + the Sunday walk (la passeggiata, Unit 21). Rain is a detail. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "fare",
+                "la-passeggiata"
+              ]
+            },
+            {
+              "id": "u53l3e9",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form.",
+              "question": "Puoi usare la macchina, purché tu ___ pronto.",
+              "options": [
+                "sia",
+                "sei",
+                "stai",
+                "sarai"
+              ],
+              "correctIndex": 0,
+              "explanation": "'…purché tu sia pronto.' — purché + subjunctive: the car is yours IF the condition holds (la macchina, Unit 47; pronto, Unit 38).",
+              "dictionaryRefs": [
+                "purche",
+                "potere",
+                "la-macchina",
+                "pronto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u53l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "benche",
+            "uscire",
+            "affinche",
+            "sapere",
+            "la-verita",
+            "purche",
+            "potere",
+            "la-cena",
+            "la-casa",
+            "restare"
+          ],
+          "exercises": [
+            {
+              "id": "u53l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Benché sia tardi, usciamo.",
+              "options": [
+                "Although it's late, we're going out.",
+                "Because it's late, we go out.",
+                "It's late, so we're staying in.",
+                "Although it's early, we go out."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Benché sia tardi, usciamo.' — benché + subjunctive (sia): the fact admitted, the plan unchanged. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u53l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Ti scrivo affinché tu sappia la verità.",
+              "acceptedIt": [
+                "Ti scrivo affinché tu sappia la verità.",
+                "Ti scrivo affinché tu sappia la verità",
+                "Ti scrivo affinche tu sappia la verita.",
+                "Ti scrivo affinche tu sappia la verita",
+                "Ti scrivo affinché tu sappia la verita."
+              ],
+              "explanation": "You heard: 'Ti scrivo affinché tu sappia la verità.' — affinché + sappia: writing with a purpose.",
+              "dictionaryRefs": [
+                "affinche",
+                "sapere",
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u53l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Puoi uscire, purché tu sia a casa per cena.",
+              "options": [
+                "You can go out, provided you're home for dinner.",
+                "You can go out because dinner is ready.",
+                "You can't go out until dinner.",
+                "You may leave if you cook dinner."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Puoi uscire, purché tu sia a casa per cena.' — purché + subjunctive: the bargain.",
+              "dictionaryRefs": [
+                "purche",
+                "potere",
+                "uscire",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u53l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: although it's late, we go out. 💛",
+              "targetIt": "Benché sia tardi, usciamo.",
+              "minAccuracy": 0.7,
+              "explanation": "'Benché sia tardi, usciamo.' — ben-KE si-A TAR-di u-SHIA-mo. 💛",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u53l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'm writing to you so that you know the truth.",
+              "targetIt": "Ti scrivo affinché tu sappia la verità.",
+              "minAccuracy": 0.7,
+              "explanation": "'Ti scrivo affinché tu sappia la verità.' — ti SKRI-vo af-fin-KE tu SAP-pia la ve-RI-ta.",
+              "dictionaryRefs": [
+                "affinche",
+                "sapere",
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u53l4e6",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🌙",
+              "mode": "choice",
+              "speakIt": "Benché fosse tardi, siamo restati ancora un po'.",
+              "options": [
+                "Although it was late, we stayed a little longer.",
+                "Because it was late, we left quickly.",
+                "It was late, so we went home.",
+                "Although it was early, we stayed."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Benché fosse tardi, siamo restati ancora un po'.' — benché + fosse: imperfect subjunctive for a past feeling.",
+              "dictionaryRefs": [
+                "benche",
+                "restare"
+              ]
+            },
+            {
+              "id": "u53l4e7",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Puoi uscire, purché tu sia a casa per cena.",
+              "acceptedIt": [
+                "Puoi uscire, purché tu sia a casa per cena.",
+                "Puoi uscire, purché tu sia a casa per cena",
+                "Puoi uscire purché tu sia a casa per cena.",
+                "Puoi uscire, purche' tu sia a casa per cena."
+              ],
+              "explanation": "You heard: 'Puoi uscire, purché tu sia a casa per cena.' — purché + sia: the condition for the yes.",
+              "dictionaryRefs": [
+                "purche",
+                "potere",
+                "uscire",
+                "la-cena"
+              ]
+            },
+            {
+              "id": "u53l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: although it rains, we go out. ☔",
+              "targetIt": "Benché piova, usciamo.",
+              "minAccuracy": 0.7,
+              "explanation": "'Benché piova, usciamo.' — ben-KE PJO-va u-SHIA-mo. Rain is a detail.",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u53c",
+        "exercises": [
+          {
+            "id": "u53ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "benché",
+            "options": [
+              "although; even though",
+              "because",
+              "if only",
+              "until"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Benché' = although — demands the subjunctive.",
+            "dictionaryRefs": [
+              "benche"
+            ]
+          },
+          {
+            "id": "u53ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Although it's late, we go out.)",
+            "sentence": "Benché ___ tardi, usciamo.",
+            "answers": [
+              "sia"
+            ],
+            "explanation": "'Benché sia tardi, usciamo.' — benché + subjunctive (sia).",
+            "dictionaryRefs": [
+              "benche",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u53ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the purpose. (I write so that you know the truth.)",
+            "sentence": "Ti scrivo affinché tu ___ la verità.",
+            "answers": [
+              "sappia"
+            ],
+            "explanation": "'Ti scrivo affinché tu sappia la verità.' — affinché + subjunctive (sappia).",
+            "dictionaryRefs": [
+              "affinche",
+              "sapere",
+              "la-verita"
+            ]
+          },
+          {
+            "id": "u53ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "You can go out, provided you're home for dinner.",
+            "acceptedIt": [
+              "Puoi uscire, purché tu sia a casa per cena.",
+              "Puoi uscire purché tu sia a casa per cena",
+              "Puoi uscire, purché sia a casa per cena.",
+              "Puoi uscire, purché tu sia a casa per cena",
+              "Puoi uscire, a condizione che tu sia a casa per cena."
+            ],
+            "explanation": "'Puoi uscire, purché tu sia a casa per cena.' — purché + subjunctive: the condition. 💛",
+            "dictionaryRefs": [
+              "purche",
+              "potere",
+              "uscire",
+              "la-cena"
+            ]
+          },
+          {
+            "id": "u53ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Benché fosse tardi, siamo restati ancora un po'.",
+            "acceptedEn": [
+              "Although it was late, we stayed a little longer.",
+              "Even though it was late, we stayed a bit longer.",
+              "Although it was late, we stayed on for a while.",
+              "Even though it was late, we stayed a while longer."
+            ],
+            "explanation": "'Benché fosse tardi…' — benché + imperfect subjunctive (fosse). 💛",
+            "dictionaryRefs": [
+              "benche",
+              "restare"
+            ]
+          },
+          {
+            "id": "u53ce6",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. ☔",
+            "tokens": [
+              "Benché",
+              "piova,",
+              "usciamo."
+            ],
+            "correctSentence": "Benché piova, usciamo.",
+            "explanation": "'Benché piova, usciamo.' — although it rains: subjunctive in three words.",
+            "dictionaryRefs": [
+              "benche",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u53ce7",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form.",
+            "question": "È importante che tu ___ la verità.",
+            "options": [
+              "sappia",
+              "sai",
+              "sappiamo",
+              "sapendo"
+            ],
+            "correctIndex": 0,
+            "explanation": "'È importante che tu sappia…' — è importante che + subjunctive (Unit 44).",
+            "dictionaryRefs": [
+              "importante",
+              "sapere",
+              "la-verita"
+            ]
+          },
+          {
+            "id": "u53ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning.",
+            "mode": "choice",
+            "speakIt": "Puoi uscire, purché tu sia a casa per cena.",
+            "options": [
+              "You can go out, provided you're home for dinner.",
+              "You can go out because dinner is ready.",
+              "You can't go out until dinner.",
+              "You may leave if you cook dinner."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Puoi uscire, purché tu sia a casa per cena.' — purché + sia.",
+            "dictionaryRefs": [
+              "purche",
+              "potere",
+              "uscire",
+              "la-cena"
+            ]
+          },
+          {
+            "id": "u53ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Benché sia tardi, usciamo.",
+            "acceptedIt": [
+              "Benché sia tardi, usciamo.",
+              "Benché sia tardi, usciamo",
+              "Benché sia tardi usciamo.",
+              "Benche' sia tardi, usciamo.",
+              "Benche sia tardi, usciamo."
+            ],
+            "explanation": "You heard: 'Benché sia tardi, usciamo.' 💛",
+            "dictionaryRefs": [
+              "benche",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u53ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: you can go out, provided you're home for dinner.",
+            "targetIt": "Puoi uscire, purché tu sia a casa per cena.",
+            "minAccuracy": 0.7,
+            "explanation": "'Puoi uscire, purché tu sia a casa per cena.' — PUOI u-SHI-re pur-KE tu SI-a a CA-sa per CE-na.",
+            "dictionaryRefs": [
+              "purche",
+              "potere",
+              "uscire",
+              "la-cena"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u54",
+      "number": 54,
+      "title": "Gerundio e infinito",
+      "lessons": [
+        {
+          "id": "u54l1",
+          "type": "vocabulary",
+          "title": "Correre, la pausa, il cellulare",
+          "dictionaryRefs": [
+            "correre",
+            "la-corsa",
+            "la-pausa",
+            "il-compito",
+            "camminare",
+            "il-cellulare"
+          ],
+          "exercises": [
+            {
+              "id": "u54l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "correre",
+              "options": [
+                "to run",
+                "to walk fast",
+                "to race cars",
+                "to jump"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Correre' = to run — 'Corro ogni mattina.' — I run every morning. Its gerund (correndo) is your grammar today. 💛",
+              "dictionaryRefs": [
+                "correre"
+              ]
+            },
+            {
+              "id": "u54l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la corsa",
+              "options": [
+                "the run; the race",
+                "the course",
+                "the ride",
+                "the chase"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La corsa' (f) = the run, the race — from correre. 'Faccio una corsa al parco.' — I go for a run in the park (fare + una corsa).",
+              "dictionaryRefs": [
+                "la-corsa",
+                "correre"
+              ]
+            },
+            {
+              "id": "u54l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la pausa",
+              "options": [
+                "the break; the pause",
+                "the bus stop",
+                "the holiday",
+                "the hesitation"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La pausa' (f) = the break — 'Faccio una pausa.' — I'm taking a break. The word you'll use mid-conversation. 💛",
+              "dictionaryRefs": [
+                "la-pausa",
+                "fare"
+              ]
+            },
+            {
+              "id": "u54l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il compito",
+              "options": [
+                "the task; homework",
+                "the competition",
+                "the job offer",
+                "the complaint"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il compito' (m) = the task, homework — 'Ho finito i compiti.' — I've finished my homework (finire, Unit 12).",
+              "dictionaryRefs": [
+                "il-compito",
+                "finire"
+              ]
+            },
+            {
+              "id": "u54l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "camminare",
+              "options": [
+                "to walk",
+                "to march",
+                "to climb",
+                "to stroll aimlessly"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Camminare' = to walk — 'Cammino ogni giorno.' — I walk every day. Slower than correre, same gerundio family: camminando.",
+              "dictionaryRefs": [
+                "camminare"
+              ]
+            },
+            {
+              "id": "u54l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il cellulare",
+              "options": [
+                "the cell phone",
+                "the calculator",
+                "the satellite",
+                "the battery"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il cellulare' (m) = the cell phone — it rings (squilla) at the worst moments. 'Ti chiamo dal cellulare.' — I'll call you from my cell.",
+              "dictionaryRefs": [
+                "il-cellulare"
+              ]
+            },
+            {
+              "id": "u54l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Every morning I walk in the park.)",
+              "sentence": "Ogni mattina ___ nel parco.",
+              "answers": [
+                "cammino",
+                "corro"
+              ],
+              "explanation": "'Ogni mattina cammino/corro nel parco.' — both fit: walk or run, your choice (il parco, Unit 21; la mattina, Unit 10).",
+              "dictionaryRefs": [
+                "camminare",
+                "correre",
+                "il-parco",
+                "la-mattina"
+              ]
+            },
+            {
+              "id": "u54l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'm walking in the park.",
+              "acceptedIt": [
+                "Sto camminando nel parco.",
+                "Sto camminando nel parco",
+                "Cammino nel parco.",
+                "Cammino nel parco",
+                "Sto camminando al parco."
+              ],
+              "explanation": "'Sto camminando nel parco.' — the present continuous sneaks into vocabulary: sto + camminando. Full grammar next lesson. 💛",
+              "dictionaryRefs": [
+                "camminare",
+                "il-parco"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u54l2",
+          "type": "grammar",
+          "title": "Il gerundio: sto leggendo, dopo aver finito",
+          "dictionaryRefs": [
+            "correre",
+            "la-pausa",
+            "il-compito",
+            "camminare",
+            "leggere",
+            "il-libro",
+            "partire",
+            "prendere",
+            "il-caffe",
+            "mangiare",
+            "telefonare",
+            "fare",
+            "la-cosa",
+            "uscire",
+            "il-parco"
+          ],
+          "grammarNotes": "IL GERUNDIO — the '-ing' form: it shows an action unfolding around another one. 💛\n\nGERUNDIO PRESENTE: the first conjugation takes -ando; the second and third take -endo (drop the final -re, add -ndo). Irregulars by daily use: facendo, avendo, essendo, andando, venendo, uscendo.\n\nSTARE + GERUNDIO = the present continuous — what is happening RIGHT NOW:\nSTARE, presente: sto, stai, sta, stiamo, state, stanno\nLEGGERE, presente: leggo, leggi, legge, leggiamo, leggete, leggono\n'Cosa stai facendo?' — 'Sto leggendo.' 💛 'Stiamo mangiando.' 'Stanno dormendo.'\n(The plain present answers too — 'Leggo.' — but sto leggendo zooms in: unfinished, in progress. English forces 'I am reading' here; Italian chooses between the two.)\n\nGERUNDIO PASSATO: avendo / essendo + participio — 'Avendo finito presto, esco.' = 'Dopo aver finito…' compressed into one word. The Unit 27 auxiliary rule holds: movement and change → essendo ('Essendo arrivato tardi, non trovo posto.'), the rest → avendo.\n\nPRIMA DI + INFINITO — 'Prima di uscire, prendo il cellulare.' Why the infinitive? After a preposition (di, a, per), Italian never conjugates: the infinito does the job English gives to '-ing' — 'before leaving', not 'before I leave'. USCIRE, presente: esco, esci, esce, usciamo, uscite, escono.\n\nDOPO + INFINITO PASSATO — 'Dopo aver mangiato, telefono a Giulia.' dopo points at a completed action, so: auxiliary + participio. 💛\n\nON THE PHONE (where gerunds live): 'Cosa stai facendo?' — 'Sto facendo una pausa.' — 'Ti chiamo dopo aver finito.' Phone Italian, complete.",
+          "exercises": [
+            {
+              "id": "u54l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'm reading a book.)",
+              "sentence": "Sto ___ un libro.",
+              "answers": [
+                "leggendo"
+              ],
+              "explanation": "'Sto leggendo un libro.' — sto (stare) + leggendo (gerundio of leggere): the action in progress, right now.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u54l2e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'm reading a book.",
+              "acceptedIt": [
+                "Sto leggendo un libro.",
+                "Sto leggendo un libro",
+                "Leggo un libro.",
+                "Leggo un libro",
+                "Sto leggendo il libro."
+              ],
+              "explanation": "'Sto leggendo un libro.' — the continuous version: sto + gerundio. 'Leggo un libro' is correct too — but it's the plain present: I read (habit or fact). 💛",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u54l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Before leaving, I have a coffee.)",
+              "sentence": "Prima di ___, prendo un caffè.",
+              "answers": [
+                "partire",
+                "uscire"
+              ],
+              "explanation": "'Prima di partire, prendo un caffè.' — prima di + infinitive: before leaving. After a preposition, no conjugated verb.",
+              "dictionaryRefs": [
+                "partire",
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u54l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (After eating, I call Giulia.)",
+              "sentence": "Dopo aver ___, telefono a Giulia.",
+              "answers": [
+                "mangiato"
+              ],
+              "explanation": "'Dopo aver mangiato, telefono a Giulia.' — dopo + aver + participio: the finished action first, then the phone call (telefonare, Unit 33).",
+              "dictionaryRefs": [
+                "mangiare",
+                "telefonare"
+              ]
+            },
+            {
+              "id": "u54l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "After eating, I call Giulia.",
+              "acceptedIt": [
+                "Dopo aver mangiato, telefono a Giulia.",
+                "Dopo aver mangiato, telefono a Giulia",
+                "Dopo aver mangiato telefono a Giulia.",
+                "Telefono a Giulia dopo aver mangiato.",
+                "Dopo aver mangiato, chiamo Giulia."
+              ],
+              "explanation": "'Dopo aver mangiato, telefono a Giulia.' — dopo + infinito passato (aver mangiato), then the main clause in the present.",
+              "dictionaryRefs": [
+                "mangiare",
+                "telefonare"
+              ]
+            },
+            {
+              "id": "u54l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "Before leaving, I have a coffee.",
+              "acceptedIt": [
+                "Prima di partire, prendo un caffè.",
+                "Prima di partire, prendo un caffè",
+                "Prima di partire prendo un caffè.",
+                "Prendo un caffè prima di partire.",
+                "Prima di uscire, prendo un caffè."
+              ],
+              "explanation": "'Prima di partire, prendo un caffè.' — prima di + infinitive; prendo il caffè (Unit 9) is how you leave the house.",
+              "dictionaryRefs": [
+                "partire",
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u54l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Sto facendo una pausa.",
+              "acceptedEn": [
+                "I'm taking a break.",
+                "I am taking a break.",
+                "I'm having a break.",
+                "I'm on a break.",
+                "I'm pausing."
+              ],
+              "explanation": "'Sto facendo una pausa.' — sto + facendo (fare → facendo): the mid-study message. 💛",
+              "dictionaryRefs": [
+                "fare",
+                "la-pausa"
+              ]
+            },
+            {
+              "id": "u54l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 📞",
+              "tokens": [
+                "Cosa",
+                "stai",
+                "facendo?"
+              ],
+              "correctSentence": "Cosa stai facendo?",
+              "explanation": "'Cosa stai facendo?' — the phone question of the century: cosa + stai + gerundio.",
+              "dictionaryRefs": [
+                "la-cosa",
+                "fare"
+              ]
+            },
+            {
+              "id": "u54l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Sto",
+                "leggendo",
+                "un",
+                "libro."
+              ],
+              "correctSentence": "Sto leggendo un libro.",
+              "explanation": "'Sto leggendo un libro.' — sto + gerundio + object: the present continuous in four words.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u54l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Dopo",
+                "aver",
+                "mangiato,",
+                "esco."
+              ],
+              "correctSentence": "Dopo aver mangiato, esco.",
+              "explanation": "'Dopo aver mangiato, esco.' — dopo + aver + participio, then out the door (uscire: esco).",
+              "dictionaryRefs": [
+                "mangiare",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u54l2e11",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form.",
+              "question": "Sto ___ nel parco.",
+              "options": [
+                "correndo",
+                "corro",
+                "corso",
+                "correre"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sto correndo' — sto + gerundio: the action right now. 'Corro' is the plain present (I run, habit); after sto you need the -ndo form.",
+              "dictionaryRefs": [
+                "correre",
+                "il-parco"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u54l3",
+          "type": "mixed",
+          "title": "Cosa stai facendo? — ripasso 💛",
+          "dictionaryRefs": [
+            "mentre",
+            "camminare",
+            "ascoltare",
+            "la-musica",
+            "studiare",
+            "la-cosa",
+            "fare",
+            "la-doccia",
+            "la-spesa",
+            "uscire",
+            "finire",
+            "il-compito",
+            "arrivare",
+            "mangiare",
+            "italiano",
+            "prendere",
+            "il-caffe",
+            "la-cucina"
+          ],
+          "exercises": [
+            {
+              "id": "u54l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 30 recycling)",
+              "sourceEn": "While I walk, I listen to music.",
+              "acceptedIt": [
+                "Mentre cammino, ascolto la musica.",
+                "Mentre cammino, ascolto la musica",
+                "Ascolto la musica mentre cammino.",
+                "Ascolto la musica mentre cammino",
+                "Cammino e ascolto la musica."
+              ],
+              "explanation": "'Mentre cammino, ascolto la musica.' — mentre (Unit 30) + two presents: walking and listening at the same time. Add a gerund and it becomes 'camminando'.",
+              "dictionaryRefs": [
+                "mentre",
+                "camminare",
+                "ascoltare",
+                "la-musica"
+              ]
+            },
+            {
+              "id": "u54l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "What are you doing? — I'm studying.",
+              "acceptedIt": [
+                "Cosa stai facendo? Sto studiando.",
+                "Cosa stai facendo? Sto studiando",
+                "Cosa fai? Sto studiando.",
+                "Sto studiando.",
+                "Cosa stai facendo? Studio."
+              ],
+              "explanation": "'Cosa stai facendo? Sto studiando.' — the phone-call exchange, complete: sto + facendo / sto + studiando. 💛",
+              "dictionaryRefs": [
+                "studiare",
+                "la-cosa",
+                "fare"
+              ]
+            },
+            {
+              "id": "u54l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I'm taking a shower.) (Unit 28 recycling)",
+              "sentence": "Sto ___ la doccia.",
+              "answers": [
+                "facendo"
+              ],
+              "explanation": "'Sto facendo la doccia.' — sto + facendo: in the shower right now (la doccia, Unit 28).",
+              "dictionaryRefs": [
+                "fare",
+                "la-doccia"
+              ]
+            },
+            {
+              "id": "u54l3e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Before going out, I do the shopping.) (Unit 21 recycling)",
+              "sentence": "Prima di uscire, faccio la ___.",
+              "answers": [
+                "spesa"
+              ],
+              "explanation": "'Prima di uscire, faccio la spesa.' — prima di + infinito (uscire) + la spesa (Unit 21): the evening routine.",
+              "dictionaryRefs": [
+                "la-spesa",
+                "uscire",
+                "fare"
+              ]
+            },
+            {
+              "id": "u54l3e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct form.",
+              "question": "___ finito i compiti, esco.",
+              "options": [
+                "Avendo",
+                "Avere",
+                "Avuto",
+                "Avente"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Avendo finito i compiti, esco.' — avendo + participio: the past gerund in one word (il compito, new today).",
+              "dictionaryRefs": [
+                "finire",
+                "il-compito",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u54l3e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 27 recycling)",
+              "sourceEn": "After arriving, we ate.",
+              "acceptedIt": [
+                "Dopo essere arrivati, abbiamo mangiato.",
+                "Dopo essere arrivati, abbiamo mangiato",
+                "Dopo essere arrivato, ho mangiato.",
+                "Dopo essere arrivati abbiamo mangiato.",
+                "Dopo che siamo arrivati, abbiamo mangiato."
+              ],
+              "explanation": "'Dopo essere arrivati, abbiamo mangiato.' — dopo + infinito passato: arrivare takes essere (Unit 27), so 'essere arrivati'.",
+              "dictionaryRefs": [
+                "arrivare",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u54l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 🇮🇹",
+              "tokens": [
+                "Sto",
+                "studiando",
+                "l'italiano."
+              ],
+              "correctSentence": "Sto studiando l'italiano.",
+              "explanation": "'Sto studiando l'italiano.' — right now, with this app. 💛",
+              "dictionaryRefs": [
+                "studiare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u54l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 12 recycling)",
+              "sourceEn": "I'm having a coffee.",
+              "acceptedIt": [
+                "Sto prendendo un caffè.",
+                "Sto prendendo un caffè",
+                "Prendo un caffè.",
+                "Prendo un caffè",
+                "Sto facendo un caffè."
+              ],
+              "explanation": "'Sto prendendo un caffè.' — sto + prendendo: the coffee is in progress (prendere, Unit 12).",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u54l3e9",
+              "type": "fill_blank",
+              "prompt": "Complete the question. (What are you doing in the kitchen?) (Unit 22 recycling)",
+              "sentence": "Cosa stai ___ in cucina?",
+              "answers": [
+                "facendo"
+              ],
+              "explanation": "'Cosa stai facendo in cucina?' — stai + facendo: the question from the other room (la cucina, Unit 22).",
+              "dictionaryRefs": [
+                "fare",
+                "la-cucina",
+                "la-cosa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u54l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "leggere",
+            "il-libro",
+            "fare",
+            "la-pausa",
+            "partire",
+            "prendere",
+            "il-caffe",
+            "finire",
+            "uscire",
+            "studiare",
+            "italiano"
+          ],
+          "exercises": [
+            {
+              "id": "u54l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 📖",
+              "mode": "choice",
+              "speakIt": "Sto leggendo un libro.",
+              "options": [
+                "I'm reading a book.",
+                "I read a book every day.",
+                "I've read the book.",
+                "I'm writing a book."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sto leggendo un libro.' — sto + gerundio: happening right now.",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u54l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Sto facendo una pausa.",
+              "acceptedIt": [
+                "Sto facendo una pausa.",
+                "Sto facendo una pausa",
+                "Sto facendo la pausa."
+              ],
+              "explanation": "You heard: 'Sto facendo una pausa.' — sto + facendo: the break is now. 💛",
+              "dictionaryRefs": [
+                "fare",
+                "la-pausa"
+              ]
+            },
+            {
+              "id": "u54l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Prima di partire, prendo un caffè.",
+              "options": [
+                "Before leaving, I have a coffee.",
+                "After leaving, I have a coffee.",
+                "Before arriving, I order a coffee.",
+                "First I leave, then I have a coffee."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Prima di partire, prendo un caffè.' — prima di + infinito: the coffee comes first.",
+              "dictionaryRefs": [
+                "partire",
+                "prendere",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u54l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'm reading a book. 💛",
+              "targetIt": "Sto leggendo un libro.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sto leggendo un libro.' — sto LEG-gen-do un LI-bro. 💛",
+              "dictionaryRefs": [
+                "leggere",
+                "il-libro"
+              ]
+            },
+            {
+              "id": "u54l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: after finishing, I go out.",
+              "targetIt": "Dopo aver finito, esco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Dopo aver finito, esco.' — DO-po A-ver fi-NI-to ES-co.",
+              "dictionaryRefs": [
+                "finire",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u54l4e6",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🇮🇹",
+              "mode": "choice",
+              "speakIt": "Sto studiando l'italiano.",
+              "options": [
+                "I'm studying Italian.",
+                "I study Italian every day.",
+                "I studied Italian.",
+                "I'm teaching Italian."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sto studiando l'italiano.' — sto + gerundio: in progress, with this app.",
+              "dictionaryRefs": [
+                "studiare",
+                "italiano"
+              ]
+            },
+            {
+              "id": "u54l4e7",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 🚪",
+              "mode": "type",
+              "speakIt": "Dopo aver finito, esco.",
+              "acceptedIt": [
+                "Dopo aver finito, esco.",
+                "Dopo aver finito, esco",
+                "Dopo aver finito esco.",
+                "Dopo aver finito esco"
+              ],
+              "explanation": "You heard: 'Dopo aver finito, esco.' — dopo + aver + finito: finished first, out second.",
+              "dictionaryRefs": [
+                "finire",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u54l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I'm taking a break. 💛",
+              "targetIt": "Sto facendo una pausa.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sto facendo una pausa.' — sto fa-CEN-do u-na PAU-sa. 💛",
+              "dictionaryRefs": [
+                "fare",
+                "la-pausa"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u54c",
+        "exercises": [
+          {
+            "id": "u54ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "la pausa",
+            "options": [
+              "the break; the pause",
+              "the bus stop",
+              "the holiday",
+              "the hesitation"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La pausa' (f) = the break — 'Sto facendo una pausa.'",
+            "dictionaryRefs": [
+              "la-pausa"
+            ]
+          },
+          {
+            "id": "u54ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I'm reading a book.)",
+            "sentence": "Sto ___ un libro.",
+            "answers": [
+              "leggendo"
+            ],
+            "explanation": "'Sto leggendo un libro.' — sto + gerundio.",
+            "dictionaryRefs": [
+              "leggere",
+              "il-libro"
+            ]
+          },
+          {
+            "id": "u54ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Before leaving, I have a coffee.)",
+            "sentence": "Prima di ___, prendo un caffè.",
+            "answers": [
+              "partire",
+              "uscire"
+            ],
+            "explanation": "'Prima di partire, prendo un caffè.' — prima di + infinitive.",
+            "dictionaryRefs": [
+              "partire",
+              "prendere",
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u54ce4",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (After eating, I call Giulia.)",
+            "sentence": "Dopo aver ___, telefono a Giulia.",
+            "answers": [
+              "mangiato"
+            ],
+            "explanation": "'Dopo aver mangiato, telefono a Giulia.' — dopo + aver + participio.",
+            "dictionaryRefs": [
+              "mangiare",
+              "telefonare"
+            ]
+          },
+          {
+            "id": "u54ce5",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "I'm taking a break.",
+            "acceptedIt": [
+              "Sto facendo una pausa.",
+              "Sto facendo una pausa",
+              "Faccio una pausa.",
+              "Faccio una pausa",
+              "Sto facendo la pausa."
+            ],
+            "explanation": "'Sto facendo una pausa.' — sto + facendo: in progress. 💛",
+            "dictionaryRefs": [
+              "fare",
+              "la-pausa"
+            ]
+          },
+          {
+            "id": "u54ce6",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Sto camminando nel parco.",
+            "acceptedEn": [
+              "I'm walking in the park.",
+              "I am walking in the park.",
+              "I'm walking at the park.",
+              "I'm walking through the park."
+            ],
+            "explanation": "'Sto camminando nel parco.' — sto + camminando: the walk is happening now.",
+            "dictionaryRefs": [
+              "camminare",
+              "il-parco"
+            ]
+          },
+          {
+            "id": "u54ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Dopo",
+              "aver",
+              "mangiato,",
+              "esco."
+            ],
+            "correctSentence": "Dopo aver mangiato, esco.",
+            "explanation": "'Dopo aver mangiato, esco.' — after eating, out.",
+            "dictionaryRefs": [
+              "mangiare",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u54ce8",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct form.",
+            "question": "___ finito i compiti, esco.",
+            "options": [
+              "Avendo",
+              "Avere",
+              "Avuto",
+              "Avente"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Avendo finito i compiti, esco.' — avendo + participio: the past gerund.",
+            "dictionaryRefs": [
+              "finire",
+              "il-compito",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u54ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 📞",
+            "mode": "type",
+            "speakIt": "Cosa stai facendo?",
+            "acceptedIt": [
+              "Cosa stai facendo?",
+              "Cosa stai facendo",
+              "Cosa fai?"
+            ],
+            "explanation": "You heard: 'Cosa stai facendo?' — the phone question of the century.",
+            "dictionaryRefs": [
+              "fare",
+              "la-cosa"
+            ]
+          },
+          {
+            "id": "u54ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I'm walking in the park. 💛",
+            "targetIt": "Sto camminando nel parco.",
+            "minAccuracy": 0.7,
+            "explanation": "'Sto camminando nel parco.' — sto cam-minAN-do nel PAR-co. 💛",
+            "dictionaryRefs": [
+              "camminare",
+              "il-parco"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u55",
+      "number": 55,
+      "title": "Il trapassato",
+      "lessons": [
+        {
+          "id": "u55l1",
+          "type": "vocabulary",
+          "title": "Il racconto, la fine, già",
+          "dictionaryRefs": [
+            "il-racconto",
+            "l-inizio",
+            "la-fine",
+            "gia",
+            "appena",
+            "la-memoria"
+          ],
+          "exercises": [
+            {
+              "id": "u55l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 📖",
+              "question": "il racconto",
+              "options": [
+                "the story; the tale",
+                "the accounting",
+                "the report card",
+                "the novel in verse"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il racconto' (m) = the story, the tale — what you tell. Timeline narration starts with a good racconto (near la storia, Unit 30).",
+              "dictionaryRefs": [
+                "il-racconto"
+              ]
+            },
+            {
+              "id": "u55l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'inizio",
+              "options": [
+                "the beginning; the start",
+                "the ending",
+                "the introduction (book)",
+                "the interval"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'inizio' (m, l' before the vowel) = the beginning — 'All'inizio era difficile.' — at the beginning it was hard. Every story starts here.",
+              "dictionaryRefs": [
+                "l-inizio"
+              ]
+            },
+            {
+              "id": "u55l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la fine",
+              "options": [
+                "the end",
+                "the fine (fee)",
+                "the aim",
+                "the border"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La fine' (f) = the end — 'Alla fine ho capito.' — in the end I understood (capire, Unit 12). Inizio and fine: the two doors of every story.",
+              "dictionaryRefs": [
+                "la-fine"
+              ]
+            },
+            {
+              "id": "u55l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "già",
+              "options": [
+                "already",
+                "never",
+                "soon",
+                "again"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Già' = already — 'Ho già finito.' — I've already finished. From today, it also orders the past: 'avevo già mangiato' — I had already eaten.",
+              "dictionaryRefs": [
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "appena",
+              "options": [
+                "just; as soon as",
+                "almost",
+                "never",
+                "always"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Appena' = just / as soon as — 'Sono appena arrivato.' — I've just arrived. The trapassato's best friend: 'Ero appena uscito…' 💛",
+              "dictionaryRefs": [
+                "appena"
+              ]
+            },
+            {
+              "id": "u55l1e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la memoria",
+              "options": [
+                "the memory",
+                "the memo",
+                "the reminder",
+                "the monument"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La memoria' (f) = the memory — 'Ho una buona memoria.' — I have a good memory. Near il ricordo (Unit 29): ricordo is a keepsake, memoria is the faculty.",
+              "dictionaryRefs": [
+                "la-memoria",
+                "il-ricordo"
+              ]
+            },
+            {
+              "id": "u55l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The beginning of the story is beautiful.)",
+              "sentence": "Il ___ della storia è bellissimo.",
+              "answers": [
+                "inizio"
+              ],
+              "explanation": "'L'inizio della storia è bellissimo.' — l'inizio + della storia (Unit 30): the story's opening line.",
+              "dictionaryRefs": [
+                "l-inizio",
+                "la-storia"
+              ]
+            },
+            {
+              "id": "u55l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I've already read this book.",
+              "acceptedIt": [
+                "Ho già letto questo libro.",
+                "Ho già letto questo libro",
+                "Ho gia' letto questo libro.",
+                "Ho già letto il libro.",
+                "Ho gia' letto questo libro"
+              ],
+              "explanation": "'Ho già letto questo libro.' — già with the passato prossimo (ho letto): the warm-up. Today it moves one step further back: avevo letto. 💛",
+              "dictionaryRefs": [
+                "gia",
+                "leggere",
+                "il-libro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u55l2",
+          "type": "grammar",
+          "title": "Il trapassato: avevo mangiato, ero uscito",
+          "dictionaryRefs": [
+            "il-racconto",
+            "l-inizio",
+            "la-fine",
+            "gia",
+            "appena",
+            "la-memoria",
+            "mangiare",
+            "chiamare",
+            "ieri",
+            "arrivare",
+            "uscire",
+            "partire",
+            "telefonare",
+            "quando",
+            "piccolo",
+            "giocare",
+            "il-parco"
+          ],
+          "grammarNotes": "IL TRAPASSATO PROSSIMO — the 'past of the past': one action completed BEFORE another past action. English: 'I had already eaten when you called.' Formula: imperfetto of the auxiliary + participio passato (Unit 27). The last piece of the tense system. 💛\n\nTHE AUXILIARIES, imperfetto:\nESSERE, imperfetto: ero, eri, era, eravamo, eravate, erano\nAVERE, imperfetto: avevo, avevi, aveva, avevamo, avevate, avevano\nSame auxiliary rule as Unit 27: movement, change, reflexives → essere ('ero partito'), everything else → avere ('avevo mangiato').\n\nTHE PARTICIPLE: unchanged from Unit 27 — mangiato, finito, detto, scritto, letto. You already own it.\n\nWORDS THAT LOVE THE TRAPASSATO:\n• già — already: 'Avevo già mangiato.'\n• appena — just: 'Ero appena uscito quando hai telefonato.' 💛\n• quando / dopo — introduce the second event (passato prossimo): 'Quando sono arrivato, erano già tutti partiti.'\n\nWHY NOT TWO PASSATI PROSSIMI? 'Quando sono arrivato, tutti sono usciti' sounds like both happened at once. The trapassato orders the past: first they had left, then I arrived. One tense = one point on the timeline.\n\nTHE SYSTEM, COMPLETE:\npresente → now: 'Leggo.' • imperfetto → background, habits: 'Leggevo ogni sera.' (Unit 29)\npassato prossimo → one finished past: 'Ho letto ieri.' • trapassato → before another past: 'Avevo già letto.' 💛\nfuturo → next: 'Leggerò domani.' (Unit 31) • condizionale → politeness, hypothesis: 'Leggerei volentieri.' (Unit 41)\ncongiuntivo → feeling, doubt: 'Benché legga…' (Unit 43). Hai finito — tutto il sistema è tuo. 📖\n(LEGGERE, presente: leggo, leggi, legge, leggiamo, leggete, leggono — the sample verb of the whole system.)\n\nessere (presente): sono, sei, è, siamo, siete, sono | avere (presente): ho, hai, ha, abbiamo, avete, hanno.",
+          "exercises": [
+            {
+              "id": "u55l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Yesterday I had already eaten when you called.)",
+              "sentence": "Ieri ___ già mangiato quando hai chiamato.",
+              "answers": [
+                "avevo"
+              ],
+              "explanation": "'Ieri avevo già mangiato quando hai chiamato.' — avevo + mangiato: the meal came BEFORE the call. Trapassato first, passato prossimo after quando.",
+              "dictionaryRefs": [
+                "mangiare",
+                "chiamare",
+                "gia",
+                "ieri"
+              ]
+            },
+            {
+              "id": "u55l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (When I arrived, she had already left.)",
+              "sentence": "Quando sono arrivato, lei ___ già uscita.",
+              "answers": [
+                "era"
+              ],
+              "explanation": "'Quando sono arrivato, lei era già uscita.' — era + uscita: uscire takes essere (Unit 27), and the participle agrees with lei. She left first, I arrived second.",
+              "dictionaryRefs": [
+                "arrivare",
+                "uscire",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I had already gone out when you called me.)",
+              "sentence": "Ero già ___ quando mi hai chiamato.",
+              "answers": [
+                "uscito",
+                "uscita"
+              ],
+              "explanation": "'Ero già uscito/a quando mi hai chiamato.' — ero + uscito: essere-auxiliary (movement!) + agreement with the speaker.",
+              "dictionaryRefs": [
+                "uscire",
+                "chiamare",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I had already eaten when you called.",
+              "acceptedIt": [
+                "Avevo già mangiato quando hai chiamato.",
+                "Avevo già mangiato quando hai chiamato",
+                "Quando hai chiamato, avevo già mangiato.",
+                "Quando hai chiamato avevo già mangiato",
+                "Avevo gia' mangiato quando hai chiamato."
+              ],
+              "explanation": "'Avevo già mangiato quando hai chiamato.' — the timeline in one line: first the meal (trapassato), then the call (quando + passato prossimo). 💛",
+              "dictionaryRefs": [
+                "mangiare",
+                "chiamare",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "We had already left when you phoned.",
+              "acceptedIt": [
+                "Eravamo già partiti quando hai telefonato.",
+                "Eravamo già partiti quando hai telefonato",
+                "Quando hai telefonato, eravamo già partiti.",
+                "Eravamo già partite quando hai telefonato.",
+                "Eravamo gia' partiti quando hai telefonato."
+              ],
+              "explanation": "'Eravamo già partiti quando hai telefonato.' — eravamo + partiti: partire takes essere (Unit 27), plural agreement with noi. Too late — we were gone!",
+              "dictionaryRefs": [
+                "partire",
+                "telefonare",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l2e6",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Quando sono arrivato, erano già tutti partiti.",
+              "acceptedEn": [
+                "When I arrived, they had already left.",
+                "When I arrived, everyone had already left.",
+                "When I got there, they had already left.",
+                "By the time I arrived, they had all left."
+              ],
+              "explanation": "'Quando sono arrivato, erano già tutti partiti.' — erano + partiti: the party ended before you got there. 💛",
+              "dictionaryRefs": [
+                "arrivare",
+                "partire",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l2e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 🍝",
+              "tokens": [
+                "Avevo",
+                "già",
+                "mangiato."
+              ],
+              "correctSentence": "Avevo già mangiato.",
+              "explanation": "'Avevo già mangiato.' — auxiliary + già + participle: the trapassato in three words.",
+              "dictionaryRefs": [
+                "gia",
+                "mangiare"
+              ]
+            },
+            {
+              "id": "u55l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 29 recycling)",
+              "tokens": [
+                "Quando",
+                "ero",
+                "piccolo,",
+                "giocavo",
+                "nel",
+                "parco."
+              ],
+              "correctSentence": "Quando ero piccolo, giocavo nel parco.",
+              "explanation": "'Quando ero piccolo, giocavo nel parco.' — quando + two imperfects (Unit 29): background, habits, childhood. The trapassato's neighbors on the timeline.",
+              "dictionaryRefs": [
+                "quando",
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u55l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 🚂",
+              "tokens": [
+                "Eravamo",
+                "già",
+                "partiti."
+              ],
+              "correctSentence": "Eravamo già partiti.",
+              "explanation": "'Eravamo già partiti.' — eravamo + partiti: gone before the story even started.",
+              "dictionaryRefs": [
+                "partire",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l2e10",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (When I arrived, she had just gone out.)",
+              "sentence": "Quando sono arrivato, lei ___ appena uscita.",
+              "answers": [
+                "era"
+              ],
+              "explanation": "'Quando sono arrivato, lei era appena uscita.' — appena + trapassato: JUST before my arrival. Bad timing, perfect grammar.",
+              "dictionaryRefs": [
+                "arrivare",
+                "appena",
+                "uscire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u55l3",
+          "type": "mixed",
+          "title": "Tutta la linea del tempo — ripasso 💛",
+          "dictionaryRefs": [
+            "domani",
+            "partire",
+            "presto",
+            "mi-piace",
+            "venire",
+            "sperare",
+            "prendere",
+            "il-bar",
+            "il-caffe",
+            "piccolo",
+            "giocare",
+            "il-parco",
+            "sempre",
+            "benche",
+            "uscire",
+            "mangiare",
+            "dopo",
+            "il-pranzo",
+            "chiamare",
+            "la-notizia",
+            "leggere"
+          ],
+          "exercises": [
+            {
+              "id": "u55l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 31 recycling)",
+              "sourceEn": "Tomorrow I'll leave early.",
+              "acceptedIt": [
+                "Domani partirò presto.",
+                "Domani partirò presto",
+                "Domani parto presto.",
+                "Domani parto presto",
+                "Partirò presto domani."
+              ],
+              "explanation": "'Domani partirò presto.' — future (Unit 31) + presto: the timeline's far end. The trapassato is its opposite pole.",
+              "dictionaryRefs": [
+                "domani",
+                "partire",
+                "presto"
+              ]
+            },
+            {
+              "id": "u55l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 42 recycling)",
+              "sourceEn": "I would have liked to come.",
+              "acceptedIt": [
+                "Mi sarebbe piaciuto venire.",
+                "Mi sarebbe piaciuto venire",
+                "Sarebbe stato bello venire.",
+                "Mi sarebbe piaciuto esserci."
+              ],
+              "explanation": "'Mi sarebbe piaciuto venire.' — past conditional (Unit 42): sarebbe piaciuto = it would have pleased me. The regret tense, meeting venire (Unit 7). 💛",
+              "dictionaryRefs": [
+                "mi-piace",
+                "venire"
+              ]
+            },
+            {
+              "id": "u55l3e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 43 recycling)",
+              "sourceEn": "I hope it doesn't rain tomorrow.",
+              "acceptedIt": [
+                "Spero che domani non piova.",
+                "Spero che domani non piova",
+                "Spero che non piova domani.",
+                "Spero che non piova domani"
+              ],
+              "explanation": "'Spero che domani non piova.' — hope + subjunctive (Unit 43): the feeling end of the timeline.",
+              "dictionaryRefs": [
+                "sperare",
+                "domani"
+              ]
+            },
+            {
+              "id": "u55l3e4",
+              "type": "fill_blank",
+              "prompt": "Complete the ritual. (At the bar, people have coffee standing.) (Unit 52 recycling)",
+              "sentence": "Al bar si ___ il caffè in piedi.",
+              "answers": [
+                "prende"
+              ],
+              "explanation": "'Al bar si prende il caffè in piedi.' — the si impersonale (Unit 52): daily life, no agent, no time — always true.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-bar",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u55l3e5",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 29 recycling)",
+              "sourceIt": "Quando ero piccolo, giocavo sempre nel parco.",
+              "acceptedEn": [
+                "When I was little, I always played in the park.",
+                "When I was small, I always played in the park.",
+                "When I was a child, I always played in the park.",
+                "When I was little I would always play in the park."
+              ],
+              "explanation": "'Quando ero piccolo, giocavo sempre nel parco.' — two imperfects: the background of childhood. The stage on which trapassato events happen.",
+              "dictionaryRefs": [
+                "piccolo",
+                "giocare",
+                "il-parco",
+                "sempre"
+              ]
+            },
+            {
+              "id": "u55l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Although it's late, we go out.) (Unit 53 recycling)",
+              "sentence": "Benché ___ tardi, usciamo.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Benché sia tardi, usciamo.' — benché + subjunctive (Unit 53): contrast, right on the timeline of tonight.",
+              "dictionaryRefs": [
+                "benche",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u55l3e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 54 recycling)",
+              "sourceIt": "Dopo aver mangiato, sono uscito.",
+              "acceptedEn": [
+                "After eating, I went out.",
+                "After having eaten, I went out.",
+                "After eating, I went outside.",
+                "After I'd eaten, I went out."
+              ],
+              "explanation": "'Dopo aver mangiato, sono uscito.' — dopo + infinito passato (Unit 54): the sequence that the trapassato compresses into one verb.",
+              "dictionaryRefs": [
+                "mangiare",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u55l3e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 52 recycling)",
+              "tokens": [
+                "Ti",
+                "ho",
+                "chiamato",
+                "dopo",
+                "pranzo."
+              ],
+              "correctSentence": "Ti ho chiamato dopo pranzo.",
+              "explanation": "'Ti ho chiamato dopo pranzo.' — passato prossimo + dopo pranzo (Unit 52): the call happened after the meal. What had happened before lunch? That's trapassato.",
+              "dictionaryRefs": [
+                "chiamare",
+                "dopo",
+                "il-pranzo"
+              ]
+            },
+            {
+              "id": "u55l3e9",
+              "type": "fill_blank",
+              "prompt": "Complete the news. (The news was read by everyone.) (Unit 51 recycling)",
+              "sentence": "La notizia ___ letta da tutti.",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'La notizia è letta da tutti.' — passive present (Unit 51): è + letta, agreeing with la notizia. The passive completes the system too.",
+              "dictionaryRefs": [
+                "la-notizia",
+                "leggere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u55l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "mangiare",
+            "chiamare",
+            "gia",
+            "arrivare",
+            "partire",
+            "appena",
+            "uscire",
+            "quando",
+            "piccolo",
+            "giocare",
+            "il-parco",
+            "appena"
+          ],
+          "exercises": [
+            {
+              "id": "u55l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🍝",
+              "mode": "choice",
+              "speakIt": "Avevo già mangiato quando hai chiamato.",
+              "options": [
+                "I had already eaten when you called.",
+                "I have already eaten — call me!",
+                "I was eating when you called.",
+                "I had already eaten before you arrived."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Avevo già mangiato quando hai chiamato.' — avevo + mangiato: the trapassato, the meal before the call.",
+              "dictionaryRefs": [
+                "mangiare",
+                "chiamare",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Quando sono arrivato, erano già tutti partiti.",
+              "acceptedIt": [
+                "Quando sono arrivato, erano già tutti partiti.",
+                "Quando sono arrivato, erano già tutti partiti",
+                "Quando sono arrivato erano già tutti partiti.",
+                "Quando sono arrivato, erano gia' tutti partiti."
+              ],
+              "explanation": "You heard: 'Quando sono arrivato, erano già tutti partiti.' — arrived too late, grammatically on time. 💛",
+              "dictionaryRefs": [
+                "arrivare",
+                "partire",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🚂",
+              "mode": "choice",
+              "speakIt": "Eravamo già partiti quando hai telefonato.",
+              "options": [
+                "We had already left when you phoned.",
+                "We left as soon as you phoned.",
+                "We had just arrived when you phoned.",
+                "We will leave when you phone."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Eravamo già partiti quando hai telefonato.' — eravamo + partiti: gone before the ring.",
+              "dictionaryRefs": [
+                "partire",
+                "telefonare",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I had already eaten. 💛",
+              "targetIt": "Avevo già mangiato.",
+              "minAccuracy": 0.7,
+              "explanation": "'Avevo già mangiato.' — a-VE-vo ja man-JA-to. 💛",
+              "dictionaryRefs": [
+                "mangiare",
+                "gia"
+              ]
+            },
+            {
+              "id": "u55l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: when I was little, I played in the park.",
+              "targetIt": "Quando ero piccolo, giocavo nel parco.",
+              "minAccuracy": 0.7,
+              "explanation": "'Quando ero piccolo, giocavo nel parco.' — QUAN-do E-ro pic-CO-lo, jo-CA-vo nel PAR-co.",
+              "dictionaryRefs": [
+                "quando",
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u55l4e6",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 🌳",
+              "mode": "choice",
+              "speakIt": "Quando ero piccolo, giocavo nel parco.",
+              "options": [
+                "When I was little, I played in the park.",
+                "When I was little, I ran to the park.",
+                "I play in the park every day.",
+                "When will we go to the park?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Quando ero piccolo, giocavo nel parco.' — two imperfects: the background of childhood (Unit 29).",
+              "dictionaryRefs": [
+                "quando",
+                "piccolo",
+                "giocare",
+                "il-parco"
+              ]
+            },
+            {
+              "id": "u55l4e7",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 📞",
+              "mode": "type",
+              "speakIt": "Ero appena uscito quando mi hai chiamato.",
+              "acceptedIt": [
+                "Ero appena uscito quando mi hai chiamato.",
+                "Ero appena uscito quando mi hai chiamato",
+                "Ero appena uscita quando mi hai chiamato.",
+                "Ero appena uscito quando mi hai chiamato!"
+              ],
+              "explanation": "You heard: 'Ero appena uscito quando mi hai chiamato.' — ero + appena + uscito: just out, perfectly timed grammar.",
+              "dictionaryRefs": [
+                "appena",
+                "uscire",
+                "chiamare"
+              ]
+            },
+            {
+              "id": "u55l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: we had already left. 🚂",
+              "targetIt": "Eravamo già partiti.",
+              "minAccuracy": 0.7,
+              "explanation": "'Eravamo già partiti.' — e-RA-vo JA par-TI-ti.",
+              "dictionaryRefs": [
+                "partire",
+                "gia"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u55c",
+        "exercises": [
+          {
+            "id": "u55ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "appena",
+            "options": [
+              "just; as soon as",
+              "almost",
+              "never",
+              "always"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Appena' = just / as soon as — the trapassato's best friend.",
+            "dictionaryRefs": [
+              "appena"
+            ]
+          },
+          {
+            "id": "u55ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Yesterday I had already eaten when you called.)",
+            "sentence": "Ieri ___ già mangiato quando hai chiamato.",
+            "answers": [
+              "avevo"
+            ],
+            "explanation": "'Ieri avevo già mangiato quando hai chiamato.' — avevo + mangiato: trapassato.",
+            "dictionaryRefs": [
+              "mangiare",
+              "chiamare",
+              "gia"
+            ]
+          },
+          {
+            "id": "u55ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (When I arrived, she had just gone out.)",
+            "sentence": "Quando sono arrivato, lei ___ appena uscita.",
+            "answers": [
+              "era"
+            ],
+            "explanation": "'Quando sono arrivato, lei era appena uscita.' — era + uscita: appena + trapassato.",
+            "dictionaryRefs": [
+              "arrivare",
+              "appena",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u55ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "We had already left when you phoned.",
+            "acceptedIt": [
+              "Eravamo già partiti quando hai telefonato.",
+              "Eravamo già partiti quando hai telefonato",
+              "Quando hai telefonato, eravamo già partiti.",
+              "Eravamo già partite quando hai telefonato.",
+              "Eravamo gia' partiti quando hai telefonato."
+            ],
+            "explanation": "'Eravamo già partiti quando hai telefonato.' — eravamo + partiti: essere-auxiliary, plural. 💛",
+            "dictionaryRefs": [
+              "partire",
+              "telefonare",
+              "gia"
+            ]
+          },
+          {
+            "id": "u55ce5",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Quando sono arrivato, lei era appena uscita.",
+            "acceptedEn": [
+              "When I arrived, she had just left.",
+              "When I arrived, she had just gone out.",
+              "When I got there, she had just left.",
+              "By the time I arrived, she had just gone out."
+            ],
+            "explanation": "'Quando sono arrivato, lei era appena uscita.' — era + appena + uscita: the past, perfectly ordered.",
+            "dictionaryRefs": [
+              "arrivare",
+              "appena",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u55ce6",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 🍝",
+            "tokens": [
+              "Avevo",
+              "già",
+              "mangiato."
+            ],
+            "correctSentence": "Avevo già mangiato.",
+            "explanation": "'Avevo già mangiato.' — three words, one timeline.",
+            "dictionaryRefs": [
+              "gia",
+              "mangiare"
+            ]
+          },
+          {
+            "id": "u55ce7",
+            "type": "multiple_choice",
+            "prompt": "Which sentence is in the trapassato?",
+            "question": "Quale frase è al trapassato?",
+            "options": [
+              "Avevo già finito.",
+              "Ho finito.",
+              "Finivo ogni giorno.",
+              "Finirò domani."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Avevo già finito.' — avevo + finito: the past of the past. The others: passato prossimo, imperfetto, futuro — the whole family in one question.",
+            "dictionaryRefs": [
+              "finire",
+              "gia"
+            ]
+          },
+          {
+            "id": "u55ce8",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. (Unit 54 recycling)",
+            "sourceEn": "After eating, I went out.",
+            "acceptedIt": [
+              "Dopo aver mangiato, sono uscito.",
+              "Dopo aver mangiato, sono uscito",
+              "Sono uscito dopo aver mangiato.",
+              "Dopo aver mangiato sono uscito.",
+              "Dopo aver mangiato, sono uscita."
+            ],
+            "explanation": "'Dopo aver mangiato, sono uscito.' — dopo + infinito passato: the sequence, gerund-style (Unit 54).",
+            "dictionaryRefs": [
+              "mangiare",
+              "uscire"
+            ]
+          },
+          {
+            "id": "u55ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 🚂",
+            "mode": "type",
+            "speakIt": "Eravamo già partiti quando hai telefonato.",
+            "acceptedIt": [
+              "Eravamo già partiti quando hai telefonato.",
+              "Eravamo già partiti quando hai telefonato",
+              "Eravamo gia' partiti quando hai telefonato.",
+              "Eravamo già partiti quando hai telefonato!"
+            ],
+            "explanation": "You heard: 'Eravamo già partiti quando hai telefonato.' — eravamo + partiti.",
+            "dictionaryRefs": [
+              "partire",
+              "telefonare",
+              "gia"
+            ]
+          },
+          {
+            "id": "u55ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: when I arrived, she had just gone out.",
+            "targetIt": "Quando sono arrivato, lei era appena uscita.",
+            "minAccuracy": 0.7,
+            "explanation": "'Quando sono arrivato, lei era appena uscita.' — QUAN-do SON-o ar-ri-VA-to, LE-i E-ra ap-PE-na u-SHI-ta.",
+            "dictionaryRefs": [
+              "arrivare",
+              "appena",
+              "uscire"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -43396,6 +47805,562 @@
         }
       ],
       "introducedInUnit": 50
+    },
+    {
+      "id": "il-giornale",
+      "word": "giornale",
+      "article": "il",
+      "translation": "the newspaper",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Leggo il giornale la mattina.",
+          "en": "I read the newspaper in the morning."
+        },
+        {
+          "it": "La notizia è sul giornale.",
+          "en": "The news is in the newspaper."
+        }
+      ],
+      "introducedInUnit": 51
+    },
+    {
+      "id": "l-articolo",
+      "word": "articolo",
+      "article": "l'",
+      "translation": "the article",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho letto un articolo interessante.",
+          "en": "I read an interesting article."
+        },
+        {
+          "it": "L'articolo è sul giornale.",
+          "en": "The article is in the newspaper."
+        }
+      ],
+      "introducedInUnit": 51
+    },
+    {
+      "id": "il-titolo",
+      "word": "titolo",
+      "article": "il",
+      "translation": "the title; the headline",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il titolo del libro è bellissimo.",
+          "en": "The title of the book is beautiful."
+        },
+        {
+          "it": "Un bel titolo attira l'attenzione.",
+          "en": "A good headline draws attention."
+        }
+      ],
+      "introducedInUnit": 51
+    },
+    {
+      "id": "la-fabbrica",
+      "word": "fabbrica",
+      "article": "la",
+      "translation": "the factory",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La fabbrica è fuori città.",
+          "en": "The factory is outside the city."
+        },
+        {
+          "it": "Le scarpe sono fatte in fabbrica.",
+          "en": "The shoes are made in a factory."
+        }
+      ],
+      "introducedInUnit": 51
+    },
+    {
+      "id": "il-tesoro",
+      "word": "tesoro",
+      "article": "il",
+      "translation": "the treasure",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Hanno trovato un tesoro.",
+          "en": "They found a treasure."
+        },
+        {
+          "it": "Sei un tesoro!",
+          "en": "You're a treasure! (darling)"
+        }
+      ],
+      "introducedInUnit": 51
+    },
+    {
+      "id": "il-romanzo",
+      "word": "romanzo",
+      "article": "il",
+      "translation": "the novel",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Leggo un romanzo alla settimana.",
+          "en": "I read a novel a week."
+        },
+        {
+          "it": "Il romanzo è stato scritto nel 1881.",
+          "en": "The novel was written in 1881."
+        }
+      ],
+      "introducedInUnit": 51
+    },
+    {
+      "id": "il-pranzo",
+      "word": "pranzo",
+      "article": "il",
+      "translation": "lunch; the midday meal",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il pranzo è pronto.",
+          "en": "Lunch is ready."
+        },
+        {
+          "it": "A pranzo mangio la pasta.",
+          "en": "At lunch I eat pasta."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "la-coda",
+      "word": "coda",
+      "article": "la",
+      "translation": "the queue; the line",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Si fa la coda alla posta.",
+          "en": "People queue at the post office."
+        },
+        {
+          "it": "C'è una coda lunghissima.",
+          "en": "There's a very long line."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "la-mancia",
+      "word": "mancia",
+      "article": "la",
+      "translation": "the tip",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Lascio la mancia al cameriere.",
+          "en": "I leave the tip for the waiter."
+        },
+        {
+          "it": "La mancia si lascia al cameriere.",
+          "en": "The tip is left for the waiter."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "il-cameriere",
+      "word": "cameriere",
+      "article": "il",
+      "translation": "the waiter",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il cameriere porta il conto.",
+          "en": "The waiter brings the bill."
+        },
+        {
+          "it": "Chiedo il conto al cameriere.",
+          "en": "I ask the waiter for the bill."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "l-aperitivo",
+      "word": "aperitivo",
+      "article": "l'",
+      "translation": "the aperitif; pre-dinner drink",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "L'aperitivo si fa prima di cena.",
+          "en": "The aperitif happens before dinner."
+        },
+        {
+          "it": "Facciamo l'aperitivo in piazza.",
+          "en": "We have aperitifs in the square."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "il-riposo",
+      "word": "riposo",
+      "article": "il",
+      "translation": "the rest",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il riposo è importante.",
+          "en": "Rest is important."
+        },
+        {
+          "it": "Dopo pranzo c'è il riposo.",
+          "en": "After lunch there is rest."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "benche",
+      "word": "benché",
+      "translation": "although; even though",
+      "partOfSpeech": "conjunction",
+      "examples": [
+        {
+          "it": "Benché piova, usciamo.",
+          "en": "Although it's raining, we're going out."
+        },
+        {
+          "it": "Benché sia tardi, resto.",
+          "en": "Although it's late, I'm staying."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "affinche",
+      "word": "affinché",
+      "translation": "so that; in order that",
+      "partOfSpeech": "conjunction",
+      "examples": [
+        {
+          "it": "Ti scrivo affinché tu sappia la verità.",
+          "en": "I'm writing to you so that you know the truth."
+        },
+        {
+          "it": "Parlo piano affinché tutti capiscano.",
+          "en": "I speak softly so that everyone understands."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "purche",
+      "word": "purché",
+      "translation": "provided that; as long as",
+      "partOfSpeech": "conjunction",
+      "examples": [
+        {
+          "it": "Puoi uscire, purché tu sia a casa per cena.",
+          "en": "You can go out, provided you're home for dinner."
+        },
+        {
+          "it": "Vado, purché tu venga con me.",
+          "en": "I'll go, as long as you come with me."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "la-paura",
+      "word": "paura",
+      "article": "la",
+      "translation": "the fear",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho paura di sbagliare.",
+          "en": "I'm afraid of making mistakes."
+        },
+        {
+          "it": "La paura passa.",
+          "en": "The fear passes."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "la-speranza",
+      "word": "speranza",
+      "article": "la",
+      "translation": "the hope",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "C'è speranza.",
+          "en": "There's hope."
+        },
+        {
+          "it": "La speranza non muore mai.",
+          "en": "Hope never dies."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "lo-scopo",
+      "word": "scopo",
+      "article": "lo",
+      "translation": "the purpose; the aim",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Qual è lo scopo?",
+          "en": "What's the purpose?"
+        },
+        {
+          "it": "Lo scopo è imparare.",
+          "en": "The aim is to learn."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "correre",
+      "word": "correre",
+      "translation": "to run",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Corro ogni mattina.",
+          "en": "I run every morning."
+        },
+        {
+          "it": "Sto correndo nel parco.",
+          "en": "I'm running in the park."
+        }
+      ],
+      "introducedInUnit": 54
+    },
+    {
+      "id": "la-corsa",
+      "word": "corsa",
+      "article": "la",
+      "translation": "the run; the race",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La corsa è domani.",
+          "en": "The race is tomorrow."
+        },
+        {
+          "it": "Faccio una corsa al parco.",
+          "en": "I go for a run in the park."
+        }
+      ],
+      "introducedInUnit": 54
+    },
+    {
+      "id": "la-pausa",
+      "word": "pausa",
+      "article": "la",
+      "translation": "the break; the pause",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Faccio una pausa.",
+          "en": "I'm taking a break."
+        },
+        {
+          "it": "Una pausa caffè.",
+          "en": "A coffee break."
+        }
+      ],
+      "introducedInUnit": 54
+    },
+    {
+      "id": "il-compito",
+      "word": "compito",
+      "article": "il",
+      "translation": "the task; homework",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho finito i compiti.",
+          "en": "I've finished my homework."
+        },
+        {
+          "it": "È un compito difficile.",
+          "en": "It's a difficult task."
+        }
+      ],
+      "introducedInUnit": 54
+    },
+    {
+      "id": "camminare",
+      "word": "camminare",
+      "translation": "to walk",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Cammino ogni giorno.",
+          "en": "I walk every day."
+        },
+        {
+          "it": "Sto camminando al parco.",
+          "en": "I'm walking in the park."
+        }
+      ],
+      "introducedInUnit": 54
+    },
+    {
+      "id": "il-cellulare",
+      "word": "cellulare",
+      "article": "il",
+      "translation": "the cell phone",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il cellulare squilla.",
+          "en": "The phone is ringing."
+        },
+        {
+          "it": "Ti chiamo dal cellulare.",
+          "en": "I'll call you from my cell."
+        }
+      ],
+      "introducedInUnit": 54
+    },
+    {
+      "id": "il-racconto",
+      "word": "racconto",
+      "article": "il",
+      "translation": "the story; the tale",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il racconto è breve.",
+          "en": "The story is short."
+        },
+        {
+          "it": "Mi piace il tuo racconto.",
+          "en": "I like your story."
+        }
+      ],
+      "introducedInUnit": 55
+    },
+    {
+      "id": "l-inizio",
+      "word": "inizio",
+      "article": "l'",
+      "translation": "the beginning; the start",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "All'inizio era difficile.",
+          "en": "At the beginning it was hard."
+        },
+        {
+          "it": "L'inizio della storia è bello.",
+          "en": "The beginning of the story is nice."
+        }
+      ],
+      "introducedInUnit": 55
+    },
+    {
+      "id": "la-fine",
+      "word": "fine",
+      "article": "la",
+      "translation": "the end",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La fine è vicina.",
+          "en": "The end is near."
+        },
+        {
+          "it": "Alla fine ho capito.",
+          "en": "In the end I understood."
+        }
+      ],
+      "introducedInUnit": 55
+    },
+    {
+      "id": "gia",
+      "word": "già",
+      "translation": "already",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Ho già finito.",
+          "en": "I've already finished."
+        },
+        {
+          "it": "Sei già pronto?",
+          "en": "Are you already ready?"
+        }
+      ],
+      "introducedInUnit": 55
+    },
+    {
+      "id": "appena",
+      "word": "appena",
+      "translation": "just; as soon as",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Sono appena arrivato.",
+          "en": "I've just arrived."
+        },
+        {
+          "it": "Chiamami appena puoi.",
+          "en": "Call me as soon as you can."
+        }
+      ],
+      "introducedInUnit": 55
+    },
+    {
+      "id": "la-memoria",
+      "word": "memoria",
+      "article": "la",
+      "translation": "the memory",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una buona memoria.",
+          "en": "I have a good memory."
+        },
+        {
+          "it": "Ho perso la memoria.",
+          "en": "I lost my memory."
+        }
+      ],
+      "introducedInUnit": 55
     }
   ],
   "stories": [

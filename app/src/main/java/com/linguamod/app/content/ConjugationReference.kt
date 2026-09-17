@@ -110,7 +110,8 @@ object ConjugationReference {
         "sperare" to "sperato", "sapere" to "saputo", "credere" to "creduto",
 "dare" to "dato", "sbagliare" to "sbagliato", "sognare" to "sognato",
         "presentare" to "presentato", "accettare" to "accettato", "prestare" to "prestato",
-        "restituire" to "restituito", "viaggiare" to "viaggiato"
+        "restituire" to "restituito", "viaggiare" to "viaggiato",
+        "correre" to "corso", "camminare" to "camminato",
 
     )
 
@@ -257,4 +258,18 @@ object ConjugationReference {
         "guardare" to Paradigm(listOf("guardavo", "guardavi", "guardava", "guardavamo", "guardavate", "guardavano")),
         "mangiare" to Paradigm(listOf("mangiavo", "mangiavi", "mangiava", "mangiavamo", "mangiavate", "mangiavano")),
     )
+    /** Gerund present (Stage 7, Unit 54). Regular: -are → -ando; -ere/-ire → -endo. */
+    val GERUND = mapOf(
+        "-are" to "ando", "-ere" to "endo", "-ire" to "endo",
+        "avere" to "avendo", "essere" to "essendo", "fare" to "facendo",
+        "andare" to "andando", "venire" to "venendo", "uscire" to "uscendo",
+        "stare" to "stando",
+        "parlare" to "parlando", "mangiare" to "mangiando", "lavorare" to "lavorando",
+        "studiare" to "studiando", "ascoltare" to "ascoltando", "prendere" to "prendendo",
+        "leggere" to "leggendo", "scrivere" to "scrivendo", "dormire" to "dormendo",
+        "partire" to "partendo", "arrivare" to "arrivando", "guardare" to "guardando",
+        "comprare" to "comprando", "trovare" to "trovando", "telefonare" to "telefonando",
+        "camminare" to "camminando", "correre" to "correndo", "finire" to "finendo",
+    )
+
 }
