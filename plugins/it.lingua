@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 41,
+    "version": 42,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -53601,7 +53601,315 @@
       "id": "story4",
       "title": "A cena dalla famiglia",
       "unlockAfterUnit": 45,
-      "nodes": []
+      "nodes": [
+        {
+          "id": "n1",
+          "speaker": "Narratore",
+          "textIt": "È sera. Tu e Giulia arrivate a casa dei suoi genitori. È la tua prima cena con la famiglia. Suona il campanello. La madre di Giulia apre la porta. Cosa dici?",
+          "textEn": "It's evening. You and Giulia arrive at her parents' house. It's your first dinner with the family. The doorbell rings. Giulia's mother opens the door. What do you say?",
+          "choices": [
+            {
+              "text": "Buonasera, signora!",
+              "next": "n2",
+              "correct": true
+            },
+            {
+              "text": "Ciao, come stai?",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "Careful — this is Giulia's mother, not your friend: first meeting, evening, her house. Use the formal register: 'Buonasera!' (with Lei), not 'ciao' and 'tu'."
+            },
+            {
+              "text": "Buongiorno, signora!",
+              "next": "n1",
+              "correct": false,
+              "feedbackEn": "It's sera (evening) — greet her with buonasera, not buongiorno (Unit 1)."
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "speaker": "Madre",
+          "textIt": "Buonasera, Alex! Benvenuto! Entra, accomodati pure.",
+          "textEn": "Good evening, Alex! Welcome! Come in, make yourself comfortable.",
+          "choices": [
+            {
+              "text": "Grazie, signora! Piacere!",
+              "next": "n3",
+              "correct": true
+            },
+            {
+              "text": "Grazie, signora! Come sta?",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "Nice formal instinct (sta is correct with Lei!) — but you answer her greeting first: say 'Piacere!' (nice to meet you), then chat."
+            },
+            {
+              "text": "Grazie, signora! Sei molto gentile.",
+              "next": "n2",
+              "correct": false,
+              "feedbackEn": "Register slip! Sei is 'tu' — with Giulia's mother you use Lei: 'È molto gentile' (third person, Unit 41)."
+            }
+          ]
+        },
+        {
+          "id": "n3",
+          "speaker": "Madre",
+          "textIt": "Vieni, siediti a tavola. Hai fame?",
+          "textEn": "Come, sit down at the table. Are you hungry?",
+          "choices": [
+            {
+              "text": "Sì, ho fame, grazie.",
+              "next": "n4",
+              "correct": true
+            },
+            {
+              "text": "Sì, ho la fame.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "No article! Essere affamato is 'avere fame': ho fame (Unit 6) — never 'la fame' here."
+            },
+            {
+              "text": "No, sono la fame.",
+              "next": "n3",
+              "correct": false,
+              "feedbackEn": "Sono = I am — that says 'I am the hunger'! 'Ho fame' = I'm hungry; 'ho la fame' is wrong too, but 'sono' is not the verb at all."
+            }
+          ]
+        },
+        {
+          "id": "n4",
+          "speaker": "Padre",
+          "textIt": "Alex, io lavoro in un ufficio. E tu, cosa fai?",
+          "textEn": "Alex, I work in an office. And you, what do you do?",
+          "choices": [
+            {
+              "text": "Sono studente e studio l'italiano.",
+              "next": "n5",
+              "correct": true
+            },
+            {
+              "text": "Sono studente e studia l'italiano.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "Studia is lui/lei — about another person. About yourself: io studio l'italiano (verb studiare, Unit 8)."
+            },
+            {
+              "text": "Sono uno studente e studio l'italiano.",
+              "next": "n4",
+              "correct": false,
+              "feedbackEn": "Student(e) starts with a regular consonant — uno is only for s+consonant, z, gn, ps (Unit 5). Say: sono studente / sono UNO studente → just 'sono studente' sounds most natural, or 'sono un...' no — un studente!"
+            }
+          ]
+        },
+        {
+          "id": "n5",
+          "speaker": "Padre",
+          "textIt": "Bravo! Hai fratelli o sorelle, Alex?",
+          "textEn": "Well done! Do you have brothers or sisters, Alex?",
+          "choices": [
+            {
+              "text": "Ho un fratello. Si chiama Marco.",
+              "next": "n6",
+              "correct": true
+            },
+            {
+              "text": "Ho un fratello. Ti chiama Marco.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "His name — he is called: SI chiama (reflexive, Unit 28). 'Ti chiama' would mean 'he calls you'!"
+            },
+            {
+              "text": "Sono un fratello. Si chiama Marco.",
+              "next": "n5",
+              "correct": false,
+              "feedbackEn": "Family uses avere: HO un fratello (I have a brother). 'Sono un fratello' says you ARE a brother (Unit 14)."
+            }
+          ]
+        },
+        {
+          "id": "n6",
+          "speaker": "Padre",
+          "textIt": "Interessante. Quando viene tuo fratello in Italia?",
+          "textEn": "Interesting. When is your brother coming to Italy?",
+          "choices": [
+            {
+              "text": "Penso che venga domani.",
+              "next": "n7",
+              "correct": true
+            },
+            {
+              "text": "Penso che viene domani.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "After 'penso che' (an opinion, not a fact) Italian needs the congiuntivo presente: 'Penso che venga' (Unit 43). 'Viene' is indicative — use it only for facts: 'Marco viene domani.'"
+            },
+            {
+              "text": "Penso che verrà domani.",
+              "next": "n6",
+              "correct": false,
+              "feedbackEn": "Future tense can't follow 'penso che' — opinions and doubts take the subjunctive: 'Penso che venga domani' (Unit 43)."
+            }
+          ]
+        },
+        {
+          "id": "n7",
+          "speaker": "Madre",
+          "textIt": "Ecco la pasta! L'ho fatta io. Ti piace, Alex?",
+          "textEn": "Here's the pasta! I made it myself. Do you like it, Alex?",
+          "choices": [
+            {
+              "text": "Mi piace molto, signora. È molto buona!",
+              "next": "n8",
+              "correct": true
+            },
+            {
+              "text": "Sì, Le piace molto, signora.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "Careful with piacere (Unit 20): 'Le piace' means SHE likes it. You answer about yourself: 'Mi piace molto.'"
+            },
+            {
+              "text": "Sì, è molto buono.",
+              "next": "n7",
+              "correct": false,
+              "feedbackEn": "La pasta is feminine — the compliment agrees: 'È molto buona' (Unit 13 agreement)."
+            }
+          ]
+        },
+        {
+          "id": "n8",
+          "speaker": "Padre",
+          "textIt": "Vuoi il vino rosso, Alex? Oppure preferisci l'acqua?",
+          "textEn": "Do you want the red wine, Alex? Or do you prefer water?",
+          "choices": [
+            {
+              "text": "Il vino rosso, grazie. È molto buono.",
+              "next": "n9",
+              "correct": true
+            },
+            {
+              "text": "No, grazie. Non voglio niente.",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "A total refusal can sound cold at a family dinner. If you don't want wine, take the water: 'Preferisco l'acqua, grazie.'"
+            },
+            {
+              "text": "Il vino rosso, grazie. È molto buona.",
+              "next": "n8",
+              "correct": false,
+              "feedbackEn": "Il vino is masculine — 'È molto buono' (Unit 13). Buona is for feminine words like la pasta."
+            }
+          ]
+        },
+        {
+          "id": "n9",
+          "speaker": "Madre",
+          "textIt": "Mangia, mangia! Vuoi più pasta, Alex?",
+          "textEn": "Eat, eat! Do you want more pasta, Alex?",
+          "choices": [
+            {
+              "text": "No, grazie. Ho finito: sono sazio!",
+              "next": "n10",
+              "correct": true
+            },
+            {
+              "text": "No, grazie. Sono finito.",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "Auxiliary trap! Finire here means 'I have finished (eating)' — a normal action, so it takes avere: 'Ho finito.' With essere ('sono finito') you'd say 'I am finished/over'! (Essere is only for movement/change verbs like sono arrivato.)"
+            },
+            {
+              "text": "No. Basta così.",
+              "next": "n9",
+              "correct": false,
+              "feedbackEn": "Grammatically fine, but too blunt for an Italian nonna offering food. Soften the 'no': 'No, grazie — sono sazio!'"
+            }
+          ]
+        },
+        {
+          "id": "n10",
+          "speaker": "Madre",
+          "textIt": "Allora, ti è piaciuta la cena, Alex?",
+          "textEn": "So, did you like the dinner, Alex?",
+          "choices": [
+            {
+              "text": "Sì, è buonissima! E complimenti alla cuoca!",
+              "next": "n11",
+              "correct": true
+            },
+            {
+              "text": "Sì, è buona. La pasta di mia madre è migliore.",
+              "next": "n10",
+              "correct": false,
+              "feedbackEn": "Never compare with the host's cooking! Migliore (Unit 37) is right grammatically, wrong at the table — keep the compliment pure: 'È buonissima!'"
+            },
+            {
+              "text": "Penso che è buona.",
+              "next": "n10",
+              "correct": false,
+              "feedbackEn": "After 'penso che' use the subjunctive: 'Penso che sia buona' (Unit 43). (Here you're stating a fact, so even simpler: 'È molto buona!')"
+            }
+          ]
+        },
+        {
+          "id": "n11",
+          "speaker": "Narratore",
+          "textIt": "La cena finisce. Tu e Giulia state per uscire. Ringrazi i suoi genitori. Cosa dici?",
+          "textEn": "The dinner ends. You and Giulia are about to leave. You thank her parents. What do you say?",
+          "choices": [
+            {
+              "text": "Grazie per la serata! È stata una cena bellissima.",
+              "next": "n12",
+              "correct": true
+            },
+            {
+              "text": "Grazie per la serata! Sei stata gentile.",
+              "next": "n11",
+              "correct": false,
+              "feedbackEn": "'Sei' is tu — with Giulia's parents stay in Lei: 'È stata gentile, signora.'"
+            },
+            {
+              "text": "Grazie per la cena! Ci vediamo presto!",
+              "next": "n11",
+              "correct": false,
+              "feedbackEn": "'Ci vediamo' (see you) is fine for Giulia, but you're leaving her parents' house — thank them first for tonight: 'Grazie per la serata!'"
+            }
+          ]
+        },
+        {
+          "id": "n12",
+          "speaker": "Giulia",
+          "textIt": "Fuori dalla casa, Giulia sorride: 'Allora, Alex... cosa pensi dei miei genitori?'",
+          "textEn": "Outside the house, Giulia smiles: 'So, Alex... what do you think of my parents?'",
+          "choices": [
+            {
+              "text": "Penso che siano molto gentili.",
+              "next": "n13",
+              "correct": true
+            },
+            {
+              "text": "Penso che sono molto gentili.",
+              "next": "n12",
+              "correct": false,
+              "feedbackEn": "After 'penso che' — an opinion — Italian requires the congiuntivo presente: 'Penso che siano' (Unit 43). 'Sono' is indicative, for facts."
+            },
+            {
+              "text": "Penso che loro sono molto gentili.",
+              "next": "n12",
+              "correct": false,
+              "feedbackEn": "Double slip: Italian drops the subject pronoun (no 'loro' after 'penso che'), and you still need the subjunctive — 'Penso che siano molto gentili.'"
+            }
+          ]
+        },
+        {
+          "id": "n13",
+          "speaker": "Narratore",
+          "textIt": "Giulia sorride: 'Anche loro ti trovano simpatico, Alex!' Bravissimo! Lei con i genitori, tu con Giulia — e la cena è finita bene.",
+          "textEn": "Giulia smiles: 'They like you too, Alex!' (they find you nice) Well done! Lei with the parents, tu with Giulia — and the dinner ended well.",
+          "terminal": true
+        }
+      ]
     }
   ]
 }
