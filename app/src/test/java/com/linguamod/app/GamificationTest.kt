@@ -10,10 +10,14 @@ import com.linguamod.app.data.FeatureUnlocks
 import com.linguamod.app.data.ThemeStore
 import com.linguamod.app.data.db.AppDatabase
 import com.linguamod.app.debug.FakeClock
+import com.linguamod.app.plugin.LinguaPluginDto
 import com.linguamod.app.plugin.PluginLoader
+import com.linguamod.app.ui.home.HomeViewModel
 import com.linguamod.app.ui.lesson.LessonViewModel
+import java.io.File
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
+import kotlinx.serialization.json.Json
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -57,6 +61,11 @@ class GamificationTest {
 
     private suspend fun setGems(gems: Int) {
         db.progressDao().upsertUserProgress(repo.userProgress().copy(gems = gems))
+    }
+
+    private fun loadBundledPlugin(): LinguaPluginDto {
+        val text = File("src/main/assets/plugins/it.lingua").readText()
+        return Json { ignoreUnknownKeys = true }.decodeFromString(LinguaPluginDto.serializer(), text)
     }
 
     // --- XP ---
@@ -162,6 +171,27 @@ class GamificationTest {
         repo.recordCheckpointAttempt(40, true, 0.9)
         assertEquals(3, Levels.levelFor(db.progressDao().highestCompletedCheckpoint()))
         assertEquals(60, Levels.nextThreshold(3))
+    }
+
+    @Test fun `level 4 triggers exactly on unit 60 checkpoint pass`() = runBlocking {
+        for (u in 1..58) repo.recordCheckpointAttempt(u, true, 0.9)
+        assertEquals(3, Levels.levelFor(db.progressDao().highestCompletedCheckpoint()))
+        // 59 checkpoints: still Level 3
+        repo.recordCheckpointAttempt(59, true, 0.9)
+        assertEquals(3, Levels.levelFor(db.progressDao().highestCompletedCheckpoint()))
+        // checkpoint 60: Level 4, the ceiling
+        repo.recordCheckpointAttempt(60, true, 0.9)
+        assertEquals(4, Levels.levelFor(db.progressDao().highestCompletedCheckpoint()))
+        assertEquals(null, Levels.nextThreshold(4))
+    }
+
+    @Test fun `course progress bar reads 100 percent after unit 60 checkpoint`() = runBlocking {
+        for (u in 1..60) repo.recordCheckpointAttempt(u, true, 0.9)
+        val plugin = loadBundledPlugin()
+        val rows = db.progressDao().getAllLessonProgress()
+        val bars = HomeViewModel(repo).computeBars(plugin, rows)
+        assertEquals(60, db.progressDao().countCompletedCheckpoints())
+        assertEquals(1f, bars.totalPct)
     }
 
     @Test fun `levels tolerate a plugin with only two units`() = runBlocking {

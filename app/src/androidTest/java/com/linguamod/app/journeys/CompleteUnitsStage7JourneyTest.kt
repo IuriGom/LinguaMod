@@ -35,10 +35,11 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 /**
- * Stage 7 batch 1: Solver Bot full playthrough of units 41–45, one test per unit.
- * Same harness as [CompleteUnitsStage2JourneyTest]: units 1..N-1 are fast-forwarded
+ * Stage 7 AC3: Solver Bot full playthrough of units 41–60, one test per unit.
+ * Same harness as [CompleteUnitsStage6JourneyTest]: units 1..N-1 are fast-forwarded
  * via DB writes, unit N is completed through the real UI (4 lessons + checkpoint),
  * and the strictly-linear gate is asserted both ways around the checkpoint.
+ * Together with Stage 2/5/6 this is the complete 1–60 course playthrough.
  */
 @OptIn(ExperimentalTestApi::class)
 @UninstallModules(AppModule::class)
@@ -81,6 +82,23 @@ class CompleteUnitsStage7JourneyTest {
     @Test fun unit_41() = runUnitJourney(41)
     @Test fun unit_42() = runUnitJourney(42)
     @Test fun unit_43() = runUnitJourney(43)
+    @Test fun unit_44() = runUnitJourney(44)
+    @Test fun unit_45() = runUnitJourney(45)
+    @Test fun unit_46() = runUnitJourney(46)
+    @Test fun unit_47() = runUnitJourney(47)
+    @Test fun unit_48() = runUnitJourney(48)
+    @Test fun unit_49() = runUnitJourney(49)
+    @Test fun unit_50() = runUnitJourney(50)
+    @Test fun unit_51() = runUnitJourney(51)
+    @Test fun unit_52() = runUnitJourney(52)
+    @Test fun unit_53() = runUnitJourney(53)
+    @Test fun unit_54() = runUnitJourney(54)
+    @Test fun unit_55() = runUnitJourney(55)
+    @Test fun unit_56() = runUnitJourney(56)
+    @Test fun unit_57() = runUnitJourney(57)
+    @Test fun unit_58() = runUnitJourney(58)
+    @Test fun unit_59() = runUnitJourney(59)
+    @Test fun unit_60() = runUnitJourney(60)
 
     private fun runUnitJourney(n: Int) {
         val plugin = loadPlugin()

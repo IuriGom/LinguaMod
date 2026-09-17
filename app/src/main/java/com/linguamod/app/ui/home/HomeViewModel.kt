@@ -172,7 +172,8 @@ class HomeViewModel @Inject constructor(
     }
 
     /** Bar percentages from real LessonProgress rows; tolerates short plugins. */
-    private fun computeBars(plugin: LinguaPluginDto, rows: List<LessonProgressEntity>): ProgressBars {
+    // internal (not private) so GamificationTest can assert the real bar math.
+    internal fun computeBars(plugin: LinguaPluginDto, rows: List<LessonProgressEntity>): ProgressBars {
         val totalUnits = plugin.units.size.coerceAtLeast(1)
         fun checkpointDone(unit: Int) =
             rows.any { it.unitNumber == unit && it.lessonIndex == CourseRepository.CHECKPOINT_INDEX && it.completed }
