@@ -212,6 +212,15 @@ object ConjugationReference {
         "fare" to Paradigm(listOf("facessi", "facessi", "facesse", "facessimo", "faceste", "facessero")),
     )
 
+    /** Past conditional (Stage 7, Unit 42): conditional of the auxiliary + participle.
+     *  The auxiliary follows the same essere/avere rule as the passato prossimo;
+     *  PastTenseCrossCheckTest derives its conditional-perfect auxiliary sets from
+     *  these two paradigms, so the reference stays the single source of truth. */
+    val PAST_CONDITIONAL = mapOf(
+        "avere" to CONDITIONAL.getValue("avere"),
+        "essere" to CONDITIONAL.getValue("essere"),
+    )
+
     /** Imperfect indicative (Stage 6, Unit 29). */
     val IMPERFECT = mapOf(
         "essere" to Paradigm(listOf("ero", "eri", "era", "eravamo", "eravate", "erano")),
