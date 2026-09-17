@@ -39,7 +39,7 @@ class MixedLessonRecyclingTest {
     @Test
     fun `mixed lessons recycle vocabulary from earlier units`() {
         val units = root["units"]!!.jsonArray
-        assertEquals(55, units.size)
+        assertEquals(60, units.size)
         for (unit in units) {
             val u = unit.jsonObject
             val number = u["number"]!!.jsonPrimitive.int
@@ -60,10 +60,11 @@ class MixedLessonRecyclingTest {
             assertEquals("u${number}c", checkpoint["id"]!!.jsonPrimitive.content)
             assertEquals(
                 "unit $number checkpoint size",
-                10, checkpoint["exercises"]!!.jsonArray.size,
+                // Stage 7: unit 60 (Esame finale) is the documented exception — 15 exercises
+                if (number == 60) 15 else 10, checkpoint["exercises"]!!.jsonArray.size,
             )
 
-            if (number < 3) continue // recycling gate applies to units 3..55
+            if (number < 3) continue // recycling gate applies to units 3..60
             val mixed = lessons[2].jsonObject
             val refs = mixed["dictionaryRefs"]!!.jsonArray.map { it.jsonPrimitive.content }
             val recycled = refs.filter { (introducedInUnitById[it] ?: Int.MAX_VALUE) < number }

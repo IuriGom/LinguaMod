@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 40,
+    "version": 41,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -42758,6 +42758,3904 @@
           }
         ]
       }
+    },
+    {
+      "id": "u56",
+      "number": 56,
+      "title": "Espressioni idiomatiche",
+      "lessons": [
+        {
+          "id": "u56l1",
+          "type": "vocabulary",
+          "title": "In bocca al lupo!",
+          "dictionaryRefs": [
+            "in-bocca-al-lupo",
+            "crepi",
+            "dai",
+            "figurati",
+            "prego",
+            "boh",
+            "che-barba"
+          ],
+          "exercises": [
+            {
+              "id": "u56l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "in bocca al lupo",
+              "options": [
+                "good luck! (lit. 'into the wolf's mouth')",
+                "mind the wolf!",
+                "open the door!",
+                "bad luck!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'In bocca al lupo' = the Italian 'break a leg' — you say it before exams, dates, games. Into the wolf's mouth! 💛",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "crepi",
+              "options": [
+                "the fixed reply to 'in bocca al lupo'",
+                "a small coffee",
+                "a wolf cub",
+                "get well soon"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Crepi!' — short for 'crepi il lupo' (may the wolf die). The only correct reply. Never answer 'grazie' — that misses the joke!",
+              "dictionaryRefs": [
+                "crepi",
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dai",
+              "options": [
+                "come on!",
+                "goodbye",
+                "thank you",
+                "maybe"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dai!' = come on! Also 'Dai?' = really? The everyday push-word. 💛",
+              "dictionaryRefs": [
+                "dai"
+              ]
+            },
+            {
+              "id": "u56l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "figurati",
+              "options": [
+                "don't mention it; of course not",
+                "imagine a figure",
+                "guess who",
+                "draw it"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Figurati!' — the informal 'don't mention it' (reply to thanks) or 'of course not!'. From figurarsi (to imagine).",
+              "dictionaryRefs": [
+                "figurati",
+                "grazie"
+              ]
+            },
+            {
+              "id": "u56l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "che barba!",
+              "options": [
+                "how boring!",
+                "what a beard to shave!",
+                "how funny!",
+                "what a long day!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Che barba!' — 'what a beard' = how boring! Teenagers live on it.",
+              "dictionaryRefs": [
+                "che-barba"
+              ]
+            },
+            {
+              "id": "u56l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the reply. 💛 (Thank you!)",
+              "sentence": "Grazie! — ___!",
+              "answers": [
+                "Prego",
+                "prego"
+              ],
+              "explanation": "'Grazie! — Prego!' — the service-word: you're welcome / go ahead / after you / please.",
+              "dictionaryRefs": [
+                "prego",
+                "grazie"
+              ]
+            },
+            {
+              "id": "u56l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (a shrug in sound)",
+              "sentence": "— Dove sono le chiavi? — ___!",
+              "answers": [
+                "Boh",
+                "boh"
+              ],
+              "explanation": "'Boh!' — the sound of the Italian shrug. 'Where are the keys? — Dunno!' Extremely useful. 💛",
+              "dictionaryRefs": [
+                "boh",
+                "la-chiave"
+              ]
+            },
+            {
+              "id": "u56l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Come on, let's go to the cinema!",
+              "acceptedIt": [
+                "Dai, andiamo al cinema!",
+                "Dai, andiamo al cinema",
+                "Andiamo al cinema!",
+                "Dai, andiamo!"
+              ],
+              "explanation": "'Dai, andiamo al cinema!' — dai (come on) + andiamo (let's go). Two chunks, one push. 💛",
+              "dictionaryRefs": [
+                "dai",
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u56l1e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "In bocca al lupo per l'esame!",
+              "acceptedEn": [
+                "Good luck on the exam!",
+                "Good luck with the exam!",
+                "Break a leg on the exam!"
+              ],
+              "explanation": "'In bocca al lupo per l'esame!' — the fixed wish + per + the big event. 💛",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u56l2",
+          "type": "grammar",
+          "title": "Il verbo avere e gli idiomi",
+          "dictionaryRefs": [
+            "in-bocca-al-lupo",
+            "crepi",
+            "dai",
+            "figurati",
+            "prego",
+            "la-fame",
+            "la-sete",
+            "molto",
+            "grazie",
+            "andare",
+            "il-cinema"
+          ],
+          "grammarNotes": "PERCHE' GLI IDIOMI — natives grab whole chunks, not word-by-word building. Learn the chunk as one piece and you sound local, not textbook.\n\nAVERE + NOUN — English says 'to be + adjective'; Italian says avere + noun: avere fame (hungry), avere sete (thirsty), avere sonno (sleepy), avere paura (afraid), avere fretta (in a hurry). Unit 6 gave you ho fame / ho sete; the pattern now covers a whole family.\n\nIN BOCCA AL LUPO — 'into the wolf's mouth' = break a leg. Fixed reply: 'Crepi!' (may it crack — the wolf, that is). Saying grazie misses the game.\n\nI SERVIZI — prego (you're welcome / go ahead), figurati (not at all), dai! (come on!), boh (dunno), che barba! (how boring!).\n\nFORMS: essere → sono, sei, è, siamo, siete, sono\navere → ho, hai, ha, abbiamo, avete, hanno\nandare → vado, vai, va, andiamo, andate, vanno",
+          "exercises": [
+            {
+              "id": "u56l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the exclamation. 💛 (I'm hungry!) (Unit 6 recycling)",
+              "sentence": "___ fame!",
+              "answers": [
+                "Ho",
+                "Io ho"
+              ],
+              "explanation": "'Ho fame!' — avere + noun. English: 'I am hungry'; Italian: 'I have hunger'. Unit 6 returns, bigger. 💛",
+              "dictionaryRefs": [
+                "la-fame"
+              ]
+            },
+            {
+              "id": "u56l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. 💛",
+              "sentence": "In ___ al lupo!",
+              "answers": [
+                "bocca"
+              ],
+              "explanation": "'In bocca al lupo!' — in + bocca (mouth) + al lupo (to the wolf). One fixed chunk: nothing to invent.",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 6 recycling)",
+              "sourceEn": "I'm thirsty.",
+              "acceptedIt": [
+                "Ho sete.",
+                "Ho sete",
+                "Ho tanta sete.",
+                "Ho tanta sete"
+              ],
+              "explanation": "'Ho sete.' — avere + la sete. Word for word: 'I have thirst'. 💛",
+              "dictionaryRefs": [
+                "la-sete"
+              ]
+            },
+            {
+              "id": "u56l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian — the fixed reply. 💛",
+              "sourceEn": "Reply to 'In bocca al lupo!'",
+              "acceptedIt": [
+                "Crepi!",
+                "Crepi",
+                "Crepi il lupo!",
+                "Crepi il lupo"
+              ],
+              "explanation": "'Crepi!' — the only correct answer. Short for 'crepi il lupo' (may the wolf die). 💛",
+              "dictionaryRefs": [
+                "crepi",
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l2e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "In",
+                "bocca",
+                "al",
+                "lupo!"
+              ],
+              "correctSentence": "In bocca al lupo!",
+              "explanation": "In + bocca + al + lupo — four chunks, one breath. 💛",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l2e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 6 recycling)",
+              "tokens": [
+                "Ho",
+                "molta",
+                "fame."
+              ],
+              "correctSentence": "Ho molta fame.",
+              "explanation": "'Ho molta fame.' — ho + molta + fame. 'Molto' agrees with the noun: molta fame (Unit 13).",
+              "dictionaryRefs": [
+                "la-fame",
+                "molto"
+              ]
+            },
+            {
+              "id": "u56l2e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Dai,",
+                "andiamo!"
+              ],
+              "correctSentence": "Dai, andiamo!",
+              "explanation": "'Dai, andiamo!' — come on, let's go! 'andiamo' = andare, noi (Unit 7). 💛",
+              "dictionaryRefs": [
+                "dai",
+                "andare"
+              ]
+            },
+            {
+              "id": "u56l2e8",
+              "type": "multiple_choice",
+              "prompt": "Your friend says 'Grazie mille!' The most natural reply: 💛",
+              "question": "Grazie mille!",
+              "options": [
+                "Figurati!",
+                "Boh.",
+                "Che barba!",
+                "Ieri."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Figurati!' — informal and warm. 'Prego' works too. 'Boh' shrugs at a thank-you — funny, but rude. 💛",
+              "dictionaryRefs": [
+                "figurati",
+                "prego",
+                "grazie"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u56l3",
+          "type": "mixed",
+          "title": "Suonare naturale — ripasso 💛",
+          "dictionaryRefs": [
+            "il-caffe",
+            "per-favore",
+            "il-treno",
+            "il-cinema",
+            "il-letto",
+            "l-appuntamento",
+            "importante",
+            "molto",
+            "la-fame",
+            "grazie",
+            "dai",
+            "figurati",
+            "prego",
+            "in-bocca-al-lupo",
+            "crepi",
+            "che-barba",
+            "andare"
+          ],
+          "exercises": [
+            {
+              "id": "u56l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 9 recycling)",
+              "sourceEn": "A coffee, please.",
+              "acceptedIt": [
+                "Un caffè, per favore.",
+                "Un caffè per favore",
+                "Vorrei un caffè, per favore.",
+                "Vorrei un caffè per favore"
+              ],
+              "explanation": "'Un caffè, per favore.' — Unit 9's first order, now said with idiom-level ease.",
+              "dictionaryRefs": [
+                "il-caffe",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u56l3e2",
+              "type": "multiple_choice",
+              "prompt": "The fixed reply. 💛",
+              "question": "— In bocca al lupo! —",
+              "options": [
+                "Crepi!",
+                "Grazie!",
+                "Prego.",
+                "Boh!"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Crepi!' — the only correct answer. 'Grazie' misses the game.",
+              "dictionaryRefs": [
+                "crepi",
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the reply. 💛 (Thank you for everything!)",
+              "sentence": "Grazie per tutto! — ___!",
+              "answers": [
+                "Figurati",
+                "Figurati!",
+                "Prego",
+                "Prego!"
+              ],
+              "explanation": "'Figurati!' / 'Prego!' — both fine; 'figurati' is warmer with friends.",
+              "dictionaryRefs": [
+                "figurati",
+                "prego"
+              ]
+            },
+            {
+              "id": "u56l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Che barba, questo treno!",
+              "acceptedEn": [
+                "How boring, this train!",
+                "What a bore, this train!",
+                "This train is so boring!"
+              ],
+              "explanation": "'Che barba, questo treno!' — che + barba + questo treno. The complaint every commuter knows.",
+              "dictionaryRefs": [
+                "che-barba",
+                "il-treno"
+              ]
+            },
+            {
+              "id": "u56l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Unit 22 recycling)",
+              "sentence": "Ho sonno: vado a ___.",
+              "answers": [
+                "letto"
+              ],
+              "explanation": "'Ho sonno: vado a letto.' — 'ho sonno' (I'm sleepy — avere + noun, new today) and 'vado a letto' (to bed — Unit 22).",
+              "dictionaryRefs": [
+                "il-letto"
+              ]
+            },
+            {
+              "id": "u56l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 25 recycling)",
+              "tokens": [
+                "Ho",
+                "un",
+                "appuntamento",
+                "importante."
+              ],
+              "correctSentence": "Ho un appuntamento importante.",
+              "explanation": "'Ho un appuntamento importante.' — ho + un appuntamento + importante (Unit 44).",
+              "dictionaryRefs": [
+                "l-appuntamento",
+                "importante"
+              ]
+            },
+            {
+              "id": "u56l3e7",
+              "type": "multiple_choice",
+              "prompt": "Your friend is sad on the sofa. What do you say? 💛",
+              "question": "Il tuo amico è giù:",
+              "options": [
+                "Dai, andiamo al cinema!",
+                "Che barba per te.",
+                "Boh, vado a letto.",
+                "Ieri era uguale."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dai, andiamo al cinema!' — dai pushes, andiamo moves. That's friendship. 💛",
+              "dictionaryRefs": [
+                "dai",
+                "andare",
+                "il-cinema"
+              ]
+            },
+            {
+              "id": "u56l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Don't mention it!",
+              "acceptedIt": [
+                "Figurati!",
+                "Figurati",
+                "Prego!",
+                "Prego",
+                "Di niente",
+                "Di niente."
+              ],
+              "explanation": "'Figurati!' — the warm one. 'Prego' and 'di niente' also work.",
+              "dictionaryRefs": [
+                "figurati",
+                "prego"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u56l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "in-bocca-al-lupo",
+            "crepi",
+            "dai",
+            "figurati",
+            "prego",
+            "la-fame",
+            "molto",
+            "il-cinema",
+            "andare",
+            "grazie"
+          ],
+          "exercises": [
+            {
+              "id": "u56l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "In bocca al lupo!",
+              "options": [
+                "Good luck!",
+                "Open your mouth!",
+                "What a wolf!",
+                "Goodbye!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'In bocca al lupo!' — good luck! 💛",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛 (Unit 6 recycling)",
+              "mode": "type",
+              "speakIt": "Ho molta fame.",
+              "acceptedIt": [
+                "Ho molta fame.",
+                "Ho molta fame",
+                "Io ho molta fame"
+              ],
+              "explanation": "You heard: 'Ho molta fame.' — I'm very hungry.",
+              "dictionaryRefs": [
+                "la-fame",
+                "molto"
+              ]
+            },
+            {
+              "id": "u56l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Figurati!",
+              "options": [
+                "Don't mention it!",
+                "Imagine that!",
+                "Guess!",
+                "How boring!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Figurati!' — the warm reply to thanks.",
+              "dictionaryRefs": [
+                "figurati"
+              ]
+            },
+            {
+              "id": "u56l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: good luck! (before an exam or a date) 💛",
+              "targetIt": "In bocca al lupo!",
+              "minAccuracy": 0.7,
+              "explanation": "in BOC-ca al LU-po — four chunks, one breath. 💛",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u56l4e5",
+              "type": "speaking",
+              "prompt": "Say: come on, let's go!",
+              "targetIt": "Dai, andiamo!",
+              "minAccuracy": 0.7,
+              "explanation": "DAI, an-DIA-mo — push + move.",
+              "dictionaryRefs": [
+                "dai",
+                "andare"
+              ]
+            },
+            {
+              "id": "u56l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Grazie! — Prego!",
+              "acceptedIt": [
+                "Grazie! — Prego!",
+                "Grazie! Prego!",
+                "Grazie, prego",
+                "Grazie prego"
+              ],
+              "explanation": "You heard: 'Grazie! — Prego!' — thanks and you're welcome, the daily loop.",
+              "dictionaryRefs": [
+                "grazie",
+                "prego"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u56c",
+        "exercises": [
+          {
+            "id": "u56ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "in bocca al lupo",
+            "options": [
+              "good luck!",
+              "bad luck!",
+              "watch out!",
+              "goodbye!"
+            ],
+            "correctIndex": 0,
+            "explanation": "'In bocca al lupo' = break a leg — the fixed wish. 💛",
+            "dictionaryRefs": [
+              "in-bocca-al-lupo"
+            ]
+          },
+          {
+            "id": "u56ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the exclamation. 💛 (I'm hungry!) (Unit 6 recycling)",
+            "sentence": "___ fame!",
+            "answers": [
+              "Ho",
+              "Io ho"
+            ],
+            "explanation": "'Ho fame!' — avere + noun. 'I have hunger', not 'I am hungry'.",
+            "dictionaryRefs": [
+              "la-fame"
+            ]
+          },
+          {
+            "id": "u56ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "I'm thirsty.",
+            "acceptedIt": [
+              "Ho sete.",
+              "Ho sete"
+            ],
+            "explanation": "'Ho sete.' — avere + la sete.",
+            "dictionaryRefs": [
+              "la-sete"
+            ]
+          },
+          {
+            "id": "u56ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Che barba, questa lezione!",
+            "acceptedEn": [
+              "How boring, this lesson!",
+              "What a boring lesson!"
+            ],
+            "explanation": "'Che barba!' — how boring! A classic teenager's complaint.",
+            "dictionaryRefs": [
+              "che-barba"
+            ]
+          },
+          {
+            "id": "u56ce5",
+            "type": "fill_blank",
+            "prompt": "Complete the wish. 💛",
+            "sentence": "In ___ al lupo!",
+            "answers": [
+              "bocca"
+            ],
+            "explanation": "'In bocca al lupo!' — into the wolf's mouth.",
+            "dictionaryRefs": [
+              "in-bocca-al-lupo"
+            ]
+          },
+          {
+            "id": "u56ce6",
+            "type": "multiple_choice",
+            "prompt": "Your friend says 'Grazie mille!' You answer: 💛",
+            "question": "Grazie mille!",
+            "options": [
+              "Figurati!",
+              "Boh!",
+              "Ieri!",
+              "Basso!"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Figurati!' — warm and informal. 'Prego' works too.",
+            "dictionaryRefs": [
+              "figurati",
+              "grazie"
+            ]
+          },
+          {
+            "id": "u56ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 20 recycling)",
+            "tokens": [
+              "Dai,",
+              "andiamo",
+              "al",
+              "cinema!"
+            ],
+            "correctSentence": "Dai, andiamo al cinema!",
+            "explanation": "'Dai, andiamo al cinema!' — the friend-rescue sentence. 💛",
+            "dictionaryRefs": [
+              "dai",
+              "andare",
+              "il-cinema"
+            ]
+          },
+          {
+            "id": "u56ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "In bocca al lupo!",
+            "options": [
+              "Good luck!",
+              "Good night!",
+              "Close your mouth!",
+              "What a bore!"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'In bocca al lupo!' 💛",
+            "dictionaryRefs": [
+              "in-bocca-al-lupo"
+            ]
+          },
+          {
+            "id": "u56ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Prego, figurati.",
+            "acceptedIt": [
+              "Prego, figurati.",
+              "Prego figurati",
+              "Prego! — Figurati!"
+            ],
+            "explanation": "You heard: 'Prego, figurati.' — two replies in one, double warmth.",
+            "dictionaryRefs": [
+              "prego",
+              "figurati"
+            ]
+          },
+          {
+            "id": "u56ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: don't mention it! 💛",
+            "targetIt": "Figurati!",
+            "minAccuracy": 0.7,
+            "explanation": "fi-GU-ra-ti — accent on the U. 💛",
+            "dictionaryRefs": [
+              "figurati"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u57",
+      "number": 57,
+      "title": "L'Italia regionale",
+      "lessons": [
+        {
+          "id": "u57l1",
+          "type": "vocabulary",
+          "title": "Dialetti, regioni e lo stivale",
+          "dictionaryRefs": [
+            "il-dialetto",
+            "la-regione",
+            "il-nord",
+            "il-sud",
+            "l-accento",
+            "lo-stivale",
+            "la-gente"
+          ],
+          "exercises": [
+            {
+              "id": "u57l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il dialetto",
+              "options": [
+                "the dialect",
+                "the dictionary",
+                "the accent",
+                "the dialogue"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il dialetto' (m) = the dialect. Italy has dozens — recognition, not production, is the traveler's goal.",
+              "dictionaryRefs": [
+                "il-dialetto"
+              ]
+            },
+            {
+              "id": "u57l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la regione",
+              "options": [
+                "the region",
+                "the religion",
+                "the season",
+                "the station"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La regione' (f) = the region. Italy has venti of them — from the Alps to Sicily.",
+              "dictionaryRefs": [
+                "la-regione"
+              ]
+            },
+            {
+              "id": "u57l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il nord",
+              "options": [
+                "the north",
+                "the hotel",
+                "the level",
+                "the north wind"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il nord' (m) = the north. Milan, the lakes, the Alps — business Italy.",
+              "dictionaryRefs": [
+                "il-nord"
+              ]
+            },
+            {
+              "id": "u57l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il sud",
+              "options": [
+                "the south",
+                "the sound",
+                "the subway",
+                "the southpaw"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il sud' (m) = the south. Naples, the sea, slower clocks — warmer Italy.",
+              "dictionaryRefs": [
+                "il-sud"
+              ]
+            },
+            {
+              "id": "u57l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'accento",
+              "options": [
+                "the accent",
+                "the action",
+                "the concert",
+                "the address"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'accento' (m, l' before the vowel) = the accent. It changes from region to region — enjoy the music of it.",
+              "dictionaryRefs": [
+                "l-accento"
+              ]
+            },
+            {
+              "id": "u57l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (the shape every child draws)",
+              "sentence": "L'Italia ha la forma di uno ___.",
+              "answers": [
+                "stivale",
+                "lo stivale"
+              ],
+              "explanation": "'Lo stivale' = the boot — Italy's famous outline on the map. One country, one shoe.",
+              "dictionaryRefs": [
+                "lo-stivale"
+              ]
+            },
+            {
+              "id": "u57l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The people here are very kind.)",
+              "sentence": "___ qui è molto gentile.",
+              "answers": [
+                "La gente",
+                "la gente"
+              ],
+              "explanation": "'La gente qui è molto gentile.' — la gente is singular: 'the people IS very kind'. A false friend in number!",
+              "dictionaryRefs": [
+                "la-gente",
+                "gentile",
+                "molto"
+              ]
+            },
+            {
+              "id": "u57l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "There are twenty regions in Italy.",
+              "acceptedIt": [
+                "In Italia ci sono venti regioni.",
+                "Ci sono venti regioni in Italia.",
+                "In Italia ci sono venti regioni"
+              ],
+              "explanation": "'In Italia ci sono venti regioni.' — ci sono + venti + regioni. The map in one sentence. 💛",
+              "dictionaryRefs": [
+                "la-regione",
+                "ci-sono"
+              ]
+            },
+            {
+              "id": "u57l1e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "L'Italia ha la forma di uno stivale.",
+              "acceptedEn": [
+                "Italy has the shape of a boot.",
+                "Italy is shaped like a boot.",
+                "Italy has the form of a boot."
+              ],
+              "explanation": "'L'Italia ha la forma di uno stivale.' — ha + la forma + di + uno stivale. 💛",
+              "dictionaryRefs": [
+                "lo-stivale"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u57l2",
+          "type": "grammar",
+          "title": "C'è e ci sono — sulla mappa",
+          "dictionaryRefs": [
+            "ci-sono",
+            "ce",
+            "la-regione",
+            "il-mare",
+            "il-sud",
+            "il-dialetto",
+            "diverso",
+            "la-citta",
+            "importante",
+            "lo-stivale",
+            "l-accento",
+            "la-gente"
+          ],
+          "grammarNotes": "C'E' / CI SONO — pointing at the map. WHY one verb: 'there is / there are' = essere + ci. The noun decides: singular → c'è; plural → ci sono.\n• C'è il mare. — There is the sea.\n• Ci sono venti regioni. — There are twenty regions.\n\nIL MOSAICO — twenty regions, hundreds of local voices; the journey from north to south changes sounds, words, food. Your job: recognition, not production (Unit 56's rule). Smile, listen, ask for a slow repeat.\n\nLO STIVALE — the boot — the shape every child draws; l'accento changes from region to region; la gente remains warm.\n\nFORMS: essere → sono, sei, è, siamo, siete, sono",
+          "exercises": [
+            {
+              "id": "u57l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (There are twenty regions in Italy.)",
+              "sentence": "___ venti regioni in Italia.",
+              "answers": [
+                "Ci sono",
+                "ci sono"
+              ],
+              "explanation": "'Ci sono venti regioni in Italia.' — plural (venti regioni) → ci sono.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-regione"
+              ]
+            },
+            {
+              "id": "u57l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The sea is in the south.)",
+              "sentence": "___ il mare al sud.",
+              "answers": [
+                "C'è",
+                "C'e",
+                "Ce",
+                "c'è"
+              ],
+              "explanation": "'C'è il mare al sud.' — singular (il mare) → c'è.",
+              "dictionaryRefs": [
+                "ce",
+                "il-mare",
+                "il-sud"
+              ]
+            },
+            {
+              "id": "u57l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "There are many dialects in Italy.",
+              "acceptedIt": [
+                "In Italia ci sono molti dialetti.",
+                "Ci sono molti dialetti in Italia.",
+                "In Italia ci sono molti dialetti",
+                "In Italia ci sono tanti dialetti."
+              ],
+              "explanation": "'In Italia ci sono molti dialetti.' — plural → ci sono. 💛",
+              "dictionaryRefs": [
+                "il-dialetto",
+                "ci-sono"
+              ]
+            },
+            {
+              "id": "u57l2e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ci sono tre città importanti da vedere.",
+              "acceptedEn": [
+                "There are three important cities to see.",
+                "There are 3 important cities to see."
+              ],
+              "explanation": "'Ci sono tre città importanti da vedere.' — ci sono + tre città + da vedere.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-citta",
+                "importante"
+              ]
+            },
+            {
+              "id": "u57l2e5",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct sentence.",
+              "question": "La frase corretta:",
+              "options": [
+                "C'è una regione chiamata Toscana.",
+                "Ci sono una regione.",
+                "C'è venti regioni.",
+                "Ci sono il mare."
+              ],
+              "correctIndex": 0,
+              "explanation": "'C'è una regione…' — una regione is singular. The noun decides: singular → c'è, plural → ci sono.",
+              "dictionaryRefs": [
+                "la-regione",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u57l2e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ci",
+                "sono",
+                "venti",
+                "regioni."
+              ],
+              "correctSentence": "Ci sono venti regioni.",
+              "explanation": "'Ci sono venti regioni.' — the map in one sentence. 💛",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-regione"
+              ]
+            },
+            {
+              "id": "u57l2e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "C'è",
+                "il",
+                "mare",
+                "al",
+                "sud."
+              ],
+              "correctSentence": "C'è il mare al sud.",
+              "explanation": "'C'è il mare al sud.' — c'è + il mare + al sud.",
+              "dictionaryRefs": [
+                "ce",
+                "il-mare",
+                "il-sud"
+              ]
+            },
+            {
+              "id": "u57l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Il",
+                "dialetto",
+                "è",
+                "diverso."
+              ],
+              "correctSentence": "Il dialetto è diverso.",
+              "explanation": "'Il dialetto è diverso.' — every valley has its own voice.",
+              "dictionaryRefs": [
+                "il-dialetto",
+                "diverso"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u57l3",
+          "type": "mixed",
+          "title": "In viaggio per l'Italia — ripasso",
+          "dictionaryRefs": [
+            "il-dialetto",
+            "il-museo",
+            "la-piazza",
+            "il-treno",
+            "partire",
+            "l-albergo",
+            "il-mare",
+            "il-sud",
+            "l-accento",
+            "la-regione",
+            "lo-stivale",
+            "la-citta",
+            "diverso",
+            "viaggiare",
+            "ce",
+            "ci-sono"
+          ],
+          "exercises": [
+            {
+              "id": "u57l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 47 recycling)",
+              "sourceEn": "I travel to Italy every year.",
+              "acceptedIt": [
+                "Viaggio in Italia ogni anno.",
+                "Ogni anno viaggio in Italia.",
+                "Vado in Italia ogni anno.",
+                "Viaggio in Italia ogni anno"
+              ],
+              "explanation": "'Viaggio in Italia ogni anno.' — viaggiare (Unit 47) + in Italia + ogni anno.",
+              "dictionaryRefs": [
+                "viaggiare"
+              ]
+            },
+            {
+              "id": "u57l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the answer. 💛 (To the sea or to the mountains?)",
+              "sentence": "Al mare o in montagna? — Al ___!",
+              "answers": [
+                "mare",
+                "mare!"
+              ],
+              "explanation": "'Al mare!' — the eternal Italian holiday answer. (Unit 20's il mare.)",
+              "dictionaryRefs": [
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u57l3e3",
+              "type": "multiple_choice",
+              "prompt": "Recognition, not production. 💛",
+              "question": "Il dialetto del posto:",
+              "options": [
+                "lo capisci? bene — parlarlo non serve",
+                "devi parlarlo subito e bene",
+                "va sempre corretto",
+                "va ignorato"
+              ],
+              "correctIndex": 0,
+              "explanation": "You recognize a dialect when you hear it; you answer in standard Italian. Nobody expects a tourist to produce Neapolitan. 💛",
+              "dictionaryRefs": [
+                "il-dialetto"
+              ]
+            },
+            {
+              "id": "u57l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 18 recycling)",
+              "sourceIt": "C'è un museo vicino alla piazza.",
+              "acceptedEn": [
+                "There is a museum near the square.",
+                "There's a museum near the square.",
+                "There is a museum close to the square."
+              ],
+              "explanation": "'C'è un museo vicino alla piazza.' — c'è + un museo + vicino alla piazza.",
+              "dictionaryRefs": [
+                "il-museo",
+                "la-piazza",
+                "ce"
+              ]
+            },
+            {
+              "id": "u57l3e5",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 39 recycling)",
+              "tokens": [
+                "Il",
+                "treno",
+                "parte",
+                "alle",
+                "tre."
+              ],
+              "correctSentence": "Il treno parte alle tre.",
+              "explanation": "'Il treno parte alle tre.' — il treno + parte (Unit 27) + alle tre (Unit 39's clock talk).",
+              "dictionaryRefs": [
+                "il-treno",
+                "partire",
+                "l-orario"
+              ]
+            },
+            {
+              "id": "u57l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Unit 39 recycling)",
+              "sentence": "L'albergo è vicino al ___.",
+              "answers": [
+                "museo",
+                "mare",
+                "centro"
+              ],
+              "explanation": "'L'albergo è vicino al museo.' — vicino a + article. Any landmark works; the structure is the star.",
+              "dictionaryRefs": [
+                "l-albergo",
+                "il-museo"
+              ]
+            },
+            {
+              "id": "u57l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "The accent changes from region to region.",
+              "acceptedIt": [
+                "L'accento cambia da regione a regione.",
+                "L'accento cambia da regione a regione",
+                "L'accento è diverso da regione a regione.",
+                "L'accento cambia da regione a regione!"
+              ],
+              "explanation": "'L'accento cambia da regione a regione.' — da…a (from…to) frames the journey. 💛",
+              "dictionaryRefs": [
+                "l-accento",
+                "la-regione",
+                "diverso"
+              ]
+            },
+            {
+              "id": "u57l3e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "lo stivale",
+              "options": [
+                "the boot — Italy's shape",
+                "the boot — footwear only",
+                "a small boat",
+                "a kind of cheese"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo stivale' = the boot — the nickname of the whole country.",
+              "dictionaryRefs": [
+                "lo-stivale"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u57l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "ci-sono",
+            "la-regione",
+            "il-dialetto",
+            "diverso",
+            "ce",
+            "il-mare",
+            "il-sud",
+            "lo-stivale",
+            "la-gente",
+            "gentile",
+            "molto"
+          ],
+          "exercises": [
+            {
+              "id": "u57l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Ci sono venti regioni in Italia.",
+              "options": [
+                "There are twenty regions in Italy.",
+                "There are twelve regions in Italy.",
+                "There are twenty hotels in Italy.",
+                "There are two regions in Italy."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Ci sono venti regioni in Italia.' — twenty, not twelve. 💛",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-regione"
+              ]
+            },
+            {
+              "id": "u57l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Il dialetto è diverso qui.",
+              "acceptedIt": [
+                "Il dialetto è diverso qui.",
+                "Il dialetto è diverso qui",
+                "Il dialetto e' diverso qui"
+              ],
+              "explanation": "You heard: 'Il dialetto è diverso qui.' — the dialect is different here.",
+              "dictionaryRefs": [
+                "il-dialetto",
+                "diverso"
+              ]
+            },
+            {
+              "id": "u57l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "C'è il mare al sud.",
+              "options": [
+                "The sea is in the south.",
+                "The south is in the sea.",
+                "There is a mountain in the south.",
+                "The lake is in the north."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'C'è il mare al sud.' — c'è + il mare + al sud. 💛",
+              "dictionaryRefs": [
+                "ce",
+                "il-mare",
+                "il-sud"
+              ]
+            },
+            {
+              "id": "u57l4e4",
+              "type": "speaking",
+              "prompt": "Say: there are twenty regions in Italy.",
+              "targetIt": "Ci sono venti regioni in Italia.",
+              "minAccuracy": 0.7,
+              "explanation": "ci SO-no VEN-ti re-JO-ni — five chunks, one map.",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-regione"
+              ]
+            },
+            {
+              "id": "u57l4e5",
+              "type": "speaking",
+              "prompt": "Say: the dialect is different here.",
+              "targetIt": "Il dialetto è diverso qui.",
+              "minAccuracy": 0.7,
+              "explanation": "il dia-LET-to è di-VERSO qui.",
+              "dictionaryRefs": [
+                "il-dialetto",
+                "diverso"
+              ]
+            },
+            {
+              "id": "u57l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛 (Unit 41 recycling)",
+              "mode": "type",
+              "speakIt": "La gente qui è molto gentile.",
+              "acceptedIt": [
+                "La gente qui è molto gentile.",
+                "La gente qui è molto gentile",
+                "La gente qui e' molto gentile",
+                "Gente qui è molto gentile"
+              ],
+              "explanation": "You heard: 'La gente qui è molto gentile.' — people here are very kind.",
+              "dictionaryRefs": [
+                "la-gente",
+                "gentile",
+                "molto"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u57c",
+        "exercises": [
+          {
+            "id": "u57ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il dialetto",
+            "options": [
+              "the dialect",
+              "the accent",
+              "the dialogue",
+              "the dictionary"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il dialetto' = the dialect. Recognition, not production.",
+            "dictionaryRefs": [
+              "il-dialetto"
+            ]
+          },
+          {
+            "id": "u57ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (There are twenty regions in Italy.)",
+            "sentence": "___ venti regioni in Italia.",
+            "answers": [
+              "Ci sono",
+              "ci sono"
+            ],
+            "explanation": "'Ci sono venti regioni in Italia.' — plural → ci sono.",
+            "dictionaryRefs": [
+              "ci-sono",
+              "la-regione"
+            ]
+          },
+          {
+            "id": "u57ce3",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (The sea is in the south.)",
+            "sentence": "___ il mare al sud.",
+            "answers": [
+              "C'è",
+              "C'e",
+              "Ce",
+              "c'è"
+            ],
+            "explanation": "'C'è il mare al sud.' — singular → c'è.",
+            "dictionaryRefs": [
+              "ce",
+              "il-mare",
+              "il-sud"
+            ]
+          },
+          {
+            "id": "u57ce4",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "There are many dialects.",
+            "acceptedIt": [
+              "Ci sono molti dialetti.",
+              "Ci sono molti dialetti",
+              "Ci sono tanti dialetti.",
+              "Ci sono tanti dialetti"
+            ],
+            "explanation": "'Ci sono molti dialetti.' — plural → ci sono. 💛",
+            "dictionaryRefs": [
+              "il-dialetto",
+              "ci-sono"
+            ]
+          },
+          {
+            "id": "u57ce5",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "lo stivale",
+            "options": [
+              "the boot — Italy's shape",
+              "a winter shoe",
+              "a small town",
+              "a long road"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Lo stivale' = the boot — Italy's outline on the map. 💛",
+            "dictionaryRefs": [
+              "lo-stivale"
+            ]
+          },
+          {
+            "id": "u57ce6",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛 (Unit 18 recycling)",
+            "sourceIt": "C'è un museo in città.",
+            "acceptedEn": [
+              "There is a museum in the city.",
+              "There's a museum in the city.",
+              "There is a museum in town."
+            ],
+            "explanation": "'C'è un museo in città.' — c'è + un museo + in città.",
+            "dictionaryRefs": [
+              "il-museo",
+              "la-citta",
+              "ce"
+            ]
+          },
+          {
+            "id": "u57ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Il",
+              "dialetto",
+              "è",
+              "diverso."
+            ],
+            "correctSentence": "Il dialetto è diverso.",
+            "explanation": "'Il dialetto è diverso.' — every valley, its own voice.",
+            "dictionaryRefs": [
+              "il-dialetto",
+              "diverso"
+            ]
+          },
+          {
+            "id": "u57ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Ci sono venti regioni in Italia.",
+            "options": [
+              "There are twenty regions in Italy.",
+              "There are twelve regions in Italy.",
+              "There is one region in Italy.",
+              "There are twenty seas in Italy."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ci sono venti regioni in Italia.' 💛",
+            "dictionaryRefs": [
+              "ci-sono",
+              "la-regione"
+            ]
+          },
+          {
+            "id": "u57ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "C'è il mare al sud.",
+            "acceptedIt": [
+              "C'è il mare al sud.",
+              "C'è il mare al sud",
+              "C'e il mare al sud",
+              "Ce il mare al sud"
+            ],
+            "explanation": "You heard: 'C'è il mare al sud.'",
+            "dictionaryRefs": [
+              "ce",
+              "il-mare",
+              "il-sud"
+            ]
+          },
+          {
+            "id": "u57ce10",
+            "type": "speaking",
+            "prompt": "Say: the accent changes from region to region. 💛",
+            "targetIt": "L'accento cambia da regione a regione.",
+            "minAccuracy": 0.7,
+            "explanation": "lac-CEN-to CAM-bia da re-JO-ne a re-JO-ne. 💛",
+            "dictionaryRefs": [
+              "l-accento",
+              "la-regione"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u58",
+      "number": 58,
+      "title": "La cultura italiana",
+      "lessons": [
+        {
+          "id": "u58l1",
+          "type": "vocabulary",
+          "title": "Gesti, tavola e caffè",
+          "dictionaryRefs": [
+            "il-gesto",
+            "la-merenda",
+            "il-bancone",
+            "la-conversazione",
+            "la-tavola",
+            "il-paese",
+            "il-dolce"
+          ],
+          "exercises": [
+            {
+              "id": "u58l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il gesto",
+              "options": [
+                "the gesture",
+                "the guest",
+                "the gusto",
+                "the register"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il gesto' (m) = the gesture. Italians speak with hands — now you name it.",
+              "dictionaryRefs": [
+                "il-gesto"
+              ]
+            },
+            {
+              "id": "u58l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la merenda",
+              "options": [
+                "the afternoon snack",
+                "the morning coffee",
+                "the dinner",
+                "the receipt"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La merenda' (f) = the afternoon snack — sacred for children, loved by everyone.",
+              "dictionaryRefs": [
+                "la-merenda"
+              ]
+            },
+            {
+              "id": "u58l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il bancone",
+              "options": [
+                "the (bar) counter",
+                "the balcony",
+                "the bench",
+                "the bank"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il bancone' (m) = the counter. Coffee standing at the bancone is the real Italian way.",
+              "dictionaryRefs": [
+                "il-bancone"
+              ]
+            },
+            {
+              "id": "u58l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la tavola",
+              "options": [
+                "the table (set for a meal)",
+                "the timetable",
+                "the tablet",
+                "the tower"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La tavola' (f) = the table set for a meal — vs il tavolo, the piece of furniture (Unit 15). 'A tavola!' = dinner's ready!",
+              "dictionaryRefs": [
+                "la-tavola"
+              ]
+            },
+            {
+              "id": "u58l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il dolce",
+              "options": [
+                "the dessert; the sweet",
+                "the dollar",
+                "the pain",
+                "the soup"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il dolce' (m) = the dessert — the sweet ending of every meal. 💛",
+              "dictionaryRefs": [
+                "il-dolce"
+              ]
+            },
+            {
+              "id": "u58l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the exclamation. (What a nice conversation!)",
+              "sentence": "Che bella ___!",
+              "answers": [
+                "conversazione",
+                "conversazione!"
+              ],
+              "explanation": "'Che bella conversazione!' — che + bella + la conversazione. The best compliment at dinner.",
+              "dictionaryRefs": [
+                "la-conversazione"
+              ]
+            },
+            {
+              "id": "u58l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (My village is small but beautiful.)",
+              "sentence": "Il mio ___ è piccolo ma bello.",
+              "answers": [
+                "paese"
+              ],
+              "explanation": "'Il mio paese è piccolo ma bello.' — il paese = the village (or the country, by the way).",
+              "dictionaryRefs": [
+                "il-paese",
+                "bello",
+                "piccolo"
+              ]
+            },
+            {
+              "id": "u58l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "A coffee at the counter, please.",
+              "acceptedIt": [
+                "Un caffè al bancone, per favore.",
+                "Un caffè al bancone per favore",
+                "Vorrei un caffè al bancone.",
+                "Vorrei un caffè al bancone"
+              ],
+              "explanation": "'Un caffè al bancone, per favore.' — al bancone = at the counter. The insider's order. 💛",
+              "dictionaryRefs": [
+                "il-caffe",
+                "il-bancone",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u58l1e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "La tavola è pronta!",
+              "acceptedEn": [
+                "The table is ready!",
+                "Dinner's ready — the table is set!",
+                "The table is set!"
+              ],
+              "explanation": "'La tavola è pronta!' — the set phrase that ends every Italian kitchen wait. 💛",
+              "dictionaryRefs": [
+                "la-tavola",
+                "pronto"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u58l2",
+          "type": "grammar",
+          "title": "Le quantità: un bicchiere di…",
+          "dictionaryRefs": [
+            "il-bicchiere",
+            "il-vino",
+            "acqua",
+            "per-favore",
+            "prendere",
+            "il-caffe",
+            "il-bancone",
+            "la-tavola",
+            "la-merenda",
+            "il-pranzo",
+            "la-cena",
+            "la-colazione",
+            "il-gesto"
+          ],
+          "grammarNotes": "LE QUANTITA' — di as 'of'. WHY: ordering and sharing food needs 'of': un bicchiere di vino (a glass of wine), una tazza di tè (a cup of tea), un po' di pane (a bit of bread), un chilo di pomodori (a kilo of tomatoes — Unit 35). di + vowel → d': un bicchiere d'acqua.\n\nAL BANCONE — coffee standing at the counter: quick, local, and the real Italian way. 'Prendo un caffè al bancone.' — 'I'll take a coffee at the counter.' prendere is the bar-verb of choice.\n\nI PASTI — la colazione (breakfast), la merenda (afternoon snack), il pranzo (lunch — the big one), la cena (dinner). 'A tavola!' — everyone to the table!\n\nGESTI — body language: recognition, never imitation.\n\nFORMS: essere → sono, sei, è, siamo, siete, sono\nprendere → prendo, prendi, prende, prendiamo, prendete, prendono\nfare → faccio, fai, fa, facciamo, fate, fanno",
+          "exercises": [
+            {
+              "id": "u58l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the order. (A glass of wine, please.)",
+              "sentence": "Un bicchiere ___ vino, per favore.",
+              "answers": [
+                "di"
+              ],
+              "explanation": "'Un bicchiere di vino.' — quantity-noun + di + thing. The partitivo in action.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u58l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the call. 💛 (everyone to the table!)",
+              "sentence": "___ tavola!",
+              "answers": [
+                "A",
+                "a"
+              ],
+              "explanation": "'A tavola!' — to the table! The two words every Italian dinner starts with. 💛",
+              "dictionaryRefs": [
+                "la-tavola"
+              ]
+            },
+            {
+              "id": "u58l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "A glass of water, please.",
+              "acceptedIt": [
+                "Un bicchiere d'acqua, per favore.",
+                "Un bicchiere d'acqua per favore",
+                "Un bicchiere di acqua, per favore.",
+                "Un bicchiere d'acqua"
+              ],
+              "explanation": "'Un bicchiere d'acqua.' — di becomes d' before the vowel (l'acqua, Unit 9). 💛",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "acqua",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u58l2e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Prendo un caffè al bancone.",
+              "acceptedEn": [
+                "I'll take a coffee at the counter.",
+                "I'll have a coffee at the counter.",
+                "I take my coffee at the counter."
+              ],
+              "explanation": "'Prendo un caffè al bancone.' — prendo (prendere, Unit 12) = how you order at the bar.",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe",
+                "il-bancone"
+              ]
+            },
+            {
+              "id": "u58l2e5",
+              "type": "multiple_choice",
+              "prompt": "The insider's coffee. 💛",
+              "question": "Il caffè al bancone:",
+              "options": [
+                "è più veloce e più italiano",
+                "è solo per i turisti",
+                "è vietato parlare",
+                "costa di più"
+              ],
+              "correctIndex": 0,
+              "explanation": "Standing at the counter is the fast, local way — a ritual, not a rush. 💛",
+              "dictionaryRefs": [
+                "il-bancone",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u58l2e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Un",
+                "bicchiere",
+                "di",
+                "vino."
+              ],
+              "correctSentence": "Un bicchiere di vino.",
+              "explanation": "'Un bicchiere di vino.' — quantity + di + thing.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino"
+              ]
+            },
+            {
+              "id": "u58l2e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "A",
+                "tavola!"
+              ],
+              "correctSentence": "A tavola!",
+              "explanation": "'A tavola!' — dinner's ready! Two words, one ritual. 💛",
+              "dictionaryRefs": [
+                "la-tavola"
+              ]
+            },
+            {
+              "id": "u58l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Prendo",
+                "un",
+                "caffè",
+                "al",
+                "bancone."
+              ],
+              "correctSentence": "Prendo un caffè al bancone.",
+              "explanation": "'Prendo un caffè al bancone.' — prendo + un caffè + al bancone. The insider's order. 💛",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe",
+                "il-bancone"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u58l3",
+          "type": "mixed",
+          "title": "La giornata italiana — ripasso",
+          "dictionaryRefs": [
+            "il-caffe",
+            "il-cappuccino",
+            "il-cornetto",
+            "la-colazione",
+            "la-passeggiata",
+            "la-cena",
+            "il-gelato",
+            "la-tavola",
+            "la-pasta",
+            "pronto",
+            "la-mancia",
+            "il-cameriere",
+            "il-ristorante",
+            "il-gesto",
+            "parlare",
+            "la-conversazione",
+            "dopo",
+            "il-dolce",
+            "il-paese"
+          ],
+          "exercises": [
+            {
+              "id": "u58l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 21 recycling)",
+              "sourceEn": "Breakfast: a cappuccino and a cornetto.",
+              "acceptedIt": [
+                "La colazione: un cappuccino e un cornetto.",
+                "A colazione un cappuccino e un cornetto.",
+                "Colazione: un cappuccino e un cornetto.",
+                "La colazione: un cappuccino e un cornetto"
+              ],
+              "explanation": "'La colazione: un cappuccino e un cornetto.' — the Italian morning, in one breath. 💛",
+              "dictionaryRefs": [
+                "la-colazione",
+                "il-cappuccino",
+                "il-cornetto"
+              ]
+            },
+            {
+              "id": "u58l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Unit 9 recycling)",
+              "sentence": "A colazione prendo un caffè o un ___.",
+              "answers": [
+                "cappuccino"
+              ],
+              "explanation": "'A colazione prendo un caffè o un cappuccino.' — the eternal either/or.",
+              "dictionaryRefs": [
+                "il-cappuccino",
+                "il-caffe",
+                "la-colazione"
+              ]
+            },
+            {
+              "id": "u58l3e3",
+              "type": "multiple_choice",
+              "prompt": "The evening ritual. 💛",
+              "question": "Dopo cena:",
+              "options": [
+                "fa una passeggiata",
+                "va subito a dormire",
+                "lavora tutta la notte",
+                "salta la merenda"
+              ],
+              "correctIndex": 0,
+              "explanation": "The evening passeggiata — a slow walk, gelato in hand. A ritual, not exercise. 💛",
+              "dictionaryRefs": [
+                "la-passeggiata",
+                "la-cena",
+                "il-gelato"
+              ]
+            },
+            {
+              "id": "u58l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "A tavola! La pasta è pronta.",
+              "acceptedEn": [
+                "Dinner's ready! The pasta is done.",
+                "To the table! The pasta is ready.",
+                "The table is set — the pasta is ready!"
+              ],
+              "explanation": "'A tavola! La pasta è pronta.' — the call, and the promise. 💛",
+              "dictionaryRefs": [
+                "la-tavola",
+                "la-pasta",
+                "pronto"
+              ]
+            },
+            {
+              "id": "u58l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Unit 52 recycling)",
+              "sentence": "Al ristorante lascio la ___ al cameriere.",
+              "answers": [
+                "mancia"
+              ],
+              "explanation": "'Al ristorante lascio la mancia al cameriere.' — la mancia (Unit 52) says thank you without words.",
+              "dictionaryRefs": [
+                "la-mancia",
+                "il-cameriere",
+                "il-ristorante"
+              ]
+            },
+            {
+              "id": "u58l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 34 recycling)",
+              "tokens": [
+                "Un",
+                "gelato",
+                "dopo",
+                "cena."
+              ],
+              "correctSentence": "Un gelato dopo cena.",
+              "explanation": "'Un gelato dopo cena.' — the sweetest possible dopo (Unit 30). 💛",
+              "dictionaryRefs": [
+                "il-gelato",
+                "la-cena",
+                "dopo"
+              ]
+            },
+            {
+              "id": "u58l3e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛",
+              "sentence": "Gli italiani parlano anche con i ___.",
+              "answers": [
+                "gesti"
+              ],
+              "explanation": "'Gli italiani parlano anche con i gesti.' — hands are half the language. Now you can name it.",
+              "dictionaryRefs": [
+                "il-gesto",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u58l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "The conversation is interesting.",
+              "acceptedIt": [
+                "La conversazione è interessante.",
+                "È una conversazione interessante.",
+                "La conversazione è interessante",
+                "E' una conversazione interessante."
+              ],
+              "explanation": "'La conversazione è interessante.' — the best kind of dinner music. 💛",
+              "dictionaryRefs": [
+                "la-conversazione"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u58l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "prendere",
+            "il-caffe",
+            "il-bancone",
+            "il-bicchiere",
+            "il-vino",
+            "rosso",
+            "per-favore",
+            "la-tavola",
+            "la-gente",
+            "parlare",
+            "il-gesto",
+            "acqua"
+          ],
+          "exercises": [
+            {
+              "id": "u58l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Prendo un caffè al bancone.",
+              "options": [
+                "I'll take a coffee at the counter.",
+                "I want a table for two.",
+                "The coffee is on the house.",
+                "I bring a counter to the bar."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Prendo un caffè al bancone.' — the insider's order. 💛",
+              "dictionaryRefs": [
+                "prendere",
+                "il-caffe",
+                "il-bancone"
+              ]
+            },
+            {
+              "id": "u58l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Un bicchiere di vino rosso, per favore.",
+              "acceptedIt": [
+                "Un bicchiere di vino rosso, per favore.",
+                "Un bicchiere di vino rosso per favore",
+                "Un bicchiere di vino rosso"
+              ],
+              "explanation": "You heard: 'Un bicchiere di vino rosso, per favore.' — quantity + di + thing.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "rosso",
+                "per-favore"
+              ]
+            },
+            {
+              "id": "u58l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "A tavola!",
+              "options": [
+                "Dinner's ready — to the table!",
+                "The table is broken.",
+                "At the bank!",
+                "What a boring meal!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'A tavola!' — everyone to the table! 💛",
+              "dictionaryRefs": [
+                "la-tavola"
+              ]
+            },
+            {
+              "id": "u58l4e4",
+              "type": "speaking",
+              "prompt": "Say: a glass of red wine, please.",
+              "targetIt": "Un bicchiere di vino rosso, per favore.",
+              "minAccuracy": 0.7,
+              "explanation": "un bi-KIERE di VI-no ROS-so, per fa-VO-re.",
+              "dictionaryRefs": [
+                "il-bicchiere",
+                "il-vino",
+                "rosso"
+              ]
+            },
+            {
+              "id": "u58l4e5",
+              "type": "speaking",
+              "prompt": "Say: to the table! 💛",
+              "targetIt": "A tavola!",
+              "minAccuracy": 0.7,
+              "explanation": "a ta-VO-la — the two words every Italian dinner starts with. 💛",
+              "dictionaryRefs": [
+                "la-tavola"
+              ]
+            },
+            {
+              "id": "u58l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛 (Unit 57 recycling)",
+              "mode": "type",
+              "speakIt": "La gente parla con i gesti.",
+              "acceptedIt": [
+                "La gente parla con i gesti.",
+                "La gente parla con i gesti",
+                "La gente parla coi gesti"
+              ],
+              "explanation": "You heard: 'La gente parla con i gesti.' — people talk with gestures. 💛",
+              "dictionaryRefs": [
+                "la-gente",
+                "parlare",
+                "il-gesto"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u58c",
+        "exercises": [
+          {
+            "id": "u58ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il gesto",
+            "options": [
+              "the gesture",
+              "the guest",
+              "the gusto",
+              "the glass"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il gesto' = the gesture — hands are half the language.",
+            "dictionaryRefs": [
+              "il-gesto"
+            ]
+          },
+          {
+            "id": "u58ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the order. (A glass of wine, please.)",
+            "sentence": "Un bicchiere ___ vino, per favore.",
+            "answers": [
+              "di"
+            ],
+            "explanation": "'Un bicchiere di vino.' — quantity-noun + di + thing.",
+            "dictionaryRefs": [
+              "il-bicchiere",
+              "il-vino"
+            ]
+          },
+          {
+            "id": "u58ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "A coffee at the counter, please.",
+            "acceptedIt": [
+              "Un caffè al bancone, per favore.",
+              "Un caffè al bancone per favore",
+              "Vorrei un caffè al bancone.",
+              "Vorrei un caffè al bancone"
+            ],
+            "explanation": "'Un caffè al bancone, per favore.' — the insider's order. 💛",
+            "dictionaryRefs": [
+              "il-caffe",
+              "il-bancone",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u58ce4",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "la tavola",
+            "options": [
+              "the table set for a meal",
+              "the timetable",
+              "the tower",
+              "the tablet"
+            ],
+            "correctIndex": 0,
+            "explanation": "'La tavola' = the table set for a meal — 'A tavola!' is dinner's starting gun. 💛",
+            "dictionaryRefs": [
+              "la-tavola"
+            ]
+          },
+          {
+            "id": "u58ce5",
+            "type": "fill_blank",
+            "prompt": "Complete the call. 💛 (everyone to the table!)",
+            "sentence": "___ tavola!",
+            "answers": [
+              "A",
+              "a"
+            ],
+            "explanation": "'A tavola!' — dinner's ready!",
+            "dictionaryRefs": [
+              "la-tavola"
+            ]
+          },
+          {
+            "id": "u58ce6",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Prendo un caffè al bancone.",
+            "acceptedEn": [
+              "I'll take a coffee at the counter.",
+              "I'll have a coffee at the counter.",
+              "I take my coffee at the counter."
+            ],
+            "explanation": "'Prendo un caffè al bancone.' — prendo + un caffè + al bancone.",
+            "dictionaryRefs": [
+              "prendere",
+              "il-caffe",
+              "il-bancone"
+            ]
+          },
+          {
+            "id": "u58ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Un",
+              "bicchiere",
+              "d'acqua."
+            ],
+            "correctSentence": "Un bicchiere d'acqua.",
+            "explanation": "'Un bicchiere d'acqua.' — di becomes d' before the vowel.",
+            "dictionaryRefs": [
+              "il-bicchiere",
+              "acqua"
+            ]
+          },
+          {
+            "id": "u58ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "A tavola!",
+            "options": [
+              "Dinner's ready — to the table!",
+              "The table is broken.",
+              "At the bank!",
+              "What a boring meal!"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'A tavola!' 💛",
+            "dictionaryRefs": [
+              "la-tavola"
+            ]
+          },
+          {
+            "id": "u58ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Un bicchiere di vino, per favore.",
+            "acceptedIt": [
+              "Un bicchiere di vino, per favore.",
+              "Un bicchiere di vino per favore",
+              "Un bicchiere di vino, per favore"
+            ],
+            "explanation": "You heard: 'Un bicchiere di vino, per favore.'",
+            "dictionaryRefs": [
+              "il-bicchiere",
+              "il-vino",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u58ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: dinner's ready — to the table! 💛",
+            "targetIt": "A tavola!",
+            "minAccuracy": 0.7,
+            "explanation": "a ta-VO-la. 💛",
+            "dictionaryRefs": [
+              "la-tavola"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u59",
+      "number": 59,
+      "title": "Conversazione libera",
+      "lessons": [
+        {
+          "id": "u59l1",
+          "type": "vocabulary",
+          "title": "Riempitivi e parole della conversazione",
+          "dictionaryRefs": [
+            "insomma",
+            "cioe",
+            "beh",
+            "dunque",
+            "scherzare",
+            "il-discorso",
+            "raccontami"
+          ],
+          "exercises": [
+            {
+              "id": "u59l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "insomma",
+              "options": [
+                "well, all in all (a filler)",
+                "always",
+                "together",
+                "never"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Insomma' — the all-purpose filler: 'well…', 'so…', 'all in all'. Conversation glue.",
+              "dictionaryRefs": [
+                "insomma"
+              ]
+            },
+            {
+              "id": "u59l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "cioè",
+              "options": [
+                "that is; I mean",
+                "hello",
+                "goodbye",
+                "why"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Cioè' — 'that is…', 'I mean…'. The word Italians use when they re-explain. 💛",
+              "dictionaryRefs": [
+                "cioe"
+              ]
+            },
+            {
+              "id": "u59l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "beh",
+              "options": [
+                "well… (a thinking sound)",
+                "yes",
+                "no",
+                "good"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Beh…' — 'well…'. Buys you a second of thinking, politely.",
+              "dictionaryRefs": [
+                "beh"
+              ]
+            },
+            {
+              "id": "u59l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "dunque",
+              "options": [
+                "so, then",
+                "but",
+                "or",
+                "because"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Dunque' — 'so, then'. Opens arguments, stories and meetings.",
+              "dictionaryRefs": [
+                "dunque"
+              ]
+            },
+            {
+              "id": "u59l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "scherzare",
+              "options": [
+                "to joke",
+                "to search",
+                "to shout",
+                "to run"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Scherzare' = to joke. 'Scherzo!' — just kidding! The most useful defense in any language.",
+              "dictionaryRefs": [
+                "scherzare"
+              ]
+            },
+            {
+              "id": "u59l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The professor's talk is long.)",
+              "sentence": "Il ___ del professore è lungo.",
+              "answers": [
+                "discorso"
+              ],
+              "explanation": "'Il discorso' = the speech, the talk — every conversation has one inside.",
+              "dictionaryRefs": [
+                "il-discorso"
+              ]
+            },
+            {
+              "id": "u59l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the exclamation. 💛 (Tell me everything!)",
+              "sentence": "___ tutto!",
+              "answers": [
+                "Raccontami",
+                "raccontami"
+              ],
+              "explanation": "'Raccontami tutto!' — tell me everything! raccontare (to tell — Unit 55's il racconto) + mi. Conversation fuel. 💛",
+              "dictionaryRefs": [
+                "raccontami",
+                "il-racconto"
+              ]
+            },
+            {
+              "id": "u59l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 56 recycling)",
+              "sourceEn": "Well, I don't know.",
+              "acceptedIt": [
+                "Beh, non lo so.",
+                "Beh, non lo so",
+                "Boh, non lo so.",
+                "Boh, non lo so"
+              ],
+              "explanation": "'Beh, non lo so.' — a filler + honest doubt. Or 'Boh!' (Unit 56) for pure shrug. 💛",
+              "dictionaryRefs": [
+                "beh",
+                "boh"
+              ]
+            },
+            {
+              "id": "u59l1e9",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Sto scherzando!",
+              "acceptedEn": [
+                "I'm joking!",
+                "I'm kidding!"
+              ],
+              "explanation": "'Sto scherzando!' — sto + scherzando (scherzare). Jokes aside, it's essential.",
+              "dictionaryRefs": [
+                "scherzare"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u59l2",
+          "type": "grammar",
+          "title": "Tre tempi, un viaggio: andare",
+          "dictionaryRefs": [
+            "andare",
+            "il-futuro",
+            "il-cinema",
+            "sabato",
+            "dove",
+            "stasera",
+            "il-mare",
+            "insomma",
+            "scherzare",
+            "cioe"
+          ],
+          "grammarNotes": "TRE TEMPI, UN VIAGGIO — andare at every tense, because real conversation hops between times: now, what happened, plans.\n\nPRESENT — habits and right now: 'Vado a Roma.' (I'm going / I go.)\nPASSATO PROSSIMO — movement verbs take essere as auxiliary: 'Sono andato.' — I went (masc.); 'sono andata' (fem.); 'Siamo andati.' — we went. The ending agrees: andato / andata / andati / andate.\nFUTURE — plans: 'Domani andrò a Roma.' In daily speech, 'Domani vado a Roma.' works just the same.\n\nREGISTRO — with a friend: 'Dove vai stasera?' — with a professor: 'Dove va stasera?' Same verb, different distance.\n\nFILLERS — insomma (well, all in all), cioè (I mean), beh (well…), dunque (then), plus scherzare: 'Scherzo!' — just kidding!\n\nFORMS: essere → sono, sei, è, siamo, siete, sono\nandare, present → vado, vai, va, andiamo, andate, vanno\nandare, future → andrò, andrai, andrà, andremo, andrete, andranno\nstare → sto, stai, sta, stiamo, state, stanno",
+          "exercises": [
+            {
+              "id": "u59l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (future — Unit 31 recycling)",
+              "sentence": "Domani io ___ a Roma.",
+              "answers": [
+                "andrò",
+                "andro",
+                "vado"
+              ],
+              "explanation": "'Domani andrò a Roma.' — andare, futuro io: andrò (Unit 31). In speech, 'domani vado a Roma' works too.",
+              "dictionaryRefs": [
+                "andare",
+                "il-futuro"
+              ]
+            },
+            {
+              "id": "u59l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (m. speaker — Unit 27 recycling)",
+              "sentence": "Ieri sono ___ a Roma.",
+              "answers": [
+                "andato",
+                "andata"
+              ],
+              "explanation": "'Ieri sono andato a Roma.' — movement verb → essere + participio (Unit 27). A girl says 'sono andata'.",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u59l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'm going to Rome tomorrow.",
+              "acceptedIt": [
+                "Domani vado a Roma.",
+                "Domani andrò a Roma.",
+                "Vado a Roma domani.",
+                "Andrò a Roma domani.",
+                "Domani vado a Roma"
+              ],
+              "explanation": "Both tenses are right: 'vado' (Unit 7 present) or 'andrò' (Unit 31 future). Real Italian uses both. 💛",
+              "dictionaryRefs": [
+                "andare",
+                "il-futuro"
+              ]
+            },
+            {
+              "id": "u59l2e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Siamo andati al cinema sabato.",
+              "acceptedEn": [
+                "We went to the cinema on Saturday.",
+                "We went to the movies on Saturday."
+              ],
+              "explanation": "'Siamo andati al cinema sabato.' — siamo + andati (Unit 27 rule), al cinema (Unit 20), sabato (Unit 40).",
+              "dictionaryRefs": [
+                "il-cinema",
+                "sabato",
+                "andare"
+              ]
+            },
+            {
+              "id": "u59l2e5",
+              "type": "multiple_choice",
+              "prompt": "The past of movement verbs:",
+              "question": "Ieri…",
+              "options": [
+                "sono andato (essere + participio)",
+                "ho andato",
+                "ando ieri",
+                "andando ieri"
+              ],
+              "correctIndex": 0,
+              "explanation": "Movement → essere + andato. 'Ho andato' is the classic mistake — never say it. 💛",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u59l2e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Dove",
+                "vai",
+                "stasera?"
+              ],
+              "correctSentence": "Dove vai stasera?",
+              "explanation": "'Dove vai stasera?' — dove + vai + stasera. The open question of every evening. 💛",
+              "dictionaryRefs": [
+                "andare",
+                "dove",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u59l2e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 27 recycling)",
+              "tokens": [
+                "Sono",
+                "andato",
+                "a",
+                "Roma."
+              ],
+              "correctSentence": "Sono andato a Roma.",
+              "explanation": "'Sono andato a Roma.' — sono + andato: the movement-verb past.",
+              "dictionaryRefs": [
+                "andare"
+              ]
+            },
+            {
+              "id": "u59l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 31 recycling)",
+              "tokens": [
+                "Andremo",
+                "al",
+                "mare."
+              ],
+              "correctSentence": "Andremo al mare.",
+              "explanation": "'Andremo al mare.' — andremo (futuro noi) + al mare. The best plan there is. 💛",
+              "dictionaryRefs": [
+                "andare",
+                "il-mare",
+                "il-futuro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u59l3",
+          "type": "mixed",
+          "title": "Parliamo di tutto — ripasso 💛",
+          "dictionaryRefs": [
+            "vorrei",
+            "il-caffe",
+            "ci-vediamo",
+            "insomma",
+            "il-weekend",
+            "raccontami",
+            "la-storia",
+            "scherzare",
+            "stasera",
+            "andare",
+            "il-futuro",
+            "dove",
+            "boh",
+            "beh",
+            "figurati"
+          ],
+          "exercises": [
+            {
+              "id": "u59l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 9 recycling)",
+              "sourceEn": "I'd like a coffee with you.",
+              "acceptedIt": [
+                "Vorrei un caffè con te.",
+                "Vorrei un caffè con te",
+                "Vorrei un caffe con te.",
+                "Vorrei un caffe con te"
+              ],
+              "explanation": "'Vorrei un caffè con te.' — Unit 9's vorrei + con te. Still the perfect opener. 💛",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u59l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Unit 34 recycling)",
+              "sentence": "Ci ___ domani!",
+              "answers": [
+                "vediamo"
+              ],
+              "explanation": "'Ci vediamo domani!' — see you tomorrow (Unit 34). The warmest goodbye.",
+              "dictionaryRefs": [
+                "ci-vediamo"
+              ]
+            },
+            {
+              "id": "u59l3e3",
+              "type": "multiple_choice",
+              "prompt": "Which word is a filler?",
+              "question": "Un riempitivo:",
+              "options": [
+                "insomma",
+                "tavolo",
+                "correre",
+                "sete"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Insomma' is a filler — glue, not content. The others are solid nouns and verbs.",
+              "dictionaryRefs": [
+                "insomma"
+              ]
+            },
+            {
+              "id": "u59l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Raccontami la tua storia!",
+              "acceptedEn": [
+                "Tell me your story!"
+              ],
+              "explanation": "'Raccontami la tua storia!' — the open door of every conversation. 💛",
+              "dictionaryRefs": [
+                "raccontami",
+                "la-storia"
+              ]
+            },
+            {
+              "id": "u59l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the exclamation. (I'm joking!)",
+              "sentence": "Sto ___!",
+              "answers": [
+                "scherzando"
+              ],
+              "explanation": "'Sto scherzando!' — sto + scherzando (scherzare). 'Scherzo!' works too.",
+              "dictionaryRefs": [
+                "scherzare"
+              ]
+            },
+            {
+              "id": "u59l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 9 recycling)",
+              "tokens": [
+                "Vorrei",
+                "un",
+                "caffè",
+                "con",
+                "te."
+              ],
+              "correctSentence": "Vorrei un caffè con te.",
+              "explanation": "'Vorrei un caffè con te.' — wish + drink + company. 💛",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u59l3e7",
+              "type": "multiple_choice",
+              "prompt": "To start a real conversation: 💛",
+              "question": "Per iniziare:",
+              "options": [
+                "Insomma, cosa fai questo weekend?",
+                "Silenzio totale.",
+                "Solo domande difficili.",
+                "Niente caffè."
+              ],
+              "correctIndex": 0,
+              "explanation": "A filler + an easy question = a conversation. 'Insomma, cosa fai questo weekend?' 💛",
+              "dictionaryRefs": [
+                "insomma",
+                "il-weekend"
+              ]
+            },
+            {
+              "id": "u59l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 34 recycling)",
+              "sourceEn": "See you tonight!",
+              "acceptedIt": [
+                "Ci vediamo stasera!",
+                "Ci vediamo stasera",
+                "A stasera!",
+                "Ci vediamo stasera!"
+              ],
+              "explanation": "'Ci vediamo stasera!' — Unit 34's goodbye + Unit 34's stasera. 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "stasera"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u59l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "insomma",
+            "raccontami",
+            "scherzare",
+            "beh",
+            "dove",
+            "andare",
+            "stasera"
+          ],
+          "exercises": [
+            {
+              "id": "u59l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Insomma, raccontami tutto!",
+              "options": [
+                "So, tell me everything!",
+                "Well, good night!",
+                "No way, tell me nothing!",
+                "In short, I know everything!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Insomma, raccontami tutto!' — the open door. 💛",
+              "dictionaryRefs": [
+                "insomma",
+                "raccontami"
+              ]
+            },
+            {
+              "id": "u59l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Dove vai stasera?",
+              "acceptedIt": [
+                "Dove vai stasera?",
+                "Dove vai stasera"
+              ],
+              "explanation": "You heard: 'Dove vai stasera?' — where are you going tonight? 💛",
+              "dictionaryRefs": [
+                "andare",
+                "dove",
+                "stasera"
+              ]
+            },
+            {
+              "id": "u59l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Sto scherzando!",
+              "options": [
+                "I'm joking!",
+                "I'm searching!",
+                "I'm running!",
+                "I'm leaving!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sto scherzando!' — I'm joking!",
+              "dictionaryRefs": [
+                "scherzare"
+              ]
+            },
+            {
+              "id": "u59l4e4",
+              "type": "speaking",
+              "prompt": "Say: so, tell me everything! 💛",
+              "targetIt": "Insomma, raccontami tutto!",
+              "minAccuracy": 0.7,
+              "explanation": "in-SOM-ma, rac-con-TA-mi TUT-to — filler + command = conversation. 💛",
+              "dictionaryRefs": [
+                "insomma",
+                "raccontami"
+              ]
+            },
+            {
+              "id": "u59l4e5",
+              "type": "speaking",
+              "prompt": "Say: I'm joking!",
+              "targetIt": "Sto scherzando!",
+              "minAccuracy": 0.7,
+              "explanation": "sto sker-TSAN-do.",
+              "dictionaryRefs": [
+                "scherzare"
+              ]
+            },
+            {
+              "id": "u59l4e6",
+              "type": "speaking",
+              "prompt": "Say: well… I don't know. (Unit 56 recycling)",
+              "targetIt": "Beh, non lo so.",
+              "minAccuracy": 0.7,
+              "explanation": "beh, non lo SO — the honest, friendly hedge.",
+              "dictionaryRefs": [
+                "beh"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u59c",
+        "exercises": [
+          {
+            "id": "u59ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "insomma",
+            "options": [
+              "well, all in all",
+              "always",
+              "together",
+              "never"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Insomma' — the all-purpose filler.",
+            "dictionaryRefs": [
+              "insomma"
+            ]
+          },
+          {
+            "id": "u59ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (future — Unit 31 recycling)",
+            "sentence": "Domani ___ a Roma.",
+            "answers": [
+              "andrò",
+              "andro",
+              "vado"
+            ],
+            "explanation": "'Domani andrò a Roma.' — futuro io: andrò. ('Domani vado' also fine in speech.)",
+            "dictionaryRefs": [
+              "andare",
+              "il-futuro"
+            ]
+          },
+          {
+            "id": "u59ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 27 recycling)",
+            "sourceEn": "We went to the cinema on Saturday.",
+            "acceptedIt": [
+              "Sabato siamo andati al cinema.",
+              "Siamo andati al cinema sabato.",
+              "Sabato siamo andati al cinema",
+              "Siamo andati al cinema sabato"
+            ],
+            "explanation": "'Sabato siamo andati al cinema.' — essere + andati: the movement-verb past. 💛",
+            "dictionaryRefs": [
+              "il-cinema",
+              "sabato",
+              "andare"
+            ]
+          },
+          {
+            "id": "u59ce4",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "scherzare",
+            "options": [
+              "to joke",
+              "to search",
+              "to shout",
+              "to sleep"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Scherzare' = to joke. 'Scherzo!' saves you daily.",
+            "dictionaryRefs": [
+              "scherzare"
+            ]
+          },
+          {
+            "id": "u59ce5",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (feminine speaker)",
+            "sentence": "Ieri sono ___ a Roma.",
+            "answers": [
+              "andata"
+            ],
+            "explanation": "'Ieri sono andata a Roma.' — the participle agrees: andata.",
+            "dictionaryRefs": [
+              "andare"
+            ]
+          },
+          {
+            "id": "u59ce6",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛 (Unit 34 recycling)",
+            "sourceIt": "Ci vediamo stasera!",
+            "acceptedEn": [
+              "See you tonight!",
+              "See you this evening!"
+            ],
+            "explanation": "'Ci vediamo stasera!' — the warm goodbye. 💛",
+            "dictionaryRefs": [
+              "ci-vediamo",
+              "stasera"
+            ]
+          },
+          {
+            "id": "u59ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Dove",
+              "vai",
+              "stasera?"
+            ],
+            "correctSentence": "Dove vai stasera?",
+            "explanation": "'Dove vai stasera?' — the open question of every evening. 💛",
+            "dictionaryRefs": [
+              "andare",
+              "dove",
+              "stasera"
+            ]
+          },
+          {
+            "id": "u59ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Insomma, raccontami tutto!",
+            "options": [
+              "So, tell me everything!",
+              "Well, I know nothing!",
+              "No, tell me nothing!",
+              "In short, good night!"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Insomma, raccontami tutto!' 💛",
+            "dictionaryRefs": [
+              "insomma",
+              "raccontami"
+            ]
+          },
+          {
+            "id": "u59ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Sto scherzando!",
+            "acceptedIt": [
+              "Sto scherzando!",
+              "Sto scherzando",
+              "Sto sherzando!"
+            ],
+            "explanation": "You heard: 'Sto scherzando!' — I'm joking!",
+            "dictionaryRefs": [
+              "scherzare"
+            ]
+          },
+          {
+            "id": "u59ce10",
+            "type": "speaking",
+            "prompt": "Say: where are you going tonight? 💛",
+            "targetIt": "Dove vai stasera?",
+            "minAccuracy": 0.7,
+            "explanation": "DO-ve vai sta-SE-ra. 💛",
+            "dictionaryRefs": [
+              "andare",
+              "dove",
+              "stasera"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u60",
+      "number": 60,
+      "title": "Esame finale",
+      "lessons": [
+        {
+          "id": "u60l1",
+          "type": "vocabulary",
+          "title": "L'esame, l'Italia e il coraggio",
+          "dictionaryRefs": [
+            "l-esame",
+            "l-italia",
+            "il-coraggio",
+            "bravissimo",
+            "sei-pronto-per-l-italia"
+          ],
+          "exercises": [
+            {
+              "id": "u60l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "l'esame",
+              "options": [
+                "the exam",
+                "the example",
+                "the essay",
+                "the email"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'esame' (m, l' before the vowel) = the exam. This unit is yours. 💛",
+              "dictionaryRefs": [
+                "l-esame"
+              ]
+            },
+            {
+              "id": "u60l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "l'Italia",
+              "options": [
+                "Italy",
+                "the island",
+                "the language",
+                "the hotel"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'Italia' (f) = Italy — the destination of this whole course. 💛",
+              "dictionaryRefs": [
+                "l-italia"
+              ]
+            },
+            {
+              "id": "u60l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il coraggio",
+              "options": [
+                "the courage",
+                "the heart",
+                "the body",
+                "the race"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il coraggio' (m) = the courage. Grammar opens doors; courage walks through them.",
+              "dictionaryRefs": [
+                "il-coraggio"
+              ]
+            },
+            {
+              "id": "u60l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "bravissimo",
+              "options": [
+                "very good; excellent",
+                "very brave",
+                "very loud",
+                "very expensive"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Bravissimo!' — superlative of bravo: the highest everyday praise. (Not 'brave' — a classic false friend!) 💛",
+              "dictionaryRefs": [
+                "bravissimo"
+              ]
+            },
+            {
+              "id": "u60l1e5",
+              "type": "multiple_choice",
+              "prompt": "The capstone question. 💛",
+              "question": "Sei pronto per l'Italia?",
+              "options": [
+                "Are you ready for Italy?",
+                "Are you going to Italy?",
+                "Where is Italy?",
+                "Italy is ready for you."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sei pronto per l'Italia?' — the question this whole course was building. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia"
+              ]
+            },
+            {
+              "id": "u60l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Tomorrow is the final exam.)",
+              "sentence": "Domani c'è l'___ finale.",
+              "answers": [
+                "esame"
+              ],
+              "explanation": "'Domani c'è l'esame finale.' — c'è + l'esame (Unit 4's c'è).",
+              "dictionaryRefs": [
+                "l-esame",
+                "ce"
+              ]
+            },
+            {
+              "id": "u60l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the exclamation. 💛 (Unit 7 recycling)",
+              "sentence": "Vado in ___!",
+              "answers": [
+                "Italia",
+                "italia"
+              ],
+              "explanation": "'Vado in Italia!' — andare + in + the dream. 💛",
+              "dictionaryRefs": [
+                "l-italia",
+                "andare"
+              ]
+            },
+            {
+              "id": "u60l1e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Are you ready for Italy?",
+              "acceptedIt": [
+                "Sei pronto per l'Italia?",
+                "Sei pronto per l'Italia",
+                "Sei pronta per l'Italia?",
+                "Sei pronta per l'Italia"
+              ],
+              "explanation": "'Sei pronto per l'Italia?' — sei + pronto + per + l'Italia. The capstone, said out loud. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia",
+                "l-italia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u60l2",
+          "type": "grammar",
+          "title": "I cinque verbi del viaggio",
+          "dictionaryRefs": [
+            "sei-pronto-per-l-italia",
+            "l-esame",
+            "l-italia",
+            "il-coraggio",
+            "parlare",
+            "ce",
+            "andare",
+            "il-caffe",
+            "molto"
+          ],
+          "grammarNotes": "I CINQUE VERBI DEL VIAGGIO — own these five and you own Italian. WHY: they carry every tense and every question.\n\nessere → sono, sei, è, siamo, siete, sono — identity, feelings, the auxiliary of movement.\navere → ho, hai, ha, abbiamo, avete, hanno — possession, age, the avere-expressions (Unit 6, Unit 56).\nandare → vado, vai, va, andiamo, andate, vanno — movement and plans: 'Andiamo!'\nfare → faccio, fai, fa, facciamo, fate, fanno — doing: 'fare attenzione' (pay attention), 'fare una foto' (Unit 26's photo).\nvolere → voglio, vuoi, vuole, vogliamo, volete, vogliono — the engine of every invitation (Unit 41).\nparlare → parlo, parli, parla, parliamo, parlate, parlano — the reward: 'Ho il coraggio di parlare.'\n\nIL BILANCIO — sixty units: greetings (Unit 1) → il futuro (Unit 31) → il condizionale (Unit 41) → il congiuntivo (Unit 43) → l'italiano vero (Unit 56). Not perfection — courage.\n\nSEI PRONTO PER L'ITALIA? — the final question. In bocca al lupo — and thank you for the journey.",
+          "exercises": [
+            {
+              "id": "u60l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the capstone question. 💛",
+              "sentence": "___ pronto per l'Italia?",
+              "answers": [
+                "Sei",
+                "Tu sei"
+              ],
+              "explanation": "'Sei pronto per l'Italia?' — sei (tu) + pronto. The question of the whole course. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia"
+              ]
+            },
+            {
+              "id": "u60l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (The exam is tomorrow.)",
+              "sentence": "L'esame ___ domani.",
+              "answers": [
+                "è",
+                "e'"
+              ],
+              "explanation": "'L'esame è domani.' — essere, lui/lei: è.",
+              "dictionaryRefs": [
+                "l-esame"
+              ]
+            },
+            {
+              "id": "u60l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "We have an exam tomorrow.",
+              "acceptedIt": [
+                "Domani abbiamo un esame.",
+                "Abbiamo un esame domani.",
+                "Domani abbiamo un esame",
+                "Abbiamo un esame domani"
+              ],
+              "explanation": "'Domani abbiamo un esame.' — avere, noi: abbiamo + un esame.",
+              "dictionaryRefs": [
+                "l-esame"
+              ]
+            },
+            {
+              "id": "u60l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I'm going to Italy!",
+              "acceptedIt": [
+                "Vado in Italia!",
+                "Vado in Italia",
+                "Andrò in Italia!",
+                "Andro in Italia!",
+                "Andrò in Italia"
+              ],
+              "explanation": "'Vado in Italia!' — andare, io: vado (or the future: andrò, Unit 31). 💛",
+              "dictionaryRefs": [
+                "andare",
+                "l-italia"
+              ]
+            },
+            {
+              "id": "u60l2e5",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ho il coraggio di parlare.",
+              "acceptedEn": [
+                "I have the courage to speak.",
+                "I've got the courage to speak."
+              ],
+              "explanation": "'Ho il coraggio di parlare.' — ho + il coraggio + di + parlare. The course's final message. 💛",
+              "dictionaryRefs": [
+                "il-coraggio",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u60l2e6",
+              "type": "multiple_choice",
+              "prompt": "The course motto: 💛",
+              "question": "Il motto del corso:",
+              "options": [
+                "Sei pronto per l'Italia?",
+                "Dov'è la stazione?",
+                "Quanto costa?",
+                "Ho fame."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sei pronto per l'Italia?' — sixty units, one question. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia"
+              ]
+            },
+            {
+              "id": "u60l2e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Sei",
+                "pronto",
+                "per",
+                "l'Italia?"
+              ],
+              "correctSentence": "Sei pronto per l'Italia?",
+              "explanation": "'Sei pronto per l'Italia?' — the capstone, in four pieces. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia",
+                "l-italia"
+              ]
+            },
+            {
+              "id": "u60l2e8",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Ho",
+                "il",
+                "coraggio",
+                "di",
+                "parlare."
+              ],
+              "correctSentence": "Ho il coraggio di parlare.",
+              "explanation": "'Ho il coraggio di parlare.' — courage first, perfection later. 💛",
+              "dictionaryRefs": [
+                "il-coraggio",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u60l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Domani",
+                "c'è",
+                "l'esame."
+              ],
+              "correctSentence": "Domani c'è l'esame.",
+              "explanation": "'Domani c'è l'esame.' — and then, Italy. 💛",
+              "dictionaryRefs": [
+                "l-esame",
+                "ce"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u60l3",
+          "type": "mixed",
+          "title": "Tutto il corso — ripasso 💛",
+          "dictionaryRefs": [
+            "ciao",
+            "come-ti-chiami",
+            "vorrei",
+            "il-tavolo",
+            "mi-piace",
+            "il-mare",
+            "prenotare",
+            "la-camera",
+            "in-bocca-al-lupo",
+            "lo-stivale",
+            "la-regione",
+            "ci-sono",
+            "il-bancone",
+            "il-caffe",
+            "insomma",
+            "raccontami",
+            "il-coraggio",
+            "parlare",
+            "italiano",
+            "l-esame",
+            "sei-pronto-per-l-italia"
+          ],
+          "exercises": [
+            {
+              "id": "u60l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 1 recycling)",
+              "sourceEn": "Hello! What's your name?",
+              "acceptedIt": [
+                "Ciao! Come ti chiami?",
+                "Ciao! Come ti chiami",
+                "Ciao, come ti chiami?",
+                "Salve! Come ti chiami?"
+              ],
+              "explanation": "'Ciao! Come ti chiami?' — the very first exchange of the course (Unit 1). 💛",
+              "dictionaryRefs": [
+                "ciao",
+                "come-ti-chiami"
+              ]
+            },
+            {
+              "id": "u60l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the order. 💛 (Unit 15 recycling)",
+              "sentence": "Vorrei un tavolo per ___.",
+              "answers": [
+                "due",
+                "2"
+              ],
+              "explanation": "'Vorrei un tavolo per due.' — Unit 15's door-sentence, still opening restaurants.",
+              "dictionaryRefs": [
+                "vorrei",
+                "il-tavolo"
+              ]
+            },
+            {
+              "id": "u60l3e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 20 recycling)",
+              "question": "Mi piace il mare.",
+              "options": [
+                "I like the seaside.",
+                "I love you at the seaside.",
+                "I miss the sea.",
+                "I want the sea."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Mi piace il mare.' — the piacere pattern (Unit 20), said on every coast.",
+              "dictionaryRefs": [
+                "mi-piace",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u60l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 25+39 recycling)",
+              "sourceIt": "Vorrei prenotare una camera.",
+              "acceptedEn": [
+                "I'd like to book a room.",
+                "I would like to reserve a room."
+              ],
+              "explanation": "'Vorrei prenotare una camera.' — the hotel desk, mastered (Units 25 and 39).",
+              "dictionaryRefs": [
+                "prenotare",
+                "la-camera",
+                "vorrei"
+              ]
+            },
+            {
+              "id": "u60l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. 💛 (Unit 56 recycling)",
+              "sentence": "In bocca al ___!",
+              "answers": [
+                "lupo",
+                "lupo!"
+              ],
+              "explanation": "'In bocca al lupo!' — Unit 56's wish, now said for your own exam.",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo"
+              ]
+            },
+            {
+              "id": "u60l3e6",
+              "type": "multiple_choice",
+              "prompt": "What is it? 💛 (Unit 57 recycling)",
+              "question": "Lo stivale è:",
+              "options": [
+                "l'Italia, sulla mappa",
+                "un gelato",
+                "un treno veloce",
+                "un gesto famoso"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Lo stivale' = the boot = Italy's outline (Unit 57).",
+              "dictionaryRefs": [
+                "lo-stivale"
+              ]
+            },
+            {
+              "id": "u60l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 57 recycling)",
+              "tokens": [
+                "Ci",
+                "sono",
+                "venti",
+                "regioni."
+              ],
+              "correctSentence": "Ci sono venti regioni.",
+              "explanation": "'Ci sono venti regioni.' — the map of Italy in one sentence. 💛",
+              "dictionaryRefs": [
+                "ci-sono",
+                "la-regione"
+              ]
+            },
+            {
+              "id": "u60l3e8",
+              "type": "fill_blank",
+              "prompt": "Complete the order. 💛 (Unit 58 recycling)",
+              "sentence": "Prendo il caffè al ___.",
+              "answers": [
+                "bancone"
+              ],
+              "explanation": "'Prendo il caffè al bancone.' — the insider's order (Unit 58).",
+              "dictionaryRefs": [
+                "il-bancone",
+                "il-caffe"
+              ]
+            },
+            {
+              "id": "u60l3e9",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 59 recycling)",
+              "sourceEn": "Well, tell me everything!",
+              "acceptedIt": [
+                "Insomma, raccontami tutto!",
+                "Insomma, raccontami tutto",
+                "Dunque, raccontami tutto!",
+                "Beh, raccontami tutto!"
+              ],
+              "explanation": "'Insomma, raccontami tutto!' — the open door of Unit 59's free conversation.",
+              "dictionaryRefs": [
+                "insomma",
+                "raccontami"
+              ]
+            },
+            {
+              "id": "u60l3e10",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ho il coraggio di parlare italiano.",
+              "acceptedEn": [
+                "I have the courage to speak Italian.",
+                "I've got the courage to speak Italian."
+              ],
+              "explanation": "'Ho il coraggio di parlare italiano.' — the course's final message, with the language named. 💛",
+              "dictionaryRefs": [
+                "il-coraggio",
+                "parlare",
+                "italiano"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u60l4",
+          "type": "oral",
+          "title": "Ascolta e parla — il gran finale",
+          "dictionaryRefs": [
+            "sei-pronto-per-l-italia",
+            "il-coraggio",
+            "parlare",
+            "l-esame",
+            "in-bocca-al-lupo",
+            "ci-vediamo",
+            "l-italia"
+          ],
+          "exercises": [
+            {
+              "id": "u60l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Sei pronto per l'Italia?",
+              "options": [
+                "Are you ready for Italy?",
+                "Are you leaving Italy?",
+                "Is Italy ready?",
+                "Do you like Italy?"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sei pronto per l'Italia?' — the capstone question. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia"
+              ]
+            },
+            {
+              "id": "u60l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Ho il coraggio di parlare.",
+              "acceptedIt": [
+                "Ho il coraggio di parlare.",
+                "Ho il coraggio di parlare",
+                "Io ho il coraggio di parlare"
+              ],
+              "explanation": "You heard: 'Ho il coraggio di parlare.' — the final message. 💛",
+              "dictionaryRefs": [
+                "il-coraggio",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u60l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "In bocca al lupo per l'esame!",
+              "options": [
+                "Good luck on the exam!",
+                "The exam is in the wolf's mouth.",
+                "Open your mouth for the exam.",
+                "The wolf takes the exam."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'In bocca al lupo per l'esame!' — Unit 56's wish, for your final exam. 💛",
+              "dictionaryRefs": [
+                "in-bocca-al-lupo",
+                "l-esame"
+              ]
+            },
+            {
+              "id": "u60l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: are you ready for Italy? 💛",
+              "targetIt": "Sei pronto per l'Italia?",
+              "minAccuracy": 0.7,
+              "explanation": "SEI PRON-to per li-TA-lia. Say it like you mean it. 💛",
+              "dictionaryRefs": [
+                "sei-pronto-per-l-italia"
+              ]
+            },
+            {
+              "id": "u60l4e5",
+              "type": "speaking",
+              "prompt": "Say: I have the courage to speak. 💛",
+              "targetIt": "Ho il coraggio di parlare.",
+              "minAccuracy": 0.7,
+              "explanation": "o il co-RAD-djo di par-LA-re. 💛",
+              "dictionaryRefs": [
+                "il-coraggio",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u60l4e6",
+              "type": "speaking",
+              "prompt": "Say: see you in Italy! 💛",
+              "targetIt": "Ci vediamo in Italia!",
+              "minAccuracy": 0.7,
+              "explanation": "chi ve-DIA-mo in i-TA-lia — the warmest possible goodbye. Ci vediamo! 💛",
+              "dictionaryRefs": [
+                "ci-vediamo",
+                "l-italia"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u60c",
+        "exercises": [
+          {
+            "id": "u60ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "l'esame",
+            "options": [
+              "the exam",
+              "the example",
+              "the essay",
+              "the email"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'esame' = the exam. This one is yours. 💛",
+            "dictionaryRefs": [
+              "l-esame"
+            ]
+          },
+          {
+            "id": "u60ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the capstone question. 💛",
+            "sentence": "___ pronto per l'Italia?",
+            "answers": [
+              "Sei",
+              "Tu sei"
+            ],
+            "explanation": "'Sei pronto per l'Italia?' — sei (tu) + pronto.",
+            "dictionaryRefs": [
+              "sei-pronto-per-l-italia"
+            ]
+          },
+          {
+            "id": "u60ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "Are you ready for Italy?",
+            "acceptedIt": [
+              "Sei pronto per l'Italia?",
+              "Sei pronto per l'Italia",
+              "Sei pronta per l'Italia?",
+              "Sei pronta per l'Italia"
+            ],
+            "explanation": "'Sei pronto per l'Italia?' — the course, summarized in four words. 💛",
+            "dictionaryRefs": [
+              "sei-pronto-per-l-italia",
+              "l-italia"
+            ]
+          },
+          {
+            "id": "u60ce4",
+            "type": "multiple_choice",
+            "prompt": "What does it mean? 💛",
+            "question": "l'Italia",
+            "options": [
+              "Italy",
+              "the island",
+              "the language",
+              "the city"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'Italia' = Italy — your destination. 💛",
+            "dictionaryRefs": [
+              "l-italia"
+            ]
+          },
+          {
+            "id": "u60ce5",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (future — Unit 31 recycling)",
+            "sentence": "Domani ___ in Italia.",
+            "answers": [
+              "andrò",
+              "andro",
+              "vado"
+            ],
+            "explanation": "'Domani andrò in Italia.' — futuro io: andrò ('vado' works in speech too).",
+            "dictionaryRefs": [
+              "andare",
+              "l-italia",
+              "il-futuro"
+            ]
+          },
+          {
+            "id": "u60ce6",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 27 recycling)",
+            "sourceEn": "We went to the cinema on Saturday.",
+            "acceptedIt": [
+              "Sabato siamo andati al cinema.",
+              "Siamo andati al cinema sabato.",
+              "Sabato siamo andati al cinema",
+              "Siamo andati al cinema sabato"
+            ],
+            "explanation": "'Sabato siamo andati al cinema.' — essere + andati: the movement-verb past. 💛",
+            "dictionaryRefs": [
+              "il-cinema",
+              "sabato",
+              "andare"
+            ]
+          },
+          {
+            "id": "u60ce7",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. 💛",
+            "sourceIt": "Ho il coraggio di parlare.",
+            "acceptedEn": [
+              "I have the courage to speak.",
+              "I've got the courage to speak."
+            ],
+            "explanation": "'Ho il coraggio di parlare.' — ho + il coraggio + di + parlare.",
+            "dictionaryRefs": [
+              "il-coraggio",
+              "parlare"
+            ]
+          },
+          {
+            "id": "u60ce8",
+            "type": "multiple_choice",
+            "prompt": "The course motto: 💛",
+            "question": "Il motto del corso:",
+            "options": [
+              "Sei pronto per l'Italia?",
+              "Dov'è la stazione?",
+              "Quanto costa?",
+              "Ho fame."
+            ],
+            "correctIndex": 0,
+            "explanation": "'Sei pronto per l'Italia?' — sixty units, one question. 💛",
+            "dictionaryRefs": [
+              "sei-pronto-per-l-italia"
+            ]
+          },
+          {
+            "id": "u60ce9",
+            "type": "fill_blank",
+            "prompt": "Complete the order. (Unit 58 recycling)",
+            "sentence": "Un bicchiere ___ vino, per favore.",
+            "answers": [
+              "di"
+            ],
+            "explanation": "'Un bicchiere di vino.' — quantity-noun + di + thing.",
+            "dictionaryRefs": [
+              "il-bicchiere",
+              "il-vino",
+              "per-favore"
+            ]
+          },
+          {
+            "id": "u60ce10",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Sei",
+              "pronto",
+              "per",
+              "l'Italia?"
+            ],
+            "correctSentence": "Sei pronto per l'Italia?",
+            "explanation": "'Sei pronto per l'Italia?' — the capstone, in four pieces. 💛",
+            "dictionaryRefs": [
+              "sei-pronto-per-l-italia",
+              "l-italia"
+            ]
+          },
+          {
+            "id": "u60ce11",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 9 recycling)",
+            "tokens": [
+              "Vorrei",
+              "un",
+              "caffè."
+            ],
+            "correctSentence": "Vorrei un caffè.",
+            "explanation": "'Vorrei un caffè.' — the first polite order (Unit 9), still perfect.",
+            "dictionaryRefs": [
+              "vorrei",
+              "il-caffe"
+            ]
+          },
+          {
+            "id": "u60ce12",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Sei pronto per l'Italia?",
+            "options": [
+              "Are you ready for Italy?",
+              "Are you leaving Italy?",
+              "Is Italy ready?",
+              "Do you like Italy?"
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Sei pronto per l'Italia?' 💛",
+            "dictionaryRefs": [
+              "sei-pronto-per-l-italia"
+            ]
+          },
+          {
+            "id": "u60ce13",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. 💛",
+            "mode": "type",
+            "speakIt": "Ci vediamo in Italia!",
+            "acceptedIt": [
+              "Ci vediamo in Italia!",
+              "Ci vediamo in Italia",
+              "Ci vediamo in Italia."
+            ],
+            "explanation": "You heard: 'Ci vediamo in Italia!' — the warmest possible goodbye. 💛",
+            "dictionaryRefs": [
+              "ci-vediamo",
+              "l-italia"
+            ]
+          },
+          {
+            "id": "u60ce14",
+            "type": "speaking",
+            "prompt": "Say: I have the courage to speak. 💛",
+            "targetIt": "Ho il coraggio di parlare.",
+            "minAccuracy": 0.7,
+            "explanation": "o il co-RAD-djo di par-LA-re. 💛",
+            "dictionaryRefs": [
+              "il-coraggio",
+              "parlare"
+            ]
+          },
+          {
+            "id": "u60ce15",
+            "type": "speaking",
+            "prompt": "Say it in Italian: good luck! 💛",
+            "targetIt": "In bocca al lupo!",
+            "minAccuracy": 0.7,
+            "explanation": "in BOC-ca al LU-po — for the exam, and for the journey. 💛",
+            "dictionaryRefs": [
+              "in-bocca-al-lupo"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -48361,6 +52259,599 @@
         }
       ],
       "introducedInUnit": 55
+    },
+    {
+      "id": "in-bocca-al-lupo",
+      "word": "in bocca al lupo",
+      "translation": "good luck! (lit. 'into the wolf's mouth')",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "In bocca al lupo per l'esame!",
+          "en": "Good luck with the exam!"
+        },
+        {
+          "it": "Domani ho il mio esame. — In bocca al lupo!",
+          "en": "I have my exam tomorrow. — Good luck!"
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "crepi",
+      "word": "crepi",
+      "translation": "the fixed reply to 'in bocca al lupo' (lit. 'may it die')",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "In bocca al lupo! — Crepi!",
+          "en": "Good luck! — (May the wolf die)!"
+        },
+        {
+          "it": "Crepi il lupo!",
+          "en": "May the wolf die! (the full form)"
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "dai",
+      "word": "dai",
+      "translation": "come on!",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "Dai, andiamo al cinema!",
+          "en": "Come on, let's go to the cinema!"
+        },
+        {
+          "it": "Dai, non è vero!",
+          "en": "Come on, that's not true!"
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "figurati",
+      "word": "figurati",
+      "translation": "don't mention it; of course not",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "Grazie mille! — Figurati!",
+          "en": "Thanks a lot! — Don't mention it!"
+        },
+        {
+          "it": "Dai, figurati!",
+          "en": "Come on, don't mention it!"
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "prego",
+      "word": "prego",
+      "translation": "you're welcome; go ahead; after you",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "Grazie! — Prego.",
+          "en": "Thank you! — You're welcome."
+        },
+        {
+          "it": "Prego, entri pure.",
+          "en": "Please, come in."
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "boh",
+      "word": "boh",
+      "translation": "dunno (a shrug in sound)",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "— Lo sai dov'è Marco? — Boh!",
+          "en": "— Do you know where Marco is? — No idea!"
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "che-barba",
+      "word": "che barba",
+      "translation": "how boring! (lit. 'what a beard')",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Un'ora di attesa? Che barba!",
+          "en": "An hour of waiting? How boring!"
+        },
+        {
+          "it": "Che barba, questa lezione!",
+          "en": "How boring this lesson is!"
+        }
+      ],
+      "introducedInUnit": 56
+    },
+    {
+      "id": "il-dialetto",
+      "word": "dialetto",
+      "article": "il",
+      "translation": "the dialect",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "A Napoli molti parlano il dialetto.",
+          "en": "In Naples many people speak the dialect."
+        },
+        {
+          "it": "Capisco il dialetto, ma non lo parlo.",
+          "en": "I understand the dialect, but I don't speak it."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "la-regione",
+      "word": "la regione",
+      "article": "la",
+      "translation": "the region",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "L'Italia ha venti regioni.",
+          "en": "Italy has twenty regions."
+        },
+        {
+          "it": "La Toscana è una regione famosa.",
+          "en": "Tuscany is a famous region."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "il-nord",
+      "word": "nord",
+      "article": "il",
+      "translation": "the north",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Milano è nel nord Italia.",
+          "en": "Milan is in northern Italy."
+        },
+        {
+          "it": "Il nord ha montagne e laghi.",
+          "en": "The north has mountains and lakes."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "il-sud",
+      "word": "sud",
+      "article": "il",
+      "translation": "the south",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Napoli è nel sud.",
+          "en": "Naples is in the south."
+        },
+        {
+          "it": "Il sud è famoso per il mare.",
+          "en": "The south is famous for the sea."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "l-accento",
+      "word": "accento",
+      "article": "l'",
+      "translation": "the accent",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ha un accento toscano.",
+          "en": "He has a Tuscan accent."
+        },
+        {
+          "it": "L'accento cambia da regione a regione.",
+          "en": "The accent changes from region to region."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "lo-stivale",
+      "word": "stivale",
+      "article": "lo",
+      "translation": "the boot (Italy's shape)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "L'Italia ha la forma di uno stivale.",
+          "en": "Italy has the shape of a boot."
+        },
+        {
+          "it": "Lo stivale è la forma dell'Italia sulla mappa.",
+          "en": "The boot is Italy's shape on the map."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "la-gente",
+      "word": "la gente",
+      "article": "la",
+      "translation": "the people",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La gente qui è molto gentile.",
+          "en": "The people here are very kind."
+        },
+        {
+          "it": "La gente parla con le mani.",
+          "en": "People talk with their hands."
+        }
+      ],
+      "introducedInUnit": 57
+    },
+    {
+      "id": "il-gesto",
+      "word": "gesto",
+      "article": "il",
+      "translation": "the gesture",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "I gesti italiani sono famosi.",
+          "en": "Italian gestures are famous."
+        },
+        {
+          "it": "Che gesto è questo?",
+          "en": "What gesture is this?"
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "la-merenda",
+      "word": "la merenda",
+      "article": "la",
+      "translation": "the afternoon snack",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "La merenda è sacra per i bambini.",
+          "en": "The afternoon snack is sacred for children."
+        },
+        {
+          "it": "A merenda prendo un cornetto.",
+          "en": "For my snack I have a croissant."
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "il-bancone",
+      "word": "bancone",
+      "article": "il",
+      "translation": "the (bar) counter",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Prendo il caffè al bancone.",
+          "en": "I take my coffee at the counter."
+        },
+        {
+          "it": "Al bancone è più veloce.",
+          "en": "At the counter it's faster."
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "la-conversazione",
+      "word": "la conversazione",
+      "article": "la",
+      "translation": "the conversation",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "È una conversazione interessante.",
+          "en": "It's an interesting conversation."
+        },
+        {
+          "it": "La conversazione continua a tavola.",
+          "en": "The conversation continues at the table."
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "la-tavola",
+      "word": "la tavola",
+      "article": "la",
+      "translation": "the table (set for a meal)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "A tavola, ragazzi!",
+          "en": "Dinner's ready, kids!"
+        },
+        {
+          "it": "La tavola è apparecchiata.",
+          "en": "The table is set."
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "il-paese",
+      "word": "paese",
+      "article": "il",
+      "translation": "the village; the country",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Il mio paese è piccolo ma bello.",
+          "en": "My village is small but beautiful."
+        },
+        {
+          "it": "Il paese ha una piazza antica.",
+          "en": "The village has an old square."
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "il-dolce",
+      "word": "dolce",
+      "article": "il",
+      "translation": "the dessert; the sweet",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Per dolce prendo il gelato.",
+          "en": "For dessert I'll have ice cream."
+        },
+        {
+          "it": "Che dolce vuoi?",
+          "en": "What dessert do you want?"
+        }
+      ],
+      "introducedInUnit": 58
+    },
+    {
+      "id": "insomma",
+      "word": "insomma",
+      "translation": "well, all in all (a filler)",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Insomma, cosa facciamo stasera?",
+          "en": "So, what are we doing tonight?"
+        },
+        {
+          "it": "Insomma, basta così.",
+          "en": "Well, that's enough."
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "cioe",
+      "word": "cioè",
+      "translation": "that is; I mean",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Vieni domani, cioè giovedì.",
+          "en": "Come tomorrow, that is, Thursday."
+        },
+        {
+          "it": "— Sei stanco? — Cioè, un po'.",
+          "en": "— Are you tired? — Well, a bit."
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "beh",
+      "word": "beh",
+      "translation": "well… (a thinking sound)",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "Beh, non lo so.",
+          "en": "Well, I don't know."
+        },
+        {
+          "it": "Beh, allora vediamo.",
+          "en": "Well, then let's see."
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "dunque",
+      "word": "dunque",
+      "translation": "so, then",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Dunque, andiamo?",
+          "en": "So, shall we go?"
+        },
+        {
+          "it": "Dunque, tutto bene?",
+          "en": "So, all good?"
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "scherzare",
+      "word": "scherzare",
+      "translation": "to joke",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Sto scherzando!",
+          "en": "I'm joking!"
+        },
+        {
+          "it": "Scherzi a parte, dimmi tutto.",
+          "en": "Joking aside, tell me everything."
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "il-discorso",
+      "word": "discorso",
+      "article": "il",
+      "translation": "the speech; the talk",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "È un discorso importante.",
+          "en": "It's an important speech."
+        },
+        {
+          "it": "Il discorso è lungo.",
+          "en": "The speech is long."
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "raccontami",
+      "word": "raccontami",
+      "translation": "tell me!",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Raccontami la tua giornata!",
+          "en": "Tell me about your day!"
+        },
+        {
+          "it": "Raccontami tutto, dai!",
+          "en": "Come on, tell me everything!"
+        }
+      ],
+      "introducedInUnit": 59
+    },
+    {
+      "id": "l-esame",
+      "word": "esame",
+      "article": "l'",
+      "translation": "the exam",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Domani c'è l'esame finale.",
+          "en": "Tomorrow is the final exam."
+        },
+        {
+          "it": "Supererò l'esame!",
+          "en": "I will pass the exam!"
+        }
+      ],
+      "introducedInUnit": 60
+    },
+    {
+      "id": "l-italia",
+      "word": "Italia",
+      "article": "l'",
+      "translation": "Italy",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "L'Italia è bellissima.",
+          "en": "Italy is beautiful."
+        },
+        {
+          "it": "Vado in Italia!",
+          "en": "I'm going to Italy!"
+        }
+      ],
+      "introducedInUnit": 60
+    },
+    {
+      "id": "il-coraggio",
+      "word": "coraggio",
+      "article": "il",
+      "translation": "the courage",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Hai il coraggio di parlare!",
+          "en": "You have the courage to speak!"
+        },
+        {
+          "it": "Il coraggio prima di tutto.",
+          "en": "Courage first of all."
+        }
+      ],
+      "introducedInUnit": 60
+    },
+    {
+      "id": "bravissimo",
+      "word": "bravissimo",
+      "translation": "very good; excellent (superlative of bravo)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Bravissimo, continua così!",
+          "en": "Excellent, keep it up!"
+        },
+        {
+          "it": "Sei bravissimo!",
+          "en": "You're really good!"
+        }
+      ],
+      "introducedInUnit": 60
+    },
+    {
+      "id": "sei-pronto-per-l-italia",
+      "word": "sei pronto per l'Italia?",
+      "translation": "Are you ready for Italy? — the capstone question",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Sei pronto per l'Italia?",
+          "en": "Are you ready for Italy?"
+        },
+        {
+          "it": "— Sei pronto per l'Italia? — Sì, prontissimo!",
+          "en": "— Are you ready for Italy? — Yes, more than ready!"
+        }
+      ],
+      "introducedInUnit": 60
     }
   ],
   "stories": [
