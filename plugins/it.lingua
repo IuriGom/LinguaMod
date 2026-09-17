@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 35,
+    "version": 36,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -31251,6 +31251,794 @@
           }
         ]
       }
+    },
+    {
+      "id": "u42",
+      "number": 42,
+      "title": "Il condizionale II",
+      "lessons": [
+        {
+          "id": "u42l1",
+          "type": "vocabulary",
+          "title": "La scusa, l'impegno, peccato",
+          "dictionaryRefs": [
+            "la-scusa",
+            "peccato",
+            "l-impegno",
+            "il-piano",
+            "purtroppo"
+          ],
+          "exercises": [
+            {
+              "id": "u42l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "la scusa",
+              "options": [
+                "the excuse",
+                "the apology",
+                "the reason",
+                "the forgiveness"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La scusa' (f) = the excuse. 'Ho una scusa buona.' — I have a good excuse. (Scusa! is also 'sorry/excuse me'.)",
+              "dictionaryRefs": [
+                "la-scusa"
+              ]
+            },
+            {
+              "id": "u42l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "peccato",
+              "options": [
+                "a pity; a shame (Peccato! = What a pity!)",
+                "a sin",
+                "a mistake",
+                "a problem"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Peccato!' = What a pity! 'Peccato che…'? Later. For now: 'Sarebbe stato bello. Peccato!' — It would have been nice. What a pity!",
+              "dictionaryRefs": [
+                "peccato"
+              ]
+            },
+            {
+              "id": "u42l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'impegno",
+              "options": [
+                "the commitment; the prior engagement",
+                "the job",
+                "the appointment",
+                "the duty"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'impegno' (m, l' before the vowel) = the commitment, the prior engagement. 'Ho un impegno.' — I have something planned. The polite no, ready-made.",
+              "dictionaryRefs": [
+                "l-impegno"
+              ]
+            },
+            {
+              "id": "u42l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il piano",
+              "options": [
+                "the plan",
+                "the floor (of a building)",
+                "the piano (instrument)",
+                "the map"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il piano' (m) = the plan. 'Ho un piano per sabato.' — I have a plan for Saturday. (Also the floor of a building, and the instrument.)",
+              "dictionaryRefs": [
+                "il-piano"
+              ]
+            },
+            {
+              "id": "u42l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "purtroppo",
+              "options": [
+                "unfortunately",
+                "probably",
+                "suddenly",
+                "fortunately"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Purtroppo' = unfortunately. 'Purtroppo non posso venire.' — Unfortunately I can't come. The opposite of per fortuna (fortunately).",
+              "dictionaryRefs": [
+                "purtroppo",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u42l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I have a prior commitment on Saturday.)",
+              "sentence": "Ho un ___ sabato.",
+              "answers": [
+                "impegno"
+              ],
+              "explanation": "'Ho un impegno sabato.' — ho + un impegno + sabato. The diplomatic way to say no without details.",
+              "dictionaryRefs": [
+                "l-impegno"
+              ]
+            },
+            {
+              "id": "u42l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 32 recycling)",
+              "sourceEn": "Unfortunately I can't come.",
+              "acceptedIt": [
+                "Purtroppo non posso venire.",
+                "Purtroppo non posso venire",
+                "Non posso venire, purtroppo"
+              ],
+              "explanation": "'Purtroppo non posso venire.' — purtroppo + non posso (potere, Unit 32) + venire.",
+              "dictionaryRefs": [
+                "purtroppo",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u42l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Ho una scusa buona.",
+              "acceptedEn": [
+                "I have a good excuse."
+              ],
+              "explanation": "'Ho una scusa buona.' — ho + una scusa + buona (f, agreeing with scusa).",
+              "dictionaryRefs": [
+                "la-scusa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u42l2",
+          "type": "grammar",
+          "title": "Il condizionale passato: sarei venuto, ma…",
+          "dictionaryRefs": [
+            "la-scusa",
+            "peccato",
+            "l-impegno",
+            "il-piano",
+            "purtroppo",
+            "venire",
+            "uscire",
+            "scrivere",
+            "potere",
+            "dovere",
+            "bello",
+            "stanco"
+          ],
+          "grammarNotes": "IL CONDIZIONALE PASSATO — 'would have'. Two parts: the conditional of avere or essere + the participle. The auxiliary follows the SAME rule as the passato prossimo (Unit 27):\n\n• avere-verbs: avrei + participle — 'Avrei scritto.' — I would have written. 'Avresti mangiato?' — Would you have eaten?\n• essere-verbs (movement/change/reflexives): sarei + participle, WITH agreement — 'Sarei venuto.' (man) / 'Sarei venuta.' (woman) — I would have come. 'Saremmo andati al mare.' — We would have gone to the seaside.\n\nRecap of the conditional auxiliaries: avrei, avresti, avrebbe, avremmo, avreste, avrebbero — sarei, saresti, sarebbe, saremmo, sareste, sarebbero.\n\nTHE SOFTENER — explaining a no without a no:\n• 'Sarei venuto, ma avevo un impegno.' — I would have come, but I had a commitment.\n• 'Ti avrei scritto, ma non ho potuto.' — I would have written to you, but I couldn't.\n• 'Sarei uscita, ma ero stanca.' — I would have gone out, but I was tired. (ero: imperfetto for the reason, Unit 29.)\n\n'Peccato!' closes it: 'Sarebbe stato bello. Peccato!' — It would have been nice. What a pity! (essere → stato, essere auxiliary, agrees with the implied subject.)\n\nWITH THE MODALS: 'Avrei voluto venire.' — I would have wanted to come. 'Avrei dovuto studiare.' — I should have studied. (The modal takes avere; the infinitive stays.)",
+          "exercises": [
+            {
+              "id": "u42l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I would have come, but I had a commitment. — man speaking)",
+              "sentence": "___ venuto, ma avevo un impegno.",
+              "answers": [
+                "Sarei",
+                "Io sarei"
+              ],
+              "explanation": "'Sarei venuto, ma avevo un impegno.' — venire is movement → sarei (essere, conditional) + venuto. The reason takes the imperfetto: avevo.",
+              "dictionaryRefs": [
+                "venire",
+                "l-impegno",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I would have written to you, but I couldn't.)",
+              "sentence": "Ti ___ scritto, ma non ho potuto.",
+              "answers": [
+                "avrei"
+              ],
+              "explanation": "'Ti avrei scritto, ma non ho potuto.' — scrivere takes avere: avrei + scritto (irregular participle). Ti (to you, Unit 33) stays before the auxiliary. 💛",
+              "dictionaryRefs": [
+                "scrivere",
+                "potere",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (Giulia would have gone out, but she was tired.) (Unit 29 recycling)",
+              "sentence": "Giulia ___ uscita, ma era stanca.",
+              "answers": [
+                "sarebbe"
+              ],
+              "explanation": "'Giulia sarebbe uscita, ma era stanca.' — uscire → sarebbe (lui/lei) + uscita (agrees with Giulia!). Era (imperfetto) for the background reason.",
+              "dictionaryRefs": [
+                "uscire",
+                "stanco",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (It would have been nice. What a pity!)",
+              "sentence": "___ stato bello. Peccato!",
+              "answers": [
+                "Sarebbe"
+              ],
+              "explanation": "'Sarebbe stato bello. Peccato!' — essere → stato (essere auxiliary!): sarebbe stato. The perfect sigh.",
+              "dictionaryRefs": [
+                "bello",
+                "peccato"
+              ]
+            },
+            {
+              "id": "u42l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 20+29 recycling)",
+              "sourceEn": "We would have gone to the seaside, but it rained.",
+              "acceptedIt": [
+                "Saremmo andati al mare, ma pioveva.",
+                "Saremmo andati al mare, ma pioveva",
+                "Noi saremmo andati al mare, ma pioveva"
+              ],
+              "explanation": "'Saremmo andati al mare, ma pioveva.' — andare → saremmo andati (noi, m pl). The reason is background → imperfetto: pioveva (piovere: to rain — the only weather verb you need).",
+              "dictionaryRefs": [
+                "andare",
+                "il-mare",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I would have wanted to come.",
+              "acceptedIt": [
+                "Avrei voluto venire.",
+                "Avrei voluto venire",
+                "Io avrei voluto venire"
+              ],
+              "explanation": "'Avrei voluto venire.' — the modal takes avere: avrei + voluto (volere's participle). The infinitive venire stays.",
+              "dictionaryRefs": [
+                "volere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u42l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Sarei uscita, ma ero stanca.",
+              "acceptedEn": [
+                "I would have gone out, but I was tired. (woman speaking)"
+              ],
+              "explanation": "'Sarei uscita, ma ero stanca.' — uscitA tells you a woman speaks; ero stanca (imperfetto) explains why. 💛",
+              "dictionaryRefs": [
+                "uscire",
+                "stanco",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 32 recycling)",
+              "sourceIt": "Avrei dovuto studiare.",
+              "acceptedEn": [
+                "I should have studied.",
+                "I would have had to study."
+              ],
+              "explanation": "'Avrei dovuto studiare.' — dovere takes avere: avrei dovuto (participle) + studiare. The student's sigh.",
+              "dictionaryRefs": [
+                "dovere",
+                "studiare"
+              ]
+            },
+            {
+              "id": "u42l2e9",
+              "type": "multiple_choice",
+              "prompt": "Choose the auxiliary. (I would have written to you. 💛) (Unit 12+33 recycling)",
+              "question": "Ti ___ scritto.",
+              "options": [
+                "avrei",
+                "sarei",
+                "avevo",
+                "sarò"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Ti avrei scritto.' — scrivere is an action → avere: avrei scritto. (Avevo scritto = pluperfect, Unit 55; sarò = future, Unit 31.)",
+              "dictionaryRefs": [
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u42l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Sarei",
+                "venuto,",
+                "ma",
+                "avevo",
+                "un",
+                "impegno."
+              ],
+              "correctSentence": "Sarei venuto, ma avevo un impegno.",
+              "explanation": "'Sarei venuto, ma avevo un impegno.' — sarei venuto (conditional perfect) + ma + the real reason. 💛",
+              "dictionaryRefs": [
+                "venire",
+                "ma",
+                "l-impegno"
+              ]
+            },
+            {
+              "id": "u42l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Sarebbe",
+                "stato",
+                "bello."
+              ],
+              "correctSentence": "Sarebbe stato bello.",
+              "explanation": "'Sarebbe stato bello.' — sarebbe + stato + bello. It would have been nice.",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u42l3",
+          "type": "mixed",
+          "title": "Sarebbe stato bello — ripasso",
+          "dictionaryRefs": [
+            "il-cinema",
+            "la-festa",
+            "il-mare",
+            "la-cena",
+            "scrivere",
+            "telefonare",
+            "uscire",
+            "venire",
+            "lavorare",
+            "stanco",
+            "bello",
+            "la-scusa",
+            "peccato",
+            "l-impegno",
+            "purtroppo"
+          ],
+          "exercises": [
+            {
+              "id": "u42l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 19+26 recycling)",
+              "sourceEn": "I would have called you, but I couldn't.",
+              "acceptedIt": [
+                "Ti avrei telefonato, ma non ho potuto.",
+                "Ti avrei telefonato, ma non ho potuto",
+                "Io ti avrei telefonato, ma non ho potuto"
+              ],
+              "explanation": "'Ti avrei telefonato, ma non ho potuto.' — telefonare → avere: avrei telefonato. Ti + avrei + telefonato. 💛",
+              "dictionaryRefs": [
+                "telefonare",
+                "potere",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 17+29 recycling)",
+              "question": "Sarei venuta alla festa, ma ero malata.",
+              "options": [
+                "I would have come to the party, but I was sick. (woman speaking)",
+                "I would have come to the party, but I was sick. (man speaking)",
+                "I came to the party, but I was sick.",
+                "I would come to the party, but I'm sick."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sarei venuta alla festa, ma ero malata.' — venutA (a woman) + era… wait, ero malata (imperfetto for the reason). Malata from Unit 24.",
+              "dictionaryRefs": [
+                "venire",
+                "la-festa",
+                "malato",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I would have gone out, but I had to work.) (Unit 32 recycling)",
+              "sentence": "Sarei uscito, ma ___ lavorare.",
+              "answers": [
+                "dovevo"
+              ],
+              "explanation": "'Sarei uscito, ma dovevo lavorare.' — the reason in the imperfetto: dovevo (dovere, Unit 32's modal + infinitive).",
+              "dictionaryRefs": [
+                "uscire",
+                "dovere",
+                "lavorare",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Purtroppo non sono potuto venire.",
+              "acceptedEn": [
+                "Unfortunately I couldn't come. (man speaking)"
+              ],
+              "explanation": "'Purtroppo non sono potuto venire.' — or with the modal's own logic: purtroppo + non + sono potuto (essere before movement). Unit 32 mentioned 'sono dovuto andare' — same pattern.",
+              "dictionaryRefs": [
+                "purtroppo",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u42l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I should have studied.) (Unit 32 recycling)",
+              "sentence": "Avrei ___ studiare.",
+              "answers": [
+                "dovuto"
+              ],
+              "explanation": "'Avrei dovuto studiare.' — dovere takes avere: avrei + dovuto. The infinitive studiare stays.",
+              "dictionaryRefs": [
+                "dovere",
+                "studiare"
+              ]
+            },
+            {
+              "id": "u42l3e6",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 20 recycling)",
+              "question": "Avrei voluto andare al mare.",
+              "options": [
+                "I would have wanted to go to the seaside.",
+                "I wanted to go to the sea.",
+                "I would go to the sea if I could.",
+                "I had to go to the seaside."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Avrei voluto andare al mare.' — avrei voluto (the modal in the conditional perfect) + andare. The wish that didn't happen.",
+              "dictionaryRefs": [
+                "volere",
+                "andare",
+                "il-mare"
+              ]
+            },
+            {
+              "id": "u42l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 33 recycling)",
+              "tokens": [
+                "Ti",
+                "avrei",
+                "scritto,",
+                "ma",
+                "non",
+                "ho",
+                "potuto."
+              ],
+              "correctSentence": "Ti avrei scritto, ma non ho potuto.",
+              "explanation": "'Ti avrei scritto, ma non ho potuto.' — 💛 the honest softener, word by word.",
+              "dictionaryRefs": [
+                "scrivere",
+                "potere",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 6+17 recycling)",
+              "sourceEn": "It would have been a nice party.",
+              "acceptedIt": [
+                "Sarebbe stata una bella festa.",
+                "Sarebbe stata una bella festa"
+              ],
+              "explanation": "'Sarebbe stata una bella festa.' — sarebbe + stata (agrees with festa) + una bella festa.",
+              "dictionaryRefs": [
+                "bello",
+                "la-festa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u42l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "la-scusa",
+            "peccato",
+            "l-impegno",
+            "purtroppo",
+            "venire",
+            "scrivere",
+            "potere",
+            "bello",
+            "ma"
+          ],
+          "exercises": [
+            {
+              "id": "u42l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Sarei venuto, ma avevo un impegno.",
+              "options": [
+                "I would have come, but I had a commitment. (man)",
+                "I came, but I had a commitment.",
+                "I would come, but I have a commitment.",
+                "I would have come, but I was busy yesterday. (woman)"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sarei venuto, ma avevo un impegno.' — sarei + venuto (m) + ma + the reason. 💛",
+              "dictionaryRefs": [
+                "venire",
+                "l-impegno",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Ti avrei scritto.",
+              "acceptedIt": [
+                "Ti avrei scritto.",
+                "Ti avrei scritto",
+                "Io ti avrei scritto"
+              ],
+              "explanation": "You heard: 'Ti avrei scritto.' — I would have written to you. 💛",
+              "dictionaryRefs": [
+                "scrivere"
+              ]
+            },
+            {
+              "id": "u42l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Sarebbe stato bello.",
+              "options": [
+                "It would have been nice.",
+                "It would be nice.",
+                "It was nice.",
+                "It will be nice."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Sarebbe stato bello.' — sarebbe + stato: would HAVE been. Peccato!",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u42l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I would have come, but I had a commitment. (man speaking) 💛",
+              "targetIt": "Sarei venuto, ma avevo un impegno.",
+              "minAccuracy": 0.7,
+              "explanation": "'Sarei venuto, ma avevo un impegno.' — sa-REI ve-NU-to, ma a-VE-vo un im-PE-nyo. 💛",
+              "dictionaryRefs": [
+                "venire",
+                "l-impegno",
+                "ma"
+              ]
+            },
+            {
+              "id": "u42l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: what a pity!",
+              "targetIt": "Peccato!",
+              "minAccuracy": 0.7,
+              "explanation": "'Peccato!' — pec-CA-to. The one-word sigh.",
+              "dictionaryRefs": [
+                "peccato"
+              ]
+            },
+            {
+              "id": "u42l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 32 recycling)",
+              "mode": "type",
+              "speakIt": "Purtroppo non posso venire.",
+              "acceptedIt": [
+                "Purtroppo non posso venire.",
+                "Purtroppo non posso venire"
+              ],
+              "explanation": "You heard: 'Purtroppo non posso venire.' — Unfortunately I can't come.",
+              "dictionaryRefs": [
+                "purtroppo",
+                "potere",
+                "venire"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u42c",
+        "exercises": [
+          {
+            "id": "u42ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "l'impegno",
+            "options": [
+              "the commitment; prior engagement",
+              "the job",
+              "the promise",
+              "the appointment"
+            ],
+            "correctIndex": 0,
+            "explanation": "'L'impegno' (m) = the commitment. 'Ho un impegno.' — the polite no.",
+            "dictionaryRefs": [
+              "l-impegno"
+            ]
+          },
+          {
+            "id": "u42ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I would have come, but I had a commitment. — man speaking) 💛",
+            "sentence": "___ venuto, ma avevo un impegno.",
+            "answers": [
+              "Sarei",
+              "Io sarei"
+            ],
+            "explanation": "'Sarei venuto, ma avevo un impegno.' — venire → sarei (essere, conditional) + venuto. 💛",
+            "dictionaryRefs": [
+              "venire",
+              "l-impegno",
+              "ma"
+            ]
+          },
+          {
+            "id": "u42ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 33 recycling)",
+            "sourceEn": "I would have written to you, but I couldn't.",
+            "acceptedIt": [
+              "Ti avrei scritto, ma non ho potuto.",
+              "Ti avrei scritto, ma non ho potuto",
+              "Io ti avrei scritto, ma non ho potuto"
+            ],
+            "explanation": "'Ti avrei scritto, ma non ho potuto.' — scrivere → avere: avrei scritto. 💛",
+            "dictionaryRefs": [
+              "scrivere",
+              "potere",
+              "ma"
+            ]
+          },
+          {
+            "id": "u42ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 6 recycling)",
+            "sourceIt": "Sarebbe stato bello.",
+            "acceptedEn": [
+              "It would have been nice.",
+              "It would have been beautiful."
+            ],
+            "explanation": "'Sarebbe stato bello.' — sarebbe + stato. The sigh of the missed plan.",
+            "dictionaryRefs": [
+              "bello"
+            ]
+          },
+          {
+            "id": "u42ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the auxiliary. (I would have gone out. — man speaking) (Unit 27 recycling)",
+            "question": "___ uscito.",
+            "options": [
+              "Sarei",
+              "Avrei",
+              "Avevo",
+              "Sono"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Sarei uscito.' — uscire is movement → essere: sarei. Same rule as 'sono uscito' (Unit 27), one tense up.",
+            "dictionaryRefs": [
+              "uscire"
+            ]
+          },
+          {
+            "id": "u42ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (Giulia would have gone out, but she was tired.) (Unit 29 recycling)",
+            "sentence": "Giulia sarebbe ___, ma era stanca.",
+            "answers": [
+              "uscita"
+            ],
+            "explanation": "'Giulia sarebbe uscita, ma era stanca.' — uscitA agrees with Giulia (essere auxiliary).",
+            "dictionaryRefs": [
+              "uscire",
+              "stanco",
+              "ma"
+            ]
+          },
+          {
+            "id": "u42ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "Sarei",
+              "venuto,",
+              "ma",
+              "avevo",
+              "un",
+              "impegno."
+            ],
+            "correctSentence": "Sarei venuto, ma avevo un impegno.",
+            "explanation": "'Sarei venuto, ma avevo un impegno.' 💛",
+            "dictionaryRefs": [
+              "venire",
+              "ma",
+              "l-impegno"
+            ]
+          },
+          {
+            "id": "u42ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Ti avrei telefonato.",
+            "options": [
+              "I would have called you.",
+              "I called you.",
+              "I would call you.",
+              "I would have texted you."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Ti avrei telefonato.' — telefonare → avere: avrei telefonato. 💛",
+            "dictionaryRefs": [
+              "telefonare"
+            ]
+          },
+          {
+            "id": "u42ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Sarebbe stato bello.",
+            "acceptedIt": [
+              "Sarebbe stato bello.",
+              "Sarebbe stato bello"
+            ],
+            "explanation": "You heard: 'Sarebbe stato bello.'",
+            "dictionaryRefs": [
+              "bello"
+            ]
+          },
+          {
+            "id": "u42ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I would have wanted to come.",
+            "targetIt": "Avrei voluto venire.",
+            "minAccuracy": 0.7,
+            "explanation": "'Avrei voluto venire.' — a-VREI vo-LU-to ve-NI-re. The modal in the conditional perfect.",
+            "dictionaryRefs": [
+              "volere",
+              "venire"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -35414,6 +36202,83 @@
         }
       ],
       "introducedInUnit": 41
+    },
+    {
+      "id": "la-scusa",
+      "word": "scusa",
+      "article": "la",
+      "translation": "excuse (Scusa! = sorry; excuse me)",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Ho una scusa buona.",
+          "en": "I have a good excuse."
+        }
+      ],
+      "introducedInUnit": 42
+    },
+    {
+      "id": "peccato",
+      "word": "peccato",
+      "article": "il",
+      "translation": "pity; shame; sin (Peccato! = What a pity!)",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "Sarebbe stato bello. Peccato!",
+          "en": "It would have been nice. What a pity!"
+        }
+      ],
+      "introducedInUnit": 42,
+      "gender": "m"
+    },
+    {
+      "id": "l-impegno",
+      "word": "impegno",
+      "article": "l'",
+      "translation": "commitment; prior engagement",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho un impegno sabato.",
+          "en": "I have a commitment on Saturday."
+        },
+        {
+          "it": "Sarei venuto, ma avevo un impegno.",
+          "en": "I would have come, but I had a commitment."
+        }
+      ],
+      "introducedInUnit": 42
+    },
+    {
+      "id": "il-piano",
+      "word": "piano",
+      "article": "il",
+      "translation": "plan; floor (of a building)",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho un piano per sabato.",
+          "en": "I have a plan for Saturday."
+        }
+      ],
+      "introducedInUnit": 42
+    },
+    {
+      "id": "purtroppo",
+      "word": "purtroppo",
+      "translation": "unfortunately",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "it": "Purtroppo non posso venire.",
+          "en": "Unfortunately I can't come."
+        }
+      ],
+      "introducedInUnit": 42
     }
   ],
   "stories": [
