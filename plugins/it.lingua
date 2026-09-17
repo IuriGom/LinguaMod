@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 36,
+    "version": 37,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -32039,6 +32039,768 @@
           }
         ]
       }
+    },
+    {
+      "id": "u43",
+      "number": 43,
+      "title": "Il congiuntivo presente I",
+      "lessons": [
+        {
+          "id": "u43l1",
+          "type": "vocabulary",
+          "title": "Sperare, sapere, credere",
+          "dictionaryRefs": [
+            "sperare",
+            "sapere",
+            "credere",
+            "l-opinione",
+            "il-dubbio"
+          ],
+          "exercises": [
+            {
+              "id": "u43l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sperare",
+              "options": [
+                "to hope",
+                "to wait for",
+                "to expect",
+                "to wish upon"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sperare' = to hope: 'Spero che tu stia bene.' — I hope you're well. 💛 Regular -are: spero, speri, spera…",
+              "dictionaryRefs": [
+                "sperare"
+              ]
+            },
+            {
+              "id": "u43l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sapere",
+              "options": [
+                "to know (a fact)",
+                "to know a person",
+                "to taste",
+                "to think"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sapere' = to know a FACT: 'So che è vero.' — I know it's true. (Conoscere, Unit 19, is for people and places.) Irregular: io SO.",
+              "dictionaryRefs": [
+                "sapere"
+              ]
+            },
+            {
+              "id": "u43l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "credere",
+              "options": [
+                "to believe",
+                "to believe in",
+                "to think",
+                "to trust"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Credere' = to believe: 'Credo che Giulia venga.' — I believe Giulia is coming. Regular -ere: credo, credi, crede…",
+              "dictionaryRefs": [
+                "credere"
+              ]
+            },
+            {
+              "id": "u43l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'opinione",
+              "options": [
+                "the opinion",
+                "the option",
+                "the idea",
+                "the opposite"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'opinione' (f, l' before the vowel) = the opinion. 'Secondo me' = in my opinion — the phrase before every opinion.",
+              "dictionaryRefs": [
+                "l-opinione"
+              ]
+            },
+            {
+              "id": "u43l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il dubbio",
+              "options": [
+                "the doubt",
+                "the question",
+                "the problem",
+                "the suspicion"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il dubbio' (m) = the doubt. 'Ho un dubbio.' — I have a doubt. Doubt is the subjunctive's home.",
+              "dictionaryRefs": [
+                "il-dubbio"
+              ]
+            },
+            {
+              "id": "u43l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I hope you are well.)",
+              "sentence": "___ che tu stia bene.",
+              "answers": [
+                "Spero"
+              ],
+              "explanation": "'Spero che tu stia bene.' — spero (io, sperare) + che + the subjunctive (stia, from stare — next lesson's grammar). 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u43l1e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I know it's true.)",
+              "sentence": "___ che è vero.",
+              "answers": [
+                "So"
+              ],
+              "explanation": "'So che è vero.' — sapere (io: so — irregular!) + che + the INDICATIVE (è). Facts take the indicative; opinions take the subjunctive (next lesson).",
+              "dictionaryRefs": [
+                "sapere",
+                "vero"
+              ]
+            },
+            {
+              "id": "u43l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Secondo me, è bello.",
+              "acceptedEn": [
+                "In my opinion, it's nice.",
+                "In my opinion it is beautiful."
+              ],
+              "explanation": "'Secondo me' = in my opinion (literally 'according to me'). Secondo me + the indicative — it's YOUR stated view, so it stands as fact.",
+              "dictionaryRefs": [
+                "l-opinione",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u43l2",
+          "type": "grammar",
+          "title": "Penso che sia… — il congiuntivo",
+          "dictionaryRefs": [
+            "sperare",
+            "sapere",
+            "credere",
+            "l-opinione",
+            "il-dubbio",
+            "libero",
+            "simpatico",
+            "bello",
+            "stanco",
+            "bene"
+          ],
+          "grammarNotes": "IL CONGIUNTIVO PRESENTE — the mood of opinions, doubts and hopes. After 'penso che', 'credo che', 'spero che', the verb changes shape.\n\nTHE CONTRAST, always both sides:\n• 'So che Giulia È simpatica.' — I KNOW (fact) → indicative: è.\n• 'Penso che Giulia SIA simpatica.' — I THINK (opinion) → subjunctive: sia.\n\nTHE PATTERN: -are → -i, -ere/-ire → -a (they swap!):\n• parlare → parli, parli, parli, parliamo, parliate, parlino (indicative: parlo, parli, parla, parliamo, parlate, parlano)\n• dormire → dorma, dorma, dorma, dormiamo, dormiate, dormano (indicative: dormo, dormi, dorme, dormiamo, dormite, dormono)\n• capire keeps -isc-: capisca, capisca, capisca, capiamo, capiate, capiscano (indicative: capisco, capisci, capisce, capiamo, capite, capiscono)\n\nIRREGULARS — the two pillars:\n• essere: che io sia, tu sia, lui/lei sia, noi siamo, voi siate, loro siano\n• avere: che io abbia, tu abbia, lui/lei abbia, noi abbiamo, voi abbiate, loro abbiano\n\nTHE TRIGGER VERBS: pensare che (to think), credere che (to believe), sperare che (to hope). KNOWING stays indicative: 'So che è vero.' — I know it's true.\n\nWHY: the subjunctive marks the sentence as YOUR view, not a fact. Italian hears the difference between 'So che è simpatica' (she is, for sure) and 'Penso che sia simpatica' (I think so). 💛",
+          "exercises": [
+            {
+              "id": "u43l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I think Giulia is free on Saturday.) (Unit 16 recycling)",
+              "sentence": "Penso che Giulia ___ libera sabato.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Penso che Giulia sia libera sabato.' — penso che → subjunctive: SIA (essere). Compare: 'So che Giulia è libera.' — a fact: è. 💛",
+              "dictionaryRefs": [
+                "libero"
+              ]
+            },
+            {
+              "id": "u43l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I believe Marco has a commitment.) (Unit 42 recycling)",
+              "sentence": "Credo che Marco ___ un impegno.",
+              "answers": [
+                "abbia"
+              ],
+              "explanation": "'Credo che Marco abbia un impegno.' — credo che → subjunctive: ABBIA (avere). Indicative would be: ha.",
+              "dictionaryRefs": [
+                "credere",
+                "l-impegno"
+              ]
+            },
+            {
+              "id": "u43l2e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I hope you are well.)",
+              "sentence": "Spero che tu ___ bene.",
+              "answers": [
+                "stia"
+              ],
+              "explanation": "'Spero che tu stia bene.' — spero che → subjunctive: STIA (stare, Unit 24). Indicative: stai. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u43l2e4",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I think Giulia eats the pasta.) (Unit 15 recycling)",
+              "sentence": "Penso che Giulia ___ la pasta.",
+              "answers": [
+                "mangi"
+              ],
+              "explanation": "'Penso che Giulia mangi la pasta.' — -are verbs swap endings: indicative lui/lei = -a (mangia), subjunctive = -i (mangi).",
+              "dictionaryRefs": [
+                "mangiare",
+                "la-pasta"
+              ]
+            },
+            {
+              "id": "u43l2e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 13 recycling)",
+              "sourceEn": "I think Giulia is nice.",
+              "acceptedIt": [
+                "Penso che Giulia sia simpatica.",
+                "Penso che Giulia sia simpatica",
+                "Io penso che Giulia sia simpatica"
+              ],
+              "explanation": "'Penso che Giulia sia simpatica.' — opinion → sia. Fact version: 'So che Giulia è simpatica.'",
+              "dictionaryRefs": [
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u43l2e6",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛 (Unit 12 recycling)",
+              "sourceEn": "I hope you sleep well.",
+              "acceptedIt": [
+                "Spero che tu dorma bene.",
+                "Spero che tu dorma bene"
+              ],
+              "explanation": "'Spero che tu dorma bene.' — -ire verbs: subjunctive = -a: dorma (indicative: dormi). 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u43l2e7",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (the contrast)",
+              "sourceIt": "So che è vero.",
+              "acceptedEn": [
+                "I know it's true.",
+                "I know that it's true."
+              ],
+              "explanation": "'So che è vero.' — sapere + the INDICATIVE (è): you state a fact. 'Credo che sia vero' would be an opinion.",
+              "dictionaryRefs": [
+                "sapere",
+                "vero"
+              ]
+            },
+            {
+              "id": "u43l2e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 21 recycling)",
+              "sourceIt": "Credo che lui esca con Giulia.",
+              "acceptedEn": [
+                "I believe he's going out with Giulia.",
+                "I think he goes out with Giulia."
+              ],
+              "explanation": "'Credo che lui esca con Giulia.' — credo che → esca (uscire, subjunctive). Indicative: esce. 💛",
+              "dictionaryRefs": [
+                "credere",
+                "uscire"
+              ]
+            },
+            {
+              "id": "u43l2e9",
+              "type": "multiple_choice",
+              "prompt": "Fact or opinion? (I know Giulia is nice.) (Unit 13 recycling)",
+              "question": "So che Giulia ___ simpatica.",
+              "options": [
+                "è",
+                "sia",
+                "sei",
+                "sarà"
+              ],
+              "correctIndex": 0,
+              "explanation": "'So che Giulia è simpatica.' — so che (I KNOW) → indicative: è. Only opinion/doubt/hope verbs take the subjunctive.",
+              "dictionaryRefs": [
+                "sapere",
+                "simpatico"
+              ]
+            },
+            {
+              "id": "u43l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 6 recycling)",
+              "tokens": [
+                "Penso",
+                "che",
+                "sia",
+                "bello."
+              ],
+              "correctSentence": "Penso che sia bello.",
+              "explanation": "'Penso che sia bello.' — penso che + sia + bello. I think it's nice.",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u43l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Spero",
+                "che",
+                "tu",
+                "stia",
+                "bene."
+              ],
+              "correctSentence": "Spero che tu stia bene.",
+              "explanation": "'Spero che tu stia bene.' — the full pattern: spero + che + tu + stia + bene. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "bene"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u43l3",
+          "type": "mixed",
+          "title": "Opinioni e dubbi — ripasso 💛",
+          "dictionaryRefs": [
+            "il-ristorante",
+            "la-cena",
+            "il-film",
+            "stanco",
+            "lavorare",
+            "molto",
+            "vero",
+            "insieme",
+            "uscire",
+            "venire",
+            "sperare",
+            "sapere",
+            "credere",
+            "il-dubbio"
+          ],
+          "exercises": [
+            {
+              "id": "u43l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 15 recycling)",
+              "sourceEn": "I think the restaurant is nice.",
+              "acceptedIt": [
+                "Penso che il ristorante sia bello.",
+                "Penso che il ristorante sia bello",
+                "Io penso che il ristorante sia bello"
+              ],
+              "explanation": "'Penso che il ristorante sia bello.' — opinion → sia. Fact: 'So che il ristorante è bello.'",
+              "dictionaryRefs": [
+                "il-ristorante",
+                "bello"
+              ]
+            },
+            {
+              "id": "u43l3e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛 (Unit 27 recycling)",
+              "question": "Credi che Giulia venga?",
+              "options": [
+                "Do you believe Giulia is coming?",
+                "Do you think Giulia came?",
+                "Do you believe Giulia comes?",
+                "Do you know if Giulia is coming?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Credi che Giulia venga?' — credi che → venga (venire, subjunctive). Indicative: viene. 💛",
+              "dictionaryRefs": [
+                "credere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u43l3e3",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I hope the dinner is nice.) (Unit 15 recycling)",
+              "sentence": "Spero che la cena ___ bella.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Spero che la cena sia bella.' — spero che → sia (essere, subjunctive). 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "la-cena",
+                "bello"
+              ]
+            },
+            {
+              "id": "u43l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 8+13 recycling — the contrast)",
+              "sourceIt": "So che lavori molto.",
+              "acceptedEn": [
+                "I know you work a lot."
+              ],
+              "explanation": "'So che lavori molto.' — so che → INDICATIVE: lavori happens to look the same for tu. The grammar choice is invisible here — but it's the indicative.",
+              "dictionaryRefs": [
+                "sapere",
+                "lavorare",
+                "molto"
+              ]
+            },
+            {
+              "id": "u43l3e5",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (I think Marco is tired.) (Unit 6 recycling)",
+              "sentence": "Penso che Marco ___ stanco.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Penso che Marco sia stanco.' — penso che → sia. Indicative: 'So che Marco è stanco.'",
+              "dictionaryRefs": [
+                "stanco"
+              ]
+            },
+            {
+              "id": "u43l3e6",
+              "type": "multiple_choice",
+              "prompt": "Fact or opinion? (I know it's true.) (Unit 37 recycling)",
+              "question": "So che ___ vero.",
+              "options": [
+                "è",
+                "sia",
+                "abbia",
+                "vada"
+              ],
+              "correctIndex": 0,
+              "explanation": "'So che è vero.' — knowing a fact → indicative: è. (Sia after penso/credo/spero che.)",
+              "dictionaryRefs": [
+                "sapere",
+                "vero"
+              ]
+            },
+            {
+              "id": "u43l3e7",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛 (Unit 33 recycling)",
+              "tokens": [
+                "Credo",
+                "che",
+                "escano",
+                "insieme."
+              ],
+              "correctSentence": "Credo che escano insieme.",
+              "explanation": "'Credo che escano insieme.' — credo che → escano (uscire, loro). Indicative: escono. 💛",
+              "dictionaryRefs": [
+                "credere",
+                "uscire",
+                "insieme"
+              ]
+            },
+            {
+              "id": "u43l3e8",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 19+37 recycling)",
+              "sourceEn": "I hope the film is beautiful.",
+              "acceptedIt": [
+                "Spero che il film sia bello.",
+                "Spero che il film sia bello"
+              ],
+              "explanation": "'Spero che il film sia bello.' — hope → subjunctive: sia. Or the absolute superlative for certainty: 'Il film è bellissimo.' (Unit 37).",
+              "dictionaryRefs": [
+                "sperare",
+                "il-film",
+                "bello"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u43l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "sperare",
+            "sapere",
+            "credere",
+            "libero",
+            "bello",
+            "bene",
+            "simpatico",
+            "vero"
+          ],
+          "exercises": [
+            {
+              "id": "u43l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛 (Unit 16 recycling)",
+              "mode": "choice",
+              "speakIt": "Penso che Giulia sia libera.",
+              "options": [
+                "I think Giulia is free.",
+                "I know Giulia is free.",
+                "I think Giulia is busy.",
+                "I hope Giulia is free."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Penso che Giulia sia libera.' — penso che + sia. 💛",
+              "dictionaryRefs": [
+                "libero"
+              ]
+            },
+            {
+              "id": "u43l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. 💛",
+              "mode": "type",
+              "speakIt": "Spero che tu stia bene.",
+              "acceptedIt": [
+                "Spero che tu stia bene.",
+                "Spero che tu stia bene",
+                "Spero che stia bene"
+              ],
+              "explanation": "You heard: 'Spero che tu stia bene.' — I hope you're well. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "bene"
+              ]
+            },
+            {
+              "id": "u43l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛 (Unit 33 recycling)",
+              "mode": "choice",
+              "speakIt": "Credo che escano insieme.",
+              "options": [
+                "I believe they're going out together.",
+                "I think they went out together.",
+                "I believe they go out together often.",
+                "I know they're going out together."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Credo che escano insieme.' — credo che + escano (subjunctive, loro). 💛",
+              "dictionaryRefs": [
+                "credere",
+                "uscire",
+                "insieme"
+              ]
+            },
+            {
+              "id": "u43l4e4",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I think it's nice. (Unit 6 recycling)",
+              "targetIt": "Penso che sia bello.",
+              "minAccuracy": 0.7,
+              "explanation": "'Penso che sia bello.' — PEN-so ke SYA BEL-lo.",
+              "dictionaryRefs": [
+                "bello"
+              ]
+            },
+            {
+              "id": "u43l4e5",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I hope you sleep well. 💛 (Unit 12 recycling)",
+              "targetIt": "Spero che tu dorma bene.",
+              "minAccuracy": 0.7,
+              "explanation": "'Spero che tu dorma bene.' — dorma (subjunctive), not dormi. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "dormire",
+                "bene"
+              ]
+            },
+            {
+              "id": "u43l4e6",
+              "type": "listening",
+              "prompt": "Listen and type what you hear. (Unit 37 recycling — the contrast)",
+              "mode": "type",
+              "speakIt": "So che è vero.",
+              "acceptedIt": [
+                "So che è vero.",
+                "So che è vero",
+                "So che e' vero"
+              ],
+              "explanation": "You heard: 'So che è vero.' — sapere + the indicative è. A fact, not an opinion.",
+              "dictionaryRefs": [
+                "sapere",
+                "vero"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u43c",
+        "exercises": [
+          {
+            "id": "u43ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il dubbio",
+            "options": [
+              "the doubt",
+              "the question",
+              "the fear",
+              "the problem"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il dubbio' (m) = the doubt. Doubt lives in the subjunctive.",
+            "dictionaryRefs": [
+              "il-dubbio"
+            ]
+          },
+          {
+            "id": "u43ce2",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. (I think it's nice.) (Unit 6 recycling)",
+            "sentence": "Penso che ___ bello.",
+            "answers": [
+              "sia"
+            ],
+            "explanation": "'Penso che sia bello.' — penso che → sia. Fact version: 'So che è bello.'",
+            "dictionaryRefs": [
+              "bello"
+            ]
+          },
+          {
+            "id": "u43ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛 (Unit 27 recycling)",
+            "sourceEn": "I hope Giulia comes.",
+            "acceptedIt": [
+              "Spero che Giulia venga.",
+              "Spero che Giulia venga",
+              "Spero che Giulia venga domani"
+            ],
+            "explanation": "'Spero che Giulia venga.' — spero che → venga (venire, subjunctive). Indicative: viene. 💛",
+            "dictionaryRefs": [
+              "sperare",
+              "venire"
+            ]
+          },
+          {
+            "id": "u43ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 6 recycling — the contrast)",
+            "sourceIt": "So che sei stanco.",
+            "acceptedEn": [
+              "I know you're tired.",
+              "I know that you are tired."
+            ],
+            "explanation": "'So che sei stanco.' — so che → indicative: sei. You state what you know.",
+            "dictionaryRefs": [
+              "sapere",
+              "stanco"
+            ]
+          },
+          {
+            "id": "u43ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the subjunctive. (I believe he has a commitment.) (Unit 42 recycling)",
+            "question": "Credo che ___ un impegno.",
+            "options": [
+              "abbia",
+              "ha",
+              "hai",
+              "hanno"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Credo che abbia un impegno.' — credo che → abbia (avere, subjunctive). Indicative: ha.",
+            "dictionaryRefs": [
+              "credere",
+              "l-impegno"
+            ]
+          },
+          {
+            "id": "u43ce6",
+            "type": "fill_blank",
+            "prompt": "Complete the sentence. 💛 (I hope you are happy.) (Unit 6 recycling)",
+            "sentence": "Spero che tu ___ contento.",
+            "answers": [
+              "sia"
+            ],
+            "explanation": "'Spero che tu sia contento.' — spero che → sia. 💛 (To a woman: contenta.)",
+            "dictionaryRefs": [
+              "sperare",
+              "contento"
+            ]
+          },
+          {
+            "id": "u43ce7",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛 (Unit 27 recycling)",
+            "tokens": [
+              "Penso",
+              "che",
+              "Giulia",
+              "venga."
+            ],
+            "correctSentence": "Penso che Giulia venga.",
+            "explanation": "'Penso che Giulia venga.' — penso che + subject + venga. 💛",
+            "dictionaryRefs": [
+              "venire"
+            ]
+          },
+          {
+            "id": "u43ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Spero che tu stia bene.",
+            "options": [
+              "I hope you're well.",
+              "I think you're well.",
+              "I know you're well.",
+              "I hope you're happy."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Spero che tu stia bene.' — spero che + stia. 💛",
+            "dictionaryRefs": [
+              "sperare",
+              "bene"
+            ]
+          },
+          {
+            "id": "u43ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear. (Unit 37 recycling)",
+            "mode": "type",
+            "speakIt": "Credo che sia vero.",
+            "acceptedIt": [
+              "Credo che sia vero.",
+              "Credo che sia vero"
+            ],
+            "explanation": "You heard: 'Credo che sia vero.' — I believe it's true. Contrast: 'So che è vero.'",
+            "dictionaryRefs": [
+              "credere",
+              "vero"
+            ]
+          },
+          {
+            "id": "u43ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I think Giulia is nice. (Unit 13 recycling)",
+            "targetIt": "Penso che Giulia sia simpatica.",
+            "minAccuracy": 0.7,
+            "explanation": "'Penso che Giulia sia simpatica.' — sia, not è: it's your opinion. 💛",
+            "dictionaryRefs": [
+              "simpatico"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -36279,6 +37041,87 @@
         }
       ],
       "introducedInUnit": 42
+    },
+    {
+      "id": "sperare",
+      "word": "sperare",
+      "translation": "to hope",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Spero che tu stia bene.",
+          "en": "I hope you're well."
+        },
+        {
+          "it": "Spero che Giulia venga.",
+          "en": "I hope Giulia comes."
+        }
+      ],
+      "introducedInUnit": 43
+    },
+    {
+      "id": "sapere",
+      "word": "sapere",
+      "translation": "to know (a fact)",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "So che è vero.",
+          "en": "I know it's true."
+        },
+        {
+          "it": "So che sei stanco.",
+          "en": "I know you're tired."
+        }
+      ],
+      "introducedInUnit": 43
+    },
+    {
+      "id": "credere",
+      "word": "credere",
+      "translation": "to believe",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Credo che lui esca con Giulia.",
+          "en": "I believe he's going out with Giulia."
+        },
+        {
+          "it": "Credo che sia vero.",
+          "en": "I believe it's true."
+        }
+      ],
+      "introducedInUnit": 43
+    },
+    {
+      "id": "l-opinione",
+      "word": "opinione",
+      "article": "l'",
+      "translation": "opinion",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Secondo me, è bello.",
+          "en": "In my opinion, it's nice."
+        }
+      ],
+      "introducedInUnit": 43
+    },
+    {
+      "id": "il-dubbio",
+      "word": "dubbio",
+      "article": "il",
+      "translation": "doubt",
+      "partOfSpeech": "noun",
+      "gender": "m",
+      "examples": [
+        {
+          "it": "Ho un dubbio.",
+          "en": "I have a doubt."
+        }
+      ],
+      "introducedInUnit": 43
     }
   ],
   "stories": [
