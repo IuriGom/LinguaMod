@@ -604,3 +604,68 @@ Checks run (API-34 emulator `emulator-5554`):
   (cap 20 MB; 15 Phase-3 units + Story 3 added ~60 KB over Stage 5) — AC9.
 
 **Stage 6 gate: GREEN.**
+### Stage 7 — acceptance gates ✅ (2026-09-18)
+
+Scope: Units 41–60 + Story 4 (Phase 4 content, course complete). All ten
+acceptance criteria from
+`LinguaMod Autonomous Prompts/07 Phase 4 Content Units 41-60 and Stories.md`
+green.
+
+New this stage:
+
+- `CompleteUnitsStage7JourneyTest` (AC3): Solver Bot full playthrough of units
+  41–60, one test per unit — prior units fast-forwarded via DB writes, unit N
+  completed through the real UI (4 lessons + checkpoint), strictly-linear gate
+  asserted both ways around each checkpoint; unit 60 settles the app into the
+  completed-course home. Together with Stage 2/5/6 this is the complete
+  1–60 course playthrough, zero failures.
+- `ChaosUnitsStage7JourneyTest` (AC4): chaos pass on units 44, 50 and 60 —
+  same harness as Stage 6; unit 60's 15-exercise checkpoint fails gracefully
+  under `chaosStaysWrong` (no crash, no progress recorded) and passes on the
+  correct retry.
+- `Story4JourneyTest` (AC5/AC9): Story 4 "A cena dalla famiglia"
+  (unlockAfterUnit 45, 13 nodes) completable end-to-end through the real UI;
+  two wrong choices show teaching feedback and loop; completion awards
+  30 XP + the Narratore badge; replayable. Story 1/2/3 journeys unchanged and
+  green — all four stories playable.
+- `SubjunctiveGatingTest` (AC7, JVM): no distinctively subjunctive form from
+  the reference SUBJUNCTIVE_PRESENT / SUBJUNCTIVE_IMPERFECT tables appears in
+  any scored answer of units < 43 (subjunctive forms that collide with other
+  taught tenses are excluded from the distinctive set).
+- `GamificationTest` (AC8): Level 4 triggers exactly on the unit-60 checkpoint
+  (59 checkpoints → Level 3, 60 → Level 4, `nextThreshold(4)` = null); after
+  checkpoint 60 the Home course progress bar reads 100% — asserted through the
+  real `HomeViewModel.computeBars` math over repository state
+  (`computeBars` is now `internal` for the test).
+- Fix found by the full pass: `Stage4JourneyTest.journey_placeholder_story_
+  renders_future_pack` still expected story4 to be an empty-nodes placeholder;
+  Stage 7 wrote it as a real story. The test now synthesizes the placeholder
+  case — a plugin variant with story4 `nodes: []` written to the external
+  plugin dir as `aa_placeholder.lingua` (sorts before `it.lingua`, so
+  `PluginLoader.load` picks it) — placeholder rendering still proven.
+- Environment note: a Roblox session pushed host load to 12–16 through all
+  runs (same phenomenon documented in Stage 6). All suites were green anyway —
+  waits and the built-in tap/scroll retries absorbed it; no test hacks.
+
+Checks run (API-34 emulator `emulator-5554`):
+
+- `./gradlew testDebugUnitTest` — **green, 144 JVM tests, 0 failures**
+  (validator zero errors incl. the documented Unit-60 15-exercise checkpoint
+  exception; conjugation cross-check full tables; subjunctive gating 1;
+  gamification 17 incl. Level 4 at unit 60 and 100% course bar; story
+  validation 13 incl. story4 fully written for unit 45) — AC2, AC6, AC7.
+- `./gradlew connectedDebugAndroidTest` — **97/97 green in the final full pass
+  (47m 27s)**. Journey coverage: Stage 2 units 1–10 + Stage 5 units 11–25 +
+  Stage 6 units 26–40 + Stage 7 units 41–60 = Solver Bot complete playthrough
+  of every unit 1–60, zero failures (AC3, the key gate); chaos units
+  44/50/60 (AC4); Story 4 correct path + 2 wrong-choice loops + rewards +
+  replay (AC5) plus Stories 1–3 (AC9); all Stage 1–4 journeys still green
+  (AC1).
+- Monkey: debug APK reinstalled (the instrumented task uninstalls it), then
+  `monkey -p com.linguamod.app --pct-syskeys 0 20000` — **20000 events
+  injected in 229152ms, zero crashes/ANRs** (`tools/journeys/monkey.sh`).
+- `./gradlew assembleRelease` — release APK **3,283,062 bytes ≈ 3.13 MB**
+  (cap 20 MB; 20 Phase-4 units + Story 4 added ~90 KB over Stage 6) — AC10.
+- Dictionary total: **384 entries** (target 350–450) — AC10.
+
+**Stage 7 gate: GREEN. Course complete: 60 units, 4 stories.**
