@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 37,
+    "version": 38,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -32801,6 +32801,1651 @@
           }
         ]
       }
+    },
+    {
+      "id": "u44",
+      "number": 44,
+      "title": "Il congiuntivo presente II",
+      "lessons": [
+        {
+          "id": "u44l1",
+          "type": "vocabulary",
+          "title": "Importante, il consiglio, la verità",
+          "dictionaryRefs": [
+            "importante",
+            "necessario",
+            "il-consiglio",
+            "sbagliato",
+            "giusto",
+            "la-verita"
+          ],
+          "exercises": [
+            {
+              "id": "u44l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "importante",
+              "options": [
+                "important",
+                "impatient",
+                "impossible",
+                "imported"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Importante' = important — an -e adjective (like intelligente): importante / importanti. 'È importante.' — and soon: 'È importante che…' + subjunctive.",
+              "dictionaryRefs": [
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "necessario",
+              "options": [
+                "necessary",
+                "nervous",
+                "neutral",
+                "needed a chair"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Necessario' = necessary — another -e adjective: necessario / necessari. 'È necessario.' — It is necessary.",
+              "dictionaryRefs": [
+                "necessario"
+              ]
+            },
+            {
+              "id": "u44l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il consiglio",
+              "options": [
+                "the advice; the tip",
+                "the council",
+                "the concert",
+                "the consent"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il consiglio' (m) = the advice, the tip. 'Ti do un consiglio.' — Let me give you a piece of advice. Unsolicited or not. 💛",
+              "dictionaryRefs": [
+                "il-consiglio"
+              ]
+            },
+            {
+              "id": "u44l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "sbagliato",
+              "options": [
+                "wrong",
+                "signed",
+                "bagged",
+                "expensive"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sbagliato' = wrong — from sbagliare (to mistake). 'È sbagliato.' — It's wrong. Its opposite is in the next exercise.",
+              "dictionaryRefs": [
+                "sbagliato"
+              ]
+            },
+            {
+              "id": "u44l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "giusto",
+              "options": [
+                "right; fair; correct",
+                "just eaten",
+                "juicy",
+                "left (side)"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Giusto' = right, fair, correct. 'È giusto.' — It's fair. And 'È giusto così.' — It's right like this. The moral twin of sbagliato.",
+              "dictionaryRefs": [
+                "giusto"
+              ]
+            },
+            {
+              "id": "u44l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (Tell me the truth!)",
+              "sentence": "Dimmi la ___!",
+              "answers": [
+                "verità",
+                "verita"
+              ],
+              "explanation": "'Dimmi la verità!' — dimmi (tell me) + la verità (f). What you ask for before any confession. 💛",
+              "dictionaryRefs": [
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u44l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "It's important.",
+              "acceptedIt": [
+                "È importante.",
+                "E' importante.",
+                "È importante",
+                "E' importante"
+              ],
+              "explanation": "'È importante.' — è + importante. Alone, it states a fact — plain indicative. Add 'che…' and the subjunctive wakes up (grammar lesson!).",
+              "dictionaryRefs": [
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Ti do un consiglio.",
+              "acceptedEn": [
+                "Let me give you a piece of advice.",
+                "I'll give you a piece of advice.",
+                "I give you a piece of advice.",
+                "Let me give you some advice."
+              ],
+              "explanation": "'Ti do un consiglio.' — ti (to you) + do (io of dare) + un consiglio. The opening line of every heart-to-heart. 💛",
+              "dictionaryRefs": [
+                "il-consiglio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u44l2",
+          "type": "grammar",
+          "title": "I congiuntivi irregolari: sia, abbia, faccia, vada",
+          "dictionaryRefs": [
+            "importante",
+            "necessario",
+            "il-consiglio",
+            "sbagliato",
+            "giusto",
+            "la-verita",
+            "sperare",
+            "andare",
+            "partire",
+            "presto",
+            "credere",
+            "parlare",
+            "gentile",
+            "peccato",
+            "potere",
+            "venire"
+          ],
+          "grammarNotes": "IL CONGIUNTIVO PRESENTE — the irregulars, and the impersonal expressions that love them.\n\nTHE BIG FOUR (io/tu/lui change; noi/voi stay identical to the present indicative):\nessere → che io sia, che tu sia, che lui sia | che noi siamo, che voi siate, che siano\navere → abbia, abbia, abbia | abbiamo, abbiate, abbiano\nfare → faccia, faccia, faccia | facciamo, facciate, facciano\nandare → vada, vada, vada | andiamo, andiate, vadano\nFamily resemblance helps: faccia ~ faccio/facciamo; vada ~ the future's andr- (Unit 31). Same family, same reference table: possa (potere), voglia (volere), debba (dovere), sappia (sapere), stia (stare) — learn the pattern, not the list.\n\nINDICATIVO vs CONGIUNTIVO after impersonal expressions:\n• 'È importante.' — a bare fact. Nothing to doubt, no che-clause: no subjunctive in sight.\n• 'È importante che tu sia qui.' — the che-clause says what SHOULD happen: opinion, not fact → congiuntivo (sia, never sei).\nThe frame: È + adjective + che + congiuntivo.\n• è importante che… (important) • è necessario che… (necessary) • è giusto che… (fair) • è sbagliato che… (wrong)\n• peccato che… (a pity — your Unit 42 word! 'Peccato che non possa venire.')\n\nTest: if the sentence states reality, indicative; if it weighs what should, could, or ought to be — subjunctive.\n\n💛 'Spero che tutto vada bene.' — I hope everything goes well: vada (irregular) + the set phrase of the whole course.\n\nFULL SUBJUNCTIVE FORMS: potere: possa, possa, possa, possiamo, possiate, possano | volere: voglia, voglia, voglia, vogliamo, vogliate, vogliano | dovere: debba, debba, debba, dobbiamo, dobbiate, debbano | sapere: sappia, sappia, sappia, sappiamo, sappiate, sappiano | stare: stia, stia, stia, stiamo, stiate, stiano | essere: sia, sia, sia, siamo, siate, siano | avere: abbia, abbia, abbia, abbiamo, abbiate, abbiano.",
+          "exercises": [
+            {
+              "id": "u44l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete with the subjunctive. (It's important that you are here.)",
+              "sentence": "È importante che tu ___ qui.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'È importante che tu sia qui.' — impersonal expression + che → subjunctive. essere's subjunctive is sia (never 'sei' after che). Indicative states, subjunctive obliges.",
+              "dictionaryRefs": [
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete with the subjunctive. 💛 (I think you're right.)",
+              "sentence": "Credo che tu ___ ragione.",
+              "answers": [
+                "abbia"
+              ],
+              "explanation": "'Credo che tu abbia ragione.' — 'avere ragione' (to be right) with the subjunctive of avere: abbia. The most romantic thing you can say in a discussion. 💛",
+              "dictionaryRefs": [
+                "credere"
+              ]
+            },
+            {
+              "id": "u44l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "It's important that you are here.",
+              "acceptedIt": [
+                "È importante che tu sia qui.",
+                "E' importante che tu sia qui.",
+                "È importante che tu sia qui",
+                "E' importante che tu sia qui",
+                "È importante che Lei sia qui."
+              ],
+              "explanation": "'È importante che tu sia qui.' — è importante che + sia (subjunctive of essere). Indicative 'sei qui' would state a fact; the che-clause makes it a requirement.",
+              "dictionaryRefs": [
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I hope everything goes well.",
+              "acceptedIt": [
+                "Spero che tutto vada bene.",
+                "Spero che tutto vada bene",
+                "Spero che vada tutto bene."
+              ],
+              "explanation": "'Spero che tutto vada bene.' — spero che + vada (subjunctive of andare — irregular!). The all-purpose blessing: before trips, exams, dates. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u44l2e5",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. (Unit 27+31 recycling)",
+              "sourceIt": "È necessario che partiamo presto.",
+              "acceptedEn": [
+                "It's necessary that we leave early.",
+                "It is necessary that we leave early.",
+                "We need to leave early."
+              ],
+              "explanation": "'È necessario che partiamo presto.' — è necessario che + partiamo. Subjunctive? Technically — but noi is identical to the indicative, so you can't see it. Italian is kind like that.",
+              "dictionaryRefs": [
+                "necessario",
+                "partire",
+                "presto"
+              ]
+            },
+            {
+              "id": "u44l2e6",
+              "type": "fill_blank",
+              "prompt": "Complete with the subjunctive. (It's important that you hurry.)",
+              "sentence": "È importante che tu ___ presto.",
+              "answers": [
+                "faccia"
+              ],
+              "explanation": "'È importante che tu faccia presto.' — fare → faccia in the subjunctive. 'Fare presto' = to hurry. Indicative fai; subjunctive (after è importante che) faccia.",
+              "dictionaryRefs": [
+                "importante",
+                "presto"
+              ]
+            },
+            {
+              "id": "u44l2e7",
+              "type": "multiple_choice",
+              "prompt": "Choose the subjunctive. (Unit 41 recycling: I think they are kind.)",
+              "question": "Credo che loro ___ gentili.",
+              "options": [
+                "siano",
+                "sono",
+                "erano",
+                "saranno"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Credo che loro siano gentili.' — opinion after credo che: essere → siano. 'Sono' would claim it as fact — too confident for an opinion.",
+              "dictionaryRefs": [
+                "credere",
+                "gentile"
+              ]
+            },
+            {
+              "id": "u44l2e8",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct sentence. (It's necessary that you speak quietly.)",
+              "question": "Quale frase è corretta?",
+              "options": [
+                "È necessario che voi parliate piano.",
+                "È necessario che voi parlate piano.",
+                "È necessario che voi parlavate piano.",
+                "È necessario che voi parlerete piano."
+              ],
+              "correctIndex": 0,
+              "explanation": "'È necessario che voi parliate piano.' — parliate is the voi subjunctive (indicative parlate, imperfect parlavate, future parlerete — none of those fit after è necessario che).",
+              "dictionaryRefs": [
+                "necessario",
+                "parlare"
+              ]
+            },
+            {
+              "id": "u44l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Spero",
+                "che",
+                "tutto",
+                "vada",
+                "bene."
+              ],
+              "correctSentence": "Spero che tutto vada bene.",
+              "explanation": "'Spero che tutto vada bene.' — vada: the irregular subjunctive of andare. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u44l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "È",
+                "importante",
+                "che",
+                "tu",
+                "sia",
+                "qui."
+              ],
+              "correctSentence": "È importante che tu sia qui.",
+              "explanation": "'È importante che tu sia qui.' — the impersonal frame (è + adjective + che) + the irregular subjunctive sia.",
+              "dictionaryRefs": [
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Credo",
+                "che",
+                "tu",
+                "abbia",
+                "ragione."
+              ],
+              "correctSentence": "Credo che tu abbia ragione.",
+              "explanation": "'Credo che tu abbia ragione.' — credo che + abbia (subjunctive of avere). 💛",
+              "dictionaryRefs": [
+                "credere"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u44l3",
+          "type": "mixed",
+          "title": "È importante che… — ripasso",
+          "dictionaryRefs": [
+            "l-impegno",
+            "venire",
+            "credere",
+            "importante",
+            "necessario",
+            "giusto",
+            "sbagliato",
+            "sperare",
+            "contento",
+            "la-verita",
+            "cosi",
+            "il-consiglio",
+            "peccato",
+            "potere",
+            "partire",
+            "presto"
+          ],
+          "exercises": [
+            {
+              "id": "u44l3e1",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (Unit 42 recycling: I would have come, but I had a commitment.)",
+              "sentence": "Sarei venuto, ma avevo un ___.",
+              "answers": [
+                "impegno"
+              ],
+              "explanation": "'Sarei venuto, ma avevo un impegno.' — Unit 42's gentle no: past conditional + ma + the commitment. Still the politest door-closer in Italian. 💛",
+              "dictionaryRefs": [
+                "venire",
+                "l-impegno"
+              ]
+            },
+            {
+              "id": "u44l3e2",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I think it's important.",
+              "acceptedIt": [
+                "Credo che sia importante.",
+                "Credo che sia importante",
+                "Credo che sia importante."
+              ],
+              "explanation": "'Credo che sia importante.' — credo che + sia (subjunctive!) + importante. An opinion ABOUT importance — the subjunctive stacks up.",
+              "dictionaryRefs": [
+                "credere",
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l3e3",
+              "type": "multiple_choice",
+              "prompt": "Choose the subjunctive.",
+              "question": "È giusto che voi ___ qui.",
+              "options": [
+                "siate",
+                "siete",
+                "eravate",
+                "sarete"
+              ],
+              "correctIndex": 0,
+              "explanation": "'È giusto che voi siate qui.' — è giusto che + subjunctive: voi siate (indicative siete would state a fact — but giusto judges, it doesn't report).",
+              "dictionaryRefs": [
+                "giusto"
+              ]
+            },
+            {
+              "id": "u44l3e4",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛 (Unit 6 recycling)",
+              "sourceIt": "Spero che tu sia contento.",
+              "acceptedEn": [
+                "I hope you are happy.",
+                "I hope that you are happy.",
+                "I hope you're happy."
+              ],
+              "explanation": "'Spero che tu sia contento.' — spero che + sia + contento (happy — Unit 6). A hope with a feeling inside: double subjunctive territory. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "contento"
+              ]
+            },
+            {
+              "id": "u44l3e5",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Tell me the truth!",
+              "acceptedIt": [
+                "Dimmi la verità!",
+                "Dimmi la verita!",
+                "Dimmi la verità",
+                "Dimmi la verita"
+              ],
+              "explanation": "'Dimmi la verità!' — dimmi (tell me) + la verità. The shortest route to honesty. 💛",
+              "dictionaryRefs": [
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u44l3e6",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. (Unit 36 recycling)",
+              "tokens": [
+                "È",
+                "giusto",
+                "così."
+              ],
+              "correctSentence": "È giusto così.",
+              "explanation": "'È giusto così.' — giusto (right) + così (like this). No che-clause, so no subjunctive: a plain fact about fairness.",
+              "dictionaryRefs": [
+                "giusto",
+                "cosi"
+              ]
+            },
+            {
+              "id": "u44l3e7",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. 💛 (I have a piece of advice for you.)",
+              "sentence": "Ho un ___ per te.",
+              "answers": [
+                "consiglio"
+              ],
+              "explanation": "'Ho un consiglio per te.' — un consiglio (advice) + per te. Usually followed by something you didn't ask for. 💛",
+              "dictionaryRefs": [
+                "il-consiglio"
+              ]
+            },
+            {
+              "id": "u44l3e8",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (Unit 42 recycling + subjunctive)",
+              "question": "Peccato che non possa venire.",
+              "options": [
+                "It's a pity that he can't come.",
+                "It's good that he can't come.",
+                "He can't come, luckily.",
+                "It's a pity he couldn't come."
+              ],
+              "correctIndex": 0,
+              "explanation": "'Peccato che non possa venire.' — peccato che + subjunctive: possa (not the indicative può). Your Unit 42 'peccato' grew a subjunctive trigger: che.",
+              "dictionaryRefs": [
+                "peccato",
+                "potere",
+                "venire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u44l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "sperare",
+            "andare",
+            "importante",
+            "credere",
+            "la-verita",
+            "il-consiglio",
+            "giusto",
+            "peccato",
+            "potere"
+          ],
+          "exercises": [
+            {
+              "id": "u44l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Spero che tutto vada bene.",
+              "options": [
+                "I hope everything goes well.",
+                "I hope everything is well.",
+                "Everything goes well.",
+                "I hoped everything would go well."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Spero che tutto vada bene.' — vada: the irregular subjunctive of andare. The course's set blessing. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u44l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "È importante che tu sia qui.",
+              "acceptedIt": [
+                "È importante che tu sia qui.",
+                "E' importante che tu sia qui.",
+                "È importante che tu sia qui",
+                "E' importante che tu sia qui"
+              ],
+              "explanation": "You heard: 'È importante che tu sia qui.' — sia, never sei, after è importante che.",
+              "dictionaryRefs": [
+                "importante"
+              ]
+            },
+            {
+              "id": "u44l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Credo che tu abbia ragione.",
+              "options": [
+                "I think you're right.",
+                "I think you're wrong.",
+                "I believe you have it.",
+                "I thought you were right."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Credo che tu abbia ragione.' — abbia: subjunctive of avere in the set phrase 'avere ragione'. 💛",
+              "dictionaryRefs": [
+                "credere"
+              ]
+            },
+            {
+              "id": "u44l4e4",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Penso che sia giusto.",
+              "acceptedIt": [
+                "Penso che sia giusto.",
+                "Penso che sia giusto",
+                "Penso che sia giusta."
+              ],
+              "explanation": "You heard: 'Penso che sia giusto.' — my opinion (penso che) + judgement (giusto): the subjunctive sia carries both.",
+              "dictionaryRefs": [
+                "giusto"
+              ]
+            },
+            {
+              "id": "u44l4e5",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. (Unit 42 recycling)",
+              "mode": "choice",
+              "speakIt": "Peccato che non possa venire.",
+              "options": [
+                "It's a pity that he can't come.",
+                "It's a pity that he can come.",
+                "He can't come, thankfully.",
+                "It's a pity he couldn't come."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Peccato che non possa venire.' — possa: subjunctive of potere after peccato che.",
+              "dictionaryRefs": [
+                "peccato",
+                "potere",
+                "venire"
+              ]
+            },
+            {
+              "id": "u44l4e6",
+              "type": "speaking",
+              "prompt": "Say it in Italian: tell me the truth! 💛",
+              "targetIt": "Dimmi la verità!",
+              "minAccuracy": 0.7,
+              "explanation": "'Dimmi la verità!' — DEEM-mee la ve-REE-ta. 💛",
+              "dictionaryRefs": [
+                "la-verita"
+              ]
+            },
+            {
+              "id": "u44l4e7",
+              "type": "speaking",
+              "prompt": "Say it in Italian: I hope everything goes well. 💛",
+              "targetIt": "Spero che tutto vada bene.",
+              "minAccuracy": 0.7,
+              "explanation": "'Spero che tutto vada bene.' — SPE-ro ke TOOT-to VA-da BE-ne. 💛",
+              "dictionaryRefs": [
+                "sperare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u44l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: it's right like this.",
+              "targetIt": "È giusto così.",
+              "minAccuracy": 0.7,
+              "explanation": "'È giusto così.' — E JOOS-to ko-SEE.",
+              "dictionaryRefs": [
+                "giusto",
+                "cosi"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u44c",
+        "exercises": [
+          {
+            "id": "u44ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il consiglio",
+            "options": [
+              "the advice; the tip",
+              "the council",
+              "the concert",
+              "the consent"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il consiglio' (m) = the advice. 'Ti do un consiglio.' — the opener of every heartfelt talk.",
+            "dictionaryRefs": [
+              "il-consiglio"
+            ]
+          },
+          {
+            "id": "u44ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with the subjunctive. (It's important that you are here.)",
+            "sentence": "È importante che tu ___ qui.",
+            "answers": [
+              "sia"
+            ],
+            "explanation": "'È importante che tu sia qui.' — impersonal + che → subjunctive: sia, the irregular of essere.",
+            "dictionaryRefs": [
+              "importante"
+            ]
+          },
+          {
+            "id": "u44ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "I hope everything goes well.",
+            "acceptedIt": [
+              "Spero che tutto vada bene.",
+              "Spero che tutto vada bene",
+              "Spero che vada tutto bene."
+            ],
+            "explanation": "'Spero che tutto vada bene.' — vada: irregular subjunctive of andare. 💛",
+            "dictionaryRefs": [
+              "sperare",
+              "andare"
+            ]
+          },
+          {
+            "id": "u44ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English. (Unit 41 recycling)",
+            "sourceIt": "Credo che loro siano gentili.",
+            "acceptedEn": [
+              "I think they are kind.",
+              "I think that they are kind.",
+              "I think they're kind."
+            ],
+            "explanation": "'Credo che loro siano gentili.' — credo che + siano (subjunctive of essere) + gentili (kind, Unit 41).",
+            "dictionaryRefs": [
+              "credere",
+              "gentile"
+            ]
+          },
+          {
+            "id": "u44ce5",
+            "type": "fill_blank",
+            "prompt": "Complete with the subjunctive. (Unit 42 recycling: a pity he can't come.)",
+            "sentence": "Peccato che non ___ venire.",
+            "answers": [
+              "possa"
+            ],
+            "explanation": "'Peccato che non possa venire.' — peccato che + subjunctive: possa (not indicative può).",
+            "dictionaryRefs": [
+              "peccato",
+              "potere",
+              "venire"
+            ]
+          },
+          {
+            "id": "u44ce6",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order.",
+            "tokens": [
+              "Spero",
+              "che",
+              "tu",
+              "faccia",
+              "presto."
+            ],
+            "correctSentence": "Spero che tu faccia presto.",
+            "explanation": "'Spero che tu faccia presto.' — faccia: irregular subjunctive of fare; 'fare presto' = to hurry.",
+            "dictionaryRefs": [
+              "sperare",
+              "presto"
+            ]
+          },
+          {
+            "id": "u44ce7",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "Tell me the truth!",
+            "acceptedIt": [
+              "Dimmi la verità!",
+              "Dimmi la verita!",
+              "Dimmi la verità",
+              "Dimmi la verita"
+            ],
+            "explanation": "'Dimmi la verità!' — dimmi + la verità. 💛",
+            "dictionaryRefs": [
+              "la-verita"
+            ]
+          },
+          {
+            "id": "u44ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Spero che tutto vada bene.",
+            "options": [
+              "I hope everything goes well.",
+              "I hope everything is well.",
+              "Everything goes well.",
+              "I hoped everything would go well."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Spero che tutto vada bene.' 💛",
+            "dictionaryRefs": [
+              "sperare",
+              "andare"
+            ]
+          },
+          {
+            "id": "u44ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "Ho un consiglio per te.",
+            "acceptedIt": [
+              "Ho un consiglio per te.",
+              "Ho un consiglio per te",
+              "Ho un consiglio per te!"
+            ],
+            "explanation": "You heard: 'Ho un consiglio per te.' — I have a piece of advice for you.",
+            "dictionaryRefs": [
+              "il-consiglio"
+            ]
+          },
+          {
+            "id": "u44ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: it's important that you are here. 💛",
+            "targetIt": "È importante che tu sia qui.",
+            "minAccuracy": 0.7,
+            "explanation": "'È importante che tu sia qui.' — E im-por-TAN-te ke too SEE-a KEE. 💛",
+            "dictionaryRefs": [
+              "importante"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u45",
+      "number": 45,
+      "title": "Il congiuntivo passato",
+      "lessons": [
+        {
+          "id": "u45l1",
+          "type": "vocabulary",
+          "title": "Il piacere, gli auguri, l'emozione",
+          "dictionaryRefs": [
+            "il-piacere",
+            "auguri",
+            "il-momento",
+            "la-serata",
+            "l-emozione"
+          ],
+          "exercises": [
+            {
+              "id": "u45l1e1",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il piacere",
+              "options": [
+                "the pleasure",
+                "the price",
+                "the place",
+                "the plate"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il piacere' (m) = the pleasure. 'È un piacere!' — It's a pleasure! The noun behind piacere, the verb you met in Unit 1.",
+              "dictionaryRefs": [
+                "il-piacere",
+                "piacere"
+              ]
+            },
+            {
+              "id": "u45l1e2",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "gli auguri",
+              "options": [
+                "the wishes; best wishes",
+                "the hellos",
+                "the years",
+                "the agreements"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Gli auguri' (m, plural) = wishes. 'Tanti auguri!' — Best wishes! Say it at every compleanno (Unit 17) and wedding.",
+              "dictionaryRefs": [
+                "auguri",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u45l1e3",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il momento",
+              "options": [
+                "the moment",
+                "the movement",
+                "the monument",
+                "the morning"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il momento' (m) = the moment. 'È stato un bel momento.' — It was a beautiful moment. You'll say this a lot after dates. 💛",
+              "dictionaryRefs": [
+                "il-momento"
+              ]
+            },
+            {
+              "id": "u45l1e4",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? (careful: Unit 10!)",
+              "question": "la serata",
+              "options": [
+                "the evening out; the evening event",
+                "the evening hour",
+                "the TV series",
+                "the sitting room"
+              ],
+              "correctIndex": 0,
+              "explanation": "'La serata' (f) = the spent evening — an evening event, a night out. 'La sera' (Unit 10) is the time of day; 'la serata' is what you did with it. 💛",
+              "dictionaryRefs": [
+                "la-serata"
+              ]
+            },
+            {
+              "id": "u45l1e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "l'emozione",
+              "options": [
+                "the emotion; the excitement",
+                "the motion",
+                "the promotion",
+                "the moment"
+              ],
+              "correctIndex": 0,
+              "explanation": "'L'emozione' (f, l' before the vowel) = the emotion, the excitement. 'Che emozione!' — How exciting! Before the big moment, you feel l'emozione.",
+              "dictionaryRefs": [
+                "l-emozione"
+              ]
+            },
+            {
+              "id": "u45l1e6",
+              "type": "fill_blank",
+              "prompt": "Complete the sentence. (It's a pleasure!)",
+              "sentence": "È un ___!",
+              "answers": [
+                "piacere"
+              ],
+              "explanation": "'È un piacere!' — the answer to 'grazie' when you really mean it. (The full ritual: 'Piacere mio!' — the pleasure is mine!)",
+              "dictionaryRefs": [
+                "il-piacere"
+              ]
+            },
+            {
+              "id": "u45l1e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "Best wishes!",
+              "acceptedIt": [
+                "Tanti auguri!",
+                "Tanti auguri",
+                "Tanti auguri a te!"
+              ],
+              "explanation": "'Tanti auguri!' — tanti (many, Unit 13's cousin) + auguri. For birthdays, weddings, and new jobs. 💛",
+              "dictionaryRefs": [
+                "auguri"
+              ]
+            },
+            {
+              "id": "u45l1e8",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Che emozione!",
+              "acceptedEn": [
+                "How exciting!",
+                "What an emotion!",
+                "What excitement!"
+              ],
+              "explanation": "'Che emozione!' — che + emozione. The shiver before the door opens. 💛",
+              "dictionaryRefs": [
+                "l-emozione"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u45l2",
+          "type": "grammar",
+          "title": "Il congiuntivo passato: sia arrivato, abbia capito",
+          "dictionaryRefs": [
+            "il-piacere",
+            "auguri",
+            "il-momento",
+            "la-serata",
+            "l-emozione",
+            "sperare",
+            "credere",
+            "arrivare",
+            "capire",
+            "dormire",
+            "pensare",
+            "bello",
+            "contento",
+            "divertirsi",
+            "la-festa",
+            "mi-piace"
+          ],
+          "grammarNotes": "IL CONGIUNTIVO PASSATO — 'I hope that… happened'.\n\nFORMATION: present subjunctive of the auxiliary + past participle — the passato prossimo rebuilt in the subjunctive.\n• avere-verbs: che tu abbia capito, che lui abbia dormito, che voi abbiate finito\n• essere-verbs (movement + piacere): che tu sia arrivato/a, che lui sia partito, che ti sia piaciuto\nThe same essere/avere split as Unit 27 — and with essere the participle AGREES: 'Sono contento che tu sia arrivata.' (said to Giulia 💛)\n\nSTAR PHRASE: 'Spero che ti sia piaciuto.' — I hope you liked it. Anatomy: spero che + ti + sia (piacere takes essere!) + piaciuto. To a girl, about the evening: 'Spero che la serata ti sia piaciuta.'\n\nSEQUENCE OF TENSES (concordanza dei tempi) — the first rule:\n• Main clause in the present, same-time action → PRESENT subjunctive: 'Spero che tu dorma bene.' (tonight — still possible)\n• Main clause in the present, EARLIER action → PAST subjunctive: 'Spero che tu abbia dormito bene.' (last night — already done)\nThe main verb stays put; the subordinate action slides into the past.\n• Main clause itself in the past ('Speravo…') → the imperfect subjunctive — Unit 48. Stay tuned.\n\nINDICATIVO vs CONGIUNTIVO, one last time: 'È vero' states a fact; 'Credo che sia vero' weighs an opinion — and 'Credo che sia stata una bella serata' weighs an opinion about the past.\n\nFULL SUBJUNCTIVE FORMS: essere: sia, sia, sia, siamo, siate, siano | avere: abbia, abbia, abbia, abbiamo, abbiate, abbiano.\n\ndormire (full): dorma, dorma, dorma, dormiamo, dormiate, dormano.",
+          "exercises": [
+            {
+              "id": "u45l2e1",
+              "type": "fill_blank",
+              "prompt": "Complete with the past subjunctive. (Unit 27 recycling: I hope you arrived.)",
+              "sentence": "Spero che tu ___ arrivato.",
+              "answers": [
+                "sia"
+              ],
+              "explanation": "'Spero che tu sia arrivato.' — arrivare takes essere, so: subjunctive of essere (sia) + arrivato. Indicative would be 'sei arrivato' — but hope needs the subjunctive.",
+              "dictionaryRefs": [
+                "sperare",
+                "arrivare"
+              ]
+            },
+            {
+              "id": "u45l2e2",
+              "type": "fill_blank",
+              "prompt": "Complete with the past subjunctive. (I hope you understood everything.)",
+              "sentence": "Spero che tu ___ capito tutto.",
+              "answers": [
+                "abbia"
+              ],
+              "explanation": "'Spero che tu abbia capito tutto.' — capire takes avere: subjunctive abbia + capito. Same auxiliary split as the passato prossimo, one mood down.",
+              "dictionaryRefs": [
+                "sperare",
+                "capire"
+              ]
+            },
+            {
+              "id": "u45l2e3",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian.",
+              "sourceEn": "I hope you slept well.",
+              "acceptedIt": [
+                "Spero che tu abbia dormito bene.",
+                "Spero che tu abbia dormito bene",
+                "Spero che abbia dormito bene.",
+                "Spero che Lei abbia dormito bene."
+              ],
+              "explanation": "'Spero che tu abbia dormito bene.' — the hope is now (spero, present); the sleeping is over (dormito, past subjunctive). That's the sequence of tenses doing its job.",
+              "dictionaryRefs": [
+                "sperare",
+                "dormire"
+              ]
+            },
+            {
+              "id": "u45l2e4",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. 💛",
+              "sourceEn": "I hope you liked it.",
+              "acceptedIt": [
+                "Spero che ti sia piaciuto.",
+                "Spero che ti sia piaciuto",
+                "Spero che ti sia piaciuta."
+              ],
+              "explanation": "'Spero che ti sia piaciuto.' — the star phrase. piacere takes essere → sia; ti = to you. To a girl, about something feminine: '…ti sia piaciuta.' 💛",
+              "dictionaryRefs": [
+                "mi-piace"
+              ]
+            },
+            {
+              "id": "u45l2e5",
+              "type": "translation_it_en",
+              "prompt": "Translate to English. 💛",
+              "sourceIt": "Penso che sia stata una bella serata.",
+              "acceptedEn": [
+                "I think it was a nice evening.",
+                "I think that it was a nice evening.",
+                "I think it has been a nice evening."
+              ],
+              "explanation": "'Penso che sia stata una bella serata.' — opinion (penso che) + past (sia stata): the participle agrees with la serata (f) → stata. The review you give at the door. 💛",
+              "dictionaryRefs": [
+                "pensare",
+                "bello",
+                "la-serata"
+              ]
+            },
+            {
+              "id": "u45l2e6",
+              "type": "multiple_choice",
+              "prompt": "Choose the correct auxiliary. 💛 (I'm glad you arrived — said to a girl.)",
+              "question": "Sono contento che tu ___ arrivata.",
+              "options": [
+                "sia",
+                "abbia",
+                "sei",
+                "hai"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Sono contento che tu sia arrivata.' — arrivata already shows you need essere: sia (not abbia, not the indicative sei). And the -a agrees with her. 💛",
+              "dictionaryRefs": [
+                "contento",
+                "arrivare"
+              ]
+            },
+            {
+              "id": "u45l2e7",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "È stato un bel momento.",
+              "options": [
+                "It was a beautiful moment.",
+                "It will be a beautiful moment.",
+                "It is a nice movement.",
+                "It was a good morning."
+              ],
+              "correctIndex": 0,
+              "explanation": "'È stato un bel momento.' — è stato (passato prossimo of essere, Unit 27) + un bel momento. A fact about the past — plain indicative, no opinion in sight.",
+              "dictionaryRefs": [
+                "il-momento",
+                "bello"
+              ]
+            },
+            {
+              "id": "u45l2e8",
+              "type": "fill_blank",
+              "prompt": "Complete with the past subjunctive. (Unit 28 recycling: I think they had fun at the party.)",
+              "sentence": "Credo che ___ divertiti alla festa.",
+              "answers": [
+                "si siano"
+              ],
+              "explanation": "'Credo che si siano divertiti alla festa.' — divertirsi: reflexive + essere auxiliary → si + siano + divertiti. Three pieces, one hope about last night.",
+              "dictionaryRefs": [
+                "credere",
+                "divertirsi",
+                "la-festa"
+              ]
+            },
+            {
+              "id": "u45l2e9",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Spero",
+                "che",
+                "ti",
+                "sia",
+                "piaciuto."
+              ],
+              "correctSentence": "Spero che ti sia piaciuto.",
+              "explanation": "'Spero che ti sia piaciuto.' — spero che + ti + sia + piaciuto. 💛",
+              "dictionaryRefs": [
+                "mi-piace"
+              ]
+            },
+            {
+              "id": "u45l2e10",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "È",
+                "stato",
+                "un",
+                "bel",
+                "momento."
+              ],
+              "correctSentence": "È stato un bel momento.",
+              "explanation": "'È stato un bel momento.' — è stato + un bel momento. A fact, so indicative.",
+              "dictionaryRefs": [
+                "il-momento",
+                "bello"
+              ]
+            },
+            {
+              "id": "u45l2e11",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order.",
+              "tokens": [
+                "Spero",
+                "che",
+                "tu",
+                "abbia",
+                "dormito",
+                "bene."
+              ],
+              "correctSentence": "Spero che tu abbia dormito bene.",
+              "explanation": "'Spero che tu abbia dormito bene.' — abbia + dormito: the past subjunctive in its sleepiest form.",
+              "dictionaryRefs": [
+                "sperare",
+                "dormire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u45l3",
+          "type": "mixed",
+          "title": "Spero che ti sia piaciuto — ripasso",
+          "dictionaryRefs": [
+            "pensare",
+            "il-film",
+            "bello",
+            "auguri",
+            "il-compleanno",
+            "credere",
+            "andare",
+            "sperare",
+            "la-festa",
+            "l-emozione",
+            "la-serata",
+            "vero",
+            "arrivare",
+            "l-orario",
+            "ieri",
+            "il-momento",
+            "il-piacere"
+          ],
+          "exercises": [
+            {
+              "id": "u45l3e1",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 19 recycling)",
+              "sourceEn": "I think the film was beautiful.",
+              "acceptedIt": [
+                "Penso che il film sia stato bello.",
+                "Penso che il film sia stato bello",
+                "Io penso che il film sia stato bello."
+              ],
+              "explanation": "'Penso che il film sia stato bello.' — opinion + past: sia stato (essere auxiliary — stato agrees with il film). The cinema review, subjunctive style.",
+              "dictionaryRefs": [
+                "pensare",
+                "il-film",
+                "bello"
+              ]
+            },
+            {
+              "id": "u45l3e2",
+              "type": "fill_blank",
+              "prompt": "Complete the wish. (Unit 17 recycling: Best wishes for the birthday!)",
+              "sentence": "Tanti ___ per il compleanno!",
+              "answers": [
+                "auguri"
+              ],
+              "explanation": "'Tanti auguri per il compleanno!' — tanti + auguri (wishes) + per il compleanno. The birthday formula, complete.",
+              "dictionaryRefs": [
+                "auguri",
+                "il-compleanno"
+              ]
+            },
+            {
+              "id": "u45l3e3",
+              "type": "translation_it_en",
+              "prompt": "Translate to English.",
+              "sourceIt": "Credo che sia andato tutto bene.",
+              "acceptedEn": [
+                "I think everything went well.",
+                "I think that everything went well.",
+                "I think everything has gone well."
+              ],
+              "explanation": "'Credo che sia andato tutto bene.' — credo che + sia andato (andare takes essere). My opinion about how it went — that's the subjunctive's whole job.",
+              "dictionaryRefs": [
+                "credere",
+                "andare"
+              ]
+            },
+            {
+              "id": "u45l3e4",
+              "type": "sentence_scramble",
+              "prompt": "Put the words in order. 💛",
+              "tokens": [
+                "Spero",
+                "che",
+                "la",
+                "festa",
+                "ti",
+                "sia",
+                "piaciuta."
+              ],
+              "correctSentence": "Spero che la festa ti sia piaciuta.",
+              "explanation": "'Spero che la festa ti sia piaciuta.' — piaciuta with an -a: it agrees with la festa. 💛 The hope you send after the party.",
+              "dictionaryRefs": [
+                "sperare",
+                "la-festa",
+                "mi-piace"
+              ]
+            },
+            {
+              "id": "u45l3e5",
+              "type": "multiple_choice",
+              "prompt": "What does it mean? 💛",
+              "question": "Che emozione!",
+              "options": [
+                "How exciting!",
+                "What a long moment!",
+                "How boring!",
+                "What time is it?"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Che emozione!' — che + emozione (excitement). The good kind of shiver. 💛",
+              "dictionaryRefs": [
+                "l-emozione"
+              ]
+            },
+            {
+              "id": "u45l3e6",
+              "type": "fill_blank",
+              "prompt": "Complete with the tag. (Unit 37 recycling: It was a nice evening, right?)",
+              "sentence": "È stata una bella serata, ___?",
+              "answers": [
+                "vero"
+              ],
+              "explanation": "'È stata una bella serata, vero?' — vero (true) tags a question when you already know the answer. And look: è stata agrees with la serata.",
+              "dictionaryRefs": [
+                "la-serata",
+                "vero",
+                "bello"
+              ]
+            },
+            {
+              "id": "u45l3e7",
+              "type": "translation_en_it",
+              "prompt": "Translate to Italian. (Unit 39 recycling)",
+              "sourceEn": "I hope they arrived on time.",
+              "acceptedIt": [
+                "Spero che siano arrivati in orario.",
+                "Spero che siano arrivati in orario",
+                "Spero che siano arrivate in orario."
+              ],
+              "explanation": "'Spero che siano arrivati in orario.' — loro + essere → siano arrivati (in orario = on time, Unit 39). A hope about yesterday's train.",
+              "dictionaryRefs": [
+                "sperare",
+                "arrivare",
+                "l-orario"
+              ]
+            },
+            {
+              "id": "u45l3e8",
+              "type": "multiple_choice",
+              "prompt": "Hope about the past: choose the right verb.",
+              "question": "Spero che tu ___ ieri.",
+              "options": [
+                "sia arrivato",
+                "eri arrivato",
+                "sei arrivato",
+                "saresti arrivato"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Spero che tu sia arrivato ieri.' — spero is present, but the arrival is over (ieri) → PAST subjunctive: sia arrivato. 'Sei arrivato' states a fact; hope doesn't do that.",
+              "dictionaryRefs": [
+                "sperare",
+                "arrivare",
+                "ieri"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u45l4",
+          "type": "oral",
+          "title": "Ascolta e parla",
+          "dictionaryRefs": [
+            "mi-piace",
+            "il-momento",
+            "bello",
+            "auguri",
+            "dormire",
+            "andare",
+            "l-emozione",
+            "la-serata"
+          ],
+          "exercises": [
+            {
+              "id": "u45l4e1",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Spero che ti sia piaciuto.",
+              "options": [
+                "I hope you liked it.",
+                "I hope you like it.",
+                "I hoped you would like it.",
+                "I like it, I hope."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Spero che ti sia piaciuto.' — sia piaciuto: the past subjunctive of piacere. The question under every first date's end. 💛",
+              "dictionaryRefs": [
+                "mi-piace"
+              ]
+            },
+            {
+              "id": "u45l4e2",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "È stato un bel momento.",
+              "acceptedIt": [
+                "È stato un bel momento.",
+                "E' stato un bel momento.",
+                "È stato un bel momento",
+                "E' stato un bel momento"
+              ],
+              "explanation": "You heard: 'È stato un bel momento.' — è stato: passato prossimo of essere, a plain fact.",
+              "dictionaryRefs": [
+                "il-momento",
+                "bello"
+              ]
+            },
+            {
+              "id": "u45l4e3",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning. 💛",
+              "mode": "choice",
+              "speakIt": "Tanti auguri!",
+              "options": [
+                "Best wishes!",
+                "So many years!",
+                "Lots of greetings!",
+                "Thank you!"
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Tanti auguri!' — the all-occasion wish. 💛",
+              "dictionaryRefs": [
+                "auguri"
+              ]
+            },
+            {
+              "id": "u45l4e4",
+              "type": "listening",
+              "prompt": "Listen and type what you hear.",
+              "mode": "type",
+              "speakIt": "Spero che tu abbia dormito bene.",
+              "acceptedIt": [
+                "Spero che tu abbia dormito bene.",
+                "Spero che tu abbia dormito bene",
+                "Spero che Lei abbia dormito bene.",
+                "Spero che abbia dormito bene."
+              ],
+              "explanation": "You heard: 'Spero che tu abbia dormito bene.' — abbia dormito: the past subjunctive, hoping about last night.",
+              "dictionaryRefs": [
+                "sperare",
+                "dormire"
+              ]
+            },
+            {
+              "id": "u45l4e5",
+              "type": "listening",
+              "prompt": "Listen and choose the meaning.",
+              "mode": "choice",
+              "speakIt": "Penso che sia andato tutto bene.",
+              "options": [
+                "I think everything went well.",
+                "I think everything goes well.",
+                "Everything went well.",
+                "I thought everything went well."
+              ],
+              "correctIndex": 0,
+              "explanation": "You heard: 'Penso che sia andato tutto bene.' — penso che + sia andato: an opinion about the past.",
+              "dictionaryRefs": [
+                "pensare",
+                "andare"
+              ]
+            },
+            {
+              "id": "u45l4e6",
+              "type": "speaking",
+              "prompt": "Ask in Italian: I hope you liked it. 💛",
+              "targetIt": "Spero che ti sia piaciuto.",
+              "minAccuracy": 0.7,
+              "explanation": "'Spero che ti sia piaciuto.' — SPE-ro ke tee SEE-a pya-CHOO-to. 💛 The line after the first dinner out.",
+              "dictionaryRefs": [
+                "mi-piace"
+              ]
+            },
+            {
+              "id": "u45l4e7",
+              "type": "speaking",
+              "prompt": "Say it in Italian: how exciting! 💛",
+              "targetIt": "Che emozione!",
+              "minAccuracy": 0.7,
+              "explanation": "'Che emozione!' — ke e-mo-TSYO-ne. 💛",
+              "dictionaryRefs": [
+                "l-emozione"
+              ]
+            },
+            {
+              "id": "u45l4e8",
+              "type": "speaking",
+              "prompt": "Say it in Italian: best wishes! 💛",
+              "targetIt": "Tanti auguri!",
+              "minAccuracy": 0.7,
+              "explanation": "'Tanti auguri!' — TAN-tee a-GOO-ree. Say it loud, say it always. 💛",
+              "dictionaryRefs": [
+                "auguri"
+              ]
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "id": "u45c",
+        "exercises": [
+          {
+            "id": "u45ce1",
+            "type": "multiple_choice",
+            "prompt": "What does it mean?",
+            "question": "il momento",
+            "options": [
+              "the moment",
+              "the movement",
+              "the monument",
+              "the morning"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Il momento' (m) = the moment. 'È stato un bel momento.' — It was a beautiful moment.",
+            "dictionaryRefs": [
+              "il-momento"
+            ]
+          },
+          {
+            "id": "u45ce2",
+            "type": "fill_blank",
+            "prompt": "Complete with the past subjunctive. (I think you understood.)",
+            "sentence": "Credo che tu ___ capito.",
+            "answers": [
+              "abbia"
+            ],
+            "explanation": "'Credo che tu abbia capito.' — capire takes avere → abbia + capito. Opinion about the past: past subjunctive.",
+            "dictionaryRefs": [
+              "credere",
+              "capire"
+            ]
+          },
+          {
+            "id": "u45ce3",
+            "type": "translation_en_it",
+            "prompt": "Translate to Italian. 💛",
+            "sourceEn": "I hope you liked the evening.",
+            "acceptedIt": [
+              "Spero che la serata ti sia piaciuta.",
+              "Spero che la serata ti sia piaciuta",
+              "Spero che ti sia piaciuta la serata."
+            ],
+            "explanation": "'Spero che la serata ti sia piaciuta.' — piaciuta agrees with la serata. The review you hope to give. 💛",
+            "dictionaryRefs": [
+              "sperare",
+              "la-serata",
+              "mi-piace"
+            ]
+          },
+          {
+            "id": "u45ce4",
+            "type": "translation_it_en",
+            "prompt": "Translate to English.",
+            "sourceIt": "Spero che tutto sia andato bene.",
+            "acceptedEn": [
+              "I hope everything went well.",
+              "I hope that everything went well.",
+              "I hope everything has gone well."
+            ],
+            "explanation": "'Spero che tutto sia andato bene.' — spero che + sia andato (andare takes essere). The hope you send after any big day.",
+            "dictionaryRefs": [
+              "sperare",
+              "andare"
+            ]
+          },
+          {
+            "id": "u45ce5",
+            "type": "multiple_choice",
+            "prompt": "Choose the correct verb. (Unit 27 recycling)",
+            "question": "Penso che lui ___ ieri.",
+            "options": [
+              "sia partito",
+              "è partito",
+              "era partito",
+              "sarà partito"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Penso che lui sia partito ieri.' — penso che (present) + earlier action (ieri) → past subjunctive: sia partito. 'È partito' would state a fact — opinions don't.",
+            "dictionaryRefs": [
+              "pensare",
+              "partire",
+              "ieri"
+            ]
+          },
+          {
+            "id": "u45ce6",
+            "type": "sentence_scramble",
+            "prompt": "Put the words in order. 💛",
+            "tokens": [
+              "È",
+              "stata",
+              "una",
+              "bella",
+              "serata."
+            ],
+            "correctSentence": "È stata una bella serata.",
+            "explanation": "'È stata una bella serata.' — è stata agrees with la serata; una bella serata (Unit 6's bello, this unit's serata). 💛",
+            "dictionaryRefs": [
+              "la-serata",
+              "bello"
+            ]
+          },
+          {
+            "id": "u45ce7",
+            "type": "fill_blank",
+            "prompt": "Complete the wish. 💛",
+            "sentence": "Tanti ___!",
+            "answers": [
+              "auguri"
+            ],
+            "explanation": "'Tanti auguri!' — the all-purpose wish. 💛",
+            "dictionaryRefs": [
+              "auguri"
+            ]
+          },
+          {
+            "id": "u45ce8",
+            "type": "listening",
+            "prompt": "Listen and choose the meaning. 💛",
+            "mode": "choice",
+            "speakIt": "Spero che ti sia piaciuto.",
+            "options": [
+              "I hope you liked it.",
+              "I hope you like it.",
+              "I hoped you would like it.",
+              "I like it, I hope."
+            ],
+            "correctIndex": 0,
+            "explanation": "You heard: 'Spero che ti sia piaciuto.' — sia piaciuto: past subjunctive of piacere. 💛",
+            "dictionaryRefs": [
+              "mi-piace"
+            ]
+          },
+          {
+            "id": "u45ce9",
+            "type": "listening",
+            "prompt": "Listen and type what you hear.",
+            "mode": "type",
+            "speakIt": "È stato un bel momento.",
+            "acceptedIt": [
+              "È stato un bel momento.",
+              "E' stato un bel momento.",
+              "È stato un bel momento",
+              "E' stato un bel momento"
+            ],
+            "explanation": "You heard: 'È stato un bel momento.'",
+            "dictionaryRefs": [
+              "il-momento",
+              "bello"
+            ]
+          },
+          {
+            "id": "u45ce10",
+            "type": "speaking",
+            "prompt": "Say it in Italian: I hope you liked the party. 💛",
+            "targetIt": "Spero che la festa ti sia piaciuta.",
+            "minAccuracy": 0.7,
+            "explanation": "'Spero che la festa ti sia piaciuta.' — SPE-ro ke la FES-ta tee SEE-a pya-CHOO-ta. 💛",
+            "dictionaryRefs": [
+              "sperare",
+              "la-festa",
+              "mi-piace"
+            ]
+          }
+        ]
+      }
     }
   ],
   "dictionary": [
@@ -37122,6 +38767,183 @@
         }
       ],
       "introducedInUnit": 43
+    },
+    {
+      "id": "importante",
+      "word": "importante",
+      "translation": "important",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È importante.",
+          "en": "It's important."
+        },
+        {
+          "it": "È importante che tu sia qui.",
+          "en": "It's important that you are here."
+        }
+      ],
+      "introducedInUnit": 44
+    },
+    {
+      "id": "necessario",
+      "word": "necessario",
+      "translation": "necessary",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È necessario che partiamo presto.",
+          "en": "It's necessary that we leave early."
+        }
+      ],
+      "introducedInUnit": 44
+    },
+    {
+      "id": "il-consiglio",
+      "word": "consiglio",
+      "translation": "advice; tip",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "Ti do un consiglio.",
+          "en": "Let me give you a piece of advice."
+        },
+        {
+          "it": "Ho un consiglio per te.",
+          "en": "I have a piece of advice for you."
+        }
+      ],
+      "introducedInUnit": 44,
+      "article": "il",
+      "gender": "m"
+    },
+    {
+      "id": "sbagliato",
+      "word": "sbagliato",
+      "translation": "wrong",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È sbagliato.",
+          "en": "It's wrong."
+        }
+      ],
+      "introducedInUnit": 44
+    },
+    {
+      "id": "giusto",
+      "word": "giusto",
+      "translation": "right; fair; correct",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "È giusto così.",
+          "en": "It's right like this."
+        },
+        {
+          "it": "Penso che sia giusto.",
+          "en": "I think it's fair."
+        }
+      ],
+      "introducedInUnit": 44
+    },
+    {
+      "id": "la-verita",
+      "word": "verità",
+      "translation": "truth",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "Dimmi la verità!",
+          "en": "Tell me the truth!"
+        }
+      ],
+      "introducedInUnit": 44,
+      "article": "la",
+      "gender": "f"
+    },
+    {
+      "id": "il-piacere",
+      "word": "piacere",
+      "translation": "pleasure",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "È un piacere!",
+          "en": "It's a pleasure!"
+        },
+        {
+          "it": "Spero che ti sia piaciuto.",
+          "en": "I hope you liked it. (lit. that it was a pleasure to you)"
+        }
+      ],
+      "introducedInUnit": 45,
+      "article": "il",
+      "gender": "m"
+    },
+    {
+      "id": "auguri",
+      "word": "auguri",
+      "translation": "wishes; best wishes (Tanti auguri! = Best wishes!; always plural)",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "Tanti auguri per il compleanno!",
+          "en": "Best wishes for the birthday!"
+        }
+      ],
+      "introducedInUnit": 45,
+      "article": "gli",
+      "gender": "m"
+    },
+    {
+      "id": "il-momento",
+      "word": "momento",
+      "translation": "moment",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "È stato un bel momento.",
+          "en": "It was a beautiful moment."
+        }
+      ],
+      "introducedInUnit": 45,
+      "article": "il",
+      "gender": "m"
+    },
+    {
+      "id": "la-serata",
+      "word": "serata",
+      "translation": "evening out; evening event (vs la sera = the evening hour)",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "È stata una bella serata.",
+          "en": "It was a nice evening."
+        },
+        {
+          "it": "Penso che sia stata una bella serata.",
+          "en": "I think it was a nice evening."
+        }
+      ],
+      "introducedInUnit": 45,
+      "article": "la",
+      "gender": "f"
+    },
+    {
+      "id": "l-emozione",
+      "word": "emozione",
+      "translation": "emotion; excitement (Che emozione! = How exciting!)",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "it": "Che emozione!",
+          "en": "How exciting!"
+        }
+      ],
+      "introducedInUnit": 45,
+      "article": "l'",
+      "gender": "f"
     }
   ],
   "stories": [
