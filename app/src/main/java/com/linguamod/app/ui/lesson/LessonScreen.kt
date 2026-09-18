@@ -92,8 +92,19 @@ fun LessonScreen(
                 }
             }
             Box(Modifier.fillMaxSize()) {
+                // Snap scrolls (no animation): long exercises push the feedback
+                // card + Continue below the fold on small screens — the answer
+                // action must be on screen the moment feedback lands, and the
+                // next prompt must start from the top.
+                val scrollState = rememberScrollState()
+                LaunchedEffect(state.feedback) {
+                    if (state.feedback != null) scrollState.scrollTo(scrollState.maxValue)
+                }
+                LaunchedEffect(state.exercise?.id) {
+                    scrollState.scrollTo(0)
+                }
                 Column(
-                    Modifier.fillMaxSize().padding(20.dp).verticalScroll(rememberScrollState()),
+                    Modifier.fillMaxSize().padding(20.dp).verticalScroll(scrollState),
                 ) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         LinearProgressIndicator(
