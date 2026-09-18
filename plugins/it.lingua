@@ -4,7 +4,7 @@
     "id": "it",
     "language": "it",
     "languageName": "Italian",
-    "version": 42,
+    "version": 43,
     "description": "LinguaMod Italian course — from zero to conversation."
   },
   "units": [
@@ -24,7 +24,8 @@
             "grazie",
             "si",
             "no",
-            "piacere"
+            "piacere",
+            "benvenuto"
           ],
           "exercises": [
             {
@@ -745,8 +746,7 @@
               "sourceEn": "Marco is Italian.",
               "acceptedIt": [
                 "Marco è italiano.",
-                "Marco è italiano",
-                "Marco e italiano"
+                "Marco è italiano"
               ],
               "explanation": "'È' is the lui/lei-form of essere: Marco è italiano = Marco is Italian.",
               "dictionaryRefs": [
@@ -1166,8 +1166,7 @@
             "sourceEn": "Hans is German.",
             "acceptedIt": [
               "Hans è tedesco.",
-              "Hans è tedesco",
-              "Hans e tedesco"
+              "Hans è tedesco"
             ],
             "explanation": "'Tedesco' = German (for a man). lui → è."
           },
@@ -1821,8 +1820,7 @@
             "sourceEn": "My surname is Bianchi.",
             "acceptedIt": [
               "Il mio cognome è Bianchi.",
-              "Il mio cognome è Bianchi",
-              "Il mio cognome e Bianchi"
+              "Il mio cognome è Bianchi"
             ],
             "explanation": "'Il mio cognome è Bianchi.' — lui/lei form of essere: è. And 'ch' in Bianchi sounds like K: BYAN-kee.",
             "dictionaryRefs": [
@@ -1855,8 +1853,7 @@
             "speakIt": "Il mio nome è Marco.",
             "acceptedIt": [
               "Il mio nome è Marco.",
-              "Il mio nome è Marco",
-              "Il mio nome e Marco"
+              "Il mio nome è Marco"
             ],
             "explanation": "You heard: 'Il mio nome è Marco.' — My name is Marco.",
             "dictionaryRefs": [
@@ -1995,8 +1992,7 @@
               "prompt": "Complete the sentence. (There is a problem.)",
               "sentence": "___ un problema.",
               "answers": [
-                "C'è",
-                "C e"
+                "C'è"
               ],
               "explanation": "'C'è' = there is (singular). It's 'ci è' shortened to c'è before a vowel sound. Plural 'there are' is 'ci sono' — next exercise.",
               "dictionaryRefs": [
@@ -2128,8 +2124,7 @@
               "sourceEn": "There is a problem.",
               "acceptedIt": [
                 "C'è un problema.",
-                "C'è un problema",
-                "C e un problema"
+                "C'è un problema"
               ],
               "explanation": "'C'è un problema.' — c'è for singular. The apostrophe replaces the -i of 'ci' before 'è'.",
               "dictionaryRefs": [
@@ -2190,8 +2185,7 @@
               "acceptedIt": [
                 "Qual è il tuo numero?",
                 "Qual è il tuo numero",
-                "Qual è il tuo numero di telefono?",
-                "Qual e il tuo numero?"
+                "Qual è il tuo numero di telefono?"
               ],
               "explanation": "'Qual è il tuo numero?' — short and natural. The full version adds 'di telefono': 'Qual è il tuo numero di telefono?'",
               "dictionaryRefs": [
@@ -2481,8 +2475,7 @@
             "prompt": "Complete the sentence. (There is a problem.)",
             "sentence": "___ un problema.",
             "answers": [
-              "C'è",
-              "C e"
+              "C'è"
             ],
             "explanation": "Singular → 'c'è' (there is). Plural would be 'ci sono' (there are).",
             "dictionaryRefs": [
@@ -2781,7 +2774,7 @@
                 "I libri sono sul tavolo.",
                 "I libri sono sul tavolo"
               ],
-              "explanation": "'Il libro' plural → 'i libri'. Regular consonant, masculine → the plural article is 'i'.",
+              "explanation": "'Il libro' plural → 'i libri'. Regular consonant, masculine → the plural article is 'i'. Note: 'sul tavolo' = sul (su + il = 'on the') + tavolo (table).",
               "dictionaryRefs": [
                 "il-libro"
               ]
@@ -2846,7 +2839,8 @@
             "il-libro",
             "la-casa",
             "amico",
-            "il-bar"
+            "il-bar",
+            "invitare"
           ],
           "exercises": [
             {
@@ -2856,8 +2850,7 @@
               "sourceEn": "There is a book on the table.",
               "acceptedIt": [
                 "C'è un libro sul tavolo.",
-                "C'è un libro sul tavolo",
-                "C e un libro sul tavolo"
+                "C'è un libro sul tavolo"
               ],
               "explanation": "'C'è' + 'un libro' (indefinite 'a' — full rule in Unit 9) + 'sul tavolo'. Singular → c'è.",
               "dictionaryRefs": [
@@ -3105,8 +3098,7 @@
             "prompt": "Choose the article. (The friend arrives.)",
             "sentence": "___ amico arriva.",
             "answers": [
-              "L'",
-              "L"
+              "L'"
             ],
             "explanation": "Before a vowel, the article shrinks to l': l'amico. Full form would be 'il' — but 'il amico' is never said.",
             "dictionaryRefs": [
@@ -3120,8 +3112,7 @@
             "sourceEn": "The house is big.",
             "acceptedIt": [
               "La casa è grande.",
-              "La casa è grande",
-              "La casa e grande"
+              "La casa è grande"
             ],
             "explanation": "'La casa è grande.' — feminine consonant-start → 'la'; adjective 'grande' works for both genders.",
             "dictionaryRefs": [
@@ -3353,8 +3344,7 @@
               "sourceEn": "The boy is Italian.",
               "acceptedIt": [
                 "Il ragazzo è italiano.",
-                "Il ragazzo è italiano",
-                "Il ragazzo e italiano"
+                "Il ragazzo è italiano"
               ],
               "explanation": "'Il ragazzo' (m) = the boy/boyfriend + 'è italiano'. Article il (regular consonant) + essere for the description.",
               "dictionaryRefs": [
@@ -4118,7 +4108,7 @@
             "il-lavoro",
             "la-pizza"
           ],
-          "grammarNotes": "LA FRASE SEMPLICE — the simple sentence.\n\nWORD ORDER: Italian uses the same order as English — Subject, Verb, Object:\n'Marco (S) mangia (V) una pizza (O).' — Marco eats a pizza.\nThe subject is often dropped because the verb ending says who it is: 'Mangio una pizza.' — the -o says 'io'.\n\nNEGATION: put 'non' directly before the verb — that's all:\n'Vado a scuola.' → 'Non vado a scuola.' (I am not going to school.)\n'Ho fame.' → 'Non ho fame.' (I am not hungry.)\n\nTHREE ESSENTIAL VERBS — full present tense:\n\nFARE (to do/make):\nio faccio — tu fai — lui/lei fa — noi facciamo — voi fate — loro fanno\n'Faccio una pizza.' / 'Cosa fai?'\n\nANDARE (to go):\nio vado — tu vai — lui/lei va — noi andiamo — voi andate — loro vanno\n'Vado a casa.' / 'Andiamo al bar!'\n\nVENIRE (to come):\nio vengo — tu vieni — lui/lei viene — noi veniamo — voi venite — loro vengono\n'Vengo da Roma.' / 'Vieni al bar?'\n\nAll three are irregular in the io/tu/lui forms — learn them as they are.\n\ndare (presente completo): do, dai, dà, diamo, date, danno.",
+          "grammarNotes": "LA FRASE SEMPLICE — the simple sentence.\n\nWORD ORDER: Italian uses the same order as English — Subject, Verb, Object:\n'Marco (S) mangia (V) una pizza (O).' — Marco eats a pizza.\nThe subject is often dropped because the verb ending says who it is: 'Mangio una pizza.' — the -o says 'io'.\n\nNEGATION: put 'non' directly before the verb — that's all:\n'Vado a scuola.' → 'Non vado a scuola.' (I am not going to school.)\n'Ho fame.' → 'Non ho fame.' (I am not hungry.)\n\nTHREE ESSENTIAL VERBS — full present tense:\n\nFARE (to do/make):\nio faccio — tu fai — lui/lei fa — noi facciamo — voi fate — loro fanno\n'Faccio una pizza.' / 'Cosa fai?'\n\nANDARE (to go):\nio vado — tu vai — lui/lei va — noi andiamo — voi andate — loro vanno\n'Vado a casa.' / 'Andiamo al bar!'\n\nVENIRE (to come):\nio vengo — tu vieni — lui/lei viene — noi veniamo — voi venite — loro vengono\n'Vengo da Roma.' / 'Vieni al bar?'\n\nAll three are irregular in the io/tu/lui forms — learn them as they are.\n\nFARE: faccio, fai, fa, facciamo, fate, fanno | ANDARE: vado, vai, va, andiamo, andate, vanno | VENIRE: vengo, vieni, viene, veniamo, venite, vengono.",
           "exercises": [
             {
               "id": "u7l2e1",
@@ -4778,8 +4768,7 @@
               "prompt": "Complete the question. (___ do you study Italian? — Because it's beautiful.)",
               "sentence": "___ studi italiano? — Perché è bello.",
               "answers": [
-                "Perché",
-                "Perche"
+                "Perché"
               ],
               "explanation": "'Perché' means BOTH 'why' (in questions) and 'because' (in answers). One word, two jobs: Perché studi? — Perché è bello.",
               "dictionaryRefs": [
@@ -4916,8 +4905,7 @@
               "sourceEn": "Why do you study Italian?",
               "acceptedIt": [
                 "Perché studi italiano?",
-                "Perché studi italiano",
-                "Perche studi italiano?"
+                "Perché studi italiano"
               ],
               "explanation": "'Perché studi italiano?' — question word first, then tu-form of studiare: studi. No inversion.",
               "dictionaryRefs": [
@@ -5348,8 +5336,7 @@
             "sourceEn": "Who is the boy?",
             "acceptedIt": [
               "Chi è il ragazzo?",
-              "Chi è il ragazzo",
-              "Chi e il ragazzo?"
+              "Chi è il ragazzo"
             ],
             "explanation": "'Chi è il ragazzo?' — chi (who) + è + il ragazzo (Unit 6). Question word first.",
             "dictionaryRefs": [
@@ -5448,9 +5435,7 @@
             "speakIt": "Perché no?",
             "acceptedIt": [
               "Perché no?",
-              "Perché no",
-              "Perche no?",
-              "Perche no"
+              "Perché no"
             ],
             "explanation": "You heard: 'Perché no?' — Why not? A very useful two-word answer.",
             "dictionaryRefs": [
@@ -5685,8 +5670,7 @@
               "acceptedIt": [
                 "Un caffè, per favore.",
                 "Un caffè, per favore",
-                "Un caffè per favore",
-                "Un caffe, per favore"
+                "Un caffè per favore"
               ],
               "explanation": "'Un caffè, per favore.' — the smallest complete order in Italian. Un (masculine) + caffè + per favore.",
               "dictionaryRefs": [
@@ -5848,8 +5832,7 @@
               "sourceEn": "Do you want a coffee?",
               "acceptedIt": [
                 "Vuoi un caffè?",
-                "Vuoi un caffè",
-                "Vuoi un caffe?"
+                "Vuoi un caffè"
               ],
               "explanation": "'Vuoi un caffè?' — the friendliest four words in Italy. Set phrase; 'vuoi' grammar comes later.",
               "dictionaryRefs": [
@@ -6163,8 +6146,7 @@
             "sourceEn": "There is a bar here.",
             "acceptedIt": [
               "C'è un bar qui.",
-              "C'è un bar qui",
-              "C e un bar qui"
+              "C'è un bar qui"
             ],
             "explanation": "'C'è un bar qui.' — c'è (there is) + un bar (masculine → un) + qui.",
             "dictionaryRefs": [
@@ -6199,8 +6181,7 @@
             "acceptedIt": [
               "Vorrei un caffè, per favore.",
               "Vorrei un caffè, per favore",
-              "Vorrei un caffè per favore",
-              "Vorrei un caffe, per favore"
+              "Vorrei un caffè per favore"
             ],
             "explanation": "You heard: 'Vorrei un caffè, per favore.' — the complete polite order.",
             "dictionaryRefs": [
@@ -6449,8 +6430,7 @@
               "sourceEn": "How much does the coffee cost?",
               "acceptedIt": [
                 "Quanto costa il caffè?",
-                "Quanto costa il caffè",
-                "Quanto costa il caffe?"
+                "Quanto costa il caffè"
               ],
               "explanation": "'Quanto costa il caffè?' — quanto + costa (it costs) + il caffè. For several things: 'Quanto costano i cornetti?'",
               "dictionaryRefs": [
@@ -6677,8 +6657,7 @@
               "sourceEn": "The coffee costs one euro.",
               "acceptedIt": [
                 "Il caffè costa un euro.",
-                "Il caffè costa un euro",
-                "Il caffe costa un euro"
+                "Il caffè costa un euro"
               ],
               "explanation": "'Il caffè costa un euro.' — singular costa + un euro. Euro never changes form.",
               "dictionaryRefs": [
@@ -7097,8 +7076,7 @@
               "acceptedIt": [
                 "Abito a Roma.",
                 "Abito a Roma",
-                "Io abito a Roma",
-                "Abito Roma"
+                "Io abito a Roma"
               ],
               "explanation": "'Abito a Roma.' — abitare + a + city for where you live: abito a Roma, abiti a Milano. The io-form drops the -are and takes -o.",
               "dictionaryRefs": [
@@ -7975,8 +7953,7 @@
               "acceptedIt": [
                 "Prendiamo un caffè.",
                 "Prendiamo un caffè",
-                "Noi prendiamo un caffè",
-                "Prendiamo un caffe"
+                "Noi prendiamo un caffè"
               ],
               "explanation": "'Prendiamo un caffè.' — noi takes -iamo everywhere. At the bar: 'Prendiamo un caffè?' is also 'Shall we have a coffee?'",
               "dictionaryRefs": [
@@ -8788,8 +8765,7 @@
               "acceptedIt": [
                 "Lei è molto simpatica.",
                 "Lei è molto simpatica",
-                "È molto simpatica",
-                "Lei e' molto simpatica"
+                "È molto simpatica"
               ],
               "explanation": "'Lei è molto simpatica.' — molto never changes; simpatica agrees with lei (feminine singular).",
               "dictionaryRefs": [
@@ -8804,8 +8780,7 @@
               "sourceEn": "Marco is intelligent.",
               "acceptedIt": [
                 "Marco è intelligente.",
-                "Marco è intelligente",
-                "Marco e' intelligente"
+                "Marco è intelligente"
               ],
               "explanation": "'Marco è intelligente.' — -e adjectives are the easy ones: same form for Marco and for Giulia.",
               "dictionaryRefs": [
@@ -8924,7 +8899,6 @@
               "acceptedIt": [
                 "Giulia è bella e intelligente.",
                 "Giulia è bella e intelligente",
-                "Giulia e' bella e intelligente",
                 "Giulia è intelligente e bella"
               ],
               "explanation": "'Giulia è bella e intelligente.' — bello (Unit 6) becomes bella with a feminine noun. Now you know WHY.",
@@ -8941,7 +8915,7 @@
               "answers": [
                 "stanco"
               ],
-              "explanation": "'Sono stanco, perché lavoro molto.' — perché (Unit 8) answers its own question: why? because. Stanco, masculine — Alex is speaking.",
+              "explanation": "'Sono stanco, perché lavoro molto.' — perché (Unit 8) answers its own question: why? because. Stanco, masculine — a man is speaking.",
               "dictionaryRefs": [
                 "stanco",
                 "perche",
@@ -9060,8 +9034,7 @@
               "speakIt": "Giulia è alta e simpatica.",
               "acceptedIt": [
                 "Giulia è alta e simpatica.",
-                "Giulia è alta e simpatica",
-                "Giulia e' alta e simpatica"
+                "Giulia è alta e simpatica"
               ],
               "explanation": "You heard: 'Giulia è alta e simpatica.' — feminine singular: altA, simpaticA.",
               "dictionaryRefs": [
@@ -9547,8 +9520,7 @@
               "sourceEn": "My brother is tall.",
               "acceptedIt": [
                 "Mio fratello è alto.",
-                "Mio fratello è alto",
-                "Mio fratello e' alto"
+                "Mio fratello è alto"
               ],
               "explanation": "'Mio fratello è alto.' — singular family: no article. Fratello is masculine → mio; the adjective agrees too: alto.",
               "dictionaryRefs": [
@@ -9757,8 +9729,7 @@
               "acceptedIt": [
                 "Hai fratelli o sorelle?",
                 "Hai fratelli o sorelle",
-                "Tu hai fratelli o sorelle?",
-                "Hai fratelli o sorelle tu"
+                "Tu hai fratelli o sorelle?"
               ],
               "explanation": "'Hai fratelli o sorelle?' — hai (tu, avere) + fratelli o sorelle. 💛 The standard first-date family question.",
               "dictionaryRefs": [
@@ -10068,8 +10039,7 @@
             "speakIt": "Mio fratello è alto.",
             "acceptedIt": [
               "Mio fratello è alto.",
-              "Mio fratello è alto",
-              "Mio fratello e' alto"
+              "Mio fratello è alto"
             ],
             "explanation": "You heard: 'Mio fratello è alto.' — My brother is tall. No article before mio fratello.",
             "dictionaryRefs": [
@@ -10110,7 +10080,8 @@
             "la-pasta",
             "il-pesce",
             "il-vino",
-            "la-cena"
+            "la-cena",
+            "il-cameriere"
           ],
           "exercises": [
             {
@@ -10244,6 +10215,23 @@
               "dictionaryRefs": [
                 "il-tavolo",
                 "per-favore"
+              ]
+            },
+            {
+              "id": "u15l1e9",
+              "type": "multiple_choice",
+              "prompt": "What does it mean?",
+              "question": "il cameriere",
+              "options": [
+                "the waiter",
+                "the hotelier",
+                "the neighbor",
+                "the customer"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Il cameriere' (m) = the waiter — he brings il menu and il conto. Say 'grazie' to him. 💛",
+              "dictionaryRefs": [
+                "il-cameriere"
               ]
             }
           ]
@@ -10597,16 +10585,17 @@
               "id": "u15l3e8",
               "type": "translation_en_it",
               "prompt": "Translate to Italian. 💛",
-              "sourceEn": "Do you want dinner with me?",
+              "sourceEn": "Do you want to have dinner with me?",
               "acceptedIt": [
-                "Vuoi una cena con me?",
-                "Vuoi una cena con me",
-                "Tu vuoi una cena con me?",
+                "Vuoi cenare con me?",
+                "Vuoi cenare con me",
+                "Tu vuoi cenare con me?",
                 "Cena con me?"
               ],
-              "explanation": "'Vuoi una cena con me?' — vuoi (you want) + una cena + con me. 💛 The Unit 9 invitation pattern ('Vuoi un caffè?'), one step further.",
+              "explanation": "'Vuoi cenare con me?' — vuoi (you want) + cenare (to have dinner) + con me. 💛 The Unit 9 invitation pattern ('Vuoi un caffè?'), one step further.",
               "dictionaryRefs": [
                 "voglio",
+                "cenare",
                 "la-cena"
               ]
             }
@@ -10714,8 +10703,7 @@
               "speakIt": "La cena è alle otto.",
               "acceptedIt": [
                 "La cena è alle otto.",
-                "La cena è alle otto",
-                "La cena e' alle otto"
+                "La cena è alle otto"
               ],
               "explanation": "You heard: 'La cena è alle otto.' — Dinner is at eight. Alle otto = at eight (Unit 10's time pattern).",
               "dictionaryRefs": [
@@ -11058,7 +11046,7 @@
             "che-ore-sono",
             "oggi"
           ],
-          "grammarNotes": "L'ORA — deeper than Unit 10.\n\nRECAP: 'Che ore sono?' — 'È l'una.' / 'Sono le due, le tre…'\n\nQUARTERS AND HALVES:\n• 'Sono le tre e un quarto.' — a quarter past three\n• 'Sono le tre e mezza.' — half past three\n• 'Sono le cinque meno un quarto.' — a quarter to five (literally 'five minus a quarter')\n\nOFFICIAL TIME (24 hours) — trains, opening hours, appointments:\n'Sono le quattordici e trenta.' = 'Sono le due e mezza di pomeriggio.' Both are correct; the 24-hour form is what you read, the informal one is what you say.\n\nI GIORNI (m, no capital letter): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica (f). 'Che giorno è oggi?' — 'Oggi è lunedì.' Days use essere: è lunedì, è martedì…\n\nI MESI (m, no capital): gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n\nLE STAGIONI (f): la primavera, l'estate, l'autunno, l'inverno. 'L'estate è bella.'\n\nAvere with time: 'La settimana ha sette giorni.' — the week HAS seven days. 'Un mese ha quattro settimane.'\n\n💛 MAKING PLANS: 'Quando sei libero/a?' — When are you free? — 'Sono libero sabato.' / 'Domani no, domenica sì.'",
+          "grammarNotes": "L'ORA — deeper than Unit 10.\n\nRECAP: 'Che ore sono?' — 'È l'una.' / 'Sono le due, le tre…'\n\nQUARTERS AND HALVES:\n• 'Sono le tre e un quarto.' — a quarter past three\n• 'Sono le tre e mezza.' — half past three\n• 'Sono le cinque meno un quarto.' — a quarter to five (literally 'five minus a quarter')\n\nOFFICIAL TIME (24 hours) — trains, opening hours, appointments:\n'Sono le quattordici e trenta.' = 'Sono le due e mezza di pomeriggio.' Both are correct; the 24-hour form is what you read, the informal one is what you say.\n\nI GIORNI (m, no capital letter): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica (f). 'Che giorno è oggi?' — 'Oggi è lunedì.' Days use essere: è lunedì, è martedì…\n\nI MESI (m, no capital): gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n\nLE STAGIONI: la primavera (f), l'estate (f), l'autunno (m), l'inverno (m). 'L'estate è bella.'\n\nAvere with time: 'La settimana ha sette giorni.' — the week HAS seven days. 'Un mese ha quattro settimane.'\n\n💛 MAKING PLANS: 'Quando sei libero/a?' — When are you free? — 'Sono libero sabato.' / 'Domani no, domenica sì.'",
           "exercises": [
             {
               "id": "u16l2e1",
@@ -11111,7 +11099,6 @@
               "acceptedIt": [
                 "Oggi è lunedì.",
                 "Oggi è lunedì",
-                "Oggi e' lunedì",
                 "È lunedì oggi"
               ],
               "explanation": "'Oggi è lunedì.' — days use essere, and no capital letter: lunedì, martedì, mercoledì…",
@@ -11181,7 +11168,7 @@
                 "the autumn"
               ],
               "correctIndex": 0,
-              "explanation": "Le stagioni: la primavera (spring), l'estate (summer), l'autunno (autumn), l'inverno (winter). All feminine."
+              "explanation": "Le stagioni: la primavera (spring), l'estate (summer), l'autunno (autumn), l'inverno (winter). Primavera and estate are feminine; autunno and inverno are masculine (l'autunno, l'inverno)."
             },
             {
               "id": "u16l2e9",
@@ -11302,12 +11289,12 @@
               "id": "u16l3e4",
               "type": "translation_it_en",
               "prompt": "Translate to English. (Unit 12 recycling)",
-              "sourceIt": "Il weekend finisce la domenica.",
+              "sourceIt": "Il weekend finisce domenica.",
               "acceptedEn": [
                 "The weekend ends on Sunday.",
                 "The weekend finishes on Sunday."
               ],
-              "explanation": "'Il weekend finisce la domenica.' — finisce (finire, -isc-, lui-form) + la domenica. The weekend 'ends' Sunday.",
+              "explanation": "'Il weekend finisce domenica.' — finisce (finire, -isc-, lui-form) + domenica (one specific Sunday — no article).",
               "dictionaryRefs": [
                 "il-weekend",
                 "finire"
@@ -11421,8 +11408,7 @@
               "speakIt": "Oggi è venerdì.",
               "acceptedIt": [
                 "Oggi è venerdì.",
-                "Oggi è venerdì",
-                "Oggi e' venerdi"
+                "Oggi è venerdì"
               ],
               "explanation": "You heard: 'Oggi è venerdì.' — Today is Friday. Days take essere and no capital letter.",
               "dictionaryRefs": [
@@ -11479,8 +11465,7 @@
               "speakIt": "La cena è alle nove.",
               "acceptedIt": [
                 "La cena è alle nove.",
-                "La cena è alle nove",
-                "La cena e' alle nove"
+                "La cena è alle nove"
               ],
               "explanation": "You heard: 'La cena è alle nove.' — Dinner is at nine. Alle + hour for appointments (alle otto, alle nove).",
               "dictionaryRefs": [
@@ -11532,7 +11517,6 @@
             "acceptedIt": [
               "Oggi è mercoledì.",
               "Oggi è mercoledì",
-              "Oggi e' mercoledi",
               "È mercoledì oggi"
             ],
             "explanation": "'Oggi è mercoledì.' — oggi + è + the day. Mercoledì: four syllables, mer-co-le-DÌ.",
@@ -11880,7 +11864,6 @@
               "acceptedIt": [
                 "Quando è il tuo compleanno?",
                 "Quando è il tuo compleanno",
-                "Quando e' il tuo compleanno?",
                 "Quando è il tuo compleanno"
               ],
               "explanation": "'Quando è il tuo compleanno?' — quando + è + il tuo compleanno (il tuo: not family → article stays, Unit 14). 💛",
@@ -11896,7 +11879,6 @@
               "sourceEn": "My birthday is on June 5th.",
               "acceptedIt": [
                 "Il mio compleanno è il cinque giugno.",
-                "Il mio compleanno e' il cinque giugno",
                 "Il mio compleanno è il 5 giugno",
                 "Il mio compleanno è il cinque giugno"
               ],
@@ -12201,8 +12183,7 @@
               "speakIt": "Il mio compleanno è in maggio.",
               "acceptedIt": [
                 "Il mio compleanno è in maggio.",
-                "Il mio compleanno è in maggio",
-                "Il mio compleanno e' in maggio"
+                "Il mio compleanno è in maggio"
               ],
               "explanation": "You heard: 'Il mio compleanno è in maggio.' — in + month for 'in May': in maggio, in giugno…",
               "dictionaryRefs": [
@@ -12260,8 +12241,7 @@
               "speakIt": "La festa è sabato.",
               "acceptedIt": [
                 "La festa è sabato.",
-                "La festa è sabato",
-                "La festa e' sabato"
+                "La festa è sabato"
               ],
               "explanation": "You heard: 'La festa è sabato.' — The party is on Saturday. Day alone, no preposition.",
               "dictionaryRefs": [
@@ -12312,7 +12292,6 @@
             "acceptedIt": [
               "Il caffè costa due euro.",
               "Il caffè costa due euro",
-              "Il caffe costa due euro",
               "Il caffè costa 2 euro"
             ],
             "explanation": "'Il caffè costa due euro.' — costa (singular) + due + invariable euro.",
@@ -12604,7 +12583,7 @@
             "venire",
             "prendere"
           ],
-          "grammarNotes": "A, IN, DA — three little words that do a lot.\n\nA — to/at a city or small place: 'Vado a Roma.', 'Vado al bar.' (a + il → al; a + la → alla: 'Vado alla stazione.')\nIN — to/in a country or region, and 'by' + transport: 'Vado in Italia.', 'Abito in Italia.', 'in treno' (by train).\nDA — from, or 'to someone's place': 'Vengo da Milano.' (Unit 7), 'Vado da Giulia.' — I go to Giulia's.\n\nWHY a vs in: cities take A (a Roma, a Milano); countries take IN (in Italia, in Francia). Small = a, big = in.\n\nL'IMPERATIVO (tu, informal) — telling one person you know what to do:\n• -are verbs: -a! — 'Gira a destra!' (Turn right!) The tu vowel flips: tu giri → gira!\n• -ere/-ire verbs: -i! — same as the present: 'Prendi la prima via a sinistra.' (Take the first street on the left.)\n• andare is irregular: vai! — 'Vai dritto!' (Go straight!)\n\nDIRECTIONS SET PHRASES:\n• 'Dov'è la stazione?' — Where is the station? (dove + è → dov'è)\n• 'È qui vicino.' — It's near here. (vicino = near)\n• 'Grazie mille!' — Thanks a lot! (literally: a thousand thanks)\n\ndire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
+          "grammarNotes": "A, IN, DA — three little words that do a lot.\n\nA — to/at a city or small place: 'Vado a Roma.', 'Vado al bar.' (a + il → al; a + la → alla: 'Vado alla stazione.')\nIN — to/in a country or region, and 'by' + transport: 'Vado in Italia.', 'Abito in Italia.', 'in treno' (by train).\nDA — from, or 'to someone's place': 'Vengo da Milano.' (Unit 7), 'Vado da Giulia.' — I go to Giulia's.\n\nWHY a vs in: cities take A (a Roma, a Milano); countries take IN (in Italia, in Francia). Small = a, big = in.\n\nL'IMPERATIVO (tu, informal) — telling one person you know what to do:\n• -are verbs: -a! — 'Gira a destra!' (Turn right!) The tu vowel flips: tu giri → gira!\n• -ere/-ire verbs: -i! — same as the present: 'Prendi la prima via a sinistra.' (Take the first street on the left.)\n• andare is irregular: vai! — 'Vai dritto!' (Go straight!)\n\nDIRECTIONS SET PHRASES:\n• 'Dov'è la stazione?' — Where is the station? (dove + è → dov'è)\n• 'È qui vicino.' — It's near here. (vicino = near)\n• 'Grazie mille!' — Thanks a lot! (literally: a thousand thanks)\n\nIMPERATIVO (tu): vai! (andare), gira! (-are → -a!), prendi! (-ere/-ire → -i!).",
           "exercises": [
             {
               "id": "u18l2e1",
@@ -12687,8 +12666,7 @@
               "acceptedIt": [
                 "Dov'è la stazione?",
                 "Dov'è la stazione",
-                "Dove è la stazione?",
-                "Dov'e la stazione"
+                "Dove è la stazione?"
               ],
               "explanation": "'Dov'è la stazione?' — dove + è contracts to dov'è (the doubled vowel drops). The key question in any city.",
               "dictionaryRefs": [
@@ -12804,8 +12782,7 @@
               "sourceEn": "The bar is near here.",
               "acceptedIt": [
                 "Il bar è qui vicino.",
-                "Il bar è qui vicino",
-                "Il bar e' qui vicino"
+                "Il bar è qui vicino"
               ],
               "explanation": "'Il bar è qui vicino.' — qui (here) + vicino (near): near here. The answer you hope to hear.",
               "dictionaryRefs": [
@@ -12916,8 +12893,7 @@
               "acceptedIt": [
                 "Dov'è il museo, per favore?",
                 "Dov'è il museo, per favore",
-                "Dove è il museo, per favore?",
-                "Dov'e il museo, per favore"
+                "Dove è il museo, per favore?"
               ],
               "explanation": "'Dov'è il museo, per favore?' — dov'è + il museo + per favore (Unit 9). Politeness travels well.",
               "dictionaryRefs": [
@@ -13028,8 +13004,7 @@
               "speakIt": "Il museo è qui vicino.",
               "acceptedIt": [
                 "Il museo è qui vicino.",
-                "Il museo è qui vicino",
-                "Il museo e' qui vicino"
+                "Il museo è qui vicino"
               ],
               "explanation": "You heard: 'Il museo è qui vicino.' — The museum is near here. Qui vicino = near here.",
               "dictionaryRefs": [
@@ -13179,8 +13154,7 @@
             "speakIt": "Dov'è il bar?",
             "acceptedIt": [
               "Dov'è il bar?",
-              "Dove è il bar",
-              "Dov'e il bar?"
+              "Dove è il bar"
             ],
             "explanation": "You heard: 'Dov'è il bar?' — Where is the bar? Dov'è + the place.",
             "dictionaryRefs": [
@@ -13244,7 +13218,7 @@
               "question": "vedere",
               "options": [
                 "to see",
-                "to watch",
+                "to meet",
                 "to look for",
                 "to come"
               ],
@@ -13369,7 +13343,7 @@
             "il-ragazzo",
             "la-ragazza"
           ],
-          "grammarNotes": "I PRONOMI DIRETTI — the little words that replace 'him / her / it / them'.\n\nTHE FOUR FORMS:\n• lo — him, it (m sing): 'Il film? Lo vedo domani.' — The film? I see it tomorrow.\n• la — her, it (f sing): 'La canzone? La ascolto.' — The song? I listen to it.\n• li — them (m pl): 'I libri? Li leggo.' — The books? I read them.\n• le — them (f pl): 'Le lettere? Le scrivo.' — The letters? I write them.\n\nPOSITION — before the verb, the opposite of English:\n'Lo conosci?' — Do you know HIM? (lo comes before conosci)\n'La vedo domani.' — I see HER tomorrow. 💛\n\nBEFORE A VOWEL, lo and la drop to l': 'L'ascolto.' — I listen to it. (Same l' rule as the articles, Unit 5.)\n\nWHY: Italians hate repeating nouns. 'Conosci Marco?' — 'Sì, lo conosco.' — Yes, I know HIM.\nThe pronoun carries the gender and number of what it replaces: lo for il ragazzo, la for la ragazza, li for i libri, le for le lettere.\n\n💛 'Lo conosci?' — Do you know him? 'La vedo domani.' — I'll see her tomorrow. 'La chiamo domani.' — I'll call her tomorrow.\n\ndire (presente completo): dico, dici, dice, diciamo, dite, dicono.",
+          "grammarNotes": "I PRONOMI DIRETTI — the little words that replace 'him / her / it / them'.\n\nTHE FOUR FORMS:\n• lo — him, it (m sing): 'Il film? Lo vedo domani.' — The film? I see it tomorrow.\n• la — her, it (f sing): 'La canzone? La ascolto.' — The song? I listen to it.\n• li — them (m pl): 'I libri? Li leggo.' — The books? I read them.\n• le — them (f pl): 'Le lettere? Le scrivo.' — The letters? I write them.\n\nPOSITION — before the verb, the opposite of English:\n'Lo conosci?' — Do you know HIM? (lo comes before conosci)\n'La vedo domani.' — I see HER tomorrow. 💛\n\nBEFORE A VOWEL, lo and la drop to l': 'L'ascolto.' — I listen to it. (Same l' rule as the articles, Unit 5.)\n\nWHY: Italians hate repeating nouns. 'Conosci Marco?' — 'Sì, lo conosco.' — Yes, I know HIM.\nThe pronoun carries the gender and number of what it replaces: lo for il ragazzo, la for la ragazza, li for i libri, le for le lettere.\n\n💛 'Lo conosci?' — Do you know him? 'La vedo domani.' — I'll see her tomorrow. 'La chiamo domani.' — I'll call her tomorrow.",
           "exercises": [
             {
               "id": "u19l2e1",
@@ -14332,8 +14306,7 @@
               "sourceEn": "I like the city.",
               "acceptedIt": [
                 "Mi piace la città.",
-                "Mi piace la città",
-                "Mi piace la citta"
+                "Mi piace la città"
               ],
               "explanation": "'Mi piace la città.' — la città (Unit 18, singular) → piace.",
               "dictionaryRefs": [
@@ -18722,7 +18695,7 @@
                 "to meet"
               ],
               "correctIndex": 0,
-              "explanation": "'Trovare' = to find. 'Trovo un libro interessante.'? — keep it simple: 'Trovo il libro.' — I find the book. Regular -are.",
+              "explanation": "'Trovare' = to find. 'Trovo il libro.' — I find the book. Regular -are.",
               "dictionaryRefs": [
                 "trovare",
                 "il-libro"
@@ -18824,7 +18797,7 @@
             "dormire",
             "il-film"
           ],
-          "grammarNotes": "IL PASSATO PROSSIMO — the everyday past. Two parts: avere + the past participle.\n\nI PARTICIPI — the past participle is regular:\n• -are → -ato: parlare → parlato, mangiare → mangiato, guardare → guardato, comprare → comprato, trovare → trovato, lavorare → lavorato, studiare → studiato, ascoltare → ascoltato, prenotare → prenotato\n• -ere → -uto: vedere? no — irregular (visto, later). Regular: vendere → venduto. For now your -ere verbs: prendere → preso (irregular), leggere → letto (irregular), scrivere → scritto (irregular), dormire → dormito ✓ regular, capire → capito ✓, finire → finito ✓, preferire → preferito ✓\n• -ire → -ito: dormito, capito, finito, preferito\n\nTHE FORMULA: avere (io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno — Unit 6) + participle:\n• 'Ho mangiato una pizza.' — I ate a pizza.\n• 'Ieri hai dormito bene?' — Did you sleep well yesterday?\n• 'Giulia ha guardato un film.' — Giulia watched a film.\n• 'Abbiamo prenotato un tavolo.' — We booked a table.\n• 'Avete trovato il libro?' — Did you (pl) find the book?\n• 'Hanno comprato un regalo.' — They bought a gift.\n\nNO AGREEMENT WITH AVERE: the participle stays -o with avere, always: 'Ho mangiato la pizza.' / 'Ho mangiato i cornetti.' — mangiato never changes. (It changes with essere — next unit.)\n\nWHEN: a finished action at a finished time — ieri (yesterday), sabato, ieri sera. 'Ieri ho lavorato.' — Yesterday I worked.\n\n💛 'Ieri ho comprato un regalo per Giulia.' — Yesterday I bought a gift for Giulia.\n\nAVERE (present, full): ho, hai, ha, abbiamo, avete, hanno.",
+          "grammarNotes": "IL PASSATO PROSSIMO — the everyday past. Two parts: avere + the past participle.\n\nI PARTICIPI — the past participle is regular:\n• -are → -ato: parlare → parlato, mangiare → mangiato, guardare → guardato, comprare → comprato, trovare → trovato, lavorare → lavorato, studiare → studiato, ascoltare → ascoltato, prenotare → prenotato\n• -ere → -uto: vedere? no — irregular (visto, later). Regular: vendere → venduto. For now your -ere verbs: prendere → preso (irregular), leggere → letto (irregular), scrivere → scritto (irregular)\n• -ire → -ito: dormito, capito, finito, preferito\n\nTHE FORMULA: avere (io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno — Unit 6) + participle:\n• 'Ho mangiato una pizza.' — I ate a pizza.\n• 'Ieri hai dormito bene?' — Did you sleep well yesterday?\n• 'Giulia ha guardato un film.' — Giulia watched a film.\n• 'Abbiamo prenotato un tavolo.' — We booked a table.\n• 'Avete trovato il libro?' — Did you (pl) find the book?\n• 'Hanno comprato un regalo.' — They bought a gift.\n\nNO AGREEMENT WITH AVERE: the participle stays -o with avere, always: 'Ho mangiato la pizza.' / 'Ho mangiato i cornetti.' — mangiato never changes. (It changes with essere — next unit.)\n\nWHEN: a finished action at a finished time — ieri (yesterday), sabato, ieri sera. 'Ieri ho lavorato.' — Yesterday I worked.\n\n💛 'Ieri ho comprato un regalo per Giulia.' — Yesterday I bought a gift for Giulia.\n\nAVERE (present, full): ho, hai, ha, abbiamo, avete, hanno.",
           "exercises": [
             {
               "id": "u26l2e1",
@@ -21174,7 +21147,9 @@
                 "anni"
               ],
               "explanation": "'Avevo dieci anni.' — age in the past: avere imperfect (avevo) + anni, just like 'Ho dieci anni' in the present.",
-              "dictionaryRefs": []
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
             },
             {
               "id": "u29l2e3",
@@ -21271,7 +21246,9 @@
                 "I was ten."
               ],
               "explanation": "'Avevo dieci anni.' — avere imperfect for age in the past: I 'had ten years'.",
-              "dictionaryRefs": []
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
             },
             {
               "id": "u29l2e9",
@@ -21383,7 +21360,9 @@
               ],
               "correctIndex": 0,
               "explanation": "'Avevo cinque anni.' — avere imperfect: avevo. The past of 'Ho cinque anni.'",
-              "dictionaryRefs": []
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
             },
             {
               "id": "u29l3e3",
@@ -21551,7 +21530,9 @@
               ],
               "correctIndex": 0,
               "explanation": "You heard: 'Avevo dieci anni.' — I was ten. Avevo, not ho: a past age.",
-              "dictionaryRefs": []
+              "dictionaryRefs": [
+                "quanti-anni-hai"
+              ]
             },
             {
               "id": "u29l4e4",
@@ -21656,7 +21637,9 @@
               "Io avevo dieci anni"
             ],
             "explanation": "'Avevo dieci anni.' — avere imperfect: avevo. The past of 'Ho dieci anni.'",
-            "dictionaryRefs": []
+            "dictionaryRefs": [
+              "quanti-anni-hai"
+            ]
           },
           {
             "id": "u29ce5",
@@ -22797,8 +22780,7 @@
               "prompt": "Complete the sentence. (They will arrive tomorrow.) (Unit 27 recycling)",
               "sentence": "Loro ___ domani.",
               "answers": [
-                "arriveranno",
-                "arriveranno'"
+                "arriveranno"
               ],
               "explanation": "'Loro arriveranno domani.' — arrivare is regular: arriver- + anno. Double r, double n: arriveranno.",
               "dictionaryRefs": [
@@ -25091,7 +25073,7 @@
             "ce",
             "ci-sono"
           ],
-          "grammarNotes": "CI — one syllable, three jobs. You already know two of its cousins: c'è / ci sono (Unit 4).\n\n1. CI = THERE — it replaces a place (a + place, in + place):\n'Vai al bar domani?' — 'Sì, ci vado domani.' — Yes, I'm going (there) tomorrow.\n'Conosci il museo?' — 'Sì, ci vado domani.' — Yes, I'm going (there) tomorrow.\n\n2. CI = ABOUT IT — with pensare and friends:\n'Ci penso io.' — I'll think about it. 'Ci pensi?' — Are you thinking about it?\n\n3. CI = EACH OTHER — the reflexive 'we':\n'Ci vediamo domani!' — See you tomorrow! (we see each other)\n'Ci sentiamo!' — Talk soon! (we hear each other — on the phone)\n\nC'È / CI SONO, REVIEW: 'Stasera c'è un film bello al cinema.' — Tonight there's a nice film at the cinema. 'Ci sono due cose.' — There are two things.\n\nWHY so small a word: Italian hates repeating places and topics. The answer to 'where/about what' collapses into ci before the verb.",
+          "grammarNotes": "CI — one syllable, three jobs. You already know two of its cousins: c'è / ci sono (Unit 4).\n\n1. CI = THERE — it replaces a place (a + place, in + place):\n'Vai al bar domani?' — 'Sì, ci vado domani.' — Yes, I'm going (there) tomorrow.\n'Vai al museo domani?' — 'Sì, ci vado domani.' — Yes, I'm going (there) tomorrow.\n\n2. CI = ABOUT IT — with pensare and friends:\n'Ci penso io.' — I'll think about it. 'Ci pensi?' — Are you thinking about it?\n\n3. CI = EACH OTHER — the reflexive 'we':\n'Ci vediamo domani!' — See you tomorrow! (we see each other)\n'Ci sentiamo!' — Talk soon! (we hear each other — on the phone)\n\nC'È / CI SONO, REVIEW: 'Stasera c'è un film bello al cinema.' — Tonight there's a nice film at the cinema. 'Ci sono due cose.' — There are two things.\n\nWHY so small a word: Italian hates repeating places and topics. The answer to 'where/about what' collapses into ci before the verb.",
           "exercises": [
             {
               "id": "u34l2e1",
@@ -25143,7 +25125,7 @@
               "options": [
                 "See you!",
                 "We see it.",
-                "We see each other.",
+                "We see you there.",
                 "Watch us!"
               ],
               "correctIndex": 0,
@@ -25951,7 +25933,9 @@
                 "I have three of them."
               ],
               "explanation": "'Ne ho tre.' — I have three of them. English needs 'of them'; Italian just needs ne.",
-              "dictionaryRefs": []
+              "dictionaryRefs": [
+                "quanto"
+              ]
             },
             {
               "id": "u35l2e7",
@@ -26123,14 +26107,14 @@
             {
               "id": "u35l3e5",
               "type": "fill_blank",
-              "prompt": "Complete the answer. (How old are you? — I'm twenty.) (Unit 4 recycling)",
-              "sentence": "'Quanti anni hai?' — '___ ho venti.'",
+              "prompt": "Complete the answer. (How many tickets do you have? — I have two.) (Unit 25 recycling)",
+              "sentence": "'Quanti biglietti hai?' — '___ ho due.'",
               "answers": [
                 "Ne"
               ],
-              "explanation": "'Ne ho venti.' — even age answers with ne: ne ho venti (of them, the years). The Unit 4 question, the Unit 35 answer.",
+              "explanation": "'Quanti biglietti hai? — Ne ho due.' — ne counts the biglietti (Unit 25). The Unit 4 question shape, the Unit 35 answer.",
               "dictionaryRefs": [
-                "quanti-anni-hai"
+                "il-biglietto"
               ]
             },
             {
@@ -26161,7 +26145,9 @@
               ],
               "correctSentence": "Ne ho tre.",
               "explanation": "'Ne ho tre.' — ne + ho + tre. I have three of them.",
-              "dictionaryRefs": []
+              "dictionaryRefs": [
+                "quanto"
+              ]
             },
             {
               "id": "u35l3e8",
@@ -26243,7 +26229,7 @@
               "speakIt": "Ne ho tre.",
               "options": [
                 "I have three of them.",
-                "I have three.",
+                "I have two of them.",
                 "I have three of those things there.",
                 "There are three."
               ],
@@ -27710,7 +27696,7 @@
               "answers": [
                 "migliore"
               ],
-              "explanation": "'La pizza è migliore del cornetto.' — migliore (better, adjective) + del cornetto (di + il → del). Fight me.",
+              "explanation": "'La pizza è migliore del cornetto.' — migliore (better, adjective) + del cornetto (di + il → del). A brave opinion — say it with a smile.",
               "dictionaryRefs": [
                 "la-pizza",
                 "migliore",
@@ -28478,7 +28464,7 @@
               "question": "Pronto, chi parla?",
               "options": [
                 "Hello, who's speaking?",
-                "Hello, who is it?",
+                "Hello, who's ready?",
                 "Ready, who are you?",
                 "Hello, who's talking?"
               ],
@@ -28770,8 +28756,8 @@
             "question": "Chi parla?",
             "options": [
               "Who's speaking?",
-              "Who is it?",
-              "Who's there?",
+              "Who's ready?",
+              "Who calls you?",
               "Who calls?"
             ],
             "correctIndex": 0,
@@ -29246,7 +29232,6 @@
               "sourceEn": "Shall we go to Venice next week?",
               "acceptedIt": [
                 "Andiamo a Venezia la settimana prossima?",
-                "Andiamo a Venezia la settimana prossima",
                 "Andiamo a Venezia la settimana prossima"
               ],
               "explanation": "'Andiamo a Venezia la settimana prossima?' — the proposal (andiamo) + a Venezia + la settimana prossima (Unit 31). 💛",
@@ -29869,7 +29854,7 @@
               "answers": [
                 "ero"
               ],
-              "explanation": "'Mercoledì ero stanco.' — a past state → imperfetto: ero (Unit 29). Not 'sono stato stanco' — that's a finished episode.",
+              "explanation": "'Mercoledì ero stanco.' — a past state → imperfetto: ero (Unit 29). 'Sono stato stanco' is possible too — but it frames the tiredness as one bounded episode.",
               "dictionaryRefs": [
                 "mercoledi",
                 "stanco"
@@ -31396,7 +31381,8 @@
               ],
               "explanation": "'Ho una scusa buona.' — ho + una scusa + buona (f, agreeing with scusa).",
               "dictionaryRefs": [
-                "la-scusa"
+                "la-scusa",
+                "buono"
               ]
             }
           ]
@@ -31649,7 +31635,7 @@
                 "I would come to the party, but I'm sick."
               ],
               "correctIndex": 0,
-              "explanation": "'Sarei venuta alla festa, ma ero malata.' — venutA (a woman) + era… wait, ero malata (imperfetto for the reason). Malata from Unit 24.",
+              "explanation": "'Sarei venuta alla festa, ma ero malata.' — venutA tells you a woman speaks; ero malata (imperfetto) gives the reason.",
               "dictionaryRefs": [
                 "venire",
                 "la-festa",
@@ -32249,15 +32235,14 @@
             {
               "id": "u43l2e4",
               "type": "fill_blank",
-              "prompt": "Complete the sentence. (I think Giulia eats the pasta.) (Unit 15 recycling)",
-              "sentence": "Penso che Giulia ___ la pasta.",
+              "prompt": "Complete the sentence. (I think Giulia speaks Italian.) (Unit 15 recycling)",
+              "sentence": "Penso che Giulia ___ l'italiano.",
               "answers": [
-                "mangi"
+                "parli"
               ],
-              "explanation": "'Penso che Giulia mangi la pasta.' — -are verbs swap endings: indicative lui/lei = -a (mangia), subjunctive = -i (mangi).",
+              "explanation": "'Penso che Giulia parli l'italiano.' — opinion → subjunctive -i for -are verbs (indicative parla).",
               "dictionaryRefs": [
-                "mangiare",
-                "la-pasta"
+                "parlare"
               ]
             },
             {
@@ -32681,8 +32666,7 @@
             "sourceEn": "I hope Giulia comes.",
             "acceptedIt": [
               "Spero che Giulia venga.",
-              "Spero che Giulia venga",
-              "Spero che Giulia venga domani"
+              "Spero che Giulia venga"
             ],
             "explanation": "'Spero che Giulia venga.' — spero che → venga (venire, subjunctive). Indicative: viene. 💛",
             "dictionaryRefs": [
@@ -33202,8 +33186,7 @@
               "sourceEn": "I think it's important.",
               "acceptedIt": [
                 "Credo che sia importante.",
-                "Credo che sia importante",
-                "Credo che sia importante."
+                "Credo che sia importante"
               ],
               "explanation": "'Credo che sia importante.' — credo che + sia (subjunctive!) + importante. An opinion ABOUT importance — the subjunctive stacks up.",
               "dictionaryRefs": [
@@ -33631,7 +33614,8 @@
             "auguri",
             "il-momento",
             "la-serata",
-            "l-emozione"
+            "l-emozione",
+            "sazio"
           ],
           "exercises": [
             {
@@ -35178,8 +35162,8 @@
             "sourceIt": "Lei è molto gentile.",
             "acceptedEn": [
               "You are very kind.",
-              "She is very kind.",
-              "He is very kind."
+              "You're very kind.",
+              "You are very kind. (formal)"
             ],
             "explanation": "'Lei è molto gentile.' — with capital Lei: 'you are very kind (formal)'. With lowercase lei it could mean 'she' — context decides.",
             "dictionaryRefs": [
@@ -35337,8 +35321,7 @@
               "prompt": "Complete the dream. 💛 (the vowel needs an apostrophe)",
               "sentence": "Vorrei vivere su ___ isola.",
               "answers": [
-                "un'",
-                "un"
+                "un'"
               ],
               "explanation": "'Vorrei vivere su un'isola.' — un'isola: un drops its o before a vowel, like un'albergo (Unit 39). Dream accordingly. 💛",
               "dictionaryRefs": [
@@ -35354,7 +35337,6 @@
               "acceptedIt": [
                 "Sogno un'isola.",
                 "Sogno un'isola",
-                "Sogno un isola.",
                 "Io sogno un'isola."
               ],
               "explanation": "'Sogno un'isola.' — sogno = I dream (verb) and il sogno = the dream (noun). Italian lets you dream with the same word you dream of. 💛",
@@ -35455,7 +35437,7 @@
                 "Se potessi, viaggeresti di più",
                 "Se potessi viaggeresti di più"
               ],
-              "explanation": "'Se potessi, viaggeresti di più?' — potessi (io? No: tu! The io- and tu-forms are identical: potessi) + viaggeresti (conditional tu).",
+              "explanation": "'Se potessi, viaggeresti di più?' — potessi is the same for io and tu in the imperfetto congiuntivo; here it's tu, matching viaggeresti.",
               "dictionaryRefs": [
                 "potere",
                 "viaggiare",
@@ -35671,7 +35653,7 @@
               "answers": [
                 "avremmo"
               ],
-              "explanation": "'Se prenotassimo l'albergo, avremmo una camera.' — prenotassimo (noi, imperfetto congiuntivo) + avremmo (conditional noi). The hotel dream, conditional-perfect-safe.",
+              "explanation": "'Se prenotassimo l'albergo, avremmo una camera.' — prenotassimo (noi, imperfetto congiuntivo) + avremmo (conditional noi). The hotel dream — no conditional perfect needed.",
               "dictionaryRefs": [
                 "prenotare",
                 "l-albergo",
@@ -36494,7 +36476,9 @@
                 "Too bad you couldn't come.",
                 "It's a pity that you couldn't come.",
                 "What a pity that you couldn't come.",
-                "It's a shame you couldn't come."
+                "It's a shame you couldn't come.",
+                "It's a pity that I couldn't come.",
+                "Too bad I couldn't come."
               ],
               "explanation": "'Peccato che non potessi venire.' — peccato che + potessi: the past chance that slipped away, said kindly.",
               "dictionaryRefs": [
@@ -36561,7 +36545,7 @@
               "mode": "choice",
               "speakIt": "Peccato che non potessi venire.",
               "options": [
-                "Too bad you couldn't come.",
+                "Too bad you couldn't come. / Too bad I couldn't come.",
                 "Thank you for coming.",
                 "You can come tomorrow.",
                 "Be careful when you come."
@@ -39208,8 +39192,7 @@
             "speakIt": "La pizza si fa in casa.",
             "acceptedIt": [
               "La pizza si fa in casa.",
-              "La pizza si fa in casa",
-              "La pizza si fa' in casa"
+              "La pizza si fa in casa"
             ],
             "explanation": "You heard: 'La pizza si fa in casa.' — si + fa: the si passivante — 'it's made at home', no auxiliary needed. 💛",
             "dictionaryRefs": [
@@ -39304,7 +39287,7 @@
             {
               "id": "u52l1e4",
               "type": "multiple_choice",
-              "prompt": "What does it mean?",
+              "prompt": "What does it mean? (Unit 15 recycling)",
               "question": "il cameriere",
               "options": [
                 "the waiter",
@@ -39364,6 +39347,7 @@
               "explanation": "'Al ristorante si lascia la mancia al cameriere.' — la mancia + al cameriere. Notice si lascia: the si impersonale, your grammar today.",
               "dictionaryRefs": [
                 "la-mancia",
+                "lasciare",
                 "il-cameriere",
                 "il-ristorante"
               ]
@@ -39509,7 +39493,9 @@
               ],
               "explanation": "'Si può pagare con la carta?' — si + può: can one pay by card? The question that opens every Italian checkout. 💛",
               "dictionaryRefs": [
-                "potere"
+                "potere",
+                "pagare",
+                "la-carta"
               ]
             },
             {
@@ -40409,7 +40395,8 @@
               "explanation": "'Benché fosse tardi…' — benché + imperfect subjunctive (fosse): the fact is past, the grammar of feeling remains. 💛",
               "dictionaryRefs": [
                 "benche",
-                "restare"
+                "restare",
+                "un-po"
               ]
             },
             {
@@ -41151,13 +41138,11 @@
               "prompt": "Complete the sentence. (Every morning I walk in the park.)",
               "sentence": "Ogni mattina ___ nel parco.",
               "answers": [
-                "cammino",
-                "corro"
+                "cammino"
               ],
-              "explanation": "'Ogni mattina cammino/corro nel parco.' — both fit: walk or run, your choice (il parco, Unit 21; la mattina, Unit 10).",
+              "explanation": "'Ogni mattina cammino nel parco.' — cammino (io, camminare) + nel parco (il parco, Unit 21; la mattina, Unit 10).",
               "dictionaryRefs": [
                 "camminare",
-                "correre",
                 "il-parco",
                 "la-mattina"
               ]
@@ -44480,7 +44465,7 @@
             "la-colazione",
             "il-gesto"
           ],
-          "grammarNotes": "LE QUANTITA' — di as 'of'. WHY: ordering and sharing food needs 'of': un bicchiere di vino (a glass of wine), una tazza di tè (a cup of tea), un po' di pane (a bit of bread), un chilo di pomodori (a kilo of tomatoes — Unit 35). di + vowel → d': un bicchiere d'acqua.\n\nAL BANCONE — coffee standing at the counter: quick, local, and the real Italian way. 'Prendo un caffè al bancone.' — 'I'll take a coffee at the counter.' prendere is the bar-verb of choice.\n\nI PASTI — la colazione (breakfast), la merenda (afternoon snack), il pranzo (lunch — the big one), la cena (dinner). 'A tavola!' — everyone to the table!\n\nGESTI — body language: recognition, never imitation.\n\nFORMS: essere → sono, sei, è, siamo, siete, sono\nprendere → prendo, prendi, prende, prendiamo, prendete, prendono\nfare → faccio, fai, fa, facciamo, fate, fanno",
+          "grammarNotes": "LE QUANTITA' — di as 'of'. WHY: ordering and sharing food needs 'of': un bicchiere di vino (a glass of wine), una tazza di tè (a cup of tea — tè), un po' di pane (a bit of bread — un po' = a bit, pane = bread), un chilo di pomodori (a kilo of tomatoes). di + vowel → d': un bicchiere d'acqua.\n\nAL BANCONE — coffee standing at the counter: quick, local, and the real Italian way. 'Prendo un caffè al bancone.' — 'I'll take a coffee at the counter.' prendere is the bar-verb of choice.\n\nI PASTI — la colazione (breakfast), la merenda (afternoon snack), il pranzo (lunch — the big one), la cena (dinner). 'A tavola!' — everyone to the table!\n\nGESTI — body language: recognition, never imitation.\n\nFORMS: essere → sono, sei, è, siamo, siete, sono\nprendere → prendo, prendi, prende, prendiamo, prendete, prendono\nfare → faccio, fai, fa, facciamo, fate, fanno",
           "exercises": [
             {
               "id": "u58l2e1",
@@ -45268,8 +45253,7 @@
               "prompt": "Complete the sentence. (m. speaker — Unit 27 recycling)",
               "sentence": "Ieri sono ___ a Roma.",
               "answers": [
-                "andato",
-                "andata"
+                "andato"
               ],
               "explanation": "'Ieri sono andato a Roma.' — movement verb → essere + participio (Unit 27). A girl says 'sono andata'.",
               "dictionaryRefs": [
@@ -46889,8 +46873,8 @@
       "partOfSpeech": "phrase",
       "examples": [
         {
-          "it": "Di dove sei? Sono di Roma?",
-          "en": "Where are you from? Are you from Rome?"
+          "it": "Di dove sei? — Sono di Roma.",
+          "en": "Where are you from? — I am from Rome."
         }
       ],
       "introducedInUnit": 2
@@ -47037,8 +47021,8 @@
       "gender": "m",
       "examples": [
         {
-          "it": "Un anno ha dodici mesi.",
-          "en": "A year has twelve months."
+          "it": "Ho venti anni.",
+          "en": "I am twenty years old."
         }
       ],
       "introducedInUnit": 4
@@ -47052,8 +47036,8 @@
       "gender": "m",
       "examples": [
         {
-          "it": "Il telefono è sul tavolo.",
-          "en": "The phone is on the table."
+          "it": "Il telefono è qui.",
+          "en": "The phone is here."
         }
       ],
       "introducedInUnit": 4
@@ -48305,8 +48289,8 @@
           "en": "Dinner is at eight."
         },
         {
-          "it": "Vuoi una cena con me?",
-          "en": "Do you want dinner with me?"
+          "it": "Vuoi cenare con me?",
+          "en": "Do you want to have dinner with me?"
         }
       ],
       "introducedInUnit": 15
@@ -51892,7 +51876,7 @@
           "en": "I ask the waiter for the bill."
         }
       ],
-      "introducedInUnit": 52
+      "introducedInUnit": 15
     },
     {
       "id": "l-aperitivo",
@@ -52852,6 +52836,125 @@
         }
       ],
       "introducedInUnit": 60
+    },
+    {
+      "id": "sazio",
+      "word": "sazio",
+      "translation": "full (after eating)",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "No, grazie. Ho finito: sono sazio!",
+          "en": "No, thanks. I'm full!"
+        }
+      ],
+      "introducedInUnit": 45
+    },
+    {
+      "id": "benvenuto",
+      "word": "benvenuto",
+      "translation": "welcome",
+      "partOfSpeech": "interjection",
+      "examples": [
+        {
+          "it": "Benvenuto! Entra, entra.",
+          "en": "Welcome! Come in, come in."
+        }
+      ],
+      "introducedInUnit": 1
+    },
+    {
+      "id": "invitare",
+      "word": "invitare",
+      "translation": "to invite",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Ora tu inviti Giulia al bar.",
+          "en": "Now you invite Giulia to the café."
+        }
+      ],
+      "introducedInUnit": 5
+    },
+    {
+      "id": "un-po",
+      "word": "un po'",
+      "translation": "a bit",
+      "partOfSpeech": "phrase",
+      "examples": [
+        {
+          "it": "Restiamo ancora un po'.",
+          "en": "Let's stay a bit longer."
+        }
+      ],
+      "introducedInUnit": 53
+    },
+    {
+      "id": "buono",
+      "word": "buono (f. buona)",
+      "translation": "good; kind",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "it": "Ho una scusa buona.",
+          "en": "I have a good excuse."
+        }
+      ],
+      "introducedInUnit": 42
+    },
+    {
+      "id": "lasciare",
+      "word": "lasciare",
+      "translation": "to leave; to let",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Al ristorante si lascia la mancia al cameriere.",
+          "en": "At the restaurant you leave the tip for the waiter."
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "pagare",
+      "word": "pagare",
+      "translation": "to pay",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Si può pagare con la carta?",
+          "en": "Can you pay by card?"
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "la-carta",
+      "word": "carta",
+      "article": "la",
+      "translation": "card",
+      "partOfSpeech": "noun",
+      "gender": "f",
+      "examples": [
+        {
+          "it": "Si può pagare con la carta?",
+          "en": "Can you pay by card?"
+        }
+      ],
+      "introducedInUnit": 52
+    },
+    {
+      "id": "cenare",
+      "word": "cenare",
+      "translation": "to have dinner; to dine",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "it": "Vuoi cenare con me?",
+          "en": "Do you want to have dinner with me?"
+        }
+      ],
+      "introducedInUnit": 15
     }
   ],
   "stories": [
@@ -52863,8 +52966,8 @@
         {
           "id": "n1",
           "speaker": "Narratore",
-          "textIt": "È sera. Tu sei al bar. La barista sorride. Cosa dici?",
-          "textEn": "It's evening. You are at the café. The barista smiles. What do you say?",
+          "textIt": "È sera. Tu sei al bar. La ragazza sorride. Cosa dici?",
+          "textEn": "It's evening. You are at the café. The girl smiles. What do you say?",
           "choices": [
             {
               "text": "Buonasera!",
@@ -52887,7 +52990,7 @@
         },
         {
           "id": "n2",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "Buonasera! Come ti chiami?",
           "textEn": "Good evening! What's your name?",
           "choices": [
@@ -52912,7 +53015,7 @@
         },
         {
           "id": "n3",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "Piacere, Alex! Io sono Giulia. E tu, di dove sei?",
           "textEn": "Nice to meet you, Alex! I'm Giulia. And you, where are you from?",
           "choices": [
@@ -52937,9 +53040,9 @@
         },
         {
           "id": "n4",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "E come si scrive il tuo nome, Alex?",
-          "textEn": "And how do you spell your name, Alex?",
+          "textEn": "And how do you spell your name, Alex? (a set phrase: how does one write your name)",
           "choices": [
             {
               "text": "A-L-E-X.",
@@ -52962,7 +53065,7 @@
         },
         {
           "id": "n5",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "Quanti anni hai, Alex?",
           "textEn": "How old are you, Alex?",
           "choices": [
@@ -52987,7 +53090,7 @@
         },
         {
           "id": "n6",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "Hai un telefono, Alex?",
           "textEn": "Do you have a phone, Alex?",
           "choices": [
@@ -53012,7 +53115,7 @@
         },
         {
           "id": "n7",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "Qual è il tuo numero?",
           "textEn": "What's your (phone) number?",
           "choices": [
@@ -53062,7 +53165,7 @@
         },
         {
           "id": "n9",
-          "speaker": "Giulia (barista)",
+          "speaker": "Giulia",
           "textIt": "Sì! Al bar con te, Alex. Grazie!",
           "textEn": "Yes! To the café with you, Alex. Thank you!",
           "choices": [
@@ -53352,7 +53455,7 @@
         {
           "id": "n11",
           "speaker": "Narratore",
-          "textIt": "Giulia sorride: 'Ciao, Alex! A presto!' La cena con Giulia è finita bene. Bravissimo, Alex!",
+          "textIt": "Giulia sorride: 'Ciao, Alex! A presto!' La cena con Giulia è finita bene. Bravo, Alex!",
           "textEn": "Giulia smiles: 'Bye, Alex! See you soon!' (a presto) The dinner with Giulia ended well. Well done, Alex!",
           "terminal": true
         }
@@ -53591,8 +53694,8 @@
         {
           "id": "n10",
           "speaker": "Narratore",
-          "textIt": "Un caffè, un sorriso, un messaggio. Alex e Giulia: domani sera, il cinema. Bravissimo!",
-          "textEn": "A coffee, a smile (un sorriso), a message. Alex and Giulia: tomorrow evening, the movies. Well done!",
+          "textIt": "Un caffè, un appuntamento, un messaggio. Alex e Giulia: domani sera, il cinema. Bravo!",
+          "textEn": "A coffee, a date, a message. Alex and Giulia: tomorrow evening, the movies. Well done!",
           "terminal": true
         }
       ]
@@ -53605,8 +53708,8 @@
         {
           "id": "n1",
           "speaker": "Narratore",
-          "textIt": "È sera. Tu e Giulia arrivate a casa dei suoi genitori. È la tua prima cena con la famiglia. Suona il campanello. La madre di Giulia apre la porta. Cosa dici?",
-          "textEn": "It's evening. You and Giulia arrive at her parents' house. It's your first dinner with the family. The doorbell rings. Giulia's mother opens the door. What do you say?",
+          "textIt": "È sera. Tu e Giulia arrivate a casa dei suoi genitori. È la tua prima cena con la famiglia. La madre di Giulia apre la porta. Cosa dici?",
+          "textEn": "It's evening. You and Giulia arrive at her parents' house. It's your first dinner with the family. Giulia's mother opens the door. What do you say?",
           "choices": [
             {
               "text": "Buonasera, signora!",
@@ -53630,8 +53733,8 @@
         {
           "id": "n2",
           "speaker": "Madre",
-          "textIt": "Buonasera, Alex! Benvenuto! Entra, accomodati pure.",
-          "textEn": "Good evening, Alex! Welcome! Come in, make yourself comfortable.",
+          "textIt": "Buonasera, Alex! Benvenuto! Entra, entra.",
+          "textEn": "Good evening, Alex! Welcome! Come in, come in.",
           "choices": [
             {
               "text": "Grazie, signora! Piacere!",
@@ -53655,8 +53758,8 @@
         {
           "id": "n3",
           "speaker": "Madre",
-          "textIt": "Vieni, siediti a tavola. Hai fame?",
-          "textEn": "Come, sit down at the table. Are you hungry?",
+          "textIt": "Vieni, vieni a tavola. Hai fame?",
+          "textEn": "Come, come to the table. Are you hungry?",
           "choices": [
             {
               "text": "Sì, ho fame, grazie.",
@@ -53680,8 +53783,8 @@
         {
           "id": "n4",
           "speaker": "Padre",
-          "textIt": "Alex, io lavoro in un ufficio. E tu, cosa fai?",
-          "textEn": "Alex, I work in an office. And you, what do you do?",
+          "textIt": "Alex, io lavoro. E tu, cosa fai?",
+          "textEn": "Alex, I work. And you, what do you do?",
           "choices": [
             {
               "text": "Sono studente e studio l'italiano.",
@@ -53695,10 +53798,10 @@
               "feedbackEn": "Studia is lui/lei — about another person. About yourself: io studio l'italiano (verb studiare, Unit 8)."
             },
             {
-              "text": "Sono uno studente e studio l'italiano.",
+              "text": "Sono una studente e studio l'italiano.",
               "next": "n4",
               "correct": false,
-              "feedbackEn": "Student(e) starts with a regular consonant — uno is only for s+consonant, z, gn, ps (Unit 5). Say: sono studente / sono UNO studente → just 'sono studente' sounds most natural, or 'sono un...' no — un studente!"
+              "feedbackEn": "'Una' is feminine — studente is masculine: 'sono studente' or 'sono uno studente' (Unit 5)."
             }
           ]
         },
@@ -53809,7 +53912,7 @@
           "textEn": "Eat, eat! Do you want more pasta, Alex?",
           "choices": [
             {
-              "text": "No, grazie. Ho finito: sono sazio!",
+              "text": "No, grazie. Ho finito: sono sazio (I'm full)!",
               "next": "n10",
               "correct": true
             },
@@ -53834,7 +53937,7 @@
           "textEn": "So, did you like the dinner, Alex?",
           "choices": [
             {
-              "text": "Sì, è buonissima! E complimenti alla cuoca!",
+              "text": "Sì, è buonissima! E complimenti alla madre di Giulia!",
               "next": "n11",
               "correct": true
             },
@@ -53855,8 +53958,8 @@
         {
           "id": "n11",
           "speaker": "Narratore",
-          "textIt": "La cena finisce. Tu e Giulia state per uscire. Ringrazi i suoi genitori. Cosa dici?",
-          "textEn": "The dinner ends. You and Giulia are about to leave. You thank her parents. What do you say?",
+          "textIt": "La cena finisce. Tu e Giulia uscite. Ringrazi i suoi genitori. Cosa dici?",
+          "textEn": "The dinner ends. You and Giulia leave. You thank her parents. What do you say?",
           "choices": [
             {
               "text": "Grazie per la serata! È stata una cena bellissima.",
@@ -53905,7 +54008,7 @@
         {
           "id": "n13",
           "speaker": "Narratore",
-          "textIt": "Giulia sorride: 'Anche loro ti trovano simpatico, Alex!' Bravissimo! Lei con i genitori, tu con Giulia — e la cena è finita bene.",
+          "textIt": "Giulia sorride: 'Anche loro ti trovano simpatico, Alex!' Bravo! Lei con i genitori, tu con Giulia — e la cena è finita bene.",
           "textEn": "Giulia smiles: 'They like you too, Alex!' (they find you nice) Well done! Lei with the parents, tu with Giulia — and the dinner ended well.",
           "terminal": true
         }

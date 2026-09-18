@@ -34,6 +34,8 @@ sealed interface Feedback {
         val heardLabel: String? = null,
         val heard: String? = null,
         val heardNote: String? = null,
+        /** Typed answers only: the answer was right except for a missing accent. */
+        val typoNote: String? = null,
     ) : Feedback
 
     data class Wrong(
@@ -282,26 +284,38 @@ class LessonViewModel @Inject constructor(
         val s = _state.value
         val e = s.exercise ?: return
         if (s.feedback != null) return
-        val correct = when (e.type) {
-            ExerciseTypes.MULTIPLE_CHOICE -> s.selectedOption == e.correctIndex
-            ExerciseTypes.FILL_BLANK -> AnswerMatcher.matchesAny(e.answers.orEmpty(), s.typedAnswer)
-            ExerciseTypes.TRANSLATION_IT_EN -> AnswerMatcher.matchesAny(e.acceptedEn.orEmpty(), s.typedAnswer)
-            ExerciseTypes.TRANSLATION_EN_IT -> AnswerMatcher.matchesAny(e.acceptedIt.orEmpty(), s.typedAnswer)
+        val (correct, accentTypo) = when (e.type) {
+            ExerciseTypes.MULTIPLE_CHOICE -> (s.selectedOption == e.correctIndex) to false
+            ExerciseTypes.FILL_BLANK -> typedCorrect(e.answers.orEmpty(), s.typedAnswer)
+            ExerciseTypes.TRANSLATION_IT_EN -> typedCorrect(e.acceptedEn.orEmpty(), s.typedAnswer)
+            ExerciseTypes.TRANSLATION_EN_IT -> typedCorrect(e.acceptedIt.orEmpty(), s.typedAnswer)
             ExerciseTypes.LISTENING -> when (e.mode) {
-                "type" -> AnswerMatcher.matchesAny(e.acceptedIt.orEmpty(), s.typedAnswer)
-                else -> s.selectedOption == e.correctIndex
+                "type" -> typedCorrect(e.acceptedIt.orEmpty(), s.typedAnswer)
+                else -> (s.selectedOption == e.correctIndex) to false
             }
             ExerciseTypes.SENTENCE_SCRAMBLE ->
-                normalizeWhitespace(s.scramblePlaced.joinToString(" ")) ==
-                    normalizeWhitespace(e.correctSentence.orEmpty())
-            else -> false
+                (normalizeWhitespace(s.scramblePlaced.joinToString(" ")) ==
+                    normalizeWhitespace(e.correctSentence.orEmpty())) to false
+            else -> false to false
         }
+        val typoNote = if (accentTypo) ACCENT_TYPO_NOTE else null
         val feedback = when (e.type) {
             // listening always reveals what was spoken (§6.5) plus the explanation
-            ExerciseTypes.LISTENING -> listeningFeedback(e, correct)
-            else -> plainFeedback(e, correct)
+            ExerciseTypes.LISTENING -> listeningFeedback(e, correct, typoNote)
+            else -> plainFeedback(e, correct, typoNote)
         }
         grade(e, correct, feedback)
+    }
+
+    /** Grades a typed answer: exact match → correct; accent-only miss (è→e, à→a…)
+     *  → still correct, but flagged for the missing-accent typo notice; a plain
+     *  fuzzy typo → correct; otherwise wrong. Second value = accent flag. */
+    private fun typedCorrect(accepted: List<String>, typed: String): Pair<Boolean, Boolean> = when {
+        accepted.isEmpty() -> false to false
+        AnswerMatcher.matchesAnyExact(accepted, typed) -> true to false
+        AnswerMatcher.accentOnlyDifference(accepted, typed) -> true to true
+        AnswerMatcher.matchesAny(accepted, typed) -> true to false
+        else -> false to false
     }
 
     fun next() {
@@ -454,14 +468,14 @@ class LessonViewModel @Inject constructor(
         _state.value = _state.value.copy(feedback = feedback, speakingBusy = false, strikes = strikes)
     }
 
-    private fun plainFeedback(e: ExerciseDto, correct: Boolean): Feedback =
-        if (correct) Feedback.Correct(e.explanation ?: "")
+    private fun plainFeedback(e: ExerciseDto, correct: Boolean, typoNote: String? = null): Feedback =
+        if (correct) Feedback.Correct(e.explanation ?: "", typoNote = typoNote)
         else Feedback.Wrong(e.explanation ?: "", correctAnswerText(e))
 
     /** Listening feedback always reveals what was spoken (§6.5) plus the explanation. */
-    private fun listeningFeedback(e: ExerciseDto, correct: Boolean): Feedback =
+    private fun listeningFeedback(e: ExerciseDto, correct: Boolean, typoNote: String? = null): Feedback =
         if (correct) {
-            Feedback.Correct(e.explanation ?: "", "You heard:", e.speakIt.orEmpty())
+            Feedback.Correct(e.explanation ?: "", "You heard:", e.speakIt.orEmpty(), typoNote = typoNote)
         } else {
             Feedback.Wrong(e.explanation ?: "", correctAnswerText(e), "You heard:", e.speakIt.orEmpty())
         }
@@ -485,6 +499,10 @@ class LessonViewModel @Inject constructor(
         const val XP_PER_CORRECT = 5
         const val XP_PER_LESSON = 10
         const val XP_PER_CHECKPOINT = 50
+
+        /** Shown when a typed answer is correct except for a missing accent. */
+        const val ACCENT_TYPO_NOTE =
+            "Almost correct — just a missing accent. In Italian, accents matter: 'e' and 'è' are different words."
 
         /** Whitespace-normalized comparison for sentence_scramble (§6.7). */
         fun normalizeWhitespace(s: String): String = s.trim().replace(Regex("\\s+"), " ")

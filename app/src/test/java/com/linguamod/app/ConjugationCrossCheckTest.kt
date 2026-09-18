@@ -36,8 +36,10 @@ class ConjugationCrossCheckTest {
             unit.lessons?.forEach { lesson ->
                 val notes = lesson.grammarNotes ?: return@forEach
                 ConjugationReference.PRESENT.forEach { (verb, paradigm) ->
-                    // trigger: the verb name appears uppercase as a table header, e.g. "ESSERE (to be)"
-                    if (notes.contains(verb.uppercase())) {
+                    // trigger: the verb name appears uppercase as a table header, e.g. "ESSERE (to be)".
+                    // Whole-word match: "ANDARE" must not trigger the DARE check (Stage 8 audit
+                    // removed the stray dare/dire footers that incidentally satisfied it).
+                    if (Regex("\\b${verb.uppercase()}\\b").containsMatchIn(notes)) {
                         paradigm.persons.forEachIndexed { i, form ->
                             val personLabel = persons[i].split("/")[0]
                             if (!notes.contains(form)) {

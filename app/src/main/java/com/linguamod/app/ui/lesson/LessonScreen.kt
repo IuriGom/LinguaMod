@@ -499,6 +499,16 @@ private fun FeedbackCard(fb: Feedback) {
                     modifier = Modifier.testTag("heard_note"),
                 )
             }
+            // Stage 8 audit: a correct answer that was missing an accent says so.
+            val typoNote = (fb as? Feedback.Correct)?.typoNote
+            if (!typoNote.isNullOrBlank()) {
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    typoNote,
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.testTag("typo_note"),
+                )
+            }
             if (fb is Feedback.Wrong) {
                 Spacer(Modifier.height(4.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {

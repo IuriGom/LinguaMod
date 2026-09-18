@@ -58,6 +58,29 @@ class AnswerMatcherTest {
         assertFalse(AnswerMatcher.matchesAny(listOf("Sì", "Si"), "no"))
     }
 
+    @Test fun `matchesExactly is strict about fuzzy typos`() {
+        assertTrue(AnswerMatcher.matchesExactly("Marco è italiano.", "marco è italiano"))
+        assertTrue(AnswerMatcher.matchesExactly("l'amore", "l amore"))
+        assertFalse(AnswerMatcher.matchesExactly("ciao", "ciaoo"))
+        assertFalse(AnswerMatcher.matchesExactly("Marco è italiano.", "Marco e italiano"))
+    }
+
+    @Test fun `accent-only difference is detected`() {
+        assertTrue(AnswerMatcher.accentOnlyDifference(listOf("Marco è italiano."), "Marco e italiano"))
+        assertTrue(AnswerMatcher.accentOnlyDifference(listOf("Un caffè, per favore."), "Un caffe, per favore"))
+        assertTrue(AnswerMatcher.accentOnlyDifference(listOf("Perché"), "Perche"))
+        assertTrue(AnswerMatcher.accentOnlyDifference(listOf("Mi piace la città."), "Mi piace la citta"))
+    }
+
+    @Test fun `exact answer is not flagged as accent-only`() {
+        assertFalse(AnswerMatcher.accentOnlyDifference(listOf("Marco è italiano."), "marco è italiano"))
+    }
+
+    @Test fun `real typo is not an accent-only difference`() {
+        assertFalse(AnswerMatcher.accentOnlyDifference(listOf("Marco è italiano."), "Marco e italianx"))
+        assertFalse(AnswerMatcher.accentOnlyDifference(listOf("Perché"), "Perche non"))
+    }
+
     @Test fun `speaking token overlap scoring`() {
         assertTrue(AnswerMatcher.tokenOverlap("Mi chiamo Marco", "mi chiamo marco") == 1.0)
         val twoThirds = AnswerMatcher.tokenOverlap("Mi chiamo Marco", "mi chiamo")

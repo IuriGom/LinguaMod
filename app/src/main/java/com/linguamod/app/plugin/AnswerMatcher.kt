@@ -55,6 +55,39 @@ object AnswerMatcher {
 
     fun matchesAny(accepted: List<String>, actual: String): Boolean = accepted.any { matches(it, actual) }
 
+    // --- accent leniency (Stage 8 audit): an answer whose ONLY deviation is a
+    // missing accent (è→e, à→a, …) is still correct, but the engine flags it so
+    // the learner sees a typo notice instead of a silent pass.
+
+    private val combiningMarks = Regex("\\p{Mn}+")
+
+    /** §9 normalization followed by accent folding (NFD, strip combining marks). */
+    fun normalizeFolded(s: String): String =
+        combiningMarks.replace(Normalizer.normalize(normalize(s), Normalizer.Form.NFD), "")
+
+    private fun exactTokens(s: String) = normalize(s).split(" ").filter { it.isNotEmpty() }
+    private fun foldedTokens(s: String) = normalizeFolded(s).split(" ").filter { it.isNotEmpty() }
+
+    /** Token-exact match after §9 normalization — no fuzzy typo tolerance. */
+    fun matchesExactly(expectedRaw: String, actualRaw: String): Boolean {
+        val expected = exactTokens(expectedRaw)
+        val actual = exactTokens(actualRaw)
+        return expected.size == actual.size &&
+            expected.zip(actual).all { (e, a) -> e == a }
+    }
+
+    fun matchesAnyExact(accepted: List<String>, actual: String): Boolean =
+        accepted.any { matchesExactly(it, actual) }
+
+    /** True when [actual] equals some accepted variant after accent folding but
+     *  not exactly — i.e. the only mistakes are missing accents. */
+    fun accentOnlyDifference(accepted: List<String>, actual: String): Boolean =
+        accepted.any { exp ->
+            val e = foldedTokens(exp)
+            val a = foldedTokens(actual)
+            e.size == a.size && e.zip(a).all { (x, y) -> x == y } && !matchesExactly(exp, actual)
+        }
+
     /** §6.6 speaking scoring: token overlap vs target after §9 normalization.
      *  Fraction of target tokens present (exact or fuzzy) in the transcript. */
     fun tokenOverlap(targetRaw: String, heardRaw: String): Double {
