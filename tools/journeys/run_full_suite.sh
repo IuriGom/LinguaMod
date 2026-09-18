@@ -16,7 +16,8 @@ $ADB -s "$SERIAL" shell am force-stop $PKG || true
 $ADB -s "$SERIAL" shell am instrument -w \
   "$PKG.test/com.linguamod.app.LinguaModTestRunner" > "$LOG" 2>&1 || true
 
-grep -E "run finished" "$LOG" | tail -1
-FAILED=$(grep -cE "^.*TestRunner: failed:" "$LOG" || true)
-echo "failed lines: $FAILED"
-grep -E "TestRunner: failed:" "$LOG" | sed 's/^.*TestRunner: //' || true
+# failure stacks and per-class errors appear on stdout as "Error in <test>:"
+ERRORS=$(grep -c "^Error in " "$LOG" || true)
+echo "errors: $ERRORS"
+grep "^Error in " "$LOG" | sed 's/:.*//' || true
+tail -1 "$LOG"
