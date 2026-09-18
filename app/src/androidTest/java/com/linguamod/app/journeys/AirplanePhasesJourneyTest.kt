@@ -88,16 +88,45 @@ class AirplanePhasesJourneyTest {
         }
     }
 
+    /** Scrolls to a path row and taps it, retrying until [targetTag] appears
+     *  (taps can be swallowed mid-scroll on a loaded emulator — same idiom as
+     *  Story2JourneyTest.openPathRow). */
+    private fun openPathRow(rowTag: String, targetTag: String) {
+        val deadline = System.currentTimeMillis() + 60_000
+        var last: Throwable? = null
+        while (System.currentTimeMillis() < deadline) {
+            try {
+                composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(rowTag))
+                composeRule.onNodeWithTag(rowTag).performClick()
+                composeRule.waitUntilExactlyOneExists(hasTestTag(targetTag), 8_000)
+                return
+            } catch (e: AssertionError) {
+                last = e
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                last = e
+            }
+        }
+        throw AssertionError("row $rowTag never opened ($targetTag)", last)
+    }
+
     @Test
     fun journey_airplane_phases() {
         val plugin = loadPlugin()
         composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 30_000)
+        var onHome = true
         listOf(5, 20, 35, 50).forEach { unit ->
             seedThrough(unit, 1)
-            composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("unit_node_$unit"))
-            composeRule.onNodeWithTag("unit_node_$unit").performClick()
-            composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_1"), 10_000)
+            if (!onHome) pressBackToHome()
+            openPathRow("unit_node_$unit", "lesson_row_1")
             SolverBot(composeRule, plugin, db = db).completeLesson(unit, 1)
+            onHome = false
         }
+    }
+
+    private fun pressBackToHome() {
+        androidx.test.uiautomator.UiDevice.getInstance(
+            androidx.test.platform.app.InstrumentationRegistry.getInstrumentation()
+        ).pressBack()
+        composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 10_000)
     }
 }

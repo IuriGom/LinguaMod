@@ -43,10 +43,8 @@ import org.junit.runner.RunWith
  *    mid-story — must relaunch and render without a crash
  *  - am send-trim-memory 80 (TRIM_MEMORY_COMPLETE) at path, mid-lesson, and
  *    mid-story — the flow must survive and keep working
- *  - path jank proxy (SwiftShader makes gfxinfo jank unusable, documented
- *    since Stage 4): the real 60-unit path must render and scroll
- *    end-to-end via raw UiDevice swipes without ANR; real frame stats are
- *    logged for the record.
+ *  (path end-to-end scroll + frame-stats jank proxy: reused from
+ *   Phase2ReadinessJourneyTest since Stage 5, not duplicated here)
  */
 @OptIn(ExperimentalTestApi::class)
 @UninstallModules(AppModule::class)
@@ -117,6 +115,24 @@ class HostileDeviceJourneyTest {
 
     // --- navigation helpers -------------------------------------------------
 
+    private fun openStoryRow() {
+        val deadline = System.currentTimeMillis() + 60_000
+        var last: Throwable? = null
+        while (System.currentTimeMillis() < deadline) {
+            try {
+                composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("story_row_story1"))
+                composeRule.onNodeWithTag("story_row_story1").performClick()
+                composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 8_000)
+                return
+            } catch (e: AssertionError) {
+                last = e
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                last = e
+            }
+        }
+        throw AssertionError("story_row_story1 never opened (story_screen)", last)
+    }
+
     private fun openUnitLesson(unitNodeTag: String, lessonRow: Int) {
         composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(unitNodeTag))
         composeRule.onNodeWithTag(unitNodeTag).performClick()
@@ -146,8 +162,7 @@ class HostileDeviceJourneyTest {
     fun hostile_rotation_mid_story() {
         seedCompletedUnits(5)
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY1) }
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("story_row_story1"))
-        composeRule.onNodeWithTag("story_row_story1").performClick()
+        openStoryRow()
         composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 10_000)
         device.setOrientationLeft()
         composeRule.waitForIdle()
@@ -191,8 +206,7 @@ class HostileDeviceJourneyTest {
     fun hostile_process_death_mid_story() = processDeathAt("process death mid-story") {
         seedCompletedUnits(5)
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY1) }
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("story_row_story1"))
-        composeRule.onNodeWithTag("story_row_story1").performClick()
+        openStoryRow()
         composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 10_000)
     }
 
@@ -231,8 +245,7 @@ class HostileDeviceJourneyTest {
     fun hostile_trim_memory_mid_story() {
         seedCompletedUnits(5)
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY1) }
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag("story_row_story1"))
-        composeRule.onNodeWithTag("story_row_story1").performClick()
+        openStoryRow()
         composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 10_000)
         sendTrimCritical()
         composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 10_000)
