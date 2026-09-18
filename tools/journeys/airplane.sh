@@ -24,6 +24,11 @@ $ADB "${DEV[@]}" shell am instrument -w -e class \
   com.linguamod.app.journeys.RotationAirplaneJourneyTest#journey_airplane \
   com.linguamod.app.test/com.linguamod.app.LinguaModTestRunner
 
+echo "[airplane] running journey_airplane_phases (P1 u5, P2 u20, P3 u35, P4 u50)"
+$ADB "${DEV[@]}" shell am instrument -w -e class \
+  com.linguamod.app.journeys.AirplanePhasesJourneyTest \
+  com.linguamod.app.test/com.linguamod.app.LinguaModTestRunner
+
 echo "[airplane] checking for crashes"
 if $ADB "${DEV[@]}" logcat -d | grep -E "FATAL EXCEPTION.*com.linguamod" ; then
   echo "[airplane] FAIL: crash detected"; exit 1

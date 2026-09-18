@@ -8,7 +8,7 @@ EVENTS=${1:-20000}
 SERIAL=${2:-}
 DEV=(${SERIAL:+-s $SERIAL})
 
-$ADB "${DEV[@]}" logcat -c
+$ADB "${DEV[@]}" logcat -c 2>/dev/null || $ADB "${DEV[@]}" logcat -c -b all 2>/dev/null || true
 $ADB "${DEV[@]}" shell monkey -p $PKG --pct-syskeys 0 --ignore-security-exceptions "$EVENTS" > /tmp/monkey_out.txt 2>&1 || true
 tail -3 /tmp/monkey_out.txt
 
