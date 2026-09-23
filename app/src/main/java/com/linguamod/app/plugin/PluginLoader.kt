@@ -40,20 +40,27 @@ class PluginLoader @Inject constructor(
      *   removed by hand, or a replaced bundled file → leave things alone.
      */
     suspend fun installBundledDemoIfNeeded() = withContext(Dispatchers.IO) {
-        pluginDir.mkdirs()
-        val installed = File(pluginDir, BUNDLED_FILE_NAME)
-        val anyPlugin = pluginDir.listFiles()?.any { it.extension == "lingua" } == true
-        if (!anyPlugin) {
-            if (db.progressDao().getUserProgress() != null) return@withContext // not a fresh install
-            copyBundled(installed)
-            return@withContext
-        }
-        if (!installed.exists()) return@withContext // user replaced the bundled plugin
-        val bundledVersion = metaVersionOf(readBundledText()) ?: return@withContext
-        val installedVersion = metaVersionOf(installed.readText()) ?: 0
-        if (bundledVersion > installedVersion) {
-            Log.i(TAG, "upgrading bundled plugin v$installedVersion → v$bundledVersion")
-            copyBundled(installed)
+        // defensive: the external plugins dir can be removed underneath us
+        // (user cleanup, OEM file managers, test harnesses) between the
+        // exists() check and the read — never crash the startup path over it
+        try {
+            pluginDir.mkdirs()
+            val installed = File(pluginDir, BUNDLED_FILE_NAME)
+            val anyPlugin = pluginDir.listFiles()?.any { it.extension == "lingua" } == true
+            if (!anyPlugin) {
+                if (db.progressDao().getUserProgress() != null) return@withContext // not a fresh install
+                copyBundled(installed)
+                return@withContext
+            }
+            if (!installed.exists()) return@withContext // user replaced the bundled plugin
+            val bundledVersion = metaVersionOf(readBundledText()) ?: return@withContext
+            val installedVersion = metaVersionOf(installed.readText()) ?: 0
+            if (bundledVersion > installedVersion) {
+                Log.i(TAG, "upgrading bundled plugin v$installedVersion → v$bundledVersion")
+                copyBundled(installed)
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "bundled plugin install/upgrade check failed", e)
         }
     }
 

@@ -66,6 +66,13 @@ class OcrDenialJourneyTest {
     @Before
     fun setup() {
         hiltRule.inject()
+        // never assume a never-granted state: a class that ran earlier in the
+        // same suite may have granted CAMERA via GrantPermissionRule, and
+        // grants persist for the whole instrumentation run (class execution
+        // order is NOT alphabetical on all runners — see OcrJourneyTest note)
+        val pfd = InstrumentationRegistry.getInstrumentation().uiAutomation
+            .executeShellCommand("pm revoke ${context.packageName} android.permission.CAMERA")
+        pfd.use { android.os.ParcelFileDescriptor.AutoCloseInputStream(it).readBytes() }
         File(context.getExternalFilesDir(null), "plugins").deleteRecursively()
         runBlocking {
             db.clearAllTables()

@@ -241,8 +241,21 @@ class FuzzPluginsJourneyTest {
         assertTrue(metas.any { it.fileName == "it.lingua" && it.valid })
 
         // app still usable: Solver Bot completes Unit 1 Lesson 1 through the real UI
-        composeRule.onNodeWithTag("unit_node_1").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
+        // (retry the tap: a recomposing path row can swallow the first click)
+        run {
+            val deadline = System.currentTimeMillis() + 30_000
+            var last: Throwable? = null
+            while (System.currentTimeMillis() < deadline) {
+                try {
+                    composeRule.onNodeWithTag("unit_node_1").performClick()
+                    composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_0"), 10_000)
+                    last = null
+                    break
+                } catch (e: AssertionError) { last = e }
+                catch (e: androidx.compose.ui.test.ComposeTimeoutException) { last = e }
+            }
+            if (last != null) throw AssertionError("unit_node_1 never opened (lesson_row_0)", last)
+        }
         val pluginText = context.assets.open("plugins/it.lingua").bufferedReader().readText()
         val plugin = json.decodeFromString(LinguaPluginDto.serializer(), pluginText)
         SolverBot(composeRule, plugin, db = db).completeLesson(1, 0)

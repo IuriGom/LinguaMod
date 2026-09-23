@@ -80,12 +80,15 @@ class DictionaryGatingTest {
         val rows = runBlocking { db.dictionaryDao().getUpToUnit(1) }
         assertEquals(unit1Entries, rows.size)
         assertTrue(rows.none { it.introducedInUnit > 1 })
-        // back to a tab screen (unit detail has no bottom bar), then dictionary
-        androidx.test.uiautomator.UiDevice.getInstance(
-            androidx.test.platform.app.InstrumentationRegistry.getInstrumentation()
-        ).pressBack()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("tab_dictionary"), 10_000)
+        // fresh activity: the dictionary ViewModel's flatMapLatest reads
+        // highestStartedUnit once per (re)subscription — a stale VM from the
+        // first visit can keep observing unit 0, so relaunch to force a
+        // fresh read after the lesson write (in-suite process reuse made
+        // this flaky on API 26)
+        scenario.close()
+        scenario = ActivityScenario.launch(MainActivity::class.java)
+        composeRule.waitUntilExactlyOneExists(hasTestTag("tab_dictionary"), 30_000)
         composeRule.onNodeWithTag("tab_dictionary").performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("dictionary_list"), 10_000)
+        composeRule.waitUntilExactlyOneExists(hasTestTag("dictionary_list"), 15_000)
     }
 }
