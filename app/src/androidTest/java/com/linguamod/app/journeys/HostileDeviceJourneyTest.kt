@@ -98,6 +98,34 @@ class HostileDeviceJourneyTest {
         return pfd.use { android.os.ParcelFileDescriptor.AutoCloseInputStream(it).readBytes().decodeToString() }
     }
 
+    /** Wait for a tag; on timeout, fail with a semantics dump of whatever the
+     *  app actually rendered (gauntlet diagnostics — see what survived). */
+    private fun waitOrDump(tag: String, ms: Long, label: String) {
+        try {
+            composeRule.waitUntilExactlyOneExists(hasTestTag(tag), ms)
+        } catch (e: Throwable) {
+            val dumpFile = File(context.getExternalFilesDir(null), "hostile_dump_$label.xml")
+            runCatching { dumpFile.parentFile?.mkdirs(); device.dumpWindowHierarchy(dumpFile) }
+            val top = shell("dumpsys activity activities | grep -E 'ResumedActivity|topResumedActivity'").trim()
+            val crash = shell("logcat -d -b crash | tail -30").trim()
+            throw AssertionError(
+                "$label: tag '$tag' missing after ${ms}ms\n" +
+                    "resumed: $top\n" +
+                    "crash buffer tail: ${crash.take(1500)}\n" +
+                    "window hierarchy dumped to ${dumpFile.absolutePath}",
+                e,
+            )
+        }
+    }
+
+    private fun seedLessonsCompleted(unitNumber: Int, lessonIndexes: IntRange) = runBlocking {
+        for (l in lessonIndexes) {
+            db.progressDao().upsertLessonProgress(
+                LessonProgressEntity(unitNumber, l, completed = true, score = 1.0, attempts = 1, lastAccessed = 0L)
+            )
+        }
+    }
+
     private fun seedCompletedUnits(n: Int) = runBlocking {
         for (u in 1..n) {
             for (l in 0..4) {
@@ -133,11 +161,29 @@ class HostileDeviceJourneyTest {
         throw AssertionError("story_row_story1 never opened (story_screen)", last)
     }
 
-    private fun openUnitLesson(unitNodeTag: String, lessonRow: Int) {
-        composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(unitNodeTag))
-        composeRule.onNodeWithTag(unitNodeTag).performClick()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_$lessonRow"), 10_000)
-        composeRule.onNodeWithTag("lesson_row_$lessonRow").performClick()
+    private fun openUnitLesson(unitNodeTag: String, lessonRow: Int, firstExerciseTag: String) {
+        val deadline = System.currentTimeMillis() + 60_000
+        var last: Throwable? = null
+        while (System.currentTimeMillis() < deadline) {
+            try {
+                composeRule.onNodeWithTag("path_list").performScrollToNode(hasTestTag(unitNodeTag))
+                composeRule.onNodeWithTag(unitNodeTag).performClick()
+                composeRule.waitUntilExactlyOneExists(hasTestTag("lesson_row_$lessonRow"), 10_000)
+                composeRule.onNodeWithTag("lesson_row_$lessonRow").performClick()
+                // tap on a still-locked / recomposing row is swallowed by the UI;
+                // only the lesson screen proving the row opened lets us proceed
+                composeRule.waitUntilExactlyOneExists(hasTestTag(firstExerciseTag), 15_000)
+                return
+            } catch (e: AssertionError) {
+                last = e
+                // if a lesson opened, back out before retrying from the path
+                runCatching { device.pressBack() }
+            } catch (e: androidx.compose.ui.test.ComposeTimeoutException) {
+                last = e
+                runCatching { device.pressBack() }
+            }
+        }
+        throw AssertionError("openUnitLesson($unitNodeTag, $lessonRow) never reached $firstExerciseTag", last)
     }
 
     private fun plugin(): LinguaPluginDto = loadPlugin()
@@ -148,13 +194,13 @@ class HostileDeviceJourneyTest {
     fun hostile_rotation_mid_checkpoint() {
         val p = plugin()
         val firstEx = p.units.first { it.number == 1 }.checkpoint!!.exercises.first().id!!
-        openUnitLesson("unit_node_1", 4)
-        composeRule.waitUntilExactlyOneExists(hasTestTag("exercise_$firstEx"), 15_000)
+        seedLessonsCompleted(1, 0..3) // checkpoint row is locked until the 4 lessons are done
+        openUnitLesson("unit_node_1", 4, "exercise_$firstEx")
         device.setOrientationLeft()
         composeRule.waitForIdle()
         device.setOrientationNatural()
         composeRule.waitForIdle()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("exercise_$firstEx"), 15_000)
+        waitOrDump("exercise_$firstEx", 15_000, "rotation mid-checkpoint post-rotation")
         assertNoCrash("rotation mid-checkpoint")
     }
 
@@ -163,12 +209,12 @@ class HostileDeviceJourneyTest {
         seedCompletedUnits(5)
         runBlocking { featureUnlocks.unlock(FeatureUnlocks.STORY1) }
         openStoryRow()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 10_000)
+        waitOrDump("story_screen", 10_000, "rotation mid-story pre-rotation")
         device.setOrientationLeft()
         composeRule.waitForIdle()
         device.setOrientationNatural()
         composeRule.waitForIdle()
-        composeRule.waitUntilExactlyOneExists(hasTestTag("story_screen"), 10_000)
+        waitOrDump("story_screen", 10_000, "rotation mid-story post-rotation")
         assertNoCrash("rotation mid-story")
     }
 
@@ -184,22 +230,25 @@ class HostileDeviceJourneyTest {
         Thread.sleep(4_000)
         val pid = shell("pidof $pkg").trim()
         assertTrue("$label: app must relaunch after process death", pid.isNotEmpty())
-        composeRule.waitUntilExactlyOneExists(hasTestTag("path_list"), 15_000)
+        // the compose rule stays bound to the dead activity's window after a
+        // process kill — rebind to the relaunched instance before asserting
+        scenario.close()
+        scenario = ActivityScenario.launch(MainActivity::class.java)
+        waitOrDump("path_list", 15_000, label)
         assertNoCrash(label)
     }
 
     @Test
     fun hostile_process_death_mid_lesson() = processDeathAt("process death mid-lesson") {
         val firstEx = plugin().units.first { it.number == 1 }.lessons!![0].exercises.first().id!!
-        openUnitLesson("unit_node_1", 0)
-        composeRule.waitUntilExactlyOneExists(hasTestTag("exercise_$firstEx"), 15_000)
+        openUnitLesson("unit_node_1", 0, "exercise_$firstEx")
     }
 
     @Test
     fun hostile_process_death_mid_checkpoint() = processDeathAt("process death mid-checkpoint") {
         val firstEx = plugin().units.first { it.number == 1 }.checkpoint!!.exercises.first().id!!
-        openUnitLesson("unit_node_1", 4)
-        composeRule.waitUntilExactlyOneExists(hasTestTag("exercise_$firstEx"), 15_000)
+        seedLessonsCompleted(1, 0..3) // checkpoint row is locked until the 4 lessons are done
+        openUnitLesson("unit_node_1", 4, "exercise_$firstEx")
     }
 
     @Test
@@ -217,6 +266,8 @@ class HostileDeviceJourneyTest {
         assertTrue("app must be running to receive trim", pid.isNotEmpty())
         shell("am send-trim-memory $pid 80")
         Thread.sleep(1_500)
+        val after = shell("pidof $pkg").trim()
+        assertTrue("app must survive TRIM_MEMORY_COMPLETE (pid was $pid)", after.isNotEmpty())
     }
 
     @Test
@@ -234,9 +285,9 @@ class HostileDeviceJourneyTest {
     fun hostile_trim_memory_mid_lesson() {
         val p = plugin()
         val firstEx = p.units.first { it.number == 1 }.lessons!![0].exercises.first().id!!
-        openUnitLesson("unit_node_1", 0)
-        composeRule.waitUntilExactlyOneExists(hasTestTag("exercise_$firstEx"), 15_000)
+        openUnitLesson("unit_node_1", 0, "exercise_$firstEx")
         sendTrimCritical()
+        device.pressBack() // SolverBot starts from the unit detail screen
         SolverBot(composeRule, p, db = db).completeLesson(1, 0)
         assertNoCrash("trim memory mid-lesson")
     }
