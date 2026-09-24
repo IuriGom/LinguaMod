@@ -10,6 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // open-source native engines: sherpa-onnx (TTS/STT) + tesseract4android (OCR)
+        maven("https://jitpack.io")
     }
 }
 rootProject.name = "LinguaMod"

@@ -105,6 +105,15 @@ dependencies {
     implementation("androidx.camera:camera-lifecycle:1.3.4")
     implementation("androidx.camera:camera-view:1.3.4")
 
+    // Stage 9: open-source on-device fallbacks for GMS-free devices.
+    // Tesseract OCR (Apache-2.0) — used when Play Services/ML Kit is absent;
+    // the Italian traineddata ships in assets/tessdata (2.7 MB, tessdata_fast).
+    // sherpa-onnx (Apache-2.0) — embedded Piper TTS + Whisper STT (Phase B/C).
+    // AARs are vendored in app/libs (JitPack provenance, Apache-2.0) so the
+    // build never depends on a flaky remote repo.
+    implementation(files("libs/tesseract4android-4.8.0.aar"))
+    implementation(files("libs/sherpa-onnx-v1.13.7.aar"))
+
     // Unit tests
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")

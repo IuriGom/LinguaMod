@@ -48,6 +48,7 @@ class TtsManager @Inject constructor(
     @ApplicationContext private val context: Context,
     private val gateway: TtsGateway,
     private val audioStore: AudioStore,
+    private val models: com.linguamod.app.embedded.ModelManager,
 ) {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
@@ -66,8 +67,54 @@ class TtsManager @Inject constructor(
         scope.launch {
             val available = runCatching { gateway.isItalianVoiceAvailable() }.getOrDefault(false)
             _audioAvailable.value = available
-            if (!available && !audioStore.wasVoicePromptShown()) {
-                _showVoiceInstallPrompt.value = true
+            // Stage 9 bootstrap only runs against the REAL fallback gateway —
+            // instrumented tests swap in fakes and must never hit the network.
+            val realAudio = gateway is com.linguamod.app.embedded.FallbackTtsGateway
+            if (!available) {
+                if (!audioStore.wasVoicePromptShown()) {
+                    _showVoiceInstallPrompt.value = true
+                }
+                // no usable voice anywhere → fetch the embedded open-source
+                // voice automatically (small, one-time, private)
+                if (realAudio) startVoicePackDownload()
+            }
+            if (realAudio) bootstrapSpeechPack()
+        }
+    }
+
+    /** Embedded-voice pack state for the install dialog / progress UI. */
+    val ttsPackState = models.states
+
+    /** Downloads the embedded Italian voice pack (idempotent); on success
+     *  audio becomes available and the UI un-hides audio buttons. */
+    fun startVoicePackDownload() {
+        scope.launch(Dispatchers.IO) {
+            val ok = runCatching {
+                models.ensureInstalled(com.linguamod.app.embedded.ModelManager.TTS_PACK)
+            }.getOrDefault(false)
+            if (ok && runCatching { gateway.isItalianVoiceAvailable() }.getOrDefault(false)) {
+                _audioAvailable.value = true
+            }
+        }
+    }
+
+    /** Speaking exercises need a recognizer; on GMS-free devices fetch the
+     *  embedded Whisper pack. ~116 MB — auto only on unmetered networks;
+     *  metered connections get it lazily when the user first opens a
+     *  speaking exercise (they asked for it). */
+    private fun bootstrapSpeechPack() {
+        scope.launch(Dispatchers.IO) {
+            val systemHasRecognizer = runCatching {
+                android.speech.SpeechRecognizer.isRecognitionAvailable(context)
+            }.getOrDefault(false)
+            if (systemHasRecognizer) return@launch
+            if (models.isReady(com.linguamod.app.embedded.ModelManager.STT_PACK.id)) return@launch
+            val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE)
+                as? android.net.ConnectivityManager ?: return@launch
+            val caps = cm.getNetworkCapabilities(cm.activeNetwork) ?: return@launch
+            val unmetered = caps.hasCapability(android.net.NetworkCapabilities.NET_CAPABILITY_NOT_METERED)
+            if (unmetered) {
+                runCatching { models.ensureInstalled(com.linguamod.app.embedded.ModelManager.STT_PACK) }
             }
         }
     }

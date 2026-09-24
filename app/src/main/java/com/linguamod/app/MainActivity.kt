@@ -3,6 +3,7 @@ package com.linguamod.app
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -89,39 +90,71 @@ class MainActivity : ComponentActivity() {
 }
 
 /**
- * One-time "Install the Italian voice" dialog (Stage 3 §1): shown once ever
- * (persisted flag) when the TTS engine has no Italian voice; deep-links to the
- * system TTS settings. Until installed, audio buttons hide — never an error.
+ * One-time "Install the Italian voice" dialog (Stage 3 §1, reworked Stage 9):
+ * shown once ever when no Italian voice exists anywhere. Primary action now
+ * downloads the bundled open-source voice (Piper, on-device, ~21 MB, fully
+ * private — no account, no telemetry); the system TTS settings deep-link
+ * stays as the secondary option. Until a voice exists, audio buttons hide.
  */
 @Composable
 private fun ItalianVoicePrompt(ttsManager: com.linguamod.app.audio.TtsManager) {
     val show by ttsManager.showVoiceInstallPrompt.collectAsState()
     if (!show) return
     val scope = rememberCoroutineScope()
+    val packId = com.linguamod.app.embedded.ModelManager.TTS_PACK.id
+    val states by ttsManager.ttsPackState.collectAsState()
+    val packState = states[packId]
+    val downloading = packState is com.linguamod.app.embedded.PackState.Downloading
     AlertDialog(
-        onDismissRequest = { scope.launch { ttsManager.markVoicePromptShown() } },
+        onDismissRequest = {
+            if (!downloading) scope.launch { ttsManager.markVoicePromptShown() }
+        },
         title = { Text("Install the Italian voice") },
         text = {
-            Text(
-                "This device has no Italian voice for text-to-speech. " +
-                    "Install it in the system TTS settings to hear pronunciation. " +
-                    "Audio buttons stay hidden until then — everything else works offline."
-            )
+            when {
+                downloading -> {
+                    val p = packState as com.linguamod.app.embedded.PackState.Downloading
+                    val mbDone = p.bytesDone / 1e6
+                    val mbTotal = p.bytesTotal / 1e6
+                    Text("Downloading the on-device Italian voice… %.1f / %.0f MB".format(mbDone, mbTotal))
+                }
+                packState is com.linguamod.app.embedded.PackState.Failed ->
+                    Text(
+                        "The voice download failed. Check the connection and try again, " +
+                            "or install a system Italian voice instead."
+                    )
+                else ->
+                    Text(
+                        "This device has no Italian voice. Download the built-in open-source " +
+                            "voice (~21 MB, one time — runs fully on-device, nothing leaves your " +
+                            "phone), or install one from the system TTS settings. " +
+                            "Everything else works offline either way."
+                    )
+            }
         },
         confirmButton = {
             TextButton(
-                onClick = {
-                    ttsManager.openTtsSettings()
-                    scope.launch { ttsManager.markVoicePromptShown() }
-                },
-                modifier = Modifier.testTag("tts_voice_open_settings"),
-            ) { Text("Open settings") }
+                onClick = { ttsManager.startVoicePackDownload() },
+                enabled = !downloading,
+                modifier = Modifier.testTag("tts_voice_download"),
+            ) { Text(if (packState is com.linguamod.app.embedded.PackState.Failed) "Retry" else "Download voice") }
         },
         dismissButton = {
-            TextButton(
-                onClick = { scope.launch { ttsManager.markVoicePromptShown() } },
-                modifier = Modifier.testTag("tts_voice_not_now"),
-            ) { Text("Not now") }
+            Row {
+                TextButton(
+                    onClick = {
+                        ttsManager.openTtsSettings()
+                        scope.launch { ttsManager.markVoicePromptShown() }
+                    },
+                    enabled = !downloading,
+                    modifier = Modifier.testTag("tts_voice_open_settings"),
+                ) { Text("System settings") }
+                TextButton(
+                    onClick = { scope.launch { ttsManager.markVoicePromptShown() } },
+                    enabled = !downloading,
+                    modifier = Modifier.testTag("tts_voice_not_now"),
+                ) { Text("Not now") }
+            }
         },
         modifier = Modifier.testTag("tts_voice_dialog"),
     )
