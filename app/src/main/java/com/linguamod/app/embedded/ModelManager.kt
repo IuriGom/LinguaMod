@@ -124,8 +124,24 @@ class ModelManager @Inject constructor(
     }
 
     private suspend fun download(pack: Pack, dest: File) = withContext(Dispatchers.IO) {
-        val url = URL("$RELEASE_BASE/${pack.fileName}")
-        val conn = url.openConnection() as HttpURLConnection
+        val url = "$RELEASE_BASE/${pack.fileName}"
+        var lastError: Exception? = null
+        repeat(3) { attempt ->
+            try {
+                fetch(url, pack, dest)
+                return@withContext
+            } catch (e: Exception) {
+                lastError = e
+                dest.delete()
+                Log.w(TAG, "${pack.id} download attempt ${attempt + 1} failed", e)
+                kotlinx.coroutines.delay(2_000L * (attempt + 1))
+            }
+        }
+        throw lastError ?: IllegalStateException("download failed")
+    }
+
+    private fun fetch(url: String, pack: Pack, dest: File) {
+        val conn = URL(url).openConnection() as HttpURLConnection
         conn.connectTimeout = 30_000
         conn.readTimeout = 60_000
         conn.instanceFollowRedirects = true
@@ -214,10 +230,11 @@ class ModelManager @Inject constructor(
             sizeBytes = STT_SIZE,
         )
 
-        // Filled by packaging step (tools/models/package_models.sh prints them)
-        private const val TTS_SHA256 = "TTS_SHA256_PLACEHOLDER"
+        // Checksums/sizes of the exact zips on the v1.1-models release
+        // (produced by tools/models/package_models.sh)
+        private const val TTS_SHA256 = "aad10e0f02a08a7df7945772dbba5c1f896c9c4344b81247b9e9f65244de6b39"
         private const val STT_SHA256 = "STT_SHA256_PLACEHOLDER"
-        private const val TTS_SIZE = 0L
+        private const val TTS_SIZE = 22528818L
         private const val STT_SIZE = 0L
     }
 }

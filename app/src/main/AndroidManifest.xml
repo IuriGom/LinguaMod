@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Stage 9: one-time on-device model pack download (embedded TTS/STT);
+         ACCESS_NETWORK_STATE only to prefer unmetered networks for the big pack. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <!-- Stage 3: speaking exercises only; requested at runtime with rationale. -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
