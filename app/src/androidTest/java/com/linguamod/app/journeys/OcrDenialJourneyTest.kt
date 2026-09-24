@@ -98,10 +98,15 @@ class OcrDenialJourneyTest {
         composeRule.waitUntilExactlyOneExists(hasTestTag("ocr_permission_rationale"), 15_000)
         composeRule.onNodeWithTag("ocr_grant_permission").performClick()
         val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        // API 29+: com.android.permissioncontroller; API ≤28: com.android.packageinstaller
         val deny = device.wait(
             Until.findObject(By.res("com.android.permissioncontroller:id/permission_deny_button")),
             10_000,
-        ) ?: device.wait(Until.findObject(By.textContains("Don")), 5_000)
+        ) ?: device.wait(
+            Until.findObject(By.res("com.android.packageinstaller:id/permission_deny_button")),
+            10_000,
+        ) ?: device.wait(Until.findObject(By.textContains("Deny")), 10_000)
+            ?: device.wait(Until.findObject(By.textContains("Don")), 10_000)
         checkNotNull(deny) { "system permission dialog never appeared" }
         deny.click()
 

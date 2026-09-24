@@ -669,3 +669,75 @@ Checks run (API-34 emulator `emulator-5554`):
 - Dictionary total: **384 entries** (target 350–450) — AC10.
 
 **Stage 7 gate: GREEN. Course complete: 60 units, 4 stories.**
+
+### Stage 8 — stress gauntlet
+
+Docs/final-deliverables pass while the gauntlet suites run on the emulators.
+
+Already recorded (not gauntlet-dependent):
+
+- **Objective content audit** (`ObjectiveAuditTest`, JVM): mechanical noun
+  checks across the bundled plugin's dictionary — gender/ending spot rules,
+  plural-article logic, apostrophe/elision constraints. Result: **0
+  violations**.
+- **Fresh-eyes audit** (see `AUDIT.md`): three independent reviews of units
+  1–60, the dictionary, and stories 1–4 — **62 findings: 61 fixed + 1
+  verified correct**, plus 11 sibling accent-leniency fixes and 8 supporting
+  dictionary/exercise fixes inside touched units (118 individual fix
+  records).
+- **Release APK**: **3,283,218 bytes ≈ 3.13 MB** (cap 20 MB), identical to
+  `LinguaMod-v1.0.apk` at the repo root.
+- **Release class-absence check** (`tools/journeys/release_audit.sh`):
+  dexdump's class list is extracted from the release APK's `classes*.dex`
+  and grep-checked against forbidden patterns (`Lcom/linguamod/app/solver/`,
+  `.../fakes/`, `.../journeys/`, `TestHooks`, `SolverBot`, `FakeTtsGateway`,
+  `FakeSpeechRecognizerGateway`, `JourneyTest`, `TestRunner`). Result:
+  **0 hits — no debug/test classes in the release dex** (6,405 classes).
+
+Gauntlet results (final runs, 2026-09-24):
+
+### GAUNTLET_RESULTS ###
+
+- **Full instrumented suite — API 34**: 108/108 green (39 journeys + 69 unit/chaos
+  journeys). One intermittent flake seen across runs: `unit_58` aborted inside
+  the compose test framework's semantics-dump path under host CPU contention
+  (`SnapshotStateObserver` multithreaded race in `ui.test` internals, no app
+  frames) — rerun green 21/21 in the same class batch.
+- **Full instrumented suite — API 26**: 107/108 green; the one failure
+  (`OcrDenialJourneyTest`) was a test-side bug — the system permission dialog
+  matcher only knew the API 29+ `permissioncontroller` id. Fixed for
+  `packageinstaller` (API ≤28) + `pm revoke` in setup; rerun green on both AVDs.
+- **Real bugs found by the gauntlet and fixed**:
+  - `PluginLoader.installBundledDemoIfNeeded` crashed (FileNotFoundException)
+    when the external plugins dir was deleted mid-startup (race with external
+    cleanup). Wrapped defensively; verified on API 26 where it was fatal.
+  - `HostileDeviceJourneyTest`: 5/9 tests had broken assumptions (compose rule
+    bound to a dead activity after `am kill`, checkpoint row legitimately locked
+    on fresh DB, SolverBot navigation from the wrong screen). The app itself
+    survived process death / rotation / TRIM_MEMORY_COMPLETE correctly
+    (manually verified: content back in 3–6 s after process death).
+- **Monkey**: API 34 — 50,000 events, 0 crashes. API 26 — 20,000 events,
+  0 crashes. (One earlier API-26 monkey aborted on an emulator *system* crash
+  under host load; rerun clean.)
+- **Airplane phases** (offline play, units 5/20/35/50): green standalone on
+  both AVDs, repeatedly.
+- **Cold start** (release APK, API 26, 5 runs): 297/513/588/442/498 ms —
+  median **513 ms** (budget 2,500 ms).
+- **Perf budgets (JVM)**: review-due query with 1,000 due items — median
+  5.81 ms; full plugin parse+validate (60 units + dictionary) — median
+  62.57 ms.
+- **Release APK**: `LinguaMod-v1.0.apk`, 3,283,218 bytes, minified,
+  debug-signed; dex audit: 6,405 classes, 0 debug/test classes.
+
+Known limitations (by design):
+
+- TTS voice quality depends on the device's installed Italian TTS voice;
+  the app works with any voice but quality varies by OEM.
+- Speaking exercises need Google's speech recognizer; on devices without it
+  the app substitutes a listening exercise (spec'd behavior).
+- OCR uses ML Kit, which downloads its model via Play Services on first use;
+  without Play Services the feature hides entirely after a one-time
+  explanation (spec'd behavior).
+- Course content (60 units, 4 stories) is machine-generated and audited
+  (objective audit + 3 independent fresh-eyes passes, 72 fixes applied —
+  see AUDIT.md), but has not been reviewed by a native Italian speaker.
