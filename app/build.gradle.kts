@@ -15,8 +15,8 @@ android {
         applicationId = "com.linguamod.app"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 3
+        versionName = "1.1.1"
 
         testInstrumentationRunner = "com.linguamod.app.LinguaModTestRunner"
     }

@@ -104,6 +104,7 @@ private fun ItalianVoicePrompt(ttsManager: com.linguamod.app.audio.TtsManager) {
     val packId = com.linguamod.app.embedded.ModelManager.TTS_PACK.id
     val states by ttsManager.ttsPackState.collectAsState()
     val packState = states[packId]
+    val hasSystemEngine by ttsManager.systemTtsEnginePresent.collectAsState()
     val downloading = packState is com.linguamod.app.embedded.PackState.Downloading
     AlertDialog(
         onDismissRequest = {
@@ -120,15 +121,23 @@ private fun ItalianVoicePrompt(ttsManager: com.linguamod.app.audio.TtsManager) {
                 }
                 packState is com.linguamod.app.embedded.PackState.Failed ->
                     Text(
-                        "The voice download failed. Check the connection and try again, " +
-                            "or install a system Italian voice instead."
+                        "The voice download failed. Check the connection and try again." +
+                            if (hasSystemEngine) " You can also install a system Italian voice instead." else ""
                     )
-                else ->
+                hasSystemEngine ->
                     Text(
                         "This device has no Italian voice. Download the built-in open-source " +
                             "voice (~21 MB, one time — runs fully on-device, nothing leaves your " +
                             "phone), or install one from the system TTS settings. " +
                             "Everything else works offline either way."
+                    )
+                else ->
+                    Text(
+                        "This device has no Italian voice, and no system speech engine to " +
+                            "install one from — so LinguaMod sets up its own built-in " +
+                            "open-source voice (~21 MB, one time — runs fully on-device, " +
+                            "nothing leaves your phone). The download starts automatically; " +
+                            "everything else works offline meanwhile."
                     )
             }
         },
@@ -141,14 +150,16 @@ private fun ItalianVoicePrompt(ttsManager: com.linguamod.app.audio.TtsManager) {
         },
         dismissButton = {
             Row {
-                TextButton(
-                    onClick = {
-                        ttsManager.openTtsSettings()
-                        scope.launch { ttsManager.markVoicePromptShown() }
-                    },
-                    enabled = !downloading,
-                    modifier = Modifier.testTag("tts_voice_open_settings"),
-                ) { Text("System settings") }
+                if (hasSystemEngine) {
+                    TextButton(
+                        onClick = {
+                            ttsManager.openTtsSettings()
+                            scope.launch { ttsManager.markVoicePromptShown() }
+                        },
+                        enabled = !downloading,
+                        modifier = Modifier.testTag("tts_voice_open_settings"),
+                    ) { Text("System settings") }
+                }
                 TextButton(
                     onClick = { scope.launch { ttsManager.markVoicePromptShown() } },
                     enabled = !downloading,

@@ -58,6 +58,12 @@ class TtsManager @Inject constructor(
     private val _showVoiceInstallPrompt = MutableStateFlow(false)
     val showVoiceInstallPrompt: StateFlow<Boolean> = _showVoiceInstallPrompt
 
+    /** False on GMS-free devices with no system TTS engine at all (Chinese
+     *  ROMs): the "open system TTS settings" escape hatch is a dead end there,
+     *  so the UI hides it and relies solely on the embedded voice download. */
+    private val _systemTtsEnginePresent = MutableStateFlow(true)
+    val systemTtsEnginePresent: StateFlow<Boolean> = _systemTtsEnginePresent
+
     private val cache = TtsFileCache(File(context.cacheDir, "tts"))
 
     @Volatile
@@ -65,6 +71,7 @@ class TtsManager @Inject constructor(
 
     init {
         scope.launch {
+            _systemTtsEnginePresent.value = hasSystemTtsEngine()
             val available = runCatching { gateway.isItalianVoiceAvailable() }.getOrDefault(false)
             _audioAvailable.value = available
             // Stage 9 bootstrap only runs against the REAL fallback gateway —
@@ -118,6 +125,13 @@ class TtsManager @Inject constructor(
             }
         }
     }
+
+    /** True when at least one system TTS engine service is installed. */
+    private fun hasSystemTtsEngine(): Boolean = runCatching {
+        context.packageManager
+            .queryIntentServices(Intent("android.intent.action.TTS_SERVICE"), 0)
+            .isNotEmpty()
+    }.getOrDefault(false)
 
     /** Deep-link to the system TTS settings so the user can install Italian. */
     fun openTtsSettings() {
