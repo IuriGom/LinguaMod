@@ -731,13 +731,45 @@ Gauntlet results (final runs, 2026-09-24):
 
 Known limitations (by design):
 
-- TTS voice quality depends on the device's installed Italian TTS voice;
-  the app works with any voice but quality varies by OEM.
-- Speaking exercises need Google's speech recognizer; on devices without it
-  the app substitutes a listening exercise (spec'd behavior).
-- OCR uses ML Kit, which downloads its model via Play Services on first use;
-  without Play Services the feature hides entirely after a one-time
-  explanation (spec'd behavior).
+- On GMS-free devices the embedded open-source engines take over
+  automatically (Stage 9): Piper TTS and Whisper-tiny STT are good but less
+  polished than Google's voices/recognizer; Tesseract reads clean printed
+  text well but is weaker than ML Kit on skewed/low-light photos. Where a
+  system engine exists it stays primary — the embedded engines are the
+  backup, and the course's graceful substitutions are the backup's backup.
 - Course content (60 units, 4 stories) is machine-generated and audited
   (objective audit + 3 independent fresh-eyes passes, 72 fixes applied —
   see AUDIT.md), but has not been reviewed by a native Italian speaker.
+
+## Stage 9 — open-source on-device engines (GMS-free devices)
+
+Goal: zero-Google devices (e.g. Chinese-ROM phones without Play Services)
+get the full feature set with zero external setup, via embedded open-source
+engines. Every engine runs 100% on-device — no accounts, no telemetry, no
+third-party hosts (model packs download once from this repo's own GitHub
+release, SHA-256 pinned).
+
+- **OCR**: `TessOcrGateway` (Tesseract 5 via tesseract4android 4.8.0,
+  Apache-2.0, AAR vendored in `app/libs/`). Italian traineddata
+  (tessdata_fast, 2.7 MB) bundled in `assets/tessdata` — no download at all.
+  `FallbackOcrGateway`: ML Kit when Play Services exists, Tesseract otherwise.
+  `TessOcrGatewayTest` green 3/3 on API 26 + API 34.
+- **TTS**: `EmbeddedTtsGateway` (sherpa-onnx v1.13.7, Apache-2.0, AAR vendored)
+  running Piper `it_IT-paola-medium-int8` (21 MB pack, one-time in-app
+  download). `FallbackTtsGateway`: system voice primary, embedded fallback.
+  The voice-install prompt now downloads the embedded voice in-app with
+  progress instead of only deep-linking to system settings.
+- **STT (speaking exercises)**: `EmbeddedSttGateway` (sherpa-onnx Whisper tiny
+  multilingual int8, 61 MB pack) with mic capture + silence detection.
+  `FallbackSttGateway`: system recognizer primary, embedded fallback. Auto-
+  download on unmetered networks when no system recognizer exists.
+- **Acceptance** (`EmbeddedEnginesTest`, both AVDs): pack install, Italian
+  synthesis, and a closed loop — Whisper correctly transcribes Piper's own
+  "ciao" back. Fully offline, zero network, zero Google.
+- **Bugs the Stage 9 tests caught**: missing INTERNET permission (app never
+  needed it before); private repo made release assets 404 (repo is now
+  public — the app is open source); cacheDir missing on fresh API-26
+  installs; API-26 executeShellCommand running without a shell (crashed
+  system_server!); root-cp'd files unreadable by the app (chown+restorecon).
+- Release APK drops x86/x86_64 native blobs (abiFilters arm64-v8a +
+  armeabi-v7a) so the vendored engines don't bloat the shipped APK.

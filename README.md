@@ -1,15 +1,19 @@
-# LinguaMod v1.0
+# LinguaMod v1.1
 
 An offline-first Android app that teaches Italian from absolute zero to
 conversation. A strictly linear curriculum of **60 units + 4 stories** lives
 entirely in external `.lingua` plugin files; the app ships with the complete
-Italian course bundled. **~100% offline**: no `INTERNET` permission, no
-analytics, no accounts — the single online touch is the OCR text-recognition
-model, delivered by Play Services on first camera use (see Known limitations).
+Italian course bundled. **Offline-first with zero Google dependency**: no
+analytics, no accounts, no telemetry. The single online touch is a one-time,
+SHA-256-pinned download of the embedded open-source voice/speech models from
+this repo's own releases — and only on devices that lack a system Italian
+voice or recognizer (v1.1, see below).
 
 - **Android 8.0+** (minSdk 26), target/compileSdk 34
-- Release APK: **3,283,218 bytes ≈ 3.13 MB** (cap 20 MB)
-- `LinguaMod-v1.0.apk` at the repo root is the signed release build
+- Release APK: **70,876,912 bytes ≈ 67.6 MB** (v1.1 carries the vendored
+  open-source native engines for arm64/armeabi-v7a; course + code alone are
+  ~3 MB — the size is the on-device TTS/STT/OCR engines, models download once)
+- `LinguaMod-v1.1.apk` at the repo root is the signed release build
 - Built and verified **fully autonomously**: every acceptance check is a
   command, not a claim — see `BUILD_REPORT.md`
 
@@ -22,14 +26,17 @@ model, delivered by Play Services on first camera use (see Known limitations).
   Unit 60 final exam). Pass it to unlock the next unit; fail it and retry
   with no penalty beyond hearts.
 - **TTS audio** — every Italian sentence is speakable via on-device
-  text-to-speech, cached to disk (cap 500 files, LRU). If the device has no
-  Italian voice, a one-time dialog deep-links to system TTS settings and
-  every audio button hides rather than erroring.
+  text-to-speech, cached to disk (cap 500 files, LRU). Devices with no Italian
+  system voice (e.g. GMS-free Chinese phones) automatically get a built-in
+  open-source voice (Piper `it_IT-paola-medium`, ~21 MB one-time download,
+  then fully offline); until then audio buttons hide rather than error.
 - **Listening & speaking** — listening exercises autoplay once with a slow
-  replay; speaking exercises use the on-device speech recognizer (it-IT) with
-  token-overlap scoring (pass ≥ 0.7, default). If the recognizer is
-  unavailable or the mic is denied, the exercise **silently becomes a
-  listening variant** of the same phrase — lessons always complete.
+  replay; speaking exercises use the speech recognizer (it-IT) with
+  token-overlap scoring (pass ≥ 0.7, default). On devices without a system
+  recognizer, an embedded open-source Whisper engine (on-device, ~61 MB
+  one-time download on unmetered networks) takes over; if neither exists or
+  the mic is denied, the exercise **silently becomes a listening variant** of
+  the same phrase — lessons always complete.
 - **Sentence scramble** — tap-to-place word ordering; exact-order grading
   with duplicate-token-proof interaction.
 - **SRS review ("SM-2 lite")** — every wrong answer creates a review item;
@@ -184,24 +191,24 @@ The app is verified by an autonomous harness (results in `BUILD_REPORT.md`):
 ./gradlew assembleRelease   # minified release APK -> app/build/outputs/apk/release/
 ```
 
-- Release APK: **3,283,218 bytes ≈ 3.13 MB** (cap 20 MB).
-- `LinguaMod-v1.0.apk` at the repo root is that release build, renamed —
-  install it with `adb install LinguaMod-v1.0.apk`.
+- Release APK: **70,876,912 bytes ≈ 67.6 MB** (v1.1 carries the vendored
+  open-source native engines for arm64/armeabi-v7a; course + code alone are
+  ~3 MB — the size is the on-device TTS/STT/OCR engines, models download once).
+- `LinguaMod-v1.1.apk` at the repo root is that release build, renamed —
+  install it with `adb install LinguaMod-v1.1.apk`.
 - `tools/journeys/release_audit.sh` verifies the release dex contains no
   test/debug classes (SolverBot, TestHooks, fakes, journeys).
 
 ## Known limitations
 
-- **TTS voice quality** depends on the device's installed Italian TTS voice;
-  the app can't bundle one. Voices vary a lot between devices.
-- **Speaking exercises require Google's on-device speech recognizer**. On
-  devices without it (or with the mic denied) speaking exercises silently
-  degrade to listening variants — always completable, but no pronunciation
-  practice.
-- **OCR needs one online touch**: the ML Kit text-recognition model is
-  unbundled and downloads via Play Services on first camera use. After that
-  it's offline. Devices without Play Services hide the feature after a
-  one-time explanation.
+- **v1.1 embedded engines (open source, on-device)**: where a system engine
+  exists it stays primary; otherwise the app falls back to its built-in
+  engines — Piper TTS (natural but not Google-grade), Whisper tiny STT
+  (short phrases good, accents vary), Tesseract OCR (clean print good,
+  low-light photos weaker). Mic denied still degrades speaking to listening.
+- **Content is machine-generated and has not been reviewed by a native
+  speaker.** A Stage 8 fresh-eyes audit fixed 61 of 62 findings (1 verified
+  correct), but a professional editorial pass would still be worthwhile.
 - **Content is machine-generated and has not been reviewed by a native
   speaker.** A Stage 8 fresh-eyes audit fixed 61 of 62 findings (1 verified
   correct), but a professional editorial pass would still be worthwhile.

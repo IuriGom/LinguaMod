@@ -15,8 +15,8 @@ android {
         applicationId = "com.linguamod.app"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         testInstrumentationRunner = "com.linguamod.app.LinguaModTestRunner"
     }
@@ -31,6 +31,10 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             buildConfigField("boolean", "TEST_HOOKS", "false")
             signingConfig = signingConfigs.getByName("debug")
+            // Stage 9: the vendored sherpa-onnx/tesseract AARs carry x86/x86_64
+            // native libs that physical phones never need — drop them from the
+            // shipped APK (debug keeps all ABIs for emulators)
+            ndk { abiFilters += listOf("arm64-v8a", "armeabi-v7a") }
         }
     }
 
