@@ -61,7 +61,20 @@ class EmbeddedSttGateway @Inject constructor(
         return opMutex.withLock {
             val pcm = capture() ?: return@withLock RecognitionOutcome.Failed("microphone error")
             if (pcm.isEmpty()) return@withLock RecognitionOutcome.Failed("no speech detected")
-            withContext(Dispatchers.Default) {
+            recognizePcmLocked(pcm)
+        }
+    }
+
+    /** Decode 16 kHz mono PCM. Public test seam: the instrumented test feeds
+     *  TTS-synthesized Italian speech here (TTS → STT closed loop, offline). */
+    suspend fun recognizePcm(pcm: FloatArray): RecognitionOutcome {
+        if (engine() == null) return RecognitionOutcome.Unavailable
+        return opMutex.withLock { recognizePcmLocked(pcm) }
+    }
+
+    private suspend fun recognizePcmLocked(pcm: FloatArray): RecognitionOutcome {
+        val rec = engine() ?: return RecognitionOutcome.Unavailable
+        return withContext(Dispatchers.Default) {
                 runCatching {
                     val stream = rec.createStream()
                     stream.acceptWaveform(pcm, SAMPLE_RATE)
@@ -75,7 +88,6 @@ class EmbeddedSttGateway @Inject constructor(
                     RecognitionOutcome.Failed(it.message ?: "decode failed")
                 }
             }
-        }
     }
 
     fun release() {

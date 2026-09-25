@@ -141,6 +141,7 @@ class ModelManager @Inject constructor(
     }
 
     private fun fetch(url: String, pack: Pack, dest: File) {
+        dest.parentFile?.mkdirs() // cacheDir may not exist yet on a fresh install
         val conn = URL(url).openConnection() as HttpURLConnection
         conn.connectTimeout = 30_000
         conn.readTimeout = 60_000
@@ -233,8 +234,8 @@ class ModelManager @Inject constructor(
         // Checksums/sizes of the exact zips on the v1.1-models release
         // (produced by tools/models/package_models.sh)
         private const val TTS_SHA256 = "aad10e0f02a08a7df7945772dbba5c1f896c9c4344b81247b9e9f65244de6b39"
-        private const val STT_SHA256 = "STT_SHA256_PLACEHOLDER"
+        private const val STT_SHA256 = "09c15aa6d9865282df4ec0cea087bc7f1bf2648267c7ce082f1ae919147203d6"
         private const val TTS_SIZE = 22528818L
-        private const val STT_SIZE = 0L
+        private const val STT_SIZE = 60683293L
     }
 }
